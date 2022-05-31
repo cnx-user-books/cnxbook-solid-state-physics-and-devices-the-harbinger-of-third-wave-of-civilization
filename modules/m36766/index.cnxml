@@ -1,0 +1,145 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 6_MOS ICs Fabrication Technology_to be continued2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36766</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 6_MOS ICs Fabrication Technology_to be continued2</md:title>
+  <md:abstract>This is a continuation of MOS Fabrication technology. It describes the process option of P implant below the field oxide to make component isolation doubly sure and the process option of buried layer and epitaxial layer to prevent Latch-Up.</md:abstract>
+  <md:uuid>25fee236-1448-4253-bb62-cb5016c37a8c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172061798765">SSPD_Chapter 6_Part 6_MOS ICs Fabrication Technology_to be continued2</para>
+    <para id="id1172066759981">Section 6.6.2.4 Process Options for Active Region and Well Formation.</para>
+    <para id="id1172061351571"> There are many options for Well Formation but here we will consider only two options which are commonly used by the Industries. First option is “Field Implants under LOCOS region”. This option is a more reliable method of lateral isolation of the active MOS. Second option is “Buried and Epitaxial Layer”. The second option prevents Latching of MOS through parasitic BJT formation.</para>
+    <para id="id1172061684128">Option 1. “Field implants under LOCOS region”.</para>
+    <para id="id3212978"> In the CMOS process flow till now, the implant energies of P and N tubs were carefully chosen to penetrate the thick field oxide. Implants would be masked only in fixed KPR covered area. When the implant penetrates the field oxide, it increases the substrate doping underneath the LOCOS region and prevents the formation of inversion layer under normal voltage condition. Thus field oxide isolation is achieved. But the stopping by thick oxide is statistical in nature. Hence the dose which needs to be implanted underneath the field oxide is not achieved while the well implant is taking place. To ensure an implant under the field oxide this implant has to be carried out in a separate step. </para>
+    <para id="id1172061747497"> In Section 6.4.3 , Figure 6.7, the middle diagram contains the windows for local oxidation. The active regions are shielded by KPR/Si<sub>3</sub>N<sub>4</sub>/SiO<sub>2</sub> .Now Boron ions of implant dose of 1×10<sup>13</sup>cm<sup>-2</sup> at 50keV is used for field implant. The implant energy will make the Boron ions pass through thin SiO<sub>2</sub> region but will be completely stopped by KPR/Si<sub>3</sub>N<sub>4</sub>/SiO<sub>2 </sub>stack. The LOCOS region acquires a shallow P-type implant as shown in Figure 6.49.</para>
+    <para id="id1172061352048">
+      <figure id="id1172061756760">
+        <media id="id1172061756760_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-cf63.png" id="id1172061756760__onlineimage" height="444" width="585"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172062459602"> After the P-type implant we remove the fixed KPR by oxygen plasma or by an organic solvent known as stripper. Next we do the Local Oxidation through the aperture in Si<sub>3</sub>N<sub>4</sub>. The structure obtained is shown in Figure 6.50. </para>
+    <para id="id1172059300748">
+      <figure id="id1172061753243">
+        <media id="id1172061753243_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-6e30.png" id="id1172061753243__onlineimage" height="363" width="499"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172064923630">By dry etching Si3N4 is removed. Now we follow the steps in Figure 6.46 and Figure 6.47. The final structure is shown in Figure 6.51.</para>
+    <figure id="id1172063216590">
+      <media id="id1172063216590_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-ae52.png" id="id1172063216590__onlineimage" height="363" width="501"/>
+      </media>
+    </figure>
+    <para id="id1172061736138">Option 2. “Buried and Epitaxial layer” process option.</para>
+    <para id="id1172063168880">In CMOS formation there is always a problem of parasitic BJTs as shown in Figure 6.52 </para>
+    <figure id="id1172069850986">
+      <media id="id1172069850986_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-eb3e.png" id="id1172069850986__onlineimage" height="381" width="473"/>
+      </media>
+    </figure>
+    <para id="id1172062927139">In the circuit given in Figure 6.52.A we find that body of (E)PMOS which is N-tub is connected to the source of PMOS which is P+.</para>
+    <para id="id1172061735844">Similarly body of (E)NMOS which is P-tub is connected to the source of NMOS which is N+.</para>
+    <para id="id1280203">Source to Bulk Voltage (Vsb) is kept zero in both cases so that Threshold voltage is maintained constant. If Vsb is not zero then Threshold Voltage will become a function of Vsb given by the following relation:</para>
+    <para id="id1172061837399">
+      <figure id="id1172061966701">
+        <media id="id1172061966701_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-1267.png" id="id1172061966701__onlineimage" height="27" width="583"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172064889753">γ = body-effect parameter;________________________________________________ </para>
+    <para id="id1172064936424">2φ<sub>F</sub> = surface potential parameter;___________________________________________ </para>
+    <para id="id1172056061027">Since both MOSs are Enhancement type hence both are Normally OFF type therefore their channels are shown broken.</para>
+    <para id="id1172068812731">
+      <figure id="id3489824">
+        <media id="id3489824_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-cfbd.png" id="id3489824__onlineimage" height="467" width="607"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172061355844">The P+ source of PMOS in N-tub and N+ source of NMOS in P-Tub together with N-Tub bulk and P-Tub bulk behave as cross-coupled BJTs. </para>
+    <para id="id1172068088471">P+ source of PMOS in N-tub, N-Tub and P-Tub behave like a parasitic PNP BJT where P+ is the emitter.</para>
+    <para id="id1172062997814">N+ source of NMOS in P-Tub. P-Tub and N-Tub behave like a parasitic NPN BJT where N+ is the emitter.</para>
+    <para id="id1172061684181">The cross coupling of the two gives rise to a four-layer device namely SCR as shown in Figure 52.C. If this SCR fires, because of the voltage drop in N-tub bulk resistance and because of voltage drop in P-tub bulk resistance, then it will provide a low impedance path from Positive Vdd supply to the ground leading to irreversible destruction of the CMOS structure. To prevent this from happening we use the second option. The active devices are formed in lightly doped epitaxial layer. This epitaxial layer is deposited over buried layer. N+ buried layer shorts N-tub bulk resistance and P+ buried layer shorts P-tub bulk resistance. This prevents the firing of SCR. </para>
+    <para id="id1172061748281">
+      <figure id="id2014413">
+        <media id="id2014413_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-3444.png" id="id2014413__onlineimage" height="279" width="604"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2193904">The process steps for the second option.</para>
+    <para id="id1172072259704"> We start from Step 1 as shown in Figure 6.53. On P-Type substrate SiO2 , 40nm thick, is grown. That is followed by Si3N4, 80nm thick.. Lastly it is covered by 200nm thick KPR layer.</para>
+    <figure id="id1172068811394">
+      <media id="id1172068811394_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-90d4.png" id="id1172068811394__onlineimage" height="258" width="463"/>
+      </media>
+    </figure>
+    <para id="id2145141">Mask 1 defines the buried layer area namely N+ type buried layer as shown in Figure 6.54. We want N-type buried layer with high doping concentration. So we want a donor type dopent which does not out-diffuse in subsequent thermal cycles. Antimony and Arsenic both qualify for buried layer diffusion but Arsenic has higher solid solubility therefore we go for Arsenic in a high dose implant of 10<sup>15</sup>cm<sup>-2</sup> at accelerating voltage of 50kV. This energy of 50keV is sufficient for implanting it beneath the 40nm thick Oxide layer. </para>
+    <para id="id1172061769524">
+      <figure id="id1963765">
+        <media id="id1963765_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-5e6a.png" id="id1963765__onlineimage" height="424" width="513"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2520287">After N+ type buried layer diffusion, we strip off the fixed KPR and carry out drive-in for 2 hours at 1000°C, with 60 minutes of this in steam ambient for LOCOS oxidation. Due to drive-in the buried layer is driven to depth of 2microns and just over the buried layer we get a local thick layer of SiO2 400nm thick. The cross-sectional view at this point is shown in Figure 6.55. </para>
+    <figure id="id1172061353146">
+      <media id="id1172061353146_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-b9a2.png" id="id1172061353146__onlineimage" height="259" width="472"/>
+      </media>
+    </figure>
+    <para id="id1172063168645">This high temperature drive-in plus LOCOS oxidation accomplishes the following objectives:</para>
+    <list id="id1172066544716" list-type="enumerated" number-style="lower-roman">
+      <item>It drives in the buried layer to 2 micron depth;</item>
+      <item>Thick oxide layer of 400nm is achieved just over the buried N+ layer because of the masking effect of Si3N4 layer;</item>
+      <item>This LOCOS oxide allows the same mask to be used for defining both N+ buried layer as well as P+ buried layer and the LOCOS oxide allows self alignment between the two buried layers;</item>
+      <item>Finally this step creates a step in the silicon surface at the edges of the N+ buried layer because oxidation consumes silicon. This step will act as the foot print of the buried layer in later processing.</item>
+    </list>
+    <para id="id1172061350892">After the furnace operation, Si3N4 is dry etched in Fluorine Plasma Chamber. Now</para>
+    <para id="id1630078">we do the ion implantation of P+ buried layer. The thick oxide layer (400nm thick) over N+ buried layer acts as the shield against P+ Boron ion implant but thin oxide layer (40nm thick) elsewhere allows the P+ Boron implant to enter the silicon surface. An implant dose of 10<sup>14</sup>cm<sup>-2</sup> at accelerating voltage of 50-75 kV. The implant for P+ buried layer is Boron. A lower implant dose is chosen because Boron has a higher diffusion coefficient and to prevent out-diffusion in subsequent thermal cycles a lower implant dose helps. The cross sectional view at this point is as shown in Figure 6.56.</para>
+    <figure id="id1172062266325">
+      <media id="id1172062266325_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-21c1.png" id="id1172062266325__onlineimage" height="327" width="490"/>
+      </media>
+    </figure>
+    <para id="id1172061348801">A simple drive-in cycle is carried out for several hours at 1000-1100°C in inert ambient of Nitrogen or Argon. LOCOS oxidation is not required. The resulting structure is shown in Figure 6.57.</para>
+    <para id="id1172066733553">
+      <figure id="id1172063168018">
+        <media id="id1172063168018_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-b50a.png" id="id1172063168018__onlineimage" height="292" width="484"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172061346560">Now we require lightly doped N-tub and P-tub. Lightly doped N-tub and lightly doped P-tub are required for fabricating PMOS and NMOS respectively because of the following reasons:</para>
+    <list id="id1172072253347" list-type="enumerated" number-style="lower-roman">
+      <item>The light doping reduces the junction capacitances hence improves the frequency response;</item>
+      <item>It gives a better control and a lower threshold voltage or turn on voltage. </item>
+    </list>
+    <para id="id1172056044969">Threshold voltage expression is given in Equation 6.21.</para>
+    <para id="id1172077846556"><figure id="id1172061353296"><media id="id1172061353296_media" alt=""><image mime-type="image/png" src="../../media/graphics2-62ea.png" id="id1172061353296__onlineimage" height="39" width="232"/></media></figure> -------------------------------------------------------6.21</para>
+    <para id="id1172061355576">Heavy doping increases the surface potential and hence increases the turn-on voltage.</para>
+    <para id="id1172062494791">Now this lightly doped region cannot be achieved by counter doping and by compensation because the buried layer is of the order of 10<sup>19</sup>/cc and active regions have to be of 10<sup>16</sup>/cc. Therefore we choose the option of lightly doped epi-layer.</para>
+    <para id="id1172063599887"> We etch out the SiO2 layer completely and grow intrinsic epitaxial layer of Silicon to a thickness of 2 to 3 microns. The cross sectional view is as shown in Figure 6.58. The step at the boundary of the buried layer has propagated upward into the epitaxial layer also and it will help in subsequent alignment of the masks. </para>
+    <para id="id1172061771697"> After this the steps carried out in Figure 6.44 or in Figure 6.45 to grow the field oxide and the steps carried out Figure 6.46 , in Figure 6.47 and in Figure 6.48 to grow the twin tubs and drive them in are carried out. The drive-in for both the tubs are carried out in a way that the twin-tub are linked up with one-another and the buried layers are also linked up. The final structure appears as shown in Figure 6.59. </para>
+    <para id="id1172069697014"> It may be noted here that this option of buried layer plus epitaxy has required only one more Mask but many more steps. </para>
+    <para id="id1172063726821">
+      <figure id="id1172061798722">
+        <media id="id1172061798722_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-92cf.png" id="id1172061798722__onlineimage" height="366" width="494"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1172061781893">
+      <media id="id1172061781893_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-872e.png" id="id1172061781893__onlineimage" height="356" width="471"/>
+      </media>
+    </figure>
+    <para id="id1172061742658">Now we are ready for the final fabrication of complementary symmetry MOS devices.</para>
+  </content>
+</document>

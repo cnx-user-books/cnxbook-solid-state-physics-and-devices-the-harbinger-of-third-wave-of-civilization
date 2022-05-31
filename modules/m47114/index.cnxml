@@ -1,0 +1,114 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>History of Electron Devices- Vacuum Tube Era, Solid State Era and NanoTechnologyEra(Untitled)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47114</md:content-id>
+  <md:title>History of Electron Devices- Vacuum Tube Era, Solid State Era and NanoTechnologyEra(Untitled)</md:title>
+  <md:abstract>Section 2.1.1 describes the historical development through Vacuum Tube Era.</md:abstract>
+  <md:uuid>a1c454cd-2bbf-4760-9780-e3a14ea1447a</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1168513911194">
+      <title>2.1. History of Electron Devices- Vacuum Tube Era, Solid State Era and NanoTechnologyEra.</title>
+      <para id="import-auto-id1168513747660">In 1897, while studying Cathode Ray in a Vacuum Tube, J.J.Thomson for the first time identified the Cathode Ray with ‘Electrons’. For this J.J.Thomson was awarded Nobel Prize in Physics in 1906.</para>
+      <figure id="import-auto-id7458082">
+        <media id="import-auto-id1168516609361" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-3edb.png" height="400" width="428"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513422203">Thomson’s Vacuum Tube was a very simple contraption. The Tube was evacuated to a vacuum of 10<sup>-3</sup>Torr by a rotary pump. 1 Torr is 1mm Hg Vacuum. 1 Atmosphere pressure will support 76cm column of Hg. We can go to still higher vacuum using diffusion pump. For MOSFET fabrication we require ion-pump which can evacuate to 10<sup>-8</sup>Torr.</para>
+      <para id="import-auto-id1168515612104">This evacuated Vacuum Tube (VT) contains a filament, cathode and anode. Filament is made of tungsten which on passage of current gives a lot of thermal energy by resistive heating. This heats the Cathode.</para>
+      <para id="import-auto-id1168513434048">Cathode is made of Strontium-BariumCuO with a work-function W<sub>F</sub> = 1eV.</para>
+      <para id="import-auto-id1168514604002">The energy band diagram of Cathode is given in Figure 2.2.</para>
+      <figure id="import-auto-id1168515759223">
+        <media id="import-auto-id1168513600760" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-c45d.png" height="483" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513659240">As seen in Figure 2.2., Cathode is heated to 1000K.Conducting electrons in the Cathode are energetic enough to cross the Surface Barrier Potential (φs) and constitute the thermoionically emitted electrons which form a space charge cloud around the cathode as shown in Figure 2.4. As emitted electrons leave the surface of the cathode, a positive charge builds up on the cathode surface because of unbalanced charge within the cathode. This positive charge holds on to emitted electrons causing space charge cloud. From this space charge cloud electrons are pulled to the anode held at positive potential of 100V. This motion of electrons from the cathode to anode constitute the Anode Current and which was interpretated as Cathode Ray until Thomson revealed the mystery of thermoionic emission of electrons from the cathode. </para>
+      <para id="import-auto-id1168513649041">Thomson studied this beam of electron meticulously and established the charge ‘q’ and q/m ratio of electron where m is the mass of electron. The set up is shown in Figure 2.3.</para>
+      <figure id="import-auto-id1168513629096">
+        <media id="import-auto-id1168513953450" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-c0f8.png" height="518" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513637956">The verification of the negative charge of electron led J.J.Thomson to hypothesize the Plum-Pudding Model. He suggested that negatively charged electrons are swimming in a sea of positive charge. It was only later on that by Gold-foil experiment Rutherford decisively established the planetary model of atom. He found that 99% of the mass of  the atom is concentrated in the nucleus and it was positively charged. Electrons are orbiting this nucleus and their opposite charges are equal in magnitude to make an atom neutral in charge.</para>
+      <para id="import-auto-id1168513982466">The discovery of electrons formally launched the Branch of Engineering we know as Electronics and Communication Engineering. This was also the start of Vacuum Tube Era.</para>
+    </section>
+    <section id="import-auto-id1168515739141">
+      <title>2.1.1. Vacuum Tube Era</title>
+      <para id="import-auto-id1168519677304"><emphasis effect="italics">Vacuum Diode</emphasis> - After the discovery of electron in 1897, Vacuum Diode was invented by John Ambrose Fleming in 1903. Vacuum Diode is identical to the CRT shown in Figure 2.1 except that it does not have parallel set of deflecting plates and is shown in Figure2.4. I-V characteristics of the Vacuum Diode is shown in Figure 2.5.</para>
+      <figure id="import-auto-id1168514892844">
+        <media id="import-auto-id1168514697817" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-afdb.png" height="370" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513558877"><figure id="import-auto-id1168515758202"><media id="import-auto-id1168517486111" alt=""><image mime-type="image/png" src="../../media/Picture 15-5606.png" height="370" width="576"/></media></figure>The Physics of current flow in Vacuum Diode is as follows:</para>
+      <list id="import-auto-id1168513605062" list-type="enumerated" number-style="lower-roman">
+        <item>By Thermo-ionic emission, a space charge cloud is formed surrounding the cathode.</item>
+        <item>As Anode is made positive, electrons are drawn towards Anode. As long as number of electrons drawn by Anode is less than electrons emitted from the Cathode, we are in Space-Charge Limited Region and Anode Current (I<sub>A</sub>) increases linearly with Anode Voltage(V<sub>AK</sub>) according to 3/2 Power Law as given in Equation 2.1.</item>
+        <item>As soon as electrons drawn by Anode are equal to electrons emitted by Cathode, we enter Temperature-Limited Region. In Temperature Limited Region, Anode Current saturates for a constant temperature. If temperature of Cathode is increased, the saturation value of Anode Current will increase given by Equation 2.2.The Work Function of Cathode is vital in the Temperature Limited Region. At 2500ºC, Tungsten (W<sub>F</sub> = 4.52eV) cathode gives thermo-ionic current density of 3000A/m<sup>2</sup> and SrBaCuO (W<sub>F</sub>=1eV) cathode gives 7.34×10<sup>9</sup>A/m<sup>2</sup>. There is almost 6 orders of magnitude improvement in thermo-ionic emission. Hence with SrBaCuO we can operate at 800ºC comfortably with significant thermoionic emission.</item>
+        <item>At zero Anode Voltage current in the circuit should be zero but it is not. Because of statistical fluctuation in the velocity, some electrons are energetic enough to reach the Anode at 0 V even. This is known as splash current.</item>
+        <item>Under Reverse Bias, there is no reverse diode current. But at very high voltages by quantum mechanical tunneling electrons can be pulled out from the anode to cathode and a phenomena similar to break down occurs in Vacuum Diode also. This is called high-field emission. </item>
+      </list>
+      <figure id="import-auto-id1168513306047">
+        <media id="import-auto-id1168514487787" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-acca.png" height="117" width="359"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168516008037">
+        <figure id="import-auto-id1168519745166">
+          <media id="import-auto-id1168517562239" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-38b4.png" height="107" width="404"/>
+          </media>
+        </figure>
+      </para>
+      <para id="import-auto-id1168514383100"><emphasis effect="italics">Vacuum Triode</emphasis> - In 1905, Lee de’Forest invented Vacuum Triode. It had three electrodes: Cathode, Grid and Anode. Grid was the third electrode inserted between Cathode and Anode. This controlled the Anode Current. For zero Grid Voltage, anode current flew at zero Anode Voltage onward just as in Diode.. As Grid Voltage became more negative, anode current onset was delayed and diode I-V characteristic was displaced as shown in Figure 2.6(b). In effect Triode behaved as Voltage-Controlled-Voltage –Source(VCVS). Lee de’Forest used this three terminal device to assemble RC-coupled Audio Amplifier the enabling technology for long-distance telephone call. Telephone had been invented in 1876 by Alexandre Grahm Bell but it could not become Public Utility Service until 1913.In Figure 2.6(a) a RC-coupled Audio Amplifier is shown.</para>
+      <figure id="import-auto-id1168515728628">
+        <media id="import-auto-id1168513997045" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-0718.png" height="302" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168514700132">In quick succession Tetrode and Pentode were invented. </para>
+      <para id="import-auto-id1168513648087"><emphasis effect="italics">Tetrode</emphasis> and <emphasis effect="italics">Pentode</emphasis>- Tetrode had four electrodes . The fourth electrode was a screen electrode held at about  +70V. The Tetrode and its output characteristics are shown in Figure 2.7. </para>
+      <para id="import-auto-id1168514618928">As seen in Figure 2.7, we get parallel set of horizontal lines akin to Voltage Controlled Current Source but with a wiggle. This wiggle is due to “secondary emission of electrons” from the Anode. As the highly accelerated electrons, due to the positive screen voltage, strike the anode it causes local thermal heating which leads to secondary thermo-ionic emission. This causes the wiggle which leads to non-linear distortion and reduction in gain. To suppress this secondary emission, a fifth electrode at negative voltage with respect to anode is introduced. This repels back the secondary emission and removes the wiggle. This fifth electrode is known as suppressor grid connected to the cathode. This tube with five electrodes is known as Pentode and shown in Figure 2.8. This device approximates an ideal Voltage-Controlled Current Source.</para>
+      <para id="import-auto-id1168513342972">These topics have been discussed in the introductory chapters of Lectures on Analog Electronics (Collection 11167 uploaded on cnx.org). The I-V characteristics of Triode and Pentode are shown in the module, m29634, and these are equivalent to controlled sources namely Voltage-Controlled-Voltage-Source and Voltage Controlled-Current source respectively. These controlled sources are discussed in the module, m33375, in the same collection of Lectures on Analog Electronics. </para>
+      <figure id="import-auto-id1168517451329">
+        <media id="import-auto-id1168515528478" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-443c.png" height="358" width="576"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1168514696628">
+        <media id="import-auto-id1168513636817" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-e7e5.png" height="390" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168515981331">
+        <emphasis effect="bold">2.1.1.1. RC-coupled Amplifier and Heaviside Distortion-less Transmission enables the long-distance Telephone Call across N.American Continent.</emphasis>
+      </para>
+      <para id="import-auto-id1168521020340">In 1911, the first long distance call was successfully made from New York to Denver, Colorado. No Amplifiers had been used in this 2000miles long distance telephone call. Heaviside Distortion-less Transmission condition had been satisfied to enable this call.</para>
+      <para id="import-auto-id1168514815956">Oliver Heaviside was deeply involved with telegraphic transmission and its theorization. He treated a long transmission line as distributed parameter network as shown in Figure 2.9.</para>
+      <figure id="import-auto-id1168514662195">
+        <media id="import-auto-id1168515801841" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-324c.png" height="390" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168514364505">By circuit analysis he showed that distortion-less transmission requires that:</para>
+      <figure id="import-auto-id1168515733084">
+        <media id="import-auto-id1168513658554" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-d873.png" height="42" width="199"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513661937">But in real life transmission telephonic cables, this balance is not achieved. The actual imbalance is:</para>
+      <figure id="import-auto-id1168513641988">
+        <media id="import-auto-id1168513605830" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-97d1.png" height="42" width="199"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168513333844"> This imbalance results in serious propagation-delay distortion or dispersion of the signal. This result is phase-distortion and the voice gets jumbled up in long distance telephonic call. To correct this, Oliver Heaviside suggested Inductive-Coil loading of the transmission line and thereby achieve distortion-less transmission condition. In this remedy, single high-induction coils are connected to the transmission line in series at regular intervals. This enabled the clear reception of a call coming across 2000 miles without any kind of amplification.</para>
+      <para id="import-auto-id1168513559714">In 1913, periodic inductive loading as well as RC-Coupled Amplifier Repeater stations were used at intervals of 100Km distance. This enabled a clearly audible long-distance telephonic call from New York to San-Francisco, California, over a distance of 4000 miles. This trans-continental telephonic call set the stage for turning Telephone into Public Utility Service. This laid the ground work for the Information Revolution.</para>
+      <para id="import-auto-id1168513561217">Because of the poor quality of telegraphic cables laid down under Atlantic and Pacific Ocean, trans-Atlantic or trans-Pacific Telephone calls still could not be made. These trans-Oceanic Calls were put through Radio-Telephony. Only in 1956 when first Voice-quality trans-Atlantic Coaxial Cables,TAT-1, were laid down that Trans-Atlantic Telephone Calls became a reality.</para>
+      <para id="import-auto-id1168513660269">In 1945,  ENIAC (Electrical Numerical Integrator and Calculator) using 18,000 Thermo-ionic Vacuum Tubes was built up. It consumed 200kW power, it weighed 27 Metric Tonnes and it occupied a large size Hall. At the time computers were hardly user friendly.</para>
+    </section>
+  </content>
+</document>

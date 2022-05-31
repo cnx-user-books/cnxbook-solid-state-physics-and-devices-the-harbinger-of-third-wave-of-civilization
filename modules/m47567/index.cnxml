@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 3_Section 3.2.3.Theoretical Formulation of the Knee Voltage(Vγ) of a forward biased-diode.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47567</md:content-id>
+  <md:title>SSPD_Chapter 3_Section 3.2.3.Theoretical Formulation of the Knee Voltage(Vγ) of a forward biased-diode.</md:title>
+  <md:abstract>Section 3.2.3. gives the theoretical formulation of the knee voltage of a forward biased diode.</md:abstract>
+  <md:uuid>2f906e53-18ff-49d4-b2a2-2e021173fa77</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id4956390">
+      <emphasis effect="bold">SSPD_Chapter 3_Section 3.2.3.Theoretical Formulation of the Knee Voltage(V</emphasis>
+      <emphasis effect="bold">γ</emphasis>
+      <emphasis effect="bold">) of a forward biased-diode. </emphasis>
+    </para>
+    <para id="import-auto-id1166400221595">In Section 3.2.2. we have derived the Ideal Diode Equation:</para>
+    <figure id="import-auto-id1166400288102">
+      <media id="import-auto-id1166395506814" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-569b.png" height="47" width="463"/>
+      </media>
+    </figure>
+    <para id="import-auto-id8814405">We choose the fabrication parameters of a typical Diode as given in Table 3.2.2.3. They are as follows:</para>
+    <para id="import-auto-id8550822">Wide-Bulk diode with N-Type Doping 10<sup>16</sup>/cc and P-Type Doping 10<sup>18</sup>/cc and life-time τ<sub>n</sub> = τ<sub>p</sub>=1μs, cross-sectional area A= 10<sup>-3</sup>cm<sup>2</sup>.</para>
+    <para id="import-auto-id1166399421108">D<sub>n</sub>(on P-side)= 7.3cm<sup>2</sup>/s; L<sub>n</sub>(on P-side)=0.27μm;</para>
+    <para id="import-auto-id1166399132738">D<sub>p</sub>(on N-side)= 7.8cm<sup>2</sup>/s; L<sub>p</sub>(on N-side)=0.279μm;</para>
+    <para id="import-auto-id8577083">Therefore I<sub>D</sub>=I<sub>D0</sub>[λ-1] where λ=Exp(V<sub>F</sub>/V<sub>Th</sub>);</para>
+    <para id="import-auto-id8717443">Substituting the fabrication parameters we get:</para>
+    <para id="import-auto-id8263684">I<sub>D</sub>=I<sub>D0</sub>[λ-1]=4.5×10<sup>-13</sup>[λ-1]Amp.</para>
+    <para id="import-auto-id1166395300787">Let us define the knee voltage of a forward biased diode as the forward bias at which 10μA flows through the diode. Hence Ideal Diode Equation is:</para>
+    <figure id="import-auto-id8958001">
+      <media id="import-auto-id1166400221382" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1ab9.png" height="47" width="566"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166400226900">Since Thermal Voltage is 26mV and Knee Voltage will be several times greater than V<sub>Th</sub> therefore Equation 3.2.3.1 reduces to:</para>
+    <figure id="import-auto-id1166400224896">
+      <media id="import-auto-id1166399226591" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-e7ec.png" height="47" width="511"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166396410082">Thermal equilibrium value of minority carrier can be replaced by (n<sub>i</sub><sup>2</sup>/dopent density). Equation 3.2.3.2 becomes:</para>
+    <figure id="import-auto-id8533884">
+      <media id="import-auto-id1166400232040" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-e486.png" height="47" width="518"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166395641543">Replacing n<sub>i</sub><sup>2</sup> by its theoretical form given in Equation(3.2.11) we get:</para>
+    <figure id="import-auto-id1166399123947">
+      <media id="import-auto-id1166400224757" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1457.png" height="94" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id8582680">Substituting the fabrication and electrical parameters we get:</para>
+    <figure id="import-auto-id1166400226965">
+      <media id="import-auto-id8535456" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-c156.png" height="44" width="421"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166400227261">Equation (3.2.3.3) simplifies to :</para>
+    <figure id="import-auto-id1166400231285">
+      <media id="import-auto-id8909571" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-3f27.png" height="49" width="430"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166400225118">Taking the natural log of Equation (3.2.3.4):</para>
+    <figure id="import-auto-id1166395313510">
+      <media id="import-auto-id1166395054520" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-d16e.png" height="44" width="416"/>
+      </media>
+    </figure>
+    <para id="import-auto-id8212406">Therefore V<sub>γ</sub>=V<sub>g </sub>– 24.53×V<sub>Th</sub> = V<sub>g </sub>– 0.6379 ______________________________ 3.2.3.6.</para><para id="import-auto-id8648977">The Knee Voltages of Ge, Si and GaAs at 300K are tabulated in Table 3.2.3.1.</para>
+    <para id="import-auto-id1166400282978">
+      <emphasis effect="bold">Table 3.2.3.1.Knee Voltages of Ge,Si and GaAs diodes at 300K frpm Equation (3.2.3.6)</emphasis>
+    </para>
+    <table id="import-auto-id1166396475258" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Material</entry>
+            <entry>Band-Gap Voltage(V)</entry>
+            <entry>Knee Voltage(V)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Ge</entry>
+            <entry>0.67</entry>
+            <entry>0.03</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>1.12</entry>
+            <entry>0.482</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>1.4</entry>
+            <entry>0.7621</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1166395411972">By observation the knee voltages observed for the three diodes are of the same range as given in the Table. From Equation (3.2.3.6) we see that knee voltage is determined by material Enegy Band Gap Voltage.</para>
+  </content>
+</document>

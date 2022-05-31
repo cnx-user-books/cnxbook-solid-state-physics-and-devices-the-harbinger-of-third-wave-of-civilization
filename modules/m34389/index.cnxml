@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_Summary of Bonds</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34389</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_Summary of Bonds</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 11_ Solid State of Matter gives a perspective view of different categories of bonds.</md:abstract>
+  <md:uuid>0576a37c-3204-4a4f-b450-0c6607b2a5cc</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169193358254">SSPD_Chapter 1-Part 11_ Solid State Matter_Summary of Bonds</para>
+    <para id="id1169193358258">1.10.4. SUMMARY OF FOUR KINDS OF SOLID STATE BONDS.</para>
+    <figure id="id1169193351322">
+      <media id="id1169193351322_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-c23a.png" id="id1169193351322__onlineimage" height="430" width="600"/>
+      </media>
+    </figure>
+    <para id="id1169193351622">In Figure 1.54 we have classified solids according to their bonds. The five boxes in the Figure give five distinct classes of solids:</para>
+    <list id="id1169193351628" list-type="enumerated" number-style="upper-alpha">
+      <item>Metallic Crystalline Solids-the valence electrons are shared by the entire lattice;</item>
+      <item>Covalent Crystalline Solids- the valence electrons are shared by the immediate neighbours; In between these two categories we have Ge, Si and Bi which are part covalent and part metallic at room temperature.</item>
+      <item>Metallic Alloys which are physical mixtures of two similar atomic sized metals such as NiCr(Nichrome). Here stoichometric coefficient can be arbitrarily fixed;</item>
+      <item>Ionic crystals where electrons are transferred from Group I, II, III to Group VII, VI, V respectively to create ionic pairs extending in all directions through out the lattice. </item>
+    </list>
+    <para id="id6774017">In between alloys and ionic crystals we have Magnesium Antimonide(Mg<sub>3</sub>Sb<sub>2</sub>).</para>
+    <para id="id1169193131021">This is a definite chemical compound with a definite chemical composition quite unlike the physical mixture of alloy but it is not purely ionic. A case like this is in between alloy and ionic crystals. When two metals differ chemically to an appreciable extent then only such an intermediate condition occurs.</para>
+    <para id="id1169193178563">In between ionic crystals, where electrons are transferred between neighbours, and covalent crystals , where electrons are shared on time divison basis, we have SiC(Silicon Carbide) and SiO<sub>2</sub>(Silicon Dixide). In these cases we have sharing as well as transfer of electrons for achieving the energy minima configuration.</para>
+    <list id="id1169193369239" list-type="enumerated" number-style="upper-alpha"><item>E. Van der Waals crystals where dipole-dipole interaction and higher order interactions are at work such as Methane and Argon. In between Van der Waals crystals and ionic crystals we have FeS and TiO<sub>2</sub>. Here layer wise we have ionic bonds and between the layers we have Van der Waals bond.</item>
+    </list>
+    <para id="id1169193410804">In between Van de Waals crystals and covalent crystals we have Graphite, Phosphorous, Sulphur and Selenium. Here layer wise we have covalent bond and inter layer bonds are weak Van der Waals bonds.</para>
+  </content>
+</document>

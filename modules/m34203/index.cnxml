@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Crystal Growth-Bulk and Epitaxial Film-Part 4</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34203</md:content-id>
+  <md:title>Crystal Growth-Bulk and Epitaxial Film-Part 4</md:title>
+  <md:abstract>Part 4 of Crystal Growth describes the three technologies of Epitaxial Film Growth- Chemical Vapour Phase Deposition, Liquid Phase Epitaxy and Molecular Beam Epitaxy. First two are for Si Epitaxial Film growth and MBE is for compound semiconductor epitaxial films.</md:abstract>
+  <md:uuid>f37d59ba-b687-4b64-b20b-cd50aba8e838</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164966411582">Crystal Growth-Bulk and Epitaxial Film_Part 4</para>
+    <para id="id1164968813044">EPITAXIAL FILM GROWTH.</para>
+    <para id="id1164960199975">There are two major epitaxial film growth technologies: </para>
+    <para id="id1164977127528">Silicon Epitaxial Film Growth Technology (Low End Technology hence economical) and Compound Semiconductor Epitaxial Film Growth Technology (High End Technology hence expensive and suitable for niche applications).</para>
+    <para id="id1164977032091">Silicon Epitaxial Film Growth Technology are further divided into:</para>
+    <para id="id1164963226231"> Chemical Vapour Phase Deposition(CVPD) Technology and Liquid Phase Epitaxy(LPE). LPE is relatively cheaper but very toxic.</para>
+    <para id="id1164973865176">Compound Semiconductor Epitaxial Film Growth is achieved by Molecular Beam Epitaxy System which is inordinately expensive and in India in a few places only we have MBE systems namely TIFR(Mumbai), Solid State Physics Laboratory(Delhi), Central Electronics Engineering Research Institute (Pilani), IIT(Madras) and CSIO(Chandigarh).</para>
+    <para id="id1164974934415">In Table 3 we make a comparative study of LPE, CVPD and MBE. Molecular Beam Epitaxy is carried out under Ultra High Vacuum Conditions. This means we are working at 10<sup>-10 </sup>Torr where 1 Torr is 1mm of Hg. For achieving Ultra High Vacuum we have to work in three stages: Rotary Pump is used for achieving 10<sup>-3</sup>Torr. Silicon Oil Vapour Pump is used to achieve 10<sup>-5</sup>Torr and Ion Pump is used to achieve Ultra High Vacuum of 10<sup>-10</sup>Torr. This ultra high vacuum requirement makes MBE equipment inordinately expensive. This equipment is imperative for Photonic Devices.</para>
+    <para id="id1164974705183">CHEMICAL VAPOUR PHASE DEPOSITION(CVPD) OF EPITAXIAL FILMS or Chemical Vapour Phase Epitaxy(CVPE).</para>
+    <para id="id1164964256322"><emphasis effect="bold"/>In Figure 11 , we describe CVPD system for obtaining Si Epitaxial Films. A controlled chemical vapour of precise chemical composition at a precisely controlled flow rate is passed over silicon substrates. Si Substrates act as the seed crystals. They are kept at precisely controlled temperature of 1270ºC by RF induction heating hence they are placed on Graphite Susceptors. This gives a precise control of Si molecules, in vapour phase of partial pressure P, impinging upon Si Substrate:</para>
+    <para id="id1164986213898">(Impingement Rate) F =</para>
+    <para id="id1164978031375">
+      <figure id="id1164974457173">
+        <media id="id1164974457173_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-4e13.png" id="id1164974457173__onlineimage" height="38" width="231"/>
+        </media>
+      </figure>
+      <figure id="id1164979749662">
+        <media id="id1164979749662_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-d73a.png" id="id1164979749662__onlineimage" height="31" width="58"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164966228443">
+      <figure id="id1164962062439">
+        <media id="id1164962062439_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-dc3d.png" id="id1164962062439__onlineimage" height="524" width="580"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164967112353">
+      <figure id="id1164961291234">
+        <media id="id1164961291234_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-c4c6.png" id="id1164961291234__onlineimage" height="574" width="647"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164966970621"> CPVD is suitable for Homo-epitaxy but not for hetero-epitaxy. The byproduct of this reaction is HCl as seen from the chemical equation of reaction:</para>
+    <para id="id7693605">At 1270ºC SiCl<sub>4</sub>(Silicon Tetrachloride) + 2H<sub>2</sub> ↔ Si↓ +4HCl.    1.</para>
+    <para id="id1164968914838">This byproduct HCl can attack the Silicon Substrate and cause chemical etching. Hence Chemical Reaction as depicted Eq.(1) is reversible. </para>
+    <para id="id1164968638052">\</para>
+    <para id="id1164960916418"/>
+    <figure id="id1164987385325">
+      <media id="id1164987385325_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-9806.png" id="id1164987385325__onlineimage" height="381" width="521"/>
+      </media>
+    </figure>
+    <para id="id1164968911874">If y(mole fraction = SiCl<sub>4</sub> conc./Total conc) is greater than 0.23 as seen from Graph 1 , growth rate is negative. This means chemical etching of Silicon Wafer. The negative growth rate is used for in-situ cleaning of Silicon Wafers. This is one of the ways of chemical etching while preparing Silicon Wafers from Silicon Ingot.</para>
+    <para id="id1164968445259">If y &lt; 0.23 we have positive growth rate and Si vapour deposition takes place as an epitaxial film. The growth rate is maximum at y = 0.1 . The maximum growth rate is 5μm/minute.</para>
+    <para id="id1164975975902"> Since CVPD is carried out at 1270ºC, there is the problem of out-diffusion of Arsenic from the substrate into the epitaxial layer. Arsenic is used as buried layer to reduce the series collector resistance of Vertical NPN transistor. Arsenic has very low diffusion coefficient still at the elevated temperature of 1270ºC, some out-diffusion is inevitable. To prevent this out-diffusion altogether, we use Liquid Phase Epitaxy which is shown in Figure 12. </para>
+    <para id="id1164970667416">LIQUID PHASE EPITAXY.</para>
+    <para id="id1164978154825"><emphasis effect="bold"/>The Liquid Phase Epitaxy set up is shown in Figure 12.This is carried out at 900ºC hence the problem of out-diffusion is completely prevented but Silane which is used for LPE is highly toxic. As seen in Figure 12, there is a super saturated solution of Silane kept at 900ºC. By Graphite Slider, the silicon substrate is brought directly underneath the well containing Silane. As Substrate comes in contact with Silane , latter is dissociated into Silicon and Hydrogen and Silicon precipitates onto the substrate forming an epitaxial film on the substrate.</para>
+    <figure id="id1164967074526">
+      <media id="id1164967074526_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-ecb9.png" id="id1164967074526__onlineimage" height="585" width="604"/>
+      </media>
+    </figure>
+    <para id="id1164963071413">MOLECULAR BEAM EPITAXY</para>
+    <para id="id1164960790699"> Due to explosive demand of Wireless Communication Equipment there has been a sudden spurt in demand of MBE equipments particularly of multiple wafer MBE equipment which can give a high throughput of epitaxilly prepared wafers. </para>
+    <para id="id1164975737187"> There are two kinds of epitaxial film growth: <emphasis effect="bold">Homoepitaxy</emphasis> (same composition) and <emphasis effect="bold">Heteroepitaxy</emphasis> (different composition). By Molecular Beam Epitaxy, multi-layered thin films of single crystals of different compositions and of atomic dimension can be grown. In effect we can achieve heteroepitaxy which is the hallmark of compound semiconductor devices such as Photonic Devices and GaAs MESFET.</para>
+    <para id="id1164968539146">MBE is a process for making compound semiconductor materials with great precision and purity. These materials are layered one on top of the other to form semiconductor devices such as transistors and lasers. These devices are used in such applications as fiber-optics, cellular phones, satellites, radar systems, and display devices. MBE is used for fabrication of Super-lattices and hetero-junction MESFET. Super lattices are periodic structures of alternating Ultra-thin layers of compound semiconductor. </para>
+    <para id="id1164960945539">MBE growth produces complex structures of varying layers which are further processed to produce a range of electronic and optoelectronic devices, including high speed transistors, light-emitting diodes, and solid state lasers. MBE is a powerful technique both for research into new materials and layer structures, and for producing high-performance devices. </para>
+    <figure id="id1164974654725">
+      <media id="id1164974654725_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-fe16.png" id="id1164974654725__onlineimage" height="470" width="638"/>
+      </media>
+    </figure>
+    <para id="id1164966568918"/>
+    <para id="id1164965098428">Referring to Figure 13:</para>
+    <para id="id1164970432519">The walls of the chamber cooled with liquid nitrogen. This cryogenic screening around the substrate minimizes the spurious flux of contaminating atoms and </para>
+    <para id="id1164960693777">Sample Exchange Load Lock-this permits maintenance of Ultra High Vacuum while changing the substrate.</para>
+    <para id="id1164956283977">Effusion Cells- this contains the solid source to be evaporated and deposited on the substrate. Temperature of the effusion oven is adjusted to give desired evaporation rate.</para>
+    <para id="id1164975048675">Rotating Substrate Holder- rotation of substrate ensures less than ±1% doping variation and ±0.5% in thickness variation.</para>
+    <para id="id1164960493328">RHEED Gun-Reflection High Energy Electron Diffraction Gun gives a beam of electron which can be made incident on the epitaxially grown film. The diffraction pattern of electrons is studied on the fluorescent screen. This shows a maximum when there is a completed monolayer and a minimum when there is a partial layer as this produces more scattering. Thus RHEED Gun is used for in-situ monitoring of the growth of the epitaxial film mono-layer by mono-layer.</para>
+    <para id="id1164968681750">Computer controlled shutters of each furnace allows precise control of the thickness of each layer, down to a single layer of atoms. </para>
+    <para id="id7117351">Substrate Heating- to obtain high quality epitaxial layer, growth temperature must be relatively high. The substrate wafer must be heated to allow the atoms to move about the surface and reach the proper ordered site. Growth must be at a temperature where growth rate is insensitive of minor temperature variation. Atoms arriving at the substrate surface may undergo absorption to the surface, surface migration, incorporation into the crystal lattice, and thermal desorption. Which of the competing pathways dominates the growth will depend strongly on the temperature of the substrate. At a low temperature, atoms will stick where they land without arranging properly - leading to poor crystal quality. At a high temperature, atoms will desorb (reevaporate) from the surface too readily - leading to low growth rates and poor crystal quality. In the appropriate intermediate temperature range, the atoms will have sufficient energy to move to the proper position on the surface and be incorporated into the growing crystal.</para>
+    <para id="id1164983645604">The Inventors of MBE are : J.R. Arthur and Alfred Y. Chuo (Bell Labs, 1960). </para>
+    <para id="id1164969381938"> MBE is a technique for epitaxial growth of single crystal atomic layer films on single crystal substrate. It gives precise control in chemical composition and doping profiles. To avoid contamination of the epitaxial films, Ultra High Vacuum within MBE chamber is imperative. It requires Very/Ultra high vacuum (10<sup>-8</sup> Pa or 10<sup>-11</sup>Torr). This implies that Epitaxial film is grown at slow deposition rate (1 micron/hour). This permits epitaxial growth of single atomic layer if desired. Slow deposition rates require proportionally better vacuum. Ultra-pure elements are heated in separate quasi-knudson effusion cells (e.g., Ga and As) until they begin to slowly sublimate. Gaseous elements then condense on the wafer, where they may react with each other (e.g., GaAs). The term “beam” in MBE means the evaporated atoms do not interact with each other or with other vacuum chamber gases until they reach the wafer. Each gas beam may be turned on and off rapidly with a shutter or a valve. Beam intensity (called the flux) is adjusted for precise control of layer composition. A collection of gas molecules moving in the same direction constitute the molecular beam. Simplest way to generate a molecular beam is Effusion cell or Knudsen cell . Oven contains the material to make the beam. Oven is connected to a vacuum system through a hole. The substrate is located with a line-of-sight to the oven aperture. From kinetic theory, the flow through the aperture is simply the molecular impingement rate on the area of the orifice. Impingement rate is: The total flux through the hole. The spatial distribution of molecules from the orifice of a knudsen cell is normally a cosine distribution. The intensity drops off as the square of the distance from the orifice. Intensity is maximum in the direction normal to the orifice and decreases with increasing θ, which causes problems. Use collimator, a barrier with a small hole; it intercepts all of the flow except for that traveling towards the sample. </para>
+    <para id="id1164970502261"> During the MBE process, growth can be monitored in situ by a number of methods: </para>
+    <para id="id1164972870286">Reflection high energy electron diffraction (RHEED), using forward scattering at grazing angle, which shows a maximum when there is a completed monolayer and a minimum when there is a partial layer as this produces more scattering;</para>
+    <para id="id1164967021167">Low energy electron diffraction (LEED), takes place in backscattering geometry and can be used to study surface morphology, but not during growth;</para>
+    <para id="id1164975757754">Auger electron spectroscopy (AES), records the type of atoms present;</para>
+    <para id="id1164963845139">Modulated beam mass spectrometry (MBMS), allows the chemical species and reaction kienetics to be studied.</para>
+    <para id="id1164961747298"> Computer controlled shutters of each furnace allows precise control of the thickness of each layer, down to a single layer of atoms. </para>
+    <para id="id1164969225577"> Intricate structures of layers of different materials can be fabricated this way e.g., semiconductor lasers, LEDs.</para>
+    <para id="id1164967957271"> Before starting the epitaxial growth, in-situ cleaning of substrate is required. This is achieved by High Temperature Baking of the substrate. This decomposes and vaporizes the oxide layer over the substrate. The second method of in-situ cleaning is low energy ion beam of inert gas is used to sputter clean the surface. After the sputtering , low temperature anneal;ing is required to reorder the surface lattice system.</para>
+    <para id="id1164975008025">If there is a lattice mismatch between the substrate and the growing film, elastic energy is accumulated in the growing film. At some critical film thickness, the film may break/crack to lower the free energy of the film. The critical film thickness depends on the Young’s moduli, mismatch size, and surface tensions. Hence under heteroepitaxy, we must keep the thickness lower than critical film thickness.</para>
+    <para id="id1164966920412">Figure 14 shows the physics of epitaxial growth in MBE system. . The aim of this process is to enable sharp interfaces to be formed between one type of alloy and the next e.g. GaAs and AlAs, and thus create structures which may confine electrons and exibit <link url="http://www.warwick.ac.uk/%7Ephsbm/2deg.htm"><emphasis effect="underline">2-dimensiona</emphasis></link>l behaviour. Molecular Beam Epitaxy (<link url="http://www.warwick.ac.uk/%7Ephsbm/mbe.htm#mbe"><emphasis effect="underline">MBE</emphasis></link>) is basically a sophisticated form of vacuum evaporation.</para>
+    <figure id="id1164966962026">
+      <media id="id1164966962026_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-9eec.png" id="id1164966962026__onlineimage" height="323" width="525"/>
+      </media>
+    </figure>
+    <para id="id1164953405050">METAL ORGANIC CHEMICAL VAPOUR PHASE DEPOSITION&gt;</para>
+    <para id="id1164978202356">The growth process in MOCVD (metal-organic CVD, also known as MOVPE metal-organic vapour phase epitaxy) is similar to MBE, but the atoms are carried in gaseous form to the substrate. GaAlAs growth is achieved by using a mixture of hydrogen as a carrier gas and organometallic precursors such as trimethyl galium and/or trimethyl aluminium together with arsine. The growth rate can be 10 times greater than in MBE, the process does not require ultra high vacuum and it can be scaled up from research to production of commercial devices relatively easily. However, the preparation of the gaseous mixtures has to be very carefully controlled so that as yet it is unclear which technique will eventully dominate. One advantage MOVPE has over MBE is in the ability to grow phosphorous containing alloys, once phosphorous has been introduced into an MBE chamber it is almost impossible to grom anything else! One disadvantage is that in situ monitoring is more difficult. </para>
+    <para id="id1164963222385"/>
+  </content>
+</document>

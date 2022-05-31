@@ -1,0 +1,94 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38613</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued2</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued2 calculates the charging time constant of the Gate of NMOS through a Pass Transistor.</md:abstract>
+  <md:uuid>7fdd9d39-6a7c-4903-8078-7853093e7eb8</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171350095968">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued2</emphasis>
+    </para>
+    <para id="id6421064">
+      <emphasis effect="bold">7.6.3. Charging and discharging delay in CMOS. </emphasis>
+    </para>
+    <para id="id1171357298028"><emphasis effect="bold"/>Like all the Logic Gates, MOS Logic also experiences propogation delay which results in the degradation of the toggle rate og CMOS gates. In order to minimize this degradation it is important to quantitatively analyze the propogatioon delay.</para>
+    <figure id="id1171358710922">
+      <media id="id1171358710922_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-e234.png" id="id1171358710922__onlineimage" height="579" width="599"/>
+      </media>
+    </figure>
+    <para id="id1171362013495">In Figure 7.6.3.1. we have a NMOS being driven through a NMOS Pass Transistor by V<sub>DD</sub> magnitude Step Voltage where V<sub>DD</sub> has a magnitude of 5V.</para>
+    <para id="id1171369074063">As seen in the Figure 7.6.3.1, a 5V step input results in exponentially growing Gate Voltage. With a time-dealay of τ = RC , Gate Voltage rises to 0.63×5V. This is evident from the charging equation given in the diagram.</para>
+    <para id="id1171349274046">Here R = resistance of the n-channel of pass transistor under ON condition</para>
+    <para id="id1171355451129"> =Sheet Resistance of the channel×(L<sub>channel</sub>/W<sub>channel</sub>)=R<sub>channel</sub>;</para>
+    <para id="id1171356227034">From Table 4.6.1, for 5μm Generation Technology R<sub>sheet</sub> of n-channel = 10<sup>4</sup>Ω/□ and </para>
+    <para id="id1171369531298">L<sub>channel</sub> = 2λ and <sub/>W<sub>channel</sub> = 2λ.</para>
+    <para id="id2281766">Therefore R<sub>chanel</sub> = 10kΩ×(2λ/2λ)= 10kΩ;</para>
+    <para id="id1171355510124">C = gate-to-channel area capacitance = C<sub>g</sub> = area of the gate×□C<sub>gate-to-channel</sub> =0.01pF from the Table 7.6.3 for 5μm Generation.</para>
+    <para id="id1171355558809">Hence </para>
+    <para id="id6746103">For 5μm Generation charging time constant = R<sub>chanel</sub>× C<sub>g</sub> = 10kΩ×0.01pF =τ = 0.1nsec;</para>
+    <para id="id1171342589845">For 2μm Generation charging time constant = R<sub>chanel</sub>× C<sub>g</sub> = 20kΩ×0.0032pF</para>
+    <para id="id2018479">=τ = 0.064nsec;</para>
+    <para id="id1171357744652">For 1.2μm Generation charging time constant = R<sub>chanel</sub>× C<sub>g</sub> = 20kΩ×0.0023pF </para>
+    <para id="id1171346851132">=τ = 0.046nsec;</para>
+    <para id="id1171366767762">In Table 7.6.3.1 these delays for different generations are tabulated.</para>
+    <para id="id1171358987537">
+      <emphasis effect="bold">Table 7.6.3.1. Delay Time Calculation for 5μm, 2μm and 1.2μm Generations.</emphasis>
+    </para>
+    <table id="id1171352729770" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Generation</entry>
+            <entry>R<sub>channel</sub></entry>
+            <entry>C<sub>gate</sub></entry>
+            <entry>τ<sub>charging</sub></entry>
+            <entry>τ<sub>transit</sub></entry>
+          </row>
+          <row>
+            <entry>5μm</entry>
+            <entry>10kΩ</entry>
+            <entry>0.01pF</entry>
+            <entry>0.1nsec</entry>
+            <entry>0.13nsec</entry>
+          </row>
+          <row>
+            <entry>2μm</entry>
+            <entry>20kΩ</entry>
+            <entry>0.0032pF</entry>
+            <entry>0.064sec</entry>
+            <entry>0.04nsec</entry>
+          </row>
+          <row>
+            <entry>1.2μm</entry>
+            <entry>20kΩ</entry>
+            <entry>0.0023pF</entry>
+            <entry>0.046nsec</entry>
+            <entry>0.03nsec</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171351522560">In Basic Electrical Properties Chapter 7.3, Equation 7.3.7, the transit time through the channel is given by the equation:</para>
+    <figure id="id1171340342490">
+      <media id="id1171340342490_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-89eb.png" id="id1171340342490__onlineimage" height="63" width="422"/>
+      </media>
+    </figure>
+    <para id="id7315570">Where L = 5/2/1.2μm, μ<sub>n</sub> = 650cm<sup>2</sup>/(V-sec), V<sub>ds</sub> = average of V<sub>DD</sub> = 3V/1.5V/0.75V</para>
+    <para id="id1171340882123"> By taking the values of the parameters in Equation 7.3.7 we arrive at the transit time tabulated in Table 7.6.3.1.</para>
+    <para id="id1171370200709"> By inspection of Table 7.6.3.1 we find that with scaling the charging delay decreases and speed performance correspondingly improves.</para>
+    <para id="id1171355611702"> Since time constant of charging and transit time are nearly equal they are interchangeably used and it is also used as the fundamentl time unit. All timings in a system can be assessed in terms of charging time constant.</para>
+    <para id="id1171352892319"> To account the variation in the parameters of the devices, we always take the worst case scenario namely 0.3nsec for 5μm Generation, 0.2nsec for 2μm Generation and 0.1nsec for 1.2μm Generation.</para>
+    <para id="id1171377500117">We conclude that standard delay unit = τ = R<sub>□</sub>(sheet resiatance of the n-channel)×□C<sub>g</sub> ;</para>
+    <para id="id1171358654283"/>
+  </content>
+</document>

@@ -1,0 +1,36 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Experiment 2_TDR of HPF_Part2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50961</md:content-id>
+  <md:title>SSPD_Experiment 2_TDR of HPF_Part2</md:title>
+  <md:abstract>This module gives the Time Domain Response of HPF for T nearly equal to tau and T much less than tau.</md:abstract>
+  <md:uuid>cedc7041-a1da-40ae-9ba0-ee1519db490a</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id4926705">
+      <emphasis effect="bold">Experiement -2-Time Domain Response of  HPF. Part 2</emphasis>
+    </para>
+    <para id="import-auto-id1164857265768"><emphasis effect="bold">2.4. High pass RC circuit</emphasis> .</para>
+    <figure id="import-auto-id1164847426083">
+      <media id="import-auto-id1164857252422" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-ea96.png" height="232" width="585"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164857493153">
+      <emphasis effect="bold">Figure 2 .c.  Square Wave Response of High Pass Filter for T ~ τ .</emphasis>
+    </para>
+    <figure id="import-auto-id4941474">
+      <media id="import-auto-id1164847898763" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-2ac1.png" height="240" width="555"/>
+      </media>
+    </figure>
+    <para id="import-auto-id2602832">
+      <emphasis effect="bold">Figure 2 .d.  Square Wave Response of High Pass Filter for T &lt;&lt; τ .</emphasis>
+    </para>
+    <para id="import-auto-id1164846691400">When T &lt;&lt; τ then the frequency spectrum of the square wave lies well within the Pass Band of the High Pass Filter. Hence the input square wave is near faithfully transmitted to the output except for a sag at the top and bottom and there is the loss of OFFSET.</para>
+    <para id="import-auto-id1164847866687">The BW of HPF is from (1/τ) = ω<sub>L</sub> radians per sec to infinity.</para>
+    <para id="import-auto-id1164850740796">The spectral components of the square wave are 0Hz, (1/T)Hz, (3/T)Hz,………</para>
+    <para id="import-auto-id1164847688466">Since 1/T &gt;&gt; (1/(2πτ)), hence (1/T)Hz, (3/T)Hz,……… are well accommodated and faithfully transmitted by HPF but 0Hz gets completely suppressed. Hence we get a Square Wave with ZERO mean value and TOP and BOTTOM have sag.</para>
+  </content>
+</document>

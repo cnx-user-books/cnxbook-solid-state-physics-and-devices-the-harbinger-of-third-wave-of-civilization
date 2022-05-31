@@ -1,0 +1,301 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 7_Hydrogen Atom Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33480</md:content-id>
+  <md:title>SSPD_Chapter1_Part 7_Hydrogen Atom Analysis</md:title>
+  <md:abstract>SSPD_Chapter 1_ Part 7 gives the proof of Bohr's Quantum Theory of Atom postulates and lays the ground for giving a rigorous theoretical formulation of the line spectra of Hydrogen Atom and its corroboration with experimental values.</md:abstract>
+  <md:uuid>36b0ffee-7a09-4c1c-9aec-6eaaa2248031</md:uuid>
+</metadata>
+<content>
+    <para id="id19514117">
+      <emphasis effect="bold">SSPD_CHAPTER 1_Part 7_ ANALYSIS OF HYDROGEN ATOM.</emphasis>
+    </para>
+    <para id="id11468079"/>
+    <para id="id13498150">Consider a Hydrogen Atom where an electron is orbiting around the proton in circular path.</para>
+    <para id="id13113416">From Neil Bohr’s first postulate:</para>
+    <para id="id11931134"/>
+    <para id="id7854386">
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">.v.r = n(h/(2π))       1.23</emphasis>
+    </para>
+    <para id="id14561326">where n is the principal quantum number and an integral number.</para>
+    <para id="id8495238">Squaring both sides of Eq.(1.23) and reshuffling the terms,</para>
+    <para id="id4683249">
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">= n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.r</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)       1.24</emphasis>
+    </para>
+    <para id="id11772573">From rotational motion we know that:</para>
+    <para id="id18914584">Centripetal Force = m<sub>e</sub>.v<sup>2</sup>/r = electrostatic force between electron and proton.= q<sup>2</sup>/(4πε<sub>0.</sub>r<sup>2</sup>);</para>
+    <para id="id10727813">Therefore    <emphasis effect="bold">v</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold"> = q</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/(4πε</emphasis><emphasis effect="bold">0.</emphasis><emphasis effect="bold">r.m</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">)     1.25</emphasis></para>
+    <para id="id7483453">Dividing Eq(1.25) by Eq.(1.24) we get:</para>
+    <para id="id10220097"/>
+    <para id="id9283457">q<sup>2</sup>/(4πε<sub>0.</sub>r.m<sub>e</sub>) = n<sup>2</sup>.ћ<sup>2</sup>/(m<sub>e</sub><sup>2</sup>.r<sup>2</sup>)</para>
+    <para id="id9281377">Simplifying the expression:</para>
+    <para id="id10332332"/>
+    <para id="id14463947">
+      <emphasis effect="bold">r</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> = n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.h</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.ε</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">/(m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">.q</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.π) = the Bohr Radius of nth Orbit;  1.26</emphasis>
+    </para>
+    <para id="id5760597">h=6.62×10<sup>-34</sup> (J-sec) = Plank’s Constant;</para>
+    <para id="id14556467">m<sub>e</sub> = 9.1×10<sup>-31</sup>Kg;</para>
+    <para id="id14199579">q = 1.6 ×10<sup>-19 </sup>Coul;</para>
+    <para id="id7863258">ε<sub>0</sub> = absolute permittivity= (1/(36π×10<sup>9</sup> )) F/m;</para>
+    <para id="id15456770">ε<sub>r</sub> = relative permittivity of vacuum= 1;</para>
+    <para id="id19462274">a<sub>0</sub> = ћ<sup>2</sup>/(m<sub>e</sub>.q<sup>2</sup>)= 0.4756 = Bohr Radius;</para>
+    <para id="id14268920">By Dimensional Balance the correctness of the Equation(1.26) is established.</para>
+    <para id="id17176722">Eq.(1.26) tells us that only spheres of orbital radius r<sub>n</sub> = n<sup>2</sup>.h<sup>2</sup>.ε<sub>0</sub>/(m<sub>e</sub>.q<sup>2</sup>.π) are permitted.</para>
+    <para id="id12626686"/>
+    <para id="id19836478">The radius of the first and innermost spherical orbit = 0.529Å;</para>
+    <para id="id7694114">The radius of the second spherical orbit = 2.116 Å because n=2;</para>
+    <para id="id15085831">The radius of the third spherical orbit = 4.761 Å because n=3;</para>
+    <para id="id11980895">Thus we see that only a given number of spherical orbits having Bohr radii are permitted around the nucleus of an Atom. Also in these permissible orbits the standing wave boundary conditions are fulfilled as shown in Fig.(1.14)</para>
+    <para id="id17219410">
+      <emphasis effect="bold">  i.e. 2π r</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> = n.λ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">       1.27</emphasis>
+    </para>
+    <para id="id5467962">From Eq.(1.26) <emphasis effect="bold">r</emphasis><emphasis effect="bold">n</emphasis><emphasis effect="bold"> = n</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">.0.529Å</emphasis><emphasis effect="bold">1.28</emphasis></para>
+    <para id="id18660738">Substituting Eq.(1.28) in Eq.(1.27)</para>
+    <para id="id18754187"/>
+    <para id="id10564890">2π.n<sup>2</sup>. 0.529 Å = n.λ<sub>n</sub></para>
+    <para id="id12116750">Simplifying the expression:</para>
+    <para id="id19202229"/>
+    <para id="id15595972">
+      <emphasis effect="bold">λ</emphasis>
+      <emphasis effect="bold">n </emphasis>
+      <emphasis effect="bold">= (n.π.1.058) Å         1.29</emphasis>
+    </para>
+    <para id="id10241884">
+      <figure id="id14970370">
+        <media id="id14970370_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-a9a2.png" id="id14970370__onlineimage" height="405" width="482"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id14967716">
+      <emphasis effect="bold">Figure 1.14. Standing Wave Pattern in permitted spherical orbits around the nucleus of an Atom.</emphasis>
+    </para>
+    <para id="id17067024">From the two Equations (1.28) and (1.29), the radii of the permissible spherical orbits as well as the wavelength of the standing wave patterns are calculated as shown in Table(1.2).</para>
+    <para id="id5755171">Table 1. 2. The radii of the orbits and the wavelength of the standing wave pattern in first three permissible orbits. </para>
+    <table id="id11125448" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>r<sub>n </sub>(Å)</entry>
+            <entry>λ (Å)</entry>
+          </row>
+          <row>
+            <entry>1 </entry>
+            <entry>0.529</entry>
+            <entry>3.32</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>2.116</entry>
+            <entry>6.6476</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>4.76</entry>
+            <entry>9.97</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id12681396"> The bounded electrons in an Atom are in stationary and non-radiating orbits <emphasis effect="italics">unlike</emphasis> Betatron.</para>
+    <para id="id10824116"> The bounded electrons orbital radii are quantized as shown by Eq.(1.28) as well as the energy of these bounded electrons in the spherical potential well are also quantized as we will show in the following derivation. </para>
+    <para id="id3368035"> Total Energy = Kinetic Energy + Potential Well</para>
+    <para id="id19782133">
+      <emphasis effect="bold">E= (1/2)m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> – (q</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">.q</emphasis>
+      <emphasis effect="bold">p</emphasis>
+      <emphasis effect="bold">)/( 4πε</emphasis>
+      <emphasis effect="bold">0.</emphasis>
+      <emphasis effect="bold">r</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">)   1.30</emphasis>
+    </para>
+    <para id="id8002165">In bringing a positive charge, work will be done against the repulsive field due the positive nucleus and hence potential energy will increase as we bring the positive charge nearer and nearer the nucleus. So a positive charge sees a potential hump at the positive nucleus. By similar logic , electron which is a negative charge sees a potential well at the positive nucleus hence potential energy is more and more negative as it falls deeper and deeper into the potential well.</para>
+    <para id="id3508602">
+      <emphasis effect="bold">E= (1/2)m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> – (q</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)/( 4πε</emphasis>
+      <emphasis effect="bold">0.</emphasis>
+      <emphasis effect="bold">r</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">)    1.30</emphasis>
+    </para>
+    <para id="id10368359">From Eq.(1.25), m<sub>e</sub>.v<sup>2 </sup>= q<sup>2</sup>/(4πε<sub>0.</sub>r<sub>n</sub>)</para>
+    <para id="id19787128">Substituting the above expression in Eq.(1.30)</para>
+    <para id="id18596487"><emphasis effect="bold">E =</emphasis> -<emphasis effect="bold">(1/2)m</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">v</emphasis><emphasis effect="bold">2 </emphasis><emphasis effect="bold">     1.31</emphasis></para>
+    <para id="id12061541"> In Betatron, the Lorentz<emphasis effect="bold">[Appendix XXIX ]</emphasis> force provides the centripetal force to balance the centrifugal force created by the orbiting electron. Lorentz force is the motion created by left hand rule when a wire carrying current interacts with the transverse magnetic field. Lorentz force is given by Bqv where B is the transverse magnetic field and v is the linear velocity of the charge.</para>
+    <para id="id3216268">Therefore the equation of motion is:</para>
+    <para id="id18919931">Centripetal force = Bqv and centrifugal force = (mv<sup>2</sup>)/r</para>
+    <para id="id8387702">Therefore  <emphasis effect="bold">(1/r)m</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">v</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold"> = Bqv      1.32</emphasis></para>
+    <para id="id18874948">In Betatron, the orbiting electron is unbounded and is orbiting at macroscopic level hence it can be analyzed by the classical theory. Here the orbital radius can assume a continuum of values hence when electron emits synchrotron radiation it traverses a collapsing spiral path towards the center. When the electron’s energy is boosted by an oscillating electric field then electron traverses an outward expanding spiral path. Both these conditions once of emission and the other of absorption is shown in Fig(1.15).</para>
+    <para id="id10350344">
+      <figure id="id7063357">
+        <media id="id7063357_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-bb35.png" id="id7063357__onlineimage" height="511" width="533"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id14195114">Figure 1.15 The inward collapsing spiral path of electron when emitting synchrotron radiation and the outward expanding spiral path of electron when boosted by alternating electric field.</para>
+    <para id="id9659073">This classical scenario is applicable to particles traversing circular paths at macroscopic scales. This is applicable to Betatron as well as to Synchrotron. But this picture completely fails at the Atomic scale. </para>
+    <para id="id14392239">For a Hydrogen Atom from Eq.(1.25) and (1.31) we obtain the following equation:</para>
+    <para id="id5255754"/>
+    <para id="id4033483">E = -q<sup>2</sup>/(8πε<sub>0</sub>r<sub>n</sub>)</para>
+    <para id="id13095329">Multiplying numerator and denominator by r<sub>n</sub> on RHS we get:</para>
+    <para id="id11094134"/>
+    <para id="id9280261">E = -[q<sup>2</sup>/(8πε<sub>0</sub>r<sub>n</sub><sup>2</sup><sub/>)] ×r<sub>n</sub></para>
+    <para id="id13374073">Substituting the value of r<sub>n</sub> from Eq.(1.26) we get:</para>
+    <para id="id19390246"/>
+    <para id="id15189467">E = -[q<sup>2</sup>/(8πε<sub>0</sub>r<sub>n</sub><sup>2</sup><sub/>)]× (n<sup>2</sup>.h<sup>2</sup>.ε<sub>0</sub>/(m<sub>e</sub>.q<sup>2</sup>.π))</para>
+    <para id="id12073017">Simplifying the expression we get:</para>
+    <para id="id19767747">
+      <emphasis effect="bold">E = -(n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">.r</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">))(ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)      1.33</emphasis>
+    </para>
+    <para id="id19456203">For the bounded electron , the orbital radii are quantized hence total energy in the permissible orbits are also quantized. Substituting Eq.(1.26) in Eq.(1.33) we obtain:</para>
+    <para id="id13189749">
+      <emphasis effect="bold"> E = -(1/(32π</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)(m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">q</emphasis>
+      <emphasis effect="bold">4</emphasis>
+      <emphasis effect="bold">/ (ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">ε</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">))Joules     1.34</emphasis>
+    </para>
+    <para id="id12975261">Putting Eq.(1.26) in Eq.(1.34) and rearranging the terms we get;</para>
+    <para id="id19389689"/>
+    <para id="id8379510">E×r<sub>n</sub> = - (q<sup>2</sup>/(8πε<sub>0</sub>))</para>
+    <para id="id5704575">Substituting the value of </para>
+    <para id="id19584736">r<sub>n</sub> = n<sup>2</sup>×(0.529Å) in the above Equation we get the following Eq. for Hydrogen Atom:</para>
+    <para id="id18570517">E = - (q<sup>2</sup>/(8πε<sub>0</sub>n<sup>2</sup><sub/>×0.529Å))</para>
+    <para id="id10977643">Substituting the values:</para>
+    <para id="id15220348">
+      <emphasis effect="bold">  E = -(13.6eV/n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)       1.35</emphasis>
+    </para>
+    <para id="id18179126">In Figure(1.16), the permissible energy states for an electron in a hydrogen potential well is illustrated.</para>
+    <para id="id15465742">
+      <figure id="id7949450">
+        <media id="id7949450_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-3f69.png" id="id7949450__onlineimage" height="524" width="604"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id5399183">Figure 1.16. The quantized energy states of an electron in a hydrogen potential well.</para>
+    <para id="id10558843">Table(1.3) Discrete Energy States of Electron in Hydrogen Atom.</para>
+    <table id="id14368296" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">n</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>-13.6 eV</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>-3.4eV</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>-1.5eV</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>-0.85eV</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id19207577"> In Hydrogen atom the electron is 13.6eV below zero hence we say an electron having principal quantum number n=1 is in a potential well -13.6eV deep. Therefore Ionization Energy of Hydrogen is 13.6eV.</para>
+    <para id="id18833547"> Two Hydrogen atoms when brought together form a very strong covalent bond by pairing the two outer electrons and completing the octave condition of the orbit corresponding to n=1.</para>
+    <para id="id15619404"> What this means that n=1 orbit or K Shell can accommodate only two electrons to completely fill up the available states in K Shell. Each Atom completes the octave by sharing each other’s electron for 50% of the time and thereby achieve the Gibb’s free Energy Minima. This Minima ensures a stable configuration to the Hydrogen molecule. This energy minima is - 4.5eV. In other words the binding energy of the Hydrogen molecule is 4.5eV.</para>
+    <para id="id10352029"> If Hydrogen gas is heated to T<sub>1</sub>= 15.6×10<sup>4 </sup>Kelvin , the thermal energy imparted is kT<sub>1</sub>=13.4eV. Since this exceeds 4.5eV hence Hydrogen Molecule dissociates into two independent Hydrogen Atoms. And there is sufficient energy for the first ionization of Hydrogen Atom. When electron from K Shell is removed from the atom then we have First Ionization. If electron is removed from L Shell then we have Second Ionization and so on. We will see later that in the beginning when Big Bang took place the matter was in gluonic state and then in plasma state. Radiation was coupled with Matter. After 300,000 years when temperature fell to 4000K then plasma neutralized and radiation decoupled from matter and as Universe expanded this radiation went on cooling and today it appears as 3Kelvin relic radiation or as Cosmic Microwave Back Ground (CMB)Radiation and it carries the footprint of matter distribution as it was at the time of decoupling i.e. 300,000 years after the Big Bang. This CMB Radiation has hot spots meaning by there are clumping of matter in certain parts of space and these matter clumps acted as the nucleus of Galaxy Growth. CMB Radiation was isotropic then matter density would be homogeneous through out the Universe and there would have been no evolution of Galaxies, stars and planets.</para>
+    <para id="id18937232"> At the Angstrom scale, only Quantum Mechanics correctly explains the behaviour of a bound electron in an Atomic potential well. This is confirmed by experimental observations. Experimentally it has been found that every element has its characteristic line spectrum. The line spectra could be of emissive type or absorption type.</para>
+    <para id="id9302042"> When an excited element comes down to the ground state, it gives off certain characteristic wavelengths . This is called the emissive line spectra.</para>
+    <para id="id19842050"> When a ground element intercepts an incident light, it absorbs certain characteristic wavelengths creating dark fringes in the spectrum of the resulting light. This is described as the absorption spectra of the given element.</para>
+    <para id="id9264251"> During the period 1885-1908, the characteristic spectra was described by the following equation:</para>
+    <para id="id17132322">
+      <emphasis effect="bold">Ν = ν/c = 1/λ = R(1/n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> - 1/n</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">)      1.36</emphasis>
+    </para>
+    <para id="id19767510">Where ν frequency of the transverse electro-magnetic wave;</para>
+    <para id="id16996255"> Wavelength = λ;</para>
+    <para id="id4088326"> Velocity of light = c;</para>
+    <para id="id19457111"> Wave number = N;</para>
+    <para id="id13741644"> Rydberg constant = 109677.6 cm<sup>-1</sup>;</para>
+    <para id="id10832718"> n<sub>1</sub> = 1,2,3…..;</para>
+    <para id="id18311786"> n<sub>2</sub> = 2,3,4,……;</para>
+    <para id="id11520404">The prominent Scientists associated with spectrum research at the time were Ritz, Rydberg and Barmer<emphasis effect="bold">[Appendix XXX]</emphasis>.</para>
+    <para id="id19850576"> Neil Bohr was able to give a theoretical explanation for Eq.(1.36) and theoretically derive Rydberg Constant.</para>
+  </content>
+</document>

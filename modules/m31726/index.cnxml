@@ -1,0 +1,301 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture8_PartB_Incremental Model of FET</title>
+  <metadata>
+  <md:content-id>m31726</md:content-id><md:title>AE_Lecture8_PartB_Incremental Model of FET</md:title>
+  <md:abstract>AE_Lecture8_PartB describes the dynamic characteristics of FET. It models it as Voltage Controlled Current Source. The Figure of Merit is defined.</md:abstract>
+  <md:uuid>30f95554-ec01-4ec5-9b3a-9df6f5e37895</md:uuid>
+</metadata>
+
+<content>
+    <para id="id14014299">AE_Lecture8_Incremental Model of FET.</para>
+    <para id="id7854884">FET behaves as Voltage Controlled Current Source. Hence its model is as given in Figure 1.</para>
+    <figure id="id11979600">
+      <media id="id11979600_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-5480.png" id="id11979600__onlineimage" height="257" width="567"/>
+      </media>
+    </figure>
+    <para id="id12057331">At low frequencies Capacitances can be considered to be open circuit. And the Incremental Model at low Frequencies will have infinite impedance as shown in Figure 2.</para>
+    <figure id="id6521122">
+      <media id="id6521122_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-e4f9.png" id="id6521122__onlineimage" height="304" width="599"/>
+      </media>
+    </figure>
+    <para id="id12804236">At low frequencies, input current is zero and short circuit current gain is INFINITY. But at high frequencies gate to source Capacitance due to overlap Capacitance ( overlap between source and gate) and Gate Oxide Capacitance and gate to drain Capacitance again due to overlap Capacitance ( overlap between drain and gate) and Gate Oxide Capacitance draw considerable currents. Hence Short Circuit Current Gain is finite and falls at the rate of 20dB/decade.</para>
+    <para id="id6708194">In the low frequency model, we have transconductance (g<sub>m</sub>) and output impedance of the current source (r<sub>ds</sub>).</para>
+    <para id="id7905115">Derivation of Transconductance.</para>
+    <para id="id6731528"><figure id="id7941770"><media id="id7941770_media" alt=""><image mime-type="image/png" src="../../media/graphics1-6d05.png" id="id7941770__onlineimage" height="35" width="29"/></media></figure> =<figure id="id4177414"><media id="id4177414_media" alt=""><image mime-type="image/png" src="../../media/graphics2-4af6.png" id="id4177414__onlineimage" height="33" width="127"/></media></figure>_____(1)</para>
+    <figure id="id8863992">
+      <media id="id8863992_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-91f0.png" id="id8863992__onlineimage" height="24" width="159"/>
+      </media>
+    </figure>
+    <figure id="id8168049">
+      <media id="id8168049_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-7433.png" id="id8168049__onlineimage" height="45" width="265"/>
+      </media>
+    </figure>
+    <figure id="id11770024">
+      <media id="id11770024_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-2ae2.png" id="id11770024__onlineimage" height="47" width="159"/>
+      </media>
+    </figure>
+    <para id="id6981477"><figure id="id8857268"><media id="id8857268_media" alt=""><image mime-type="image/png" src="../../media/graphics6-c8ff.png" id="id8857268__onlineimage" height="36" width="374"/></media></figure>     1.</para>
+    <para id="id10649829">Due to channel length modulation the family of curves are not horizontal but have a finite slope.as shown in Figure 3. To account for this ,channel-length modulation parameter λ is introduced.</para>
+    <figure id="id7843860">
+      <media id="id7843860_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-0508.png" id="id7843860__onlineimage" height="304" width="599"/>
+      </media>
+    </figure>
+    <para id="id7872222">In long channel NMOS(with channel length of 10µm) of bygone MSI(Medium Scale Integration) and LSI(Large Scale Integration) era, the slope was minimal. But as packing density increased to 40 million transistors, lateral scaling reduced the channel length to 100nm. In short channel NMOS channel length modulation is very pronounced as seen in Figure 3.</para>
+    <figure id="id6138746">
+      <media id="id6138746_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-9c0f.png" id="id6138746__onlineimage" height="42" width="239"/>
+      </media>
+    </figure>
+    <para id="id6583594">
+      <figure id="id7533520">
+        <media id="id7533520_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-97ac.png" id="id7533520__onlineimage" height="24" width="170"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8208535"><figure id="id8131885"><media id="id8131885_media" alt=""><image mime-type="image/png" src="../../media/graphics9-a2ce.png" id="id8131885__onlineimage" height="42" width="393"/></media></figure>=<figure id="id8232228"><media id="id8232228_media" alt=""><image mime-type="image/png" src="../../media/graphics10-4f44.png" id="id8232228__onlineimage" height="38" width="141"/></media></figure></para>
+    <para id="id11780079">We know that <figure id="id11178289"><media id="id11178289_media" alt=""><image mime-type="image/png" src="../../media/graphics11-a2b9.png" id="id11178289__onlineimage" height="40" width="203"/></media></figure></para>
+    <para id="id5905617"><figure id="id4180968"><media id="id4180968_media" alt=""><image mime-type="image/png" src="../../media/graphics12-de32.png" id="id4180968__onlineimage" height="47" width="143"/></media></figure>=<figure id="id8866038"><media id="id8866038_media" alt=""><image mime-type="image/png" src="../../media/graphics13-3f4d.png" id="id8866038__onlineimage" height="53" width="75"/></media></figure> 2.</para>
+    <para id="id4470812">Amlification Factor=µ= g<sub>m</sub>×r<sub>0</sub> = the maximum gain which can be achieved from a Common Source or Common Emitter Amplifier.</para>
+    <para id="id14949774">Combining Eq 1 and Eq 2 we get the following:</para>
+    <para id="id7689632">Amplification Factor of CS MOS Amplifier=[ <figure id="id8263861"><media id="id8263861_media" alt=""><image mime-type="image/png" src="../../media/graphics14-5a3a.png" id="id8263861__onlineimage" height="49" width="43"/></media></figure>]</para>
+    <para id="id6553779">Amplification Factor of CE BJT Amplifier=[<figure id="id6866619"><media id="id6866619_media" alt=""><image mime-type="image/png" src="../../media/graphics15-d7e5.png" id="id6866619__onlineimage" height="40" width="59"/></media></figure></para>
+    <para id="id8110474">V<sub>A</sub> is the Early Voltage which was discussed in Lecture 3 in connection with the Static Output characteristics of CE BJT.</para>
+    <para id="id5109110">As seen above the amplification factor of CE BJT is independent of Quiescent Collector Current. From the Table we see that it is only 3400. But my research on CE BJT is showing that a much larger gain can be realized.</para>
+    <para id="id10574714">In the following Table we make a comparative study of BJT and FET.</para>
+    <table id="id7683980" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>FET</entry>
+            <entry>BJT</entry>
+          </row>
+          <row>
+            <entry>Geometry dependent parameters <media id="id5970776" alt=""><image mime-type="image/png" src="../../media/graphics16-0f4d.png"/></media></entry>
+            <entry>Geometry independent parameters</entry>
+          </row>
+          <row>
+            <entry>µ(amplification factor varies inversely with I<sub>D</sub>)</entry>
+            <entry>µ(amplification factor is independent of I<sub>D</sub>)</entry>
+          </row>
+          <row>
+            <entry>V<sub>DS</sub>=10V,K<sub>n</sub>=1<media id="id14746838" alt=""><image mime-type="image/png" src="../../media/graphics17-4148.png"/></media> ,λ=0.0133 V<sup>-1</sup></entry>
+            <entry>β<sub>o</sub> =100,V<sub>A</sub>=75V,V<sub>CE</sub>=10V</entry>
+          </row>
+          <row>
+            <entry>gm=<media id="id6068091" alt=""><image mime-type="image/png" src="../../media/graphics18-d642.png"/></media></entry>
+            <entry>gm=<media id="id5108620" alt=""><image mime-type="image/png" src="../../media/graphics19-4f0d.png"/></media></entry>
+          </row>
+          <row>
+            <entry>Small signal approximation holds good for values:<media id="id5843539" alt=""><image mime-type="image/png" src="../../media/graphics20-9c47.png"/></media><media id="id8723964" alt=""><image mime-type="image/png" src="../../media/graphics21-75fd.png"/></media><media id="id9209188" alt=""><image mime-type="image/png" src="../../media/graphics22-1452.png"/></media></entry>
+            <entry>Small signal approximation holds good for values:<media id="id13831239" alt=""><image mime-type="image/png" src="../../media/graphics23-c055.png"/></media><media id="id9785393" alt=""><image mime-type="image/png" src="../../media/graphics24-b523.png"/></media><media id="id5188382" alt=""><image mime-type="image/png" src="../../media/graphics25-a47d.png"/></media></entry>
+          </row>
+          <row>
+            <entry>Much higher packing density because no isolation diffusion required.</entry>
+            <entry>Here isolation diffusion is required hence historically it is one generation behind as far as packing density is concerned</entry>
+          </row>
+          <row>
+            <entry>This is slower. The best clocking speed is 3GHz</entry>
+            <entry>BJT is historically much faster . The state of art in BJT is achieving 300GHz transit frequency.</entry>
+          </row>
+          <row>
+            <entry>Noise Figure is much better. This has no SHOT noise , no PARTITION noise. It has flicker noise. For Low Noise Amplifier cryogenically cooled MESFET.</entry>
+            <entry>Noise Figure is poorer because of SHOT noise, PARTITION noise and THERMAL noise.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table id="id8581829" summary="">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <tbody>
+          <row>
+            <entry>I<sub>D</sub>(µA)</entry>
+            <entry>g<sub>m</sub>(×10<sup>-3</sup> S)</entry>
+            <entry>r<sub>ds</sub>(MΩ)</entry>
+            <entry>µ</entry>
+            <entry>I<sub>C</sub>(µA)</entry>
+            <entry>g<sub>m</sub>(×10<sup>-3</sup> S)</entry>
+            <entry>r<sub>π</sub>(kΩ)</entry>
+            <entry>r<sub>0</sub>(MΩ)</entry>
+            <entry>µ</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>0.0476</entry>
+            <entry>85.2</entry>
+            <entry>4060</entry>
+            <entry>1</entry>
+            <entry>0.04</entry>
+            <entry>2500</entry>
+            <entry>85</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>0.151</entry>
+            <entry>8.52</entry>
+            <entry>1280</entry>
+            <entry>10</entry>
+            <entry>0.4</entry>
+            <entry>250</entry>
+            <entry>8.5</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>100</entry>
+            <entry>0.476</entry>
+            <entry>0.852</entry>
+            <entry>406</entry>
+            <entry>100</entry>
+            <entry>4</entry>
+            <entry>25</entry>
+            <entry>0.85</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>1000</entry>
+            <entry>1.51</entry>
+            <entry>0.085</entry>
+            <entry>128</entry>
+            <entry>1000</entry>
+            <entry>40</entry>
+            <entry>2.5</entry>
+            <entry>0.085</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>10,000</entry>
+            <entry>4.76</entry>
+            <entry>0.0085</entry>
+            <entry>40</entry>
+            <entry>10,000</entry>
+            <entry>400</entry>
+            <entry>0.25</entry>
+            <entry>0.0085</entry>
+            <entry>3400</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id14773585"/>
+    <para id="id9600303">HIGH FREQUENCY MODEL OF FET</para>
+    <para id="id7231191"> In Figure 4, high frequency model of MOSFET is set up for calculating the short circuit current. We follow the same procedure as we followed in CE BJT. </para>
+    <figure id="id7869820">
+      <media id="id7869820_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-5542.png" id="id7869820__onlineimage" height="300" width="576"/>
+      </media>
+    </figure>
+    <para id="id6623594">There are various values for C<sub>gs </sub>and C<sub>gd</sub> in Triode Region, in Pentode Region and in Cut-off Region. In Analog Electronics for linear applications we are concerned only with Pentode Region. So we will consider the two capacitances in Pentode or in Saturation Region.</para>
+    <para id="id7544819">C<sub>GS</sub> = (2/3) C<sub>GC </sub>+ C<sub>GSO</sub>.W</para>
+    <para id="id8858235">C<sub>GD</sub> = C<sub>GDO</sub>.W </para>
+    <para id="id4309067">Where C<sub>GC</sub> = C<sub>OX</sub>.WL and C<sub>OX</sub> = (ε<sub>0</sub>. ε<sub>oxide</sub>)/D<sub>oxide</sub> F/cm<sup>2</sup>;</para>
+    <para id="id12039729">C<sub>GSO</sub> = overlap capacitance between Gate and Source;</para>
+    <para id="id10555934">C<sub>GDO</sub>= overlap capacitance between Gate and Drain;</para>
+    <para id="id8857309">Since r<sub>ds</sub> is shorted therefore :</para>
+    <para id="id9380455">I<sub>2</sub>(jω) + I<sub>d</sub>(jω) = g<sub>m </sub>. V<sub>gs</sub>(jω)      3</para>
+    <para id="id7093320">V<sub>gs</sub>(jω) = I<sub>g</sub>(jω)/(jω(C<sub>GS</sub>+ C<sub>GD</sub>)      4</para>
+    <para id="id7965539">From Eq3 and Eq4:</para>
+    <para id="id6133215"><figure id="id8708905"><media id="id8708905_media" alt=""><image mime-type="image/png" src="../../media/graphics26-efce.png" id="id8708905__onlineimage" height="49" width="207"/></media></figure>      5</para>
+    <para id="id6720592">Eq 5 can be rewritten as :</para>
+    <para id="id3143053"><figure id="id7487163"><media id="id7487163_media" alt=""><image mime-type="image/png" src="../../media/graphics27-3e11.png" id="id7487163__onlineimage" height="35" width="149"/></media></figure> 6</para>
+    <para id="id4870074">Where ω<sub>T</sub> = g<sub>m</sub>/( C<sub>GS</sub>+ C<sub>GD</sub>) = Unity Gain BW or Gain×BW or Gain BW Product(GBP);</para>
+    <para id="id11606620">And ω* = g<sub>m</sub>/C<sub>GD </sub>and β(jω) falls at 20dB per decade.</para>
+    <para id="id14748106">Through proper substitutions in GBP expression we get :</para>
+    <figure id="id9418193">
+      <media id="id9418193_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-b6b8.png" id="id9418193__onlineimage" height="42" width="126"/>
+      </media>
+    </figure>
+    <figure id="id14777296">
+      <media id="id14777296_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-adf6.png" id="id14777296__onlineimage" height="43" width="152"/>
+      </media>
+    </figure>
+    <para id="id11592907">A reduction in channel length by a factor of 10 increases f<sub>T</sub> by 100.</para>
+    <para id="id8168676">In BJT GBP &lt; 1/(r<sub>x</sub>C<sub>µ</sub>)</para>
+    <para id="id11804835">BODY EFFECT or SUBSTRATE SENSITIVITY</para>
+    <figure id="id5044502">
+      <media id="id5044502_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6121.png" id="id5044502__onlineimage" height="277" width="483"/>
+      </media>
+    </figure>
+    <para id="id8855156">
+      <figure id="id4205465">
+        <media id="id4205465_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-a399.png" id="id4205465__onlineimage" height="300" width="577"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id14811003">
+      <media id="id14811003_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-70c2.png" id="id14811003__onlineimage" height="24" width="186"/>
+      </media>
+    </figure>
+    <figure id="id4213875">
+      <media id="id4213875_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-bca1.png" id="id4213875__onlineimage" height="279" width="541"/>
+      </media>
+    </figure>
+    <figure id="id5732299">
+      <media id="id5732299_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-43ce.png" id="id5732299__onlineimage" height="24" width="186"/>
+      </media>
+    </figure>
+    <figure id="id10649831">
+      <media id="id10649831_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-0737.png" id="id10649831__onlineimage" height="28" width="264"/>
+      </media>
+    </figure>
+    <para id="id7099077">Where <figure id="id11260640"><media id="id11260640_media" alt=""><image mime-type="image/png" src="../../media/graphics33-c90c.png" id="id11260640__onlineimage" height="24" width="324"/></media></figure></para>
+    <para id="id7040053">
+      <figure id="id8166584">
+        <media id="id8166584_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics34-5c33.png" id="id8166584__onlineimage" height="24" width="9"/>
+        </media>
+      </figure>
+      <emphasis effect="italics"> =Body Effect parameter</emphasis>
+      <figure id="id8866365">
+        <media id="id8866365_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics35-80a1.png" id="id8866365__onlineimage" height="27" width="36"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7960858"><figure id="id10608086"><media id="id10608086_media" alt=""><image mime-type="image/png" src="../../media/graphics36-7ac6.png" id="id10608086__onlineimage" height="24" width="272"/></media></figure>(V)</para>
+    <para id="id7683978">Typical Values are :-</para>
+    <figure id="id10444046">
+      <media id="id10444046_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-1401.png" id="id10444046__onlineimage" height="24" width="122"/>
+      </media>
+    </figure>
+    <para id="id4285724"><figure id="id6019880"><media id="id6019880_media" alt=""><image mime-type="image/png" src="../../media/graphics38-6f43.png" id="id6019880__onlineimage" height="24" width="57"/></media></figure>3<figure id="id6758475"><media id="id6758475_media" alt=""><image mime-type="image/png" src="../../media/graphics39-6c3a.png" id="id6758475__onlineimage" height="26" width="22"/></media></figure></para>
+    <para id="id7644828">
+      <figure id="id7214082">
+        <media id="id7214082_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics40-93e0.png" id="id7214082__onlineimage" height="24" width="126"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id12228953">
+      <media id="id12228953_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-0237.png" id="id12228953__onlineimage" height="277" width="503"/>
+      </media>
+    </figure>
+  </content>
+</document>

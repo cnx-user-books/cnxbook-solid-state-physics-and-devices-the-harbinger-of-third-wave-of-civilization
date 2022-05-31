@@ -1,0 +1,249 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 12_Quantum Mechanical Interpretation of Resistance</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34450</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 12_Quantum Mechanical Interpretation of Resistance</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 12 gives the quantum mechanical interpretation of Resistance in conductors.It is not the lattice parameter but the mean free path which decides the resistance.</md:abstract>
+  <md:uuid>2f9006e0-f991-473f-b53e-efc2d9a57835</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1163924855839">SSPD_Chapter 1_Part 12_ Quantum Mechanical Interpretation of Resistance in a conductor.</para>
+    <para id="id1163925622756">1.12. SCATTERING OF CONDUCTING ELECTRONS AND RESISTIVITY OF SOLIDS.</para>
+    <para id="id1163929052163"><emphasis effect="bold"/>Here we are dealing with a 3-D orderly configuration of atoms arranged as a single crystal of infinite dimensions. We have already seen that electron has all the properties of light wave namely: Bragg reflection, refraction , interference and diffraction. Therefore scattering of electrons cannot be understood in a classical manner.</para>
+    <para id="id1163929430498">Liquid state of matter causes fifty times more scattering of electron as compared to the gaseous state of matter where as liquid is thousand times more dense. Therefore extent of scattering does not depend on the density of scattering centers but on the disorderly arrangement of the scattering centers. Here it will be proper to point out as to exactly what the difference is between scattering and reflection.</para>
+    <para id="id1163925545431">A smooth plane reflects light whereas a rough plane scatters light. In reflection the angles of incidence are identical hence angles of reflection are identical. As a result the total incident beam of light is reflected. In a rough plane, the constituent rays of the light beam are reflected in different directions since the angles of incidence are different for different rays. This is known as scattered light. These two phenomenon are shown in Figure(1.68). </para>
+    <figure id="id1163927038230">
+      <media id="id1163927038230_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-cb80.png" id="id1163927038230__onlineimage" height="354" width="620"/>
+      </media>
+    </figure>
+    <para id="id1163926676219"/>
+    <figure id="id1163927637977">
+      <media id="id1163927637977_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-f62a.png" id="id1163927637977__onlineimage" height="329" width="579"/>
+      </media>
+    </figure>
+    <para id="id1163926675324">Figure 1.68. Reflection and Scattering.</para>
+    <para id="id1163929397724">Electron is a matter wave probability amplitude matter wave. In 3-D orderly crystalline solid the propagation of electron causes the interaction with and vibration of all the intervening lattice centers. The lattice centers become the emitters of secondary wavelets.</para>
+    <para id="id1163928868374">The secondary wavelets interfere and propagate forward in the direction of constructive interference.</para>
+    <list id="id1163926962404" list-type="enumerated" number-style="lower-alpha">
+      <item>If the crystal is at 0 Kelvin then there is no thermal vibration. Also assume that there are no crystal defects and that there are no impurities.</item>
+      <item>Also the crystalline lattice in not bounded by surfaces and is infinite in the three directions.</item>
+      <item>Also electrons are in the outer partially filled conduction band well removed from the upper edge of the conduction band.</item>
+    </list>
+    <para id="id1163927506525">If all these conditions are fulfilled then the direction of constructive interference will be the direction of incidence and electron will propagate forward as if there is no obstacle in its path. The first impulsive energy will sustain the electron in a straight line propagation path with uniform velocity with no dissipation of energy. This propagation will continue for infinite time and till infinite distance. This is exactly as Newton had predicted about the inertness of bodies: A body at rest will continue to be at rest and a body in motion will continue to be in motion in a straight line with an uniform velocity unless made to act otherwise by the application of force.</para>
+    <para id="id1163926063366">This is what is more popularly known as SUPERCONDUCTIVITY.</para>
+    <para id="id1163928195126">Near the upper edge of the conduction band, electrons will suffer Bragg Reflection and this will be decided by the direction of orientation of the lattice plane from where the specular reflection takes place.</para>
+    <para id="id1163933446448">Lattice thermal vibration or/and lattice defects or/and lattice impurities cause the disorderliness and this disorderliness leads to change of direction of propagation or the change of direction of constructive interference. This change of direction is called scattering of electron. The change of direction is random and the distance over which this happens is statistically varying . The mean distance over which a straight line motion is maintained before scattering occurs is called the mean free path and the mean time taken to cover the mean free path is called mean-free time. The electron scattering within a real crystalline lattice which suffers from all defects and imperfections and which is at Room Temperature has been illustrated in Figure(1.69).</para>
+    <figure id="id1163929882589">
+      <media id="id1163929882589_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-637e.png" id="id1163929882589__onlineimage" height="392" width="578"/>
+      </media>
+    </figure>
+    <para id="id1163928030889">
+      <figure id="id1163927030501">
+        <media id="id1163927030501_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-43d2.png" id="id1163927030501__onlineimage" height="499" width="606"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163929504090">Figure 1.69. Scattering Phenomena of electron in a real crystalline lattice where lattice thermal vibration, lattice defect, lattice impurities and lattice boundaries are present.</para>
+    <para id="id1163925666860">This scattering of electron does not depend on the density of lattice centers but on the degree of disorderliness of the lattice centers and this degree of disorderliness depends on thermal vibration, lattice defects and lattice impurity density.</para>
+    <para id="id1163926654462">By increasing the temperature, the amplitude of lattice thermal vibrations is increased ;</para>
+    <para id="id1163925524885">During the growth of the crystal, lattice defects are increased;</para>
+    <para id="id1163925716218">During doping and diffusion, impurities are introduced in the crystal.</para>
+    <para id="id1163927928287">All these factors contribute towards disorderliness which in turn contribute towards the scattering of the conduction electrons. It is this scattering which creates resistance in a conducting solid. There are two parameters which describe the scattering phenomena:</para>
+    <para id="id1163927767034">Mean free path(&lt;l&gt;) and mean free time(τ).</para>
+    <para id="id1163923471449">As seen in Figure(1.69.b), at l<sub>1</sub>, l<sub>2</sub>, l<sub>3</sub>, l<sub>4</sub>,……..distances the direction changes. </para>
+    <para id="id1163933504457">Therefore mean free path:</para>
+    <para id="id1163927501141">
+      <emphasis effect="bold">&lt;l&gt;=[∑ l</emphasis>
+      <emphasis effect="bold">n </emphasis>
+      <emphasis effect="bold">]/N………………………………………… 1.100</emphasis>
+    </para>
+    <para id="id1163930050740">If the time taken is t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, t<sub>4</sub>, …. along the randomly varying paths then the mean free time:</para>
+    <para id="id1163925665479">
+      <emphasis effect="bold">τ = [∑t</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">]/N……………………………………………… 1.101 </emphasis>
+    </para>
+    <para id="id1163927993649">
+      <emphasis effect="bold">And &lt;l&gt;/τ = average thermal velocity= v</emphasis>
+      <emphasis effect="bold">thermal</emphasis>
+      <emphasis effect="bold"> ………………………. 1.102</emphasis>
+    </para>
+    <para id="id1163931015208">By Equipartition Law of Energy, every degree of freedom has an average thermal energy = (1/2)kT. Since conducting electron has three degrees of freedom(x, y, z) hence the total average thermal energy of a conducting electron is equal to (3/2)kT.</para>
+    <para id="id1163925995689">
+      <emphasis effect="bold">Therefore (1/2)m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*</emphasis>
+      <emphasis effect="bold">.v</emphasis>
+      <emphasis effect="bold">thermal</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> = (3/2)kT ……………………………. 1.103</emphasis>
+    </para>
+    <para id="id1163924654745">Where k= Boltzman’s constant=1.38×10<sup>-23</sup>J/Kelvin = 8.62×10<sup>-5</sup>eV/Kelvin</para>
+    <para id="id1163927175004">And T is temperature at Kelvin scale. m<sub>e</sub><sup>* </sup>= effective mass of electron.</para>
+    <para id="id1163927124952"><emphasis effect="bold"/>Temperature in Celsius scale is added to 273 to obtain temperature in Kelvin Scale. The zero of Kelvin scale occurs at -273°Celsius. At this temperature i.e. at 0 Kelvin the amplitude of thermal vibrations of lattice centers is zero and if there is no lattice defect and no doping then we have a perfect orderly lattice which will behave like a superconductor. </para>
+    <para id="id1163928920170">1.12.1. Quantum Mechanical basis of Resistance in a conducting Solid. </para>
+    <para id="id1163923809873">An ideal crystal with no lattice defects, no dopents and at zero Kelvin temperature behaves like a superconductor. </para>
+    <para id="id1163937637870">In a normal metal, resistance is always present.</para>
+    <para id="id1163927972027">Let us consider a cylindrical metal of length L cm and A(cm)<sup>2 </sup>cross-sectional area. A potential difference of V volts is applied across it as shown in Figure(1.70).</para>
+    <para id="id1163926063681">The electric field along the longitudinal axis is:</para>
+    <para id="id1163929426666">
+      <emphasis effect="bold">ε = (V/L) Volt/meter …………………………………….. 1.104 </emphasis>
+    </para>
+    <figure id="id1163925777408">
+      <media id="id1163925777408_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-c812.png" id="id1163925777408__onlineimage" height="424" width="623"/>
+      </media>
+    </figure>
+    <para id="id1163925610234">
+      <figure id="id1163926859269">
+        <media id="id1163926859269_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-4932.png" id="id1163926859269__onlineimage" height="329" width="609"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163929558096">
+      <emphasis effect="bold">Figure 1.70. Electron drift in z direction(longitudinal axis of the cylinder) after the application of the z-axis electric field.</emphasis>
+    </para>
+    <para id="id1163927030299">According to Kinematics, the electric field is applied in z direction. This will cause an acceleration in [-z] direction since electron is negative. This acceleration will continue until the electron gets scattered. At the point of scattering all the kinetic energy of the electron is imparted to the lattice and the electron starts anew from zero velocity. Since this is an statistical phenomena hence acceleration time periods are t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, t<sub>4</sub>,…… and the terminal velocities are v<sub>t1</sub>, v<sub>t2</sub>, v<sub>t3</sub>, v<sub>t4</sub>,…………… Acceleration time periods </para>
+    <para id="id1163927582031">t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, t<sub>4</sub>,…… are the same as the transit periods along the randomly changing straight line segments as defined in Eq.(1.100)</para>
+    <para id="id1163927667425">From kinematics: v<sub>tn </sub>= u+at<sub>n</sub></para>
+    <para id="id1163929394649">
+      <emphasis effect="bold">where a = acceleration= F/m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">* = qε/ m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">* = q(V/L)/ m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">* ………………………………. 1.105</emphasis>
+    </para>
+    <para id="id1163931301699">
+      <emphasis effect="bold">But u= initial velocity = 0 therefore v</emphasis>
+      <emphasis effect="bold">tn </emphasis>
+      <emphasis effect="bold">= at</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> = (qε/ m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*) (t</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">)………………………….. 1.106</emphasis>
+    </para>
+    <para id="id1163928307691">Therefore the average drift velocity over n<sup>th</sup> acceleration period is:</para>
+    <para id="id1163927642775">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1163929537655">
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">n </emphasis>
+      <emphasis effect="bold">= (v</emphasis>
+      <emphasis effect="bold">tn </emphasis>
+      <emphasis effect="bold">+ 0)/2</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">= (qε/ 2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*) (t</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">)………………………….. 1.107</emphasis>
+    </para>
+    <para id="id1163925650642">Suppose during the flow of current from one end to the other, a given electron undergoes N scattering. This means it undergoes N acceleration periods. </para>
+    <para id="id1163927049793">The average drift velocity during N periods of acceleration which occur during the flow of the current is:</para>
+    <para id="id1163929551218">v<sub>drift </sub>= [∑<sub/>v<sub>n</sub>]<sub/>/N = [∑<sub/>(qε/ 2m<sub>e</sub>*) (t<sub>n</sub>)]/N</para>
+    <para id="id1163925571035">Therefore v<sub>drift </sub>= (qε/ 2m<sub>e</sub>*)[∑(t<sub>n</sub>)]/N</para>
+    <para id="id1163929451932">
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">drift </emphasis>
+      <emphasis effect="bold">= (qε/ 2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*)τ = (q τ / 2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*).ε ……………………………… 1.108</emphasis>
+    </para>
+    <para id="id1163927703921">where τ = [∑(t<sub>n</sub>)]/N= mean free time as defined in Eq.(1.101) and</para>
+    <para id="id1163929267440">μ<sub>n </sub>= electron mobility = (q τ / 2m<sub>e</sub>*)</para>
+    <para id="id1163928875365">This relation was used to determine the electron mobility in Table 1.11, Part 11.</para>
+    <para id="id1163926981629">Now under low drift velocity condition, drift velocity varies directly as the applied field ε and the constant of proportionality is known as the drift mobility(μ (cm<sup>2</sup>/(v-sec)) as shown in Figure 1.72.</para>
+    <para id="id1163929460821">
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">drift </emphasis>
+      <emphasis effect="bold">= (q τ/ 2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*) ε =μ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> ε ………………………………………. 1.109</emphasis>
+    </para>
+    <para id="id1163927668113"/>
+    <para id="id1163927365178">Current density =J= number of Coulombs/second</para>
+    <para id="id1163926933331">Therefore J=-q×number of electrons flowing through unit cross-sectional area per second. </para>
+    <para id="id1163927642950">If we assume that there is no diffusion of mobile carriers and we only have electric drift of the mobile carriers then number of electrons flowing through unit cross-sectional area per second=(1cm<sup>2</sup>)(v<sub>drift</sub>)(n) </para>
+    <para id="id1163925892115">where n= number of conducting electrons per unit (cm)<sup>2</sup></para>
+    <para id="id1163926865583">and v<sub>drift </sub>= drift velocity of electrons;</para>
+    <para id="id1163925710859">
+      <emphasis effect="bold">Therefore J= (q.v</emphasis>
+      <emphasis effect="bold">drift</emphasis>
+      <emphasis effect="bold">.n) Coulombs/(sec-cm</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">) ………………………………… 1.110</emphasis>
+    </para>
+    <para id="id1163929396305">
+      <emphasis effect="bold">Or J = q.µ.ε.n =σ.ε……………………………………………………..    1.111</emphasis>
+    </para>
+    <para id="id1163928887924">Where σ(conductivity) = 1/ρ(resistivity)</para>
+    <para id="id1163927983995">J = q.µ.ε.n =σ.ε</para>
+    <para id="id1163925603086">Or J = I/A = (1/ρ)×(V/L)</para>
+    <para id="id1163925867940">
+      <emphasis effect="bold">Therefore V/I = R = (ρL)/A→ Ohm’s Law. ……………………………….. 1.112</emphasis>
+    </para>
+    <para id="id1163929378865">In Eq.(1.109) , we find that drift mobility is directly dependent on the mean free time between two consecutive scatterings. Mean free time (τ) is dependent on scattering. Larger is the perturbation in the lattice network from the ideal lattice more frequent will be the scattering and hence shorter will be the mean free time. As the perturbation from the ideal condition or the disorderliness is reduced, so will the scattering phenomena be reduced and mean free time will become longer. Under ideal condition there will be no scattering and mean free time will become infinite. Here the mobility becomes infinite , conductivity becomes infinite and resistivity becomes zero. This is a superconductor. Here once an electron gets an impulsive push it continues to travel in a straight line for infinite distance and for infinite time without any energy dissipation. Hence initial kinetic energy imparted by the impulsive push is conserved forever by the conducting electron. This is tantamount to a current flow in a close loop superconductor without any battery connected to the circuit.</para>
+    <para id="id1163929578910">In a normal conductor even with no battery connected, the mobile carriers are undergoing random motion with no net displacement. When an electric field is applied then superimposed on this random motion there is a net displacement of electrons in the opposite direction to the electric field. This has been shown in Figure(1.71). The net displacement is given by ΔL in time Δt.</para>
+    <figure id="id1163925517758">
+      <media id="id1163925517758_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-1b2c.png" id="id1163925517758__onlineimage" height="464" width="531"/>
+      </media>
+    </figure>
+    <para id="id1163928262817">As can be seen in Figure 1.71 electron is undergoing continuous random motion under the influence of thermal energy. As temperature increases electrons become more restless and start meandering along more zig zag path but they never make a net displacement in any direction as shown by ‘thin line’ zig zag path. But as an electric field(ε) is applied in – z direction, electron follows bolder line and as seen in Figure 1.71 it experiences a net displacement of ΔL in +z direction in Δt. </para>
+    <para id="id1163927509775">ΔL/Δt = average drift velocity = v<sub>drift</sub> = µ<sub>n</sub>ε ;</para>
+    <para id="id1163927295607">In 1911, Kamerling Ons detected superconductivity and superfluidity in solid mercury at 4.3Kelvin.</para>
+    <para id="id1163929561976">In 1962 a Russian Scientist was awarded the Nobel Prize in Physics for his study on superfluidity and superconductivity in liquid Helium at 4Kelvin.</para>
+    <para id="id1163923637028">In 1987 Karl Alex Muller and Bednorz of Germany were awarded the Nobel Prize for discovering the superconductivity in ceramic Yettrium Barium Copper Oxide [Y<sub>1</sub>Ba<sub>2 </sub>(CuO)<sub>3 </sub>] at liquid Nitrogen temperature 77Kelvin. Bednorz was a research student under Muller at that time. </para>
+    <para id="id1163926670092">Before we leave this Chapter on mobility and resistance it will be appropriate to introduce the reader to the concept of two kinds of mobilties:</para>
+    <para id="id1163923306883">First kind μ<sub>lattice </sub>due to the scattering caused due to lattice thermal vibration and it is temperature dependent;</para>
+    <para id="id1163927528392">Second kind μ<sub>impurity </sub>due to the scattering caused due to the dopents and/or crystalline defects;</para>
+    <para id="id1163929053668">At liquid Helium temperature that is at less than 4Kelvin there is no scattering due to thermal vibrations but scattering due to impurity and/or crystal defect persist. Therefore semiconductors never become superconductors. Even at 0Kelvin residual resistivity persists due to impurity and/or crystal defect.</para>
+    <para id="id1163930973965">So the effective mobility is given by the following reciprocal relationship:</para>
+    <para id="id1163925532385">
+      <emphasis effect="bold">1/ μ =1/ μ</emphasis>
+      <emphasis effect="bold">lattice </emphasis>
+      <emphasis effect="bold">+ 1/ μ</emphasis>
+      <emphasis effect="bold">impurity</emphasis>
+      <emphasis effect="bold"> …………………………………….. 1.113</emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1163929546084">The quantum-mechanical model of electron scattering , which has been presented in this chapter is valid only when drift velocity is much lower than the thermal velocity. When we reach high Electric Field region, the electric energy is directly transferred to the crystalline lattice and the drift velocity saturates at Scatter Limited Velocity as shown in Figure(1.72). The Scatter Limited Velocity is 10<sup>7 </sup>cm/sec for Silicon and it can be derived from the following relation:</para>
+    <para id="id1163927291458">
+      <emphasis effect="bold">(1/2)(m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*)(v</emphasis>
+      <emphasis effect="bold">scatter limited</emphasis>
+      <emphasis effect="bold">)</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">= (1/2)(m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*)(v</emphasis>
+      <emphasis effect="bold">thermal</emphasis>
+      <emphasis effect="bold">)</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">= (3/2)kT……………………………. 1.114 </emphasis>
+    </para>
+    <figure id="id1163924843982">
+      <media id="id1163924843982_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-45c6.png" id="id1163924843982__onlineimage" height="367" width="601"/>
+      </media>
+    </figure>
+    <para id="id1163929418673">Figure 1.72. In high electric field region the drift velocity saturates at scatter limited velocity. </para>
+    <para id="id1163925818186"><emphasis effect="bold"/>The Quantum Mechanical perspective tells us that electron is not impeded by the lattice centers. If the lattice centers are perfectly orderly at 0Kelvin then electron if imparted an impulsive energy will acquire a finite kinetic energy and with this KE it will continue to travel in a straight line through the crystalline lattice till infinity. What impedes the flow and causes the loss of KE is not lattice centers per se but the disorderliness of the lattice center network. This is the reason why Graphene is working out to be a wonder material with a very large drift mobility. Graphene is a sheet of orderly arrangement of hexagonal structure which is unperturbed or unbroken over large distances hence mean free path in Graphene is of the order of micrometers as compared to the mean free path in GaAs where it is of the order of a fraction of micrometer.</para>
+  </content>
+</document>

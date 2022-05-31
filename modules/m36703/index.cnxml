@@ -1,0 +1,728 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 6. IC Fabrication Technology from 60s to date_Part 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36703</md:content-id>
+  <md:title>Chapter 6. IC Fabrication Technology from 60s to date_Part 1</md:title>
+  <md:abstract>Part_1 of Chapter_6 of SSPD deals with the fabrication steps of Motorola First Generation Operational Amplifier IC Chip MC-1530. This was the first analog IC Chip introduced in 1965. Until then only RTL and DTL chips were in market.</md:abstract>
+  <md:uuid>9583ee74-d153-4059-9239-5976da5a9589</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168959157579">CONTENTS</para>
+    <list id="id1168960398082" list-type="bulleted">
+      <item>Introduction.</item>
+      <item>Two Broad Categories of I.C.</item>
+      <item>Planar Fabrication Processes.<list id="id1168953796556" list-type="bulleted"><item>Epitaxial Diffusion Process.</item><item>Mounting on header and packaging.</item><item>Photolithography.</item></list></item>
+      <item>Fabrication of MC 1530.<list id="id1168969094046" list-type="bulleted"><item>Preparation of single crystal silicon wafer.</item><item>Thermal Oxidation.</item><item>Technology of LOCOS.</item><item>Wet etching vis-à-vis dry etching.</item><item>Poly-Si buffered LOCOS.</item><item>Buried Layer Diffusion.</item><item>Passivation.</item><item>Solid State Diffusion.<list id="id1168950949805" list-type="bulleted"><item>Constant Source Diffusion.</item><item>Limited Source Diffusion.</item><item>Diffusion Systems.</item><item>Buried Layer Diffusion.</item></list></item><item>N epitaxial layer growth on P substrate.<list id="id1168968410034" list-type="bulleted"><item>Epitaxial Layer Growth by Chemical Vapour Deposition(CVD).</item></list></item><item>P type Isolation Diffusion for electrical isolation of IC components.</item><item>P type Base diffusion.</item><item>N+ diffusion for Emitter and Collector Contact.</item><item><emphasis effect="bold">Aluminum Contact Pads and Aluminum Interconnections of IC components.</emphasis></item><item><emphasis effect="bold">Flow-Chart of the processing of MC-1530 </emphasis></item></list></item>
+    </list>
+    <para id="id1168962776057">
+      <emphasis effect="bold">Chpater 6. Integrated Circuit Design and Fabrication Technology</emphasis>
+    </para>
+    <para id="id1168963662418">
+      <emphasis effect="bold">Section (6.1) Introduction:</emphasis>
+    </para>
+    <para id="id1168957223737">In 1930 the band theory of solids was presented by F. Block, A. H. Wilson and others. This was the beginning of the science of semiconductor technology but for next 20 years no solid state device found any wide application in the field of Electronics Engineering. It was the invention of transistors by Bardeen, Brattain and Shockley (1948) that raised the stature and importance of Solid State Technology in the field of device fabrication. The American Multinational Electronic companies with their huge in-house Research and Development facilities made important break-through and remarkable innovations in Solid State Technology resulting in newer processes and techniques such as diffusion , ion-implantation, Deep Ultra-Violet Lithography, poly-Silicon emitter contact and low temperature epitaxial growth. Development of silicon and silicon based planar technology permitted the fabrication of transistors, diodes, capacitors, resistors, and their interconnections on a monolithic single crystal chip. Integrated Circuit (I. C.), technology helped microminiaturize complex electronic circuit, considerably cut down the power supply requirement, by dispensing away with wire interconnections reliability was considerably increased and by mass producing standardized chips the cost per chip was considerably reduced. Apart from these advantages, I. C. Technology gave very good temperature tracking of devices (active or passive) lying on same isothermal of the I.C. chip (temperature tracking results in favorable performance feature), gave matched transistors which are indispensable in I.C. design philosophy and gave higher speed by reducing the parasitic capacitances and by reducing the propagation delay. But I. C. technology limits the range of component values (resistors and capacitors) which can be monolithically realized and has no provision for close tolerance components and for inductors. The limited repertoire of component types and values put some constraint on the circuit designer. This constraint has been partly removed by the use of hybrid circuits and partly by a wider application of CMOS devices.. In hybrid circuits the I. C. chips are used in conjunction with thin film and thick film components which gives much greater flexibility to circuit designers especially in designing Analog Circuits (or linear/nonlinear circuits). In Analog circuits proliferation of I. C. technology has been much less because of lack of standardization in analog applications and because of very specialized requirements. Thin Film and Thick Film Technology afford much closer tolerances and much wider spectrum of component values.</para>
+    <para id="id1168960113879">In first phase of I. C. Technology where Photolithography was used, a resolution of 10 µm could only be achieved. This put a very low limit on the system complexity which could be integrated within the chip mainly because of a low packing density. Hence only circuits of a fair degree of complexity could be integrated. This was known as Small Scale Integration (S. S. I.).</para>
+    <para id="id1168959003712">But with the development of Deep Ultra Violet Lithography and Ion Beam Processing (such as Ion Beam Milling and Ion Implantation), which afford submicron resolution and with the development of MOS technology, much higher packing density has become physically realizable. This has greatly raised the limit on system complexity which can be Integrated. Now it is possible to integrate a fully functional block. This level of system complexity when integrated gives rise to Medium Scale Integration (MSI) chips, Large Scale Integration (LSI) chips and Very Large Scale Integration (VLSI) chips. </para>
+    <para id="id1168948126757">Examples of S.S.I., M.S.I., L.S.I. and V.L.S.I. are given in Table (6.1).</para>
+    <para id="id1168958241927">
+      <emphasis effect="bold">Table (6.1) SSI, MSI, LSI and VLSI/ULSI Chips.</emphasis>
+    </para>
+    <table id="id1168954639955" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>S S IQuad 2 inputSN 5400</entry>
+            <entry>M S IDecade CounterSN 5490</entry>
+            <entry>L S I1024-bit Shift register and 4K(4096 bit) memory elements</entry>
+            <entry>VLSI/ULSIIntel8086/Pentium IV</entry>
+          </row>
+          <row>
+            <entry>Chip area(sq. mils)1 mil=25 microns</entry>
+            <entry>3000</entry>
+            <entry>5750</entry>
+            <entry>-</entry>
+            <entry>½ cm x½ cm</entry>
+          </row>
+          <row>
+            <entry>Number of components</entry>
+            <entry>36</entry>
+            <entry>102</entry>
+            <entry>More than 100 gates</entry>
+            <entry>10<sup>5</sup> to40 million CMOS</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168971049652">The ultimate packing density achieved to this date (2011) is 1.3 billion devices in dual core Itanium 2 processors chip manufactured by INTEL. These are examples of Ultra Large Scale Integration (ULSI). LSI techniques have made possible small modern hand held calculations, microprocessor based microcomputers, powerful digital computers in relatively small sizes and the integration of much of the electronics within audio amplifiers and televisions sets.</para>
+    <para id="id2382376">As of 2005, a IC Chip fabrication foundry facility costs over $1 billion . It has the following features:</para>
+    <list id="id2054548" list-type="bulleted">
+      <item>Wafers are 300 mm diameter;</item>
+      <item>65nm technology is gradually being replaced by 45nm technology;</item>
+      <item>Deep Ultra Violet (193nm) immersion Lithography is being used;</item>
+      <item>Aluminum interconnects are being replaced by copper interconnects to overcome the problems associated with lateral scaling;</item>
+      <item>Low-K dielectric insulator is being used for the Cu-interconnects overlay surface so as to maintain a high velocity of prorogation;</item>
+      <item>Silicon on Insulator is being used to reduce the parasitic capacitances;</item>
+      <item>Strained Silicon directly on Insulator is being used for higher electron mobility in 2D channel.</item>
+    </list>
+    <para id="id1168947673648">The development of Liquid phase and Vapor phase epitaxy has made Gallium Arsenide technology commercially feasible. Metal Organic Chemical Vapor Deposition (MOCVD), a low cost technology, and Molecular Beam Epitaxy, Ultra high vacuum technology, are further developments in the direction of GaAs technology.</para>
+    <para id="id1168971311027">In Table (6.2) a comparative study of GaAs , Si and Graphene is made.</para>
+    <para id="id2207730">Table (6.2) A comparative study of GaAs, Si and Graphene.</para>
+    <table id="id1168947763610" summary="Here the bandgap in eV , mobility and intrinsic concentration has been given for each of the three semi-conductors.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Band Gap300K</entry>
+            <entry>Mobility of electrons300K_cm<sup>2</sup>/(V-sec)</entry>
+            <entry>Mobility of holes300K_cm<sup>2</sup>/(V-sec)</entry>
+            <entry>Intrinsic ConcentrationAt 300K(number/cc)</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>1.12eV(Indirect)</entry>
+            <entry>1500</entry>
+            <entry>600</entry>
+            <entry>1.45×10<sup>10</sup></entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>1.43eV(direct)</entry>
+            <entry>8500</entry>
+            <entry>400</entry>
+            <entry>9×10<sup>6</sup></entry>
+          </row>
+          <row>
+            <entry>Graphene</entry>
+            <entry>Zero-gap semiconductorOr semi-metal</entry>
+            <entry>200,000</entry>
+            <entry>No holes</entry>
+            <entry>10<sup>12</sup>/cm<sup>2</sup></entry>
+          </row>
+        </tbody>
+      
+</tgroup><caption>Comparative study of Silicon,Gallium Arsenide and Graphene</caption>
+</table>
+    <para id="id1168971342471">Table (6.2) A comparative study of GaAs, Si and Graphene.</para>
+    <para id="id1168951818993"> As seen from the table, mobility of electrons is five times higher in GaAs than in Si. Also ni (intrinsic concentration) is much lower in GaAs as compared to Si. Hence GaAs based I.C. chips are going to be five times faster than Si based I.C. chips and by proper dimension sealing very high packing density can also be achieved. Thus GaAs I.C.’s seen to hold very good promise for Gigabit/Gigahertz applications. Defense department of U.S.A. is going in a big way for GaAs based Very High Speed Integrated Circuits (VHSIC) which will realize real time signal processors for weapon systems of the next decade.</para>
+    <para id="id1168962651421">As seen from Table (6.2), Silicon has indirect band gap while GaAs has direct band gap. As a result, electron-hole pair recombination is accompanied with phonon emission in Si. That is direct transitions are non-radiative. Hence GaAs based systems are indispensible for Opto-Electric applications. Moreover by proper compensation of GaAs very high resistivity substrate 10^8 ohm-cm can be achieved which is directly applicable in Microwave Integrated Circuits (MIC).</para>
+    <para id="id1168968185334"> From Table (6.2), we also see that graphene will emerge as the material of the future. It is 2D carbon layer where carbon are bonded in honeycomb chicken net structure. It is a semi-metal or zero-gap semiconductor . Theoretically the mobility is very high at 200,000cm<sup>2</sup>/V-sec but in practice the substrate phonon scattering limits it to 20,000cm<sup>2</sup>/(V-sec). </para>
+    <para id="id1168959049685"> In the era of discrete component based Electronic Systems there were three distinct and non-interacting disciplines: device design, circuit design and system design. But with the advent of I.C. based Electronic Systems the traditional boundaries between the three disciplines have been obliterated. Today an electronic circuit designer or I.C. chip designer must be knowledgeable in semiconductor fabrication technology, in the physical electronics and circuit modeling of semiconductor devices and in the methods and techniques of circuit analysis and design. Thus a chip design must be aware of the constraints and opportunities of device technology and circuit theory as well as must have a sufficient knowledge of Systems Engineering so that he is aware of the requirements of the users of his products. By the same token the systems Engineer must be aware of the capabilities and limitations of the present day State of Art of I.C. technology and accordingly limit his requirements expected from I.C. functional blocks currently available in the market.</para>
+    <para id="id1168962086182">Today the system’s design is fully Computer-Aided Design. In Digital System Design, most complex systems can be described by Hardware Description Language and implemented on Field Programmable Gate Array. Similarly there are softwares for designing Analog and Mixed Signal Systems. </para>
+    <para id="id1168959191922">
+      <emphasis effect="bold">Section (6.2) Two Broad Categories of Integrated Circuits</emphasis>
+    </para>
+    <para id="id1168959040144">Integrated circuits broadly fall in two groups:</para>
+    <para id="id1168960311685">Monolithic Circuits and Hybrid Circuits.</para>
+    <para id="id1168958864082">A monolithic circuit is fully realized on a single silicon chip. Through Planar Fabrication Processes all circuit elements are simultaneously fabricated and interconnected on the same silicon chip. This monolithic implementation is very convenient for batch production hence is very suitable for low cost mass production. The range of passive component values, their tolerances and their temperature coefficients is more limited than with thin film processes but quite adequate for most digital circuits and some analog circuits. By CMOS technology, digital system as well as analog system implementation has been made feasible. CMOS enables the realization of resistances and capacitances by proper configuration of NMOS itself. If a greater variety of resistances are required then as is required in case of Active Filters we resort to switch-capacitor filter technique. This enables us to achieve a wide range of time-constants.In fact a large number of off-the-shelf-digital integrated circuits as well as numerous "custom" (special purpose) circuits for large-quantity production contracts are manufactured in this manner.</para>
+    <para id="id1168966907351">A hybrid circuit is essentially the marriage of monolithic technology and thin film technology realizing the best of both the technologies. Thin film technology and thick film technology offer greater design freedom with respect to physical realization of passive components, resistors and capacitors, in the sense that greater range of component values, closer tolerances and lower temperature coefficients can be achieved.</para>
+    <para id="id1168953682762">There are two variations of this hybrid technology. In one variation thin film or thick film passive components are realized on a suitable substrate (such as coming glass or ceramic) and these are interconnected among themselves and to the discrete active components (diodes and transistors) situated on the same substrate by metalized interconnecting patterns. Thus the complete working circuit is achieved on the same substrate. This is strictly known as hybrid circuit.</para>
+    <para id="id1168966469402">In another variation, the active components are formed within a silicon chip and the passive components pattern is deposited by thin film techniques on top of the silicon dioxide passivating layer covering the active circuit. These are known as compatible circuits which is an extension of monolithic art.</para>
+    <para id="id1168971532532">In this Chapter we will concentrate on the state of art of Monolithic Technology.</para>
+    <para id="id1168960111853">
+      <emphasis effect="bold">Section (6.3) Planar Fabrication Processes for Integrated Circuits</emphasis>
+    </para>
+    <para id="id1168971236658">In I.C. technology all the fabrication steps are performed at the surface of a silicon crystal and all contacts lie in one plane hence these processes are called Planar Fabrication Processes. Planar fabrication process consists of three routes for achieving monolithic circuits:</para>
+    <para id="id1168949262910">(a) The epitaxial diffusion process,</para>
+    <para id="id1168947901926">(b) The diffused-collector process, and </para>
+    <para id="id1168968686634">(c) The triple diffusion process.</para>
+    <para id="id1168954423566">Here we will describe epitaxial diffusion process which has become the standard method for fabricating IC Chips.</para>
+    <para id="id1168971171130"/>
+    <para id="id1168962267337">
+      <emphasis effect="italics">6.3.1 Epitaxial Diffusion Process:</emphasis>
+    </para>
+    <para id="id1168970630571">Epitaxial diffusion process consists of the following steps,</para>
+    <para id="id1168958954319">(a) preparation of single crystal silicon wafer,</para>
+    <para id="id1168959190421">(b) growth of epitaxial film over the silicon wafer,</para>
+    <para id="id1168952170948">(c) growth of silicon dioxide film,</para>
+    <para id="id1168947152100">(d) photo masking and photo etching ,</para>
+    <para id="id1168954612093">(e) impurity diffusion/ion implantation,</para>
+    <para id="id1168948039265">(f) vacuum evaporation of Aluminum.</para>
+    <para id="id1168953044976">Some of the above steps are employed more than once in the sequence. </para>
+    <para id="id1168951086394">
+      <emphasis effect="italics">6.3.2 Mounting on header and packaging.</emphasis>
+    </para>
+    <para id="id1168959961200">After these steps the wafer is scribed with a diamond-tipped scribing tool and separated into individual chips or dies. These individual silicon chips or dies are mounted on ceramic wafers by means of solder glass .The ceramic wafers are attached to suitable header by means of a high temperature eutectic solder . Or the die can be mounted in all ceramic flat package . Gold Wires only 0.001 inch in diameter are bonded from the circuit to the proper package leads by thermo-compression or ultrasonic bonding.</para>
+    <para id="id2451201">
+      <figure id="id1168973065015">
+        <media id="id1168973065015_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-517c.png" id="id1168973065015__onlineimage" height="383" width="551"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168963104359">The header is hermetically sealed by a suitable packaging material which is impervious to moisture and gas. The packaging should satisfy the following requirements :</para>
+    <list id="id1168954495677" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>It must be mechanically strong to withstand the stresses during use; </item>
+      <item>It should be small and of a shape which permits compact aggregation ;</item>
+      <item>It should provide easy electrical connections from inside circuit to the outside world;</item>
+      <item>It should keep parasitic inductance and capacitance to a minimum;</item>
+      <item>Electrical insulation of the chip and the leads with respect to header should be maintained and yet the thermal resistance from the chip to the ambient should be as low as possible;</item>
+      <item>The package must maintain an interior environment which is stable and congenial to the circuit;</item>
+      <item>And lastly the package is called upon to shield the circuit from light and occasionally from magnetic fields. In space applications even nuclear radiation shields are now feasible.</item>
+    </list>
+    <para id="id1168968424913">Two basics packages currently in wide use for I.C.’s are : new flat package and other is a multileaded TO-5 package . Flat packs can be mounted on both sides of a printed-circuit board whereas TO-5 packages can be mounted only on one side of PCB because of their plug in nature. Flat package gives advantages in compactness of 5 or 6 to 1. The two are illustrated in Fig.(6.2)</para>
+    <figure id="id2135156">
+      <media id="id2135156_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-6dc2.png" id="id2135156__onlineimage" height="367" width="570"/>
+      </media>
+    </figure>
+    <para id="id1168947738412">The six steps of Epitaxial Diffusion process will be briefly described and illustrated by actually going through the fabrication steps of MC 1530, the first generation of high performance operational amplifier marketed by MOTOROLA in mid-60’s.</para>
+    <para id="id1168954567006">The heart of Epitaxial Diffusion is the basic masking technique (or photolithography) which enables the selective impurity diffusion or ion implantation into silicon wafer and which enables to achieve a definite pattern of Aluminum interconnections according to the circuit requirement.</para>
+    <para id="id8285110">
+      <emphasis effect="italics">6.3.3 Photolithography:</emphasis>
+    </para>
+    <para id="id1168961439413">To fabricate a complete integrated circuit a set of photo masks are used in sequence. Each photo mask has a pattern according to the specific requirement of the step in which it is going to be used. Furthermore the image produced by each mask must properly align with the image of the preceding mask so that the sum total effect of all the masks results into the desired circuit.</para>
+    <para id="id1168965634460">Photo mask fabrication consists of the following steps:</para>
+    <list id="id1168951214819" list-type="enumerated" number-style="lower-roman">
+      <item>Preparation of Master Artwork:</item>
+    </list>
+    <para id="id1168968577213">The first artwork is prepared 200(×) the actual integrated circuit layout. This makes the preparation of the artwork convenient as well as accurate. The master artwork is cut on Rubylith by coordinatograph. Rubylith is Mylar laminate with a pealable opaque overlay. By cutting the overlay with a knife edge it may be removed to form clear areas in an opaque background.</para>
+    <list id="id1168968439871" list-type="enumerated" number-style="lower-roman">
+      <item>First reduction:</item>
+    </list>
+    <para id="id1168958802778">Once the initial artwork is prepared, the single image is reduced 20:1. This first reduction image must be an extremely accurate reproduction of the master artwork therefore the photography should be sharp.</para>
+    <list id="id1168954060814" list-type="enumerated" number-style="lower-roman">
+      <item>Printing of multiple array of images:</item>
+    </list>
+    <para id="id1168962111598">By a step and repeat camera, the first reduction image is contact printed at a point and then moved from that point to another point at an accurate spacing. This multiple printing continues until the desired array is achieved. By multiple-lens camera also this multiple array of images can be achieved.</para>
+    <list id="id2122129" list-type="enumerated" number-style="lower-roman">
+      <item>Final reduction:</item>
+    </list>
+    <para id="id1168951954684">The multiple images formed are then reduced to the final desired size by producing a microphotograph of the print from the step-and-repeat machine. The final reduction is 10:1 and sharpness of focusing has to be maintained.</para>
+    <para id="id1871628">There is nothing sacrosanct about the 200(×) magnification of the master artwork and 20:1 first reduction and 10:1 second reduction. There are many considerations which decide the magnification and the reduction ratio. Also the sequence of steps described above is not strictly followed in preparation of photo masks. The formation of multiple images may precede, coincide with or follow the final image reduction.</para>
+    <para id="id1168947264504">The set of photo masks required for the fabrication of MC 1530 are:</para>
+    <list id="id1168958861255" list-type="enumerated" number-style="arabic" mark-suffix=")">
+      <item>Mask for n<sup>+</sup> diffusion for buried layer;</item>
+      <item>Mask for p diffusion for isolation islands;</item>
+      <item>Mask for p diffusion for base and resistors;</item>
+      <item>Mask for n<sup>+ </sup>diffusion for emitter and collector contact;</item>
+      <item>Mask for aluminum contact windows;</item>
+      <item>Mask for interconnection aluminization;</item>
+    </list>
+    <para id="id6340260">These masks have been described in the sequence in which they will be used during actual fabrication. These masks are used to impart selectivity to different processes of fabrication by photo-resist process or photolithography.</para>
+    <para id="id3323234">The photoresist process consists of the following basic operation:</para>
+    <para id="id1168952171074">(1) A uniform layer of light sensitive photo resistive emulsion is coated over the wafer by a spinner machine.</para>
+    <para id="id1168960679078">(2) In a mask alignment and ultraviolet exposure machine, the photo-mask used, corresponding to the fabrication step in question, is correctly aligned with respect to the previous pattern on wafer. Next photo-mask is brought in intimate contact with photo resist layer and the photo resist layer is exposed to intense ultraviolet light for a given stipulated time through the photo-mask. The KPR layer is baked in an oven at 100°C to dry it. As the lateral feature size has decreased from generation to generation, so has the exposure method changed and the wavelength of the exposing light has been progressively decreased so as to satisfy the Rayleigh Equation. In 1997, 0.35µm Technology used 248 nm Deep Ultra Violet light. As we moved to 0.15µm Technology we used 193µm DUV light. Today as we adopt 0.045µm Technology we are using DUV 193 µm immersion Technique. The Contact Printing gave way to Proximity Printing and Proximity Printing gave way to Projection Printing. Today we are using Deep UltraViolet (193nm) Immersion Technique.[For detailed discussion see “Journey of IC Technolgy from micro to nano Era- Part 3”.]</para>
+    <para id="id1168962500578">(3) By photo resist developer, the image of the mask is developed in the photo resist layer . In positive photo resist the exposed layer gets removed leaving the wafer surface bare in those areas. In negative photo resist the unexposed layer remains soft and is dissolved away by the developer.</para>
+    <para id="id1168959181321">(4) By baking the wafers in baking oven at a given temperature for a given time, the remaining photo resist pattern on the wafer is fixed and becomes resistant to corrosive etches.</para>
+    <para id="id1168957644656">(5) Depending on the fabrication step, either SiO<sub>2 </sub>or Aluminum layer on the substrate (or wafer) is etched through the photo resist pattern carving out an identical pattern on the surface of the substrate. Hydrogen Flouride (HF) is used for etching SiO<sub>2</sub> and Sodium Hydroxide (NaOH) is used for etching Aluminum layer. Hydrogen Fluoride is highly corrosive and is stored in Teflon beaker. Teflon tweezers are used to handle the wafers and Teflon gloves have to be used by the worker to protect himself from Hydrogen Flouride.</para>
+    <para id="id1168971533740">(6) Next by stripper ,the hardened photo resist pattern is stripped and the wafer are<sub/>cleaned for the next fabrication step.</para>
+    <para id="id1168957557493">Photolithographic processes are illustrated in Fig (6.3)</para>
+    <para id="id2300780"><figure id="id1168967968774"><media id="id1168967968774_media" alt=""><image mime-type="image/png" src="../../media/Picture 1-6234.png" id="id1168967968774__onlineimage" height="190" width="342"/></media></figure><figure id="id1168959004534"><media id="id1168959004534_media" alt=""><image mime-type="image/png" src="../../media/Picture 2-aaf6.png" id="id1168959004534__onlineimage" height="203" width="331"/></media></figure>(a)Deposition of uniform layer of photo resist.  (b)Mask alignment and ultraviolet exposure. </para>
+    <para id="id1168947264237">
+      <figure id="id1168947755455">
+        <media id="id1168947755455_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-568e.png" id="id1168947755455__onlineimage" height="155" width="326"/>
+        </media>
+      </figure>
+      <figure id="id1168954667350">
+        <media id="id1168954667350_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-4116.png" id="id1168954667350__onlineimage" height="172" width="311"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168970917314">
+      <figure id="id1168962337971">
+        <media id="id1168962337971_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-65e5.png" id="id1168962337971__onlineimage" height="235" width="532"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168956993841">
+      <emphasis effect="bold">Figure 6.3. Different steps of Photolithographic Process.</emphasis>
+    </para>
+    <para id="id1168951641050">
+      <emphasis effect="bold">Section (6.4). The Fabrication Steps of MC1530. </emphasis>
+    </para>
+    <para id="id1168947162580">(all fabrication steps will be illustrated by figures at the end of this section )</para>
+    <para id="id1168968438908">
+      <emphasis effect="italics">6.4.1 Preparation of single crystal silicon wafer (This is already described in Chapter 2 of SSPD):</emphasis>
+    </para>
+    <para id="id1168970634400">A single crystal silicon of given type , of given conductivity , of high crystalline perfection and having very clean surfaces is the starting point of I.C. fabrication.</para>
+    <para id="id1168974382699"> The basic starting material is silicon in the highly pure form but polycrystalline. This high grade silicon is melted in a crucible. To this silicon melt a suitable n or p type impurity is added to impart the required type of conductivity. The maximum conductivity which can be imparted is limited only by the solubility of the desired impurity in silicon .A seed of single crystal (small, highly perfect and of desired crystallographic orientation) is immersed into the melt and gradually withdrawn .By this crystal pulling , a nearly perfect single crystal of about 1 inch. in diameter and 8 inches to 10 inch in length is pulled .The finished crystal ingot is frequently ground to an uniform diameter by center less grinding . By X-ray techniques, the crystal is correctly oriented according to crystallographic planes and then sawed into wafers using a diamond-impregnated blade .The wafers , after being sliced , are mechanically lapped on abrasive lapping machines (the abrasive being Al<sub>2</sub>O<sub>3</sub> or diamond) to the thickness required for I.C. which is 6 mil i.e 150 microns thick. The lapped wafers are then polished to a mirror finish with graded diamond polish, the final polish being done with quarter micron diamond paste .The lapping and polishing operations result into many surface imperfections on the wafers .These imperfections are removed by chemical and gas etching technique.</para>
+    <para id="id1168947248766">Table 6.3 Identity marks of the Wafer to identify its orientation and semiconductor type.</para>
+    <table id="id1168957912150" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>α(angle between primary and secondary flats)</entry>
+            <entry>Type</entry>
+            <entry>Orientation</entry>
+          </row>
+          <row>
+            <entry>45°</entry>
+            <entry>N</entry>
+            <entry>&lt;111&gt;</entry>
+          </row>
+          <row>
+            <entry>90°</entry>
+            <entry>P</entry>
+            <entry>&lt;100&gt;</entry>
+          </row>
+          <row>
+            <entry>180°</entry>
+            <entry>N</entry>
+            <entry>&lt;100&gt;</entry>
+          </row>
+          <row>
+            <entry>0°</entry>
+            <entry>P</entry>
+            <entry>&lt;111&gt;</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168951859007">For MOS fabrication, wafers with crystal orientation &lt;100&gt; are used. This helps achieve a lower threshold voltage. For BJT &lt;111&gt; orientation is preferred.</para>
+    <para id="id1168951269423">A single crystal wafer of high crystal perfection and surface cleanliness is obtained. For MC 1530 (or for that matter for any I.C.) we start with a p type silicon wafer which is 6 mil thick and has a resistivity (ρ) of 10 ohm-cm. This corresponds to a doping density of Na =1.4 x 10<sup>15</sup> (cm<sup>-3</sup>). The silicon wafer will be 200mm in diameter and may contain several hundred potential dies or chips each containing a complete integrated circuit. In 2010, the wafer size is being increased to 300mm as the circuit complexity increases. In Figure (6.4) a typical wafer with chequer-board pattern drawn on it is shown .The black square on the chequer board pattern represent the potential die or chip. In one run, hundreds of Si wafer are simultaneously processed and each of the wafers contains hundreds of I.C.Chips. This amenability of IC technology to batch production thereby leading to mass production of I.C. chips greatly reduces the cost per chip which is a big step in making the applications of I.C. chips universal and common place and allowing the I.C. based system to penetrate every sphere of life , such as optimizing the industrial processes on one hand and on the other liberating the housewives from mundane daily chore of household works for more useful and satisfying social works .Thus I.C. based systems are making electronics play progressively a more important , perhaps crucial , role in making a secure future of mankind .</para>
+    <figure id="id1168948146059">
+      <media id="id1168948146059_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-b62c.png" id="id1168948146059__onlineimage" height="206" width="352"/>
+      </media>
+    </figure>
+    <para id="id1168952594868">The resistivity of the p type substrate is kept very high (10 ohm-cm) because all the components on a single chip will be isolated from one another by being kept reverse biased with respect to the substrate . Since substrate is p type it will be kept at most negative potential “-V<sub>EE </sub>“. And the most positive potential of the circuit is “V<sub>CC</sub>”. Therefore maximum reverse potential with respect to substrate will be (V<sub>CC</sub>+V<sub>EE</sub>). Hence substrate breakdown voltage must be high and at the same time the parasitic coupling of each component to the substrate must be kept at a minimum so as to derive optimum high frequency performance out of the chip. Both these objectives are achieved by having high resistivity.</para>
+    <para id="id8676241">
+      <emphasis effect="italics">6.4.2 . Thermal oxidation :</emphasis>
+    </para>
+    <para id="id1168954634329">Next important fabrication step is thermal oxidation which enables the growth of a uniform thin skin of SiO<sub>2</sub> , approximately 3,000A<sup>o</sup> to 10,000A<sup>o </sup>thick (0.3 to 1 µm), over the clean silicon surface.</para>
+    <para id="id1168960717536">   3000×10<sup>-10</sup>m=0.3×10<sup>-6</sup> m= 0.3um(micro meter) = 300nm.</para>
+    <para id="id1168966286027">Silicon dioxide plays four important roles in I.C. fabrication namely acts as i. mask for diffusion, as ii.Gate Oxide in MOSFET, as iii. Field Oxide for electrically isolating the MOSFETs and for iv. passivation.</para>
+    <para id="id1168949729806">At 45nm technology, the mask is typically 100nm thick, Gate Oxide is 40nm thick, field Oxide is 200nm thick and passivation layer is 300nm thick.</para>
+    <para id="id1168952691848">SiO<sub>2</sub> layer for Masked diffusion or ion implantation – Most of the dopants or impurities commonly used for doping have very low diffusion coefficients in SiO<sub>2</sub> as a result even a long exposure to dopant (or impurity) atoms at high temperature no impurities penetrate SiO<sub>2</sub> . This property enables one to etch apertures of selected shape and size in SiO<sub>2</sub> layer by the use of photolithographic techniques and then the wafer is exposed to the diffusion at given temperatures for given time. Because of masking property of SiO<sub>2</sub> only selective diffusion through the aperture into Si wafer takes place. Thus by masked diffusion , using SiO<sub>2</sub> mask suitably, the conductivity properties of the wafer are modified in desired localized region in a controlled fashion.</para>
+    <para id="id1168947752843">  P type dopants (group III elements ) are boron(B), Aluminium (Al),gallium(Ga). Boron has very slow diffusion in SiO<sub>2 </sub>but rapid diffusion is Si whereas Gallium has rapid diffusion in both. On the other hand Aluminum has very low solid solubility in Si (maximum surface concentration is only 0.002 percent) therefore Al used only for ohmic contact pads. Hence in masked diffusion, <emphasis effect="underline">Boron is universally used as P type diffusant</emphasis>.</para>
+    <para id="id7198226">   N type dopants are Phosphorous (P) and Arsenic (As). Both are effectively masked by SiO<sub>2</sub> but ‘As’ has very low diffusion constant in Si. Therefore <emphasis effect="underline">Phosphorous is universally used as N type diffusant </emphasis>. B and P have nearly equal diffusion constants in Si and they both have very high solid solubility, permitting a high surface concentration.   </para>
+    <para id="id1168965362172">
+      <figure id="id1168951516448">
+        <media id="id1168951516448_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-87f5.png" id="id1168951516448__onlineimage" height="331" width="640"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168962784823"><emphasis effect="bold">[</emphasis>The silicon wafer loading area is always in the laminar hood. The laminar flow hood reduces dust and particulate matter in the air surrounding the wafers and minimizes contamination during wafer loading]</para>
+    <para id="id1168966309080">KINETICS OF GROWTH:</para>
+    <para id="id1168947899586">DRY OXIDATION</para>
+    <para id="id1168951465824">Si (solid) +O2 → SiO2(solid)</para>
+    <para id="id1168952895194">WET OXIDATION</para>
+    <para id="id1168974041257">Si(solid) +2H2O (steam) → SiO2 (solid) +2H2 ↑.</para>
+    <para id="id1168957856648">Dry Oxidation is much slower than Wet Oxidation as is evident from the Table 6.4 and Table 6.5.</para>
+    <para id="id1168951240269">
+      <emphasis effect="bold">Table (6.4) Oxide Growth (µm) versus temperature and time for dry oxidation for</emphasis>
+    </para>
+    <para id="id1168948584457">
+      <emphasis effect="bold">&lt; 1 0 0 &gt; crystal orientation.</emphasis>
+    </para>
+    <table id="id1168950959374" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Temp</entry>
+            <entry>800<sup>o</sup>C</entry>
+            <entry>900<sup>o</sup>C</entry>
+            <entry>1000<sup>o</sup>C</entry>
+            <entry>1200<sup>o</sup>C</entry>
+          </row>
+          <row>
+            <entry>Time (hr)</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>0.3 hrs</entry>
+            <entry>-</entry>
+            <entry>-</entry>
+            <entry>0.023</entry>
+            <entry>0.094</entry>
+          </row>
+          <row>
+            <entry>1.0 hr</entry>
+            <entry>-</entry>
+            <entry>0.018</entry>
+            <entry>0.05</entry>
+            <entry>0.195</entry>
+          </row>
+          <row>
+            <entry>3.0 hrs</entry>
+            <entry>0.013</entry>
+            <entry>0.038</entry>
+            <entry>0.10</entry>
+            <entry>0.350</entry>
+          </row>
+          <row>
+            <entry>10.0 hrs</entry>
+            <entry>0.03</entry>
+            <entry>0.087</entry>
+            <entry>0.23</entry>
+            <entry>0.680</entry>
+          </row>
+          <row>
+            <entry>30.0 hrs</entry>
+            <entry>0.065</entry>
+            <entry>0.10</entry>
+            <entry>0.40</entry>
+            <entry>1.100</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168973327287">
+      <emphasis effect="bold">Table (6.5) Oxide Growth (µm) versus temperature and time for wet oxidation for</emphasis>
+    </para>
+    <para id="id1168967957425">
+      <emphasis effect="bold">&lt; 1 0 0 &gt; crystal orientation.</emphasis>
+    </para>
+    <table id="id2324443" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Time (hr)</entry>
+            <entry>900<sup>o</sup>C</entry>
+            <entry>1050<sup>o</sup>C</entry>
+            <entry>1250<sup>o</sup>C</entry>
+          </row>
+          <row>
+            <entry>0.3 hrs</entry>
+            <entry>-</entry>
+            <entry>0.27</entry>
+            <entry>0.54</entry>
+          </row>
+          <row>
+            <entry>1.0 hr</entry>
+            <entry>0.23</entry>
+            <entry>0.55</entry>
+            <entry>1.00</entry>
+          </row>
+          <row>
+            <entry>3.0 hrs</entry>
+            <entry>0.45</entry>
+            <entry>0.95</entry>
+            <entry>1.80</entry>
+          </row>
+          <row>
+            <entry>10.0 hrs</entry>
+            <entry>0.93</entry>
+            <entry>1.80</entry>
+            <entry>3.50</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168947153251">This oxide layer is called thermal oxide and it uses a part of the silicon surface atoms . Hence 44% of SiO2 layer is below the silicon surface and 56% above the original silicon surface as shown in Figure 6.9.</para>
+    <para id="id1168947249170"> Temperatures of 1000<sup>o</sup>C and 1 hour thermal oxidation time are the typical oxidation parameters. Where thick layer (0.5 µm or 500nm thick) of SiO<sub>2</sub> required one goes for WET OXIDATION and where thin layer (30 nm-100nm) accurately controlled is required there we go for DRY OXIDATION.</para>
+    <para id="id1168948062026">(1) Dry oxidation is slow but gives UNIFORM , RELATIVELY FREE FROM DEFECTS and ELECTRICALLY STABLE thin layer (30 nm to 100 nm) as required in MOSFET Fabrication . MOSFET requires insulating gate oxides(5 to 50 nm thick) and it requires 200 nm thick field oxide.</para>
+    <para id="id1168960222120"> Initially because of instability and latch - on problems of MOSFET , high packing density which is afforded by MOS circuits was technically unfeasible. Eventually oxide was doped with phosphorous and P glass achieved . This anode P glass is impervious to Na<sup>+</sup> ions migrations and MOSFET was stabilized. This led to the development of VLSI and ULSI fabrication. (Andy Grove of Intel fame had an important role in developing the MOS Technology).</para>
+    <para id="id1168947736004">(2). Wet oxidation- This is carried out in steam ambient and as it is clear from the Table (6.4) it accelerates the growth rate of SiO<sub>2 </sub>but it is not as free from microscopic defects as is dry thermal oxides. Hence wet Thermal Oxides is primarily used as MASKS Application during diffusion and wet oxides are also used as Field Oxides.</para>
+    <para id="id3231355">In both types of thermal oxide, interface (Si/SiO<sub>2</sub>) trap densities are minimized.</para>
+    <para id="id1168965348930">The oxidation is carried out in oxidation furnace as shown in Figure (6.5) where loading of the wafers is done in Laminar Flow Hood. This minimizes contamination and dust particles on wafer surface.</para>
+    <para id="id1168953682113">The oxidation temperature is 900<sup>0</sup> to 1200<sup>0</sup>C and the typical gas flow rate is 1 cm/sec. The oxidation system uses microprocessors to regulate the gas flow sequence, to control the automatic insertion and removal of silicon wafers, to ramp the temperature up (i.e. to increase the furnace temperature linearly from a low to the oxidation temperature so that wafers will not wrap due to sudden temperature change), to maintain the oxidation temperature to within ±1<sup>0</sup>C and ramp the temperature down when oxidation is completed. </para>
+    <para id="id1168972936989">Initially the growth rate over a fresh silicon surface is reaction controlled since for thin layer the growth is decided by the reaction rate of reacting Si and O<sub>2</sub>. </para>
+    <para id="id1168954102804">In Reaction Controlled Oxidation</para>
+    <para id="id1168966453750">x =<figure id="id1168953653955"><media id="id1168953653955_media" alt=""><image mime-type="image/png" src="../../media/graphics3-c436.png" id="id1168953653955__onlineimage" height="42" width="11"/></media></figure> (t + T) - linear law (1) </para>
+    <para id="id1841377">B/A = linear rate constant.</para>
+    <para id="id1168951334484">Where A, B and T are constants </para>
+    <para id="id1168951078400">X= thickness of oxide, t = time of oxidation.</para>
+    <para id="id1168947755709">Definition of thin layer is: X &lt;&lt; A/2</para>
+    <para id="id1168971219530"><figure id="id1168970941038"><media id="id1168970941038_media" alt=""><image mime-type="image/png" src="../../media/graphics4-9941.png" id="id1168970941038__onlineimage" height="48" width="72"/></media></figure> &lt;&lt;1 - (2)</para>
+    <para id="id1168953957994">  When oxide layer is thick i.e. X &gt;&gt; A/2 (long duration oxidation)</para>
+    <para id="id1168952444862"><figure id="id1168947910475"><media id="id1168947910475_media" alt=""><image mime-type="image/png" src="../../media/graphics5-6274.png" id="id1168947910475__onlineimage" height="49" width="151"/></media></figure> then X =<figure id="id1168953044996"><media id="id1168953044996_media" alt=""><image mime-type="image/png" src="../../media/graphics6-e985.png" id="id1168953044996__onlineimage" height="27" width="75"/></media></figure> → parabolic law of growth (3)</para>
+    <para id="id1168970474523">Here the rate is parabolic and B = parabolic constant .</para>
+    <para id="id1168947738166">Because of initial linear law of growth and finally parabolic law of growth during oxidation over a silicon surface with an initial oxide step , the step gets invisible and after long oxidation duration we get a smooth plane surface as shown in the Figure (6.6).</para>
+    <para id="id1168952767809">This is very desirable feature for I.C fabrication because metallic inter connection are over the oxide surface covering the chip . The removal of undulations by long duration oxidation makes metallic interconnection reliable and of uniform strengths .</para>
+    <figure id="id1168962787233">
+      <media id="id1168962787233_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-41b1.png" id="id1168962787233__onlineimage" height="423" width="482"/>
+      </media>
+    </figure>
+    <para id="id1168953832782">
+      <emphasis effect="bold">Figure 6.6. Over the total fabrication cycle the linear and parabolic law compensate each other to provide a planar oxide surface which is ideal for depositing Al layer and etching out the interconnections.</emphasis>
+    </para>
+    <para id="id1168947909180">By putting the wafer in oxidation furnace we get an uniformly thick oxide layer. </para>
+    <para id="id1168948905602">Typical furnace cycle is 15 minutes at 900°C in an H<sub>2</sub>O ambient. This produces 40nm thick oxide layer. The usual practice is to make H<sub>2</sub> and O<sub>2</sub> react in the back end of the furnace to produce steam for H<sub>2</sub>O ambient. This is a cleaner method for producing steam. </para>
+    <para id="id1168958266993">This same 40nm could be achieved by a furnace cycle of 45 minutes at 1000°C in dry oxidation ambient</para>
+    <para id="eip-180">Bruce Deal and Andy Grove developed linear-parabolic model for thermal oxidation. This is referred to as Deal-Grove model. It is used in SUPREM software developed by Stanford for process simulation.</para><para id="id1168957294275">Often we need a local thick oxide layer as is the case in CMOS technology. This thick local oxide layer is called field oxide and it helps electrically isolate two adjacent MOS devices. This thick local oxide layer is achieved by a technique called LOCOS (LOCal Oxidation of Silicon).</para>
+    <para id="id6430222">
+      <emphasis effect="italics">6.4.3 .Technology of LOCOS</emphasis>
+    </para>
+    <para id="id1168948157124">As shown in Figure (6.7), 40 nm thick Oxide Layer is grown in Oxidation furnace and in a second furnace  80 nm thick Silicon Nitride layer is grown by Low Pressure Chemical Vapour Deposition (LPCVD) method.</para>
+    <para id="id1168965842525">4NH<sub>3</sub> + SiH<sub>4</sub> = Si<sub>3</sub>N<sub>4</sub> ↓ + 12H<sub>2</sub>↑</para>
+    <para id="id1168965204811">This reaction is carried out at 800ºC below atmospheric pressure. This helps a better uniformity of deposited films over large lots of wafers.</para>
+    <para id="id1168971329343">Si3N4 is covered by KPR and exposed through a suitable mask. We use positive KPR so that exposed portion remains soft and it is dissolved by the developer. The portion where local oxidation is to take place there KPR is dissolved and the portion where no local oxidation is required there the KPR is retained and fixed. Through the aperture in KPR film, dry etching of Si3N4 is carried out in Fluorine Plasma Chamber. As the feature size has decreased due to lateral and vertical scaling we have moved from WET PROCESSING to DRY PROCESSING. </para>
+    <para id="id1168947232032">6.4.4 Wet etching vis-à-vis dry etching</para>
+    <para id="id1168964287980">Wet etching is chemical etching where etching takes place in vertical and lateral direction also as shown in Figure 6.8. This is known as undercutting and causes the resultant pattern to be of larger dimensions as compared to that on the mask. To avoid this as we move to smaller feature size we prefer dry etching which is also known plasma etching, sputter etching, reactive ion etching (RIE).</para>
+    <para id="id1168952345214">Wet etching is isotropic hence undercutting results but is selective. Dry etching is anisotropic hence there are vertical edges and the resultant pattern is an identical replica of the pattern on the mask but it is non-selective. Hence dry etching effects the mask as well as the underlying layer of the target. In actual practice a compromise has to be made between the two. This compromise is achieved in RIE. Here we have neutral reactive specie and ionized reactive specie. Neutral specie chemically reacts with the target and Ionized specie reacts physically with the target. So we achieve anisotropic etching and selectivity also. </para>
+    <para id="id1168953075937">Si3N4 is etched out as shown in the middle diagram of Figure 6.7. In the remaining portion Si3N4 acts like a shield to oxygen atoms and does not allow local oxidation. Once the desired apertures have been formed in Si3N4 layer the fixed KPR is stripped. Next the wafer is put in Oxidation furnace to create Field Oxide 500nm thick through a furnace cycle of 1000°C for 90 minutes in Steam ambient. Field Oxide is formed where underlying oxide pad is exposed to steam. Where Si3N4 is present, no oxidation takes place as shown in the bottom diagram. But we also see the growth of oxide layer underneath the Si3N4 layer at the periphery of oxide layer. This gives rise to Bird’s beak at the periphery. This means oxide grows locally over a larger area than what is defined by the mask. This encroachment by field oxide decreases the active device area hence adversely effects the device density. This problem can be solved by poly- buffered LOCOS process.</para>
+    <para id="id1168947755787">
+      <figure id="id1168959072745">
+        <media id="id1168959072745_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-5f4e.png" id="id1168959072745__onlineimage" height="438" width="570"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168948501240">
+      <emphasis effect="bold">Figure 6.7 Field Oxide Growth by LOCOS technique.</emphasis>
+    </para>
+    <figure id="id1168947909361">
+      <media id="id1168947909361_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-de23.png" id="id1168947909361__onlineimage" height="351" width="424"/>
+      </media>
+    </figure>
+    <para id="id1168964937576">6.4.5 Poly-buffered LOCOS</para>
+    <para id="id1168966015674">In poly-buffered LOCOS instead of SiO2/Si3N4 stack we use a three-layer stack of SiO2/PolySi/Si3N4.</para>
+    <para id="id1168954741647">Two stack process uses SiO2/Si3N4 ≡ 40nm/80nm.</para>
+    <para id="id1168972646008">Three stack process uses SiO2/PolySi/Si3N4 ≡ 20nm/ 100nm / 200nm.</para>
+    <para id="id1168953723214">SiO2 creates a positive stress and Si3N4 creates a negative stress. The two together create zero stress on the Silicon wafer. If the stress was not relieved during LOCOS then defects would be created in Si Wafer leading to low yield of good IC chips. </para>
+    <para id="id1168952061027">Thicker nitride and thinner pad oxide in three stack process provides less of a pathway for lateral diffusion of oxidant. Plus poly Si checks the lateral diffusion of oxidant by getting oxidized itself at the edges during LOCOS. This produces a much sharper transition between the oxidized and un-oxidized regions. This allows for tighter design rules and higher device density.</para>
+    <para id="id1168976085076">It is obvious the LOCOS produces non-planar interface between Si/SiO2 interface as shown in Figure 6.9. But this non-planar interface gets smoothened out after several runs of oxidation during fabrication. This has been shown in Figure 6.6</para>
+    <figure id="id1168948385835">
+      <media id="id1168948385835_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-3d9c.png" id="id1168948385835__onlineimage" height="193" width="710"/>
+      </media>
+    </figure>
+    <para id="id1168964432754">
+      <emphasis effect="bold">Figure 6.9. Non-planar Si/SiO2 interface as a result of LOCOS. The transition from Si to SiO2 is characterized by Bird’s Beak which has an adverse effect on Device Density.</emphasis>
+    </para>
+    <list id="id1168970903952" list-type="bulleted">
+      <item>Buried Layer Diffusion</item>
+    </list>
+    <para id="id1168949002274">In fabrication of MC 1530 the first masked diffusion consists of (n+) type diffusion to provide buried layered to the collectors of the transistors . n+ type region is a heavily doped region which will be subsequently sandwiched between n type epitaxial collector and p type substrate as shown in Fig.(6.10).</para>
+    <para id="id1168948573665">
+      <figure id="id1168976437410">
+        <media id="id1168976437410_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-41b4.png" id="id1168976437410__onlineimage" height="297" width="454"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168952441543">The buried N+ region has the effect of shunting the high resistance collector body region thereby reducing the series resistance (r<sub>sc</sub>) of the collector considerably. The reduction of r<sub>sc</sub> reduces V<sub>CE</sub> (sat) and increases the driving capabilities of the transistors.</para>
+    <para id="id1168954778620">  Now as will be seen , after buried layer diffusion there are several heat treatment steps such as epitaxial growth, several oxidation steps and three diffusion steps. In all these proceeding steps, n+ buried layer should not be redistributed or out diffuse and should remain “stay put ” .Because of this requirement of ‘stay put’, Arsenic is used as buried layer dopant as it has a very low diffusion coefficient.</para>
+    <para id="id1168949728752">
+      <emphasis effect="italics">6.4.7_Passivation</emphasis>
+    </para>
+    <para id="id1168962081607">Since the oxide layer is impervious to most contaminants that might influence the characteristics of a semiconductor, oxide layer serves as a protection for the semiconductor surface. The oxide layer is said to passivate the semiconductor surface. For this reason the oxide layer is regrown following each diffusion .</para>
+    <para id="id3266634">Now during masked diffusion impurities diffuse downward as well as laterally under the edge of the oxide as shown in Fig.(6.11) .</para>
+    <figure id="id1168969197752">
+      <media id="id1168969197752_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-9e18.png" id="id1168969197752__onlineimage" height="182" width="394"/>
+      </media>
+    </figure>
+    <para id="id1168953851589">Because of lateral diffusion, the p-n junction meets the surface of the chip under the oxide layer hence again passivation prevents device deterioration due to surface leakages .</para>
+    <para id="id1168948162880">Thermal oxidation of wafer surface is done in a diffusion furnace as shown in Figure 6.5. A diffusion furnace contains of a central quartz tube where in a 20 inch central zone a flat temperature profile at a given temperature is maintained within ± ½ <sup>o</sup> c stability. This permits the batch production of I.C’s because hundred of wafers within this 20 inch zone can be simultaneously processed resulting in a tolerance of ±5 to ±10% in diffusion profile. Wafers on a quartz boat are pushed in the central flat zone of the diffusion furnace where temperature is typically maintained between 900<sup>o</sup>c to 1200<sup>o</sup>c. An oxidant such as oxygen gas or steam is passed through the central tube at a given temperature for a given time as determined by the thickness of SiO<sub>2</sub>. By this process 7000<sup>o</sup>A thick SiO<sub>2</sub> layer is formed over the wafer. By the use of mask for n+ diffusion for buried layer, and photolithographic technique, suitable windows for buried layer diffusion i.e. for As diffusion are etched out.</para>
+    <para id="id1168958190695">Next fabrication step is masked diffusion of ‘As’ to form buried layers of the transistors used in MC 1530. Solid State Diffusion or selective diffusion of impurities into selected localized surface areas of the wafer is an integral part of I.C. technology. This can be achieved by ion implantation also.</para>
+    <para id="id1168947206052">
+      <emphasis effect="italics">6.4.8 Comments on Solid State Diffusion:</emphasis>
+    </para>
+    <para id="id1168947206057">After etching out the SiO<sub>2</sub> mask, the wafers are put in central flat zone of the diffusion furnace shown in Figure 6.14 where temperature is maintained between 800<sup>o</sup>c to 1200<sup>o</sup>c and inert gas (carrier gas) carrying the impurity compound vapour is passed through the furnace. The compound reacts with Si, releasing the dopant. The dopant atoms, dissolved in solid phase of Si, ionize and occupy the substitutional positions in the Si lattice (i.e. the positions of host atoms). The maximum surface concentration of the dopant is No which is determined by the solid solubility of the given dopant into Si. </para>
+    <para id="id1168947206086">
+      <emphasis effect="italics">6.4.8.1 Constant Source Diffusion (pre-deposition)</emphasis>
+    </para>
+    <para id="id1168947206092">As long as the partial pressure of impurity compound is maintained at a constant level, the surface concentration is maintained at Ns. The impurity atoms diffuse from the surface to the interior of the wafer resulting in a given impurity profile. The boundary condition in which diffusion is carried out with surface concentration of dopant held constant is known as <emphasis effect="bold">constant source diffusion</emphasis> and this results in complementary error function (erfc) distribution of the impurity in the wafer as shown in Fig.(6.12). </para>
+    <figure id="id1168947206113">
+      <media id="id1168947206113_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-24dd.png" id="id1168947206113__onlineimage" height="323" width="563"/>
+      </media>
+    </figure>
+    <para id="id1168947206127">(dopant profile) N(x) = N<sub>s</sub> erfc <figure id="id1168947206139"><media id="id1168947206139_media" alt=""><image mime-type="image/png" src="../../media/graphics7-bbd9.png" id="id1168947206139__onlineimage" height="33" width="45"/></media></figure> (6.1) </para>
+    <para id="id1168947206162">Where D=diffusion constant of the dopant</para>
+    <para id="id1168947206165">t = diffusion time</para>
+    <para id="id1168947206171">N<sub>s</sub>=surface concentration of the impurity.</para>
+    <para id="id1168947206183">This constant source deposition is known as pre-deposition. Pre-deposition is carried out with partial pressure of impurity compound high enough so that N<sub>s</sub>=N<sub>o</sub> (i.e. surface concentration in the wafer corresponds to solid solubility of the impurity in Si). Pre-deposition is carried out in cases where high doping concentration and shallow diffusion is desired.</para>
+    <para id="id1168947206209">6.4.8.2 Limited Source Diffusion (Drive-in)</para>
+    <para id="id1168947206212">For achieving lighter and deeper diffusion limited source diffusion is resorted to. In limited source diffusion, first through pre-deposition, a layer of impurities are deposited on the surface of the wafer. Suppose total number of impurities deposited is Q. Subsequently in an oxidizing ambient, at high temperature, the final diffusion is carried out. Here the oxidizing ambient forms SiO<sub>2</sub> which seals the impurities in the wafer and fixed quantity of impurities, Q, constitutes the limited source of dopant from which dopants diffuse deeper into the wafer .Hence this is called limited source diffusion or drive in and this results in Gaussian distribution of impurities in the wafer. The Gaussian dopant profile is given by the expression below and shown in Fig.(6.13):</para>
+    <para id="id1168947206229">N(x) = Q/<figure id="id1168947206237"><media id="id1168947206237_media" alt=""><image mime-type="image/png" src="../../media/graphics8-64c0.png" id="id1168947206237__onlineimage" height="25" width="40"/></media></figure> exp (<figure id="id1168947206254"><media id="id1168947206254_media" alt=""><image mime-type="image/png" src="../../media/graphics9-c984.png" id="id1168947206254__onlineimage" height="31" width="22"/></media></figure>) (6.2) </para>
+    <para id="id1168947206277">Where Q = total number of impurities on the surface of the wafer at the start of drive in.</para>
+    <figure id="id1168947206285">
+      <media id="id1168947206285_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-33e9.png" id="id1168947206285__onlineimage" height="373" width="593"/>
+      </media>
+    </figure>
+    <para id="id1168947206298">Limited Source Diffusion is also known as Drive in Diffusion. This is done where low surface concentration and deeper diffusion is desired. </para>
+    <para id="id1168947206306">The diffusion depth of dopant, which is a fraction of micron to about 10 µm, very critically depends on temperature and time. </para>
+    <para id="id1168958525092">Since D=D<sub>0</sub> exp<figure id="id1168976288954"><media id="id1168976288954_media" alt=""><image mime-type="image/png" src="../../media/graphics10-ca95.png" id="id1168976288954__onlineimage" height="31" width="35"/></media></figure>) (6.3)</para>
+    <para id="id1168953653773">D<sub>0</sub>, R are constants;</para>
+    <para id="id1168972658399">∆H = activation energy for the diffusion of an impurity,</para>
+    <para id="id1168954064578">T = temperature in K.</para>
+    <para id="id1168963495451">The critical influence of temperatures on the diffusion profile has forced the semiconductor industry to acquire extremely sophisticated furnaces and controls, capable of holding temperatures in the range of 1000-1300<sup>o</sup>C to a tolerance of <emphasis effect="underline">+</emphasis> 0.5<sup>o</sup>C in order that I.C ‘s can be manufactured reproducibly. A tolerance of <emphasis effect="underline">+</emphasis> 0.5<sup>o</sup>C enables one to achieve a tolerance of <emphasis effect="underline">+</emphasis> 5 or <emphasis effect="underline">+</emphasis>10 percent in the diffusion depth which is critically linked to W(base width) a very important device parameter. A still closer tolerance in diffusion depth can be achieved by Ion Implantation.</para>
+    <para id="id1168952904006">
+      <emphasis effect="italics">6.4.8.3 Typical diffusion systems:</emphasis>
+    </para>
+    <para id="id1168948242468"> An impurity compound in its vapour form, sweeping across the wafers, is used as the corresponding impurity source. Impurity compound reacting with silicon releases the dopant which subsequently diffuses into the wafer. B<sub>2</sub>O<sub>3</sub> , BCl<sub>3</sub> and BBr<sub>3 </sub>are used as sources of boron (p type dopant) and P<sub>2</sub>O<sub>5</sub> , POCl<sub>3</sub> are used as sources of phosphorous. In case of solid diffusion source such as P2O5 ,the solid impurity compound is heated in a chamber at a much lower temperature than that of wafers and a carrier gas such as oxygen is passed over the vaporizing P2O5, carrying it to the wafers.</para>
+    <para id="id1168965933604">2P<sub>2</sub>O<sub>5 </sub>(gas)+5Si(solid)-→4P+5SiO<sub>2</sub>(solid). </para>
+    <para id="id1168958149147">Through the above chemical reaction , P is released and it diffuses into silicon . Simultaneously oxide layer is formed on wafer surface .A solid source is generally used for pre-deposition. B<sub>2</sub>O<sub>3</sub> is used for boron and As<sub>2</sub>O<sub>3</sub> for arsenic .</para>
+    <para id="id1168954767548">   In case of liquid diffusion source , the carrier gas is bubbled though or passed over the liquid impurity compound which is kept in a flask heated to fixed temperature .The liquid vapour is carried by the carrier gas to the wafers where after chemical reaction , the dopant is released. The sources are POCl3 for phosphorous and BBr3 for boron deposition </para>
+    <para id="id1168954708540">A gaseous diffusion source may be used directly or diluted with some other gases.</para>
+    <para id="id1168976803057">A typical apparatus for P diffusion using POCl<sub>3 </sub>is shown in Fig.(6.14).</para>
+    <para id="id1168949042600">
+      <figure id="id1168966877374">
+        <media id="id1168966877374_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 42-bd10.png" id="id1168966877374__onlineimage" height="449" width="665"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168948165202">A carrier gas is bubbled through heated POCl<sub>3</sub> (the diffusion source). The impurity compound in vapour form reaches Si wafers and releases P atoms for diffusion. Typically the carrier gas is a mixture of N<sub>2</sub> and O<sub>2</sub> in the ratio of 3:1. This particular ratio leads to the formation of the moderate film of phosphorous –silicon glass necessary for surface protection and yet avoids excessive oxide formation which would otherwise create difficulty in photo resist processing. Practical device structures are limited to not more than three diffusion. </para>
+    <para id="id1168948031719">  By several diffusion steps the total concentration of impurities below the surface become very large which reduces the electron and hole diffusion coefficients (and hence mobilities) by increasing the impurity scattering and reduces the carrier life time by introducing recombination centers in the crystalline structure. Also the total concentration under surface may reach the upper limit set by solubility so much so that further diffusion and compensation may not be possible. Hence sequential diffusions employed in formation of a device are limited to three.</para>
+    <para id="id1168947206320">
+      <emphasis effect="italics">6.4.8.4 Buried layer diffusion:</emphasis>
+    </para>
+    <para id="id1168947206325">Buried layer diffusion is analogous to pre-deposition step. Here solid diffusant source As<sub>2</sub>O<sub>3</sub> is used and a high surface concentration of the order of 10<sup>20</sup>/cc<sub/>on the Si wafer but shallow diffusion (1 µm) is achieved. Arsenic is chosen as the dopant because it has a diffusion coefficient an order of magnitude lower that of P. Hence buried layer region remains localized during subsequent thermal cycles. Also ‘As’ has a solid solubility of 10<sup>21</sup>/cc in Si. Therefore surface concentration of the order of 10<sup>20</sup>/cc , giving rise to low R<sub>sh</sub> = 1 ohm per square (sheet resistance), is easily achievable.</para>
+    <para id="id1168948400334">
+      <emphasis effect="italics">6.4.9 .Growth of N type epitaxial film over P type substrate:</emphasis>
+    </para>
+    <para id="id1168954749723"> Fourth important step is the growth of 10 µm thick N type epitaxial film of resistivity 0.5 ohm-cm over a p type substrate of 10 ohm-cm. The epitaxial film has donor concentration of 10<sup>16 </sup>donor impurity atom/cc and substrate has acceptor concentration of 10<sup>15</sup> acceptor impurity atom/cc. Components are fabricated in epitaxial film hence for isolation from one another and for isolation from the substrate, epitaxial film and substrate are kept of opposite type so that they can be reversed biased and provide isolation.</para>
+    <para id="id1168948169408"> Epitaxial growth is a process whereby a thin film of single crystal Si is grown from a vapour phase upon on existing single crystal Si wafer with the same crystallographic orientation so that the lattice structure of the resulting layer is an exact extension of the substrate crystal structure.</para>
+    <para id="id1168952239748">6.4.9.1 Epitaxial System:</para>
+    <para id="id1168968104874"> Epitaxial growth system consists of a reaction chamber in which there is a long cylindrical quartz tube surrounded by R.F. induction coil as shown in Figure 6.15. Wafers are put on a graphite boat encased by a quartz sleeve and the boat is pushed in a reaction chamber where localized heating of graphite takes place by RF Induction method. A control console permits the introduction of the wide variety of gases needed to produce epitaxial film with the requisite properties within wide limits.</para>
+    <para id="id7258354">Silicon tetrachloride with hydrogen is introduced in the reaction chamber. SiCl<sub>3</sub> is easy to purify, nontoxic and inexpensive hence utilized generally for epitaxy.</para>
+    <para id="id1168971045465">
+      <figure id="id1168970452270">
+        <media id="id1168970452270_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-7ab5.png" id="id1168970452270__onlineimage" height="404" width="659"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168948063031">To achieve the desired impurity concentration in the epitaxial film, Phosphine in correct proportion for N type doping and di-borane in correct proportion for P type, are introduced in SiCl<sub>4</sub>: H<sub>2</sub> mixture. At the surface of the Si wafer where temperature is almost 1200<sup>0</sup>c, hydrogen reduction of SiCl<sub>4</sub> takes place releasing free Si which skid about on the surface of the growing film until they find a correct position in the lattice and get fastened to the growing film. The reaction, taking place on Si surface only, is known as heterogenous reaction and is given in Eq.(6.4).</para>
+    <para id="id1168952554375">
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">1200°C</emphasis>
+    </para>
+    <para id="id1168951646259">SiCl<sub>4</sub> +<sub/>2H<sub>2 </sub>→Si + 4HCl ;      (6.4)</para>
+    <para id="id1168953926527">Equation 6.4 is reversible. In forward direction epitaxial growth of single crystal Si film takes place. In reverse direction Si surface is etched by HCl vapour.</para>
+    <para id="id1168970581672">Similar reduction takes place with respect to phosphine or di-boranes. This results in the incorporation of phosphorous or boron atoms in the growing silicon lattice. By this process a variety of controlled resistivity and complex impurity profiles can be achieved. There are certain precautions which are imperative for epitaxial growth. No matter how well the wafers are cleaned, there are mechanical imperfections, silicon dioxide, residual dust and other contaminants on the surface of the wafer. These surface defects nucleate crystal imperfections which manifest themselves as bumps, pits and stacking faults. A scratch on the substrate would show up in the film also. All these faults and imperfections affect the reproducibility and yield of I.C. chips. (Yield means percentage of I.C. chips which has normal performance). It has been found that if vapor phase HCl is passed over the wafers before epitaxial growth, to etch away a few microns at the surface of the wafers, then scratches, dust and contaminants are removed to a great extent, resulting in epitaxial films which are completely free of bumps and pits and where stacking faults are reduced several orders of magnitude.</para>
+    <para id="id1168947247870">Epitaxy process steps in manufacture of MC 1530.</para>
+    <list id="id1168947247873" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+      <item>SiO<sub>2</sub> layer, which was used as a mask for buried layer diffusion, is completely etched away using HF (hydrofluoric acid) as an etchant.</item>
+      <item>The cleared wafers are placed on the boat and moved into the reaction chamber.</item>
+      <item>The system is closed and N<sub>2</sub> admitted to flush out the air.</item>
+      <item>H<sub>2</sub> is passed through the chamber at the rate of 30 liters/min.</item>
+      <item>RF heating is turned on and substrate wafers are maintained at 1200°C ± 2°C.</item>
+      <item>When the temperatures have been stabilized, HCl is admitted. H<sub>2</sub>: HCl ≡ 100: 1. HCl etches away 3 µm of the substrate surface in 6 minutes.</item>
+      <item>At this point HCl turned off and SiCl<sub>2</sub> and phosphine turned on.</item>
+    </list>
+    <para id="id1168962477869">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1168964327638">H<sub>2</sub>: SiCl<sub>4</sub>≡ 800:1 and H<sub>2</sub>: phosphine ≡ 5 ×10<sup>8</sup>: 1. This reaction continues for 50 minutes.</para>
+    <list id="id1168961430592" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+      <item>Phosphine and SiCl<sub>4</sub> are turned off, RF heating is turned off and wafers cooled in pure hydrogen.</item>
+    </list>
+    <para id="id1168965643210">These steps result in 26 µm N type epi-film of 0.5 ohm-cm. resistivity having 10<sup>16 </sup>Phosphorous atoms per cc. (This process yields material in which thickness and resistivity are controlled to within ±5 percent).</para>
+    <para id="id1168964290297">0.5 ohm-cm resistivity of epitaxial film is an ideal compromise between high resistivity, required for high BV<sub>CBO</sub> and low C<sub>jc</sub> and high transit frequency. The transistor to be manufactured in this epi layer will have large BV<sub>CBO</sub> and wide frequency response.</para>
+    <para id="id1168962806173">
+      <emphasis effect="italics">6.4.10 Isolation Diffusion</emphasis>
+    </para>
+    <para id="id1168948273024">After the epitaxial growth cycle, SiO<sub>2</sub> is grown over the epitaxial layer by standard oxidation process. SiO<sub>2</sub> film is about 5000 A° thick or 500nm. By using Mask No. 2 and photolithography process, desired windows are etched out in SiO<sub>2</sub> film and the wafer is ready for “isolation diffusion”.</para>
+    <para id="id1168954731988">The wafer is put in diffusion furnace and Boron (P-type) dopant atoms are diffused into the silicon wafer as described before in diffusion section. A long ‘drive-in’ is required so that B ions diffuse through the epi layer to the P type substrate. The areas that remained covered with SiO<sub>2</sub> are now isolated islands of N-type epitaxial Si surrounded by P-type Isolation boundaries. if reverse biased n-p junction formed around each n region and between any two n regions these junctions result in back to back diodes out of which at least one is always reverse biased no matter what polarity voltage appear between the two islands. Since B<sub>2</sub>O<sub>3</sub> (the impurity compound) is used as the diffusant source so invariably a new layer of SiO<sub>2 </sub>grows over the diffused P-type region and pre-existing oxide over the N-epi-regions grows thicker as is evident from Figure (6.16).</para>
+    <figure id="id1168952396310">
+      <media id="id1168952396310_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 17-988d.png" id="id1168952396310__onlineimage" height="313" width="543"/>
+      </media>
+    </figure>
+    <para id="id1168958144795">6.4.11 P type diffusion for Base and Resistors</para>
+    <para id="id1168948963021"> Using photo Mask No. (3) and photolithographic process, windows are etched in the existing SiO<sub>2</sub> layer. Boron (P-type) atoms are “driven in” to a depth of 2.7µm ( x<sub>j </sub>) into the N-type isolated islands for forming the Base and Resistors. Here surface concentration is N<sub>s</sub>=5 x 10<sup>18</sup>(cm<sup>-3</sup>). This corresponds to sheet resistivity (R<sub>s</sub>) 200 ohms/cm<sup>2</sup> where R<sub>s</sub>= ρ / x<sub>j</sub>. In the process of the diffusion , a new layer of SiO<sub>2</sub> is again grown over the newly diffused P-type regions and pre-existing layer become thicker .</para>
+    <para id="id1168958036682">6.4.12 N+ diffusion for Emitter and Collector Contact</para>
+    <para id="id1168954805313"> Using photo Mask No. (4), by photolithographic process oxide coating is selectively etched to provide windows for Phosphorous (N-type) diffusion. Windows are etched in Emitter regions of the transistors and in Contact areas of the Collector. Why N+ diffusion is provided as Collector Contact areas? Aluminum (Al) is going to be used for making ohmic contacts to the terminals of the device and also for interconnections. Al is P type materials. Hence Al makes ohmic contact with P type region but makes rectifying contacts with N type region. This rectifying contact is also known as Metal-Semiconductor Schottky Diode. N type region should be made degenerate (semi-metal) in order to make ohmic contact with Al. Therefore N+ diffusion is provided in the contact areas of the collector which is lightly N type of the order of 10<sup>16</sup> Phosphorous atoms in Si epitaxial film.</para>
+    <para id="id1168947247958"> Phosphorous (N type) is used for pre-deposition ( constant source diffusion) into the Si wafer. Surface concentration of N<sub>s</sub>=10<sup>21</sup>(cm<sup>-3</sup>) is maintained and diffusion depth of x<sub>j</sub>=2µm is achieved in constant source diffusion. This results in R<sub>s</sub>=2.2Ω/square = 2.2Ω/□. At this point the junction formation in the monolithic circuit is complete. In the process of diffusion a new layer of SiO<sub>2 </sub>is formed all over the wafer.</para>
+    <para id="id1168960489517"> The diffusion profile of the transistor of the monolithic circuit is given in Fig.(6.17).</para>
+    <figure id="id1168948906386">
+      <media id="id1168948906386_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 18-a66e.png" id="id1168948906386__onlineimage" height="422" width="576"/>
+      </media>
+    </figure>
+    <para id="id1168953993047">
+      <figure id="id1168954046195">
+        <media id="id1168954046195_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 19-8622.png" id="id1168954046195__onlineimage" height="447" width="566"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168960152756">Looking at the diffusion profile it is clear that E-B junction is one-sided abrupt (or step) junction and B-C junction is linearly graded junction.</para>
+    <para id="id1168953828066">6.4.13 Interconnection of the various components of the monolithic circuit.</para>
+    <para id="id1168953851436">By using mask No.5 a new set of windows are etched out in the regions of contact pads to the components.</para>
+    <para id="id1168948291714">By vacuum deposition method a thin film of Al(thickness 1000Angstrom) is deposited evenly over the entire surface of the wafer. Then by use of mask no. 6 the desired interconnection pattern between the components are formed by photolithographic processes. The undesired Al is simply etched out by the use of suitable etchant(namelt NaOH or KOH).</para>
+    <para id="id1168948854814">Next the wafers are scribed. Individual dies or chips are mounted on headers and wire from contact pads of chip are bonded to leads of the headers and hermetically sealed either as flat package or T0-5 package. All these steps have been previously described.</para>
+    <para id="id1168953053322">Thus MC-1530 is ready for customer’s use.</para>
+    <para id="id5595916">
+      <emphasis effect="italics">6.4.14 Flow-Chart of fabrication of MC-1530 </emphasis>
+    </para>
+    <para id="id1168967722483">The sequence of fabrication steps taken in the fabrication of MC-1530 are given in Fig.(6.19)</para>
+    <figure id="id1168958972028">
+      <media id="id1168958972028_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 20-0ef6.png" id="id1168958972028__onlineimage" height="473" width="708"/>
+      </media>
+    </figure>
+    <para id="id1168953816611">
+      <figure id="id1168958867010">
+        <media id="id1168958867010_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 21-80c7.png" id="id1168958867010__onlineimage" height="423" width="723"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1168957658013">
+      <media id="id1168957658013_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-f60a.png" id="id1168957658013__onlineimage" height="388" width="692"/>
+      </media>
+    </figure>
+    <para id="id1168970889944">
+      <figure id="id1168948043648">
+        <media id="id1168948043648_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 24-8111.png" id="id1168948043648__onlineimage" height="163" width="606"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1168950944642">
+      <media id="id1168950944642_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-f8b7.png" id="id1168950944642__onlineimage" height="356" width="684"/>
+      </media>
+    </figure>
+    <figure id="id1168968021928">
+      <media id="id1168968021928_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 26-68bf.png" id="id1168968021928__onlineimage" height="218" width="686"/>
+      </media>
+    </figure>
+    <para id="id1168948954468">
+      <figure id="id1168952780369">
+        <media id="id1168952780369_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 27-0749.png" id="id1168952780369__onlineimage" height="383" width="699"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1168953975608">
+      <media id="id1168953975608_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 28-fb40.png" id="id1168953975608__onlineimage" height="233" width="629"/>
+      </media>
+    </figure>
+    <para id="id1168970626539">
+      <figure id="id1168970581922">
+        <media id="id1168970581922_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 29-9167.png" id="id1168970581922__onlineimage" height="436" width="718"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1168953828302">
+      <media id="id1168953828302_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 30-17c7.png" id="id1168953828302__onlineimage" height="393" width="696"/>
+      </media>
+    </figure>
+    <para id="id1168970529011">Figure 6.19 Flow-Chart of MC-1530 fabrication steps.</para>
+  </content>
+</document>

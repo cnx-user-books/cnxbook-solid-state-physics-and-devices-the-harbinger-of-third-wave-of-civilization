@@ -1,0 +1,444 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 8.</title>
+  <metadata>
+  <md:content-id>m29942</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 8.</md:title>
+  <md:abstract>Summary: This is the concluding part 8 of 50 years journey.</md:abstract>
+  <md:uuid>eacd2f15-2ab3-46c7-a689-76ce5d92cc9d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166160385540">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 8.</para>
+    <para id="id6850281">Title: Part 8  and the concluding part of 50 years journey.</para>
+    <para id="id2471195">Keywords: High K- Metal Gate(HK-MG), Atomic layer deposition, Fermi-Level Pinning(FLP),Strained Silicon,SiGe:C HBT,</para>
+    <para id="id1166159326222">Summary: This is the concluding part 8 of 50 years journey.</para>
+    <para id="id6976211">
+      <emphasis effect="bold">IV.1.6. High-k solution for ULSI CMOS.[The high-k solution by Mark T. Bohr, Robert S. Chau, Tahir Ghani &amp; Kaizad Mistry, </emphasis>
+      <emphasis effect="italics">IEEE Spectrum</emphasis>
+      <emphasis effect="bold">, October 2007, pp 23-29]</emphasis>
+    </para>
+    <para id="id1166161541882"> As the level of integration evolved, size of CMOS halved every 24 months. At this rate of scaling, by 1998 SiO<sub>2</sub> gate insulation became 5 atomic layer thick with total thickness scaled to 13Aº each atomic layer being 2.6Aº. Current leakage and heating became a serious problem. Because of wave nature of electron and its quantum mechanical tunneling property, thin gate oxides allow the electrons accumulated on gate to leak to the channel. To overcome this problem we need physically thick gate oxides to prevent quantum mechanical tunneling but at the same time electrically thin so that channel is turned at low threshold. If dielectric constant is doubled then thickness can be doubled without any reduction in Turn-ON capability since C=kε<sub>0</sub>A/d </para>
+    <figure id="id1166157915609">
+      <media id="id1166157915609_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 20-ea29.png" id="id1166157915609__onlineimage" height="57" width="114"/>
+      </media>
+    </figure>
+    <para id="id1166161654300">where k=dielectric constant or relative permittivity of the gate insulator </para>
+    <para id="id1166160426631">d=thickness of the gate insulator and A= cross-sectional area of the gate insulator.</para>
+    <para id="id1166162795804">Metal interconnects are preferred over low-k material so that propagation delay is minimized.</para>
+    <figure id="id1166160427328">
+      <media id="id1166160427328_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-f432.png" id="id1166160427328__onlineimage" height="65" width="210"/>
+      </media>
+    </figure>
+    <para id="id1166161356611">Low k will give higher velocity of propagation thereby minimizing the propagation delay.</para>
+    <para id="id1166160953736">MOS capacitance had to be reproducible, its behavior should be repeatable. To achieve this reproducibility and repeatability, Reactive Sputtering or Metal Organic CVD had to be abandoned in favour of Atomic Layer Deposition (Appendix III). This gave the necessary smoothness to the surface of the electrode as well as precise control over the thickness of the Gate Insulator. This ensured reproducibility and repeatability.</para>
+    <para id="id1166157528500">Several dielectrics were studied such as Al<sub>2</sub>O<sub>2</sub> , TiO<sub>2</sub> , Ti<sub>2</sub>O<sub>2 </sub>, Ti<sub>2</sub>O<sub>5</sub> , HfO<sub>2</sub> , HfSiO<sub>4</sub>, ZrO<sub>2</sub>, ZrSiO<sub>2</sub>, La<sub>2</sub>O<sub>3</sub> .</para>
+    <para id="id1166166493655">With scaling due to Fermi-Level pinning (AppendixIV), higher threshold Voltage (V<sub>Thres</sub>) resulted. Also High-k material have high elasticity hence result in higher phonon scattering or lattice scattering resulting in lower channel mobility. By screening the phonon effect, the deterioration in channel conductivity ould be prevented. This required by increasing the electron density in Poly-Si gate. Hence we had to switch to Metal-High k combination. This prevented:</para>
+    <list id="id1166157595935" list-type="enumerated" number-style="arabic">
+      <item>Fermi-Level pinning hence threshold voltage normalized;</item>
+      <item>This normalized channel conductivity which had drastically deteriorated due to dipole vibration effect;</item>
+      <item>Metal Gate Electrode provides better bonding between Metal-Dielectric. Hence table operation.</item>
+    </list>
+    <para id="id1166160421652">In mid-2003, Intel’s Hillsbaro, Ore, Development Fab developed HK-MG CMOS. Intel’s 130nm</para>
+    <para id="id1166158198278">technology was used. Using Hafnium-Based Oxide and Metal Gate electrode following characteristics were achieved:</para>
+    <list id="id1166155966676" list-type="enumerated" number-style="lower-roman">
+      <item>Low Threshold = 1V;</item>
+      <item>Negligible leakage current through Oxide;</item>
+      <item>High 2-D channel mobility;</item>
+    </list>
+    <para id="id1166162292797">The standard fabrication method was “Gate First”. In this method: </para>
+    <para id="id1082256">Gate Dielectric+Gate Electrode were laid first;</para>
+    <para id="id1166166429776">Source and Drain implanted;</para>
+    <para id="id1166165676641">Silicon is annealed to repair the damages that occurred during ion-implantation. High Temperature</para>
+    <para id="id1166154451811">became a problem for the new technology of HK-MG. So “Gate Last” technology was adopted which circumvented the annealing problem. This led to a paradigm shift in late 2004.</para>
+    <para id="id1166162628033"> The new flow process was 45nm technology with High k + Metal Gate using Gate-Last strategy. Using this flow process in January 2006, 153Mb SRAM with 1 billion CMOS was built. Leakage gate current was reduced by a factor of 10. But there was sub-threshold leakage.</para>
+    <para id="id1166161055980"> Scaling had reduced Threshold Voltage but reduced V<sub>Th</sub> led to increased sub-threshold leakage which defeated the nanoWatt-logic objective. Each new generation of scaled down transistor would increase I<sub>ON</sub> by about 30% but would lead to I<sub>sub-threshold</sub> increase by 3-Fold. So at ULSI level, power efficiency and low leakage would be at premium rather than speed.</para>
+    <para id="id1166164170285">Table 9.The options at 45nm HK-MG CMOS Technology</para>
+    <table id="id1166158536352" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Option 1</entry>
+            <entry>Option 2</entry>
+          </row>
+          <row>
+            <entry>Oxide thickness</entry>
+            <entry>13Aº</entry>
+            <entry>26Aº</entry>
+          </row>
+          <row>
+            <entry>I<sub>ON</sub></entry>
+            <entry>25% increase</entry>
+            <entry>No increase</entry>
+          </row>
+          <row>
+            <entry>I<sub>sub-threshold</sub></entry>
+            <entry>No increase</entry>
+            <entry>1/5 I<sub>sub</sub></entry>
+          </row>
+          <row>
+            <entry>V<sub>Thres</sub></entry>
+            <entry>Same as before</entry>
+            <entry>Increased threshold</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166165417662">The CMOS circuits are built between these two extremes.</para>
+    <para id="id1166159542256">PENRYN dual-core µP has 410mCMOS and PENRYN quad-core µP has 820 m CMOS. These are optimized for mobile applications, desk-top computers, 64-bit workstations and server applications.</para>
+    <para id="id1166158244106">
+      <emphasis effect="bold">IV.1.7.Mobility enhancement in strained Silicon.</emphasis>
+    </para>
+    <para id="id1166166633587">[Mobility Enhancement, the next vector to extend Moore’s Law, Nidhi Mohata &amp; Scott E. Thompson, IEEE Circuits &amp; Devices Magazine, September/October 2005, pp.18-23]</para>
+    <para id="id1166162888638"> Geometric Scaling has been driving IC Industry till date. Since 90-nm Technology generation was introduced, off-state leakage current and power density have made scaling a difficult and challenging job. New scaling vectors were adopted to meet this challenge. At 90-nm generation, mobility enhancement through uniaxial process-induced strained Si has emerged as the next scaling vector.</para>
+    <para id="id8850004">The theoretical formulations of carriers in 2-D inversion layer just below the insulator Gate:</para>
+    <figure id="id2224613">
+      <media id="id2224613_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-87d5.png" id="id2224613__onlineimage" height="53" width="242"/>
+      </media>
+    </figure>
+    <para id="id1166161468237">where τ is the mean free time between two consecutive scatterings;</para>
+    <para id="id1166156147331">1/τ = scattering rate;</para>
+    <para id="id1166158283100">m<sup>*</sup> is the conducting electron effective mass.</para>
+    <para id="id1166166404931">Under strain, both m<sup>*</sup> and scattering rate reduce leading to enhanced mobility.</para>
+    <para id="id1166165328426"> Uniaxial stress always provide higher current enhancement(1.46mA/µm and 0.88mA/µm for n-channel and p-channel respectively) as compared to that produced by biaxial stress(0.85mA/µm and 0.45mA/µm for n-channel and p-channel respectively). Hence in state of art technologies, Industries have adopted uniaxial stress. There are three state-of-art techniques:</para>
+    <list id="id1166154452592" list-type="enumerated" number-style="arabic">
+      <item>A local epitaxial film is grown in the source and drain regions;</item>
+      <item>In the second technique we use a capping layer;</item>
+      <item>A dual capping approach. </item>
+    </list>
+    <para id="id7952209">FUTURE DIRECTIONS OF IC INDUSTRIES.</para>
+    <para id="id1166154837394"/>
+    <para id="id1166157581230">In the future we hope to go from 45nm technology to 32nm technology to 22nm technology to 16nm technology. The demand for high-speed transistors is increasing with the band-width required for telecommunication systems. Combining aggressive vertical scaling with reduced device parasitic, it has been possible to achieve 210GHz at room temperature using SiGe:C HBT Technology [“ A 210-GHz f<sub>T</sub> SiGe HBT with a non-self-aligned structure”, Jeng, Jagannathan et al, IEEE ED Letters, Vol.22, No.11, Nov 2001] . Safe operating voltage measured is reasonable.</para>
+    <para id="id1166160361772">Table 10 . Measured values of Safe Operating Voltages.</para>
+    <table id="id1166160922308" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Parameter</entry>
+            <entry>Measured Voltage(V)</entry>
+          </row>
+          <row>
+            <entry>BV<sub>EBO</sub> (V)</entry>
+            <entry>3.3</entry>
+          </row>
+          <row>
+            <entry>BV<sub>CBO</sub> (V)</entry>
+            <entry>5.5</entry>
+          </row>
+          <row>
+            <entry>BV<sub>CEO</sub> (V)</entry>
+            <entry>1.8</entry>
+          </row>
+          <row>
+            <entry>Dc current gain</entry>
+            <entry>450</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166153279858">This has established that SiGe HBT Technologies can be extended to high frequency and high bit rate applications.</para>
+    <para id="id1166157075713">SiGe HBT will continue to scale in future generations. Recent research demonstrations have achieved npn SiGe HBTs with peak f<sub>T</sub> of 350-375GHz[Rieh,Jaganatthan et al “SiGe HBTs with cut-off frequency of 350GHz,” IEDM Tech.Digest,2002, 771-77] and 380GHz [Heinemann, Barth et al, “Low parasitic collector construction for high-speed SiGe:C HBTs, IEDM Tech.Digest,2004, pp.251-254] . Through simulation studies it has been suggested that through suitable lateral and vertical scaling , SiGe HBT of f<sub>T</sub> above 500GHz is possible on 100% silicon(CMOS) fabrication compatible [“Half-Terahertz Operation of SiGe HBTs” Kritivasan, Cressler, Rieh,Khater, Ahlgren and Freeman, EDLetters, Vol 27,No.7, July 2006, 567- 569].</para>
+    <para id="id1166160849290">Table 11. Transistor Performance Summary at 300, 77 and 4.5K for an emitter geometry of 0.12×1.0µm<sup>2</sup>.</para>
+    <table id="id1166152587954" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Prameter</entry>
+            <entry>300K</entry>
+            <entry>77K</entry>
+            <entry>4.5K</entry>
+          </row>
+          <row>
+            <entry>Peak β</entry>
+            <entry>1499</entry>
+            <entry>9297</entry>
+            <entry>12554</entry>
+          </row>
+          <row>
+            <entry>Peak f<sub>T</sub> (GHz)</entry>
+            <entry>352</entry>
+            <entry>456</entry>
+            <entry>510</entry>
+          </row>
+          <row>
+            <entry>Peak f<sub>max</sub> (GHz)</entry>
+            <entry>241</entry>
+            <entry>295</entry>
+            <entry>276</entry>
+          </row>
+          <row>
+            <entry>r<sub>x</sub>(base spreading resistance) at peak f<sub>T</sub> (Ω)</entry>
+            <entry>304</entry>
+            <entry>206</entry>
+            <entry>305</entry>
+          </row>
+          <row>
+            <entry>Transit Time (psec)</entry>
+            <entry>0.36</entry>
+            <entry>0.33</entry>
+            <entry>0.27</entry>
+          </row>
+          <row>
+            <entry>J<sub>C </sub>@ peak f<sub>T</sub> (mA/µm<sup>2</sup>)</entry>
+            <entry>27</entry>
+            <entry>24</entry>
+            <entry>21</entry>
+          </row>
+          <row>
+            <entry>BV<sub>CEO</sub>(V)</entry>
+            <entry>1.47</entry>
+            <entry>1.43</entry>
+            <entry>1.36</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166161145159">Today SiGe technology has become the driving technology behind the Information Revolution. SiGe is enabling lightweight, personal communication devices like digital wireless handsets and other entertainment and information technology devices such as digital set-top boxes, Direct Braodcast Satellite, automobile collision avoidance systems and personal digital assistants.</para>
+    <para id="id1166162200348">SiGe extends the life of wireless phone batteries. It allows smaller and more durable communication devices. SiGe technology is being used for developing mobile-computing systems which converge the capabilities of cellular phones, global positioning systems and internet on one platform. These SiGe based multifunction, low-cost, mobile client devices are the building blocks of future computing. These devices will communicate over voice and data networks.</para>
+    <para id="id1166164337613">SiGe real strength lies in its ability to integrate analog, RF and digital on a single chip using existing CMOS fabs. This kind of compatibility is not found with GaAs technology. Apart from this compatibility resulting into versatility, it is enabling new architecture such as direct conversion and software radio.</para>
+    <para id="id1166160955218"> Today SiGe BiCMOS is the fastest growing semiconductor process. There are 25+ SiGe Industrial Fabrication facilities all over the world. Every major player in the field of Semiconductor Technology is either having in-house R&amp;D facility in SiGe HBT Technology or it is having its group of designers use some body else’s facilities. The prominent names today in SiGe HBT industrial production are: IBM, Jazz Semiconductors, Hitachi, Infineon, IHP, ST Microelectronics, Texas Instruments and Philips.</para>
+    <para id="id1166152936309"> The success of this technology is the compatibility of two promising technologies without any compromise or loss of any of its individual good qualities.</para>
+    <para id="id1166160824017">CMOS seems to have road blocks beyond 45nm node as is evident from the table below.</para>
+    <para id="id1166161174518">Table 12. HP NMOS Scaling Scenario.[“MOSFET Performance Scaling-Part II: Future Directions”, Ali Khakifirooz and Dimtri A. Antoniadis, <emphasis effect="italics">IEEE Transactions on ED</emphasis>, Vol.55, No.6, June 2008,pp.1401-1408.] </para>
+    <table id="id2596109" summary="">
+      <tgroup cols="11">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <tbody>
+          <row>
+            <entry>Gen.</entry>
+            <entry>(nm)</entry>
+            <entry>250PolySi</entry>
+            <entry>180do</entry>
+            <entry>130do</entry>
+            <entry>90do</entry>
+            <entry>65do</entry>
+            <entry>45(MG-HK)</entry>
+            <entry>32do</entry>
+            <entry>22do</entry>
+            <entry>15do</entry>
+          </row>
+          <row>
+            <entry>Contacted Gate Pitch</entry>
+            <entry>L<sub>pitch</sub>(nm)</entry>
+            <entry>910</entry>
+            <entry>636</entry>
+            <entry>445</entry>
+            <entry>310</entry>
+            <entry>220</entry>
+            <entry>155</entry>
+            <entry>110</entry>
+            <entry>78</entry>
+            <entry>55</entry>
+          </row>
+          <row>
+            <entry>Physical Gate Length</entry>
+            <entry>L<sub>G</sub>(nm)</entry>
+            <entry>180</entry>
+            <entry>130</entry>
+            <entry>65</entry>
+            <entry>45</entry>
+            <entry>35</entry>
+            <entry>30</entry>
+            <entry>26</entry>
+            <entry>22</entry>
+            <entry>15</entry>
+          </row>
+          <row>
+            <entry>Physical Oxide Thickness</entry>
+            <entry>T<sub>oxphy</sub>(nm)</entry>
+            <entry>4.5</entry>
+            <entry>2.5</entry>
+            <entry>2</entry>
+            <entry>1.2</entry>
+            <entry>1.3</entry>
+            <entry>4</entry>
+            <entry>3.4</entry>
+            <entry>2.5</entry>
+            <entry>1.2</entry>
+          </row>
+          <row>
+            <entry>Supply Voltage</entry>
+            <entry>V<sub>DD</sub>(V)</entry>
+            <entry>1.8</entry>
+            <entry>1.5</entry>
+            <entry>1.4</entry>
+            <entry>1.2</entry>
+            <entry>1.2</entry>
+            <entry>1.0</entry>
+            <entry>0.9</entry>
+            <entry>0.8</entry>
+            <entry>0.7</entry>
+          </row>
+          <row>
+            <entry>Off Current</entry>
+            <entry>I<sub>off </sub>/W<sub/>(nA/µm)</entry>
+            <entry>0.5</entry>
+            <entry>3</entry>
+            <entry>10</entry>
+            <entry>40</entry>
+            <entry>100</entry>
+            <entry>200</entry>
+            <entry>300</entry>
+            <entry>300</entry>
+            <entry>300</entry>
+          </row>
+          <row>
+            <entry>Silicide Contact Resistance</entry>
+            <entry>ρ<sub>C</sub>(10<sup>-8</sup>Ω.cm<sup>2</sup>)</entry>
+            <entry>9</entry>
+            <entry>8</entry>
+            <entry>6</entry>
+            <entry>5</entry>
+            <entry>4</entry>
+            <entry>3</entry>
+            <entry>2.5</entry>
+            <entry>2</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>Sheet resistance</entry>
+            <entry>R<sub>sheet</sub>(Ω/sq)</entry>
+            <entry>300</entry>
+            <entry>250</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+          </row>
+          <row>
+            <entry>Virtual Source Velocity</entry>
+            <entry>v<sub>xo</sub> (10<sup>6</sup>cm/sec)</entry>
+            <entry>8.1</entry>
+            <entry>8.6</entry>
+            <entry>9.2</entry>
+            <entry>10.8</entry>
+            <entry>13./8</entry>
+            <entry>16.5</entry>
+            <entry>16.5</entry>
+            <entry>16.5</entry>
+            <entry>16.5</entry>
+          </row>
+          <row>
+            <entry>Sat. Threshold Voltage </entry>
+            <entry>V<sub>T</sub>(V)</entry>
+            <entry>0.51</entry>
+            <entry>0.45</entry>
+            <entry>0.42</entry>
+            <entry>0.36</entry>
+            <entry>0.36</entry>
+            <entry>0.33</entry>
+            <entry>0.31</entry>
+            <entry>0.31</entry>
+            <entry>0.31</entry>
+          </row>
+          <row>
+            <entry>Sat. Drain Current</entry>
+            <entry>I<sub>Dsat</sub>(µA/µm)</entry>
+            <entry>694</entry>
+            <entry>937</entry>
+            <entry>1103</entry>
+            <entry>1362</entry>
+            <entry>1652</entry>
+            <entry>1761</entry>
+            <entry>1620</entry>
+            <entry>1450</entry>
+            <entry>1351</entry>
+          </row>
+          <row>
+            <entry>Source Series Resistance</entry>
+            <entry>R<sub>S</sub>(Ω.µm)</entry>
+            <entry>97</entry>
+            <entry>93</entry>
+            <entry>84</entry>
+            <entry>86</entry>
+            <entry>85</entry>
+            <entry>87</entry>
+            <entry>93</entry>
+            <entry>103</entry>
+            <entry>114</entry>
+          </row>
+          <row>
+            <entry>Effective Fringing Capacitance</entry>
+            <entry>C<sub>f</sub><sup>*</sup>(fF/µm)</entry>
+            <entry>0.60</entry>
+            <entry>0.71</entry>
+            <entry>0.61</entry>
+            <entry>0.74</entry>
+            <entry>0.78</entry>
+            <entry>0.74</entry>
+            <entry>0.85</entry>
+            <entry>1.04</entry>
+            <entry>1.01</entry>
+          </row>
+          <row>
+            <entry>Transistor Delay</entry>
+            <entry>τ(ps)</entry>
+            <entry>6.26</entry>
+            <entry>4.56</entry>
+            <entry>2.55</entry>
+            <entry>1.88</entry>
+            <entry>1.46</entry>
+            <entry>1.15</entry>
+            <entry>1.23</entry>
+            <entry>1.47</entry>
+            <entry>1.45</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8939077">This Table 12 is based on projection and simulation for nodes at 45nm and below. For nodes above 45nm, the Table is based on actual experimental work. It is clear that at 45nm and at greater scaling, we get counterscaling effects. Because of increased fringing capacitance, transit delay deteriorates beyond 45nm technology. But with emergence of multicore processors, number of available transistors is more important than making them faster. Hence scaling will continue to be used even though it is becoming counter productive.</para>
+    <para id="id1166156015829">The Present Status of Industrial Production of IC Chips.</para>
+    <para id="id8160161">There are two distinct IC manufacturers:</para>
+    <list id="id8811602" list-type="enumerated" number-style="lower-roman">
+      <item>Chip Foundaries;</item>
+      <item>Dedicated Manufactureres;</item>
+    </list>
+    <para id="id6343767">In the past dedicated manufacturers designed and fabricated IC chips according to their own needs. But as the cost of fabrication soared up, dedicated manufacturers became “fab-lite”. In Fab-lites initial design is done by the manufacturer but the fabrication part is done in the Chip Foundary. AMD, Freescale and Texas Instruments have all turned fab-lites.</para>
+    <para id="id8661292">The major Chip Foundaries are : </para>
+    <list id="id1166158038327" list-type="enumerated" number-style="arabic">
+      <item>Taiwan Semiconductor Manufacturing Co., Hsinchu, Taiwan;</item>
+      <item>United Microelectronics Corp., Hsinchu, Taiwan;</item>
+      <item>Chartered Semiconductor, Singapore;</item>
+      <item>Semiconductor Manufacturing International Corporation, Sanghai, China;</item>
+      <item>IBM Microelectronics (dominant foundary of Games Processors), EastFishkill, New York, USA;</item>
+      <item>Global Goundaries, a joint venture of AMD &amp; Abu Dhabi.</item>
+    </list>
+    <list id="id6111190" list-type="enumerated" number-style="lower-alpha">
+      <item>50% of the foundaries are utilizing a generation back methods of process technology which is 65nm node presently.</item>
+      <item>40% use the older and larger technology;</item>
+      <item>Only 10% use state of art to compete with Intel and Samsung.</item>
+    </list>
+    <para id="id7989299"> To this 10% belong companies which make graphics processors, FPGAs and moble phone chips. They have to continuously improve their design to include new features and they have to keep improving their speed of computing. This 10% have the requirement of next generation Lithography.</para>
+    <para id="id1166161108865">
+      <emphasis effect="bold">Conclusions.</emphasis>
+    </para>
+    <para id="id1166162649114"> We have come a long way since the first IC chip was invented in 1959 in TI and FairChild simultaneously. The invention of IC Chip has marked the beginning of a new historical era in Man-Kind’s history. This invention has been as crucial as the discovery of fire was or as momentous as the invention of wheel was.</para>
+    <para id="id1166157282642"> Discovery of Fire brought the proto-human society down from its arboreal abode to its humble cave dwellings. This enabled the development of our society in rapid strides.</para>
+    <para id="id7747660"> On the other hand the invention of wheel led to rapid exchange of ideas and commodities enabling a homogenization across the globe which would have been impossible otherwise.</para>
+    <para id="id5648908"> In a similar fashion IC Technology has been a great leveler of human societies. All human beings are becoming a knowledge worker in one way or the other and the whole world is being rapidly transformed into a big Global Village where all new ideas or new technologies are available to one and all in the shortest time.</para>
+  </content>
+</document>

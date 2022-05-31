@@ -1,0 +1,43 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Experiment2_Frequency Domain Response of HPF</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50965</md:content-id>
+  <md:title>SSPD_Experiment2_Frequency Domain Response of HPF</md:title>
+  <md:abstract>This module gives the BODE PLOT of the Transfer Function of HPF</md:abstract>
+  <md:uuid>6d3ef4c3-f8cc-498a-9971-ca779ac8731a</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164673196868">
+      <emphasis effect="bold">Experiement -2-Figures of HPF.</emphasis>
+    </para>
+    <para id="import-auto-id1164673541866"><emphasis effect="bold">2.4. High pass RC circuit</emphasis> (as shown in Figure 1.a.)  </para>
+    <figure id="import-auto-id8628395">
+      <media id="import-auto-id2618347" alt="">
+        <image mime-type="image/png" src="../../media/Picture 58-5bfb.png" height="215" width="386"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id4453948">
+      <media id="import-auto-id1164673010949" alt="">
+        <image mime-type="image/png" src="../../media/Picture 60-a434.png" height="389" width="524"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id696362">
+      <media id="import-auto-id1164674027348" alt="">
+        <image mime-type="image/png" src="../../media/Picture 62-92d6.png" height="277" width="479"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6558116">
+      <emphasis effect="bold">Figure 1.(a) Circuit Topology of High Pass Filter.</emphasis>
+    </para>
+    <para id="import-auto-id5669193">
+      <emphasis effect="bold">(b) Magnitude of the transfer function in dB(decibels) vs Frequency(logarithmic scale) of High Pass Filter(HPF)</emphasis>
+    </para>
+    <para id="import-auto-id2617462">
+      <emphasis effect="bold">(c) Phase of the transfer function in dB(decibels) vs Frequency(logarithmic scale)of HPF.</emphasis>
+    </para>
+    <para id="import-auto-id1164673269073">
+      <emphasis effect="bold">The two plots together are known as Bode Plot.</emphasis>
+    </para>
+  </content>
+</document>

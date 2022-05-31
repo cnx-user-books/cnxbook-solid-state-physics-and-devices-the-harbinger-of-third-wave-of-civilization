@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 8_conclusion_Electron travelling across a step potential</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33492</md:content-id>
+  <md:title>SSPD_Chapter1_Part 8_conclusion_Electron travelling across a step potential</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 8 concludes that electron behaves exactly the same fashion as light does. Light at the interface of two different optical media suffers a reflection while being transmitted across a step index. In exactly an analogous manner electron matter wave suffers a reflection while being transmitted across a voltage step. Quantum behaviour of electron becomes more pronounced as we move to nano scale of miniturization.</md:abstract>
+  <md:uuid>52d0096d-ce03-4595-8f74-b454181e3689</md:uuid>
+</metadata>
+<content>
+    <para id="id39488490">SSPD_Chapter 1_Part 8_conclusion_ ELECTRON TRAVELING ACROSS A STEP POTENTIAL WITH TOTAL ENERGY GREATER THAN THE POTENTIAL BARRIER OFFERED BY THE STEP POTENTIAL.</para>
+    <figure id="id39491262">
+      <media id="id39491262_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-399c.png" id="id39491262__onlineimage" height="337" width="650"/>
+      </media>
+    </figure>
+    <para id="id39491284">
+      <emphasis effect="bold">Fig.(1.32) Electron traveling across a step potential with energy greater than that needed for crossing the barrier potential.</emphasis>
+    </para>
+    <para id="id39491293">In Figure (1.32) electron is traveling across a step potential with sufficient energy to cross the barrier. The electron matter wave experiences a partial reflection at the step potential just as light experiences a reflection when passing across step change in refractive index.</para>
+    <para id="id39491305">The linear momentum also changes while moving from one region of potential energy to another region of potential energy,</para>
+    <para id="id39491312">Thus <emphasis effect="bold">p</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">^2</emphasis><emphasis effect="bold"> /(2m</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">) = (E</emphasis><emphasis effect="bold"/><emphasis effect="bold">) and wave vector k</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">= p</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">/ћ;</emphasis></para>
+    <para id="id39491377"><emphasis effect="bold">And p</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">^2</emphasis>
+      <emphasis effect="bold"> /(2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">) = (E- qV</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">) and wave vector k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> = p</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/ћ; 1.74</emphasis>
+    </para>
+    <para id="id39487589">
+      <emphasis effect="bold">The incident wave: ψ</emphasis>
+      <emphasis effect="bold">I</emphasis>
+      <emphasis effect="bold"> = AExp[i(ωt + |k</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">|z )]</emphasis>
+    </para>
+    <para id="id39487613">
+      <emphasis effect="bold">The reflected wave: ψ</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold"> = BExp[i(ωt - |k</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">|z )]</emphasis>
+    </para>
+    <para id="id39487638"><emphasis effect="bold">The transmitted wave: ψ</emphasis>
+      <emphasis effect="bold">T</emphasis>
+      <emphasis effect="bold">= CExp[i(ωt - |k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">|z )] 1.75</emphasis>
+    </para>
+    <para id="id39487671">In 1961 , Texas Instrument brought the first IC Chip where the feature size was several microns and which could be analyzed in the classical manner. In microchips the classical properties of the electrons were manifested. </para>
+    <para id="id39490695">By the turn of century PENTIUM IV INTEL Chip<emphasis effect="bold">[Appendix XXXVII]</emphasis> has come in the market where the feature size has come below 100nm. These nanochips manifest the quantum mechanical properties of the electrons and are more appropriately called Quantum Chips.</para>
+    <para id="id39490718">By the use of VLSI/ULSI technology many quantum devices are coming in the market.</para>
+  </content>
+</document>

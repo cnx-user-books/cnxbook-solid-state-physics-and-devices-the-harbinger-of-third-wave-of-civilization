@@ -1,0 +1,150 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued4</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38642</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued4</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued4_module describes the method of driving off-chip circuits with best time response.</md:abstract>
+  <md:uuid>4b685258-0d0c-4e94-9440-a3cc3d67f628</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168904406787">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 4</para>
+    <para id="id1168932014331">7.6.5. Driving off-chip capacitive loads.</para>
+    <para id="id1168911403524"> We saw in Section 7.6.4 that transient response is:</para>
+    <list id="id1168911333876" list-type="enumerated" number-style="lower-roman">
+      <item>inversely proportional to V<sub>DD</sub>;</item>
+      <item>Directly proportional to load capacitance;</item>
+      <item>Rise-time is 2.5 times Fall-time for equal geometry CMOS .</item>
+    </list>
+    <figure id="id1168911062669">
+      <media id="id1168911062669_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-ae65.png" id="id1168911062669__onlineimage" height="58" width="408"/>
+      </media>
+    </figure>
+    <figure id="id1168927212168">
+      <media id="id1168927212168_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-405a.png" id="id1168927212168__onlineimage" height="63" width="359"/>
+      </media>
+    </figure>
+    <para id="id1168898984925">Off-chip capacitances are several orders of magnitude greater than the standard gate-to-channel capacitance □C<sub>g</sub> .</para>
+    <para id="id1168919854260">Typically off-chip capacitance C<sub>L </sub>≥ □C<sub>g</sub> . To minimize the charging and discharging delays of the off-chip capacitance we must minimize the pull-up and pull-down channel resistance which can be done by making the channel width W &gt;&gt; the channel L. But this will mean large (W×L) area of the gate of the driver CMOS and this will also cause very large input capacitance of the driver CMOS. The large input capacitance of the driver CMOS will again cause a inordinate delay in the system. So an alternative has to be adopted.</para>
+    <para id="id1168928647263">7.6.5.1.Cascaded CMOS Inverters as Drivers.</para>
+    <figure id="id6341889">
+      <media id="id6341889_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-747f.png" id="id6341889__onlineimage" height="273" width="600"/>
+      </media>
+    </figure>
+    <para id="id1168897864724">To optimize the drive of off-chip capacitances we must use cascade of CMOS inverters as shown in Figure 7.6.5.1.</para>
+    <para id="id1168899898649">We have seen that CMOS inverter driven by another inverter has best performance when Wp =2.5Wn. The proceeding inverters maintain the same pull-up to pull-down resistance ratio but the width is widened by a factor f.</para>
+    <para id="id1168909906667">So if first stage has width =Wn =2λ then the second stage has Wn = 2λ×f and third stage has Wn = 2λ×f×f.</para>
+    <para id="id1168915356080">For minimum size lambda based geometries this results in an input capacitance:</para>
+    <figure id="id1168921504130">
+      <media id="id1168921504130_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-3f55.png" id="id1168921504130__onlineimage" height="66" width="600"/>
+      </media>
+    </figure>
+    <para id="id1168909653498">This optimized CMOS has symmetric switching transients hence :</para>
+    <figure id="id1168911407730">
+      <media id="id1168911407730_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-61b6.png" id="id1168911407730__onlineimage" height="33" width="146"/>
+      </media>
+    </figure>
+    <para id="id1168915407758">Therefore total delay per CMOS pair is 7fτ where τ is the standard delay unit as described in Section 7.6.3.</para>
+    <para id="id1168909865620">We have to optimize the cascaded configuration so as to minimize the number of stages for a given off-chip capacitance C<sub>L</sub> .</para>
+    <para id="id1168927754186">Let us define a capacitance ratio y as:</para>
+    <figure id="id1168919103111">
+      <media id="id1168919103111_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-67fa.png" id="id1168919103111__onlineimage" height="61" width="568"/>
+      </media>
+    </figure>
+    <para id="id1168931518781">N = number of cascade stages. For a given y we have to arrive at the minimum value of N for a given y.</para>
+    <figure id="id1168916657231">
+      <media id="id1168916657231_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-5c40.png" id="id1168916657231__onlineimage" height="30" width="173"/>
+      </media>
+    </figure>
+    <para id="id1168898201454">Therefore </para>
+    <figure id="id1168922123842">
+      <media id="id1168922123842_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-7703.png" id="id1168922123842__onlineimage" height="59" width="484"/>
+      </media>
+    </figure>
+    <para id="id1168913819032">The overall total delay in case of CMOS is</para>
+    <para id="id1168902853522">= Nt<sub>r</sub>=Nt<sub>f</sub> =(N/2)(t<sub>r</sub>+t<sub>f</sub>)=3.5Nfτ.</para>
+    <para id="id1168899606042">By similar consideration total delay in case of NMOS is</para>
+    <para id="id1168911322747">=2.5Nfτ.</para>
+    <para id="id1168919815901">So in all cases:</para>
+    <figure id="id1168919635505">
+      <media id="id1168919635505_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-cfe0.png" id="id1168919635505__onlineimage" height="59" width="471"/>
+      </media>
+    </figure>
+    <para id="id1168911073706">If we tabulate the results of Eq 7.6.5.6 we get Table 7.6.5.1.</para>
+    <para id="id1168924228308"/>
+    <para id="id1706856">
+      <emphasis effect="bold">Table 7.6.5.1. Tabulation of total delay for various values of f(width multiplication factor) for y=10</emphasis>
+      <emphasis effect="bold">4</emphasis>
+    </para>
+    <table id="id1168910887991" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Log<sub>10</sub>y</entry>
+            <entry>f</entry>
+            <entry>Total delay in nsec= K×(logy/logf)×f×τ where τ=0.1nsec</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>1.5</entry>
+            <entry>K×0.512 nsec</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>2</entry>
+            <entry>K×0.4nsec</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>2.7</entry>
+            <entry>K×0.377nsec</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>3</entry>
+            <entry>K×0.3784nsec</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>4</entry>
+            <entry>K×0.4nsec</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168921872656">So from the Table 7.6.5.1 it is clear that the total delay curve has a minima at f=2.7. Practically we have a soft minima at f=2.7 so we may choose f=3.</para>
+    <para id="id1168907858179">In this case from Eq.7.6.5.5, N=logy/logf =8.38 ≈ 8.</para>
+    <para id="id6044528">So Equation 7.6.5.5 will be used for determining the optimum cascade stage assuming that the width multiplication factor will be 3.</para>
+    <para id="id1168899848692">
+      <emphasis effect="italics">For a positive step input of V</emphasis>
+      <emphasis effect="italics">DD</emphasis>
+      <emphasis effect="italics">:</emphasis>
+    </para>
+    <para id="id1168909756353">The overall delay for N even: t<sub>d</sub> =2.5eNτ (NMOS)</para>
+    <para id="id1168911192269">    t<sub>d</sub> =3.5eNτ (CMOS)</para>
+    <para id="id1168920736146">The overall delay for N odd: t<sub>d</sub> =[2.5(N-1)+1]eτ (NMOS)</para>
+    <para id="id1168905120734">    t<sub>d</sub> =[3.5(N-1)+2]eτ (CMOS)</para>
+    <para id="id1168926905046">
+      <emphasis effect="italics">For a negative step input of V</emphasis>
+      <emphasis effect="italics">DD</emphasis>
+      <emphasis effect="italics">:</emphasis>
+    </para>
+    <para id="id1168900958695">The overall delay for N even: t<sub>d</sub> =2.5eNτ (NMOS)</para>
+    <para id="id1168918209281">    t<sub>d</sub> =3.5eNτ (CMOS)</para>
+    <para id="id1168910489916">The overall delay for N odd: t<sub>d</sub> =[2.5(N-1)+4]eτ (NMOS)</para>
+    <para id="id1168899123645">    t<sub>d</sub> =[3.5(N-1)+5]eτ (CMOS)</para>
+    <para id="id1168928020974">In the above equations, ‘e’ is the base of the natural log and has a value 2.7</para>
+  </content>
+</document>

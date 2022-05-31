@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOS and MOS circuits to be continued1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38382</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOS and MOS circuits to be continued1</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3 gives the basic elecrical properties of MOS devices.</md:abstract>
+  <md:uuid>3da12944-f473-45f3-a44d-b82b822981a0</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1163790483289">SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOS and MOS circuits.</para>
+    <para id="id1163794084142">7.3 The Output Characteristics of (Depletion)n-channel MOSFET.</para>
+    <para id="id1163796626412"><emphasis effect="bold"/>Field Effect Transistors cover JFET and MOSFET. The underlying principle of FET is that there is a conducting channel which obeys Ohm’s Law:</para>
+    <figure id="id1163789420603">
+      <media id="id1163789420603_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-81bc.png" id="id1163789420603__onlineimage" height="44" width="418"/>
+      </media>
+    </figure>
+    <para id="id1163799301857">Where    <figure id="id1163793932290"><media id="id1163793932290_media" alt=""><image mime-type="image/png" src="../../media/graphics2-d0fb.png" id="id1163793932290__onlineimage" height="42" width="143"/></media></figure></para>
+    <para id="id1163792115563">L = lemgth of the channel and A = cross-sectional area as shown in Figure 7.3.1.</para>
+    <para id="id1163790814550">And ρ = resistivity = 1/σ = 1/conductivity = 1/(qµ<sub>n</sub>n);</para>
+    <para id="id1163790171623">Here q = charge of an electron, µ<sub>n</sub> = mobility of an electron in the channel and<sub/>n = conducting electron density in the n-channel.</para>
+    <para id="id4656752">Generally the n-channel is like a 2-D sheet hence its mobility is much lower than that in 3-D bulk. Typically µ<sub>n</sub> = 1450 cm<sup>2</sup>/(V-sec) in Bulk Semiconductor and 650 cm<sup>2</sup>/(V-sec) in the channel in FET.</para>
+    <para id="id1163799916450"><figure id="id1163800206541"><media id="id1163800206541_media" alt=""><image mime-type="image/png" src="../../media/graphics3-5f16.png" id="id1163800206541__onlineimage" height="381" width="492"/></media></figure>.</para>
+    <para id="id1163796339742">As can be seen in the Figure 7.3.1 in n-channel FET electrons are being sourced from the source end and being drained out from the drain end. By corollary in p-channel FET holes will be sourced and holes will be drained out. This is the reason why the symbols are shown with the arrow of the conventional current flow. In nMOSFET conventional current is shown to come out of the Source and in pMOSFET conventional current is shown to enter into the Source as shown in Figure 7.3.2.</para>
+    <figure id="id1163792347901">
+      <media id="id1163792347901_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-e5ab.png" id="id1163792347901__onlineimage" height="258" width="432"/>
+      </media>
+    </figure>
+    <para id="id8156523">Equation 7.3.1 is a linear equation with I-V characterisyics as shown in Figure 7.3.3.</para>
+    <figure id="id1163802880232">
+      <media id="id1163802880232_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-7ccb.png" id="id1163802880232__onlineimage" height="361" width="376"/>
+      </media>
+    </figure>
+    <para id="id1163797202950">As seen in the Figure 7.3.3, I-V is linear for the whole range of voltage applied and is anti-symmetrical about the y-axis. Hence n-channel is a bilateral device where for positive voltage positive current flows and for negative voltage negative current flows with equal ease.</para>
+    <para id="id1163792130292">7.3.1. FET as a 3-terminal Device in Ohmic Region/Triode Region</para>
+    <para id="id1163799548018">Now by applying GATE voltage V<sub>GS</sub> transverse to the channel as shown in Figure 7.3.4 the channel thickness can be controlled and thereby the I-V slope can be controlled as shown in Figure 7.3.5. </para>
+    <figure id="id1163790474746">
+      <media id="id1163790474746_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-9da3.png" id="id1163790474746__onlineimage" height="524" width="517"/>
+      </media>
+    </figure>
+    <para id="id1163800264263">In this OHMIC REGION of operation, we have two cases. First case is when V<sub>DS</sub> is kept less than 0.1V. In this case channel remains a parrallaelopied with a reduced thickness ‘t’. In this case if we continue to apply more and more negative voltage, the channel will be eventually be completed depleted and we say that the channel has pinched off. The negative gate voltage at which this occurs is known as Pinch-Off voltage (V<sub>P</sub>).</para>
+    <para id="id6434511">There is a second case where V<sub>DS</sub> is greater than 0.1V and it continues to be increased. In this case the difference voltage between Gate and Drain &gt; the difference between Gate and Source. Hence n-channel is trapezoidal and it does not give a linear I-V characteristics. This is also OHMIC REGION but non-linear. Linear and non-linear I-V curve is clearly indicated in Figure 7.3.5.</para>
+    <para id="id1685875">
+      <figure id="id1163792800394">
+        <media id="id1163792800394_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-3b18.png" id="id1163792800394__onlineimage" height="302" width="501"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163799821948">As seen in Figure 7.3.4 and Figure 7.3.5 we have achieved Voltage –Controlled Resistance (VCR) but this VCR is not quite linear. At V<sub>DS</sub> &lt; 0.1V, VCR is perfectly linear but at large V<sub>DS</sub> voltages the channel resistance deviates from the linear behavior. </para>
+    <para id="id1163790166013">In this kind of device at zero gate voltage, channel is present. Hence it is known as Normally-On . As the negative gate voltage is made more negative, the channel depletes until it finally completely pinches off . Hence it is known as .Depletion Type Device. As the gate voltage is made positive, channel becomes more conductive as it has a copious supply of electrons. Theefore we say that n-channel has enhanced.</para>
+    <para id="id1163793844327">All the above cases are Ohmic or Triode Region of operation of (D) n-channel MOS.</para>
+    <para id="id1163790310911">
+      <emphasis effect="bold">7.3.2. Saturation or Pentode Region of operation of (D) n-channel MOS.</emphasis>
+    </para>
+    <para id="id8572185"> For a given V<sub>GS</sub> , as V<sub>DS</sub> is increased a point comes when (V<sub>DS</sub>-V<sub>GS</sub>) = V<sub>P</sub> . At this point the channel gets pinched off on the Drain-side and n-channel becomes conical as shown in Figure 7.3.6. At this point let V<sub>DS</sub> = V<sub>DS</sub>*. Now the current I<sub>DS</sub> saturates.</para>
+    <para id="id1163798853371">Now if we increase V<sub>DS</sub> = V<sub>DS</sub>* +ΔV, the apex of the conical channel becomes more pinched off and the incremental voltage ΔV drops across the pinched off region between the apex of the cone and the drain. The voltage drop across the conical channel remains fixed at V<sub>DS</sub>* and the resistance of the conical channel is also constant at 1/3 of the full value of the parallaelopied channel resistance. Thus the drain current saturates at :</para>
+    <para id="id1163790387874"><figure id="id1163794821549"><media id="id1163794821549_media" alt=""><image mime-type="image/png" src="../../media/graphics8-a790.png" id="id1163794821549__onlineimage" height="55" width="127"/></media></figure> 7.3.2</para>
+    <para id="id5236263">Where R<sub>0</sub> = the resistance of the parallaelopied channel.</para>
+    <para id="id1163794952417">The saturation region of operation or Pentode Region of operation is shown in Figure 7.3.7.</para>
+    <figure id="id2020569">
+      <media id="id2020569_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-d2e3.png" id="id2020569__onlineimage" height="482" width="519"/>
+      </media>
+    </figure>
+    <para id="id1163791618021">All these arguments hold good for Enhancement Type MOSFETS also except that (E)nMOS is normally-off device and (D)nMOS is normally – on device. In Enhancement type NMOS, positive voltage has to be applied to the gate and only when Gate Voltage has exceeded the Threshold Voltage(V<sub>Th</sub>) that the n-channel is induced through inversion. In contrast in Depletion type NMOS, n-channel is already present there. Gate Voltage can be negative in which case the n-channel will get depleted and ultimately it will be pinched-off. Gate Voltage can be positive . In this case channel will beome more conductive.</para>
+    <para id="id1793394">(D)nMOS gives a greater flexibility of design hence it more preferred device.</para>
+    <para id="id1163799499369">
+      <figure id="id8209634">
+        <media id="id8209634_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-4768.png" id="id8209634__onlineimage" height="498" width="538"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163791761692">The Transfer Characteristics of (E)NMOS and (D)NMOS are shown in Figure 7.3.8. As can be seen from the Graph in Figure 7.3.8, (E)NMOS originates at V<sub>Th</sub> whereas (D)NMOS originates at pinch-off voltage V<sub>P</sub> . Both these transfer characteristics have been plotted in the Pentode region of the Output Characteristics. The saturation current of (D)NMOS at V<sub>GS</sub> = 0V is referred to as I<sub>DSS</sub> as it is done in JFET.</para>
+    <para id="id1163799233762">
+      <figure id="id1163798340082">
+        <media id="id1163798340082_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-1250.png" id="id1163798340082__onlineimage" height="393" width="519"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1163791976910">
+      <media id="id1163791976910_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-8543.png" id="id1163791976910__onlineimage" height="416" width="521"/>
+      </media>
+    </figure>
+    <para id="id1163797395368">7.3.3.Theoretical Formulation of Output family of Curves of NMOS.</para>
+    <para id="id1163791001647">Just as in BJT,</para>
+    <para id="id1163797826335">
+      <figure id="id1163791696362">
+        <media id="id1163791696362_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-7632.png" id="id1163791696362__onlineimage" height="44" width="58"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163791039347">Where Q<sub>B</sub> = charge stored in Base and τ<sub>t</sub> = transit time in the Base.</para>
+    <para id="id1163798624111">Similarly </para>
+    <para id="id1163790462367"><figure id="id8206427"><media id="id8206427_media" alt=""><image mime-type="image/png" src="../../media/graphics14-0dae.png" id="id8206427__onlineimage" height="43" width="397"/></media></figure>     7.3.3</para>
+    <para id="id1163796424236">Transit time has the following formulation:</para>
+    <para id="id1163790448142"><figure id="id1163791839491"><media id="id1163791839491_media" alt=""><image mime-type="image/png" src="../../media/graphics15-01fa.png" id="id1163791839491__onlineimage" height="49" width="461"/></media></figure> 7.3.4</para>
+    <para id="id1163801128681">Drift Velocity of electron in the channel is as follows:</para>
+    <para id="id4836451"><figure id="id1163796457420"><media id="id1163796457420_media" alt=""><image mime-type="image/png" src="../../media/graphics16-b524.png" id="id1163796457420__onlineimage" height="32" width="182"/></media></figure> 7.3.5</para>
+    <para id="id1163791942428">Where µ<sub>n</sub> = 2D mobility of electron in the channel because the channel behaves like a sheet and not like a Bulk.</para>
+    <para id="id1163793607249">E<sub>ds </sub>= Electric field from the Drain to Source </para>
+    <para id="id1163790966644"><figure id="id1163802314141"><media id="id1163802314141_media" alt=""><image mime-type="image/png" src="../../media/graphics17-25bd.png" id="id1163802314141__onlineimage" height="42" width="93"/></media></figure>            7.3.6</para>
+    <para id="id1163799436699">Substituting Eq.7.3.6 in Eq 7.3.5 which in turn is substituted in Eq.7.3.4. we get:</para>
+    <figure id="id1163796654405">
+      <media id="id1163796654405_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-08e9.png" id="id1163796654405__onlineimage" height="65" width="617"/>
+      </media>
+    </figure>
+    <para id="id1163791188455">This is analgous to the expression we get for the transit time of electron in NPN BJT:</para>
+    <para id="id1163795632178"><figure id="id1163799910551"><media id="id1163799910551_media" alt=""><image mime-type="image/png" src="../../media/graphics19-f91a.png" id="id1163799910551__onlineimage" height="49" width="179"/></media></figure> 7.3.8 </para>
+    <para id="id1163791014001">Here W = effective Base width, µ<sub>n</sub> = Bulk mobility of electron and V<sub>Th</sub> = thermal voltage at room temperature = kT/q;</para>
+    <para id="id1163797244988">
+      <emphasis effect="bold">7.3.3.1. Output Curve in Triode Region(non-saturated region).</emphasis>
+    </para>
+    <para id="id8598254">
+      <figure id="id1163802541756">
+        <media id="id1163802541756_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics20-8a48.png" id="id1163802541756__onlineimage" height="418" width="450"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163790617891">Figure 7.3.10 gives the 3-D view of NMOS transistor structure and it indicates the symbol used for the width, length of the channel anf for gate oxide thickness. According to the Figure:</para>
+    <para id="id1163802786270">L = length of the channel,</para>
+    <para id="id1163790573635">W = the width of the channel and D= thickness of the gate oxide.</para>
+    <para id="id1163790090702">We have to do the quantitative formulation of the n-channel charges induced in P-body after the Gate Voltage exceeds the threshold in case of (E)NMOS. </para>
+    <para id="id2148681">From now onward we will deal with (E)NMOS.</para>
+    <para id="id1163791878587">In (E)NMOS, positive gate voltage repels the majority carriers, namely holes, and creates depletion layer. In the process there is band-bending at the interface. </para>
+    <para id="id1163790476544">When band-bending = 2qψ<sub>B</sub> then inversion layer is induced.</para>
+    <para id="id1163791947706">The charges on the two plates of the gate capacitance and the gate voltage is shown in Figure 7.3.11.</para>
+    <para id="id1163800226134">
+      <figure id="id1163790560242">
+        <media id="id1163790560242_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-834d.png" id="id1163790560242__onlineimage" height="501" width="525"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163796442692">Q<sub>g</sub> (the charge on the gate plate) = Q<sub>dmax</sub> (depletion layer charge at its maximum width) + Q<sub>i</sub>(inversion layer charge).</para>
+    <para id="id1163801204380">Q<sub>i</sub> = inversion layer charge is the channel charge which we have referred to as the charge induced in the channel = Q<sub>C</sub></para>
+    <para id="id1163796705229">Q<sub>C</sub> = D<sub>g</sub>(electric flux density terminating at the induced channel charge) ×WL</para>
+    <para id="id1163793575765">--------------------------------------------------------------------------------------------------------7.3.9</para>
+    <para id="id1163792055614">Total electric flux originating = Q<sub>g</sub> .</para>
+    <para id="id1163791702916">A part is terminating on (-ve)Q<sub>dmax</sub> and the remaining is terminating on (-ve)Q<sub>C</sub>. The part which is terminating on (-ve)Q<sub>C </sub>is accounted by Eq.7.3.9.</para>
+    <para id="id1163792088800">But D<sub>g</sub> = E<sub>g</sub>×ε<sub>ins</sub>×ε<sub>0</sub></para>
+    <para id="id1163798691226">Where E<sub>g</sub> = average gate electric field with respect to the channel,</para>
+    <para id="id1163799199700">ε<sub>ins</sub> = relative permittivity of the gate oxide = 4 for Silicon Dioxide ,</para>
+    <para id="id7305978">ε<sub>0 </sub>= free space permittivity or absolute permittivity = 8.854×10<sup>-14</sup> F/cm.</para>
+    <para id="id1163790942168">To consider the average electric field (E<sub>g</sub>), we must consider the average electric field of the channel. </para>
+    <para id="id1163790849778">The Drain end of the channel is at V<sub>ds</sub> and the source end is at 0V. Therefore the average voltage of the channel is (V<sub>ds</sub>/2).</para>
+    <para id="id2135142">Also effective gate voltage responsible for induced channel charges or responsible for inversion layer is (V<sub>gs</sub> – V<sub>t</sub>).</para>
+    <para id="id1791986">Hence average gate electric field with respect to the channel is:</para>
+    <para id="id1163792391248"><figure id="id1163792124597"><media id="id1163792124597_media" alt=""><image mime-type="image/png" src="../../media/graphics22-a2ba.png" id="id1163792124597__onlineimage" height="54" width="159"/></media></figure>         7.3.10</para>
+    <para id="id1163796978528">Where D = oxide thickness. </para>
+    <para id="id8363692">Therefore:</para>
+    <figure id="id1163790569053">
+      <media id="id1163790569053_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-500f.png" id="id1163790569053__onlineimage" height="91" width="537"/>
+      </media>
+    </figure>
+    <para id="eip-213"><title>Errata in Equation 7.3.11</title>In Equation 7.3.11., Charge induced is equal to the Electric Flux Density into total cross sectional area. Total cross-sectional area = W*L and Electric Flux Density = permittivity*Electric Field.Hence there is an extra D(thickness of Oxide Layer) in the denominator. There is only one D in the denominator of Equation 7.3.11</para><para id="id8204974">But </para>
+    <figure id="id1163789436170">
+      <media id="id1163789436170_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-6021.png" id="id1163789436170__onlineimage" height="54" width="83"/>
+      </media>
+    </figure>
+    <para id="id1163796545220">And <figure id="id1163790612961"><media id="id1163790612961_media" alt=""><image mime-type="image/png" src="../../media/graphics25-343f.png" id="id1163790612961__onlineimage" height="49" width="110"/></media></figure></para>
+    <para id="id1163791057763">Substituting Eq.7.3.11 and Eq.7.3.8 in Eq.7.3.3 we get:</para>
+    <figure id="id1163794913139">
+      <media id="id1163794913139_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-9c6e.png" id="id1163794913139__onlineimage" height="54" width="607"/>
+      </media>
+    </figure>
+    <para id="id1163792136246">Gate Capacitance per unit area = C<sub>ox</sub> and total gate Capacitance is C<sub>g</sub> therefore</para>
+    <figure id="id1163796532729">
+      <media id="id1163796532729_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-1439.png" id="id1163796532729__onlineimage" height="52" width="617"/>
+      </media>
+    </figure>
+    <para id="id1163796421394">Equation 7.3.12 is also written as:</para>
+    <figure id="id1163793906015">
+      <media id="id1163793906015_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-4151.png" id="id1163793906015__onlineimage" height="65" width="546"/>
+      </media>
+    </figure>
+    <para id="id1163798270725">This equation is applicable in non-saturated region where </para>
+    <para id="id1163799431102">
+      <figure id="id1163792077296">
+        <media id="id1163792077296_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics29-9670.png" id="id1163792077296__onlineimage" height="32" width="150"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163790611743">This non-saturated region is called ohmic region or triode region.</para>
+    <para id="id1163799234121">7.3.3.2. Output curves in Saturated Region (Pentode Region)</para>
+    <para id="id1163800147727">NMOS enters the saturated region when the trapezoidal channel pinches off from the drain side. This happens when </para>
+    <para id="id1163793570169"><figure id="id1163789520378"><media id="id1163789520378_media" alt=""><image mime-type="image/png" src="../../media/graphics30-a18e.png" id="id1163789520378__onlineimage" height="32" width="201"/></media></figure> 7.3.15</para>
+    <para id="id1163801734829">Equation 7.3.14 reduces to:</para>
+    <para id="id1163800984029"><figure id="id1163800402943"><media id="id1163800402943_media" alt=""><image mime-type="image/png" src="../../media/graphics31-cb05.png" id="id1163800402943__onlineimage" height="48" width="211"/></media></figure> 7.3.16</para>
+    <para id="id1163792000489">When V<sub>ds</sub> exceeds V<sub>ds</sub><sup>*</sup>, still the voltage drop across the conical channel from the source to the apex of the cone remains V<sub>ds</sub><sup>*</sup> and the excess voltage (V<sub>ds</sub> - V<sub>ds</sub><sup>*</sup>) drops across the depleted region from the apex to the drain. By ballistic action electrons jump across the depleted region and maintain the current flow.</para>
+    <para id="id1163790275548">Equation 7.3.16 can be re-written as:</para>
+    <para id="id1163798782732"><figure id="id8747738"><media id="id8747738_media" alt=""><image mime-type="image/png" src="../../media/graphics32-fe4b.png" id="id8747738__onlineimage" height="46" width="188"/></media></figure> 7.3.17</para>
+    <para id="id1163790332333">As is evident from Eq. 7.3.17, the line of demarcation between Triode and Pentode is a parabola which was pointed out in the the family of output curves in Figure 7.3.7.</para>
+    <para id="id1163797417580">These equations describing the output family of curves are valid for (E)NMOS as well as for (D)NMOS except that in (E)NMOS threshold is a positive voltage typically 1V and in (D)NMOS it is a negative voltage typically -1V. Equation 7.3.14 and Equation 7.3.16 show that the electrical characteristics are critically dependent on the geometrical dimensions of the MOS devices.</para>
+  </content>
+</document>

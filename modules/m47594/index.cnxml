@@ -1,0 +1,333 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 3_SEc3.2.4. Reverse biasedDiode,3.2.5.Real Diodes,3.2.6.Avalanche Diode,3.2.7.Hyperabrupt Jn.Diode.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47594</md:content-id>
+  <md:title>SSPD_Chapter 3_SEc3.2.4. Reverse biasedDiode,3.2.5.Real Diodes,3.2.6.Avalanche Diode,3.2.7.Hyperabrupt Jn.Diode.</md:title>
+  <md:abstract>Section3.2.4, 3.2.5,3.2.6 and 3.2.7 compares the real diode with ideal diode, its temperature dependence, Avaalanche Break down under reverse bias condition and design of Varactor Diode(hyperabrupt diode).</md:abstract>
+  <md:uuid>41dc30ce-bc33-452d-a97e-9b4225de1b70</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163727667681">
+      <title>3.2.4.Reverse Biased Diode.</title>
+      <para id="import-auto-id1163726630788">In Section 3.2.2. we have derived the Shockley Equation or the Ideal Diode Equation from the first principles of the forward biased diode. In the present section the same Ideal Diode Equation will be verified by studying the reverse biased diode. This analysis will give the physical origin of the reverse leakage current or the reverse saturation current. In Figure 3.11. the space charge region, the electric field and the potential gradient in a reverse biased diode is given.</para>
+      <figure id="import-auto-id1163729603519">
+        <media id="import-auto-id1163726614732" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-7b20.png" height="669" width="574"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726655812">Under reverse bias, as seen from Figure 3.11., the depletion region widens, maximum Electric Field at the junction becomes more intense and built-in barrier potential is now (Φ<sub>BO</sub>+V<sub>R</sub>).</para>
+      <para id="import-auto-id1163727853539">Equation 3.2.9. gets modified to the following form:</para>
+      <figure id="import-auto-id1163726597600">
+        <media id="import-auto-id1163726576205" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-5aff.png" height="61" width="459"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1163727723790">
+        <media id="import-auto-id1163727683987" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-cf06.png" height="634" width="524"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163727935280">Diffusion current of majority carriers is completely stopped because of large barrier potential. There is only drift of the minority carriers in the reverse direction.By examining Figure 3.12 we can analytically deduce the drift currents and hence the total reverse leakage current. In Figure 3.12. the carrier concentration of a reverse biased diode is shown.</para>
+      <para id="import-auto-id1163726717242">By Boltzmann relation,at the edge of the depletion region, minority carrier concentration is perturbed in the following manner:</para>
+      <figure id="import-auto-id1163726633383">
+        <media id="import-auto-id1163726519076" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-8d25.png" height="43" width="501"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726856765">Equation (3.2.4.2) tells us that under forward bias there is excess of carriers at the edge of the depletion region hence there is recombination and under reverse bias there is deficit of carriers and hence there is thermal generation of EHP and the the minority carrier is suppressed to zero at the edge of the depletion region hence the generation rate is:</para>
+      <figure id="import-auto-id1163726778431">
+        <media id="import-auto-id1163727835737" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-09de.png" height="42" width="493"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163728925733">
+        <figure id="import-auto-id1163728871374">
+          <media id="import-auto-id1163727829319" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-b533.png" height="44" width="495"/>
+          </media>
+        </figure>
+      </para>
+      <para id="import-auto-id1163727851078">All the generated carriers within L<sub>n</sub> (diffusion length of electrons) manage to survive and reach the edge of the depletion region on the P-Side. Similarly All the generated carriers within L<sub>p</sub> (diffusion length of holes) manage to survive and reach the edge of the depletion region on the N-Side.Hence total reverse saturation current or reverse leakage current is as follows:</para>
+      <figure id="import-auto-id1163726742280">
+        <media id="import-auto-id1163727756897" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-8756.png" height="45" width="413"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726754386">This is the same as the reverse leakage current in Equation (3.2.2.6).</para>
+      <para id="import-auto-id1163726677049">The reverse leakage current in Equation (3.2.2.6) is:</para>
+      <figure id="import-auto-id1163726722841">
+        <media id="import-auto-id1163729604108" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-3c4e.png" height="47" width="381"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1163726803190">
+        <media id="import-auto-id1163726818809" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-17c0.png" height="46" width="462"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163727809842">Hence the Equations (3.2.4.3) and (3.2.4.4) are equivalent and they are due to the limited minority carriers being generated at the two sides of the depletion region. As soon as they are generated they drift down the potential gradient of the built-in barrier potential.</para>
+      <para id="import-auto-id1163726493881">Since they depend upon the generation of the minority carriers hence they are very temperature sensitive and they double for every 10°C rise in temperature for Si as well as for Ge diodes.</para>
+      <para id="import-auto-id1163726676512">
+        <emphasis effect="bold">3.2.4.1.Temperature dependence of I</emphasis>
+        <emphasis effect="bold">DO</emphasis>
+        <emphasis effect="bold">(reverse leakage current).</emphasis>
+      </para>
+      <para id="import-auto-id1163728764775">Rewriting Equation(3.2.4.4):</para>
+      <figure id="import-auto-id1163726704782">
+        <media id="import-auto-id1163726486630" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-3c4e.png" height="47" width="381"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163728958070">Therefore:</para>
+      <figure id="import-auto-id1163726581380">
+        <media id="import-auto-id1163727847008" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-af7f.png" height="48" width="569"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726820171">From Equation (3.2.4.5), it is evident that for small increments if we assume mobility and diffusion coefficient to be independent of  temperature then I<sub>DO</sub> varies directly as n<sub>i</sub><sup>2</sup>.</para>
+      <figure id="import-auto-id1163726767223">
+        <media id="import-auto-id1163727657791" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-ecbf.png" height="48" width="567"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726732955">Equation tells us that n<sub>i</sub><sup>2</sup> increases by 15.48% for every 1K rise in Temperature.</para>
+      <para id="import-auto-id1163726615159">But experimentally, n<sub>i</sub><sup>2</sup> increases by 7% for every 1K rise in Temperature for both Si and Ge Diodes.</para>
+      <para id="import-auto-id1163726767112">Hence we can assume that I<sub>DO</sub> increases by 7% for every 1°C rise in Temperature.</para>
+      <para id="import-auto-id1163726555943">Therefore:</para>
+      <figure id="import-auto-id1163726614013">
+        <media id="import-auto-id1163728946038" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-d69b.png" height="23" width="404"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726692512">If for 1°C rise in temperature, I<sub>DO</sub> increases by 1.07 then for 10°C rise in temperature, I<sub>DO</sub> increases by (1.07)<sup>10</sup>=1.969 ~ 2.</para>
+      <para id="import-auto-id1163727936170">Therefore we can say that Reverse Saturation Current doubles for every 10°C rise in Ambient Temperature.</para>
+      <para id="import-auto-id1163727936118">Hence the expression for Reverse Saturation Current is:</para>
+      <figure id="import-auto-id1163726793531">
+        <media id="import-auto-id1163726857364" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-8e17.png" height="32" width="374"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726617186">
+        <emphasis effect="bold">3.2.4.2.Temperature Dependence of Forward Bias Voltage V</emphasis>
+        <emphasis effect="bold">F</emphasis>
+        <emphasis effect="bold"> for maintaining a constant forward current I</emphasis>
+        <emphasis effect="bold">F</emphasis>
+        <emphasis effect="bold">.</emphasis>
+      </para>
+      <para id="import-auto-id1163728875517">Since I<sub>D0</sub> doubles for every 10°C rise in temperature hence forward current also increases as shown in Figure 3.13. Therefore at Room Temperature, forward bias must decrease by 2.5mV for every 1°C rise in temperature to maintain forward current constant.</para>
+      <figure id="import-auto-id1163726776507">
+        <media id="import-auto-id1163726663105" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-a8f7.png" height="555" width="449"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163727934735">At Temperature T Kelvin:</para>
+      <figure id="import-auto-id1163726650560">
+        <media id="import-auto-id1163726802845" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-6729.png" height="40" width="526"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163727715504">At Temperature (T+1) Kelvin:</para>
+      <figure id="import-auto-id1163726700512">
+        <media id="import-auto-id1163726717002" alt="">
+          <image mime-type="image/png" src="../../media/graphics14-2083.png" height="43" width="563"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726600814">But I<sub>D0</sub>(T+1)=1.07I<sub>D0</sub>(T) hence if the current has to remain constant then V<sub>D</sub> must  reduce by ∆V.</para>
+      <para id="import-auto-id1163726808598">Therefore Equation (3.2.4.2.2) is rewritten for constancy of the current:</para>
+      <figure id="import-auto-id1163726820313">
+        <media id="import-auto-id1163728724841" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-8e54.png" height="43" width="496"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163729394522">Simplifying Equation (3.2.4.2.3) we get:</para>
+      <figure id="import-auto-id1163728985469">
+        <media id="import-auto-id1163727756933" alt="">
+          <image mime-type="image/png" src="../../media/graphics16-0ced.png" height="66" width="382"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163728915826">At T = 300K, 1/300 &lt;&lt; 1 therefore Equation (3.2.4.2.4) simplifies to:</para>
+      <figure id="import-auto-id1163726655536">
+        <media id="import-auto-id1163726625401" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-0d9a.png" height="40" width="101"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726486365">Or</para>
+      <figure id="import-auto-id1163726779707">
+        <media id="import-auto-id1163727865011" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-e490.png" height="23" width="485"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163728972384">Theoretically forward voltage must decrease by 1.759mV/1°C to maintain I<sub>D</sub> constant but exoerimentally:</para>
+      <figure id="import-auto-id1163726733722">
+        <media id="import-auto-id1163727724561" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-1919.png" height="40" width="449"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726778010">
+        <emphasis effect="bold">3.2.5.Real Diode Equation.</emphasis>
+      </para>
+      <para id="import-auto-id1163726664387">Two simplifying assumptions were made while deriving Shockley Equation:</para>
+      <para id="import-auto-id1163729603892">i.Bulk is quasi-neutral. This means the applied diode voltage drops across the depletion region only.</para>
+      <para id="import-auto-id1163726478462">ii.There is no recombination in the depletion region.</para>
+      <para id="import-auto-id1163726667148">In real diodes, at low voltages the depletion region is comparable to diffusion lengths hence while crossing the depletion region recombination does take place. As a result the current is not constant while crossing the depletion region.</para>
+      <para id="import-auto-id1163727755260">Therefore an Ideality Factor has to be introduced in the Ideal Diode Equation. That is below 0.5mA, Ideal Diode Equation is not adequate to describe the real diode behavior.</para>
+      <para id="import-auto-id1163726793495">Theefore at low currents:</para>
+      <figure id="import-auto-id1163726710985">
+        <media id="import-auto-id1163726592308" alt="">
+          <image mime-type="image/png" src="../../media/graphics20-8c7d.png" height="43" width="372"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726792897">Where Ideality Factor η =2 at low currents lower than 0.5mA.</para>
+      <para id="import-auto-id1163726704648">At high currents, when we have high injection level then the bulk does not remain neutral. At high injection levels, perturbation in minority carrier becomes comparable to the majority carrier concentration that is:</para>
+      <figure id="import-auto-id1163726857216">
+        <media id="import-auto-id1163727714547" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-b116.png" height="25" width="149"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1163728897148">
+        <media id="import-auto-id1163726719617" alt="">
+          <image mime-type="image/png" src="../../media/graphics22-4cfe.png" height="44" width="150"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726718025">Therefore the forward voltage where High Level Injection(HIL) occurs:</para>
+      <figure id="import-auto-id1163727831207">
+        <media id="import-auto-id1163729588342" alt="">
+          <image mime-type="image/png" src="../../media/graphics23-50c2.png" height="47" width="494"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726766973"> Under such a condition the carrier concentration profile as shown in Figure 3.14:</para>
+      <figure id="import-auto-id1163726742205">
+        <media id="import-auto-id1163726808537" alt="">
+          <image mime-type="image/png" src="../../media/Picture 17-9500.png" height="539" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163726796597"> As seen in Figure 3.14. there is considerable field and hence voltage drop across the Bulk. Therefore V<sub>D</sub>= V<sub>dep</sub> is invalid now. </para>
+      <para id="import-auto-id6625485">V<sub>dep</sub>= V<sub>D </sub>- (V<sub>Bp</sub>+V<sub>Bn</sub>) ;</para>
+      <para id="import-auto-id7474318">It will be shown through detailed analysis in the Appendix of Chapter 3 that </para>
+      <para id="import-auto-id7325203">V<sub>dep</sub> = (1/2)V<sub>D</sub> . Since the drop across the depletion region decides the Shockley Equation hence at HIL the form of diode equation is:</para>
+      <figure id="import-auto-id7469120">
+        <media id="import-auto-id6278075" alt="">
+          <image mime-type="image/png" src="../../media/graphics24-7e7a.png" height="43" width="177"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7441665">Where η=2.</para>
+      <para id="import-auto-id7148906">This discussion tells us that Real Diodes are described by Equation 3.2.5.1 </para>
+      <para id="import-auto-id7237381">where η=2 for currents less than 0.5mA(depletion region recombination dominates) </para>
+      <para id="import-auto-id7510643">and η=2 for currents more than 5mA(the bulk does not remain quasi-neutral).</para>
+      <para id="import-auto-id7057102">If we assume that diode is on then ‘1’ can be neglected and equation is expressed as:</para>
+      <figure id="import-auto-id7233486">
+        <media id="import-auto-id7506010" alt="">
+          <image mime-type="image/png" src="../../media/graphics25-9f9d.png" height="44" width="395"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7555621">This Equation (3.2.5.3) tells us that for every 60mV increase in Diode Voltage increases the Diode Current by 10 times that is by a decade under moderate current where η=1.</para>
+      <para id="import-auto-id7502383">For low currents and for high currents where η=2, current increase by a decade for 129mV increase in Diode Voltage. </para>
+      <para id="import-auto-id7509636">For Ideal Diode the semi-log plot of Ideal Diode Equation gives 60mV/decade but for Real Diode we get 120mV per decade slope at currents less than 0.5mA, 60mV/decade slope for intermediate currents 0.5mA to 5mA and again 120mV/decade slope for currents in the range of 5mA and above. Semi-log plot of a Real-Diode is shown in Figure 3.15.</para>
+      <figure id="import-auto-id7538265">
+        <media id="import-auto-id6856223" alt="">
+          <image mime-type="image/png" src="../../media/Picture 18-7c6d.png" height="392" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7454078">
+        <emphasis effect="bold">3.2.6. Avalanche Breakdown . </emphasis>
+      </para>
+      <para id="import-auto-id6695560">Under reverse bias condition when E<sub>max</sub> exceeds E<sub>crit</sub> (constant at 3×10<sup>5</sup>V/cm)  also known as Break-down field of Silicon Diode under low doping condition then Avalanche Breakdown takes place and the diode can be irreversibly damaged if there is no limiting resistance in the circuit.</para>
+      <para id="import-auto-id7263097">As Reverse Bias Voltage starts increasing the reverse leakage current starts multiplying by an Avalanche Mutiplication Factor ‘M’ where M is given as follows:</para>
+      <figure id="import-auto-id7078331">
+        <media id="import-auto-id3815807" alt="">
+          <image mime-type="image/png" src="../../media/graphics26-c620.png" height="59" width="545"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7545740">The reverse leakage current is given by the following expression:</para>
+      <figure id="import-auto-id5771461">
+        <media id="import-auto-id4107734" alt="">
+          <image mime-type="image/png" src="../../media/graphics27-e4b8.png" height="23" width="556"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7143385">As  the reverse voltage approaches BV<sub>A</sub>(Avalanche Break-Down Voltage), the drifting minority carriers get accelerated to a point where they break the co-valent bond and EHPs are produced by impact collision and ionization.Soon this becomes a runaway process and  current rapidly builds up only to be limitesd by the circuit loop resistance. </para>
+      <para id="import-auto-id5299173">For one sided step junction (P<sup>+</sup>N Junxction Diode), depletion layer extends into the lightly doped side and electric field is given by:</para>
+      <figure id="import-auto-id7262258">
+        <media id="import-auto-id6625929" alt="">
+          <image mime-type="image/png" src="../../media/graphics28-8f98.png" height="40" width="445"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7500277">Therefore Avalanche Breakdown Voltage:</para>
+      <figure id="import-auto-id6338516">
+        <media id="import-auto-id7432851" alt="">
+          <image mime-type="image/png" src="../../media/graphics29-fa53.png" height="46" width="443"/>
+        </media>
+      </figure>
+      <para id="import-auto-id6669079">The corresponding depletion layer is: d<sub>n</sub> = 1.9μm.</para>
+      <para id="import-auto-id4759590">This picture holds true only for lightly doped diodes. At higher doping Quantum Mechanical Tunneling comes into picture.</para>
+      <para id="import-auto-id7116252">
+        <emphasis effect="bold">3.2.7.Hyperabrupt Junction Diodes to synthesize Varactor Diode.</emphasis>
+      </para>
+      <para id="import-auto-id7507343">We saw in the fabrication section that doping profile can be complimentary error function from a short period constant source diffusion and Gaussian Distribution for a long period limited source –diffusion.In general the doping profile is the following:</para>
+      <figure id="import-auto-id7500731">
+        <media id="import-auto-id7258109" alt="">
+          <image mime-type="image/png" src="../../media/graphics30-3a53.png" height="23" width="364"/>
+        </media>
+      </figure>
+      <para id="import-auto-id5911229">For this generalized doping we get a generalized power function dependence of Junction Capacitance. The junction Capacitance of a diode is given by the same formula as the parallel plate Capacitor:</para>
+      <figure id="import-auto-id7500325">
+        <media id="import-auto-id7478926" alt="">
+          <image mime-type="image/png" src="../../media/graphics31-a289.png" height="40" width="524"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7533578">By detailed analysis it has been shown that :</para>
+      <figure id="import-auto-id7277782">
+        <media id="import-auto-id7510598" alt="">
+          <image mime-type="image/png" src="../../media/graphics32-a39d.png" height="40" width="462"/>
+        </media>
+      </figure>
+      <para id="import-auto-id7478270">Using Equation (3.2.7.1) and (3.2.7.2), abrupt junction diode, linealrly graded junction diode and hyper-abrupt-junction diode can be designed. Table 3.2.7.1 gives the Junction Capacitance Power Law.</para>
+      <para id="import-auto-id7333787">
+        <emphasis effect="bold">Table 3.2.7.1. Junction Capacitance Power Law for generalized doping.</emphasis>
+      </para>
+      <table id="import-auto-id1163726795849" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Type of junction</entry>
+              <entry>m</entry>
+              <entry>n</entry>
+              <entry>Power Law</entry>
+              <entry>Application</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Abrupt Jn.</entry>
+              <entry>0</entry>
+              <entry>1/2</entry>
+              <entry>Inverse square root law</entry>
+              <entry>General Application</entry>
+            </row>
+            <row>
+              <entry>Linearly graded Jn.</entry>
+              <entry>1</entry>
+              <entry>1/3</entry>
+              <entry>Inverse cube root law</entry>
+              <entry>For special application</entry>
+            </row>
+            <row>
+              <entry>Hyper-abrupt Jn.</entry>
+              <entry>-3/2</entry>
+              <entry>2</entry>
+              <entry>inverse as the square of Voltage</entry>
+              <entry>Voltage Controlled Oscillator</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id3965499"> The doping profile of the three kinds of the junctions are given in Figure 3.16.</para>
+      <para id="import-auto-id5945297"><figure id="import-auto-id6638436"><media id="import-auto-id7301672" alt=""><image mime-type="image/png" src="../../media/Picture 19-1ea6.png" height="318" width="575"/></media></figure> In the next section we will examine hyper-abrupt Junction and its application in Voltage Controlled Oscillator as a VARACTOR DIODE which is commonly used in FM generation..</para>
+    </section>
+  </content>
+</document>

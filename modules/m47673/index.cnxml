@@ -1,0 +1,339 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 3_Section 3.4.Schottky Diode and Section 3.5. Ohmic Contact.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47673</md:content-id>
+  <md:title>SSPD_Chapter 3_Section 3.4.Schottky Diode and Section 3.5. Ohmic Contact.</md:title>
+  <md:abstract>Section 3.4 describes the physics and application of Schottky Diode and Section 3.5. describes the procedure for realizing ohmic contact.</md:abstract>
+  <md:uuid>f357c651-0c8e-4387-bde1-83afe207372c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1171583340922">
+      <title>3.4.Schottky Diode.</title>
+      <para id="import-auto-id1171582501784">Metal Aluminum is the commonly used interconnection path in Integrated Circuit Technology because it provides a good conducting path and it makes ohmic contacts on the contact pads of the solid state devices being integrated. Bulk ‘Al’ has a resistivity of 2.7×10<sup>-6</sup>Ω-cm but in thin film form its resistivity is higher by a factor of 20 hence it  high current densities as high as ~ 10<sup>5</sup>A/cm<sup>2</sup> which is required for high speed switching networks it leads to serious reliability problems of a phenomena known as electromigration which is a major cause of the breakdown of VLSI and ULSI integrated circuits.</para>
+      <para id="import-auto-id1171569665862">At nodes (length of the channel) below 90nm, the pitch (the lateral width of the interconnect) of interconnection is 45nm or less. At this level of integration, to build complex and dense circuits the multilevel metallization is routinely employed. As much as 10 multi layers are used. The metal thickness ranges from a fraction of μm to several μm. The thinner interconnects route signals while thicker layers serve as  power bus. Electrical connection between two adjacent levels of interconnects are made through a VIA.  To reduce the contact resistance at a contact pad a Silicide such as NiSi<sub>2</sub> is added.  In electromigration (also known as the electron wind effect) metal ions are forced to move downstream due to the high electron current densities, along the the grain structure. This results into voids and hillocks in the film at curves and forks.The thinning due to voids leads to excessive heating and break in the conducting path.</para>
+      <para id="import-auto-id1171564542245">Electromigration is prevented by controlling the grain structure along the microcrystallites that form the metal lines. Larger grains have less surface area and therefore resist electromigration. Some alloying metals, such as copper, accumulate in the grain boundaries, locking the atoms thetre into place and thus preventing electromigration. Copper also prevents hillocking of Al films and thus prevents non-unifporm thermal effects. It is thus increasingly common to add Cu to Al in small quantities to form interconnects. Since 1998 IBM has introduced Cu interconnects leading to a much higher performing ICs with no problem of electromigration even at interconnect pitch lower than 90nm. Copper has replaced Aluminum as the interconnect material in nodes below 90nm. Cu has excellent electromigration reliability and 40% lower resistance than Al. It may be deposited by electroplating or by CVD. Copper patterns are etched by damascene process. This wil be given in supplementary sheets.</para>
+      <para id="import-auto-id1171569971090">But ‘Al’ is itself P-Type material as is evident from Figure 3.26 and Table 3.4.1. Hence its deposition on P-Type Semi-conductor will give an ohmic contact but its deposition on N-Type Semiconductor gives rise to rectifying contact and such an interface is a PN Junction diode which in reality is Metal-Semiconductor Diode with very fast switching properties. This Metal Semiconductor was studied by Schottky in great details and hence it is called Schottky Diode.</para>
+      <para id="import-auto-id1171568978485">In 1874, Braun noted the dependency of total resistance on the polarity of the applied voltage and on the surface conditions. By 1904, point contact diodes started coming into practical use. These were known as ‘Cat Whiskers’ used in crystal diode in demodulating the AM Radio Broadcast Signals. In 1931, Wilson gave the transport theory based on the Band Theory of Solids. In 1938, Schottky suggested that contact  potential could develop at metal-semiconductor interface. The model based on this is known as Schottky Model. In 1938, Mott gave the model for swept-out Metal-Semiconductor contact. This is known as Mott barrier. In 1957, Henish in his book ‘Rectifying Semiconductor Contacts’ summarized the basic theory and the historical development of rectifying Metal-Semiconductor Contacts.</para>
+      <para id="import-auto-id1171569857185">
+        <emphasis effect="bold">Table.3.4.1.Position of III and V elements energy states within the band-gap of Silicon.</emphasis>
+      </para>
+      <para id="import-auto-id1171570468935"><emphasis effect="bold">The energy values refer to the energy below conduction bandedge in case of donor and refer to the energy above valence bandedge in case of acceptor</emphasis>.  </para>
+      <para id="import-auto-id1171563262244">[Reference: ‘Semiconductor Devices-basic principles’, by Jasprit Singh, Chapter 2,pp 74, 2007 reprint, Wiley –India Publication]</para>
+      <table id="import-auto-id1171567260276" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Semiconductor</entry>
+              <entry>Impurity(Donor)</entry>
+              <entry>E<sub>d</sub>(meV)</entry>
+              <entry>Impurity(Acceptor)</entry>
+              <entry>E<sub>a</sub>(meV)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Si</entry>
+              <entry>Li</entry>
+              <entry>33</entry>
+              <entry>B</entry>
+              <entry>45</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>Sb</entry>
+              <entry>39</entry>
+              <entry>Al</entry>
+              <entry>67</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>P</entry>
+              <entry>45</entry>
+              <entry>Ga</entry>
+              <entry>72</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>As</entry>
+              <entry>54</entry>
+              <entry>In</entry>
+              <entry>100</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>Mn(deep EnergyStates)</entry>
+              <entry>530</entry>
+              <entry>Au(deep EnergyStates)</entry>
+              <entry>540</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry>Zn(deep EnergyStates)</entry>
+              <entry>550</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1171564220641">Deep energy states in the band-gap act as the effective stepping stone for recombination hence they act as the Life-Time killer. Their introduction will lead to reduction in minority carriers storage under forward bias condition.Hence in 70s to reduce the storage delay time, Gold was introduced as the life-time killer. But subsequently this was discarded and Schottky Clamped transistors were used  to reduce the minority carrier storage delay. Nowadays Schottky-clamped TTL gates have become the norm of the day. These are available as 74AS series.</para>
+      <figure id="import-auto-id1171564221963">
+        <media id="import-auto-id1171568177476" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-eb25.png" height="398" width="575"/>
+        </media>
+      </figure>
+    </section>
+    <section id="import-auto-id1171567932308">
+      <title>3.4.1. Physics of Schottky Diode.</title>
+      <para id="import-auto-id1171564626123">Aluminum layer on N-Type Semiconductor forms a rectifying junction with a built-in barrier potential as shown in Figure 3.27. and Figure 3.28.</para>
+      <para id="import-auto-id1171567325715">In Figure 3.27. Case (a):</para>
+      <para id="import-auto-id1171570094270">Work-function of Metal=qΦ<sub>m</sub> (eV).</para>
+      <para id="import-auto-id1171565733241">Work-function of Siliconl=qΦ<sub>Si</sub> (eV).</para>
+      <para id="import-auto-id1171564087499">Electron affinity in Silicon=χ<sub>Si</sub> (eV).</para>
+      <para id="import-auto-id1171564134135">Barrier Potential Energy seen from metal side = qΦ<sub>B</sub>=q(Φ<sub>m</sub>-χ<sub>Si</sub>).</para>
+      <para id="import-auto-id1171569073670">Barrier Potential  seen from semi-conductor side =V<sub>bi</sub> = (Φ<sub>m</sub>-Φ<sub>Si</sub>).</para>
+      <para id="import-auto-id1171564566214">Built-in Barrier Potential on the semi-conductor side can be expressed as= V<sub>bi</sub> = (Φ<sub>B</sub>-Φ<sub>D</sub>).</para>
+      <para id="import-auto-id1171567563782">These are in ideal condition. In real – life, there are surface states at the interface which complicate the situation and measured values of Φ<sub>B</sub> are much greater than the theoretical values. Table 3.4.1. gives the measured Schottky Barrier heights for electrons on N-type Silicon Φ<sub>B</sub>│<sub>N</sub> and the measured Schottky Barrier heights for holes on P-type Silicon Φ<sub>B</sub>│<sub>P </sub></para>
+      <figure id="import-auto-id1171564558940">
+        <media id="import-auto-id1171569648482" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-b653.png" height="674" width="560"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1171569834714">
+        <media id="import-auto-id1171568110263" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-3af4.png" height="465" width="472"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1171564512601">
+        <emphasis effect="bold">Table 3.4.1. Measured Schottky Barrier heights for electrons on N-type Silicon Φ</emphasis>
+        <emphasis effect="bold">B</emphasis>
+        <emphasis effect="bold">│</emphasis>
+        <emphasis effect="bold">N</emphasis>
+        <emphasis effect="bold"> and the measured Schottky Barrier heights for holes on P-type Silicon Φ</emphasis>
+        <emphasis effect="bold">B</emphasis>
+        <emphasis effect="bold">│</emphasis>
+        <emphasis effect="bold">P</emphasis>
+        <emphasis effect="bold"> .</emphasis>
+      </para>
+      <table id="import-auto-id1171567840591" summary="">
+        <tgroup cols="9">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <colspec colnum="9" colname="c9"/>
+          <thead>
+            <row>
+              <entry>Metal</entry>
+              <entry>Mg</entry>
+              <entry>Ti</entry>
+              <entry>Cr</entry>
+              <entry>W</entry>
+              <entry>Mo</entry>
+              <entry>Pd</entry>
+              <entry>Au</entry>
+              <entry>Pt</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Φ<sub>M</sub>(eV)</entry>
+              <entry>3.7</entry>
+              <entry>4.3</entry>
+              <entry>4.5</entry>
+              <entry>4.6</entry>
+              <entry>4.6</entry>
+              <entry>5.1</entry>
+              <entry>5.1</entry>
+              <entry>5.7</entry>
+            </row>
+            <row>
+              <entry>Φ<sub>B</sub>│<sub>N</sub>(eV)</entry>
+              <entry>0.4</entry>
+              <entry>0.5</entry>
+              <entry>0.61</entry>
+              <entry>0.67</entry>
+              <entry>0.68</entry>
+              <entry>0.77</entry>
+              <entry>0.8</entry>
+              <entry>0.9</entry>
+            </row>
+            <row>
+              <entry>Φ<sub>B</sub>│<sub>N</sub>(eV)</entry>
+              <entry>-</entry>
+              <entry>0.61</entry>
+              <entry>0.50</entry>
+              <entry>-</entry>
+              <entry>0.42</entry>
+              <entry>-</entry>
+              <entry>0.3</entry>
+              <entry>-</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1171565792953">Under no bias, there is equal current flowing across the potential barrier from two sides. Hence there is detailed charge balance is maintained and net current across the Schottky Barrier is zero. </para>
+      <para id="import-auto-id1171570284933">The Barrier Potential seen from the metal side is Φ<sub>B</sub> and remains unchanged even under bias condition. Hence current from Metal to Semiconductor is kept at -I<sub>0</sub> under forward as well as reverse biased condition..</para>
+      <para id="import-auto-id1171569260084">But the Barrier Potential from the semiconductor side is (V<sub>bi</sub> -V<sub>F</sub>) under forward bias condition just as in Classical Diode and as shown in Figure 3.29. Hence carrier diffuses across the forward biased junction with a greater ease and the current from Semiconductor to Metal is I<sub>0</sub>Exp[V<sub>F</sub>/V<sub>Th</sub>]. Therefore net current across the junction under forward bias condition is:</para>
+      <figure id="import-auto-id1171565700966">
+        <media id="import-auto-id1171570428354" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-dab6.png" height="43" width="415"/>
+        </media>
+      </figure>
+      <para id="import-auto-id3009099">Under reverse bias condition, the barrier potential from Metal-side is unchanged but from the Semiconductor-side it is  (V<sub>bi</sub> +V<sub>F</sub>) as shown in Figure 3.30. Hence electron diffusion across the enhanced potential barrier is completely stopped and net current across the junction is:</para>
+      <figure id="import-auto-id1171568499710">
+        <media id="import-auto-id1171564495756" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-9fc9.png" height="23" width="439"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1171564511428">Equation 3.4.1 and Equation 3.4.2 show that Schotky diode behaves exactly like a classical Diode except for a lower knee Voltage at 0.1V because of a reduced barrier potential.</para>
+      <para id="import-auto-id1171579199566">Detailed analysis of Schittky Diode will be done in Supplementary Sheets.</para>
+      <figure id="import-auto-id1171570218070">
+        <media id="import-auto-id1171569657874" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-0cff.png" height="433" width="541"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1171568154944">
+        <media id="import-auto-id4869512" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-0b60.png" height="493" width="487"/>
+        </media>
+      </figure>
+    </section>
+    <section id="import-auto-id1171564877622">
+      <title>3.4.2. Data-Sheet of Schottky Diode.</title>
+      <para id="import-auto-id1171568201433">As shown in Section 3.4.1, there is no minority carrier involved in the diode action. It is electron bothways. Hence there is no minority carrier storage and hence as we will see in the switching transients we are never confronted with mionority carrier storage delay in switching transients. Therefore Schottky Diode is known as ‘Hot-Electron Diode’.</para>
+      <para id="import-auto-id1171565138321">It has a lower cut-in voltage of 0.1V because of lower barrier potential. And it has much lower junction plus diffusion capacitance. In Table 3.4.2.1.  comparative data sheets of a Schottky Diode 1N5711 and Classical Diode 1N4001 are given.</para>
+      <para id="import-auto-id1171564946024">Low fotward voltage drop and fast switching  makes it ideal for protection of MOS devices, steering, biasing and coupling diodes for fast switching and low logic level application. It has higher cut-off frequency, it is reproducible and it has  ease of fabrication.</para>
+      <para id="import-auto-id1171565044693">In Figure 3.31, its symbol and I-V characteristics in comparison to I-V characteristics of a classical diode is shown.</para>
+      <para id="import-auto-id1171569681304">
+        <emphasis effect="bold">Table 3.4.2.1. Comparative Data Sheets of Schottky Diode 1N5711 and Classical Diode 1N4001.</emphasis>
+      </para>
+      <table id="import-auto-id1171571529168" summary="">
+        <tgroup cols="6">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <thead>
+            <row>
+              <entry namest="c1" nameend="c3">1N5711(Schottky Diode)</entry>
+              <entry>
+                
+              </entry>
+              <entry>
+                
+              </entry>
+              <entry namest="c4" nameend="c6">1N4001(Classical Diode)</entry>
+              <entry>
+                
+              </entry>
+              <entry>
+                
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>PIV</entry>
+              <entry/>
+              <entry>70V</entry>
+              <entry>PIV</entry>
+              <entry/>
+              <entry>50V</entry>
+            </row>
+            <row>
+              <entry>P<sub>D</sub></entry>
+              <entry/>
+              <entry>400mW</entry>
+              <entry>P<sub>D</sub></entry>
+              <entry/>
+              <entry>500mW</entry>
+            </row>
+            <row>
+              <entry>I<sub>D0</sub></entry>
+              <entry/>
+              <entry>200nAAt V<sub>R</sub>=-50V</entry>
+              <entry>I<sub>D0</sub></entry>
+              <entry/>
+              <entry>5μAAt V<sub>R</sub>=-50V</entry>
+            </row>
+            <row>
+              <entry>V<sub>γ</sub></entry>
+              <entry>0.1V</entry>
+              <entry>At 10μA</entry>
+              <entry>V<sub>γ</sub></entry>
+              <entry>0.5V</entry>
+              <entry>At 10μA</entry>
+            </row>
+            <row>
+              <entry>V<sub>F</sub></entry>
+              <entry>0.4V</entry>
+              <entry>At 1mA</entry>
+              <entry>V<sub>F</sub></entry>
+              <entry>0.65V</entry>
+              <entry>At 1mA</entry>
+            </row>
+            <row>
+              <entry>C<sub>Tot</sub></entry>
+              <entry/>
+              <entry>2pF</entry>
+              <entry/>
+              <entry/>
+              <entry>20pF</entry>
+            </row>
+            <row>
+              <entry>t<sub>rr</sub>(ReverseRecovery time)</entry>
+              <entry/>
+              <entry>1ns</entry>
+              <entry/>
+              <entry/>
+              <entry>3μs</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <figure id="import-auto-id1171569673652">
+        <media id="import-auto-id1171564606785" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-0ba0.png" height="671" width="410"/>
+        </media>
+      </figure>
+    </section>
+    <section id="import-auto-id1171569677617">
+      <title>3.4.3. Application of Schottky Diode in TTL Gates.</title>
+      <para id="import-auto-id1171564345278">TTL Gate (Transistor-Transistor Logic)74Series is the most commonly used Saturating Logic Family. It suffered from a serious drawback and that was of SPEED. TTL under HIGH conditiont is in cut-off region and in LOW condition it is in deep-saturation. While switching from LOW to HIGH, it suffered from considerable storage delay because of deep-saturation and because of excessive minority carrier storage in the BASE in saturation mode. But if we put a Schottky Diode in parallel to BC Juncttion then even before BC junction is fully forward biased Schottky Diode is turned on.This prevents the BJT from going into deep saturation. A Schottky Clamped Transistor as shown in Fig 3.32. is barely saturated when it goes to LOW condition. Therefore it quickly comes out of Saturation Region and moves to Cut-Off region.This considerably improves the switching speed and toggle rate. The cross-section and the symbol of a Schottky Clamped Transistor used in TTL gate is shown in Figure 3.32. Such a TTL gate is known as Schottky Clamped TTL in 74AS series.</para>
+      <figure id="import-auto-id1171564246500">
+        <media id="import-auto-id1171565739996" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-8f2b.png" height="528" width="528"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1171571285475">
+        <emphasis effect="bold">3.5. Ohmic Contact.</emphasis>
+      </para>
+      <para id="import-auto-id1171570452660">Aluminum contact pad to P-Type semiconductor  is an ohmic contact but Aluminum contact pad to N-Type semiconductor  is a rectifying  contact which we have seen to be Schottky Diode as seen in Figure 3.32. In Si-ICs, ohmic contact to N-Type Collector is never made directly. First a N+ contact region is diffused in N Collector and then Al contact pad is deposited on N+ contact region as shown in Figure 3.33.</para>
+      <figure id="import-auto-id1171567334803">
+        <media id="import-auto-id1171564576966" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-5c7b.png" height="310" width="506"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1171569675027">In nanotechnology era, greater care is taken in making contact with N-semiconductor as show in Figure 3.34.</para>
+      <figure id="import-auto-id1171564544001">
+        <media id="import-auto-id1171565718617" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-95f0.png" height="357" width="564"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1171569519104">As seen in Figure 3.34. upper layer of heavily doped N+ region is converted into Titanium Silicide. Over this Silicide layer, Oxide layer is deposited. A contact hole is made in Oxide Layer to reach Titanium Silicide. A thin layer of Titamium Nitride is deposited lining the contact hole. This prevents the reaction and inter-diffusion between Silicide and Tungsten Plug.Tungsten Plug is deposited by CVD to fill the contact hole. Over the Tungsten Plug a layer of Metal(Al with some minute quantity of Cu) is deposited to make contact with the underlying N+ region via the tungsten Plug. This gives an ideal ohmic contact.</para>
+    </section>
+  </content>
+</document>

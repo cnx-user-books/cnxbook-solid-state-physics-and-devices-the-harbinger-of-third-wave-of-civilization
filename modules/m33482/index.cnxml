@@ -1,0 +1,110 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Atomic Energy Exchanges and Physics of Gas Discharge Tubes.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33482</md:content-id>
+  <md:title>Atomic Energy Exchanges and Physics of Gas Discharge Tubes.</md:title>
+  <md:abstract>This is the continuation of Chapter 1_Part 7 where we describe the resonant transition , fluorescence, phosphorescence and we bring out the distinction between spontaneous and stimulated emission.</md:abstract>
+  <md:uuid>56d8b270-5de8-41e9-97c1-94a14dedc44e</md:uuid>
+</metadata>
+<content>
+    <para id="id7807852">SSPD_Chapter1_Part7continued_ ATOMIC ENERGY EXCHANGES AND PHYSICS OF GAS DISCHARGE TUBES.</para>
+    <para id="id1172535788716">Atomic Energy Exchanges are governed by resonance phenomena. If the incident photon energy is approximately equal to the transition energy then photon is said to resonate with transition and the excitation of the electron at the given transition is favored.</para>
+    <para id="id1172540091216">For 1 electron atom:</para>
+    <para id="id6155821"><emphasis effect="bold">P(transition)= (SinӨ/Ө)^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">= Sinc^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">(Ө) = Sin^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">[π(ν</emphasis>
+      <emphasis effect="bold">ko</emphasis>
+      <emphasis effect="bold">-ν)t]/[ π(ν</emphasis>
+      <emphasis effect="bold">ko</emphasis>
+      <emphasis effect="bold">-ν)t]^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> 1.40</emphasis>
+    </para>
+    <para id="id5038488">Where P(transition) is the probability of transition from ground state to the excited state k.</para>
+    <para id="id1172535745731">(<emphasis effect="italics">Zambuto, Mauro: Handbook of Electrical and Computer Engineering (ed. Sheldon S.L. Chang) , Vol.1, pp. 597- 623, John Wiley &amp; Sons, Inc, New York, 1994;</emphasis></para>
+    <para id="id1172521701961"><emphasis effect="italics">Leighton, Robert A. Principles of Modern Physics, McGraw Hill, New York, 1954</emphasis>)</para>
+    <para id="id1172539236178">Transition Energy from ground state to excited state = h ν<sub>ko </sub>= (E<sub>n</sub> – E<sub>0</sub> );</para>
+    <para id="id1441818">Incident Photon Energy = h ν;</para>
+    <para id="id1172532551561">t = duration of interaction;</para>
+    <para id="id1172521712866">For reasonable interaction duration, only incident photon with frequency ν = ν<sub>ko </sub>will induce excitation. Therefore only resonant photons are absorbed. To the rest of the photons, the atom appears to be transparent. </para>
+    <para id="id7466471">Probability of Absorption is sharply peaked at resonance as shown in Fig.(1.18)</para>
+    <para id="id7808803">
+      <figure id="id3960854">
+        <media id="id3960854_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-a4d9.png" id="id3960854__onlineimage" height="406" width="479"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172531427234">
+      <emphasis effect="bold">Fig.(1.18) Probability of Absorption is given by (SincӨ)</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">where Ө= π(ν</emphasis>
+      <emphasis effect="bold">ko</emphasis>
+      <emphasis effect="bold">-ν)t</emphasis>
+    </para>
+    <para id="id2796380"><emphasis effect="bold">Spontaneous Emission Phenomena</emphasis>.:</para>
+    <para id="id1172539281688">When an excited atom returns to ground state in the natural course of events and in the process emits a photon equal to the transition energy , we say spontaneous emission has taken place. This process of spontaneous emission is also known as relaxation.</para>
+    <para id="id1118527">When relaxation is in nanosecond, we have fluorescence effect. In fluorescence the excited atom relaxes by emitting a lower frequency photon as compared to the higher frequency absorbed. The difference between absorbed and emitted is lost due to collisions with other molecules. The energy absorbed resides in the molecule as rotational energy, vibrational energy and as excited electron energy. The lowering of emitted photon takes place due to the loss of a part of the vibrational energy. We will have a detailed discussion on this topic in the last section, specific heat section, of this Chapter. </para>
+    <para id="id1172532438904">When relaxation is in micro and millisecond, we have phosphorescence effect. The photo emission is delayed and prolonged. Here the absorption of photon causes the transition from ground singlet state to excited singlet state. In singlet state total spin quantum number is S =0. Due to collisions with other molecules, the excited singlet state loses a part of vibrational energy and suffers a radiationless transition to excited triplet state (S=1) . The energy difference between the vibrational energy states is lost as the thermal energy of the gas molecules. Now a radiative transition from excited triplet state to ground singlet state is forbidden by SELECTION RULE [ Appendix XXXI A]. Though forbidden nevertheless after some time the excited triplet molecule does relax to the ground singlet state thus giving rise to a delayed and prolonged emission. This is termed as Phosphorescence. The delayed emission may occur after minutes or even after hours depending upon the composition of phosphorescence screen. </para>
+    <para id="id1636553">This phosphorescence effect is used in Oscilloscope screens where we want persistence of the image. </para>
+    <para id="id5224661">In mercury lamps the fluorescence effect is used. In a mercury tube, a vacuum tube contains a drop or two of molten mercury along with inert Argon gas. This is vaporized and a large voltage is applied to cause an electric discharge in mercury vapour. In the process the mercury atoms are ionized. Almost instantaneously ionized atoms neutralize by the process of spontaneous emission and emit Ultra Violet light which is invisible. The UV light strikes the walls of the tube which is coated with fluorescence material called phosphor. This coating gets excited by the absorption of UV light and immediately relaxes to the ground state by emitting soft white light. Here relaxation time is of the order of nanosecond. Hence Mercury Tube is also called Fluorescence Tube. Flourescence is much more efficient than Incandescence used in Incandescent Lamps invented by Thomas Alva Edison <emphasis effect="bold">[Appendix XXXII ]</emphasis>.</para>
+    <para id="id3708052">In a similar fashion the discharge in various gases cause spontaneous emission of various colored light.</para>
+    <para id="id1172537001309"><emphasis effect="bold">Mercury Discharge Physics</emphasis>:</para>
+    <para id="id1172525977083">Hg(vapor) + collision energy(4.9eV) = Hg* (ionized mercury atoms);</para>
+    <para id="id6019296">(Collision Energy is caused by highly accelerated ionized particles in presence of critical electric field. The ionized particles are caused due to cosmic particles striking the mercury vapor atoms).</para>
+    <para id="id7136494">Hg* = Hg + 4.91eV</para>
+    <para id="id1696707">And λ= 1.24/(4.91eV)= 0.252μm (<emphasis effect="italics">Ultra-violet light</emphasis>);</para>
+    <para id="id2726124">1<sup>st</sup> ionization energy ( energy required for stripping the outermost electrons) = 2.00eV.</para>
+    <para id="id3403999"><emphasis effect="bold">Sodium Vapor Discharge Lamp</emphasis>:</para>
+    <para id="id1172536778966">Na + collision energy (2.85eV)= Na*</para>
+    <para id="id1172532673659">Na* = Na + 2.85eV photon;</para>
+    <para id="id6099739">And λ= 1.24/(2.85eV)= 0.435μm (<emphasis effect="italics">Yellow light</emphasis>);</para>
+    <para id="id6238826">First Ionization Energy : E<sub>1</sub>= 495 KJ/MOLE; (0.93eV)</para>
+    <para id="id1172530245048">Second Ionization Energy : E<sub>2</sub> = 4560 KJ/MOLE;</para>
+    <para id="id2858311">Third Ionization Energy : E<sub>3</sub> = 6900 KJ/MOLE;</para>
+    <para id="id5957876">Fourth Ionization Energy : E<sub>4</sub> = 9540 KJ/MOLE;</para>
+    <para id="id4874461">Fifth Ionization Energy : E<sub>5</sub> = 13400 KJ/MOLE;</para>
+    <para id="id1172536782491">Sixth Ionization Energy : E<sub>6</sub> = 16600 KJ/MOLE;</para>
+    <para id="id1172530544933">In first ionization the outermost electrons are being ripped apart from the atom. In second ionization, the second outermost electrons are being ripped apart from the atom. And so on.</para>
+    <para id="id1172538978855"><emphasis effect="bold">Neon Discharge Lamp</emphasis>:</para>
+    <para id="id1172532229784">Ne + collision energy(10.6eV) = Ne* Ne* = Ne + <emphasis effect="italics">Orange-red light</emphasis>;</para>
+    <para id="id1172523319620">E<sub>1</sub>= 2080, E<sub>2</sub> =3950, E<sub>3</sub>=6120, E<sub>4</sub> =9370, E<sub>5</sub> = 12200, E<sub>6</sub>= 15000 (KJ/MOLE);</para>
+    <para id="id4921304">First ionization energy = 4.84eV</para>
+    <para id="id2635769"><emphasis effect="bold">Argon Discharge Lamp</emphasis>:</para>
+    <para id="id8072481">Ar + collision energy(7.7eV) = Ar*</para>
+    <para id="id1172530431068">Ar* = Ar + <emphasis effect="italics">Bluish Purple</emphasis>;</para>
+    <para id="id6812329">E<sub>1</sub>= 1521, E<sub>2</sub> =2666, E<sub>3</sub>=3900, E<sub>4</sub> =5770, E<sub>5</sub> = 7240, E<sub>6</sub>= 8800 (KJ/MOLE);</para>
+    <para id="id1172531163166">First ionization energy = 3.2eV</para>
+    <para id="id1172526015065">Krypton Discharge Lamp:</para>
+    <para id="id5557270">Kr + 6.8eV(1400 KJ/Mole) = Kr*</para>
+    <para id="id1172535959724">Kr* =Kr + <emphasis effect="italics">White light</emphasis></para>
+    <para id="id1172537189703">First ionization energy = 2.94eV</para>
+    <para id="id1172535768740">Helium Discharge Lamp :</para>
+    <para id="id1172535653209">He +12.3eV(2373 KJ/MOLE) =He *</para>
+    <para id="id5502395">He* =He + ?</para>
+    <para id="id1172532459332">E<sub>2</sub> =5248 KJ/MOLE</para>
+    <para id="id1172535645894">Hydrogen Discharge Lamp:</para>
+    <para id="id2762704">H + 7.18eV = H*</para>
+    <para id="id2232225">Stimulated Emission Phenomena: </para>
+    <para id="id1172538959257">Stimulated Emission is induced emission when incident photon matches the transition energy . This effect is used in LASER( Light Amplification by Stimulated Emission Radiation).</para>
+    <para id="id7988411">In Fig.(1.19) the spontaneous emission is shown.</para>
+    <para id="id1172536736148">In Fig.(1.20) the stimulated mission is shown.</para>
+    <figure id="id1939187">
+      <media id="id1939187_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-e0b5.png" id="id1939187__onlineimage" height="254" width="515"/>
+      </media>
+    </figure>
+    <para id="id1172537131911">Fig.(1.19). The mechanism of Spontaneous Emission.</para>
+    <para id="id1172535782547"/>
+    <figure id="id1172521619566">
+      <media id="id1172521619566_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-fcba.png" id="id1172521619566__onlineimage" height="333" width="502"/>
+      </media>
+    </figure>
+    <para id="id2303690">Fig(1.20). The mechanism of Stimulated Emission.</para>
+  </content>
+</document>

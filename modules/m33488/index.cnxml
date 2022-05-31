@@ -1,0 +1,269 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 8continued_Electron in an Infinite Potential Well_Solution of Schrodinger Equation.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33488</md:content-id>
+  <md:title>SSPD_Chapter1_Part 8continued_Electron in an Infinite Potential Well_Solution of Schrodinger Equation.</md:title>
+  <md:abstract>This is the continuation of Chapter 1_Part 8. This gives the solution of Schrodinger Equation for an electron in an 1-D Infinite Potential Well.This is analogous to the analysis of an electron in the ground state of  hydrogen atom except that for a hydrogen atom the Schrodinger Equation will have to be solved for spherical coordinates. The problem of Hydrogen Atom will be taken up in a latter chapter.</md:abstract>
+  <md:uuid>e72ca9eb-bfbd-4428-9dc6-0f7c25e69162</md:uuid>
+</metadata>
+<content>
+    <para id="id12041316">SSPD_Chapter 1_Part8 continued_ SOLUTION OF SCHRODINGER EQUATION FOR AN ELECTRON IN AN INFINITE POTENTIAL WELL.</para>
+    <figure id="id12531740">
+      <media id="id12531740_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-29dc.png" id="id12531740__onlineimage" height="574" width="633"/>
+      </media>
+    </figure>
+    <para id="id12463595"><emphasis effect="bold">Fig(1.24) Electron in 1-D infinite potential well. Probability Amplitude ψ(z,t) and probability density |ψ(z,t)|^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> are respectively plotted along the spatial axis-z axis.</emphasis>
+    </para>
+    <para id="id9306945">Writing the Schrodinger Equation<emphasis effect="bold">[ Appendix XXIX]</emphasis> for an electron in an infinite potential well where V(z)=0 we get:</para>
+    <para id="id12204520">
+      <emphasis effect="bold">(ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/2m) ∂</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">ψ /∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ E ψ = 0   1.48</emphasis>
+    </para>
+    <para id="id7583196">
+      <emphasis effect="bold">∂</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">ψ /∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ (2mE/ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)ψ = 0</emphasis>
+    </para>
+    <para id="id10437588"/>
+    <para id="id7580933">According to Linear Operator Theory, second order linear differential equation has two solutions: the complementary solution also known as transient solution or the natural solution and the second solution is the particular solution also known as the steady state solution or the forced solution. </para>
+    <para id="id9010926">The total solution = transient solution + steady state solution.</para>
+    <para id="id10136110">The transient solution depends on the characteristic equation of the system. A second order linear system has second degree characteristic equation which has two roots and two arbitrary constants which need two boundary conditions.</para>
+    <para id="id7536358">The steady state solution depends on the forcing function or the driving function. If the forcing function is a harmonic function then the steady state solution is a sinusoidal solution. If the forcing function is a constant the steady state output is also a constant.</para>
+    <para id="id12236645">In Eq.(1.48) Right Hand Side is zero hence steady state solution is zero.</para>
+    <para id="id12248515">The characteristic equation is:</para>
+    <para id="id12242451">D<sup>2</sup> + 2mE/ћ<sup>2</sup> = 0</para>
+    <para id="id11188032">Where D is the differential operator.</para>
+    <para id="id5444571">The roots are imaginary:</para>
+    <para id="id13714981">D<sub>1</sub>= -i[√(2mE)]/ ћ and D<sub>2</sub> = +i[√(2mE)]/ ћ</para>
+    <para id="id6604532">Therefore the solution is harmonic. If the roots were real then the solution would be hyperbolic or exponential.</para>
+    <para id="id14748166">The solution of Eq.(1.48) is: </para>
+    <para id="id10514440"><emphasis effect="bold">ψ = A.Exp[+i{(√(2mE))/ ћ}x] + B.Exp[-i{(√(2mE))/ ћ}x]</emphasis>;</para>
+    <para id="id3917102"/>
+    <para id="id9003502">From two boundary conditions the two arbitrary constants are determined. </para>
+    <para id="id13796916">At x = 0, ψ(0) = 0 and at x = W ( the width of the potential well), ψ(W) = 0.</para>
+    <para id="id10844118">From these two boundary conditions we obtain two simultaneous equations. </para>
+    <para id="id8994930">A + B=0;</para>
+    <para id="id8357034">A.Exp[+i{(√(2mE))/ ћ}W] + B.Exp[-i{(√(2mE))/ ћ}W] = 0;</para>
+    <para id="id10626771">The determinant is:</para>
+    <para id="id9563425">Δ = 1 1</para>
+    <para id="id12235029">Exp[+i{(√(2mE))/ ћ}W] Exp[-i{(√(2mE))/ ћ}W]</para>
+    <para id="id9418516">Therefore Δ = Exp[-i{(√(2mE))/ ћ}W] - Exp[+i{(√(2mE))/ ћ}W]</para>
+    <para id="id12236635">If these two simultaneous equations are to have non-trivial solutions then the determinant of the set of simultaneous equations should be zero. </para>
+    <para id="id7521444">Therefore Δ = Exp[-i{(√(2mE))/ ћ}W] - Exp[+i{(√(2mE))/ ћ}W] =0</para>
+    <para id="id8044358">Therefore Exp[-i{(√(2mE))/ ћ}W] = Exp[+i{(√(2mE))/ ћ}W]</para>
+    <para id="id5338663">Therefore Cos[{(√(2mE))/ ћ}W] –i Sin[{(√(2mE))/ ћ}W] </para>
+    <para id="id12238276">= Cos[{(√(2mE))/ ћ}W] +i Sin[{(√(2mE))/ ћ}W]</para>
+    <para id="id10126385">Or –i Sin[{(√(2mE))/ ћ}W] = i Sin[{(√(2mE))/ ћ}W]</para>
+    <para id="id10105960">This relationship is satisfied only when Sin[{(√(2mE))/ ћ}W]=0;</para>
+    <para id="id10459444">This requires {(√(2mE))/ ћ}W = 0 radians or</para>
+    <para id="id12401229">{(√(2mE))/ ћ}W = π radians or</para>
+    <para id="id12025280">{(√(2mE))/ ћ}W = n π radians where n= 0,1,2,3,4…….</para>
+    <para id="id8172646">Squaring both sides we get:</para>
+    <para id="id14885056">{(2mE)/ ћ<sup>2</sup> }W<sup>2</sup> = (n π)<sup>2</sup></para>
+    <para id="id12471502">
+      <emphasis effect="bold">or E = n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">h</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(8mW</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)    1.49</emphasis>
+    </para>
+    <para id="id12508624">Eq.(1.49) implies that the permissible energy states of an electron in an infinite potential well are quantized.</para>
+    <para id="id12083567">Why electrons cannot occupy a continuum energy states as they do in free space? The answer is the following:</para>
+    <para id="id12508898">We had assumed at the beginning of the analysis that V(x) = 0. This implies that potential energy is zero and electron possesses only Kinetic Energy.</para>
+    <para id="id15130330">Therefore total energy E = p<sup>2</sup>/(2m) = n<sup>2</sup>h<sup>2</sup>/(8mW<sup>2</sup>)</para>
+    <para id="id11367638">Therefore <emphasis effect="bold">p = (nh)/(2W)   1.50</emphasis></para>
+    <para id="id10556196">From de Broglie postulate: λ = h/p = h/[(nh)/(2W)]</para>
+    <para id="id10606072">To satisfy the standing wave condition in bounded space which an infinite 1-D potential well is, following boundary condition must be satisfied</para>
+    <para id="id10524730">
+      <emphasis effect="bold">W = n λ/2   1.51</emphasis>
+    </para>
+    <para id="id11895459">Eq.(1.51) is the necessary condition for Standing Wave pattern. This standing wave pattern requirement causes the quantization of energy states. </para>
+    <para id="id12155856">Here we digress briefly to the chapter of light to fully understand the behavior of matter wave.</para>
+    <figure id="id12931760">
+      <media id="id12931760_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-732b.png" id="id12931760__onlineimage" height="294" width="478"/>
+      </media>
+    </figure>
+    <para id="id15078716">Fig.(1.25) A plane wavefront light ray perpendicularly incident on an interface of two optical mediums.</para>
+    <para id="id9265419"><emphasis effect="bold"/>Whenever light travels from one optical medium of refractive index n<sub>1 </sub>to the other optical medium of refractive index n<sub>2 </sub>, the incident wave Transverse Electromagnetic Wave (TEM) experiences partial reflection at the interface of the two media and partial transmission into the second medium. </para>
+    <para id="id12406674">Let us assume that medium 1 is absolute vacuum hence its refractive index = n<sub>1</sub> = 1 and medium 2 is a solid medium of refractive index n<sub>2</sub> = n. The mathematical form of the incident wave, reflected wave and the transmitted wave is given in Fig(1.25).</para>
+    <para id="id10769469">Wave vector in medium 1 is k<sub>1 </sub>= 2π/λ<sub>1</sub> and wave vector in medium 2 is k<sub>2</sub> = 2π/λ<sub>2</sub>;</para>
+    <para id="id15059319">And <emphasis effect="bold">ν λ</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">= c, ν λ</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold"> = v; 1.52</emphasis></para>
+    <para id="id12105719">Therefore c/v = λ<sub>1</sub> / λ<sub>2</sub> = n/1;</para>
+    <para id="id12394039">Therefore <emphasis effect="bold">λ</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold"> = n. λ</emphasis><emphasis effect="bold">2 </emphasis><emphasis effect="bold">1.53</emphasis></para>
+    <para id="id4757917">We know that if the second medium is metal, the incident light is totally reflected and the reflected light experiences a phase change of 180°.</para>
+    <para id="id11037836">Also at the interface E<sub>incident</sub> + E<sub>reflected</sub> = 0;</para>
+    <para id="id11187746">But if the second medium is dielectric then we have partial reflection and partial transmission and at the interface we have: E<sub>incident</sub> + E<sub>reflected</sub> = E<sub>transmitted</sub> ;</para>
+    <para id="id12406778"><emphasis effect="bold"/>The incident wave is the forward wave:</para>
+    <para id="id12245267">
+      <emphasis effect="bold">E(z,t)= E</emphasis>
+      <emphasis effect="bold">xoincident</emphasis>
+      <emphasis effect="bold"> Exp[j(k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold"> z – ω.t)];</emphasis>
+    </para>
+    <para id="id12342313">The reflected wave is the backward wave:</para>
+    <para id="id7923355">
+      <emphasis effect="bold">E(z,t)= E</emphasis>
+      <emphasis effect="bold">xoreflected</emphasis>
+      <emphasis effect="bold"> Exp[j(k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold"> z + ω.t)];</emphasis>
+    </para>
+    <para id="id12240336">The transmitted wave is also moving in forward direction therefore it is:</para>
+    <para id="id12271899">
+      <emphasis effect="bold">E(z,t)= E</emphasis>
+      <emphasis effect="bold">xotransmitted</emphasis>
+      <emphasis effect="bold"> Exp[j(k</emphasis>
+      <emphasis effect="bold">z2</emphasis>
+      <emphasis effect="bold"> z – ω.t)]; 1.54</emphasis>
+    </para>
+    <para id="id9500180">Wave vectors have been defined in Eq.(1.52).and Eq.(1.53). </para>
+    <para id="id11185972">The incident forward and reflected backward wave interfere to form Standing Wave as they do on a mismatched transmission line. If a transmission line is not terminated in Characteristic Impedance then partial reflection takes place at the load and a partial standing wave pattern is formed on the transmission line. Standing Wave implies there is no transmission of energy. In case of metal there is total reflection. Hence we have 100% standing wave in medium 1 and there is no penetration of light into the metallic medium 2. Hence no transmission of light energy. For dielectric medium 2 , we have partial reflection hence only partial standing wave.</para>
+    <para id="id12389264">The abrupt change in the refractive index or the dielectric constant is referred to as step index change. In the same way abrupt voltage change is referred to as step voltage change.</para>
+    <para id="id9465610">Matter wave behaves in an analogous fashion at a step voltage change as a light wave behaves at step index change.</para>
+    <figure id="id13868152">
+      <media id="id13868152_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-13f8.png" id="id13868152__onlineimage" height="231" width="501"/>
+      </media>
+    </figure>
+    <para id="id9265451">
+      <emphasis effect="bold">Fig(1.26) Reflection and Transmission of electron matter wave across step voltage change from V</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold"> to V</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <para id="id8105362">For matter wave, </para>
+    <para id="id12281563">wave vector k=2π/λ = 2πp/h = [√{2m(E-V)}]/ћ;</para>
+    <para id="id12463564">Therefore the two wave vectors are:</para>
+    <para id="id10906535">k<sub>1</sub>= [√{2m(E-V<sub>1</sub>)}]/ћ and k<sub>2</sub> = [√{2m(E-V<sub>2</sub>)}]/ћ;</para>
+    <para id="id12282701">The incident forward electron matter wave: </para>
+    <para id="id12282687">
+      <emphasis effect="bold">ψ(z,t)</emphasis>
+      <emphasis effect="bold">incident</emphasis>
+      <emphasis effect="bold"> = ψ</emphasis>
+      <emphasis effect="bold">0incident</emphasis>
+      <emphasis effect="bold"> Exp[j(ωt- k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold">.z)]</emphasis>
+    </para>
+    <para id="id14563138">The reflected backward electron wave:</para>
+    <para id="id10698712">
+      <emphasis effect="bold">ψ(z,t)</emphasis>
+      <emphasis effect="bold">reflected</emphasis>
+      <emphasis effect="bold"> = ψ</emphasis>
+      <emphasis effect="bold">0reflected</emphasis>
+      <emphasis effect="bold"> Exp[j(ωt+ k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold">.z)] 1.55</emphasis>
+    </para>
+    <para id="id11057049">The transmitted forward electron wave:</para>
+    <para id="id12136273">
+      <emphasis effect="bold">ψ(z,t)</emphasis>
+      <emphasis effect="bold">transmitted</emphasis>
+      <emphasis effect="bold"> = ψ</emphasis>
+      <emphasis effect="bold">0transmitted</emphasis>
+      <emphasis effect="bold"> Exp[j(ωt- k</emphasis>
+      <emphasis effect="bold">z2</emphasis>
+      <emphasis effect="bold">.z)] 1.56</emphasis>
+    </para>
+    <para id="id10970022">At the interface or at the step,</para>
+    <para id="id12272015">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">0incident -</emphasis>
+      <emphasis effect="bold"> ψ</emphasis>
+      <emphasis effect="bold">0reflected</emphasis>
+      <emphasis effect="bold"> = ψ</emphasis>
+      <emphasis effect="bold">0transmitted</emphasis>
+      <emphasis effect="bold">     1.57</emphasis>
+    </para>
+    <para id="id8991199">Eq.(1.57) is the interface boundary condition.</para>
+    <para id="id13406689">Now we return to the original infinite potential well case.</para>
+    <para id="id7396973">Inside the potential well we have both the wave vectors ±i[√{2mE}]/ћ] hence we have both forward and backward traveling wave components.</para>
+    <para id="id12508136">Outside the well Schrodinger Equation is of the form:</para>
+    <para id="id8172121">∂<sup>2 </sup>ψ /∂x<sup>2 </sup>+ (2m(E-V)/ћ<sup>2</sup>)ψ = 0</para>
+    <para id="id10556072">But outside the well, V = ∞ therefore the wave equation reduces to:</para>
+    <para id="id11231192">∂<sup>2 </sup>ψ /∂x<sup>2 </sup>- (2m∞/ћ<sup>2</sup>)ψ = 0</para>
+    <para id="id12336467">The characteristic equation has real roots hence the solution is hyperbolic.</para>
+    <para id="id15039359">
+      <emphasis effect="bold">Therefore ψ(z,t) = [AExp(-k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.z) + BExp(+k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.z)]Exp(iωt)   1.58</emphasis>
+    </para>
+    <para id="id7805198">Where k<sub>2 </sub>= [√{2m∞}]/ћ]</para>
+    <para id="id12500366">In Eq(1.58), the term Exp(+k<sub>2</sub>.z) is not admissible as it is exponentially growing function. Hence B=0 and the solution outside the well is:</para>
+    <para id="id7044931">
+      <emphasis effect="bold">ψ(z,t) = [AExp(-k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.z)]Exp(iωt)    1.59</emphasis>
+    </para>
+    <para id="id12436332">But since k<sub>2</sub> = infinity implies the wave function does not exist outside the well. The transmitted wave outside the well almost instantaneously attenuates to zero since k<sub>2 </sub>is the attenuation coefficient of the exponentially decaying wave and this coefficient is infinite.</para>
+    <para id="id8477022">Inside the potential well there are two waves one forward and the second backward and both have equal amplitude but opposite sign so that at the two boundaries of the potential well the sum of the two produce nodes.</para>
+    <para id="id10064351">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">0incident -</emphasis>
+      <emphasis effect="bold"> ψ</emphasis>
+      <emphasis effect="bold">0reflected</emphasis>
+      <emphasis effect="bold"> = 0 at the boundaries   1.60</emphasis>
+    </para>
+    <para id="id12510647">Therefore </para>
+    <para id="id8990823">
+      <emphasis effect="bold">ψ(z,t)</emphasis>
+      <emphasis effect="bold">incident</emphasis>
+      <emphasis effect="bold"> = A Exp[j(ωt- k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold">.z)]</emphasis>
+    </para>
+    <para id="id7980524">
+      <emphasis effect="bold">ψ(z,t)</emphasis>
+      <emphasis effect="bold">reflected</emphasis>
+      <emphasis effect="bold"> = -AExp[j(ωt+ k</emphasis>
+      <emphasis effect="bold">z1</emphasis>
+      <emphasis effect="bold">.z)] 1.61</emphasis>
+    </para>
+    <para id="id10260128">The superposition of the two waves is:</para>
+    <para id="id11550417">ψ(z,t) = AExp[j(ωt)] [ Exp(- k<sub>z1</sub>.z)- Exp(+ k<sub>z1</sub>.z)]</para>
+    <para id="id12261375">ψ(z,t) = AExp[j(ωt)][Cos(k<sub>z1</sub>.z)-iSin(k<sub>z1</sub>.z) -Cos(k<sub>z1</sub>.z)-iSin(k<sub>z1</sub>.z)]</para>
+    <para id="id12520350">ψ(z,t) = -2iAExp[j(ωt)][Sin(k<sub>z1</sub>.z)]</para>
+    <para id="id12449127">or<emphasis effect="bold"> ψ(z,t) = BExp[j(ωt)][Sin(k</emphasis><emphasis effect="bold">z1</emphasis><emphasis effect="bold">.z)] 1.62</emphasis></para>
+    <para id="id12086052">Eq.(1.62) is the mathematical formulation of the standing wave.</para>
+    <para id="id13599634">According to boundary conditions, this standing wave is suppose to have two nodes :</para>
+    <para id="id12296688">ψ(0,t)= ψ(W,t) =0</para>
+    <para id="id10280113">therefore k<sub>z1</sub>.W = (2π/λ<sub>n</sub>)W = n π where n = 1, 2, 3,…………. </para>
+    <para id="id13790348">Therefore <emphasis effect="bold">W=n. λ</emphasis><emphasis effect="bold">n</emphasis><emphasis effect="bold">/2   1.63</emphasis></para>
+    <para id="id12489446">This is the same restriction as was imposed in Eq.(1.51). This Eq(1.63) sheds a very important light on the quantization of energy levels permitted for an electron in an infinite potential well.</para>
+    <para id="id8581657">Inside the potential well there is the superposition of incident and reflected wave. There are only certain cases for which constructive interference takes place for the remaining cases there is destructive interference.</para>
+    <para id="id15137888">The cases for which the superposition leads to node formation at the boundaries z = 0 and W, only for those cases electron has an existence. For all the remaining cases electron goes out of existence by destructive interference.</para>
+    <para id="id9855429">Therefore we assert that in an infinite potential well , the electron can be in existence only for the energy levels:</para>
+    <para id="id12498434">E= E<sub>0</sub> , 4 E<sub>0 </sub>, 9 E<sub>0</sub> , 16 E<sub>0</sub> ………</para>
+    <para id="id13039124">Where E<sub>0 </sub>= h<sup>2</sup>/(8mW<sup>2</sup>) <sub/></para>
+    <para id="id12475168">The above result comes from Eq.(1.50) and its previous line.</para>
+    <para id="id12384403">An identical situation prevails in a hydrogen atom. The orbits which allow constructive interference to take place only those orbits are permitted. Remaining are forbidden. The orbital radii which support constructive interference are the radii where electron can exist as standing wave.</para>
+    <para id="id12463792">These are the radii exactly predicted by Bohr’s Law:</para>
+    <para id="id12464009">Orbital Angular Momentum = Integral Multiple of (h/(2π)) as already seen in Chapter 1_part 6.</para>
+    <figure id="id12445488">
+      <media id="id12445488_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-76fe.png" id="id12445488__onlineimage" height="307" width="455"/>
+      </media>
+    </figure>
+    <para id="id13894101">Fig(1.27) An electron in 3 quantum states n=1,2,3 in an infinite potential well.</para>
+    <para id="id8734522">An electron in first three permissible quantum states in an infinite potential well are shown in Fig.(1.27</para>
+  </content>
+</document>

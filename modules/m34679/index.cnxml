@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 15_Quantum Fluids_Superconductivity &amp; Superfluidity.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34679</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 15_Quantum Fluids_Superconductivity &amp; Superfluidity.</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 15 describes the properties of solids below degeneracy temperature.</md:abstract>
+  <md:uuid>61a2a595-f12a-47ed-99a2-fb216711c424</md:uuid>
+</metadata>
+
+<content>
+    <para id="id2090899">SSPD_Chapter 1_Part 15_ SUPER-FLUIDITY AND SUPERCONDUCTIVITY-A SUBCLASS OF QUANTUM FLUIDS.</para>
+    <para id="id1170505373062">[ Electrical Engineering Materials by A. J. dekkar, Publisher PHI ]</para>
+    <para id="id1170521263995">[The New Physics, edited by Pau; Davies, ‘Low Temperature Physics, superconductivity and superfluidity’ by Anthony Leggett, pp 268, Cambridge University Press, 1992 .]</para>
+    <para id="id4310907">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1170517693325">We saw in Chapter 1_Part 3_Section 1.3.1 that below degeneracy temperature quantum mechanical effects are markedly evident. For solids and liquids, the atoms wave nature is exhibited below the temperature </para>
+    <para id="id1170514830530">T<sub>degeneracy</sub> = h<sup>2</sup>/(3kM×((m<sub>p</sub>+m<sub>n</sub>)/2)×(a×10<sup>-10</sup>m)<sup>2</sup> ) </para>
+    <para id="id1170520377855">= 633.3/(M×a<sup>2</sup>) Kelvin </para>
+    <para id="id1170515841214">where M is the mass number of the atom and ‘a’ is the distance between the scatterer in Angstrom. In order to observe super fluid and super conductors we must go to low enough temperatures to obtain quantum liquid. The following two conditions have to be satisfied to obtain quantum liquids:</para>
+    <list id="id1170515822623" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>cold enough to be treated as degenerate systems </item>
+    </list>
+    <para id="id1170522627847">that is the liquid should be below degeneracy temperature;</para>
+    <para id="id4306459">(ii) it should be a bosonic system.</para>
+    <para id="id1170508727182">An assembly of odd number of fermions is fermionic and an assembly of even number of fermions is bosonic.</para>
+    <para id="id1170514211460">In classical mechanics particles follow Maxwell-Boltzman statistics . In a large number of gas particles system of volume V and gas molecules number N, each particle has a velocity v and energy E =Kinetic Energy + Potential Energy = [(1/2)mv<sup>2</sup> + 0] .Here we assume that Potential Energy is zero. Maxwell- Boltzman distribution tells that number of particles at energy E is n(E) where ;</para>
+    <para id="id1170506177802">n(E) = K× Exp[-E/kT] = K× Exp[-mv<sup>2</sup>/(2kT)] <emphasis effect="bold">………………………………1.158 </emphasis></para>
+    <para id="id4411159"><emphasis effect="bold"/>In a quantum mechanical system kinetic energy will be quantized just as the energy of electron in a potential well is quantized corresponding to the standing waves of matter wave of different quantum numbers. But here the well corresponds to the large volume hence quantum difference between the discrete energy states is miniscule therefore discrete energy states E<sub>i </sub>can be treated as a continuous variable while plotting the graph. In this graph plot, n<sub>i</sub> is the number per quantum state whereas in classical systems n is the number per unit energy .</para>
+    <para id="id1170511600851">Therefore <emphasis effect="bold"/>n<sub>i</sub>(E<sub>i</sub>) = K× Exp[-E<sub>i</sub>/kT] <emphasis effect="bold">…………………………………………………………… 1.159</emphasis></para>
+    <para id="id1170515801394">In quantum mechanical systems, we have density of permissible quantum states N(E) per unit energy.</para>
+    <para id="id1170518145749">Hence n<sub>i</sub>(E<sub>i</sub>) = N(E<sub>i</sub>)P(E<sub>i</sub>)dE = number of particles lying between E<sub>i</sub> and (E<sub>i</sub> + dE) </para>
+    <para id="id1170514320904">Where N(E<sub>i</sub>).d(E) = number of permissible quantum states between E<sub>i</sub> and (E<sub>i</sub> + dE) </para>
+    <para id="id1170504905007">And P(E<sub>i</sub>) = probability of occupancy at E<sub>i </sub>= Exp[-E<sub>i</sub>/kT] according to Maxwell- Boltzman Statistics ;</para>
+    <para id="id3718723">Therefore Equation(1.159) can be written as :</para>
+    <para id="id5656281">n<sub>i</sub>(E<sub>i</sub>) = N(E<sub>i</sub>)dE × Exp[-E<sub>i</sub>/kT] <emphasis effect="bold">………………………………………………… 1.160</emphasis></para>
+    <para id="id1170506986677">Plot of Equation (1.159) is given in Figure (1.82). The plot of Equation(1.160) will require N(E<sub>i</sub>)dE<emphasis effect="bold"/>to be accounted for . N(E<sub>i</sub>)dE<emphasis effect="bold"/>is not a constant but a function of E<sub>i</sub></para>
+    <para id="id7382833">
+      <figure id="id1170509872947">
+        <media id="id1170509872947_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-0908.png" id="id1170509872947__onlineimage" height="401" width="450"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170517756943">Figure 1.82. The average number of particles per state at a given temperature for particles obeying Classical Statistics.</para>
+    <para id="id1170517001907">The average energy per particle comes out to be (3/2)kT for the classical distribution as given by Equation (1.158). The average energy obtained by Equation (1.159) which applies to a system of distinguishable particles is practically the same except at very low temperatures 10<sup>-11</sup>Kelvin which is of no practical consequence in macroscopic systems.</para>
+    <para id="id1170511359321">But a system of distinguishable particles follows Fermi-Dirac Statistics as shown in Chapter 1_Part 8_Section1.8.2.3. At low temperatures it has the form shown in Figure (1.83). At 0 Kelvin there are 2 electrons or 2 fermions of opposite spins per quantum state up to E<sub>F</sub> ( Fermi Energy) and above E<sub>F</sub> the permissible states are empty. This rectangular distribution becomes more and more skewed with rise in temperature until above degeneracy temperature the system of distinguishable particles becomes non- degenerate and behaves classically as shown in Figure (1.82).</para>
+    <para id="id1170516766885">
+      <figure id="id1170505514289">
+        <media id="id1170505514289_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-910d.png" id="id1170505514289__onlineimage" height="600" width="546"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170504549582">
+      <emphasis effect="bold">Figure 1.83. The average number of particles per permissible quantum state for particles obeying Fermi-Dirac Statistics at Temperature (a) 0 Kelvin (b) T</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold"> Kelvin (c) T</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> Kelvin.</emphasis>
+    </para>
+    <para id="id4431007">A very illustrative example of these two conditions are the conducting electrons in a metal which is a degenerate system following the distribution in Figure (1.83) and conducting electrons in semiconductors which is non-degenerate following Figure(1.82).</para>
+    <para id="id1170505380289">Here it is noteworthy that in Figure (1.82) the number of electrons is 1 or less. Here 1 means 1 pair of opposite spin. Less than 1 means the state has less than 100% occupancy.</para>
+    <para id="id1170515029350">For Bosonic system consisting of indistinguishable particles things are very different. As shown in Figure (1.84), The number of particles at lower energies is much higher than the classical case If we have a fixed number of particles then at low temperature we have Bose Condensate which we have talked about in Chapter 1_Part 8_1.8.2,2. At higher temperature the distribution of Bosons cannot be distinguished from that of Fermions.</para>
+    <figure id="id4382408">
+      <media id="id4382408_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-9e6c.png" id="id4382408__onlineimage" height="380" width="513"/>
+      </media>
+    </figure>
+    <para id="id1170514457854">Figure 1.84. The average number of particles per state at a given temperature for particles obeying Bose-Einstein Statistics.</para>
+    <para id="id1170505561035">This discussion implies that at low temperatures the distribution is going to be critically effected by the fact that the system is bosonic or fermionic. </para>
+    <para id="id1170509791545">In solids we do not see any difference in the distribution in Bosonic System say Diamond isotope 12 ( 6 p’s, 6 n’s and 6 e’s) and Fermionic System say Diamond isotope 13 ( 6 p’s, 7 n’s and 6 e’s). Whatever difference is seen can be explained in terms of atomic masses. Here Diamond isotope 12 though indistinguishable are still distinguishable since the individual atoms are tied to their respective positions. The difference in the two distribution shows up in liquids and gases. </para>
+    <para id="id1170507711156">In gases the density is very low hence interatomic distances is very large and so the degeneracy temperature is too low for observing the difference.</para>
+    <para id="id1170513245709">So to see the difference in a bosonic system and fermionic system we need a quantum liquid. It is sufficiently dense so that we have an achievable degeneracy temperature . At the same time it is sufficiently mobile so that an indistinguishable system really becomes indistinguishable. This liquid should be at a temperature below Degeneracy Temperature. Then it is a proper quantum liquid.</para>
+    <para id="id1170522757690">Excepting element He, all elements and compounds freeze at degeneracy temperature T<sub>0</sub> . Helium remains liquid all the way to 0 Kelvin so it is an appropriate candidate for the study of super-fluids. This good fortune is due to low atomic mass and weak inter-atomic forces. Weak inter-atomic force is due to the completion of octave in the outer filled orbit. It does not freeze under its own vapor pressure but it does solidify if the external pressure is increased to 30 atmospheric pressures. Also luckily we have two stable isotopes 4He and 3He providing bosonic system and fermionic systems respectively. 4He has 2 p’s, 2 n’s and 2’s and therefore it forms a bosonic system. 3He has 2p’s, 1n and 2’s ( produced in beta decay of tritium from nuclear reactors) and therefore it forms a fermionic system. These two liquid systems at temperatures below degeneracy temperature provide an ideal laboratory material for the study of quantum statistics ( Fermi-Dirac/Bose-Einstein).</para>
+    <para id="id1170517734500">The electrons in solid metal or liquid metal are degenerate systems since, as we saw in Section 1.3.1., the degeneracy temperature is of the order of 10,000Kelvin.</para>
+    <para id="id1170514245649">The electrons in White Dwarf and neutrons in Neutron Stars are degenerate systems. Because of very high density in these compact stars, the degeneracy temperature is very high of the order of 10<sup>10 </sup>K. Nevertheless they form quantum liquids.</para>
+    <para id="id1170511387455">In Table (1.32) tabulates the quantum liquids, their degeneracy temperatures and the onset temperature of superfluidity/superconductivity.</para>
+    <para id="id1170514509646">The charged systems containing conducting electrons exhibit superconductivity and neutral atomic systems exhibit super-fluidity at temperatures much below degeneracy temperatures.</para>
+    <para id="id1170510939127">Table 1.32. Laboratory Quantum Liquids. ( Table 9.1. Low Temperature Physics, super conductivity and super fluidity. By Anthony Leggett, ‘The New Physics’ edited by Paul Davies, Cambridge University Press, 1992.)</para>
+    <table id="id1170505348071" summary="Laboratory Quantum Liquids"><title>Laboratory Quantum Liquids</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>System</entry>
+            <entry>Statistics</entry>
+            <entry>DegeneracyTemperature(K)</entry>
+            <entry>Superconductivity/Superfluidity?</entry>
+            <entry>Onset Temperature(K)</entry>
+          </row>
+          <row>
+            <entry>Electrons inMetals</entry>
+            <entry>Fermi</entry>
+            <entry>
+              <emphasis effect="bold">~ 10</emphasis>
+              <emphasis effect="bold">^4</emphasis>
+            </entry>
+            <entry>Sometimes</entry>
+            <entry>&lt;125</entry>
+          </row>
+          <row>
+            <entry>Liquid He-4</entry>
+            <entry>Bose</entry>
+            <entry>~ 3</entry>
+            <entry>Yes</entry>
+            <entry>2.17</entry>
+          </row>
+          <row>
+            <entry>Liquid He-3</entry>
+            <entry>Fermi</entry>
+            <entry>~ 5</entry>
+            <entry>Yes</entry>
+            <entry>
+              <emphasis effect="bold">2.6××10</emphasis>
+              <emphasis effect="bold">^-3</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Atomic H</entry>
+            <entry>Bose</entry>
+            <entry>
+              <emphasis effect="bold">~ 5×10</emphasis>
+              <emphasis effect="bold">^-2</emphasis>
+            </entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>Atomic D(deuterium)</entry>
+            <entry>Fermi</entry>
+            <entry>
+              <emphasis effect="bold">~ 5×10</emphasis>
+              <emphasis effect="bold">^-2</emphasis>
+            </entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id1170505503002">1.15.1. LIQUID HELIUM-4 AS A SUPERFLUID.</para>
+    <para id="id1170522660752">Helium <sup>2</sup>He<sub>4</sub> has two protons, 2 neutrons and 2 orbital electrons. Since all the particles are in pairs hence total spin angular momentum is zero as well as electrons orbital angular momentum is zero. Therefore two Helium atoms are indistinguishable. In this sense Helium atom is a boson. </para>
+    <para id="id1170517727206">Above 4 Kelvin, Helium is in gaseous state. At 4 K it liquefies. This liquid does not have any special property. It exhibits the same properties as any other viscous liquids. This is called He-I phase.</para>
+    <para id="id1170505602977">As we cool it below T<sub>λ </sub>= 2.17 K there is a phase transition to He-II and in He-II phase it exhibits abnormal and spectacular behavior such as :</para>
+    <list id="id1170514468395" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>it flows through tiny capillaries without experiencing any friction;</item>
+      <item>it climbs in the form of film over the edge of vessels containing it. This phenomena is referred to as ‘film creep’;</item>
+      <item>spouts in a spectacular way when heated under certain conditions;</item>
+      <item>if contained in a rotating container, the content in He-II phase never rotates along with the container;</item>
+    </list>
+    <para id="id1170517392773">This complex of effects is called SUPERFLUIDITY and the liquid is in superfluid phase which we referred to as He-II phase. The transition between two phases is called λ transition and this occurs because of the onset of Bose Condensation.</para>
+    <para id="id1170511805832">1.15.2. What is BOSE CONDENSATION ?</para>
+    <para id="id1170522619234">Let us begin with He-I phase with N atoms in volume V at a temperature T below 4 Kelvin. According to Bose Statistics N is distributed as N<sub>1 </sub>in low states and N<sub>2</sub> in high states. As the temperature is lowered more and more He-4 is transferred to lower states so that N<sub>1</sub>+ N<sub>2</sub> = N.</para>
+    <para id="id3945599">This transfer stops when N<sub/>reaches N<sub>max </sub>corresponding to the lower energy state at a lower temperature because there is an upper limit of the number of quantum states available for the given energy state. The temperature at which this occurs happens to be the degeneracy temperature T<sub>0</sub> which we referred to in Section (1.13.1). This is the λ phase transition with He-I transforming into He-II.</para>
+    <para id="id5005251">At a temperature T* &lt; T<sub>0 </sub>, N<sub>max </sub>&lt; N because N<sub>max</sub> is a function of temperature and it reduces as temperature is decreased. Now Bose distribution cannot accommodate N . So how is the excess atoms accommodated that is excess over N<sub>max </sub>. Nature has an ingenious method to circumvent this problem- <emphasis effect="bold">BOSE CONDENSATION</emphasis>. The excess amount at T* condenses to the ground state. As T* approaches ZERO Kelvin absolute temperature, all the N atoms are condensed to the ground energy state.</para>
+    <para id="id1170514436351">This large scale transfer of He-II to energy ground state is what gives rise to super-fluids and its spectacular property of super-fluidity as mentioned in Section ( 1.15.1).</para>
+    <para id="id1170509723989">The degeneracy temperature of He-4 is calculated to be 3 K and the onset of super-fluids is 2.17K. This discrepancy occurs because Degeneracy Temperature is calculated for systems with non-interacting particles whereas as He-4 is strongly interacting. </para>
+    <para id="id1170515916794">1.15.3. SUPERCONDUCTIVITY.</para>
+    <para id="id1170510671526">In 1911 Kamerlingh Onnes discovered that liquid mercury at temperatures below 4.2Kelvin shows zero resistance. This was christened as super conductivity. There is a very narrow temperature range in which the transition takes place. This is defined as Transition Temperature T<sub>C</sub>. </para>
+    <para id="id1170504380876">In 1986, J.G Bednorz and K. A. Muller, workin.g at IBM Research Laboratories at Zurich, found a new class of materials which are superconducting at a much higher temperature. Yitrium Barium Copper Oxide (YBaCuO) was discovered to behave as superconductor at 77Kelvin (liquid Nitrogen temperature). This started the era of high temperature ceramic superconductors.</para>
+    <para id="id1170527719377">Presently super-conductors have been achieved till 125K.</para>
+    <para id="id1170522780402">Professor Collins induced a current to flow in superconducting lead ring. This continued to flow for a year. This confirms that indeed resistance is zero in a super conductor. </para>
+    <para id="id1170514511467">In 1933, Meissener and Ochsenfeld discovered that a superconductor is a perfect diamagnet. This implies that magnetic flux density B in a superconductor is zero. This has been called Meissener Effect. If a coin size superconductor is placed on one of the magnetic poles then it will be freely suspended in air because of the repulsion force between magnetic pole and the diamagnetic nature of the coin size superconductor. This is known as the magnetic levitation effect. </para>
+    <para id="id1170514736469">At low temperatures, ordered behavior appears spontaneously in a macroscopic system. Because of this ordered behavior, the given system exhibits super fluidity and super conductivity. Enormous number of particles behave coherently to give rise to frictionless flow of liquids (super fluidity) and frictionless flow of electrons(super conductivity). </para>
+    <para id="id1170514755044">A kind of phase transition occurs just as there is phase transition from gas to liquid to solid or the onset of ferromagnetism in iron when it cools below the Curie temperature. In the same way lowering of temperature causes electron pairing into cooper pairs. These cooper pairs suppress the fermionic properties to produce super conducting state. This is spontaneous self organization.</para>
+    <para id="id1170511031910">1.15.3.1. PHYSICS OF SUPERCONDUCTIVITY.</para>
+    <para id="id3688911"><emphasis effect="bold"/>A metal at room temperature has a metallic bonding. As we discussed in Section (1.12) the metallic atoms release their outer orbital electrons at room temperature. These semi-free electrons (semi-free because they are free to move around the whole lattice but confined within the boundaries of the crystal because of the surface barrier potential φ<sub>SB </sub>= W<sub>F</sub>(Work Function of the metal)/q ) belong to the whole metallic lattice and not just to their parent atoms. This conducting electron gas hold the regular crystalline array of positively charged ionic cores together as a metallic solid.. In alloys these ionic cores are held irregularly. This electron gas follows Fermi- Dirac Statistics as shown in Figure (1.83).</para>
+    <para id="id1170522586304">At zero Kelvin all the quantum states are filled up to Fermi Energy level (E<sub>F</sub>) with a pair of opposite spin electrons in each quantum state. Above E<sub>F </sub>all the states are empty. But as the temperature is raised the distribution becomes skewed and the upper electrons within kT energy segment start jumping to higher energy states. This is the reason why the actual specific heat of the electron gas is kT/E<sub>F</sub> of the classically expected value.</para>
+    <para id="id1170505448249">By taking the effective mass of the conducting electrons into account we can describe these electrons by de Broglie matter waves traveling in free space. The effective mass which may range from 0.1m<sub>e</sub> to 10m<sub>e</sub> accounts for the deformation caused in the de Broglie free wave. But the crystal defects, foreign impurities and the thermal vibration of the ideal regular array of ionic cores are there to scatter the matter wave. These factors limit the mean free path to several inter atomic spacings. This is the reason for the limited mobility , limited conductivity and finite resistance. But if the thermal vibrations are frozen out by cryogenic cooling to 4K (liquid He-4 temperature) , impurities are absent and the crystal is defect-free then the mean free path is of the order of centimeter and mobility is drastically improved and resistance fall to a residual value. This ideal gas model is correct by and large and is able to explain the general features of the behavior of metal.</para>
+    <para id="id1170527679285">But there is a class of metals and ceramic conductors which experience a definite phase transition at a critical temperature or transition temperature T<sub>C</sub> just as we saw λ- phase transition in He-4. In He-4 below T<sub>0 </sub>( the degeneracy temperature) the bosonic Helium-4 atoms start condensing to energy ground state and manifest the behavior of a super-fluid.</para>
+    <para id="id1170506067436">In metals above T<sub>C</sub> the electron gas is a fermionic system. At temperatures below T<sub>C</sub> the fermionic electron gas is abruptly condensed into an assembly of boson molecules called cooper pairs of electrons. These cooper pairs experience BOSON CONDENSATION in an analogous manner as in He-II phase and manifest a complex of spectacular properties characteristic of a super-conductor namely:</para>
+    <list id="id2192940" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>the electrical resistance becomes zero. If a super conducting ring is cooled below the transition temperature and magnetic field linking the coil is varied for a short period of time then a current is induced and it continues to flow in the super-conducting ring for time immemorial. In super-conductors the usual scattering mechanisms are rendered ineffective just as in He-II the frictional effect of the walls of the container are rendered inoperative;</item>
+      <item>‘Meissner Effect’- that is the total exclusion of magnetic flux from a super conducting body. By Lenz’s law of electromagnetic induction, electro magnetic force (e.m.f.) induced in a conductor is proportional to the rate of change of magnetic flux linking the conductor and the direction of the e.m.f. and the consequent eddy current is such as to oppose the cause of change. If the change of flux is increasing the eddy current will produce an opposing magnetic field and if the change of flux is decreasing then the eddy current will produce an aiding magnetic field. In effect the eddy current tends to shield the conductor from a change of flux. In ordinary conductors the eddy current ebbs out in seconds and the shielding effect vanishes in the same time scale and the magnetic field assumes the new steady state value of the magnetic field. But in astrophysical objects the eddy current and the shielding effect persists for several thousand years. In super-conductor since the resistance is zero, the eddy current persists for ever and continues to exclude the magnetic flux for time immemorial. Effectively a superconductor behaves as a dia-magnetic material; </item>
+      <item>Magnetic Levitation- this is a direct consequence of Meissner Effect. In the process of excluding the magnetic field the superconductor experiences a force of repulsion. If a superconductor is held over the north pole or south pole of a magnet, the former will be held hanging in the mid-air because the gravitational force on the freely falling body is exactly counter-balanced by the force of repulsion due to field exclusion;</item>
+      <item>Magnetic Flux Quantization- If a ring of superconductor is placed in a magnetic field then the field excluded from the annular part of the ring but is included through the central hole of the ring. The flux linking the central hole is an integral multiple of h/e = 10<sup>-15 </sup>Weber i.e. φ = n(h/e) where n is an integral number. The flux passage through a normal non-magnetic conductor, the magnetic flux exclusion by the superconductor and the partial linkage through a super-conductor ring is shown in Figure (1.85).</item>
+    </list>
+    <figure id="id1490134">
+      <media id="id1490134_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-eb7f.png" id="id1490134__onlineimage" height="616" width="627"/>
+      </media>
+    </figure>
+    <para id="id1170505614657">Figure 1.85. Behaviour of a piece of superconducting metal in a magnetic field.</para>
+    <list id="id1170504432077" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>Above the transition temperature when the metal is normal and the sample is completely penetrated by the field ( whatever its shape is),</item>
+      <item>
+        <emphasis effect="bold">Below T</emphasis>
+        <emphasis effect="bold">c</emphasis>
+        <emphasis effect="bold"> when it is super conducting, a spherical sample completely excludes the field,</emphasis>
+      </item>
+      <item>For a ring shaped specimen in the super-conducting state, some of the field lines can go through the central hole of the ring but always as an integral multiple of (h/e). </item>
+    </list>
+    <para id="id1170505606832"><emphasis effect="bold"/>The theory of cooper pairs and the formation of cooper pairs in isotropic state explains only ‘Very low temperature’ super conductors. There is a class of heavy fermion superconductors as well as high temperature ceramic superconductors which cannot be explained by the present theory.</para>
+  </content>
+</document>

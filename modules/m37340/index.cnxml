@@ -1,0 +1,257 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSSPD_Chapter 6_Part 7_Introduction to ATHENA_Process Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37340</md:content-id>
+  <md:title>SSSPD_Chapter 6_Part 7_Introduction to ATHENA_Process Simulator</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Introduction to ATHENA. This section describes how to use DECKBUILD's Commands Menu to create a typical ATHENA input file. The goal is not to design a real process sequence but to demonstrate the use of specific ATHENA statements and parameters as well as some DeckBuild features to create a realistic input file. You can find many realistic process files among the examples and use them as a starting point on your process simulator.</md:abstract>
+  <md:uuid>8ee0a079-dd37-4a0d-8bc1-fae7a31bdfc4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id7700940">
+      <emphasis effect="bold">SSPD_Chapter 6_Part 7_Introduction to ATHENA1(Process Simulator)</emphasis>
+    </para>
+    <para id="id1168714100778">7.7. Background of ATHENA (Process Simulator)</para>
+    <para id="id1168713999166"> The ATHENA Two-Dimensional Process Simulation Framework is a comprehensive software tool for modeling semiconductor fabrication processes. ATHENA provides facilities to perform efficient simulation analysis that substitutes for costly real world experimentation. ATHENA combines high temperature process modeling such as impurity diffusion and oxidation, topography simulation, and lithography simulation in a single, easy to use framework.</para>
+    <para id="id1168712270700">ATHENA is a simulator that provides general capabilities for numerical, physically-based, two- dimensional simulation of semiconductor processing. ATHENA has a modular architecture with the following licensable tools and extensions:</para>
+    <para id="id1168714100952">• ATHENA: This tool performs structure initialization and manipulation, and provides basic deposition and etch facilities</para>
+    <para id="id1168711960362">• SSUPREM4: This tool is used in the design, analysis, and optimization of silicon semiconductor structures. It simulates silicon processing steps such as ion implantation, diffusion and oxidation.</para>
+    <para id="id1168712364839">• ELITE: This tool is a general purpose 2D topography simulator that accurately describes a wide range of deposition, etch and reflow processes used in modern IC technologies.</para>
+    <para id="id1168713572614">• OPTOLITH: This tool performs general optical lithography simulation including 2D aerial imaging, non-planar photoresist exposure, and post exposure bake and development.</para>
+    
+    <para id="id1168713614874">Table 7.4: Athena Features and Capabilities</para>
+    <table id="id1168714206980" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Features</entry>
+            <entry>Capabilities</entry>
+          </row>
+          <row>
+            <entry>Bake </entry>
+            <entry>• Time and temperature bake specification.• Models photoresist material flow.• Models photo-active compound diffusion.</entry>
+          </row>
+          <row>
+            <entry>C-Intepreter </entry>
+            <entry>• Allows user-defined models for implant damage, Monte Carlo plasma etching and diffusion in SiGeC.</entry>
+          </row>
+          <row>
+            <entry>CMP </entry>
+            <entry>• Models Chemical Mechanical Polishing.• Hard and soft models or a combination of both.• Includes isotropical etch component.</entry>
+          </row>
+          <row>
+            <entry>Deposition </entry>
+            <entry>• Conformal deposition model.• Hemispherical, planetary, and conical metallization models.• Unidirectional or dual directional deposition models.• CVD model.• Surface diffusion/migration effects.• Ballistic deposition models including atomistic positioning effects.• User-definable models.• Default deposition machine definitions.</entry>
+          </row>
+          <row>
+            <entry>Mask Development</entry>
+            <entry>• Five different photoresist development models.</entry>
+          </row>
+          <row>
+            <entry>Diffusion </entry>
+            <entry>• Impurity diffusion in general 2D structures including diffusion in all material layers.• Fully coupled point defect diffusion model.• Oxidation enhanced/retarded diffusion effects.• Rapid thermal annealing.• Models simultaneous material reflow and impurity diffusion.• Impurity diffusion in polysilicon accounting for grain and grain boundary components.</entry>
+          </row>
+          <row>
+            <entry>Epitaxy</entry>
+            <entry>• 2D epitaxy simulation including auto-doping.</entry>
+          </row>
+          <row>
+            <entry>Etch</entry>
+            <entry>• Extensive geometric etch capability.• Wet etching with isotropic profile advance.• RIE model that combines isotropic and directional etch components.• Microloading effects.• Angle dependence of etchant source.• Default etch machine definitions.• Monte Carlo plasma etching.• Dopant enhanced etching.</entry>
+          </row>
+          <row>
+            <entry>Exposure</entry>
+            <entry>• Model is based on the Beam Propagation Method simulating reflections and diffraction effects in non-planar structures with capability to take into account local modification of material optical properties the absorbed dose.• Defocus and large numerical aperture effects.</entry>
+          </row>
+          <row>
+            <entry>Imaging</entry>
+            <entry>• Two dimensional, large numerical aperture, aerial image formation.• Up to 9th order imaging system aberrations.• Extensive source and pupil plane filtering for enhanced aerial images.• Full phase shift and transmittance variation mask capabilities.</entry>
+          </row>
+          <row>
+            <entry>Implantation</entry>
+            <entry>• Experimentally verified Pearson and dual Pearson analytical models.• Extended low energy and high energy implant parameter tables.• Binary Collision Approximation Monte Carlo calculations for crystalline and amorphous materials.• Universal tilt and rotation capability for both analytic and Monte Carlo calculations.</entry>
+          </row>
+          <row>
+            <entry>Oxidation</entry>
+            <entry>• Compressible and viscous stress dependent models.• Separate rate coefficients for silicon and polysilicon materials.• HCL and pressure-enhanced oxidation models.• Impurity concentration dependent effects.• Ability to simulate the oxidation of structures with deep trenches, undercuts, and ONO layers.• Accurate models for the simultaneous oxidation and lifting of polysilicon regions.</entry>
+          </row>
+          <row>
+            <entry>Silicidation </entry>
+            <entry>• Models for titanium, tungsten, cobalt, and platinum silicides.• Experimentally verified growth rates.• Reactions and boundary motion on silicide/metal and silicide/silicon interfaces.• Accurate material consumption model.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="eip-10">In Athena we are doing physically based simulation.The Value Of Physically-Based Simulation:</para><para id="eip-388">Physically-based process simulators  predict  the  structures  that   result  from   specified  process sequences. This  is  done  by solving systems of equations that describe the physics and  chemistry of semiconductor processes. </para><para id="eip-775">Physically-based simulation provides three major advantages: it is predictive, it provides insight, and it captures theoretical knowledge in a way that makes this knowledge available to non-experts.</para><para id="eip-78">Physically-based simulation is different from empirical modeling. The  goal of empirical modeling is to obtain analytic formulae that  approximate existing data  with accuracy and   minimum complexity. Empirical  models  provide  efficient  approximation  and   interpolation.  Empirical  models, however, doesn’t  provide insight,  predictive capabilities, or  capture  theoretical  knowledge. Physically-based simulation is  an  alternative to  experiments as  a  source of data.  Empirical modeling can  provide compact representations of data from either source.</para><para id="eip-293">Physically-based simulation has  become  very  important for two reasons. One,  it’s almost always much quicker and  cheaper than performing experiments. Two,  it provides information that is  difficult  or impossible to measure.</para><para id="eip-685">Physically-based simulation  has   two  drawbacks: you  must  incorporate  all  the relevant physics and  chemistry into a simulator and  numerical procedures, and  you must be implement them to solve the associated equations. But these tasks have  been  taken care of for ATHENA users.</para><para id="eip-91">Physically-based process simulation tools  users must specify  the problem to  be  simulated. ATHENA users specify  the problem by defining the following:</para><para id="eip-386">•  The initial geometry of the structure to be simulated.
+•  The  sequence of process steps (e.g., implantation, etching, diffusion, exposure) that are to be simulated.
+•  The physical models to be used.
+</para><para id="id1168713736140">
+      <emphasis effect="bold">7.7.1: Using ATHENA with other SILVACO Software</emphasis>
+    </para>
+    <para id="id1168713962978"> ATHENA is normally used in conjunction with the VWF INTERACTIVE TOOLS. These tools include DECKBUILD, TONYPLOT, DEVEDIT, MASKVIEWS and OPTIMIZER. DECKBUILD provides an interactive run time environment. TONYPLOT supplies scientific visualization capabilities. DEVEDIT is an interactive tool for structure and mesh specification and refinement, and MASKVIEWS is an IC Layout Editor. The OPTIMIZER supports black box optimization across multiple simulators.</para>
+    <para id="id1168712853524"> ATHENA is also frequently used in conjunction with the ATLAS device simulator. ATHENA predicts the physical structures that result from processing. These physical structures are used as input by ATLAS, which then predicts the electrical characteristics associated with specified bias conditions. <emphasis effect="italics">Using ATHENA and ATLAS makes it easy to determine the impact of process parameters on device characteristics.</emphasis></para>
+    <para id="id1168712866590">7.7.1. Getting started with ATHENA.</para>
+    <para id="id1168712177576">To start ATHENA under DECKBUILD in interactive mode, enter the following UNIX command:</para>
+    <para id="id1168711386685">deckbuild -an</para>
+    <para id="id1168714120509"> After a short delay, the Main Deckbuild Window will appear. The lower text window of this window will contain the ATHENA logo and version number, a list of available modules, and a command prompt. ATHENA is now ready to run. To become familiar with the mechanics of running ATHENA under DECKBUILD, load and run some of the ATHENA standard examples.</para>
+    <para id="id1168711392038">
+      <emphasis effect="bold">7.7.2.: Creatinga Device Structure Using ATHENA</emphasis>
+    </para>
+    <para id="id1168714050930">7.7.2.1: Procedure Overview</para>
+    <para id="id1168712407373"> ATHENA is designed as a process simulation framework. The framework includes simulator independent operations and simulator specific functions that simulate different process steps (e.g., implant, RIE, or photoresist exposure). This section describes ATHENA input/output and the following basic operations for creating an input file:</para>
+    <para id="id1168712146726">• Developing a good simulation grid</para>
+    <para id="id1168713610756">• Performing conformal deposition</para>
+    <para id="id1168711415766">• Performing geometric etches</para>
+    <para id="id1168713741318">• Structure manipulation</para>
+    <para id="id1168711855622">• Saving and loading structure information</para>
+    <para id="id1168714118595">• Interfacing with device simulators</para>
+    <para id="id1168713980487">• Using different VWF INTERACTIVE TOOLS</para>
+    <para id="id1168711548445">
+      <emphasis effect="bold">7.7.2.2: Creating An Initial Structure</emphasis>
+    </para>
+    <para id="id1168712402597"> This section will describe how to use DECKBUILD’s Commands menu to create a typical ATHENA input file. The goal of this section is not to design a real process sequence, but to demonstrate the use of specific ATHENA statements and parameters, as well as some DECKBUILD features, to create a realistic input file. You can find many realistic process input files among the examples and use them as a starting point in your process simulation.</para>
+    <para id="id1168713965820"> Once DECKBUILD is running and the current simulator is set to ATHENA (see the VWF AUTOMATION, CALIBRATION, AND PRODUCTION TOOLS USER ’S MANUAL for more information), open and pin the Commands menu as shown in Table 7.5.. Then, select Mesh Define.... and the ATHENA Mesh Define Menu will appear. We recommend that you pin this popup because it will be used often in designing an initial mesh.</para>
+    <para id="id1168712592006">Table 7.5 Commands Menu</para>
+    <table id="id1168714205113" summary="">
+      <tgroup cols="1">
+        <colspec colnum="1" colname="c1"/>
+        <tbody>
+          <row>
+            <entry>Commands</entry>
+          </row>
+          <row>
+            <entry>Mesh define</entry>
+          </row>
+          <row>
+            <entry>Mesh initialize</entry>
+          </row>
+          <row>
+            <entry>Adaptive meshing</entry>
+          </row>
+          <row>
+            <entry>Process ► </entry>
+          </row>
+          <row>
+            <entry>Structure ►</entry>
+          </row>
+          <row>
+            <entry>File I/O</entry>
+          </row>
+          <row>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+          </row>
+          <row>
+            <entry>Notes……</entry>
+          </row>
+          <row>
+            <entry>Models…..</entry>
+          </row>
+          <row>
+            <entry>Templates…….</entry>
+          </row>
+          <row>
+            <entry>Extract</entry>
+          </row>
+          <row>
+            <entry>Parse Deck</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168713841801">Defining Initial Rectangular Grid.</para>
+    <para id="id1168712180944"> Now, you can specify the initial rectangular grid. The correct specification of a grid is critical in process simulation. The number of nodes in the grid Np has a direct influence on simulation accuracy and time. A finer grid should exist in those areas of the simulation structure where ion implantation will occur, where p-n junction will be formed, or where optical illumination will change photoactive component concentration. The number of arithmetic operations necessary to achieve a solution for processes simulated, using the finite element analysis method could be estimated as (Np)<sup>a</sup> , where a is of order 1.5 - 2.0. Therefore, to maintain the simulation time within reasonable bounds, the fine grid should not be allowed to spill over into unnecessary regions. The maximum number of grid nodes is 20,000 for ATHENA simulations, but most practical simulations use far fewer nodes than this limit.</para>
+    <para id="id1168713951936"> To create a simple uniform grid in a rectangular 1 µm by 1 µm simulation area, click on the Location field and enter a value of 0.0. Then, click on the Spacing field and enter a value of 0.10. Then, click on the Insert button and the line parameters will appear in the scrolling list.</para>
+    <para id="id1168713676698">Note: ATHENA coordinate system has positive x axis pointed to the right along the structure surface and positive y axis pointed down to the depth of the structure.</para>
+    <para id="id1168712249656"> In the same way, set the location of a second X line to 1.0 with a spacing of 0.1. You can either set the values by dragging a slider or by entering a number directly.</para>
+    <para id="id1168712864106"> Now, select the Y direction and set the lines with the same values as the X direction. You can now add the comments at the Comment line. The ATHENA Mesh Define menu should appear as shown in Figure 7.17.</para>
+    <para id="id3307873">
+      <figure id="id1168713143981">
+        <media id="id1168713143981_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-6dbc.png" id="id1168713143981__onlineimage" height="480" width="596"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168713832548"> You can now write the menu-prepared mesh information into the input file. But first, preview the rectangular grid by selecting the View... button and the View Grid window (Figure 7.18) will appear. Notice that vertical and horizontal grid lines are distributed uniformly, and the 121 points and the 200 triangles will be generated.</para>
+    <para id="id1168713704665">
+      <figure id="id1168712043682">
+        <media id="id1168712043682_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-3d66.png" id="id1168712043682__onlineimage" height="440" width="466"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168711471015"> A uniform grid such as the one shown in Figure 7.18 is inefficient for performing complex simulations. Therefore, the grid must be improved. First, make a better grid in the y-direction. Usually, it’s necessary to get better resolution for the depth profile after the ion implantation step. When adaptive gridding capability isn’t used, apply preliminary knowledge of the process you are going to simulate.</para>
+    <para id="id1168712315363"> Suppose you want to perform a 60 keV boron implant so that the implant peak would be around 0.2 µm. It is reasonable to make a finer grid at this depth. To achieve this, simply add one more Y-line by setting the Location to 0.2 and the Spacing to 0.02. The new rectangular grid (Figure 7.19) will now appear. Notice the number of points and triangles have increased to 231 and 400 respectively.</para>
+    <para id="id1168713746190">
+      <figure id="id1168713683651">
+        <media id="id1168713683651_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-e932.png" id="id1168713683651__onlineimage" height="448" width="428"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168712198183">Finally, write the Mesh Define information to the file by pressing the Write button. A set of lines like these will appear:</para>
+    <para id="id1168711530074">GO ATHENA</para>
+    <para id="id1168711025270"># NON-UNIFORM GRID</para>
+    <para id="id1168712302502">LINE X LOC=0.00 SPAC=0.1</para>
+    <para id="id1168713577478">LINE X LOC=0.3 SPAC=0.02</para>
+    <para id="id1168712049363">LINE X LOC=1 SPAC=0.1</para>
+    <para id="id1168713891369">LINE Y LOC=0.00 SPAC=0.03</para>
+    <para id="id1168711639161">LINE Y LOC=0.2 SPAC=0.02</para>
+    <para id="id1168713755202">LINE Y LOC=1 SPAC=0.1</para>
+    <para id="id1168714037374">The first line (GO ATHENA) is called an autointerface statement and tells DECKBUILD that the following file should be run by ATHENA</para>
+    <para id="id1168713604847"> The grid in ATHENA consists of points connected to form a number of triangles. Each point has one or more nodes associated with it. A point within a material region has one node, while a point which belongs to several regions has several nodes. A node represents the solution (e.g., doping concentration) in a particular material region at the point. For example, a given node may represent solution values in silicon at a point with coordinates (0.0, 0.0); an entirely different node may represent solution values in oxide at the same point (0.0, 0.0).</para>
+    <para id="id7742564">So, the previous INIT statement creates the &lt;100&gt; silicon region of 1.0 µm x 1.0 µm size, which is uniformly doped with boron concentration of 3e14 atom/cm3. This simulation structure is ready for any process step (e.g., implant, diffusion, Reactive Ion Etching). Before discussing the simulation of physical processing using SSUPREM4, ELITE or OPTOLITH modules, it’s important to discuss structure manipulation statements that can precede or alternate with physical process steps.</para>
+    <para id="id1168713896558">
+      <emphasis effect="bold">7.7.2.3. Defining the initial substrate.</emphasis>
+    </para>
+    <para id="id1168714178067"><emphasis effect="bold"/>The LINE statements specified by the Mesh Define menu set only the rectangular base for the ATHENA simulation structure. The next step is the initialization of the substrate region with its points, nodes, triangles, background doping, substrate orientation, and some additional parameters. To initialize the simulation structure, select ATHENA Command Menu®Mesh Initialize... and the Mesh Initialize Menu will appear (see Figure 7-20) </para>
+    <figure id="id1168713606587">
+      <media id="id1168713606587_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-bd24.png" id="id1168713606587__onlineimage" height="485" width="583"/>
+      </media>
+    </figure>
+    <para id="id1168713600903"> Background doping can be set by clicking on the desired impurity box (e.g., Boron). The background impurity concentration specification will then become active. If the None box is checked, the concentration information will become inactive and will appear grayed out from the rest of the menu. Select the desired concentration using the slider (e.g., 3.0) and select an exponent from the <emphasis effect="bold">Exp</emphasis>: menu (e.g., 14). This will give a background concentration of 3.0e14 atom/cm3. You can set background concentration using the By <emphasis effect="bold">Resistivity</emphasis> specification in Ohm•cm. For this tutorial, check the 2D box in the <emphasis effect="bold">Dimensionality</emphasis> field. This will run the simulation in a two-dimensional calculation. </para>
+    <para id="id1168713999920">Note: Two-dimensional mode is used in this tutorial to demonstrate 2D grid generation and manipulation. In most cases, however, it is unnecessary to change the Auto default in the Dimensionality item of the Mesh Initialize menu. ATHENA will begin in 1D and will automatically switch to 2D mode at the first statement, which disrupts the lateral uniformity of the device structure. This generally results in massive savings of computation time.</para>
+    <para id="id1168713576144"> You can now write the mesh initialization information into the file by pressing the Write button. The following two lines will appear in the Deckbuild Text Subwindow:</para>
+    <para id="id1168712366576"># INITIAL SILICON STRUCTURE</para>
+    <para id="id1168713895108">INIT SILICON C.BORON=3.0E14 ORIENTATION=100 TWO.D</para>
+    <para id="id1168712876497">So, the previous INIT statement creates the &lt;100&gt; silicon region of 1.0 mm x 1.0 mm size, which is uniformly doped with boron concentration of 3e14 atom/cm3. This simulation structure is ready for any process step (e.g., implant, diffusion, Reactive Ion Etching). Before discussing the simulation of physical processing using SSUPREM4, ELITE or OPTOLITH modules, it’s important to discuss structure manipulation statements that can precede or alternate with physical process steps.</para>
+    <para id="id1168712654333">7.7.2.4. Simple Film Depositions</para>
+    <para id="id1168714111670"> Conformal deposition can be used to generate multi-layered structures. Conformal deposition is the simplest deposit model and can be used in all cases when the exact shape of the deposited layer is not critical. Conformal deposition can also be used in place of oxidation of planar or quasi-planar semiconductor regions when doping redistribution during the oxidation process is negligible.</para>
+    <para id="id1168710998186"> To set the conformal deposition step, select the menu items Process→Deposit→Deposit... from the Commands menu in DECKBUILD and the ATHENA Deposit Menu (Figure 7-21) will appear.</para>
+    <para id="id1168714099538">
+      <figure id="id1168710890955">
+        <media id="id1168710890955_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-e729.png" id="id1168710890955__onlineimage" height="506" width="611"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168713963152">As shown, Conformal Deposition is the default. If it is known that the oxide layer thickness grown in a process is 200 Angstroms, you can substitute this with conformal oxide deposition. Select Oxide from the Material menu and set its thickness to 0.02 µm. It is always useful to set several grid layers in a deposited layer. In this case, at least two grid layers are needed to simulate impurity transport through the oxide layer. In some other cases (e.g., photoresist deposition over a non-planar structure), a sufficiently fine grid is needed to accurately simulate processes within the deposited layer. There are also situations (e.g., spacer formation) when several grid layers in a deposited material region are needed to properly represent the geometrical shape of the region.</para>
+    <para id="id1168714041055"> The grid in the deposited layer is controlled by <emphasis effect="bold">Grid Specification</emphasis> parameters in the ATHENA Deposit Menu. Set the <emphasis effect="bold">Total number of grid layers</emphasis> to 2, add a <emphasis effect="bold">Comment</emphasis>, and click on the <emphasis effect="bold">Write</emphasis> button. The following lines will then appear in the Deckbuild Text Subwindow:</para>
+    <para id="id1168711485622"># GATE OXIDE DEPOSITION</para>
+    <para id="id1168713862538">DEPOSIT OXIDE THICK=0.02 DIVISIONS=2</para>
+    <para id="id1168712512853"> The next step will be to deposit a phosphorus doped polysilicon layer of 0.5µm thickness. Select the material Polysilicon, and set the thickness to 0.5. To add doping, select the Impurities box. The Impurity Concentration section will be immediately added to the ATHENA Deposit Menu (See Figure 7-22).</para>
+    <figure id="id1168711575814">
+      <media id="id1168711575814_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-e858.png" id="id1168711575814__onlineimage" height="561" width="599"/>
+      </media>
+    </figure>
+    <para id="id8866467">Figure 7.22.Impurity section of the ATHENA Deposit Menu.</para>
+    <para id="id1168712148642"> Click on the Phosphorus checkbox and set the doping level (e.g., 5.0x10<sup>19</sup>) using the slider and the Exp menu. You can set a non-uniform grid in the deposited layer by changing the Nominal grid spacing(DY) and the Grid spacing location(YDY) parameters. To create a finer grid at the polysilicon surface, set the total number of grid layers to 10, the Nominal grid spacing(DY) to 0.02 µm and the Grid spacing location(YdY) to 0.0 (at the surface). Then, click on the Write button and the following deposition statement will be written in the input file as:</para>
+    <para id="id1168712327640">DEPOSIT POLY THICK=0.5 C.PHOSPHOR=5.0E19 DIVISIONS=10 \ DY=0.02 YDY=0.0 MIN.SPACING=0.001</para>
+    <para id="id1168713801925"> Use the <emphasis effect="bold">Cont</emphasis> button to continue the ATHENA simulation. This will create the three layer structure shown in the left plot of Figure 7.23 (Topmost layer is PolySi=0.5µm, Gate Oxide=0.02µm, Silicon = 1µm). The MIN.SPACING parameter preserves the horizontal mesh spacing for high aspect ratio grids. ATHENA tries to reduce high aspect ratio grids and MIN.SPACING stops this. To get a finer grid not at the polysilicon surface but in the middle of polysilicon layer, change YDY to 0.2. This puts on a finer grid at a distance of 0.2µm from the surface of the structure. You can do this by positioning the cursor in the input file and backspacing over existing text, or entering new text. For example:</para>
+    <para id="id1168714040127">DEPOSIT POLY THICK=0.5 C.PHOSPHOR=5.0E19 DIVISIONS=10 \ DY=0.02 YDY=0.2</para>
+    <para id="id1168710991715">It is possible to see the effect of changing the YDY. parameter within the polysilicon without rerunning the whole input file. To do this, highlight the previous statement (DEPOSIT OXIDE...), select Main Control→Init from History button, and press the Cont button. The new history file can then be loaded into TONYPLOT (see the right plot in Figure 7.23).</para>
+    <para id="id1168714047392">
+      <figure id="id1168713793986">
+        <media id="id1168713793986_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-bb79.png" id="id1168713793986__onlineimage" height="507" width="610"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

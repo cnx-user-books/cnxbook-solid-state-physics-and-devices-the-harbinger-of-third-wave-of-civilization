@@ -1,0 +1,88 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 8_continued_Electron in an Finite 1-D Potential Well_Solution of Schrodinger Equation.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33490</md:content-id>
+  <md:title>SSPD_Chapter1_Part 8_continued_Electron in an Finite 1-D Potential Well_Solution of Schrodinger Equation.</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 8 is continued. We saw the solution of Schrodinger Equation for an electron trapped in an INFINITE potential well. Here we examine an electron in FINITE height potential well. The electron does not have sufficient energy to climb up the potential well still we find that it has exponentially decaying probability of finding in the potential barrier as it penetrates into the barrier.This is counter intuitive from classical point of view.</md:abstract>
+  <md:uuid>4667147a-9748-4585-b552-c7a56c5e3781</md:uuid>
+</metadata>
+<content>
+    <para id="id7877435">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 8_continued_AN ELECTRON IN A FINITE HEIGHT 1-D POTENTIAL WELL.</emphasis>
+    </para>
+    <figure id="id13957284">
+      <media id="id13957284_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-ba0f.png" id="id13957284__onlineimage" height="406" width="650"/>
+      </media>
+    </figure>
+    <para id="id7419034">Fig(1.28) Electron in first quantum state in a finite potential well.</para>
+    <para id="id4222361">Electron total energy E is less than V<sub>1</sub> hence classically it cannot come out of the well.</para>
+    <para id="id14839542">Inside the potential well for 0 &lt; z &lt; W:</para>
+    <para id="id14959821">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id15285128">
+      <emphasis effect="bold">∂</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">ψ /∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ (2mE/ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)ψ = 0   1.64</emphasis>
+    </para>
+    <para id="id15317520">Outside the potential well for z &lt; 0 and W &lt; z :</para>
+    <para id="id7413831">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id15179964">
+      <emphasis effect="bold">∂</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">ψ /∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ (2m(E-qV</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">)/ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)ψ = 0   1.65</emphasis>
+    </para>
+    <para id="id14377227">The wave vector inside the potential well is : </para>
+    <para id="id14944052">k<sub>1</sub> and k<sub>1</sub>*<sub/>= ±i[√(2mE)]/ћ;</para>
+    <para id="id12137148">The wave vector outside the potential well is: </para>
+    <para id="id17679264">k<sub>2</sub> = -[√(2m(qV<sub>1</sub>-E)]/ћ;</para>
+    <para id="id16280596">Inside the potential well we have harmonic solution:</para>
+    <para id="id15296717">That is ψ(z,t) = BSin[k<sub>1</sub>(z+δ)]Exp[iωt]</para>
+    <para id="id13572535">Where k<sub>1</sub>= 2π/λ<sub>1</sub> and by inspection λ<sub>1</sub>= 2(W+2 δ) and </para>
+    <para id="id15204660">the solution is a standing wave with nodes at z = - δ and at z = (W+ δ);</para>
+    <para id="id10527106">Outside the potential well we have exponentially decaying solution:</para>
+    <para id="id4739412">
+      <emphasis effect="bold">For z &lt; 0, we have ψ(z,t) = AExp[k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">z].Exp[i ωt]</emphasis>
+    </para>
+    <para id="id15179562">
+      <emphasis effect="bold">For W &lt; z, we have ψ(z,t) = AExp[-k</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">(z-W)].Exp[i ωt] 1.66</emphasis>
+    </para>
+    <para id="id14961564">To satisfy the boundary condition:</para>
+    <para id="id10457739">At x=0, A= B Sin[π δ/(W+2 δ)]</para>
+    <para id="id10749109">
+      <emphasis effect="bold">At x=W, A= B Sin[π (W+δ)/(W+2 δ)] 1.67</emphasis>
+    </para>
+    <para id="id17433616">Since π - π (W+δ)/(W+2 δ) = π δ/(W+2 δ)</para>
+    <para id="id10772330">Therefore the two boundary conditions are:</para>
+    <para id="id8468730">A= BSin(π-Ө);</para>
+    <para id="id10649169">A = BSin(Ө) </para>
+    <para id="id17632034">where Ө= π (W+δ)/(W+2 δ);</para>
+    <para id="id5864400">This a consistent boundary condition therefore the solution is a valid solution .</para>
+    <para id="id17738415">Fig(1.29) depicts an electron in second quantum state n= 2.</para>
+    <figure id="id7411838">
+      <media id="id7411838_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-43c4.png" id="id7411838__onlineimage" height="320" width="650"/>
+      </media>
+    </figure>
+    <para id="id3658822">Fig(1.29) Electron Matter Wave in second quantum state n=2;</para>
+    <para id="id14817631">Thus here we get a counter-intuitive result. Classically electron should remain confined to the potential well because it has insufficient energy to climb over the potential barrier at the two nodes but we find that electron has exponentially decaying probability of being found inside the Potenial Barrier region as it penetrates into the barrier. As a consequence we donot find the node of the standing wave pattern at the edges of the well. Infact it has shifted inside the barrier as shown in the Figure 1.29.</para>
+    <para id="id12296491"/>
+  </content>
+</document>

@@ -1,0 +1,181 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter2.2.3;2.2.4;2.2.5;Insulator,Semi-conductor,Metal;Intrinsic Semi-condctor;Extrinsic Semi-conductor.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47287</md:content-id>
+  <md:title>Chapter2.2.3;2.2.4;2.2.5;Insulator,Semi-conductor,Metal;Intrinsic Semi-condctor;Extrinsic Semi-conductor.</md:title>
+  <md:abstract>Section 2.2.3. gives the distinction between Insulator, Semi-conductor and Metal.Section 2.2.4 gives thermal generation of Electron-hole pair in Intrinsic Semiconductor.Section 2.2.5 gives Extrinsic Semiconductor,Space Charge Neutrality and Compensation.</md:abstract>
+  <md:uuid>60609d2d-b18c-4d71-91bf-bcb50f81a28d</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165757958898">
+      <title>2.2.3. Distinction between Insulator,Semi-conductor and Metal based on the Band Theory of Solids.</title>
+      <figure id="import-auto-id1165757152839">
+        <media id="import-auto-id1165758329730" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-4378.png" height="301" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165756982818">In Figure 2.2.24. the comparative study of the Band-Diagrams of Insulator, Semi-conductors and Metal is given.Close examination of the Band-Diagrams reveal that there is really no difference between Insulator and Semi-conductor except that Insulator has a band-Gap greater than 4eV and within the permissible range of temperatures, electrons can never jump across the band gap into the conduction band and Insulator will always be a bad conductor of electricity. In contrast in Semi-conductors, electrons from the valence band manage to jump across the band-gap right after crossing 77K temperature and at Room Temperature 300K there is appreciable amount of mobile electrons and holes as given in Table 2.2.4.1. Ge, Si and GaAs have intrinsic concentration of 10<sup>13</sup>/cc<sup/>, 10<sup>10</sup>/cc<sup/>and  10<sup>6</sup>/cc respectively. That is precisely why Ge and Si behave as semi-conductor whereas GaAs behaves as semi-insulator. In contrast Metal always has conducting electrons in Conduction Band. Hence it is a good conductor at all temperatures. All metals have atom packing density of 10<sup>22</sup>/cc and all metals are univalent hence every atom contributes 1 electron to the conduction band therefore metals in general have n(conducting electron concentration) = 10<sup>22</sup>/cc. Metals generally have partially filled conduction band or overlapping valence and conduction band as shown in Figure 2.2.25.</para>
+      <para id="import-auto-id1165757941316">There is one very distinctive difference between Semiconductor and Metal. As seen in Figure 2.2.24, Fermi-Level is in the middle of the Band Gap in semi-conductor whereas in Metal Fermi-Level lies in the conduction band and conduction band is filled up with conducting electrons till Fermi-Level.</para>
+      <para id="import-auto-id1165755834716">As we will see later that as we dope  a semiconductor, Fermi-level moves towards the Conduction Band in N-Type Semiconductor and towards the Valence Band in P-Type Semiconductor. In heavily doped semiconductors where doping level exceeds Effective Density of States at E<sub>C</sub> in case of N-Type material and exceeds Effective Densitty of States at E<sub>V</sub> in case of P-Type Semi-conductor then Fermi-level penetrates the Conduction Band N-Type Semiconductor and penetrates Valence Band in P-Type Semiconductor and they are called degenerate semi-conductor. These heavily doped semi-conductors behave like semi-metals. </para>
+      <figure id="import-auto-id1165763703813">
+        <media id="import-auto-id1165758592539" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-ca0a.png" height="275" width="575"/>
+        </media>
+      </figure>
+    </section>
+    <section id="import-auto-id1165764832624">
+      <title>2.2.4.Thermal Generation of Elecron-Hole Pair(EHP) in Intrinsic Semiconductor.</title>
+      <para id="import-auto-id1165757317790">Electronic Grade Semiconductor with no dopents are called Intrinsic Semiconductor.  At temperatures below liquid Nitrogen temperature (77K), intrinsic semiconductor freeze out. There are no conducting electrons and no conducting holes. As temperature is raised above 77K, due to thermal vibration of the lattice structure a few  covalent bonds break and n<sub>i</sub> electrons leave their host atoms and by corollary p<sub>i</sub> holes are created in the vacancies left by the semi-free electrons. Broken-loose electrons behave like negatively charged carriers with an effective mass near the mass of a free electron. The vacancies behave like positively charged carriers with effective mass  heavier than that of negatively charged carriers. Here by definition the concentration of the two kind of  mobile carriers are equal that is:</para>
+      <figure id="import-auto-id1165757156189">
+        <media id="import-auto-id7414995" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-e2ef.png" height="35" width="248"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165760229759">Here N<sub>C </sub>= effective density of states at E<sub>C</sub> (the lower edge of Conduction Band) ~10<sup>19</sup>/cc  for all the three semiconductors namely Ge,Si and GaAs.</para>
+      <para id="import-auto-id5154066">Here N<sub>V </sub>= effective density of states at E<sub>V</sub> (the upper edge of Valence Band) ~10<sup>19</sup>/cc  for all the three semiconductors namely Ge,Si and GaAs.</para>
+      <para id="import-auto-id1165763229970">E<sub>g</sub>= Band-Gap(eV), k = Boltzmann Constant, T = Absolute Temperature in Kelvin. </para>
+      <para id="import-auto-id1165757903274">Table 2.2.4.1 gives the intrinsic concentration of electrons and holes in Ge,Si and GaAs at Room Temperature (300K).</para>
+      <para id="import-auto-id7093968">
+        <emphasis effect="bold">Table 2.2.4.1. Intrinsic Concentration of electrons and holes in Ge,Si and GaAs at Temperature 300K.</emphasis>
+      </para>
+      <table id="import-auto-id1165757147370" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Semiconductor</entry>
+              <entry>Band-Gap</entry>
+              <entry>Temperature</entry>
+              <entry>Effective Density of States</entry>
+              <entry>n<sub>i</sub> = p<sub>i</sub></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Ge</entry>
+              <entry>0.67eV</entry>
+              <entry>300K</entry>
+              <entry>~10<sup>19</sup>/cc</entry>
+              <entry>2.4×10<sup>13</sup>/cc</entry>
+            </row>
+            <row>
+              <entry>Si</entry>
+              <entry>1.12eV</entry>
+              <entry>300K</entry>
+              <entry>~10<sup>19</sup>/cc</entry>
+              <entry>4×10<sup>9</sup>/cc</entry>
+            </row>
+            <row>
+              <entry>GaAs</entry>
+              <entry>1.4eV</entry>
+              <entry>300K</entry>
+              <entry>N<sub>C</sub> ~5×10<sup>17</sup>/cc, N<sub>V</sub> ~7×10<sup>18</sup>/cc</entry>
+              <entry>3.3×10<sup>6</sup>/cc</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165757164901">Figure 2.2.24  in the previous section illustrates how the EHP are thermally generated and why they are always equal.</para>
+      <para id="import-auto-id1165763702635">Equation 2.2.3.1 clearly shows that intrinsic concentration is very temperature sensitive.</para>
+      <para id="import-auto-id1165757163349">
+        <emphasis effect="bold">Table.2.2.4.2.Intrinsic Concentration of Si from 300K to 360K</emphasis>
+      </para>
+      <para id="import-auto-id1165760225598">
+        <table id="import-auto-id1165757170280" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <thead>
+              <row>
+                <entry>Temperature</entry>
+                <entry>300K</entry>
+                <entry>310K</entry>
+                <entry>320K</entry>
+                <entry>330K</entry>
+                <entry>340K</entry>
+                <entry>350K</entry>
+                <entry>360K</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Intrinsic Conc(per cc)</entry>
+                <entry>4×10<sup>9</sup></entry>
+                <entry>8×10<sup>9</sup></entry>
+                <entry>1.5×10<sup>10</sup></entry>
+                <entry>2.8×10<sup>10</sup></entry>
+                <entry>5×10<sup>10</sup></entry>
+                <entry>9×10<sup>10</sup></entry>
+                <entry>1.45×10<sup>11</sup></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+      <para id="import-auto-id1165757973530">From Table 2.2.4.2 it is evident that for an increment of 60K above Room Temperature, intrinsic concentration has increased by two-orders of magnitude i.e. nearly 100 times. Because of this undesirable feature of intrinsic concentration, Si suffers from a very serious drawback namely: the reverse leakage current in a reverse biased diode doubles for every 10K rise in temperature.</para><para id="import-auto-id1165763184835">In Figure 2.2.26, the exponential rise in intrinsic concentration with temperature is plotted.</para>
+      <figure id="import-auto-id7092145">
+        <media id="import-auto-id1165763449887" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-3b94.png" height="361" width="468"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165757157297">
+        <emphasis effect="bold">2.2.5. Extrinsic Semi-conductor, space-charge neutrality and compensation .</emphasis>
+      </para>
+      <para id="import-auto-id1165757946851">Electronic Grade Semiconductor with no doping is called Intrinsic Semiconductor and that with doping is called Extrinsic Semiconductor.</para>
+      <para id="import-auto-id7244478">Semiconductor is Group IV element or compound semi-conductor is Group (III+V) Compound.</para>
+      <para id="import-auto-id1165758452478">For Group IV element, Group III(namely B, Al) is acceptor or P-Type dopent and Group V(P, As) is donor or N-Type dopent.</para>
+      <para id="import-auto-id7476650">For Group (III+V)Compound semiconductor, Group II is acceptor or P-Type dopent and Group VI is donor or N-Type dopent.</para>
+      <para id="import-auto-id1165757167669">In Figure 2.2.27, the consequence of introducing a donor atom or the  consequence of introducing an acceptor atom in a Silicon Crystalline Lattice is shown. </para><para id="import-auto-id1165756166828">In case of Donor doped Silicon where doping density is N<sub>D</sub> donor atoms/cc  , the octave condition is completed by 4 valence electrons of donor atom hence 5<sup>th</sup> valence electron beomes the odd-man out and hence is very loosely held by the host donor atom. At Room Temperature, the 5<sup>th</sup> valence electron is broken loose from the donor and becomes a wanderer in Si-lattice. In effect Donor atom gets (+)ve ly  ionized and donates its negatively charged 5<sup>th</sup> valence electron to the Si-lattice.Hence overall space-charge neutrality is maintained. Plus there are thermally generated EHP also.Overall thermal equilibrium is achieved and we have thermal equilibrium concentration value(n<sub>n</sub>-bar) of conducting electron and thermal equilibrium value (p<sub>n</sub>-bar) of holes. Here conducting electrons are many orders of magnitude larger than holes hence electrons are referred to as majority carriers and holes are referred to as minority carriers. </para>
+      <figure id="import-auto-id1165757171536">
+        <media id="import-auto-id1165756106137" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-1802.png" height="456" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165757162528">The thermal equilibrium value of the majority carrier n<sub>n</sub>-bar and the thermal equilibrium value of the minority carrier p<sub>n</sub>-bar are calculated from the following set of equations:</para>
+      <figure id="import-auto-id6387299">
+        <media id="import-auto-id1165757963332" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-0187.png" height="25" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165759962873">By re-arranging the above two equations we get the following equation:</para>
+      <figure id="import-auto-id1165764379620">
+        <media id="import-auto-id7553050" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-e7e0.png" height="454" width="391"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165757157634">In second last equation we see that majority carriers consist two terms: first term is  electrons contributed by ionization of the N<sub>D</sub> dopent atoms/cc and the second term is the electrons contributed through thermal generation of EHP. But since electrons contributed by EHP thermal generation is negligible compared to N<sub>D</sub> dopent atoms/cc as seen below so without any loss of accuracy we can use the last equation above.</para>
+      <para id="import-auto-id1165757314965">In case of Silicon, doping is in the range from 10<sup>12</sup>Dopent Atoms/cc to 10<sup>18</sup>Atoms/cc.</para>
+      <para id="import-auto-id1165758787026">Hence the thermal equilibrium value of the majority carrier in N-Type Si will range from n<sub>n</sub>-bar=10<sup>12</sup>electrons<sup/>/cc to 10<sup>18  </sup>electrons/cc.</para>
+      <para id="import-auto-id6379046">The thermal equilibrium value of the minority carier in N-Type will range from p<sub>n</sub>-bar=10<sup>8</sup>holes<sup/>/cc to 10<sup>2  </sup>holes/cc. assuming n<sub>i</sub>=10<sup>10</sup>/cc.</para>
+      <para id="import-auto-id8959426">
+        <emphasis effect="bold">2.2.5.1. The Energy-Band Diagram of N-Type and P-Type Semiconductor.</emphasis>
+      </para>
+      <figure id="import-auto-id3128694">
+        <media id="import-auto-id1165753752713" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-681c.png" height="490" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165758663073"> Left hand side diagram in Figure 2.2.28 is that of N-Type Material. The dopent N<sub>D</sub> donor atoms/cc introduce filled energy level E<sub>D</sub> very close to the lower edge (E<sub>C</sub> ) of the Conduction band.At room temperature the thermal energy is of the order of 25meV whereas 10meV is required to jump to the conduction band hence at Room Temperature all the donor atoms easily get positively ionized contributing their 5<sup>th</sup> valence electrons to the conduction band. There are few and far between thermal generation of EHP also as indicated by EE’.</para>
+      <para id="import-auto-id1165757316164">Right hand side diagram in Figure 2.2.28 is that of P-Type Material. The dopent N<sub>A</sub> acceptor atoms/cc introduce empty energy level E<sub>A</sub> very close to the upper edge (E<sub>V</sub> ) of the Valence band.At room temperature the thermal energy is of the order of 25meV whereas 10meV is required to jump to the empty energy level E<sub>A </sub> hence at Room Temperature all the acceptor atoms easily get negatively ionized by accepting the valence electron from the neighbouring Si-Atom thereby completing its octave and contributing equal number of vacancies in the Valence Band. These vacanicies wander about the Si-lattice as conducting positive carriers which we call holes. There are few and far between thermal generation of EHP also as indicated by EE’.</para>
+      <para id="import-auto-id5302326">Comparing these two diagrams it is clear that holes will wander about the Si-lattice in much more sluggish manner as compared to conducting electrons. This has implications for its mobility.</para>
+      <para id="import-auto-id1165757156673">
+        <emphasis effect="bold">2.2.5.2. Compensation in Semiconductors.</emphasis>
+      </para>
+      <para id="import-auto-id1165757975377">If  both donor N<sub>d </sub>dopent/cc and acceptor N<sub>a </sub>dopent/cc are introduced simultaneously then the two compensate. The fifth electron from the donor atom goes to fulfil the octave of the acceptor atom. The Acceptor need not make its pick of the 4<sup>th</sup> electron from the valence band. Thus equal number of donor and acceptor will compensate each other.Whatever is leftover decides the Type of the semiconductor.</para>
+      <para id="import-auto-id1165757164811">If donor N<sub>d </sub>dopent/cc &lt; acceptor N<sub>a </sub>dopent/cc then we have P-Type Si with net doping density = N<sub>a </sub>- N<sub>d </sub>=N<sub>A</sub>. </para>
+      <para id="import-auto-id1165758066179">If donor N<sub>d </sub>dopent/cc = acceptor N<sub>a </sub>dopent/cc then we have Intrinsic Si with net doping density = N<sub>a </sub>- N<sub>d </sub>= 0 . </para>
+      <para id="import-auto-id1165757149406">If donor N<sub>d </sub>dopent/cc &gt; acceptor N<sub>a </sub>dopent/cc then we have N-Type Si with net doping density = N<sub>d </sub>- N<sub>a </sub>=N<sub>D</sub>. </para>
+    </section>
+  </content>
+</document>

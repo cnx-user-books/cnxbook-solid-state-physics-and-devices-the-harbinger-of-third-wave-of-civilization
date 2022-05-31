@@ -1,0 +1,82 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 10_Simulation of MOSFET_conclusion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37661</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 10_Simulation of MOSFET_conclusion</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 10 carries out the device simulation and characterization.</md:abstract>
+  <md:uuid>5a3e1415-dee9-41c3-8a04-a52decc74fb6</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171868977599">SSPD_Chapter 6_Part 10_MOSFET Simulation2</para>
+    <para id="id1171873325290"> In MOSFET Simulation1 we used Process Simulator(Athena) to generate the basic (E)NMOS device in P-Well formed in lightly doped N-body. Now we will use ATLAS for device testing and parameterization</para>
+    <para id="id1171871906868">go atlas</para>
+    <para id="id1171884515690"># set material models</para>
+    <para id="id1171870485054">models cvt srh print </para>
+    <para id="id1171870496070">MODEL MOS PRINT</para>
+    <para id="id1171867876030">The above statement invokes all the relevant models in context of parameterization of MOS device namely:</para>
+    <para id="id1171872938717">CVT , SRH, FERMIDIRAC.</para>
+    <para id="id1171869223032">SRH is Shockley-Hall-Reed model deals with indirect recombination through traps and defects.</para>
+    <para id="id1171869228708">FERMIDIRAC is fermidirac statistics</para>
+    <figure id="id1171873077349">
+      <media id="id1171873077349_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-1748.png" id="id1171873077349__onlineimage" height="80" width="444"/>
+      </media>
+    </figure>
+    <para id="id1171873001496">CVT is a stand-alone model which accounts for the 2D nature of the inversion layer.</para>
+    <para id="id1171868980177">Mobility degradation in 2D inversion layer, which forms the channel, is handled by three different methods:</para>
+    <list id="id1171884519120" list-type="enumerated" number-style="lower-roman">
+      <item>SURFMOB- mobility degradation due to interface scattering (the interface between silicon substrate and gate oxide);</item>
+      <item>SHIRAHATA – transverse electric field model. A transverse electric field exists along the channel;</item>
+      <item>CVT, YAMAGUCHI, TASCH- all these three are standalone model for accounting the mobility degradation in the inversion layer. CVT accounts for transverse electric field effect, doping dependence and temperature dependence.</item>
+    </list>
+    <para id="id1171870558175">contact name=gate n.poly</para>
+    <para id="id1171872571696">interface qf=3e10</para>
+    <para id="id1171867882777">In the above two statements we are naming the Gate Contact and giving the interface statements. The interface statements enable define interface fixed charges, surface recombination velocity and thermionic emission. Here we are enabling a fixed charge of 3×10<sup>10</sup> at the interface of Si and Oxide.</para>
+    <para id="id1171867882425">method newton</para>
+    <para id="id1171872943223">solve init</para>
+    <para id="id1171869108909">This states that we re using coupled Newton Method of numeric calculations. Newton Method is used where we have strongly coupled system with quadratic convergence. But this requires a more accurate initial guess to the problem to obtain convergence.</para>
+    <para id="id1171871773192"># Bias the drain </para>
+    <para id="id1171869224604">solve vdrain=0.1 </para>
+    <para id="id1171872162178">We are solving for drain current with drain voltage at 0.1V and gate voltage at 0V</para>
+    <para id="id1171869118700"># Ramp the gate</para>
+    <para id="id1171871892849">log outf=mos1ex01_1.log master</para>
+    <para id="id1171870498358">solve vgate=0 vstep=0.25 vfinal=3.0 name=gate</para>
+    <para id="id1171872925026">save outf=mos1ex01_1.str</para>
+    <para id="id1171869168188">In the above commands we are solving the drain current for Gate Voltage being given a Ramp Voltage starting from 0V and terminating at 3V incrementing in 0.25V steps.</para>
+    <para id="id1171870859012">The result is saved as a string.</para>
+    <para id="id1171870470398"># plot results</para>
+    <para id="id1171871782028">tonyplot mos1ex01_1.log -set mos1ex01_1_log.set</para>
+    <para id="id1171870482879">Now we plot the transfer characteristics at a constant drain voltage of 0.1V.</para>
+    <para id="id1171873379572"># extract device parameters</para>
+    <para id="id1171867873278">extract name="nvt" (xintercept(maxslope(curve(abs(v."gate"),abs(i."drain")))) \</para>
+    <para id="id1171868986828"> - abs(ave(v."drain"))/2.0)</para>
+    <para id="id1171869206662">extract name="nbeta" slope(maxslope(curve(abs(v."gate"),abs(i."drain")))) \</para>
+    <para id="id1171884509182"> * (1.0/abs(ave(v."drain")))</para>
+    <para id="id1171872586923">extract name="ntheta" ((max(abs(v."drain")) * $"nbeta")/max(abs(i."drain"))) \</para>
+    <para id="id1171882285554"> - (1.0 / (max(abs(v."gate")) - ($"nvt")))</para>
+    <para id="id1171872189096">quit</para>
+    <para id="id1171869217201">The above statements extract the Threshold Voltage of MOS Transistor, Beta and Theta.</para>
+    <para id="id1171869216661">Threshold voltage is extracted by calculating the maximum slope of Id/Vgs characteristics, extending the tangent drawn at the maximum slope point to make an intercept on Vgs axis. The X-intercept minus the half of drain voltage is Threshold Voltage.</para>
+    <para id="id1171873353179">In this extract statement, nbeta is the intercept on X-axis.</para>
+    <para id="id1171870425678">Similarly ntheta is the final value of Threshold Voltage.</para>
+    <figure id="id1171869074529">
+      <media id="id1171869074529_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-3910.png" id="id1171869074529__onlineimage" height="480" width="627"/>
+      </media>
+    </figure>
+    <para id="id1171870434938">
+      <emphasis effect="bold">Figure 16.</emphasis>
+      <emphasis effect="bold">Plot of I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">-V</emphasis>
+      <emphasis effect="bold">GS</emphasis>
+      <emphasis effect="bold"> at constant V</emphasis>
+      <emphasis effect="bold">DS</emphasis>
+      <emphasis effect="bold"> and extraction of V</emphasis>
+      <emphasis effect="bold">Th</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <para id="id1171872946796">The Tony Plot of the transfer characteristics of the simulated device is given in Figure 16.The whole program has been deciphered and explained in the simplest terms. Following the same set of statements similar simulations can be carried out. </para>
+  </content>
+</document>

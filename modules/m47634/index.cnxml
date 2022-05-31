@@ -1,0 +1,188 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 3_Section3.3.3Tunnel Diodes,3.3.4.Backward Diodes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47634</md:content-id>
+  <md:title>Chapter 3_Section3.3.3Tunnel Diodes,3.3.4.Backward Diodes</md:title>
+  <md:abstract>Chapter 3_Section 3.3.3 and Section 3.3.4. conclude the discussion on Quantum Mechanical Diodes by giving the Physics of Tunnel Diodes and Backward Diodes.</md:abstract>
+  <md:uuid>5d14f56f-6878-4b08-9996-87fea1c61345</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165057151874">
+      <emphasis effect="bold">3.3.3. Tunnel Diode. </emphasis>
+    </para>
+    <para id="import-auto-id1165068328058">Tunnel Diode is heavily doped and experiences tunneling in both forward and backward directions as shown in Figure 3.22. Degenerate doping causes high densities of crystalline imperfections through out the bulk. These introduce intergap states. These states introduce new conduction mechanism in forward bias for example carrier tunneling to and from such states within the transition region. Hence there is an excess current component. The normal diode characteristics in injection region donot correspond to that of the tunnel diode.Because of heavy doping the Fermi-level penetrates both Conduction Band on N-Side and Valence Band on P-Side.</para>
+    <para id="import-auto-id1165084438980">The built-in barrier Potential is larger than Band-Gap Voltage of 1.12V. Built in Poential is of the order of 1.3V hence at 0.1V forward bias there is no notiveable forward current by diffusion but there is forward current due to tunneling of electron from N-Side to the empty energy states on P-Side as seen in Figure 3.22.B shown by the blue arrow. Hence there is a distinct band-to band tunneling current in forward direction.</para>
+    <para id="import-auto-id1165086864488">As seen in Figure 3.22.C. there is maximum alignment for tunneling from N-Side to P-Side.This results in maximum forward tunnel current as shown in I-V graph of Figure 3.22.C.</para>
+    <para id="import-auto-id1165067756945">With forward bias around 0.3V, the tunneling from N-Side to P-Side starts getting misaligned and tunneling current starts decreasing but diffusion across the barrier is still not starting as shown in Figure 3.22.D. </para>
+    <figure id="import-auto-id1165065561094">
+      <media id="import-auto-id1165065120277" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-9d6b.png" height="313" width="583"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165058098980">
+      <media id="import-auto-id1165073915711" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-59a8.png" height="337" width="562"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165067132987">
+      <media id="import-auto-id1165075111140" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-fffd.png" height="342" width="581"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165076600240">
+      <media id="import-auto-id1165074296929" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-6bd2.png" height="350" width="573"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165073669974">
+      <media id="import-auto-id1165096982173" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-3317.png" height="324" width="552"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165072020796">
+      <media id="import-auto-id1165077877656" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-d94f.png" height="320" width="568"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165067802859">Under reverse bias, Zener Breakdown immediately occurs as the Emax at the mettalurgical junction exceeds the critical field as shown in Table 3.3.2. Hence total I-V characteristic is as shown in Figure 3.22.G.</para>
+    <figure id="import-auto-id1165077767242">
+      <media id="import-auto-id1165081561713" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-bf4b.png" height="388" width="565"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1595659">As seen in Figure 3.22.G. there are two features of Tunnel Diode:</para>
+    <list id="import-auto-id1165077697451" list-type="enumerated" number-style="lower-roman">
+      <item>It is highly non-linear ;</item>
+      <item>And it has a strong N-Type Negative-Impedance Region(NIR) characteristics.</item>
+    </list>
+    <para id="import-auto-id1165066876059">The I-V characteristics of Tunnel Diode is parameterized as shown in Figure 3.23.</para>
+    <figure id="import-auto-id1165057147907">
+      <media id="import-auto-id1165058072823" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-f809.png" height="367" width="442"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165058781649">A Tunnel Diode exhibits Negative Inmpedance Region for GaAs as well as for Si and Ge material.The typical DC parameters of Si,Ge and GaAS are tabulated in Table 3.3.3.1.</para>
+    <para id="import-auto-id1165067804225">
+      <emphasis effect="bold">Table 3.3.3.1. Typical DC parameters for Si,Ge and GaAs Tunnel Diodes.</emphasis>
+    </para>
+    <table id="import-auto-id1165086868090" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>Si</entry>
+            <entry>Ge</entry>
+            <entry>GaAs</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>I<sub>p</sub>/I<sub>v</sub></entry>
+            <entry>3.5</entry>
+            <entry>8</entry>
+            <entry>15</entry>
+          </row>
+          <row>
+            <entry>V<sub>p</sub>(V)</entry>
+            <entry>0.065</entry>
+            <entry>0.055</entry>
+            <entry>0.15</entry>
+          </row>
+          <row>
+            <entry>V<sub>v</sub>(V)</entry>
+            <entry>0.42</entry>
+            <entry>0.35</entry>
+            <entry>0.5</entry>
+          </row>
+          <row>
+            <entry>V<sub>F</sub>(V)</entry>
+            <entry>0.7</entry>
+            <entry>0.5</entry>
+            <entry>1.1</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1165066868450">It is evident from the Table that GaAs Tunnel Diode has best D.C. parameters leading to strongest NIR characteristics and hence best suited for Microwave Oscillators.</para>
+    <para id="import-auto-id1165080880112">Table 3.3.3.2 gives the relative merits and demerits of the Tunnel Diode.</para>
+    <para id="import-auto-id1165077825926">
+      <emphasis effect="bold">Table 3.3.3.2. Merits and demerits of Tunnel Diode.</emphasis>
+    </para>
+    <table id="import-auto-id1165068317513" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Merits</entry>
+            <entry>Demerits</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Low cost</entry>
+            <entry>Two terminal decvice hence no isolation between I/P and O/P.</entry>
+          </row>
+          <row>
+            <entry>Low noise</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Simple</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>High Speed</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Environmental immunity</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Low power consumption</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1165067181590">Device Symbol:</para>
+    <figure id="import-auto-id1165069089419">
+      <media id="import-auto-id1165077740076" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-26f5.png" height="160" width="379"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165079237159">Its incremental equivalent circuit is as follows:</para>
+    <figure id="import-auto-id1165065603113">
+      <media id="import-auto-id1165058148757" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-aaba.png" height="244" width="531"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165067865276">In the above incremental circuit following are the incremental parameters:</para>
+    <para id="import-auto-id1165073980460">R<sub>S</sub> = series resistance = 1 Ω = ohmic resistance due to leads, diode bulk and diode contact.</para>
+    <para id="import-auto-id1165065122250">L<sub>S</sub>=series inductance due to terminal leads at very high frequency=5nH.</para>
+    <para id="import-auto-id1165058698567">C<sub>d</sub>= diffusion Capacitance under forward bias =20pF.</para>
+    <para id="import-auto-id1165057184390">-R<sub>N</sub> = - 30 Ω.</para>
+    <para id="import-auto-id1165080952400">Because of Quantum Mechanical Tunneling, the switching speed is at the speed of light. Only C<sub>j</sub>[Junction Capacitance=(ϵA/d)]  and C<sub>d</sub>[Diffusion Capacitance where C<sub>d</sub>r<sub>d</sub>= τ<sub>eff</sub>(effective life-time) which is very short due to degenerate doping] limit the  switching speed.Typical Switching Delay is 50ps therefore switching speed of 20GHz has been achieved. It is being used as microwave oscillator in hand-sets of mobile telephony.</para>
+    <para id="import-auto-id1165057046782">
+      <emphasis effect="bold">3.3.4.Backward Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1165063819352">Backward diode is like a tunnel diode with asymmetrical doping so that in Forward Bias, tunneling is suppressed and it behaves like a classical diode and in reverse bias it behaves like a Zener diode with Zener Breakdown at 0Volt.</para>
+    <para id="import-auto-id1165066008418"> The I-V characteristics is shown in Figure 3.25:</para>
+    <figure id="import-auto-id1165067320947">
+      <media id="import-auto-id1165074920321" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-6f40.png" height="409" width="330"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165067554840">
+      <media id="import-auto-id1165083253332" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-4cb8.png" height="136" width="262"/>
+      </media>
+    </figure>
+  </content>
+</document>

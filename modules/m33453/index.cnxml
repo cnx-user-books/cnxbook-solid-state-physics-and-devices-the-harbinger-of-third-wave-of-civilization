@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD Chapter 1_Part 4_Heisenberg Uncertainty Principle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33453</md:content-id>
+  <md:title>SSPD Chapter 1_Part 4_Heisenberg Uncertainty Principle</md:title>
+  <md:abstract>Chapter 1, Part 4 describes the Uncertainty Principle as proposed by Heisenberg and its application to prediction of Hawking Radiation and Angular Momentum of Fermions and Bosons.</md:abstract>
+  <md:uuid>726ca168-b12e-4f34-bf75-e9c83ff9d524</md:uuid>
+</metadata>
+<content>
+    <para id="id1164267943581">1.5. WERNER HEISENBERG AND THE PRINCIPLE OF UNCERTAINTY.</para>
+    <para id="id1164246669806"/>
+    <para id="id1164235860951">Uncertainty Principle states that no two canonical conjugate variables can be fully determined with 100% accuracy simultaneously. The two canonical variables are position (x,y,z) and momentum(p) or energy(E) and time (t). What this means is that in process of making measurement of one canonical variable the other variable gets altered and visa versa hence the two cannot be simultaneously determined.</para>
+    <para id="id8155004"> If uncertainty in spatial measurement is Δx,</para>
+    <para id="id1164257356938"> And uncertainty in momentum measurement is Δp<sub>x</sub>, then according to Heisenberg’s Uncertainty Principle <emphasis effect="bold">[Appendix XXII]</emphasis> : </para>
+    <para id="id7470947">Δx. Δp<sub>x</sub> ≥ (h/(2π)) or ћ;</para>
+    <para id="id1164234375952">Similarly    Δy. Δp<sub>y</sub> ≥ (h/(2π));</para>
+    <para id="id1164251753880">Similarly    <emphasis effect="bold">Δz. Δp</emphasis><emphasis effect="bold">z</emphasis><emphasis effect="bold"> ≥ (h/(2π));   1.9.</emphasis></para>
+    <para id="id6783331"/>
+    <para id="id5512178">In 1930 Einstein extended this Principle to Energy and Time and he stated that if the uncertainty in Energy measurement is ΔE,</para>
+    <para id="id1164251415999">And the uncertainty in Time measurement is Δt,</para>
+    <para id="id2576441">Then      <emphasis effect="bold">Δt. ΔE ≥ (h/(2π)).   1.10</emphasis></para>
+    <para id="id7571054"> Uncertainty Principle laid the foundations of Fermi-Dirac Statistics and Solid State Physics.</para>
+    <para id="id1164239678541">Uncertainty principle tells us that energy involved in studying at Planck Length , which is (Gh/c<sup>3</sup> )<sup>1/2</sup> = 10<sup>-35</sup> m, is 10<sup>18</sup>GeV. This is the kind of energy involved in studying Quantum Gravity. At 10<sup>15</sup>GeV the strong , weak and electromagnetic unify in one force as will be seen in Section 1.13.</para>
+    <para id="id1164248001497"> In 1974, Stephen Hawking<emphasis effect="bold">[Appendix XXIII]</emphasis> conjectured on the basis of Uncertainty Principle that Black Holes give off radiation. He concluded that Black Hole looks like a hot body emitting particles at a temperature inversely proportional to the mass of the black hole. According to Special Theory of Relativity combined with Quantum Field Theory, in a static gravitational field virtual particles (particle and antiparticle ) are being created and almost simultaneously annihilated. Heisenberg Uncertainty permits this kind of creation-annihilation without any expenditure of energy.</para>
+    <para id="id1164260708730"> Suppose this kind of thing is happening near the event horizon of Black Hole. Event Horizon is the ‘one way membrane’ through which nothing can escape. Now near the event horizon it is always possible that antiparticle gets trapped and particle escapes. There is negative energy associated with antiparticle and positive energy with particle. In effect, the radiation is taking place at the cost of the mass of the Black Hole. If this Radiation continues for a long time the black hole will wither away. This radiation has been called Hawking Radiation and is yet to be detected.. </para>
+    <para id="id1164234319238"> Just as we have Uncertainty between E and t or p and r, so we have uncertainty between angular momentum and angle θ.</para>
+    <para id="id1164233462271">In p-r, p can have any value from 0 to ∞ and r can also have any value from 0 to ∞. But θ can vary only from 0 to π hence spin angular momentum can vary as multiples of ћ.</para>
+    <para id="id1164268012518"> As we know electron spin angular momentum can vary between (-1/2 ћ) and (+1/2 ћ) and W<sup>±</sup> and Z<sup>0 </sup>can have spin angular momentum values as – ћ, 0 and <sub/>ћ. W<sup>±</sup> and Z<sup>0 </sup>are intermediate vector bosons which mediate weak forces. Since W<sup>±</sup> and Z<sup>0</sup> are bosons hence they have spin angular momentum which is an integral multiple of ћ .</para>
+  </content>
+</document>

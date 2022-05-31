@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AnalogElectronics_Lecture4_PartA_dc,low&amp;high frequency model of CB BJT.</title>
+  <metadata>
+  <md:content-id>m30983</md:content-id><md:title>AnalogElectronics_Lecture4_PartA_dc,low&amp;high frequency model of CB BJT.</md:title>
+  <md:abstract>Lecture 4 deals with low frequency and high frequency model of CB and CE BJT. In part A, I present the EberMoll Model. From Eber Moll Model I derive the T-Model of CB BJT at low as well as high frequency model.</md:abstract>
+  <md:uuid>b5308f60-f57a-4b8b-86fd-41fa428f7385</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170923630916">AnalogElectronics_Lecture4_PartA_dc,low&amp;high frequency model of CB BJT.</para>
+    <para id="id1170924874232">The DC model of BJT.</para>
+    <para id="id1170924434663">PNP is a face to face diode.</para>
+    <figure id="id6166910">
+      <media id="id6166910_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-1b0e.png" id="id6166910__onlineimage" height="220" width="343"/>
+      </media>
+    </figure>
+    <para id="id1170924682052">NPN is a back to back diode.</para>
+    <figure id="id1170925129846">
+      <media id="id1170925129846_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-5da9.png" id="id1170925129846__onlineimage" height="198" width="378"/>
+      </media>
+    </figure>
+    <para id="id1170924264253">DC Biasing of CB BJT (Common Base BJT) In the figure base is grounded.</para>
+    <para id="id1170924509930">
+      <figure id="id1170924429364">
+        <media id="id1170924429364_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-5b30.png" id="id1170924429364__onlineimage" height="300" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170923585986">The DC model of CB BJT is called Eber Moll Model. It is a large signal model.</para>
+    <figure id="id1170924431298">
+      <media id="id1170924431298_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-ed15.png" id="id1170924431298__onlineimage" height="369" width="539"/>
+      </media>
+    </figure>
+    <para id="id1170926792473">Figure 4. Eber Moll Model of PNP Transistor under no bias.</para>
+    <para id="id1170924433284">As can be seen from the Eber Moll Model:</para>
+    <para id="id1170924260653">α<sub>F</sub>I<sub>E</sub> is the controlled current source controlled by the current injected from E to B where α<sub>F </sub>is short circuit forward current transfer ratio.</para>
+    <para id="id1170924266774">α<sub>I</sub>I<sub>C</sub> is the controlled current source controlled by the current injected from C to B where α<sub>I </sub>is short circuit inverse current transfer ratio.</para>
+    <para id="id1170922463541">Because of asymmetrical doping density, [Heavy Emitter doping(10<sup>19</sup>/cc), Intermediate Base doping(10<sup>17</sup>/cc) and light Collector doping(10<sup>16</sup>/cc)] </para>
+    <para id="id1170921357564">emitter to base injection efficiency is 99% </para>
+    <para id="id1170924431683">whereas collector to base injection efficiency is less than 10% therefore (α<sub>I</sub> = 0.1)&lt;&lt; (α<sub>F</sub>=0.99). </para>
+    <para id="id1170924439060"><emphasis effect="bold">Under Forward Active Mode</emphasis>:</para>
+    <para id="id1170924429991">EB diode is forward biased and CB diode is reversed biased. Hence current is being injected from emitter to base but no current is being injected from collector to base. Therefore EB diode is shown and CB diode has been omitted but there is reverse saturation current/reverse leakage current I<sub>CBO</sub> flowing through reverse biased CB junction. In fact there are two currents flowing across the CB junction. One is the leakage current I<sub>CBO </sub>and the other is the useful transistor current α<sub>F</sub>I<sub>E </sub>due to transistor action at EB junction.</para>
+    <figure id="id1170925451433">
+      <media id="id1170925451433_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-2c93.png" id="id1170925451433__onlineimage" height="370" width="552"/>
+      </media>
+    </figure>
+    <para id="id1170923011999">Figure 5. Eber Moll Model under Forward Active Mode.</para>
+    <para id="id1170924440138">LOW FREQUENCY MODEL OF CB BJT.</para>
+    <para id="id7642405">A capacitively coupled CB Amplifier is shown in Figure 6. It amplifies sinusoidal signal but blocks dc signal.</para>
+    <para id="id8692916">
+      <figure id="id1170926795569">
+        <media id="id1170926795569_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-acc4.png" id="id1170926795569__onlineimage" height="370" width="606"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170924439433">In Figure 6 we have capacitively coupled source and capacitively coupled load in CB BJT.</para>
+    <para id="id1170924512344">In Figure 6 we show a CB BJT Amplifier. Because of near unilaterality of CB BJT (h<sub>rb</sub> negligible), it is very suitable for RF tuned amplifiers. RF tuned amplifiers have a serious problem of parasitic oscillation because of output - input interaction and this interaction is due to h<sub>r</sub>(reverse transmission factor).</para>
+    <para id="id1170924513711">CE BJT has h<sub>re</sub> = 10<sup>-4</sup> hence CE BJT Amplifier is very prone to parasitic oscillations. But CB BJT has h<sub>rb</sub> = 10<sup>-5</sup> hence CB BJT is the configuration of choice for implementing RF tuned amplifiers.</para>
+    <para id="id1170924263391">Also capacitive coupling is used because once a Quiescent Point or DC operating point is set up we do not want it to be disturbed by load or source. That is load and source must be a.c. coupled but d.c. decoupled. Capacitive coupling serves this end.</para>
+    <para id="id1170924683561">Capacitively coupled Amplifiers (CE, CB &amp; CC) are always ac amplifiers. But inverting amplifiers made of Op Amp with dual power supply is a direct coupled amplifier. There are no coupling capacitors. Hence they are dc amplifiers. DC amplifiers can amplify from dc to high frequencies.</para>
+    <para id="id1170927420942">
+      <figure id="id1170927098059">
+        <media id="id1170927098059_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-4ccf.png" id="id1170927098059__onlineimage" height="370" width="641"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170924261784">In Figure 7 we have the instantaneous model of CB Amplifier with signal coupled to it.</para>
+    <para id="id1170923589822">Therefore i<sub>E</sub> (instantaneous emitter current) = I<sub>E</sub>(emitter quiescent current) + i<sub>e</sub>(emitter incremental current);</para>
+    <para id="id1170924510889">Similarly we have i<sub>C</sub> = I<sub>C</sub> + i<sub>c</sub> and i<sub>B</sub> = I<sub>B</sub>+i<sub>b</sub>;</para>
+    <para id="id1170924268251">Also I<sub>C</sub> = β<sub>F </sub>×I<sub>B</sub> and i<sub>c</sub> = β<sub>f </sub>×i<sub>b </sub>;</para>
+    <para id="id1170926723407">Here β<sub>F </sub>= dc short circuit current gain and β<sub>f</sub> = incremental short circuit current gain.</para>
+    <para id="id1170922225986">In BJT : β<sub>F</sub> = β<sub>f</sub> ;</para>
+    <para id="id7931631">The instantaneous model also contains r<sub>x</sub> = r<sub>bb’</sub> = base spreading resistance.</para>
+    <para id="id1170924429671">This is an ohmic resistance offered by the thin layer of P type silicon sand-witched between Emitter layer and Collector layer as shown in the cross sectional view of IC vertical npn BJT (Figure 8)</para>
+    <para id="id1170924271577">
+      <figure id="id5613782">
+        <media id="id5613782_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-b6da.png" id="id5613782__onlineimage" height="378" width="641"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170924509910">Figure 8. Cross sectional View of Integrated Circuit Vertical NPN BJT.</para>
+    <figure id="id1170924268976">
+      <media id="id1170924268976_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-cf1e.png" id="id1170924268976__onlineimage" height="378" width="641"/>
+      </media>
+    </figure>
+    <para id="id1170924429736">Figure 9. Incremental Model of CB BJT Amplifier.(the controlled current source is α<sub>f</sub>i<sub>e</sub>).</para>
+    <para id="id1170922853457">This incremental model is known as the T-model of CB BJT.</para>
+    <para id="id1170924432363">As in incremental diode circuit, here also we short the DC Voltage Sources(V<sub>CC</sub> and V<sub>EE</sub>), we open circuit DC Current sources such as (I<sub>CBO </sub>+ α<sub>F</sub>I<sub>E</sub>) but we retain the incremental current source α<sub>f</sub>i<sub>e</sub> .</para>
+    <para id="id1170924438387">The coupling capacitances are shorted.</para>
+    <para id="id1170923123098">EB Diode is replaced by incremental resistance r<sub>e</sub> =(V<sub>T</sub>/I<sub>EQ</sub>).</para>
+    <para id="id1170927512733">The ohmic resistances are retained as they offer resistance to DC as well as incremental component of the current.</para>
+    <para id="id1170926755623">HIGH FREQUENCY MODEL OF COMMON BASE BJT</para>
+    <para id="id1170924269924">Under high frequency condition the Junction Capacitances associated with the depletion layers EB and BC and Diffusion Capacitance associated with minority carriers stored in base region start effecting the performance of the BJT. These parasitic capacitances effect the Frequency Response as well as the short circuit current gain.</para>
+    <figure id="id1170926910119">
+      <media id="id1170926910119_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-45dd.png" id="id1170926910119__onlineimage" height="340" width="524"/>
+      </media>
+    </figure>
+    <para id="id1170924512657">Figure 10. Incremental T-Model of the CB Amplifier Circuit at high frequency. (the controlled current source is α<sub>f</sub>i<sub>e</sub>)</para>
+    <para id="id1170928300425">At high frequency diffusion and junction capacitances come into play.</para>
+    <figure id="id1170924438903">
+      <media id="id1170924438903_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-25f2.png" id="id1170924438903__onlineimage" height="32" width="157"/>
+      </media>
+    </figure>
+    <para id="id1170928292745"><figure id="id6335752"><media id="id6335752_media" alt=""><image mime-type="image/png" src="../../media/Picture 12-c9f5.png" id="id6335752__onlineimage" height="35" width="168"/></media></figure>= C<sub>BO</sub> This is generally 5pF.</para>
+    <figure id="id1170924682855">
+      <media id="id1170924682855_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-1c57.png" id="id1170924682855__onlineimage" height="33" width="145"/>
+      </media>
+    </figure>
+    <para id="id1170924681270">C<sub>D</sub> = more than 70pF.</para>
+    <para id="id1170924184546">Where <figure id="id1170924024472"><media id="id1170924024472_media" alt=""><image mime-type="image/png" src="../../media/graphics1-77aa.png" id="id1170924024472__onlineimage" height="24" width="18"/></media></figure>is the transit time across the base.</para>
+    <figure id="id1170924429815">
+      <media id="id1170924429815_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-ea5e.png" id="id1170924429815__onlineimage" height="68" width="161"/>
+      </media>
+    </figure>
+    <figure id="id1170924430762">
+      <media id="id1170924430762_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-afcd.png" id="id1170924430762__onlineimage" height="82" width="155"/>
+      </media>
+    </figure>
+    <para id="id1170924431906"><figure id="id1170927134366"><media id="id1170927134366_media" alt=""><image mime-type="image/png" src="../../media/Picture 16-d7f6.png" id="id1170927134366__onlineimage" height="39" width="36"/></media></figure>= Depletion layer width at EB Junction</para>
+    <para id="id1170925015058"><figure id="id1170926912455"><media id="id1170926912455_media" alt=""><image mime-type="image/png" src="../../media/Picture 17-4d4a.png" id="id1170926912455__onlineimage" height="35" width="51"/></media></figure>=Depletion layer width at BC Junction</para>
+    <para id="id1170925796921"><figure id="id1170924110803"><media id="id1170924110803_media" alt=""><image mime-type="image/png" src="../../media/Picture 18-f523.png" id="id1170924110803__onlineimage" height="37" width="25"/></media></figure>=Cross sectional area of EB junction</para>
+    <para id="id1170924511467"><figure id="id1170926066201"><media id="id1170926066201_media" alt=""><image mime-type="image/png" src="../../media/Picture 19-1e80.png" id="id1170926066201__onlineimage" height="34" width="31"/></media></figure>=Cross sectional area of BC junction</para>
+    <figure id="id1170924262973">
+      <media id="id1170924262973_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 20-484c.png" id="id1170924262973__onlineimage" height="41" width="128"/>
+      </media>
+    </figure>
+    <para id="id1170925665902">Here <figure id="id1170923315091"><media id="id1170923315091_media" alt=""><image mime-type="image/png" src="../../media/graphics2-7e61.png" id="id1170923315091__onlineimage" height="24" width="13"/></media></figure> is the useful transistor current which controls the output current sources (α<sub>fo</sub>i<sub>e</sub>')and <figure id="id1170923586348"><media id="id1170923586348_media" alt=""><image mime-type="image/png" src="../../media/graphics3-9ac5.png" id="id1170923586348__onlineimage" height="24" width="17"/></media></figure>is the parasitic current. <figure id="id1170925128644"><media id="id1170925128644_media" alt=""><image mime-type="image/png" src="../../media/graphics4-8dfb.png" id="id1170925128644__onlineimage" height="24" width="13"/></media></figure> has no role to play in the transistor action</para>
+    <figure id="id1170923982067">
+      <media id="id1170923982067_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-c818.png" id="id1170923982067__onlineimage" height="24" width="326"/>
+      </media>
+    </figure>
+    <para id="id1170924024781">α<sub>fo</sub>=short circuit incremental forward current transfer ratio<sub/>at low frequency.</para>
+    <para id="id1170924943997">
+      <figure id="id6873260">
+        <media id="id6873260_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 21-2ec8.png" id="id6873260__onlineimage" height="31" width="156"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170925130944">This is true only when we consider r<sub>c</sub> = infinity and C<sub>C</sub> to be open.</para>
+    <para id="id1170924430220">This means this model is valid only till <figure id="id8652253"><media id="id8652253_media" alt=""><image mime-type="image/png" src="../../media/graphics6-4ccb.png" id="id8652253__onlineimage" height="24" width="21"/></media></figure>/3. Because only till <figure id="id1170924437551"><media id="id1170924437551_media" alt=""><image mime-type="image/png" src="../../media/graphics7-4ccb.png" id="id1170924437551__onlineimage" height="24" width="21"/></media></figure>/3 the above assumption is valid. Above <figure id="id1170924512487"><media id="id1170924512487_media" alt=""><image mime-type="image/png" src="../../media/graphics8-4ccb.png" id="id1170924512487__onlineimage" height="24" width="21"/></media></figure>/3 this model gives incorrect result. </para>
+    <figure id="id1170925280349">
+      <media id="id1170925280349_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-f48a.png" id="id1170925280349__onlineimage" height="96" width="251"/>
+      </media>
+    </figure>
+    <figure id="id1170924436205">
+      <media id="id1170924436205_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 23-8820.png" id="id1170924436205__onlineimage" height="85" width="194"/>
+      </media>
+    </figure>
+    <para id="id7842712">
+      <figure id="id1170924259856">
+        <media id="id1170924259856_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 24-0c28.png" id="id1170924259856__onlineimage" height="75" width="215"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170924513215">
+      <media id="id1170924513215_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-beea.png" id="id1170924513215__onlineimage" height="80" width="169"/>
+      </media>
+    </figure>
+    <figure id="id1170925013063">
+      <media id="id1170925013063_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 26-9b38.png" id="id1170925013063__onlineimage" height="75" width="173"/>
+      </media>
+    </figure>
+    <para id="id1170924683757">Here α<sub>f</sub> = short circuit current transfer ratio at all frequencies for CB BJT.</para>
+    <para id="id1170924433395"><figure id="id1170924273720"><media id="id1170924273720_media" alt=""><image mime-type="image/png" src="../../media/Picture 27-e594.png" id="id1170924273720__onlineimage" height="37" width="113"/></media></figure> alpha cut-off frequency </para>
+    <figure id="id1170929039367">
+      <media id="id1170929039367_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 28-0b5b.png" id="id1170929039367__onlineimage" height="75" width="121"/>
+      </media>
+    </figure>
+    <figure id="id1170924512358">
+      <media id="id1170924512358_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 29-c923.png" id="id1170924512358__onlineimage" height="68" width="135"/>
+      </media>
+    </figure>
+    <para id="id1170924261954">Here <figure id="id1170924270009"><media id="id1170924270009_media" alt=""><image mime-type="image/png" src="../../media/Picture 30-53a2.png" id="id1170924270009__onlineimage" height="32" width="34"/></media></figure><figure id="id1170924438799"><media id="id1170924438799_media" alt=""><image mime-type="image/png" src="../../media/graphics9-98f4.png" id="id1170924438799__onlineimage" height="24" width="4"/></media></figure>is the transit frequency and <figure id="id1170924431827"><media id="id1170924431827_media" alt=""><image mime-type="image/png" src="../../media/Picture 31-a83b.png" id="id1170924431827__onlineimage" height="24" width="27"/></media></figure><figure id="id1170926651967"><media id="id1170926651967_media" alt=""><image mime-type="image/png" src="../../media/graphics10-98f4.png" id="id1170926651967__onlineimage" height="24" width="4"/></media></figure>is the transit time.</para>
+    <para id="id7242761">The Bode Plot of the above expression of <figure id="id1170924264802"><media id="id1170924264802_media" alt=""><image mime-type="image/png" src="../../media/Picture 32-27c6.png" id="id1170924264802__onlineimage" height="25" width="28"/></media></figure> is given in Figure 12.</para>
+  </content>
+</document>

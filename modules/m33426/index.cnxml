@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Theory of Dualism as proposed by the French Prince de Broglie</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33426</md:content-id>
+  <md:title>Theory of Dualism as proposed by the French Prince de Broglie</md:title>
+  <md:abstract>The French Prince had proposed the theory of Dualism. If light can act as a particle then why electron cannot behave like wave. Davisson and Germer went on to test this hypothesis by firing an electron beam on a single crystal of Nickel. Electron got diffracted in exactly the same manner as X-Ray does in Crystallography experiment.</md:abstract>
+  <md:uuid>d62afe31-61ed-4b3d-9391-fc28bc52cf93</md:uuid>
+</metadata>
+<content>
+    <para id="id31363852">1.3. PROPOSITION OF THE THEORY OF DUALISM BY THE FRENCH SCIENTIST DE BROGLIE.</para>
+    <para id="id28377778"/>
+    <para id="id31186471">If Energy Waves could manifest particle like properties then why material particles could also not behave like matter waves? This was the question posed by the French Scientist de Broglie<emphasis effect="bold">[Appendix XIV ]</emphasis>.</para>
+    <para id="id28348573"> He proposed that the wavelength of the matter wave is the following:</para>
+    <para id="id15210005">p= h/λ         1.11</para>
+    <para id="id31224716"/>
+    <para id="id11602306">where p= translational momentum of the material particle,</para>
+    <para id="id28304871">    h= Planck’s Constant,</para>
+    <para id="id28004396">    λ = Wavelength of the matter wave under consideration;</para>
+    <para id="id19558178">If an electron is accelerated through (N) kVolt then the Kinetic Energy acquired is:</para>
+    <para id="id26030456">   qV= N×10<sup>3</sup>eV = N×10<sup>3</sup>×q Joules </para>
+    <para id="id30360574">=1.60218×10<sup>-16</sup>×NJoules = (1/2)m<sub>e</sub>v<sup>2</sup></para>
+    <para id="id30351714">Therefore linear momemtum acquired is :</para>
+    <para id="id31379953">   p = m<sub>e</sub>×v = (√N)1.7085×10<sup>-23 </sup>Kg.m.sec<sup>-1</sup></para>
+    <para id="id30299055">Therefore:  λ = h/p = [0.388/(√N)] Angstrom.</para>
+    <para id="id14460027">The wavelength of electron matter particles with 10 keV is of the order of 1/10 Angstrom</para>
+    <para id="id29307987">(10<sup>-10</sup>m).</para>
+    <para id="id10751387">For this radical theoretical conceptualization de Broglie was awarded the Nobel Prize in 1929. This became the basis for the invention of Electron Microscope ( Section 1.12).</para>
+    <para id="id12529824"> The optical microscopes have a maximum magnification of 2,000 times whereas Electron Microscopes have magnifications of 2,000,000 times  </para>
+    <para id="id12341703"> The resolution capacity and hence the magnification power directly depends upon the wavelength of the interacting wave. Visible light wavelength ranges from 4000Å(Blue) to 7000 Å(Red) whereas Electron has a wavelength of 1 Å. Therefore Electron Microscope has 4000 to 7000 times more resolution as compared to the Optical Microscope.</para>
+    <para id="id11097862"> Proton’s matter wave has still shorter wavelength hence it can resolve still finer features.</para>
+    <para id="id19336347"> In Geneva CERN lab, in Fermi Lab of Massachusetts and at SLAC in Stanford Proton particles are being accelerated to higher and higher velocities to smash the nuclei of different elements. This will help reveal the inner structure of the nuclei and also recreate the events which followed in the first fractions of a second right after the Big Bang Explosion of Creation.</para>
+    <para id="id30351548"> Till date Tera Electron-Volt(10<sup>12</sup>eV) energy has been achieved in these particle accelerators and three basic families of elementary particles have been discovered. They are tabulated in Table(1.1). In CERN, Geneva, 7Tev energy has been reached by Large Hadron Collidor (LHC).</para>
+    <para id="id12923821">The most recent announcement by “ High Energy &amp; Nuclear Physics “ group at Brookhaven National Laboratory (Times of India, Patna Edition, Wednesday, 20<sup>th</sup> April,2005) states that the collision of two Gold Ions at speed of light recreates 10<sup>12</sup> Kelvin ( trillion Kelvin temperature) a condition present in first microsecond after Big Bang. This Tera electron-volt energy collision experiment released the quarks from their confinement and showed them the existence of free quarks. The free quarks and gluons existed as plasma and not in gaseous state. Thus as we go higher up in high physics realm we are able to look at the finer features of matter as well as its very elementary form. </para>
+    <para id="id16235486">Table 1.1. The Three Basic families of elementary particles.</para>
+    <table id="id16235490" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Leptons</entry>
+            <entry>Anti-leptons</entry>
+            <entry>Quarks</entry>
+            <entry>Anti-Quarks</entry>
+            <entry>Quarks</entry>
+            <entry>Anti-Quarks</entry>
+            <entry>Neutrinos</entry>
+            <entry>Anti-Neutrinos</entry>
+          </row>
+          <row>
+            <entry>Electrons</entry>
+            <entry>Electrons*</entry>
+            <entry>Strange</entry>
+            <entry>Strange*</entry>
+            <entry>Charm</entry>
+            <entry>Charm*</entry>
+            <entry>Electron-neutrino </entry>
+            <entry>Electron-neutrino *</entry>
+          </row>
+          <row>
+            <entry>Tau-leptons</entry>
+            <entry>Tau-leptons*</entry>
+            <entry>Down</entry>
+            <entry>Down*</entry>
+            <entry>Up</entry>
+            <entry>Up*</entry>
+            <entry>Tau-neutrino</entry>
+            <entry>Tau-neutrino*</entry>
+          </row>
+          <row>
+            <entry>Muons</entry>
+            <entry>Muons*</entry>
+            <entry>Bottom</entry>
+            <entry>Bottom*</entry>
+            <entry>Top</entry>
+            <entry>Top*</entry>
+            <entry>Muon-Neutrino</entry>
+            <entry>Muon-Neutrino*</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id31137040">
+      <emphasis effect="bold">1.3.1. CONDITIONS FOR EXHIBITING WAVE-PARTICLE DUALITY-DEGENERACY TEMPERATURE.</emphasis>
+    </para>
+    <para id="id30943348"/>
+    <para id="id21560591">We know from diffraction experiment and double slit Young’s Interference Experiment<emphasis effect="bold">[Appendix XV]</emphasis> that when the limit of Geometrical Optics is reached, ray optics is replaced by wave optics. That is when the wavelength of light(λ) is much smaller than the aperture dimension ‘a ‘ light is not diffracted and Ray Optics is applicable. When the aperture dimension is comparable to the wavelength then diffraction starts taking place.</para>
+    <para id="id12287970">What this means is that light shows its particle nature when aperture is very wide but light exhibits wave nature when aperture is of comparable dimension.</para>
+    <para id="id20522818">In a similar manner when particle’s de Broglie wavelength is comparable to the spacing between the scatterers then wave nature of the particle is exhibited.</para>
+    <para id="id14631144">In quantitative terms: (mv<sup>2</sup>)/2 = (3/2)kT </para>
+    <para id="id14408855">Therefore mv = √(3mkT) = p (linear momentum);</para>
+    <para id="id20463447">Therefore the condition for wave particle duality is: </para>
+    <para id="id12247192">λ = h/√(3mkT) ≈ a ( spacing between the scatterers); </para>
+    <para id="id18926113">At  <emphasis effect="bold">T ≤ T</emphasis><emphasis effect="bold">0</emphasis><emphasis effect="bold"> = h</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/(3mka</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">)         1.12</emphasis></para>
+    <para id="id12239579"><emphasis effect="bold">= Degeneracy Temperature where we have wave-particle duality</emphasis>;</para>
+    <para id="id19306381">For solids and liquids a = 2 to 3 Angstrom </para>
+    <para id="id19556050">Therefore an electron which has mass of the order of 10<sup>-30</sup>Kg will manifest wave nature below degeneracy temperature T<sub>0</sub> = 265× 10<sup>3</sup>K. That is an electron in a solid/liquid will exhibit wave nature for all temperature at which matter can exist in solid/liquid phase. Therefore Electron Microscope operates at Room Temperature.</para>
+    <para id="id19275185">If electron is replaced by an hydrogen atom and scatterer spacing is of the same order then T<sub>0</sub> is 50Kelvin. Therefore wave nature of hydrogen atom will show up below 50K . Super fluids of helium are a result of wave particle duality. Therefore we have to achieve quantum liquids where atoms exhibit wave nature and this can be achieved only at liquid helium temperature or lower.</para>
+    <para id="id31370346">1.4. ELECTRON DIFFRACTION BY CRYSTALS ( THE FINAL VINDICATION OF MATTER WAVES)</para>
+    <para id="id18978166">In 1927 an accident in Bell Telephone Lab (founded by Alexander Graham Bell<emphasis effect="bold">[Appendix XVI ]</emphasis>) went a long way in establishing the revolutionary concept of matter waves.</para>
+    <para id="id30358176"> In 1909 Earnest Rutherford<emphasis effect="bold">[Appendix XVII ]</emphasis> was carrying a systematic research on the atomic structure. In the process he bombarded a thin gold foil with Alpha Rays. He recorded the deflection of the Alpha particles. While studying the deflection pattern he concluded that most of the mass of the Atom was concentrated in the nucleus of the Atom and electrons were orbiting the nucleus in much the same way as planets were orbiting the Sun. Thus he proposed the Planetary Model of Atom.</para>
+    <para id="id16227618"> In 1927 like Rutherford, Josef Davisson and Lester Hailburt Germer(in USA)<emphasis effect="bold">[Appendix XVIII ]</emphasis> were bombarding Nickel foil with electron beam. Initially Nickel was a poly crystal and there was nothing noteworthy in the scattering pattern and the scattering pattern was no way correlated to the accelerating voltage in the electron gun. But then an accident occurred and air leaked into the apparatus. Nickel got oxidized and to reduce it to elemental form it was baked in an oven. In the course of the heating cycle , Nickel had transformed into a large single crystal structure and this periodic structure diffracted the electrons in much the same way as X-Ray had been diffracted in X-Ray Crystallography developed by Bragg<emphasis effect="bold">[Appendix XIX]</emphasis>. The apparatus , the scattering pattern and its dependence on voltage is shown in Figure(1.7) [<emphasis effect="italics">This experiment is described in Modern Physics by Richtmeyer, Kennard &amp; Cooper ,1969, McGraw Hill</emphasis>]</para>
+    <figure id="id13853865">
+      <media id="id13853865_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-d91d.png" id="id13853865__onlineimage" height="599" width="533"/>
+      </media>
+    </figure>
+    <para id="id19417576"/>
+    <figure id="id19464724">
+      <media id="id19464724_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-9ebc.png" id="id19464724__onlineimage" height="451" width="595"/>
+      </media>
+    </figure>
+    <figure id="id21828017">
+      <media id="id21828017_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-a7ab.png" id="id21828017__onlineimage" height="297" width="650"/>
+      </media>
+    </figure>
+    <para id="id30634255">Figure 1.9. The Davisson-Germer Experimental Appratus and the resulting scattering pattern and its dependence on voltage.</para>
+    <para id="id25316849"/>
+    <para id="id30793005">From the diffraction pattern, the wavelength of the incident waves could be determined if the lattice constant was known. Also detailed crystalline structure could be determined. </para>
+    <para id="id27479891"> Since lattice constant , wavelength of electrons and wavelength of X-Ray are of the same order, of the order of Angstrom, hence Crystallography can be carried out as easily with electrons as they are carried out with X-Ray. </para>
+    <para id="id28346263"> For X-Ray crystallography, Lau and Bragg Father and Son Group received Nobel Prizes in 1914 and 1915 respectively.</para>
+    <para id="id27414299"> For confirming the existence of Matter Waves by electron crystallography, Davisson(USA) , Germer(USA) and G.P.Thomson (England)<emphasis effect="bold">[Appendix XX]</emphasis> received the Nobel Prize in 1937. G. P. Thomson, son of J. J. Thomson the discoverer of electron, independently verified the wave-particle duality of electron. </para>
+    <para id="id27411063"> In 1931 Stern and Collaborators carried out the matter wave diffraction using slow He atoms targeted on LiF crystals. Again Lau diffraction pattern was obtained.</para>
+    <para id="id30989504"> In 1988, Keith et al (Physical Review Letter, Vol. 61, pp. 1580) repeated the experiment with slow Na atoms(11e,11p &amp; 12n) targeted on Gold Membrane with two well separated slits. This gave the interference pattern as obtained in Young’s double slit interference experiment.</para>
+    <para id="id28261746">In 90’s neutron interferometer has been achieved. The neutron beam is passed through well separated slits and after the passage through the slit it is allowed to fall on a screen where incident neutrons are counted at different points of incidence in transverse direction. We obtain alternating dark and bright fringe pattern as obtained in Young’s double slit experiment on light. Here dark implies low count and bright implies high count. If one of the slits is closed we get uniform pattern. The dark and bright fringes disappear.</para>
+    <para id="id9734505">In 1666 Issac Newton<emphasis effect="bold">[Appendix XXI]</emphasis> had proposed the corpuscular nature of light. Only in 1801 when Thomas Young demonstrated the phenomena of Interference in monochromatic light that wave nature of light was accepted and established.</para>
+    <para id="id6961370"> In 1927 the diffraction pattern of electrons finally established the wave nature of matter with definiteness.</para>
+    <para id="id28020549"/>
+  </content>
+</document>

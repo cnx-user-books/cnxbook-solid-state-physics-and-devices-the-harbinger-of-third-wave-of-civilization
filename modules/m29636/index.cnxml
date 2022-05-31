@@ -1,0 +1,218 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analog Electronics Lecture 2_PartC_I-V output characteristics of BJT</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m29636</md:content-id>
+  <md:title>Analog Electronics Lecture 2_PartC_I-V output characteristics of BJT</md:title>
+  <md:abstract>Abstract: This describes the D.C. parameters of BJT.</md:abstract>
+  <md:uuid>eb81f5b8-e1de-4b64-bdb5-87badb3ef564</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170439367484">Analog Electronics Lecture 2_PartC_I-V output characteristics of BJT</para>
+    <para id="id3386918">Key words;BJT; </para>
+    <para id="id1170439954358">Abstract: This describes the D.C. parameters of BJT.</para>
+    <para id="id8073217"><emphasis effect="bold">BJT Common Base Configuration</emphasis>:</para>
+    <para id="id1170440044105">For CB Configuration :</para>
+    <figure id="id1170440319860">
+      <media id="id1170440319860_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-1c6d.png" id="id1170440319860__onlineimage" height="125" width="246"/>
+      </media>
+    </figure>
+    <para id="id1170442424455">I<sub>C</sub><sub/>= α<sub>F</sub>MI<sub>E </sub>+ I<sub>CBO </sub></para>
+    <para id="id1170447003254">Where α<sub>F</sub>= D.C. Forward current transfer Ratio of CB BJT = I<sub>C</sub>/I<sub>E</sub> ;</para>
+    <para id="id1170449696185">M = Avalanche Multiplication Factor at Base-Collector Junction given by = 1/[1-(Vcb/BVcbo)^n]</para>
+    <para id="id7769543">
+      <figure id="id1170443201834">
+        <media id="id1170443201834_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-3af1.png" id="id1170443201834__onlineimage" height="144" width="313"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170442305790">Where n= Miller Indices =2~6</para>
+    <para id="id1170440914731">I<sub>CBO</sub> = Reverse leakage current at CB Jn with emitter open.</para>
+    <para id="id1170439787094"><figure id="id5305276"><media id="id5305276_media" alt=""><image mime-type="image/png" src="../../media/Picture 2-3af1.png" id="id5305276__onlineimage" height="23" width="45"/></media></figure>= Avalanche breakdown voltage at CB Jn with emitter open</para>
+    <para id="id5294824">OUTPUT CHARACTERISTICS OF Common Base Bipolar Junction transistor</para>
+    <para id="id1170447343978">
+      <figure id="id6735642">
+        <media id="id6735642_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-450f.png" id="id6735642__onlineimage" height="342" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8045965">I<sub>C</sub> = I<sub>CBO</sub> when I<sub>E</sub> = 0 mA. This is the reverse leakage current at CB Junction with Emitter open and is of nA range.</para>
+    <para id="id6216657">BJT Common Emitter(CE) Configuration:</para>
+    <figure id="id1170439154729">
+      <media id="id1170439154729_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-e8d6.png" id="id1170439154729__onlineimage" height="233" width="131"/>
+      </media>
+    </figure>
+    <para id="id1170441320811">For CE Configuration :</para>
+    <para id="id1170440181666">I<sub>C </sub>= α<sub>F</sub>MI<sub>E </sub>+ I<sub>CBO </sub></para>
+    <para id="id1170448529439">=&gt; I<sub>C </sub>= α<sub>F</sub>M(I<sub>B</sub>+I<sub>C</sub>)<sub/>+ I<sub>CBO </sub></para>
+    <para id="id1170442597592">=&gt; I<sub>C</sub>(1-α<sub>F</sub>M)= α<sub>F</sub>MI<sub>B </sub>+ I<sub>CBO </sub></para>
+    <para id="id1170440212605">
+      <figure id="id4490895">
+        <media id="id4490895_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-9f65.png" id="id4490895__onlineimage" height="77" width="543"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170440079686">
+      <media id="id1170440079686_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-add0.png" id="id1170440079686__onlineimage" height="87" width="363"/>
+      </media>
+    </figure>
+    <figure id="id1170438397040">
+      <media id="id1170438397040_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-1907.png" id="id1170438397040__onlineimage" height="73" width="237"/>
+      </media>
+    </figure>
+    <para id="id1170448983637">If M=1, </para>
+    <figure id="id1170439955385">
+      <media id="id1170439955385_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-f854.png" id="id1170439955385__onlineimage" height="67" width="223"/>
+      </media>
+    </figure>
+    <para id="id4790907">Where α<sub>F </sub>=0.99.</para>
+    <para id="id1170440323971">At low voltages we have M=1.</para>
+    <figure id="id1170441920410">
+      <media id="id1170441920410_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-31e1.png" id="id1170441920410__onlineimage" height="63" width="436"/>
+      </media>
+    </figure>
+    <para id="id1170449685260">
+      <figure id="id1170443711712">
+        <media id="id1170443711712_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-b626.png" id="id1170443711712__onlineimage" height="127" width="573"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170442419885">Then we get:</para>
+    <figure id="id1170440275981">
+      <media id="id1170440275981_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-3f16.png" id="id1170440275981__onlineimage" height="56" width="437"/>
+      </media>
+    </figure>
+    <para id="id1170439472415">That is:</para>
+    <para id="id1170441053290">
+      <figure id="id5813557">
+        <media id="id5813557_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-8c41.png" id="id5813557__onlineimage" height="34" width="520"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170441721940">
+      <media id="id1170441721940_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-45e1.png" id="id1170441721940__onlineimage" height="46" width="289"/>
+      </media>
+    </figure>
+    <para id="id1170440727648">
+      <emphasis effect="bold">OUTPUT CHARACTERISTICS OF Common Emitter Bipolar Junction transistor</emphasis>
+    </para>
+    <figure id="id1170441081790">
+      <media id="id1170441081790_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-cbca.png" id="id1170441081790__onlineimage" height="358" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170440713141">NOTE:-The slope in the figure is due to base width modulation which is also known as Early Effect.</para>
+    <para id="id1170437940227">I<sub>C</sub> = I<sub>CEO</sub> when I<sub>B</sub> = 0 mA. This is the collector junction leakage current at CB Junction with Base open and is of µA range.</para>
+    <para id="id1170440913122">Let us consider :</para>
+    <figure id="id1170442587705">
+      <media id="id1170442587705_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 17-9d86.png" id="id1170442587705__onlineimage" height="67" width="543"/>
+      </media>
+    </figure>
+    <para id="id5846678">If α<sub>F</sub>M =1, then </para>
+    <figure id="id4256313">
+      <media id="id4256313_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 18-9732.png" id="id4256313__onlineimage" height="69" width="150"/>
+      </media>
+    </figure>
+    <para id="id1170439505410">At this point , break over occurs. And we have BV<sub>CEO</sub>=Break-over Voltage with Base Circuit open.</para>
+    <para id="id1170442528411">When α<sub>F</sub>M =1</para>
+    <para id="id1170447583489">That is </para>
+    <para id="id8225681">
+      <figure id="id1735860">
+        <media id="id1735860_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 19-d71c.png" id="id1735860__onlineimage" height="87" width="524"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170437903436">
+      <media id="id1170437903436_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 20-d032.png" id="id1170437903436__onlineimage" height="85" width="209"/>
+      </media>
+    </figure>
+    <figure id="id7486654">
+      <media id="id7486654_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-04d6.png" id="id7486654__onlineimage" height="71" width="181"/>
+      </media>
+    </figure>
+    <para id="id1170440432222">But :</para>
+    <figure id="id1170439228191">
+      <media id="id1170439228191_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-510c.png" id="id1170439228191__onlineimage" height="71" width="480"/>
+      </media>
+    </figure>
+    <para id="id1170440769132">Thus :</para>
+    <figure id="id6263891">
+      <media id="id6263891_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 23-c416.png" id="id6263891__onlineimage" height="83" width="452"/>
+      </media>
+    </figure>
+    <para id="id1170441261856">Thus:</para>
+    <figure id="id1170438087461">
+      <media id="id1170438087461_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 24-cdb6.png" id="id1170438087461__onlineimage" height="77" width="528"/>
+      </media>
+    </figure>
+    <para id="id1170438270386">Putting the required Values i.e. BV<sub>CBO</sub>=30V, β<sub>F</sub> = 100 , we get V<sub>CB</sub><sup>*</sup>=18 V = BVceo ;</para>
+    <para id="id1170438147908">Now we have to know more about BV<sub>CES </sub>(Breakover Voltage when the base circuit is shorted)</para>
+    <para id="id1170439370216">BV<sub>CBO</sub> &gt;BV<sub>CEX</sub> &gt;BV<sub>CES</sub> &gt;BV<sub>CEO</sub></para>
+    <para id="id1170443295708">Where BV<sub>CBO</sub>= Breakover Voltage of the collector base junction when the emitter circuit is open.</para>
+    <para id="id6205327">BV<sub>CEX</sub>= Breakover Voltage of CE BJT for a given termination R<sub>X</sub> at the base</para>
+    <para id="id1170439329731">BV<sub>CEO</sub>= Breakover Voltage of CE BJT when the base circuit is open.</para>
+    <para id="id8079646">BV<sub>CES</sub>= Breakover Voltage of CE BJT when the base circuit is shorted to ground.</para>
+    <para id="id4177734">BV<sub>CEX</sub>= Breakover Voltage when the base circuit is connected to ground through a source Resistance (R<sub>S</sub>) .</para>
+    <para id="id1170440726088">By proper base termination, the permissible region of operation can be extended upto BV<sub>CBO</sub>.</para>
+    <para id="id1170439446024">Thus we have seen that breakover occurs at α<sub>F</sub>M =1. At low current α<sub>F</sub> is very small, almost about 0.1.Therefore voltage has to be taken to a large value to satisfy α<sub>F</sub>M =1. But as soon as breakover occurs large current starts flowing. With large current α<sub>F</sub> improves from 0.1 to 0.99. Hence α<sub>F</sub>M =1 is satisfied at lower voltage Vs. Therefore breakover curves settles down at Vs. This voltage V<sub>S</sub> is known as sustaining voltage. Because of the fact that :</para>
+    <para id="id8974817">V<sub>S</sub> &lt; BV<sub>CEO</sub></para>
+    <para id="id1170442594189">We get a S Type Negative Impedance Region(NIR). In SCR and UJT also we get S Type NIR but in Tunnel Diode as shown in the Figure below we get N Type NIR.</para>
+    <figure id="id1170440562421">
+      <media id="id1170440562421_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-4b33.png" id="id1170440562421__onlineimage" height="301" width="387"/>
+      </media>
+    </figure>
+    <para id="id1170440050235">COMPARISON BETWEEN COMMON BASE AND COMMON EMITTER CONFIGURATIONS</para>
+    <table id="id1170444956343" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>S.No.</entry>
+            <entry>COMMON BASE</entry>
+            <entry>COMMON EMITTER</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>h<sub>rb</sub>(reverse transmission factor)~10<sup>-5</sup>Thus it behaves as a near unilateral device.</entry>
+            <entry>h<sub>re</sub>~10<sup>-4</sup>Thus it behaves as a non-unilateral device.</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>In RF applications the circuit has a high probability of parasitic oscillations but in CB because of near unilaterality , probability of parasitic oscillation goes down. Hence for RF applications CB is the preferred circuit configuration.</entry>
+            <entry>At low frequencies there is no danger of parasitic oscillations hence CE can be used even with poor reverse transmission factor.</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>h<sub>ob </sub>= 1/(2M)Thus it behaves as a near ideal current source. Thus it is very suitable for charging a capacitance with a constant current to generate a saw-tooth waveform.</entry>
+            <entry>h<sub>oe</sub>=1/(40K)Thus it behaves as a non-ideal current source.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5537248">Both CB and CE are Current Controlled Current Source. CB is a near ideal CCCS whereas CE is a non-ideal CCCS.</para>
+  </content>
+</document>

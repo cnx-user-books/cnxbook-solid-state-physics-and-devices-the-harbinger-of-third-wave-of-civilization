@@ -1,0 +1,127 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Modern Physics-Foundation of Solid State Physics_Part1</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32278</md:content-id>
+  <md:title>SSPD_Chapter1_Modern Physics-Foundation of Solid State Physics_Part1</md:title>
+  <md:abstract>Chapter 1 of SSPD, Part 1 deals with the development of Science through pre-history, ancient history and medieval history upto renaissance.</md:abstract>
+  <md:uuid>03938878-d957-4192-b0c0-d883e2d7ac7f</md:uuid>
+</metadata>
+
+<content>
+    <para id="id16622376">SOLID STATE PHYSICS</para>
+    <para id="id16622380">
+      <emphasis effect="bold">&amp; DEVICES-</emphasis>
+      <emphasis effect="italics">the harbinger of the third wave of civilization.</emphasis>
+    </para>
+    <para id="id17751023">By Bijay Kumar Sharma</para>
+    <para id="id17751027"/>
+    <para id="id17761914">Solid State Physics &amp; Devices- the harbinger of Third Wave of Civilization.</para>
+    <para id="id17054808">CHAPTER.1.</para>
+    <para id="id16939246">MODERN PHYSICS- THE FOUNDATION OF SOLID STATE PHYSICS.</para>
+    <para id="id16622647">INTRODUCTION.</para>
+    <para id="id16622652"/>
+    <para id="id16173302">Discoveries or Inventions are made accidently or they are the results of conscious theoretical formulations.</para>
+    <para id="id16173308"> The discovery of electricity through the electric shock experienced by Benjamin Franklin during a ‘ key and kite’ flight in rains*, the discovery of magnetic field surrounding a wire carrying d.c.current during a demonstrative lecture by Michael Faraday and the invention of Bipolar Junction Transistor by William Shockley were some such event which brought a historical transformation of Human Society.</para>
+    <para id="id17749525"> On the other hand the Gravitational Lensing Effect by Massive Bodies as predicted by Einstein based on his General Theory of Relativity** , the prediction of Supernova Explosion and formation of Neutron Star as the end result of Stars more massive than 1.4 times the mass of Sun (M<sub>Θ</sub>) by S.Chandrashekhar and the prediction of Intermediate Vector Boson as the Boson particle of exchange of weak forces by Abdus Salam and Steven Weinberg were based on conscious theoretical formulation and modeling of the systems concerned.</para>
+    <para id="id16622564"> All our ancient knowledge were based on empiricism hence they were a part of the whole and they never led to a complete understanding of the system concerned.</para>
+    <para id="id17748679">Our Nomadic Ancestors lived as roots and fruits gatherer in the Savage stage of the society.</para>
+    <para id="id17680479"> With discovery of fire they became scavengers. The cooked meat was easily digestible. Our Ancestors changed from herbivorous to omnivorous. Soon we became toolmakers and hunters. This was the Barbarian stage of pale anthropological society.</para>
+    <para id="id13349945">About 500,000 years Before the Present (BP), with stone tool making stone age started. We had left our arboreal abode and became cave-dwellers. This was the old stone age or Lower Paleolithic Age.</para>
+    <para id="id17753973">About 30,000 years B.P. to 10,000 years B.P. Upper Paleolithic Age prevailed.</para>
+    <para id="id16671862">In Neolithic Age (new stone age), stone axes were made. We started domesticating animals .The need for animal fodder led us to agriculture.</para>
+    <para id="id17662315">Agriculture triggered the first wave of civilization on the banks of Tigris-Euphrates in Babylon ( modern day Iraq), on the banks of Nile river in Egypt, on the banks of Sarswati, Sapt Sindhu and Ganges- Yamuna- Brahmputra in India and on the banks of Yellow River and Yangtze River in China. These ancient civilizations developed and flourished about 3000 years B.P. They were built on the foundation of Neolithic Age.</para>
+    <para id="id17661660">Agriculture and Pastoral Revolution transformed Human-Beings into active partners of Nature. Through empiricism, foresight, forethought, perseverance and self control we specialized in agriculture and artisanship.</para>
+    <para id="id17748026">We developed different fields of metallurgy namely smithy, mining and smelting. We developed wheels and ox-cart. We developed sailing ships. </para>
+    <para id="id17763106"> In all these stages and in all these civilizations ,we were dependent on empirical knowledge. We observed ,we learnt and we used it. We never tried to theorize. </para>
+    <para id="id17662140">
+      <emphasis effect="bold">In Greek Era, for the first time why, how and whereof questions were raised regarding events, processes and systems. Socrates played the most crucial role in questioning the prevailing dogmas.</emphasis>
+    </para>
+    <para id="id17752186"> In the Greek Era, the prevailing World View was the Ptolemaic World View where our Earth was at the centre of the Universe known as Geo-centric Model and where heart was at the centre of the Human Body known as Cardio-centric Model .</para>
+    <para id="id17747945">The Greek Era was followed by the Roman Era. King Constantine in 300AD proclaimed Christanity as the State Religion and almost whole of Europe gradually converted to Christanity. On the other hand in 600AD in Arab countries  there was the dawn of Islam and Prophet Muhammad was proclaimed 40th Prophet and the last Prophet. Islam spread to whole of Europe where a new resistance started against the spread of Islam in form of Christian Crusades. By 1200AD crusaders managed to push back the Islamic forces back to Arabian Peninsula. Until 15th century Europe remained divided. During this period barbarian Goths, Vandals and Huns swept down on Europe from North and East. They destroyed many fine buildings and works of art that had existed during Roman times. This period was referred to as the dark ages of Medieval Era.During this period knowledge survived only in Monastaries. Progress in Science and Technology came to a stand still.. Whole of Europe was plunged in the dark ages of the Early Medieval Era.</para>
+    <para id="id17748754"> 14<sup>th</sup> Century saw the dawn of the Age of Reasoning. This was the Age of Voltaire.</para>
+    <para id="id17749043"> 14<sup>th</sup> Century also saw the Gutenberg Revolution, the second Information Revolution.***. This century witnessed the Protestant Movement and subsequent rise of Martin Luther as the most significant dissident within the Christian Religion.</para>
+    <para id="id17751352"> The Protestant Movement signaled the Age of Renaissance. The Industrial Revolution of 18<sup>th</sup> Century catalyzed the Bourgeoisie Democratic Revolution which swept through Europe, USA and Japan. This Revolutionary Movement overthrew the Monarchies and Oligarchies and established the rule of Pluralistic Democracy in the leadership of Bourgeoisie Party. In France this Party was known as Jacobins, in USA it was known as Democratic Party, in Germany it was under the leadership of Junkers and in Japan it was under the leadership of Meiji Oligarchs.</para>
+    <para id="id17750464">[*<emphasis effect="italics">Benjamin Franklin made a systematic and scientific investigation of lightening during the second half of 18</emphasis><emphasis effect="italics">th</emphasis><emphasis effect="italics"> Century through his legendary ‘Key and Kite’experiment. In a Pennsylvania thunderstorm in 1752, he flew a kite with a key tied to the string just beside the kite. The electric charges induced on the thunderclouds were attracted by the key and provided a short circuit path to the ground through the body of Franklin. In the process he received electric shocks which could have proved fatal. But this electric shock established the nature of electricity as well as the charge of electricity which in this case </emphasis><emphasis effect="italics">was negative. Thus electricity’s discovery was made and this was to play the same role in human society as the discovery of fire was to play in the hominid society when hominid society was fruit and root gatherer as well as scavenger about a million years before.</emphasis></para>
+    <para id="id17759090">
+      <emphasis effect="italics">** The General Theory of Relativity predicts that the Space-Time Fabric is flat in absence of mass but presence of massive celestial bodies causes a curvature in this fabric. Hence it was predicted that a star behind the sun during a total solar eclipse will be seen shifted from its actual position by 1.7second of arc. Sir Arthur Stanley Eddington (1882-1944) went to Canary Islands and made actual observation of a star behind Sun during Total Solar Eclipse on 29</emphasis>
+      <emphasis effect="italics">th</emphasis>
+      <emphasis effect="italics"> May,1919. Next the same star was observed in absence of Sun. Near about 1.7second of an arc displacement was observed in the apparent and actual position of the star. This vindicated Einstein and his General Theory of Relativity.</emphasis>
+    </para>
+    <para id="id17762179">In recent days the gravitational lensing effect of distant quasers has lent further support to the General Theory of Relativity.</para>
+    <para id="id17763595">The General Theory of Relativity gives the theoretical basis of precession of the perihelion of the planet mercury.</para>
+    <para id="id17760850">The General Theory of Relativity predicts Red Shift of light coming from massive body. This too has been correctly verified by observation. </para>
+    <para id="id17760857">*** The First Information Revolution was ushered in by the invention of Phoenician Alphabets which was the mother of all European Languages. The invention of the Rotating Press was the Gutenberg Revolution and the second Information Revolution. </para>
+    <para id="id17760657"><emphasis effect="italics">The Computer Revolution is the Third Information Revolution.</emphasis> ]</para>
+    <para id="id17765157"> A question which automatically arises at this point is that why the third World Countries did not witness Bourgeoisie Democratic Revolution. No general theory can be offered to explain this aberration but in context with India an explanation can be given.</para>
+    <para id="id17759120">India lies in Tropical Climatic Zone where the year round the weather is favorable for agriculture. We are able to grow most of our food and fodder requirements. Hence any form of Trade , land or mercantile trade, never held much significance for us. Whereas Foreign Trade is an important component of total Gross National Product of European Nations. Foreign Trade implies Mercantile Trade and Mercantile Trade means long Oceanic Voyages. Through these Oceanic Voyages Christopher Columbus reached the New World and Vascodagama discovered India, the golden bird, and Francis Drake navigated the whole World circumferentially.</para>
+    <para id="id17763062">The long Oceanic voyages compelled European Nations to invest heavily in Navigation Sciences in particular and in Science &amp; Technology in general. This is how sextant and astrolabe were invented. Even after the Old Democratic Revolution, the healthy trend of patronizing and financing Science &amp; Technology was maintained. As a result the credit of all the major Discoveries and Inventions went to Western and Japanese Scientists except for six which came to Indian Scientists.</para>
+    <para id="id17763066"> These Scientific breakthroughs brought the European Nations on the path of Colonization through the Mercantile Trades which was a logical end. </para>
+    <para id="id17760838"> Colonization led to a highly skewed economic development. The First World countries achieved a much higher level of prosperity than what they deserved whereas the Third World countries were pushed deeper and deeper into the mire of poverty and deprivation. The chasm between West and East has been widening ever since.</para>
+    <para id="id17762141"> Today the responsibility lies on the Intellectuals and Scientists of Third World Countries to chalk out an alternative paradigm of development whereby there is equitable and just development of all geographical regions of our Globe.</para>
+    <para id="id17759348"> Our readers must be anxious to know as to what are those four discoveries and Inventions for which Indian scientists are credited?</para>
+    <para id="id17762562">First is the fundamental work of Ramanujam on number theory and higher Mathematics [Appendix I]. Second is the work of Meghnath Saha (1893 -1956) on heat and molecular Physics. His ionization equation, Saha-Langmuir Equation, plays an important role in stellar astro-physcics [Appendix II].Third is the discovery of Bose-Einstein Statistics and the discovery of Bosons by Satyendra Nath Bose <emphasis effect="bold">[Appendix III ]</emphasis>.Fourth is the discovery of Raman Effect by C.V. Raman [Appendix IV]. This fetched us a Nobel Prize.</para>
+    <para id="id17765997"/>
+    
+    <para id="id17761559">Fifth is the extensive entomological work done on Mosquitoes by Ronald Ross <emphasis effect="bold">[Appendix V ]</emphasis>.This also fetched a Nobel Award.</para>
+    <para id="id17442124">Sixth is the work done by G.N. Ramchandran (1922-2001) on molecular Biophysics. He is considered the father of this field[Appendix VI]. After Independence our five major achievements have been in the area of green revolution, space research, nuclear energy, super- conductivity and CSIR (Council of Scientific and Indistrial Research) into a locomotive of Science and Technology advancements.Here we befittingly mention the works done by Indian Scientists working abroad notably in USA. First is the discovery of Chandrshekher Limit S. Chandra Shekher in the area of Evolution of Main Sequence Stars[Appendix VII]. Second is the work of Har Gobind Khurana(1922- till date) in the field of genetics and its function in protein synthesis[Appendix VIII]. </para>
+    <para id="id16671706">Third is the work done  again in Genetics by Venktaraman Ramakrishna. Therte are DNA molecules inside every cell of all organisms. These molecules contain the blue-print for how a human being or a plant or a bacterium looks and functions. The blue prints of the DNA molecules become transformed in the living matter through the ribosomes. Based upon the information in DNA , ribosomes create protein: oxygen transporting haemoglobins, antibodies of the immune system, hormones succh as insulin, collagen of the skin, or enzymes. There are tens of thousands of protein in the body and they all have different forms and functions. 2009 Nobel Prize for Chemistry Awards Research in one of life's most important processes: the ribosomes translation of DNA information into life [Appendix IX]. Here it will be appropriate to mention invention of Wireles by Jagdish Chandra Bose [Appendix X]. Though credit was accorded to Marconi, lately the mistalke has been corrected and in 1997 IEEE (Institution of Electronics and Electrical Engineering) has acknowledged the pioneering role of Dr. Jagdish Chandra Bose in the field of Wireless and Radio.After this digression we return to our main concern namely Solid State Physics and Devices.</para>
+    <para id="id17771624">The present development and widespread use of Electronics in every walk of life is primarily due to Integrated Circuit Technology and due to the continuous evolution of the level of Integration as stated by Moore’s Law. Gordon Moore<emphasis effect="bold">[Appendix XI]</emphasis> is a founder of Intel Corporation which caters to 80% of microprocessors market.</para>
+    <para id="id16622529"> Gordon Moore had predicted at the inception of Integrated Circuit Technology that the packing density of CMOS devices will double every 18 months i.e. every one and a half year . That precisely has been followed till date.</para>
+    <para id="id17753028">Integrated Circuit technology was simultaneously invented by Jack Kilby <emphasis effect="bold">[Appendix XII ]</emphasis> of Texas Instrument and Robert Noyce<emphasis effect="bold">[Apendix XIII ]</emphasis> of Fairchild in 1959. Eventually Jack Kilby was awarded Nobel Prize in 2000 for the same. I. C. Technology<emphasis effect="bold">[50 years Journey of IC Technology-Prologue ]</emphasis> started its journey in 1961 when the first RTL logic was commercially marketed. At that time there were only twenty transistors on the Chip. Today in 2005 there are 1 billion transistors on Pentium “Extreme Edition” 840 Dual Core Chip with a clock rate 3.2GHz.</para>
+    <para id="id17751295">This hectic pace of microminiaturization has been maintained solely due to commensurate development in Solid State Device Technology<emphasis effect="bold">[Apendix I, Table I.1, of 50 years I.C. Journey ]</emphasis>.</para>
+    <para id="id17753844"> The development in Solid State Device Technology is the result of the theoretical understanding of Solid State of Matter. And the theoretical understanding has been made possible due to Quantum Mechanics.</para>
+    <para id="id17753853"> So it is imperative that we start our text on Solid State Physics and Devices with a good qualitative and quantitative understanding of Quantum Mechanics.</para>
+    <para id="id17760364">1.1. MAX PLANCK AND QUANTUM THEORY.</para>
+    <para id="id17762787"/>
+    <para id="id17762791">In 1860 Maxwell <emphasis effect="bold">[Appendix XIV]</emphasis> propounded the four classical equations describing Electro-Magnetic Waves namely:</para>
+    <list id="id17761515" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>Divergence of Electric Flux Density= Charge Density, </item>
+      <item>Curl of Magnetic Field Intensity= Electric Current Surface Density + Displacement Current Density;</item>
+      <item>Curl of Electric Field Intensity = -Rate of change of Magnetic Flux Density; </item>
+      <item>Divergence of Magnetic Field Intensity = 0;</item>
+    </list>
+    <para id="id17766136">Almost simultaneously Heinrich Hertz<emphasis effect="bold">[ibid]</emphasis> generated Electromagnetic Waves and detected the same through a loop antenna. This particular experiment paved the way for the invention of Radio for which both Marconi <emphasis effect="bold">[Appendix XV]</emphasis> and J.C.Bose<emphasis effect="bold">[Appendix X]]</emphasis> are credited. </para>
+    <para id="id16080007">The theoretical explanation of Black Body Radiation kept eluding the Scientists at the close of 19<sup>th</sup> Century. Rayleigh-Jean formulation could explain the longer wavelength spectral density distribution but on the shorter wavelength side it led to Ultra-Violet catastrophe. On the other hand Wien Formulation could explain the shorter wavelength spectral density distribution but failed to fit the remaining portion of the distribution curve. The Black Body radiation curve is described in Figure (1.1).</para>
+    <para id="id13388254">
+      <figure id="id17440960">
+        <media id="id17440960_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-cc3b.png" id="id17440960__onlineimage" height="300" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id17748737">
+      <emphasis effect="bold">Fig.1.1. The Spectral Density Distribution of Black Body Radiation at different Temperatures: T</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">&gt; T</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id13176502"/>
+    <para id="id17747696">At this time of hopelessness, a simple assumption by Max Planck enabled him to arrive at the correct theoretical understanding of Black Body Radiation Distribution. His assumption was that matter is composed of oscillators. Every oscillator has a characteristic frequency ν<sub>0</sub> and that oscillator will absorb or radiate energy packets of hν<sub>0</sub> , 2 hν<sub>0 </sub>,3 hν<sub>0</sub> ,…… only. Here h is the Planck’s Constant=6.62×10<sup>-34 </sup>J-seconds. The essence of this assumption is the quantum nature of Electromagnetic Waves which was the basic proposition of Newton also who talked about the corpuscular nature of light which is also Electromagnetic Waves. According to this quantum nature , Electromagnetic Waves of frequency ν always contains an energy packet of hν Joules. Therefore if a monochromatic light source of frequency ν is emitting energy at the rate of P watts then P/( hν) number of energy packets are being emitted per second. More appropriately P/( hν) number of quanta or photons are being emitted by the source per second. If the power of this source is increased then the number of photons per second will increase but the energy packet per photon will remain constant.</para>
+    <para id="id13387909"> Thus quite unwittingly Max Planck gave birth to the Quantum Theory of Electromagnetic Waves..</para>
+    <para id="id17759702"> Einstein used this Quantum Theory to explain Photo-Electric Effect.</para>
+    <para id="id17759708"><emphasis effect="bold">Wien’s Displacement Law[Appendix XVI]</emphasis> states : </para>
+    <para id="id17763665"><emphasis effect="bold">λ</emphasis><emphasis effect="bold">m</emphasis><emphasis effect="bold">(wavelength of maximum intensity)= Ω/T</emphasis>;</para>
+    <para id="id17762423">Classical Physics has no analytical value of Ω but Quantum Physics correctly predicts it to be : <emphasis effect="bold">Ω= ch/(4.9651k)= 3×10</emphasis><emphasis effect="bold">-3</emphasis><emphasis effect="bold"> mK</emphasis>;</para>
+    <para id="id17761301">Substituting this constant in Wien’s Displacement Law: λ<sub>m</sub> = (3×10<sup>-3</sup>/T) m;</para>
+    <para id="id17766125">At 3 K, λ<sub>m</sub> = 0.1 cm. The Cosmic Microwave Background Radiation(CBR), which we will deal with in Section 1.13 , has exactly this 3K blackbody radiation characteristics.</para>
+    <para id="id17761452"/>
+    <para id="id17770887"><emphasis effect="bold">Stefan Boltzman’s Law[ibid] </emphasis>states: </para>
+    <para id="id17771517"><emphasis effect="bold">R(Watt per m</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold"> )</emphasis> = <emphasis effect="bold">e.σ.T</emphasis><emphasis effect="bold">^4 </emphasis><emphasis effect="bold">;</emphasis></para>
+    <para id="id17752710">σ = Stefan’s Constant;</para>
+    <para id="id17752714">e= emissivity ( depends on the nature of the radiating surface); </para>
+    <para id="id17749863">e=1 means a black body radiator. A black body is a perfect absorber. It is a perfect radiator also.</para>
+    <para id="id17749869">e= 0 means a perfect reflector. It does not absorb and hence does not radiate.</para>
+    <para id="id17753350">This law is <sup/>also known as Fourth Power Law. T is the absolute temperature of the cavity walls.</para>
+    <para id="id17759427">From Quantum Theory of Black-Body Radiation:</para>
+    <para id="id17759431"><emphasis effect="bold">u(total energy density of the radiation in a cavity) = a.T</emphasis>
+      <emphasis effect="bold">^4 </emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id17662900">Classical Physics has no analytical value of σ but Quantum Mechanics gives the value as:</para>
+    <para id="id17662907">a(Universal Constant) = 8π<sup>5</sup>k<sup>4</sup>/(15c<sup>2</sup>h<sup>3</sup>). This value conforms to the experimental values.</para>
+    <para id="id17441237">e (emissivity) = 0 to 1.</para>
+    <para id="id17441241">σ (Stefan’s Constant) = ac/4 = 5.670×10<sup>-8</sup> W/(m.K<sup>4</sup>);</para>
+    <para id="id17753462">end of part1</para>
+  </content>
+</document>

@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 7.</title>
+  <metadata>
+  <md:content-id>m29939</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 7.</md:title>
+  <md:abstract>Summary: This Part 7 of 50 years journey;</md:abstract>
+  <md:uuid>842f19f7-8451-43fc-931e-afd748df93df</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170788113377">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 7.</para>
+    <para id="id1170794372909">Keywords: Sidewall Oxidation Technique, Trench Isolation Technique, Reactive Ion Etching.</para>
+    <para id="id1170782081258">Summary: This Part 7 of 50 years journey;</para>
+    <para id="id1170780919411">IV.1.5. Sidewall oxidation and Silicon-on-Insulator for reducing the parasitic capacitances and improving the frequency response. </para>
+    <para id="id1170788953864"> Large junction parasitic capacitances are introduced due to Silicon P-type substrate and due to sidewalls of isolation diffusion. Substrate capacitances can be eliminated by using Silicon-on Sapphire or by Silicon-on-Insulator. Isolation diffusion side-wall junction can be eliminated by using sidewall oxidation.</para>
+    <para id="id1170788953002">These structures are shown in Figure 7 and Figure 8. P+ isolation diffusion can be replaced by Trench isolation by Reactive Ions Etching (RIE) as shown in Figure 9.</para>
+    <figure id="id1170788262965">
+      <media id="id1170788262965_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 17-f33c.png" id="id1170788262965__onlineimage" height="380" width="543"/>
+      </media>
+    </figure>
+    <para id="id1170794411470">
+      <emphasis effect="bold">Figure 9. Oxide Sidewall Oxidation Technique to minimize the parasitic capacitances.</emphasis>
+    </para>
+    <para id="id1170794296733">
+      <figure id="id1170784469880">
+        <media id="id1170784469880_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 18-97cf.png" id="id1170784469880__onlineimage" height="490" width="511"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170785368658">
+      <emphasis effect="bold">Figure 10. Cross sectional view of an advanced self aligned polysilicon Emitter BJT with side wall oxidation and Silicon on Insulator for reducing the parasitic capacitances.</emphasis>
+    </para>
+    <para id="id1170794636345">
+      <figure id="id1170794322353">
+        <media id="id1170794322353_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 19-b785.png" id="id1170794322353__onlineimage" height="461" width="688"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170780793374">Figure 11.Cross-Section diagram of an advanced double self-aligned polysilicon emitter BJT with sidewall oxide and trench isolation.</para>
+    <para id="id1170786389976">[10.7GHz BJT using double layer process technology, Electroniuc Letters Vol.24,920-22, July 1988]</para>
+    <para id="id1170788214707">P<sup>+</sup> isolation diffusion is replaced by trench isolation. Trench Isolation is achieved by Reactive Ion Etching(RIE). Emitter and Base regions are self aligned to minimize A<sub>E</sub>. Oxide side wall used for reducing junction capacitance.</para>
+  </content>
+</document>

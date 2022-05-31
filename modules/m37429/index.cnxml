@@ -1,0 +1,29 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 9_Figure IX of Appendix on Device Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37429</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 9_Figure IX of Appendix on Device Physics</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 9_Figure IX of the Appendix on Device Physics is being uploaded.</md:abstract>
+  <md:uuid>a9624fb6-cba3-47f5-867b-fa11f00e639c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169205706760">SSPD_Chapter 6_Part 9_Figure IX of the Appendix on Device Physics</para>
+    <para id="id2244413">
+      <emphasis effect="bold">Section III.3. </emphasis>
+      <emphasis effect="bold">Polysilicon emitter BJT (PEBJT)</emphasis>
+    </para>
+    <figure id="id1169195498551">
+      <media id="id1169195498551_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-b130.png" id="id1169195498551__onlineimage" height="483" width="507"/>
+      </media>
+    </figure>
+    <para id="id1169197649101">
+      <emphasis effect="bold">Figure IX. Linear Gradient is a strong function of surface condition. Metal contact gives a large gradient and Poly Silicon contact to Emitter gives a much lower linear gradient on the emitter side thereby improving I</emphasis>
+      <emphasis effect="bold">Dn</emphasis>
+      <emphasis effect="bold">/I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">(Injection Efficiency) by several orders of magnitude.</emphasis>
+    </para>
+  </content>
+</document>

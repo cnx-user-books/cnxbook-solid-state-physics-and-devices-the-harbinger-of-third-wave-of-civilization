@@ -1,0 +1,112 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOScontinued6</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38548</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOScontinued6</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOScontinued6 describes the various capacitance  associated NMOS in triode region, pentode region and in cut-off region.</md:abstract>
+  <md:uuid>d8731276-8ae0-483a-8220-a507057098eb</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5861140">SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFETcontinued 6</para>
+    <para id="id1167954647955">7.3.13. MOS Transistor’s parasitic capacitances.</para>
+    <para id="id1167951697525"> Just as parasitic capacitances C<sub>µ</sub> and C<sub>π</sub> limit the frequency reponse of BJT in exactly the identical manner gate oxide capacitances limit the frequency response of MOSFET.</para>
+    <figure id="id6385175">
+      <media id="id6385175_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-40a6.png" id="id6385175__onlineimage" height="294" width="513"/>
+      </media>
+    </figure>
+    <para id="id1167950975598">Referring to Figure 7.3.13.1. we identify the following capacitances:</para>
+    <para id="id3403859">C<sub>GC</sub> = gate to channel capacitance,</para>
+    <para id="id2673785">C<sub>GSO</sub> = gate to source overlap capacitance and</para>
+    <para id="id1167952003499">C<sub>GDO</sub> = gate to drain overlap capacitance.</para>
+    <para id="id1167952307807">Overlap capacitances occur mainly due to:</para>
+    <list id="id1167951456152" list-type="enumerated" number-style="lower-roman">
+      <item>Gate misalignment with respect to Source and Drain.</item>
+      <item>Fringing field between Gate and Source/Gate and Drain.</item>
+    </list>
+    <para id="id1167959396863">Because of self aligned processing, C<sub>GSO</sub> and C<sub>GDO</sub> are minimized. C<sub>GC</sub> has the dominant contribution in limiting the frequency response.</para>
+    <para id="id1167959114968">Typical value of channel-gate capacitance is:</para>
+    <figure id="id1167956468545">
+      <media id="id1167956468545_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-3dd2.png" id="id1167956468545__onlineimage" height="69" width="650"/>
+      </media>
+    </figure>
+    <para id="id2279995"/>
+    <para id="id1167954215050">7.3.13.1. Capacitance in Triode Region.</para>
+    <para id="id1167951746104">We effectively have C<sub>GS </sub>and C<sub>GD </sub>in Triode region of MOSFET. The contribution of C<sub>GC</sub> is included in these two capacitances.</para>
+    <figure id="id1167954268613">
+      <media id="id1167954268613_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-ba86.png" id="id1167954268613__onlineimage" height="41" width="332"/>
+      </media>
+    </figure>
+    <figure id="id1167951565570">
+      <media id="id1167951565570_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-32d7.png" id="id1167951565570__onlineimage" height="41" width="335"/>
+      </media>
+    </figure>
+    <para id="id1167951531109">Note that C<sub>OX</sub>” is Farad per unit area whereas overlap capacitance is Farad per unit length.</para>
+    <para id="id3042695">As seen in the Figure 7.3.13.1, in addition to the above capacitances , there is Source to Bulk capacitance (C<sub>SB</sub>) and Drain to Bulk capacitance (C<sub>DB</sub>) due to the depletion layer surrounding the Source and Drain. The reverse biased junction exists at the bottom of the source and drain. It also exists at the periphery of the source and the drain.</para>
+    <para id="id2778285">Source-to-Bulk capacitance =</para>
+    <figure id="id1167955938984">
+      <media id="id1167955938984_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-2164.png" id="id1167955938984__onlineimage" height="24" width="326"/>
+      </media>
+    </figure>
+    <figure id="id1510435">
+      <media id="id1510435_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-6b7d.png" id="id1510435__onlineimage" height="24" width="333"/>
+      </media>
+    </figure>
+    <para id="id1167951999816">P<sub>S</sub> and P<sub>D</sub> are the perimeters of Source and Drain.</para>
+    <para id="id6030484">A<sub>S</sub> and A<sub>D </sub>are the bottom area of Source and Drain.</para>
+    <para id="id1167958271711">C<sub>j</sub> and C<sub>jSW</sub> are dependent on the reverse voltage existing between the Source(or Drain) and the bulk because junction capacitance is proportional to CS area/ depletion width and depletion width varies the square root of the reverse voltage in step kunction and it depends on the cube root of the reverse voltage in linearly graded junction.</para>
+    <para id="id1167959095751">7.3.13.2. Capacitances in Pentode or Saturation Region.</para>
+    <para id="id1167951441559"> In saturation region, there is no channel on the drain side hence Gate-Channel capacitance has no contribution to Gate-Drain Capacitance. Therefore:</para>
+    <para id="id6052766">
+      <figure id="id1167951325938">
+        <media id="id1167951325938_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-dadf.png" id="id1167951325938__onlineimage" height="41" width="341"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167959334476">
+      <figure id="id2822258">
+        <media id="id2822258_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-34de.png" id="id2822258__onlineimage" height="23" width="320"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1167959514512">
+      <media id="id1167959514512_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-2af0.png" id="id1167959514512__onlineimage" height="279" width="505"/>
+      </media>
+    </figure>
+    <para id="id1167951733843">
+      <emphasis effect="bold">7.3.13.2. Capacitances in Cut-off Region.</emphasis>
+    </para>
+    <para id="id1167952854845">Figure 7.3.13.3 gives the cross-sectional area of NMOS which is below the threshold region hence it is in cut-off region. In cut-off region there is no channel hence no gate-channel capacitance.</para>
+    <figure id="id1167959105167">
+      <media id="id1167959105167_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-8df1.png" id="id1167959105167__onlineimage" height="23" width="316"/>
+      </media>
+    </figure>
+    <figure id="id1167953858722">
+      <media id="id1167953858722_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-b440.png" id="id1167953858722__onlineimage" height="23" width="320"/>
+      </media>
+    </figure>
+    <figure id="id1167954693280">
+      <media id="id1167954693280_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-8845.png" id="id1167954693280__onlineimage" height="23" width="286"/>
+      </media>
+    </figure>
+    <para id="id1167951445352">C<sub>GBO</sub>= Gate-Bulk Capacitance per unit width.</para>
+    <figure id="id1167955873816">
+      <media id="id1167955873816_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-d882.png" id="id1167955873816__onlineimage" height="283" width="518"/>
+      </media>
+    </figure>
+    <para id="id2110894">Generally in Digital Systems we will encounter Saturation and Cut-off conditions hence capacitance s showed in Figure 7.3.13.2 and in Figure 7.3.13.3 will be relevant to us in course of analysis.</para>
+  </content>
+</document>

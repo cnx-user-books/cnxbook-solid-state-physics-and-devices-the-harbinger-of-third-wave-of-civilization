@@ -1,0 +1,55 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 5_Stick Diagram of Logic Gates.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38595</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 5_Stick Diagram of Logic Gates.</md:title>
+  <md:abstract>SSPD_Chaptr 7_Part 5 introduces the  concept of stick diagram in context of VLSI design.</md:abstract>
+  <md:uuid>db202dc7-47d5-4bba-a8f8-8ca2697d4544</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169431262069">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 5_Stick Diagram of Logic Gates.</emphasis>
+    </para>
+    <para id="id1169428242444">
+      <emphasis effect="bold">7.5 What is a Stick Diagram of a logic gate.</emphasis>
+    </para>
+    <para id="id1169439551286"> VLSI circuit is a 3-D set of patterned layers. Stick Diagram provides a top view of the patterns. Colours allow us to trace signal flow paths through conduction layers. It is a schematic of a circuit at physical design level.  </para>
+    <para id="id1169424492924"> Stick Diagram is a cartoon of the actual circuit. It is a circuit schematic with topology information but it has no real device size. It is not to scale and it uses color pencils to show the different layers of the device. Complicated wiring of gates and cells is easier to visualize with stick diagram. Planning and Physical Design using Stick Diagrams before going to CAD can save energy and time.</para>
+    <para id="id1169417510468"> In Figure 7.5.1. the perspective view of (E)NMOS fabricated in P-Substrate is shown. At the bottom of the Figure 7.5.1. the top view of (E)NMOS fabricated in P-Substrate is given. The top-view contains the layout of the different layers of (E)NMOS:</para>
+    <para id="id1169445647303">Lowest layer is P-Substrate given by brown enclosure.</para>
+    <para id="id1169422984143">Second layer is N+ diffusion shown by green enclosure.</para>
+    <para id="id1169427094901">Topmost layer is Poly-Si shown by red colour.</para>
+    <para id="id1169429037538">The symbol, the layout and the stick diagram of (E)NMOS is given in Figure 7.5.2.</para>
+    <para id="id1169425830616">In Figure 7.5.3. the layout and the stick diagram of (E)PMOS in N-Well is shown.</para>
+    <para id="id1169431129017">In Figure 7.5.4, the contact or VIA needed at two adjacent levels of metallization is shown.</para>
+    <para id="id1169424263082">
+      <figure id="id1169438805148">
+        <media id="id1169438805148_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-6fb0.png" id="id1169438805148__onlineimage" height="761" width="627"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169437319995">
+      <figure id="id1169442767088">
+        <media id="id1169442767088_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-6165.png" id="id1169442767088__onlineimage" height="271" width="641"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169442443742">
+      <figure id="id1169440951167">
+        <media id="id1169440951167_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-11a9.png" id="id1169440951167__onlineimage" height="559" width="563"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169433645407">
+      <figure id="id1169455412512">
+        <media id="id1169455412512_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-cfa1.png" id="id1169455412512__onlineimage" height="600" width="650"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

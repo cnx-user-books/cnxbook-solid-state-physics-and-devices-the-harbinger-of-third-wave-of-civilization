@@ -1,0 +1,63 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 5_Process Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37357</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 5_Process Simulator</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Introduction to ATHENA 5 deals with specification of electrodes and saving the structure file.</md:abstract>
+  <md:uuid>efafc013-37ae-4c4b-b71a-7a6d94b55267</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169202215168">SSPD_Chapter 6_Part 7_Introduction to ATHENA2</para>
+    <para id="id1169241001609">SECTION 7.7 Background of ATHENAcontinued.</para>
+    <para id="id1169222628014">7.7.2. Creating Device Structure using ATHENA</para>
+    <para id="id1169218368207">7.7.2.8 Specification of Electrodes in ATHENA</para>
+    <para id="id1169209803094"> The ultimate goal of an ATHENA simulation is usually to create a device structure (material layers plus doping), which then can be used by a device simulator (usually ATLAS) for electrical characterization. Although ATLAS is able to specify the locations of electrodes, in many cases specifying electrodes must be done in ATHENA. For example, it is impossible to specify an electrode location in ATLAS when the electrode does not consist of straight segments. Also, when specifying electrodes in ATHENA, it is useful to transfer electrode layer information from layout to electrical tests in a device simulator </para>
+    <para id="id1169206588849"> ATHENA can attribute an electrode to any metal, silicide, or polysilicon region. A special case is the backside electrode, which can be placed at the bottom of the structure without having a metal region there. If you deposit 0.1 µm aluminum layer on the full structure after reflection using:</para>
+    <para id="id1169205019362">DEPOSIT ALUMIN THICK = 0.1</para>
+    <para id="id1169217949532">and etched the following part of the layer between x= -0.8 and x= 0.8, using the Any Shape specification in the Athena Etch Menu (See Figure 7.26):</para>
+    <para id="id1169224473373">ETCH ALUMINUM START X= -0.8 Y= -1.0</para>
+    <para id="id1169202040469">ETCH CONT X= -0.8 Y= 1.0</para>
+    <para id="id1169205841697">ETCH CONT X= 0.8 Y= 1.0</para>
+    <para id="id1169225541195">ETCH DONE X= 0.8 Y= -1.0</para>
+    <para id="id1169237485969">you will now have the structure shown in Figure 7.30</para>
+    <para id="id1169202620431"><figure id="id1169222671353"><media id="id1169222671353_media" alt=""><image mime-type="image/png" src="../../media/Picture 7-4a92.png" id="id1169222671353__onlineimage" height="326" width="584"/></media></figure> You can now use the ATHENA Electrode menu (see Figure 7.31) by selecting Commands→Structure→ Electrode.... </para>
+    <figure id="id1169200244162">
+      <media id="id1169200244162_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-1c0c.png" id="id1169200244162__onlineimage" height="275" width="406"/>
+      </media>
+    </figure>
+    <para id="id1169206151016">  To set an electrode at a specified position, select the Specified Position button, type in the X Position (e.g., -0.9) and Name (for example, source), and press the Write button. The following statement will appear in the input file:</para>
+    <para id="id1169205707296">ELECTRODE NAME=SOURCE X= -0.9</para>
+    <para id="id1169205182002">Similarly, specify the drain electrode:</para>
+    <para id="id1169233215861">ELECTRODE NAME=DRAIN X= 0.9</para>
+    <para id="id1169205660618">The polysilicon gate electrode specification has the same format. For this structure it can be done the same way as for source or drain:</para>
+    <para id="id1169205616513">ELECTRODE NAME= GATE X= 0.0</para>
+    <para id="id1169228093959">If the polysilicon layer is not the topmost layer at x=0, the Y Position can be specified. In this case, check the Y Position checkbox and type in a y coordinate within the polygate layer (e.g., -0.2). If Y is not specified and the electrode is not on top, ATHENA will look for the electrode in the underlying layers. If it fails, an error will be reported.</para>
+    <para id="id1169201957326">To specify a backside electrode, select Backside from the Electrode Type field and type in a name (see Figure 7.31) .</para>
+    <para id="id4849799">The following backside electrode statement will appear in the input file:</para>
+    <para id="id1169205577666">ELECTRODE NAME=BACK BACKSIDE</para>
+    <para id="id1169217240258">If an electrode name is not specified, DECKBUILD issues the error message: </para>
+    <para id="id1169234629088">NO ELECTRODE NAME SPECIFIED and the command is not written to the input file.</para>
+    <para id="id1169206230918">If an incorrect position for electrode is specified, for example:</para>
+    <para id="id1169215153052">ELECTRODE NAME=JUNK X=0.6</para>
+    <para id="id1169214548953">ATHENA will output the following warning message: Cannot find the electrode for this structure. Electrode statement ignored and ignores the statement.</para>
+    <para id="id1169227465395">
+      <emphasis effect="bold">7.7.2.9.</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">Saving a Structure File for Plotting or Initializing an ATHENA Input file for Further Processing</emphasis>
+    </para>
+    <para id="id1169203647720"><emphasis effect="bold"/>As mentioned in the “Standard Structure File Format” Section, the DECKBUILD history function saves structure files after each process step. In many cases, however, you need to save and initialize structures independently. There are several reason why it’s needed to save and initialize structures independently.</para>
+    <para id="id1169216473765"> The first reason is because the stack for the history files is limited (50 by default). The second reason is because it is usually undesirable to keep dozens of history files on disc (each of which occupy hundreds of Kbytes) after the DECKBUILD session ends. The third reason is because users often want to save the structure information generated after key process steps (e.g., final structure)</para>
+    <para id="id1169235115100"> To save or load a structure, use the ATHENA File I/O Menu (See Figure 7.32) by selecting Commands → File I/O.... Specify a file name (the file extension.str is recommended for all ATHENA structure files) and press the Save button. The following line will appear in the input file:</para>
+    <para id="id1169208785630">STRUCT OUTFILE=TUTOR.STR</para>
+    <para id="id1169205552852">You can reload this file (tutor.str) back into ATHENA at any time during the current DECKBUILD session or during any subsequent session. To reload the structure file, press the Load button on the ATHENA File I/O menu. The following INIT statement will appear:</para>
+    <para id="id1169202859379">INIT INFILE=TUTOR.STR</para>
+    <figure id="id1169208090156">
+      <media id="id1169208090156_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-888a.png" id="id1169208090156__onlineimage" height="275" width="482"/>
+      </media>
+    </figure>
+    <para id="id1169234653531">Note: Only the structure will be reloaded if ATHENA is restarted before this INIT statement. Any parameters or coefficients that were set during previous simulations must be reset if they are needed. This structure file can also be used by any device simulator or DEVEDIT.</para>
+  </content>
+</document>

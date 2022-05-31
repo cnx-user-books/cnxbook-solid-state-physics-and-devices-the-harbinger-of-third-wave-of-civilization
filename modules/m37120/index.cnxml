@@ -1,0 +1,89 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Class Test 1_25th_March_2011</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37120</md:content-id>
+  <md:title>Class Test 1_25th_March_2011</md:title>
+  <md:abstract>Apollo Guidance Computer used RTL_3-input-wide-NOR-Gate in Integrated Circuit form. In Class Test 1, students have been asked to design the layout of the circuit.</md:abstract>
+  <md:uuid>fa9b6e81-ccd5-4112-8da1-f5ebb9abfdfd</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170979399653">Class Test 1_25.02.2011</para>
+    <para id="id1170985451442">
+      <emphasis effect="bold">Give the design, layout and fabrication steps for the dual-3-INPUT wide RTL-NOR Gate as shown in the Figure 1. This IC Chip was used successfully in Apollo Guidance Computer.</emphasis>
+    </para>
+    <para id="id1170978481635">The <emphasis effect="bold">Apollo Guidance Computer</emphasis> (<emphasis effect="bold">AGC</emphasis>) provided onboard computation and control for guidance, navigation, and control of the <link url="http://en.wikipedia.org/wiki/Command_Module">Command Module</link> (CM) and <link url="http://en.wikipedia.org/wiki/Lunar_Module">Lunar Module</link> (LM) spacecraft of the <link url="http://en.wikipedia.org/wiki/Apollo_program">Apollo program</link>. It is notable for having been one of the first <link url="http://en.wikipedia.org/wiki/Integrated_circuit">IC</link>-based computers.</para>
+    <para id="id1170979490531">Each flight to the Moon (with the exception of Apollo 8, which didn't take a Lunar Module on its lunar orbit mission) had two AGCs, one each in the <link url="http://en.wikipedia.org/wiki/Apollo_Command/Service_Module">Command Module</link> and the <link url="http://en.wikipedia.org/wiki/Apollo_Lunar_Module">Lunar Module</link>. The AGC in the Command Module was at the center of that spacecraft's guidance &amp; navigation system (G&amp;C). The AGC in the Lunar Module ran its <link url="http://en.wikipedia.org/wiki/Apollo_PGNCS">Primary Guidance, Navigation and Control System</link>, called by the acronym <emphasis effect="bold">PGNCS</emphasis> (pronounced <emphasis effect="italics">pings</emphasis>).</para>
+    <para id="id1170979204854">The AGC was designed at the <link url="http://en.wikipedia.org/wiki/MIT_Instrumentation_Laboratory">MIT Instrumentation Laboratory</link> under <link url="http://en.wikipedia.org/wiki/Charles_Stark_Draper">Charles Stark Draper</link>, with hardware design led by <link url="http://en.wikipedia.org/wiki/Eldon_C._Hall">Eldon C. Hall</link>.<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-Hall-1996-0"><sup>[1]</sup></link> Early <link url="http://en.wikipedia.org/wiki/Computer_architecture">architectural work</link> came from J.H. Laning Jr., <link url="http://en.wikipedia.org/wiki/Albert_Hopkins_%28computer_scientist%29">Albert Hopkins</link>, <link url="http://en.wikipedia.org/w/index.php?title=Ramon_Alonso&amp;action=edit&amp;redlink=1">Ramon Alonso</link>,<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-mithist-1"><sup>[2]</sup></link><link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-ray_alonso_interview-2"><sup>[3]</sup></link> and <link url="http://en.wikipedia.org/w/index.php?title=Hugh_Blair-Smith&amp;action=edit&amp;redlink=1">Hugh Blair-Smith</link>.<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-3"><sup>[4]</sup></link> The flight hardware was fabricated by <link url="http://en.wikipedia.org/wiki/Raytheon">Raytheon</link>, whose <link url="http://en.wikipedia.org/w/index.php?title=Herb_Thaler&amp;action=edit&amp;redlink=1">Herb Thaler</link><link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-4"><sup>[5]</sup></link> was also on the architectural team.</para>
+    <para id="id1170981348761">The Apollo flight computer was the first to use <link url="http://en.wikipedia.org/wiki/Integrated_circuit">integrated circuits (ICs)</link>. While the Block I version used 4,100 ICs, each containing a single 3-input <link url="http://en.wikipedia.org/wiki/NOR_gate">NOR gate</link>, the later Block II version (used in the crewed flights) used 2,800 ICs, each with two 3-input NOR gates.<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-Hall-1996-0"><sup>[1]</sup></link><sup>:34</sup> The ICs, from <link url="http://en.wikipedia.org/wiki/Fairchild_Semiconductor">Fairchild Semiconductor</link>, were implemented using <link url="http://en.wikipedia.org/wiki/Resistor-transistor_logic">resistor-transistor logic</link> (RTL) in a <link url="http://en.wikipedia.org/wiki/Flatpack_%28electronics%29">flat-pack</link>. They were connected via <link url="http://en.wikipedia.org/wiki/Wire_wrap">wire wrap</link>, and the wiring was then embedded in cast <link url="http://en.wikipedia.org/wiki/Epoxy">epoxy</link> plastic. The use of a single type of IC (the dual NOR3) throughout the AGC avoided problems that plagued another early IC computer design, the <link url="http://en.wikipedia.org/wiki/LGM-30_Minuteman">Minuteman II</link><link url="http://en.wikipedia.org/wiki/D-37C">guidance computer</link>, which used a mix of <link url="http://en.wikipedia.org/wiki/Diode-transistor_logic">diode-transistor logic</link> and <link url="http://en.wikipedia.org/wiki/Diode_logic">diode logic</link> gates.</para>
+    <para id="id1170986207383">PGNC generated unanticipated warnings during <link url="http://en.wikipedia.org/wiki/Apollo_11#Lunar_descent">Apollo 11's lunar descent</link>, with the AGC showing a <emphasis effect="italics">1201 alarm</emphasis> ("Executive overflow - no vacant areas") and a <emphasis effect="italics">1202 alarm</emphasis> ("Executive overflow - no core sets").<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-8"><sup>[8]</sup></link> The cause was a rapid, steady stream of spurious <link url="http://en.wikipedia.org/wiki/Cycle_stealing">cycle steals</link> from the rendezvous radar, intentionally left on standby during the descent in case it was needed for an abort. <link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-9"><sup>[9]</sup></link><link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-10"><sup>[10]</sup></link></para>
+    <para id="id1170978511352">During this part of the approach the processor would normally be almost 85% loaded. The extra 6400 cycle steals per second added the equivalent of 13% load, leaving just enough time for all scheduled tasks to run to completion. Five minutes into the descent Buzz Aldrin gave the computer the command 1668 which instructed it to calculate and display DELTAH (the difference between altitude sensed by the radar and the computed altitude). This added an additional 10% to the processor workload causing executive overflow and a 1202 alarm. After being given the "GO" from Houston Aldrin entered 1668 again and another 1202 alarm occurred. When reporting the second alarm Aldrin added the comment "It appears to come up when we have a 1668 up". Happily for <link url="http://en.wikipedia.org/wiki/Apollo_11">Apollo 11</link> the AGC software had been designed with priority scheduling. Just as it had been designed to do, the software automatically recovered, deleting lower priority tasks including the 1668 display task, to complete its critical guidance and control tasks. Guidance controller <link url="http://en.wikipedia.org/wiki/Steve_Bales">Steve Bales</link> and his support team that included <link url="http://en.wikipedia.org/wiki/Jack_Garman">Jack Garman</link> issued several "GO" calls and the landing was successful. For his role, Bales received the US <link url="http://en.wikipedia.org/wiki/Presidential_Medal_of_Freedom">Medal of Freedom</link> on behalf of the entire control center team and the three Apollo astronauts.<link url="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer#cite_note-11"><sup>[11]</sup></link></para>
+    <para id="id1170980021260">
+      <figure id="id1170980045218">
+        <media id="id1170980045218_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-ccd9.png" id="id1170980045218__onlineimage" height="302" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170985684259">Figure 1.</para>
+    <figure id="id1170980496418">
+      <media id="id1170980496418_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-c0b3.png" id="id1170980496418__onlineimage" height="421" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170979772902">Figure 2 is the photomicrograph of the layout.</para>
+    <para id="id1170979984372">
+      <figure id="id1170987305794">
+        <media id="id1170987305794_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-73c1.png" id="id1170987305794__onlineimage" height="400" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170979238478">Figure 3.This is manually drawn several times magnified layout of the monolithic circuit.</para>
+    <list id="id1170979367420" list-type="bulleted">
+      <item>Deep Brown is the isolation boundary.</item>
+      <item>Navy Blue is the bonding pad.</item>
+      <item>Sky Blue is the metallization.</item>
+      <item>Golden yellow is the gold wire which is bonded to the peripheral bonding pad on one end and to the terminal of the IC package at the other end. This bonding is done either by Thermo-compression technique or by Ultra-sonic bonding technique. </item>
+      <item>The die or the individual chip is mounted on ceramic substrate by means of solder glass. The ceramic substrate is attached to a suitable header by means of a high temperature eutectic solder or the die can be mounted in all ceramic flat package.</item>
+      <item>The header is hermetically sealed by a suitable packaging material. </item>
+    </list>
+    <para id="id1170979925603">Design rules for Monolithic Circuit Layout.</para>
+    <list id="id2206951" list-type="enumerated" number-style="arabic">
+      <item>Redraw the circuit to satisfy the required pin connections with minimum crossovers.</item>
+      <item>Determine the number of isolation islands from collector potential consideration and reduce the area as much as you can.</item>
+      <item>Place all the resistances in the same isolation island and this isolated island must be returned to the most positive voltage.</item>
+      <item>Resistances are realized by an elongated strip of P diffusion in N-epi layer. In order that resistances may be isolated from N-epi layer and hence from one another, N-epi layer corresponding to the island containing the resistances must be at the most positive potential namely Vcc.</item>
+      <item>The substrate must be at the most negative potential. In this case the GROUND potential.</item>
+      <item>Allow the isolation border to be equal to twice the epilayer thickness.</item>
+      <item>Use 1-mil width for diffused N+ emitter region.</item>
+      <item>Use ½ mil width for base contact and spacing.</item>
+      <item>Use ½ mil width for collector contact and spacing.</item>
+      <item>For resistances use widest possible design.</item>
+      <item>Keep metallization short and wide.</item>
+    </list>
+    <para id="id1170982692304">Solution of the problem:</para>
+    <list id="id7790022" list-type="enumerated" number-style="arabic">
+      <item>Number of islands: Every distinct collector voltage will have one isolated island assigned to it. Here we have three transistors in one gate but at the same collector voltage therefore the two gates wil have two islands containing the two sets of three transistors.</item>
+      <item>This dual gate will have a third island which will be at the highest Positive Voltage Vcc and will contain the two sets of four resistances. Pin number 10 is connected to Vcc and is connected to the N-epilayer island containing all the resistances </item>
+      <item>The P<sup>-</sup> substrate will be held at the most negative voltage which in this case is Ground. Pin number 5 is the ground terminal and is connected to a bonding pad connected to the isolation boundary(deep brown colour) as shown.</item>
+      <item>The N-epilayer containing the transistors has one elongated N<sup>+</sup> diffusion to which Aluminum contact pad is made. This is the collector Contact Pad. This collector Contact Pad is connected to the Output Pad as well as to one end of the resistance R<sub>C</sub> .</item>
+      <item>Similarly emitter contact pads are connected together and connected to ground.</item>
+      <item>The base Contact Pads are connected to R<sub>B</sub>’s which in turn are connected to the three input pads.</item>
+      <item>Fabrication Steps are:</item>
+    </list>
+    <list id="id2065651" list-type="enumerated" number-style="lower-roman">
+      <item>Oxidation of the substrate of resistivity 10 Ω-cm.</item>
+      <item>Using Mask 1 , buried layer diffusion of Arsenic is done with sheet resistivity of 1 Ω/sq.</item>
+      <item>Oxide layer is completely etched away and epitaxial layer of N type Silicon is grown of resistivity 0.1Ω-cm.</item>
+      <item>Reoxidize and using Mask 2, isolation diffusion P-type is done to create isolated N-epi islands. Each island will contain BJTs or Diodes with collectors at one voltage.</item>
+      <item>Reoxidize and open windows by Mask 3 for Boron base diffusion and for Resistance diffusion (3R<sub>B</sub>s and R<sub>C</sub>). All the resistances are located on the island which has its N-epi layer at V<sub>CC</sub>.</item>
+      <item>Reoxidize and open windows by Mask 4 for Phosphorous emitter diffusion and for collector contact diffusion. Three separate emitters have to be defined and one elongated collector contact is defined.</item>
+      <item>Reoxidize and open apertures by Mask 5 for contact pads to 3 emitters, 3 bases and one elongated collector per gate. The contact pads are made to the two ends of the four resistances also per gate.</item>
+      <item>Final metallization is done covering the whole wafer and using Mask 6, the interconnection pattern is etched out as shown in Figure 3.</item>
+      <item>Golden yellow in Figgure 3 is the gold wire which is bonded to the peripheral bonding pad on one end and to the terminal of the IC package at the other end. This bonding is done either by Thermo-compression technique or by Ultra-sonic bonding technique. </item>
+      <item>The die or the individual chip is mounted on ceramic substrate by means of solder glass. The ceramic substrate is attached to a suitable header by means of a high temperature eutectic solder or the die can be mounted in all ceramic flat package.</item>
+      <item>The header is hermetically sealed by a suitable packaging material. </item>
+    </list>
+  </content>
+</document>

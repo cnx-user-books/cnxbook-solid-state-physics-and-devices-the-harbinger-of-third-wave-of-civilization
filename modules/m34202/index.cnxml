@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Crystal Growth-Bulk and Epitaxial Film-Part 3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34202</md:content-id>
+  <md:title>Crystal Growth-Bulk and Epitaxial Film-Part 3</md:title>
+  <md:abstract>Part 3 of crystal growth sums up the properties of Silicon, describes the identity marks of Silicon Wafers in terms of Semiconductor Type and in terms of Crystal Orientation and this part defines the crystal orientation and its relevance in IC fabrication.</md:abstract>
+  <md:uuid>97e00583-4fe2-4223-88d8-86d48f9f894d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1830625">CRYSTAL GROWTH</para>
+    <para id="id1164974427695"/>
+    <para id="id1164979370863"><emphasis effect="bold">Silicon, (Si)</emphasis>:The most common semiconductor, atomic number 14, </para>
+    <para id="id1164969516817">energy gap Eg= 1.12 eV- indirect bandgap; </para>
+    <para id="id1164970848081">crystal structure- diamond, lattice constant 0.543 nm, </para>
+    <para id="id1164980999654">atomic concentration 5 x 10<sup>22</sup> atoms/cm<sup>-3</sup>, </para>
+    <para id="id1164963056575">index of refraction 3.42, density 2.33 g/cm<sup>3</sup>, dielectric constant 11.7, </para>
+    <para id="id1164975240671">intrinsic carrier concentration 1.02 x 10<sup>10</sup> cm<sup>-3</sup>, </para>
+    <para id="id1164977047576">bulk mobility of electrons and holes at 300°K: 1450 and 500 cm<sup>2</sup>/V-s, </para>
+    <para id="id1164968975806">thermal conductivity 1.31 W/cm°C, </para>
+    <para id="id1164977693680">thermal expansion coefficient 2.6 x 10<sup>-6</sup>°C<sup>-1</sup>, </para>
+    <para id="id1164963945472">melting point 1414°C; excellent mechanical properties (MEMS applications); </para>
+    <para id="id1164967975157">single crystal Si can be processed into wafers up to 300mm in diameter. </para>
+    <para id="id1164972310759">In future this diameter will be 450mm.</para>
+    <para id="id1164963217206">P type= Always Boron (B) Doped N type= Dopant typically as follows:Res: .001-.005 Arsenic (As)Res: .005-.025 Antimony (Sb)Res: &gt;.1 Phosphorous (P)</para>
+    <para id="id1164977344720">EPITAXIAL CRYSTAL GROWTH</para>
+    <para id="id1164979144611">The substrate or the wafer only constitutes the strong base of the integrated circuit. The actual active and passive components fabrication and there integration are carried out in overlay films which are grown by epitaxial technique.</para>
+    <para id="id1164977850937">EPITAXY is a Greek word meaning : ‘epi’ (upon) &amp; ‘taxy’ (ordered). That is an epitaxial film, a few μm thick, is an orderly continuation of the substrate crystal. It grows very slowly layer by layer. Hence the dimension , defects and doping magnitude as well as uniformity can be precisely and accurately controlled in the crystal growth direction.</para>
+    <para id="id1164972733797">This precise control is obtained in Molecular Beam Epitaxy (MBE) but not in Liquid Phase Epitaxy(LPE) or in Chemical Vapour Phase Epitaxy (CVPE). The thickness accuracy is within ±3À which is essential for growing Quantum Photonic Devices namely Quantum Dots, Quantum Wells and Super-lattices</para>
+    <figure id="id1164973233500">
+      <media id="id1164973233500_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-7240.png" id="id1164973233500__onlineimage" height="397" width="553"/>
+      </media>
+    </figure>
+    <para id="id1164967984053">
+      <emphasis effect="bold">Table 2. Identity marks of the Wafer to identify its orientation and semiconductor type.</emphasis>
+    </para>
+    <table id="id1164964005140" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>α (angle between primary and secondary flats as indicated in Figure 9)</entry>
+            <entry>Type</entry>
+            <entry>Orientation</entry>
+          </row>
+          <row>
+            <entry>45º</entry>
+            <entry>N</entry>
+            <entry>&lt;111&gt;</entry>
+          </row>
+          <row>
+            <entry>90º</entry>
+            <entry>P</entry>
+            <entry>&lt;100&gt;</entry>
+          </row>
+          <row>
+            <entry>180º</entry>
+            <entry>N</entry>
+            <entry>&lt;100&gt;</entry>
+          </row>
+          <row>
+            <entry>0º</entry>
+            <entry>P</entry>
+            <entry>&lt;111&gt;</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164977964360">The normal to the plane along which crystals cleaves is the cleavage plane orientation. Suppose the cleavage plane orientation is &lt;111&gt;. Miller Index is being used to define the planes and their normal. Figure 10 illustrates the Plane’s Miller Index and how the normal to the plane is represented. If the exposed surface of the Si wafer, which is known as major flat, is parallel to cleavage plane then the given wafer has a crystal orientation &lt;111&gt;.</para>
+    <para id="id1164968688128">If the cleavage plane orientation is &lt;100&gt; and the wafer major flat is parallel to YZ plane then the crystal orientation is &lt;100&gt;. In this case cleavage plane lies in YZ plane i.e. [100] plane and its orientation is perpendicular to YZ plane i.e. x-axis. Hence Wafer Crystal Plane orientation is &lt;100&gt; </para><para id="id8452724">Scribing the wafer along cleavage planes allows it to be easily diced into individual chips (‘die”) so that billions of individual circuits or systems on an average wafer can be separated into individual dies. Each individual die is eutectic ally bonded on ceramic substrate. The substrate is bonded to the header.The gold wire is connected to the bonding pads of the die on one end and to the chip terminals on the header by Thermo-compression bonding or by Ultra-sonic bonding. Next the die is hermetically sealed into Dual-in-Line(DIP) package or TO5 package</para><para id="id1164972818287">In &lt;100&gt; crystal orientation, scribed pieces form rectangle whereas in &lt;111&gt; crystal orientation, scribed pieces form triangles. Here we have to scribe from the base of the triangle to the apex. </para><para id="id1164968747686">For MOS fabrications, wafers with crystal orientation &lt;100&gt; are used. This helps achieve a lower threshold voltage. For BJT and other applications wafers with orientation &lt;111&gt; are preferred.</para>
+    <para id="eip-831">Silicon Crystal Bulk is isotropic to diffusion of dopents  and to etchents  used for etching the oxide layer. This is because of the symmetric property of Cubic Structure of Si. But real devices are built near the surface hence the orientation of the crystal does matter. </para><para id="eip-998">In 111 crystal terminates on 111 plane and in 100 it terminates on 100 plane. 111 plane has largest number of Si atoms per cm2 whereas 100 has the least number of atoms per cm2. Because of this difference 111 planes oxidize much faster because the oxidation rate is proportional to the Silicon atoms available for reaction.</para><para id="eip-611">But because the atom surface density is the highest the dangling bond surface density is also the highest in 111 hence Si/SiO2 has superior electrical properties in terms of interface states in 100. Interface states give rise to 1/f noise or flicker noise. Because of this superiority all MOS devices use 100 crystal orientation. But historically BJT have used 111 because 111 crystal growth is easier to grow by Czochralski method. But as we move to sub-micron and deep and ultra-deep sub-micron BJT, 100 crystal orientation seems to be the crystal orientation of choice for BJT also.   </para><para id="id1164966297419">
+      <figure id="id1164988333952">
+        <media id="id1164988333952_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-1eb9.png" id="id1164988333952__onlineimage" height="596" width="509"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164964075202"/>
+  </content>
+</document>

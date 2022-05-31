@@ -1,0 +1,95 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_CHAPTER 1_Part10_ ELECTRON IN A SINGLE CRYSTAL SOLID AND BAND THEORY OF SOLID.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34261</md:content-id>
+  <md:title>SSPD_CHAPTER 1_Part10_ ELECTRON IN A SINGLE CRYSTAL SOLID AND BAND THEORY OF SOLID.</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 10_This section introduces the Band Theory of Solids. Electrons in free space occupy a continuum of states whereas in solid crystalline lattice electrons are permitted to occupy only certain bands of energy states alternated by forbidden zones of energy also referred to as Band Gap.</md:abstract>
+  <md:uuid>bec5fec0-18f2-4c9f-9da1-16b0745b60b4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165036292039">
+      <emphasis effect="bold">SSPD_CHAPTER 1_Part10_ ELECTRON IN A SINGLE CRYSTAL SOLID AND BAND THEORY OF SOLID.</emphasis>
+    </para>
+    <para id="id1165031703932"><emphasis effect="bold"/>All solids are present as crystals: either as single crystal or polycrystal or as amorphous.</para>
+    <para id="id1165026725879">In gases the molecules are independent of one another and they have no definite shape and no definite volume. They take the shape of the vessel and occupy the total volume of the vessel..</para>
+    <para id="id1165037295013">Liquids have definite volume but no definite shape. They take the shape of the vessel they occupy.</para>
+    <para id="id5291830">Solids are of definite shape and definite volume. In single crystal solids an unit cell of atoms are repeated in all three dimensions to generate the single crystal lattice structure. The unit cells can be cube, face-centered-cube(fcc), body-centered –cube (bcc), rhombic structure or tetrahedral structure.</para>
+    <para id="id1165036793984">In single crystals there is long range periodicity in one given orientation. In poly-crystals the periodicity gets interrupted at a short distance of micrometer. Thus poly-crystal is divided in domains. Each domain has its own orientation of periodicity.</para>
+    <para id="id1165032838881">Amorphous state has still shorter range of periodicity. Amorphous structure effects the energy band diagram also. In amorphous solids, the band edges are not sharply defined.</para>
+    <para id="id1165049220010">In Figure 1.39.a we illustrate the Single Crystal Structure. Silicon Single Crystal is tetrahedaral structure with 4 electrons in valence orbit completing co-valent bonds with 4 electrons of 4 Si atoms at the corner of the central Si atom. But at the surface of the crystal Si, atoms are not able to complete the co-valent bonds. The incomplete bonds, marked by broken lines, are referred to as ‘Dangling Bonds’. The dangling bonds give rise to surface states . These surface states play a crucial role in Solid State Devices. They can give rise to undesirable leakage current. They can give rise to fluctuating channel conductivity in MOSFET devices. The fluctuating channel conductivity gives rise to Flicker Noise or 1/f noise. These dangling bonds have to be passivated by growing SiO<sub>2</sub> layer. Hence Silicon Dioxide is referred to as Passivation Layer.</para>
+    <para id="id1165039427841">In Figure 1.39.b., we illustrate the poly crystal structure. Here we have short range single crystal domains separated by domain boundaries. Each domain has its own crystal orientation. Domain boundary gives rise to scattering and it lowers the mobility of the electron hole carriers. Polycrystal Si is not suitable for producing stable and reproducible devices. But in recent days Poly-Si have been used in selective manner in BJT and in MOSFET to improve the performance of the device as we have seen in the Prologue ( The Journey of IC Technology).</para>
+    <para id="id1165046018863">In Figure 1.39.c. we illustrate the amorphous Silicon. As seen they have very short range periodicity and they have many dangling bonds which will give rise to serious problems of reproducibility and stability in device fabrication.</para>
+    <para id="id1165030580752">In Figure 1.39.d. hydrogenated amorphous Silicon is shown. Here the dangling bonds have been terminated by Hydrogen co-valent bonds . Saturating the dangling bonds with hydrogenation improves the prospect of using H:a-Si in device fabrication.</para>
+    <figure id="id1165024494666">
+      <media id="id1165024494666_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6620.png" id="id1165024494666__onlineimage" height="585" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165029259846">
+      <figure id="id1165035461798">
+        <media id="id1165035461798_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-04c9.png" id="id1165035461798__onlineimage" height="889" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165027207982">In Figure 1.39.c. we see the unsaturated dangling bonds of Si Atoms. This makes the use of a:Si very unreliable in device fabrication.</para>
+    <para id="id1165037829550">In Figure 1.39.d. the same unsaturated dangling bonds have been terminated by Hydrogen valence-bond. This enhances the use of H:a-Si in device fabrication.</para>
+    <figure id="id1165051804654">
+      <media id="id1165051804654_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-8cda.png" id="id1165051804654__onlineimage" height="447" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165029095248">
+      <figure id="id1165039491758">
+        <media id="id1165039491758_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-bfe5.png" id="id1165039491758__onlineimage" height="459" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165038168680">
+      <emphasis effect="bold">Figure(1.39) The Three forms of crystalline structure: Single Crystal, Poly-crystal and Amorphous and the hydrogenated a-Si.</emphasis>
+    </para>
+    <para id="id1165033837091"><emphasis effect="bold"/>In a later Chapter, crystalline structure will be discussed in detail. Here we are concerned with Energy Band Diagram of single crystal.</para>
+    <para id="id1165029312259">An electron in free space can occupy a continuum of energy states given by the equation:</para>
+    <para id="id1165027222426">
+      <emphasis effect="bold">E = V(r) + p</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(2m) 1.81</emphasis>
+    </para>
+    <para id="id1165049218227">But an electron, orbiting around the nucleus of Hydrogen Atom, is permitted to have only discrete energy states as shown in Fig.( 1.40 a).</para>
+    <para id="id1165039447660">Equation 1.81 states that when electron is in free space it occupies a continuum of energy states as shown by the parabolic solid line in Figure 1.40.a.</para>
+    <para id="id1165027235134">But when the same electron is confined to a potential well, as it is in an Hydrogen atom, then it occupies only discrete energy states expressed by the equation:</para>
+    <para id="id1165039102992">
+      <figure id="id1165024438893">
+        <media id="id1165024438893_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-300c.png" id="id1165024438893__onlineimage" height="31" width="85"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2203320">This equation was discussed in a previous section Part 7 as Eq 1.35. In Figure 1.40.a it is marked as -13.6eV, -3.4eV, -1.51eV, -0.85eV and -0.544eV for principal quantum numbers n= 1, 2, 3, 4, and 5.</para>
+    <para id="id1165029418912">When atoms are arranged into a solid structure, valence and conduction electrons can occupy closely spaced permissible energy states. These permissible energy states are so closely spaced that they appear as a continuous band of permissible energy states. These energy bands are interrupted with energy band gaps. The energy band gaps are forbidden energy states where electrons are not permitted.</para>
+    <para id="id1165046057913">The discrete energy states of an electron in a single atom and the permissible energy bands of valence and conduction electrons in a single crystal solid – conductor and insulator are shown in Figure (1.40a,b and c).</para>
+    <para id="id3348768">Figure 1.40.b. gives the energy band diagram of a conducting solid. As seen in the Figure, conduction band is partially filled and the upper edge of the partially filled band is Fermi Energy Level (E<sub>F</sub>). This means Fermi Energy Level is located within the the conduction band. Lower edge of the conduction band is called E<sub>C</sub> and upper edge of the valence band is E<sub>V</sub>. Because of available empty energy states in the conduction band, a conductor supports an electric drift current. This is why it is called a conductor.</para>
+    <para id="id1165026691322">Figure 1.40.c gives the energy band diagram of an insulator . As seen from the diagram, conduction band is fully empty and valence band is completely filled up. Fermi Energy Level lies exactly in the middle of the Band Gap. If the band gap is greater than 5eV it is a perfect insulator but if E<sub>F</sub> &lt; 5eV then it is a semiconductor above 77Kelvin and below 77Kelvin it continues to be insulator.</para>
+    <para id="id1165049610234">
+      <figure id="id1165036923771">
+        <media id="id1165036923771_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-7662.png" id="id1165036923771__onlineimage" height="562" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165043550515">
+      <media id="id1165043550515_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-a44d.png" id="id1165043550515__onlineimage" height="266" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165049454809">
+      <figure id="id1165030162165">
+        <media id="id1165030162165_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-980c.png" id="id1165030162165__onlineimage" height="297" width="650"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Conclusion of CMOS Flow Process</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37112</md:content-id>
+  <md:title>Conclusion of CMOS Flow Process</md:title>
+  <md:abstract>SSPD_Chapter6_Part6_concluded gives the back end processing of an IC chip. This describes the multilevel metal inteconnects for completing the circuit connections of the active devices and encapsulation of the finished IC with passivating layer for the final  packaging.</md:abstract>
+  <md:uuid>adb2df47-3f2f-4cdb-b8e5-6d64893ce6a4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164355335138">SSPD_Chapter 6_Part 6_MOS IC Fabrication_concluded</para>
+    <para id="id7146073">6.6.5. Contact and Local Interconnect Formation.</para>
+    <para id="id1164356146249">A means of interconnecting the components on the wafer has to be found out and a means of bringing the input and output pads of the Silicon Chip to the external pins of the IC package has to be devised. At the present state of art of IC Technology, three levels of interconnections are provided. Lowest level is called Local Interconnects.</para>
+    <para id="id1164351056142">The first step in this direction is to remove the oxide from the contact pads of Source, Drain and Gate. No mask is required for this step. Just a short dip in HF acid removes the screen oxide, 10nm thick. This step is shown in Figure 6.71.</para>
+    <figure id="id8820756">
+      <media id="id8820756_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-6cc0.png" id="id8820756__onlineimage" height="308" width="432"/>
+      </media>
+    </figure>
+    <para id="id1164353282171">Next the whole wafer is covered with Titanium by sputtering as shown in Figure 6.72. The metal layer is shown n black. The thickness of Ti is 50 to 100nm. Sputtering is one of the Physical Vapour Depositon technique. In a sputtering system, the desired material (Ti in this case) are physically knocked off a solid target with Ar<sup>+</sup> ions. The Ti atoms are uniformly deposited. We will give the details of Physical Vapour Depositon in the next section.</para>
+    <para id="id1164356188532">Next the wafers are heated in N<sub>2 </sub>ambient at 600 to 700°c for about 1 minute. There two kinds of reactions:</para>
+    <para id="id1164352711753">First is Ti + 2Si → TiSi<sub>2</sub> where Ti is in contact with Si or Poly-Si. Titanium Salicide (TiSi<sub>2</sub>) is an excellent conductor and shown in navy blue in Figure 6.73. TiSi<sub>2</sub> forms the very low resistance contact pads to source, drain and gate.</para>
+    <para id="id1164351416776">Second is Ti + N→TiN where there is no contact with Si. . It is shown as light blue in Figure 6.73. TiN <sub/>is also a conductor but not as good as metal hence used as ‘local’ interconnect. Long interconnects of TiN will cause unacceptable RC delays.</para>
+    <figure id="id1164350415645">
+      <media id="id1164350415645_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1a83.png" id="id1164350415645__onlineimage" height="271" width="394"/>
+      </media>
+    </figure>
+    <figure id="id1164353307086">
+      <media id="id1164353307086_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-235f.png" id="id1164353307086__onlineimage" height="320" width="421"/>
+      </media>
+    </figure>
+    <para id="id1164353735312">Mask 11 is used for etching out the local interconnect pattern as shown in Figure 6.74. Where SiN<sub>2</sub> is to be retained is protected by 200nm thick exposed KPR. Elsewhere KPR is removed by developer. Exposed KPR is annealed so as to become 100% resistant of the etchant. Next the wafer is dipped in Ammonium Hydroxide:Hydrogen Peroxide: Water solution in mass ratio of 1:1:5. This etchant etches away the exposed SiN. Thus we get the desired local interconnect pattern as shown in Figure 6.75. Hardened KPR is stripped away either by organic solvent or by O<sub>2</sub> plasma etching. After KPR stripping, we heat it in an inert ambient at 800°C for 1 minute. This reduces the sheet resistance of TiN and TiSi<sub>2</sub> to the final value of 10Ω/sq and 1Ω/sq.</para>
+    <para id="id1164353760324"/>
+    <figure id="id1164356321339">
+      <media id="id1164356321339_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-79a1.png" id="id1164356321339__onlineimage" height="374" width="393"/>
+      </media>
+    </figure>
+    <figure id="id1164353501668">
+      <media id="id1164353501668_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-ac06.png" id="id1164353501668__onlineimage" height="276" width="400"/>
+      </media>
+    </figure>
+    <para id="id1164352610704">
+      <emphasis effect="bold">6.6.6. Multilevel Metal Interconnect Formation- The Back-End Process.</emphasis>
+    </para>
+    <para id="id1164355304469"><emphasis effect="bold"/>After making the local interconnect we have to make the second level interconnect(metal level1) and third level interconnect (metal level2). For this we do confomal deposition of SiO<sub>2</sub> over the portion shown in Figure 6.76. This is done by CVD or LPCVD. This is thick layer of SiO<sub>2</sub> 1 micron thick. This helps cover up the undulations on the local interconnect level. If these undulations or non-planar nature of the first level interconnect is not evened out then it is going to give rise to serious reliability problem in the subsequent interconnections. This thick layer of conformally deposited Oxide is doped with Phosphorous or with Phosphorous+Born combined resulting in PhosphoSilicate Glass(PSG) and BoroPhosphoSilicate(BPSG) respectively. In some cases an undoped SiO<sub>2</sub> layer is added on top of PSG or BPSG.</para>
+    <figure id="id1164355291751">
+      <media id="id1164355291751_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-569d.png" id="id1164355291751__onlineimage" height="371" width="472"/>
+      </media>
+    </figure>
+    <para id="id1164352808545">Phosphorous has been added to protect the active devices from Na<sup>+</sup> ions and Boron has been added so that the glass can reflow at a lower temperature. This heat cycle and reflow is required to even out the undulations after conformal deposition. But even after this reflow the undulations are not completely removed and planarization problem remains.</para>
+    <para id="id1164353525735"> Planarization is done either by resist etchback technique or by CMP method. Resist etchback technique is as follows: </para>
+    <para id="id1164352513285"> In resist etchback technique we spin KPR over the entire wafer surface creating a plane KPR surface at the top. All the hills and valleys are filled and a horizontal level of KPR is left at the top. Remember water seeks its own level. Now we can find a Oxygen Plasma etching combination which etches SiO<sub>2</sub> and KPR with equal ease. Allow this physical etching to continue until the lowest level in SiO<sub>2</sub> is reached. At this point stop the etching. In effect we have achieved complete planarization as shown in Figure 6.77.</para>
+    <para id="id1164353863249"> In CMP method the wafer is put face down on a polishing machine and it is polished flat in a high-pH silica slurry. This also results in same planar surface as shown in Figure 6.77.</para>
+    <para id="id1164352439155">
+      <figure id="id1164355447289">
+        <media id="id1164355447289_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-9a92.png" id="id1164355447289__onlineimage" height="313" width="426"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164353575233">
+      <emphasis effect="bold">6.6.6.1. Vias between Metal Level_1 and contact pads of the Active Devices.</emphasis>
+    </para>
+    <para id="id8562615">We use Mask 12 to define the vias through which contacts will be made between Metal Lavel_1 and contact pads of the Active Devices as shown in Figure 6.78.</para>
+    <figure id="id1164353188671">
+      <media id="id1164353188671_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-bd48.png" id="id1164353188671__onlineimage" height="423" width="443"/>
+      </media>
+    </figure>
+    <para id="id1164352247831">After making the windows selectively through Mask 12, we etch SiO<sub>2</sub> in a plasma. After selectively etching the oxide in the vias, the fixed KPR is stripped off by oxygen plasma etching. We get the structure as shown in Figure 6.79.</para>
+    <figure id="id5507855">
+      <media id="id5507855_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-d169.png" id="id5507855__onlineimage" height="309" width="404"/>
+      </media>
+    </figure>
+    <para id="id1164350277028">We wish to maintain the planar surface as we add Metal Level 1 and Metal Level 2. There are many process flows for doing this but the commonest process flow is as follows:</para>
+    <para id="id1164352385723">A few tens of nm thick Ti/TiN bilayer is blanket deposited over the entire wafer area. This can be done by sputtering or by CVD. This bilayer provides a good adhesion to the SiO<sub>2</sub> and other underlying areas materials present in the structure at this point. The TiN acts as a barrier layer between upper Metal Level 1 and lower Local Interconnect layers ewhich connect the active devices. After the bilayer deposition we do tungsten(W) blanket layer deposition by CVD. A typical reaction might be:</para>
+    <para id="id1164352414202">WF<sub>6</sub> +3H<sub>2</sub> → W + 6HF</para>
+    <para id="id1164352506615">The resulting structure is shown in Figure 6.80. We do CMP to remove W and Ti/TiN from all the portions except the vias as shown in Figure 6.81. The resulting plane surface will be the base over which the metal layer will be deposited and interconnection pattern of first Metal layer will be etched out.</para>
+    <para id="id1164351411509">Next Metal deposition is done on the entire wafer surface as shown in Figure 6.82.. The metal is Aluminum. Aluminum has a small percentage of Si and small percentage of Cu. Si is soluble in Al and if Si is not present in the Metal Layer it will be absorbed from underlying Si rich layers. Absorption may cause contact problems as well as reliability problems. Hence it is preferred to consciously add Si to Metal Layer 1. Cu is added to prevent electronmigration from Al thin films. Electronmigration will lead to break in the interconnection and hence create yield problem. Electron flow in te metal line , over time, can cause the metal atoms to migrate along crystal grain boundaries or along the metal/dielectric interfaces in quasi-random manner. Voids may develop in the metal lines as a result and cause the line resistance to increase or even become open circuited. So Copper has replaced Al as the interconnect material in advanced ICs.</para>
+    <para id="id1164356138686">Copper has excellent electronmigration reliability and 40% lower resistance than Al. Copper may be deposited by plating or CVD. Because dry etching of Cu is difficult, copper patterns are defined by a damascene process. This will be discussed in a later section.</para>
+    <para id="id1164354312695">Al Metal Layer is shown in light sky blue colour. By photolithography technique and Mask 13 the interconnection pattern in the Metal Level 1 is etched out as shown in Figure 6.83.</para>
+    <figure id="id1164351266980">
+      <media id="id1164351266980_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-5729.png" id="id1164351266980__onlineimage" height="406" width="397"/>
+      </media>
+    </figure>
+    <para id="id1164353242472">
+      <figure id="id1164352280411">
+        <media id="id1164352280411_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-cd52.png" id="id1164352280411__onlineimage" height="324" width="410"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164352379618">
+      <figure id="id1164353720647">
+        <media id="id1164353720647_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-2eb3.png" id="id1164353720647__onlineimage" height="326" width="384"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8715880">
+      <figure id="id1164352422865">
+        <media id="id1164352422865_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-5018.png" id="id1164352422865__onlineimage" height="411" width="381"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164353663570"> After the Metal Interconnect Pattern has been etched out, fixed KPR is stripped and again the entire wafer surface is covered with CVD Oxide layer. This Oxide layer is planarized, vias are defined by Mask 14 and vias are etched out. Now Metal Layer 2 is deposited again by sputtering and interconnect pattern is defined using Mask 15 and the redundant portion of the Metal is etched out by plasma etching. The final interconnect pattern is covered by Pasivation layer either of SiO<sub>2</sub> or Si<sub>3</sub>N<sub>4</sub>. This top layer is used to protect the chip during mechanical handling while packaging. This passivation layer will also protect against ambient contamination (Na<sup>+</sup> and K<sup>+</sup>).</para>
+    <para id="id1164355197270"> After the final processing step, the wafer is subjected to a low level thermal cycle of 400 to 450°C for about 30 minutes in forming gas (10% H<sub>2</sub> in N<sub>2</sub>). This helps alloy the metal contacts to the contact pads through vias. This also helps reduce the electrical charges associated with Si/SiO<sub>2</sub> interface. The resulting structure is shown in Figure 6.84.</para>
+    <para id="id8220249"> “To bulid complex and dense circuits , <emphasis effect="bold">the multi-level metallization </emphasis>structure shown in Figure 6.84 is routinely employed. Up to about 10 metal layers may be used. The metal thickness may range from a small fraction of a micron to several; microns. The thinner interconnects route signals while the thicker layers serve as power lines.”</para>
+    <para id="id1164354951430"> “The dielectric material between the metal layers used to be SiO<sub>2</sub>. It has been supplemented with <emphasis effect="bold">low-k dielectrics</emphasis> which often contain carbon or fluorine, and are designed to have much lower dielectric constants(k) than SiO<sub>2</sub>. Lower k leads to lower capacitances between interconnects. This is highly desirable because capacitance in a circuit slows down the circuit speed, raises power consumption and introduces <emphasis effect="bold">cross talk</emphasis> between neighboring interconnect lines.</para>
+    <para id="id1164354409682"> Since a large number of metal layers and process steps are involved, making the interconnects <emphasis effect="italics">consumes a large part of the IC fabrication budget</emphasis>. This part of the fabrication process is called the <emphasis effect="bold">back-end process</emphasis>. In contrast , the steps used to produce the transistors are called the <emphasis effect="bold">front-end process</emphasis>.”</para>
+    <para id="id1164356337694">[ The quotes have been taken from the following book:</para>
+    <para id="id7797501">“Modern Semiconductor Devices for Integrated Circuits” by Chenming Calvin Hu, Pearson 2010]</para>
+    <para id="id8919128"/>
+    <figure id="id1164354333992">
+      <media id="id1164354333992_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-577e.png" id="id1164354333992__onlineimage" height="519" width="607"/>
+      </media>
+    </figure>
+  </content>
+</document>

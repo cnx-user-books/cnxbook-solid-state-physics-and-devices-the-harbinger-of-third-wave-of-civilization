@@ -1,0 +1,185 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD-Experiment Number 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50958</md:content-id>
+  <md:title>SSPD-Experiment Number 2</md:title>
+  <md:abstract>This experiment introduces the students to the Frequency Domain Response and Time Domain Response of RC circuit once configured as Low Pass Filter and once configured as High Pass Filter.</md:abstract>
+  <md:uuid>e4406755-3c15-47e6-806e-09f959eab39b</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164856400696">
+      <emphasis effect="bold">Experiement -2</emphasis>
+    </para>
+    <para id="import-auto-id1164847238386">
+      <emphasis effect="bold">2.1. Aim</emphasis>
+    </para>
+    <para id="import-auto-id1164846847145">-To study the time domain and frequency domain response of RC circuit which is a first order system .</para>
+    <para id="import-auto-id1164850191931">[The number of independent energy storage elements decide the order of the system. In a parallel or series LC resonance circuit the order is two. The order of a system gives the number of natural frequencies of the system. In first order system there is one natural frequency. This natural frequency decides rise-time/fall-time or the sag transients in TIME DOMAIN RESPONSE while it decides the cut-off frequency/-3dB frequency/0.707 frequency/half power frequency/corner frequency  in Frequency Domain Response ]</para>
+    <para id="import-auto-id1164847908605">
+      <emphasis effect="bold">2.2. Apparatus</emphasis>
+    </para>
+    <para id="import-auto-id1164848083510">- digital storage oscilloscope, breadboard, function generator.</para>
+    <para id="import-auto-id1164852689605">
+      <emphasis effect="bold">2.3 Theory</emphasis>
+    </para>
+    <para id="import-auto-id1164855396342"> – </para>
+    <list id="import-auto-id1164846607260" list-type="enumerated" number-style="lower-roman" mark-prefix="(">
+      <item>The steady state sinusoidal response of the system under consideration is the Frequency Domain Response of the system. </item>
+    </list>
+    <para id="import-auto-id1164851961245">Transfer Function of a system = H(jω) = V<sub>out</sub>(jω)/ V<sub>in</sub>(jω).</para>
+    <para id="import-auto-id1164847696896">This has a magnitude as well as a phase. The plot of the magnitude of H(jω) with respect to frequency is the Magnitude Frequency Response and Phase vs Frequency is Phase Frequency Response.</para>
+    <list id="import-auto-id7121105" list-type="enumerated" number-style="lower-roman" mark-prefix="(">
+      <item>The time domain response is the square wave response of the system</item>
+    </list>
+    <para id="import-auto-id7119573"><emphasis effect="bold">2.4. High pass RC circuit</emphasis> (as shown in Figure 1.a.)  </para>
+    <para id="import-auto-id1164846553985">The reactance of the series capacitance is given as</para>
+    <para id="import-auto-id1164847695646">
+      <figure id="import-auto-id1164847662740">
+        <media id="import-auto-id1164846605314" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-1a51.png" height="31" width="60"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="import-auto-id1164847841426"> With increase in frequency, the reactance of the series capacitor decreases and therefore the transmission increases with frequency. At very high frequency the capacitive reactance become negligible so the output becomes almost equal to the input and transmission becomes 100%. Since the circuit attenuates the low frequency signals and allows transmission of high frequency signals with little or no attenuation, it is called high pass circuit. This circuit is widely employed as a coupling circuit in RC-coupled Amplifier. This helps isolate the Q-point of the Amplifier by the loading effect of the Source and the Load of the Amplifier. </para>
+    <para id="import-auto-id1164847364708">The voltage transfer function  referring to Figure 1.a. </para>
+    <figure id="import-auto-id1164847497059">
+      <media id="import-auto-id1164847844639" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-6cd8.png" height="29" width="280"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164853293426">
+      <emphasis effect="bold"/>
+      <figure id="import-auto-id1164855389412">
+        <media id="import-auto-id1164846804056" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-6141.png" height="37" width="215"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="import-auto-id1164847844032">
+      <media id="import-auto-id1164854434809" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-ab32.png" height="19" width="236"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164856156211">
+      <media id="import-auto-id1164856173754" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-2e85.png" height="30" width="101"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164847683144">
+      <media id="import-auto-id1164847789935" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-b0a3.png" height="47" width="287"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164846848826">
+      <media id="import-auto-id1164846858104" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-7fc8.png" height="53" width="602"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164846601457">
+      <media id="import-auto-id1164846605782" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-55d6.png" height="19" width="3"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id7123109">
+      <media id="import-auto-id1164849170058" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-3565.png" height="19" width="262"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164847645436">
+      <media id="import-auto-id1164846606743" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-08d1.png" height="40" width="592"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164846884901">
+      <emphasis effect="bold"/>
+      <figure id="import-auto-id1164847466012">
+        <media id="import-auto-id1164847365103" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-d0ea.png" height="29" width="355"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1164847841104">Equation 4 indicates that at low frequency the magnitude of the transfer function increases at +20dB per decade as shown in Figure 1.b.</para>
+    <para id="import-auto-id1164847880876">
+      <emphasis effect="bold">Figure 1.(i) Magnitude of the transfer function in dB(decibels) vs Frequency(logarithmic scale) of High Pass Filter(HPF)</emphasis>
+    </para>
+    <para id="import-auto-id1164855397526">
+      <emphasis effect="bold">(ii) Phase of the transfer function in dB(decibels) vs Frequency(logarithmic scale)of HPF.</emphasis>
+    </para>
+    <para id="import-auto-id1164846515543">
+      <emphasis effect="bold">The two plots together are known as Bode Plot.</emphasis>
+    </para>
+    <para id="import-auto-id1164847869584">
+      <emphasis effect="bold">Figure 2. The Time domain response of High Pass Filter for three cases: (i) When T &lt;&lt; τ  (ii) When  T &gt;&gt; τ and (iii) when T  ≈ τ .</emphasis>
+    </para>
+    <para id="import-auto-id1164847744960">From the 10% sag frequency the lower cut-off frequency can be directly calculated.</para>
+    <para id="import-auto-id1164847261022">Suppose the 10% sag frequency is f* then we have the following formulation:</para>
+    <figure id="import-auto-id1164846605815">
+      <media id="import-auto-id1164847721128" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-b069.png" height="35" width="457"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164847857864">
+      <emphasis effect="bold">2.5. Low Pass Filter (shown in Figure 3)</emphasis>
+    </para>
+    <para id="import-auto-id1164853559116">
+      <emphasis effect="bold">
+        <emphasis effect="italics"/>
+      </emphasis>
+      <emphasis effect="bold">Figure 3.</emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics"/>
+      </emphasis>
+      <emphasis effect="bold">RC Circuit configured as Low Pass Filter.</emphasis>
+    </para>
+    <para id="import-auto-id1164847660486">
+      <emphasis effect="bold">Figure 4. Time Domain Response of Low Pass Filter.  </emphasis>
+    </para>
+    <para id="import-auto-id1164846554387">The fourth  figure in Figure 4  is for  T &lt;&lt; τ. In this case we get the mean value only. The square wave is lost.So at very high frequencies, LPF acts as INTEGRATOR.</para>
+    <para id="import-auto-id1164847714479">The frequency domain analysis is given below with reference to Figure 3:<emphasis effect="bold"/></para>
+    <figure id="import-auto-id1164847813912">
+      <media id="import-auto-id1164846601367" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-3fb5.png" height="56" width="479"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164846602451">
+      <media id="import-auto-id1164846663979" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-59d0.png" height="41" width="479"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164847381932">
+      <media id="import-auto-id1164846840579" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-146a.png" height="77" width="602"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164848121531">
+      <emphasis effect="bold">Figure 5. Frequency Domain Response of LPF.</emphasis>
+    </para>
+    <para id="import-auto-id1164847492026">In Figure 4 for cases T ~ τ, we get RISE TIME and FALL TIME at the LEADING and LAGGING EDGE of the Square Wave.</para>
+    <para id="import-auto-id1164855390019">Rise Time = t<sub>r</sub> = time taken to rise from 10% of the peak value of the square wave to 90% of the peak value of the square wave at the leading edge.</para>
+    <para id="import-auto-id1164846554281">Similarly Fall Time = t<sub>f = </sub>time taken to fall from 90% of the peak value of the square wave to 10% of the peak value of the square wave at lagging edge.</para>
+    <para id="import-auto-id1164847662168">
+      <emphasis effect="bold">It can be shown that:</emphasis>
+    </para>
+    <para id="import-auto-id1164846607088">
+      <figure id="import-auto-id1164847488274">
+        <media id="import-auto-id1164846897259" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-0893.png" height="20" width="475"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="import-auto-id1164846649596">Thus from Time Domain Studies the frequency Band-Width of a System can be calculated directly without going through the rigour of drawing the Frequency Response Graphs.</para>
+    <para id="import-auto-id1164846942451">
+      <emphasis effect="bold">APPENDIX: Frequency Spectrum of Infinite Pulse Train.</emphasis>
+    </para>
+    <para id="import-auto-id1164847474160">
+      <emphasis effect="bold">Figure A. Frequency Spectrum of an Infinite Pulse Train.</emphasis>
+    </para>
+    <para id="import-auto-id1164846608328">In Figure A, in upper half an infinite pulse train is depicted with Pulse Repetition Frequency(PRF) of (1/T) Hz where T= time period of periodicity and τ is the pulse duration and τ/T is duty cycle. In Square wave duty cycle is 50%. In the pulse train shown above T=4τ. As can be seen in the Fourier Series Expansion of the infinite pulse train, the DC spectral component is the mean value (V<sub>p</sub>τ/T) and the fundamental frequency component (1/T Hz) and the harmonics spectral component magnitude follows the envelope described by Sinc(θ)= [Sin(θ)/θ ] where θ= [2πn(τ/T)] where n=1,2,3....integers. The Sinc Envelope experiences the first Zero-cross over at frequency = 1/τ and second cross-over at 2/τ.</para>
+    <para id="import-auto-id1164847847067">This means Fourier Spectral Components has a main lobe of frequency components and side-lobes of frequency components. As long as the System’s BW accommodates the main lobe we will get near-faithful reproduction of the pulse train. But if the main lobe gets suppressed then the pulse train will be completely lost.</para>
+    <para id="import-auto-id1164846871639">In LPF, when T &lt;&lt; τ then the fundamental 1/T is &gt;&gt; first cross-over frequency hence the main lobe is completely suppressed and the square wave is completely lost. What is left after filtering is the DC component since it is direct-coupled system.</para>
+    <para id="import-auto-id1164849167381">Similarly in HPF, when T &gt;&gt; τ then the fundamental 1/T &lt;&lt; 1/τ and since it is HPF hence the main lobe gets completely suppressed. What is left are the spikes corresponding to the edges of the pulse train. The pulse train itself is completely lost..</para>
+  </content>
+</document>

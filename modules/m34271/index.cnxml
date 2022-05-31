@@ -1,0 +1,371 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_CHAPTER 1_Part10_ Concluded_Kronig-Penney Model</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34271</md:content-id>
+  <md:title>SSPD_CHAPTER 1_Part10_ Concluded_Kronig-Penney Model</md:title>
+  <md:abstract>Chapter 1_Part10_Conclusion describes the theoretical basis of Energy Band Theory of Solids by analyzing Kronig-Panney Model which idealizes 1-D crystalline array and determines the Schrodinger Equation Solution in 1-D array of square wells.</md:abstract>
+  <md:uuid>56fc5eaa-e47d-4664-a3c6-9f60f4153102</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1163795632861">
+      <emphasis effect="bold">SSPD_Chapter 1_Part10_concluded_ ENERGY BAND THEORY IN A SOLID BASED ON KRONIG-PENNEY MODEL.</emphasis>
+    </para>
+    <para id="id1163817913922">Kronig-Penney model is 1-D array of square wells as shown in Figure 1.44.. This is 1-D idealization of a linear array of atoms in a single crystal lattice structure. The solution of Schrodinger Equation using this array of Square wells becomes more tractable and it still brings out the important features of the quantum behavior of electrons in real life crystalline periodic lattice.</para>
+    <para id="id1163801764576">There are four assumptions in Kronig-Penney Model analysis namely:</para>
+    <list id="id1163777012210" list-type="enumerated" number-style="arabic">
+      <item>Electron interaction with the core is purely coulombic ;</item>
+      <item>Electron to electron interaction is precluded;</item>
+      <item>Non-ideal effects, such as collisions with the lattice and the presence of impurities, are neglected;</item>
+      <item>Atoms are fixed in position whereas they are having thermal vibrations. </item>
+    </list>
+    <figure id="id1163802762777">
+      <media id="id1163802762777_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-d02e.png" id="id1163802762777__onlineimage" height="299" width="649"/>
+      </media>
+    </figure>
+    <para id="id1163811306079">
+      <emphasis effect="bold">Figure 1.44. Kronig-Penny Model of a linear array of atoms in a single crystal solid. </emphasis>
+    </para>
+    <para id="id1163784709724"><emphasis effect="bold"/>The solution of Schrodinger Equation can be arrived at mathematically but for simplicity of presentation we will discuss the problem in qualitative terms only.</para>
+    <para id="id1163792893013">Study of electron in a crystalline structure is really the study of an electron in a periodically varying potential field. For simplicity of analysis we assume a linear array of </para>
+    <para id="id1163799667791">atoms . The crystal length is L cm. Let Z-axis be the longitudinal axis and let the crystal be repeated along the Z-axis with a period of L cm from - ∞ to + ∞ . Along X-axis and Y-axis it is of infinite length. So we have a semi-infinite crystal of finite length L cm in Z-axis. For the ease of calculation we assume that crystal is repeated along z-axis at L cm.</para>
+    <para id="id1163786744857">Since we have assumed a periodic crystalline structure along Z axis therefore the solution of the Schrodinger Equation is applicable only in the bulk and not at the boundaries of the crystal.</para>
+    <para id="id1163779921460">We will assume that L cm = 1cm =1×10<sup>-2</sup>m. The crystal structure is referred to as the lattice. The atoms of the crystal are referred to as the lattice centers. The distance between two consecutive lattice centers is referred to as the lattice constant ‘a’ Å. A typical lattice constant is 2 Å. Therefore the linear array contains L/a = 1×10<sup>-2</sup>m/2×10<sup>-10</sup>m = 5×10<sup>7 </sup>atoms in one period. Let this number be N i.e. N= 5×10<sup>7</sup> .</para>
+    <para id="id1163777409787">We have a periodically varying potential field along the linear array with a periodicity of ‘a’ Å hence the Fourier Series Expansion of the potential is:</para>
+    <para id="id1163798893358">
+      <figure id="id1163778614336">
+        <media id="id1163778614336_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-5696.png" id="id1163778614336__onlineimage" height="31" width="236"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">  1.83</emphasis>
+    </para>
+    <para id="id1163789762133">The potential field has a period of ‘a’ Å hence 2π/a is the fundamental periodicity and the harmonics are 2(2π/a) , 3(2π/a) , 4(2π/a) …………………..m(2π/a)</para>
+    <para id="id1163788522403">In the periodic potential field following is the Schrodinger Equation for time independent part:</para>
+    <para id="id1163818198699"><emphasis effect="bold">∂</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">ψ/∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ [{2m(E-V(z))}/ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> ]ψ = 0............ 1.84</emphasis>
+    </para>
+    <para id="id1163785946820">If we had assumed that our very wide potential well was flat bottomed with V(z) = 0 everywhere along the potential box then the solution of the Schrodinger Equation would be a progressive wave as would be obtained for free space:</para>
+    <para id="id1163796202541"><emphasis effect="bold">That is ψ(z,t) = ψ</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">Exp[j(ωt-kz)]................. 1.85</emphasis>
+    </para>
+    <para id="id1163795063879">An electron in 1-D potential box of width dimension L will follow the boundary conditions as given in the table and as shown in Figure 1.13(electron in a infinite potential well).</para>
+    <table id="id1163793875536" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>k1</entry>
+            <entry>k2</entry>
+            <entry>k3</entry>
+            <entry>k4</entry>
+          </row>
+          <row>
+            <entry>L</entry>
+            <entry>λ/2</entry>
+            <entry>λ</entry>
+            <entry>3λ/2</entry>
+            <entry>2λ</entry>
+          </row>
+          <row>
+            <entry>λ</entry>
+            <entry>2L</entry>
+            <entry>L</entry>
+            <entry>2L/3</entry>
+            <entry>L/2</entry>
+          </row>
+          <row>
+            <entry>k =2π/λ</entry>
+            <entry>2π/(2L)</entry>
+            <entry>2π/(L)</entry>
+            <entry>2π/(2L/3)</entry>
+            <entry>2π/(L/2)</entry>
+          </row>
+          <row>
+            <entry>k</entry>
+            <entry>1×(π/L)</entry>
+            <entry>2×(π/L)</entry>
+            <entry>3×(π/L)</entry>
+            <entry>4×(π/L)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1163777008440">Therefore k<sub>n</sub> = n×(π/L)= wave vector of matter wave;</para>
+    <para id="id1163793230917">From Chapter1_part 3 and Chapter_part 6 we know that<emphasis effect="bold">:</emphasis></para>
+    <para id="id1163801774262"><emphasis effect="bold">k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold"> = √(2mE)/ћ=k; ..............1.86</emphasis>
+    </para>
+    <para id="id1163819196461">Since the linear array has a period of L cm hence the matter wave has wave vector which is an integer multiple of (π/L) as shown in the Table above.</para>
+    <para id="id1163786743001">From Eq.(1.86) we obtain:</para>
+    <para id="id1163797203965"><emphasis effect="bold">E = (ћ k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold">)^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(2m) = p</emphasis>
+      <emphasis effect="bold">z^</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/(2m) ..........1.87</emphasis>
+    </para>
+    <para id="id1163791026653">Equation(1.87) gives us the energy distribution with respect to momentum vector (p<sub>z</sub>) or wave vector (k<sub>z</sub>) . This distribution is continuous and parabolic and is shown in Figure( 1.45). This is what would be expected for electron in free space. We get this result here because a very wide potential well with a flat bottom acts as a free and unbounded space for electron under consideration. </para>
+    <para id="id1163795732327">
+      <figure id="id1163819157094">
+        <media id="id1163819157094_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-7b97.png" id="id1163819157094__onlineimage" height="405" width="404"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163784458331">
+      <emphasis effect="bold">Figure. 1.45. Energy Distribution for electron in a very wide potential box.</emphasis>
+    </para>
+    <figure id="id1163803293454">
+      <media id="id1163803293454_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-d696.png" id="id1163803293454__onlineimage" height="398" width="407"/>
+      </media>
+    </figure>
+    <para id="id1163795301691">
+      <emphasis effect="bold">Figure 1.46. Schrodinger Equation Solution in a wide potential box with a flat bottom.</emphasis>
+    </para>
+    <para id="id1163785812644"><emphasis effect="bold"/>In Figure 1.46 the progressive wave solutions of the Schrodinger Equation is shown when applied to flat bottomed potential box. The solutions are:</para>
+    <para id="id1163785692895">First principal quantum number: ψ<sub>1</sub>(z,t)=ψ<sub>01</sub>Exp[(jωt-∆k.z)] where E<sub>1</sub>=(ћ.∆k)<sup>2</sup>/(2m);</para>
+    <para id="id1163777512306">Second principal quantum number: ψ<sub>2</sub>(z,t)=ψ<sub>02</sub>Exp[(jωt-2∆k.z)] where E<sub>2</sub>=4(ћ.∆k)<sup>2</sup>/(2m);</para>
+    <para id="id1671252">……………………………………………………………………………………………..</para>
+    <para id="id1163785030312">nth principal quantum number: ψ<sub>n</sub>(z,t)=ψ<sub>0n</sub>Exp[(jωt-n∆k.z)] where E<sub>n </sub>=n<sup>2</sup>.(ћ.∆k)<sup>2</sup>/(2m);</para>
+    <para id="id1163792149793">Here ∆k = (π/L) is a very small quantity therefore E<sub>1 </sub>, E<sub>2 </sub>,……. E<sub>n</sub> constitute a continuous spectrum of energy.</para>
+    <para id="id1163776269202">Since we have semi-infinite crystal of length L along z-axis hence each progressive wave has a periodicity of 2L, L, 2L/3, L/2, ……2L/n</para>
+    <para id="id1163776329831">Hence ψ<sub>n</sub>(z) = ψ<sub>n</sub>(z+2L/n) </para>
+    <para id="id1163805764146">When we replace a flat bottom by undulating bottom due to periodic potential variation due to lattice centres then we have a modulation effect on the progressive waves. As we had already mentioned in Fig(1.44) the periodicity of this potential variation is ‘a’ Å. Mathematical formulation of this modulation effect is difficult therefore we will give a graphical description of this modulation.</para>
+    <para id="id1163789496686">Periodic potential field is created by the lattice centers. Each lattice center is a potential well. If the potential well is of width W then electrons exist as standing waves of wavelengths (already shown in Figure 1.13)</para>
+    <para id="id1163815946306">2W, W, (2/3)W, W/2………</para>
+    <para id="id1163816495211">
+      <figure id="id1163809434886">
+        <media id="id1163809434886_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-0191.png" id="id1163809434886__onlineimage" height="541" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163785979072"/>
+    <para id="id1163792598156">
+      <figure id="id1163796107544">
+        <media id="id1163796107544_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-c643.png" id="id1163796107544__onlineimage" height="542" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163788574651">
+      <emphasis effect="bold">Figure 1.48. Schrodinger Equation Solution in a wide potential box with an undulating bottom for ψ</emphasis>
+      <emphasis effect="bold">42</emphasis>
+    </para>
+    <para id="id1163806363933">In Figure 1.47 and 1.48 we show the modulation effect of the lattice centers. The modulation is caused in the same way as the standing wave is created in the potential wells. Thus in Kronig-Penney Model solution ψ<sub>nj</sub> there are two quantum numbers:</para>
+    <para id="id1163796792238">n is the principle quantum number which decides the wave vector of the electron and which is a multiple of (π/L) hence the wave vector is k<sub>z</sub> = n.(π/L). This result has been explained in the preceding paragraph.</para>
+    <para id="id1163814087595">j is the quantum number which describes the level of modulation.</para>
+    <para id="id1163792251461">In Figure(1.47), we describe three matter waves: ψ<sub>11 </sub>, ψ<sub>21</sub> , ψ<sub>41</sub> . In Figure 1.48 we show matter wave ψ<sub>42</sub></para>
+    <para id="id1163778373731">For simplicity of description we have assumed linear array of 4 lattice centers i.e.</para>
+    <para id="id1163794327260">L= 4a;</para>
+    <para id="id1163804215397">We have seen in Part 8_conclusion that at a step voltage there is a reflected wave. When two reflected waves constructively interfere we have a condition of Bragg Reflection or Specular Reflection. <emphasis effect="italics">Under this condition forward and reflected wave cancel each other and electron does not exist as a physical entity. Hence the energy states corresponding to this Brag Reflection is forbidden. </emphasis></para>
+    <para id="id1163793749635">Constructive Interference occurs when:</para>
+    <para id="id1163796271381">Path difference of two normally incident waves = 2a = nλ as we saw in x-ray crystallography.</para>
+    <para id="id1163789706257">Destructive Interference occurs when: </para>
+    <para id="id1163798432295">Path difference of two normally incident waves = 2a = (n+1/2) λ;</para>
+    <para id="id1163802158979">Therefore when the wavelength of matter wave satisfies the condtion:</para>
+    <para id="id1163789426183"><emphasis effect="bold">λ = 2a/n................. 1.88.</emphasis>
+    </para>
+    <para id="id1163796102090">That particular wavelength electron suffers Bragg Reflection.</para>
+    <para id="id1163790988604">Bragg reflection was discussed in context of matter wave and its experimental verification of matter wave in Chapter 1_Part 3. Bragg had done X-Ray diffraction using crystalline grating and Davisson-Germer had done electron diffraction again using crystalline grating. </para>
+    <para id="id1163810914288">The wave vector of matter wave is : k<sub>z</sub> = 2π/λ;</para>
+    <para id="id1163788883267">Substituting Eq.(1.88) in wave vector we get:</para>
+    <para id="id3382267"><emphasis effect="bold">k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold"> = (π/a)n................... 1.89</emphasis>
+    </para>
+    <para id="id1163806017825">Equation 1.89 implies that electrons in a crystalline lattice will not exist at k<sub>z</sub> equal to :</para>
+    <para id="id1163777785362">
+      <emphasis effect="bold">±(π/a)1 , ±(π/a)2 , ±(π/a)3 , ±(π/a)4 ……..</emphasis>
+    </para>
+    <para id="id1163794027016">Bragg brothers had received the Nobel Prize for demonstrating the mirror like reflection or specular reflection of X-Rays from crystal surfaces as described in Chapter 1_Part 3.</para>
+    <para id="id1163796759624">From Equation (1.88) and Equation (1.89) we see that matter wave does not exist due to Bragg Reflection and discontinuity is created at those points:</para>
+    <para id="id1163801491422">The points of discontinuity:</para>
+    <table id="id1163800704452" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Points of discontinuity in E-k diagram at k<sub>n</sub></entry>
+            <entry>k<sub>1</sub> = π/a</entry>
+            <entry>k<sub>2</sub> = 2π/a</entry>
+            <entry>k<sub>3</sub> = 3π/a</entry>
+            <entry>k<sub>4</sub> = 4π/a</entry>
+          </row>
+          <row>
+            <entry>But k<sub>n</sub> = 2π/λ<sub>n</sub> therefore λ<sub>n</sub> of the matter wave</entry>
+            <entry>λ<sub>1</sub> = 2a</entry>
+            <entry>λ<sub>2</sub> = a</entry>
+            <entry>λ<sub>3</sub> = 2a/3</entry>
+            <entry>λ<sub>4</sub> = a/2</entry>
+          </row>
+          <row>
+            <entry>In terms of principle quantum number nWhere L= 4a</entry>
+            <entry>nπ/L = π/a</entry>
+            <entry>nπ/L=2π/a</entry>
+            <entry>nπ/L=3π/a</entry>
+            <entry>nπ/L=4π/a</entry>
+          </row>
+          <row>
+            <entry>Principle quantum number</entry>
+            <entry>4</entry>
+            <entry>8</entry>
+            <entry>12</entry>
+            <entry>16</entry>
+          </row>
+          <row>
+            <entry>Corresponding Wave Function</entry>
+            <entry>ψ<sub>4,1</sub></entry>
+            <entry>ψ<sub>8,1</sub></entry>
+            <entry>ψ<sub>12,1</sub></entry>
+            <entry>ψ<sub>16,1</sub></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1163786025782">This implies that these matter waves will not exist. Therefore matter waves at wave vectors : ±<emphasis effect="bold">(π/a), </emphasis>±<emphasis effect="bold">(2π/a) , </emphasis>±<emphasis effect="bold">(3π/a) , </emphasis>±<emphasis effect="bold">(4π/a), ………</emphasis></para>
+    <para id="id1163778910720">do not exist because they suffer specular reflection or Bragg Reflection.</para>
+    <para id="id1163776316823">At these wave vectors of discontinuity, different levels of modulation contribute to bands of energies at wave vectors ±<emphasis effect="bold">(π/a), </emphasis>±<emphasis effect="bold">(2π/a) , </emphasis>±<emphasis effect="bold">(3π/a) , </emphasis>±<emphasis effect="bold">(4π/a), ………</emphasis></para>
+    <para id="id1163800532283">Hence the non-existence of the matter waves at these points of Bragg Reflection lead to band gaps in otherwise continuous energy distribution with respect to wave vector. Hence continuous E- k diagram shown in Fig(1.45) becomes Energy Band diagram alternated by Energy Gaps as shown in Fig(1.49). The Energy Band Gaps are also referred to as Forbidden Band Gaps.</para>
+    <para id="id1163794977615">
+      <figure id="id1163802449186">
+        <media id="id1163802449186_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-4fca.png" id="id1163802449186__onlineimage" height="542" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163795690501">
+      <emphasis effect="bold">Figure(1.49) Energy Band Diagram of electrons in a single crystal solid.</emphasis>
+    </para>
+    <para id="id1163786499653">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1163796220626">Through the above discussion we have established qualitatively that electrons in a single crystal solid occupy permissible bands of energy alternated by forbidden band gaps. </para>
+    <para id="id1163779066968">Solid State Band Theory has introduced us to a new quantum mechanical phenomena called Bragg reflection.</para>
+    <para id="id2945563">We have seen that at k= ±<emphasis effect="bold">(π/a), </emphasis>±<emphasis effect="bold">(2π/a) , </emphasis>±<emphasis effect="bold">(3π/a) , </emphasis>±<emphasis effect="bold">(4π/a),……..</emphasis></para>
+    <para id="id1163818191292">electrons suffer specular reflection which does not permit the independent existence of electrons at those wave vectors or at those momenta vectors since p= kћ. If we closely examine E-k diagram at the discontinuities we see that E-k curve does not follow the parabolic relationship as it does elsewhere. Hence the behavior of electron at the discontinuities is quite different from its behavior elsewhere. To examine the behavior at the discontinuities we will have to re-examine the Schrodinger Equation in spatial coordinates:</para>
+    <para id="id1163791728647"><emphasis effect="bold">∂</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">ψ/∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ [{2m(E-V(z))}/ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> ]ψ = 0................ 1.90</emphasis>
+    </para>
+    <para id="id1163786607917">V(z) is the periodic potential variation;</para>
+    <para id="id1163782542920">In an infinite crystal with a period of L = Na where a is the lattice parameter the solution is a progressive wave:</para>
+    <para id="id1163777376543">Namely ψ(z,t)= ψ<sub>0</sub>(z)Exp[j(ωt-kz)]</para>
+    <para id="id1163801918231">Where k = √[2m{E-V(z)}]/ћ</para>
+    <para id="id1163794284278">Therefore E= ћ<sup>2</sup>k<sup>2</sup>/(2m<sub>e</sub>) + V(z);</para>
+    <para id="id1163786691309">If we assume an effective mass m<sub>e</sub>* which incorporates the periodic potential variation in itself then we get an expression: </para>
+    <para id="id1163801454439"><emphasis effect="bold">E = ћ</emphasis>
+      <emphasis effect="bold">^2</emphasis>
+      <emphasis effect="bold">k</emphasis>
+      <emphasis effect="bold">^2</emphasis>
+      <emphasis effect="bold">/(2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">)............. 1.91</emphasis>
+    </para>
+    <para id="id1163786024796">Double differential of E with respect to k gives us the expression of the effective mass:</para>
+    <para id="id1163796157084"><emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">* = ћ</emphasis>
+      <emphasis effect="bold">^2</emphasis>
+      <emphasis effect="bold">/(∂</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">E/∂</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">k)............... 1.92</emphasis>
+    </para>
+    <para id="id1163792276464">
+      <figure id="id1163782181597">
+        <media id="id1163782181597_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-f577.png" id="id1163782181597__onlineimage" height="695" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163805542500">
+      <emphasis effect="bold">Figure 1.50. Physical interpretation of E-k diagram.</emphasis>
+    </para>
+    <para id="id1163777871357">The following conclusions result from the inspection of the E-k diagram and its derivatives:</para>
+    <list id="id1163779194440" list-type="enumerated" number-style="arabic">
+      <item>Electrons have least effective mass at the bottom of the conduction band;</item>
+      <item>Electrons have negative mass at the top edge of the valence band;</item>
+      <item>Electrons have very heavy effective mass at ±(π/2a) i.e. intermediate values of k. Hence effective mass of electrons in conductor will depend upon the position and location of the FERMI-LEVEL. If E<sub>F</sub> is in neighborhood of ±(π/2a) then we obtain heavy Fermionic Metal.</item>
+    </list>
+    <para id="id1163794773070">Therefore effective mass is fully dependent on E-k relationship. In Figure(1.50) the first derivative and the second derivative are given. As seen from the diagram, near the lower band edge the second derivative ∂<sup>2</sup>E/∂<sup>2</sup>k is higher than the normal value hence at the lower band edge effective mass is lighter than the free space mass. At the upper edge <emphasis effect="bold">∂</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">E/∂</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">k </emphasis>is negative hence mass is negative . This gives rise to the phenomenological particle called holes. Holes are the movement of vacancies.</para>
+    <para id="id1163777774142">Band theory illustrates a new property of electron namely the property of scattering which is responsible for the resistivity of a conducting solid. Next chapter is devoted to scattering of electrons and resistivity.</para>
+    <para id="id1163794401229">
+      <emphasis effect="bold">Table 1.9 The effective mass m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">*</emphasis>
+      <emphasis effect="bold"> of conducting electrons in different metals.</emphasis>
+    </para>
+    <table id="id1163803217739" summary="">
+      <tgroup cols="11">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <tbody>
+          <row>
+            <entry>Metal</entry>
+            <entry>Ag</entry>
+            <entry>Au</entry>
+            <entry>Bi</entry>
+            <entry>Cu</entry>
+            <entry>K</entry>
+            <entry>Li</entry>
+            <entry>Na</entry>
+            <entry>Ni</entry>
+            <entry>Pt </entry>
+            <entry>Zn</entry>
+          </row>
+          <row>
+            <entry>m<sub>e</sub><sup>*</sup>/m<sub>e</sub></entry>
+            <entry>0.99</entry>
+            <entry>1.1</entry>
+            <entry>0.047</entry>
+            <entry>1.01</entry>
+            <entry>1.12</entry>
+            <entry>1.28</entry>
+            <entry>1.2</entry>
+            <entry>28</entry>
+            <entry>13</entry>
+            <entry>0.85</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

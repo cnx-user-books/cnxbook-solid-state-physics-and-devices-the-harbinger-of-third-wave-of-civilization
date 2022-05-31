@@ -1,0 +1,86 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 4_Section 4.4._Design Rules for Fabricating nJFET.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47970</md:content-id>
+  <md:title>Chapter 4_Section 4.4._Design Rules for Fabricating nJFET.</md:title>
+  <md:abstract>Chapter 4_Section 4.4_gives the design procedure for JFET.</md:abstract>
+  <md:uuid>859af795-fdfe-498c-b6dd-acc73d65a005</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165190840487">
+      <emphasis effect="bold">Chapter 4_Section 4.4_Design Rules for nJFET.</emphasis>
+    </para>
+    <figure id="import-auto-id1165194296001">
+      <media id="import-auto-id1165199369603" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-255c.png" height="462" width="496"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165187224909">We have already discussed the structure and physics of nJFET in m38382.</para>
+    <para id="import-auto-id1165200946642">We saw that in Triode Region (Ohmic Region):</para>
+    <figure id="import-auto-id1165189028012">
+      <media id="import-auto-id1165190783723" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-dbfa.png" height="22" width="566"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165200430651">V<sub>P </sub>= Pinch – Off voltage of the channel given by the following expression:</para>
+    <figure id="import-auto-id1165205401464">
+      <media id="import-auto-id1165199166575" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-bfff.png" height="39" width="533"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165193820463">For small drain-source voltages (v<sub>DS</sub> &lt; 0.1V):</para>
+    <figure id="import-auto-id1165191219092">
+      <media id="import-auto-id1165188581629" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-a13e.png" height="22" width="525"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165188374620">Therefore N-type Channel of nJFET offer linear resistance given by the following expression:</para>
+    <figure id="import-auto-id1165187202156">
+      <media id="import-auto-id1165187703002" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-ad6b.png" height="33" width="431"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165187890950">Thus at small voltages Gate Controlled linear resistances can be realized using a JFET.</para>
+    <para id="import-auto-id1165193526070">In Pentode Region, the drain current saturates at V<sub>DS</sub><sup>*</sup> = (V<sub>GS </sub>- V<sub>P </sub>) :</para>
+    <figure id="import-auto-id1165189913688">
+      <media id="import-auto-id1165191903758" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-8356.png" height="22" width="512"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165190842399">At V<sub>GS </sub>= 0, i<sub>DS</sub>= I<sub>DSS</sub>  and from Equation 4.4.5:</para>
+    <figure id="import-auto-id1165188201031">
+      <media id="import-auto-id1165200205075" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-9128.png" height="42" width="495"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165188379572">Here d<sub>n </sub> = depletion penetration in N-substrate at zero gate voltage and is given by the following expression:</para>
+    <figure id="import-auto-id1165192732541">
+      <media id="import-auto-id1165202602043" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-a4e3.png" height="60" width="488"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165188273744">The customer will specify the pinch-off voltage and I<sub>DSS</sub>. In practice these can range from </para>
+    <para id="import-auto-id1165194006775">0 to -25V for Pinch-Off voltage and I<sub>DSS</sub>= 10μA to 10A.</para>
+    <para id="import-auto-id1165204925587">From these specifications the fabrication parameters and geometrical dimensions can be determined.</para>
+    <para id="import-auto-id1165192537100">
+      <emphasis effect="bold">Section 4.4.1.Design nJFET for pinch-off Voltage -1V and -2V. </emphasis>
+    </para>
+    <para id="import-auto-id1165191280712">Keep the Gate P+ doping at 10<sup>19</sup>/cc. Keep L=10μm and W=10μm.</para>
+    <para id="import-auto-id1165187272136">Calculate the total thickness ‘t’ for pinch-off voltage at -1V and -2V. Also calculate the penetration of depletion width in the channel at Gate Voltage = 0V. This Data will be required while calculating I<sub>DSS</sub>.</para>
+    <para id="import-auto-id1165190802404">Design  procedure for V<sub>P </sub>= -2V.</para>
+    <para id="import-auto-id1165187892699">Using Eq.4.4.2. for N<sub>D</sub> = 10<sup>13</sup>/cc we get t = 18.4μm and using Equation 4.4.7 we get d<sub>0</sub>=9.47μm.</para>
+    <para id="import-auto-id1165191232337">At N<sub>D </sub>= 10<sup>13</sup>/cc the resistivity of the channel is 430.45Ω-cm. Using Equation 4.4.6. we get :</para>
+    <para id="import-auto-id1165192624116">I<sub>DSS</sub>= 12.45μA.</para>
+    <para id="import-auto-id1165202688388">If instead of N<sub>D </sub>= 10<sup>13</sup>/cc , N<sub>D</sub> = 10<sup>14</sup>/cc is used then we get t = 5.9μm and using Equation 4.4.7 we get d<sub>0</sub>=3 μm.</para>
+    <para id="import-auto-id1165189822588">At N<sub>D </sub>= 10<sup>14</sup>/cc the resistivity of the channel is 43.45Ω-cm. Using Equation 4.4.6. we get :</para>
+    <para id="import-auto-id1165205328593">I<sub>DSS</sub>= 40μA.</para>
+    <para id="import-auto-id1165187241329">Design  procedure for V<sub>P </sub>= -1V.</para>
+    <para id="import-auto-id1165188280568">Using Eq.4.4.2. for N<sub>D</sub> = 10<sup>13</sup>/cc we get t = 14.6μm and using Equation 4.4.7 we get d<sub>0</sub>=9.47μm.</para>
+    <para id="import-auto-id1165190148924">At N<sub>D </sub>= 10<sup>13</sup>/cc the resistivity of the channel is 430.45Ω-cm. Using Equation 4.4.6. we get :</para>
+    <para id="import-auto-id1165189687182">I<sub>DSS</sub>= 3.47μA.</para>
+    <para id="import-auto-id1165202812964">If instead of N<sub>D </sub>= 10<sup>13</sup>/cc , N<sub>D</sub> = 10<sup>14</sup>/cc is used then we get t = 4.7μm and using Equation 4.4.7 we get d<sub>0</sub>=3 μm.</para>
+    <para id="import-auto-id1165202363069">At N<sub>D </sub>= 10<sup>14</sup>/cc the resistivity of the channel is 43.45Ω-cm. Using Equation 4.4.6. we get :</para>
+    <para id="import-auto-id1165187315881">I<sub>DSS</sub>= 12μA.</para>
+  </content>
+</document>

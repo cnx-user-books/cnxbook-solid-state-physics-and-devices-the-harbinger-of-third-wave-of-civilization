@@ -1,0 +1,147 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Experiment no -1: Components Testing</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50547</md:content-id>
+  <md:title>Experiment no -1: Components Testing</md:title>
+  <md:abstract>This experiments describes the whole spectrum of active and passive components. The continuity test of these components and their I-V charateristic is described.</md:abstract>
+  <md:uuid>07241c0e-2ad8-4d41-827f-c17358ff4af5</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1166209397707">
+      <emphasis effect="bold">Experiment no -1</emphasis>
+    </para>
+    <para id="import-auto-id1166211609736">
+      <emphasis effect="bold">Name of Experiment :-</emphasis>
+    </para>
+    <para id="import-auto-id1166209443696">Testing of active &amp;passive component with the help of C.R.O and digital multimeter</para>
+    <para id="import-auto-id1166207690343"><emphasis effect="bold">Aim :-</emphasis> To study the function of digital multimeter &amp; C.R.O &amp; testing various components like passive and active components such as resistance, capacitance , inductance, classical diodes, zener diodes, photodiode, Light Emitting Diodes, BJT, JFET and MOSFET.</para>
+    <para id="import-auto-id1166209430867"><emphasis effect="bold">Theory</emphasis>:-In component testing process, we test the continuity and the I-V characteristics of various component like resistor, capacitor, diode and transistors.</para>
+    <para id="import-auto-id1166209389381"><emphasis effect="bold">Wires and Connectors: </emphasis>we use the following wires:</para>
+    <list id="import-auto-id1166208507925" list-type="enumerated" number-style="lower-roman">
+      <item>Single Strand wire of SWG 22 or SWG23. SWG22 is preferred because it snugly fits the solder-less, spring loaded contact points in the breadboard. SNUGLY means neither loose nor tight. SWG is Standard Wire Guage. 22 means diameter φ = (1/22) inch. These are used as hookup wire for making connections on the breadboard.</item>
+      <item>Multistrand wires are flexible wires used as connecting wires between the Power supply and the bus of the circuit. Bus are lines which act as GROUND/EARTH, lines which act as (+)ve bus or as (-)ve bus. The guage of multi-strand wire can be SWG 7/36 or SWG 14/36.</item>
+    </list>
+    <para id="import-auto-id1166208968839">SWG 14/36 means 14 strands and 1/36 inch in dia. These multistrand wires have banana plug on one end and crocodile clip on the other. By banana plug they are fitted on the banana socket on the power supply and by crocodile clip it is clipped on the hook up wire connected in the bread board.  </para>
+    <para id="import-auto-id1166209451736"> Iii  There are various types of wires. There are two cores or three cores  shielded wires. In one sheath there are two or three insulated SWG14/36 wires. The sheath can be shielded in wire-mesh shields. This prevents Electro-magnetic interference and pick-up. There are unshielded wires with two and three cores. </para>
+    <list id="import-auto-id1166209549502" list-type="enumerated" number-style="lower-roman">
+      <item>There are coaxial cables which are used as connectors . A coaxial cable with BNC Connector on one end and crocodile clips on the other are used for feeding the signal from Function Generators to the circuit under test. A coaxial cable with BNC Connector on one end and oscilloscope probes or crocodile clips on the other are used for feeding the signal from the circuit under test to the oscilloscope.  </item>
+    </list>
+    <para id="import-auto-id1166208430274">
+      <emphasis effect="bold">Procedure:-</emphasis>
+    </para>
+    <list id="import-auto-id1166209613855" list-type="bulleted">
+      <item>Set up the component in the breadboard which has to be tested &amp; probed by the mulimiter as well as C.R.O.</item>
+      <item>First of all we calculate the theoretical value of resistor through colour </item>
+    </list>
+    <para id="import-auto-id1166209501726"> coding and than obtain practical value through multimeter.</para>
+    <list id="import-auto-id1166209521988" list-type="bulleted">
+      <item>Next we find the I-V characteristic curve i.e forward and reverse characteristics of diode with the help of C.R.O.</item>
+    </list>
+    <para id="import-auto-id1166215940426">
+      <emphasis effect="bold"> Resistances:-</emphasis>
+    </para>
+    <list id="import-auto-id1166212646348" list-type="enumerated" number-style="lower-roman" mark-prefix="(">
+      <item>
+        <para id="import-auto-id1166211663308">
+          <emphasis effect="bold">Carbon Film Reistances.</emphasis>
+        </para>
+      </item>
+    </list>
+    <para id="import-auto-id1166208469397">There is a carbon film deposited on the former. These are the cheapest and most widely used resistances. The resistances are given in colour codes.</para>
+    <para id="import-auto-id1166209462133">Colour code is Gray, White, Violet ,Blue ,Green, Yellow, Orange, Red Brown and Black. These stand for 9,8,7,6,5,4,3,2,1 and 0 respectively.</para>
+    <para id="import-auto-id1166209424829">The first two bands on the left give tens and units. The third band gives the exponent to the base 10. Fourth band gives the  tolerance. Golden Band gives 5% and Silver Band gives 10% tolerance.</para>
+    <table id="import-auto-id1166209482354" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <thead>
+          <row>
+            <entry>S.No</entry>
+            <entry>1<sup>st</sup>,2<sup>nd</sup>,3<sup>rd</sup> and 4<sup>th</sup> band of colours</entry>
+            <entry>Nominal Value (Ω)</entry>
+            <entry>Practical Value (Ω)</entry>
+            <entry>Tolerance (± %)</entry>
+            <entry>Percentage Error</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>Yellow, Violet, Orange, Silver</entry>
+            <entry>47k</entry>
+            <entry>47.2k</entry>
+            <entry>10</entry>
+            <entry>0.423</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Red, Violet, Red, Gold</entry>
+            <entry>2.7k</entry>
+            <entry>2.748k</entry>
+            <entry>5</entry>
+            <entry>1.746</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id2656566">The resistances have power rating and tolerance. Power rating tell  the maximum power dissipation permitted. These are generally 1/4W or 1/2W  rating in carbon film resistances.</para>
+    <para id="import-auto-id1166208551590">The fourth band tells the tolerance. Zero Tolerance resistance is a precision resistance. Less than 1%  tolerance is close tolerance component. More than 5% tolerance is a wide tolerance component.</para>
+    <para id="import-auto-id1166208882332"><emphasis effect="bold">ii. Thin Film Resistances</emphasis> :Thin Film Resistances are made of Nichrome which is 80% Nickel and 20% Chromium alloy. These are of 0.1% tolerance and the temperature coefficient of resistance(t.c.r) is 100 parts per million per degree centigrade (PPM/ºC). These are also called precision resistances.</para>
+    <list id="import-auto-id1166208579030" list-type="enumerated" number-style="lower-roman">
+      <item><emphasis effect="bold">CERMETS </emphasis>are film resistances where ceramic and metal films are used. These are also of 0.1% tolerance and zero t.c.r. Ceramic has a negative t.c.r. and Metal has positive t.c.r. Hence a proper combination of Ceramic and Metal gives zero t.c.r. These are truly precision components used in Intrumentation.  </item>
+      <item><emphasis effect="bold">Wire Wound Resistances: </emphasis>These are power resistances which can go up to 100W maximum power dissipation. These are green in colour and robust in appearance.</item>
+      <item><emphasis effect="bold">Variable Resistances: </emphasis>These are carbon track potentiometers and Rheostats. Carbon track resistances are used in Electronics Lab and are of less than 1W rating. Rheostats are used in Electrical Engineering Labs and can go up to 1000W. Rheostat are made of Cu/Ni or Ni/Cr alloy of low t.c.r.. In Carbon Track Potentiometer there is a carbon track on which a wiper sweeps from one end to the other. The two terminals connected to the two ends of the carbon track give a fixed resistance while the resistance between one of the end terminals and the terminal connected to the wiper is a variable resistance.  </item>
+    </list>
+    <para id="import-auto-id1166209836440">
+      <emphasis effect="bold">Capacitor:</emphasis>
+    </para>
+    <list id="import-auto-id1166209396957" list-type="enumerated" number-style="lower-roman">
+      <item>
+        <para id="import-auto-id1166208878890">
+          <emphasis effect="bold">Ceramic Disc Capacitances:</emphasis>
+        </para>
+      </item>
+    </list>
+    <para id="import-auto-id1166215945322">These are the cheapest and most widely used capacitances. The values are given as 103. 103 means 10×10<sup>3</sup>pF (pF is called PUF). This is 10<sup>-8</sup>F=0.01μF.</para>
+    <list id="import-auto-id1166211166483" list-type="enumerated" number-style="lower-roman">
+      <item>
+        <para id="import-auto-id1166209466780">
+          <emphasis effect="bold">Paper/Mica Capacitances.</emphasis>
+        </para>
+      </item>
+      <item><emphasis effect="bold">Polyesterene Capacitances: </emphasis>These are low loss angle high quality capacitances.</item>
+      <item><emphasis effect="bold">Electrolytic Capacitances: </emphasis>The large magnitude of capacitances more than 1μF up to 1000μF can be realized by electrolytic Capacitances. These are polar capacitances. The polarity of the DC Voltage applied should be correct so that the electrolyte between the electrodes act like dielectric. If the polarity is reversed then it becomes a conductor.</item>
+      <item><emphasis effect="bold">Variable Capacitances:</emphasis> Gang Capacitances- these are air-gap capacitances used as tuning capacitances in Radio-Broadcast Receivers. Trimmers and Padders are used for alignment of the tuned circuits in Radio Receivers. </item>
+    </list>
+    <figure id="import-auto-id1166208523540">
+      <media id="import-auto-id1166208034733" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-588a.png" height="423" width="420"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166208951518">
+      <media id="import-auto-id1166208774023" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-5ff7.png" height="362" width="590"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166208493631">
+      <media id="import-auto-id1166209382234" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-6513.png" height="420" width="602"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id7126028">
+      <media id="import-auto-id1166209495652" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-6f9f.png" height="556" width="444"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166209553018">
+      <media id="import-auto-id2192559" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-e2f8.png" height="475" width="602"/>
+      </media>
+    </figure>
+  </content>
+</document>

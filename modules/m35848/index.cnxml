@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Appendices_Space Weather Research</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35848</md:content-id>
+  <md:title>SSPD_Chapter 1_Appendices_Space Weather Research</md:title>
+  <md:abstract>This is one of the Appendices of SSPD_chapter 1. This gives the physics of Space Weather Research.</md:abstract>
+  <md:uuid>52e64967-a3b8-441c-b312-372c17a5a731</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165937451476">SUN-SOLAR ACTIVITY &amp; COMMUNICATION</para>
+    <para id="id1165926895821">Between the ground and interplanetary space:</para>
+    <list id="id1165929227449" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>The troposphere- human population is limited to this level and uses only the first 6 km of atmosphere, a thin layer that has to be reserved.</item>
+      <item>The stratosphere-(between 15km to 45km) very dry, it is characterized chiefly by ozone layer which is an effective barrier to ultra violet light from sun.</item>
+      <item>The mesosphere-(between 45km to 80 km) An icy layer(-90 degree centigrade at the top of this layer)</item>
+      <item>The Thermosphere-(between 80km to 480km).very hot layer(from 850 to 2300 degree centigrade depending on solar activity). This contains a layer of plasma called ionosphere. Ionosphere acts as an effective mirror for Radio Waves-Short Wave i.e. 1MHZ to 30 Mhz.</item>
+    </list>
+    <para id="id1165928869498">The Earth behaves like a huge bar magnet with the magnet almost but not exactly aligned along the spin axis. This bar magnet creates a Magnetic Field terminating at the north pole and originating at the South Pole. From a height of 1000km an immense magnetic field surrounds the Earth as shown in the Figure below. This 3-d magnetic field which under normal condition would have a cylindrical symmetry but in presence of solar wind it is flattened on the windward side and elongated on the leeward side as shown. This is called MAGNETOSPHERE. Earth is continuously bombarded by fierce solar Wind and Cosmic rays. This magnetosphere repels the stars high-energy radiation.</para>
+    <figure id="id1165952861862">
+      <media id="id1165952861862_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-4272.png" id="id1165952861862__onlineimage" height="355" width="650"/>
+      </media>
+    </figure>
+    <para id="id1165924870317">Figure(1)The Gaint Magnetic Field of Earth Bar Magnet –Magnetosphere.</para>
+    <para id="id1165924870388"><emphasis effect="bold">SUN-A gigantic Nuclear Fusion Reactor</emphasis>.</para>
+    <para id="id1165928823712"><emphasis effect="bold"/>Our Sun is a humble star in the Milky Way Galaxy of stars. it was born about 4.56 Billion years ago and it will continue to react for another 5 billion years. That is its total life span is 10 billion years.</para>
+    <para id="id1165928506556"><emphasis effect="bold"/>Once its nuclear fuel runs out, it will expand to Red Giant<emphasis effect="bold"/>and then collapse into White Dwarf. The solar System will be wiped out.</para>
+    <para id="id1165939865815">SUN- Its Present Scenario. </para>
+    <para id="id1165929174666">The fusion reaction between hydrogen and helium is the primary source of energy. Sun is a main sequence star where a balance is maintained between the gravitational inward collapse and outward expansion due to radiation pressure of the thermonuclear energy released due to Hydrogen atoms fusion. This state of equilibrium has been maintained since the beginning and it will be maintained for the whole life span of 10 billion years.</para>
+    <para id="id1165927612201">THE BURNING CORE</para>
+    <para id="id1165932157062">At the core of the sun, temperature is 15 million degree Celsius and a pressure equivalent to 160 times the atmospheric pressure.</para>
+    <para id="id1165928625522">In the heart of the Sun , 500 million tones of hydrogen fuses into helium Gas . This fusion reaction leads to Mass defect of 4 million tones which by E=mc<sup>2</sup> relationship is converted into energy. This released energy radiates to the adjoining zone. From there through convective current of gases it travels to the surface of the sun.</para>
+    <para id="id1165925165114">SOLAR PHOTOSPHERE</para>
+    <para id="id1165928365628">Beyond the convective layer is solar photosphere. This layer is 200 km thick on an average. Here the matter is cool enough to turn from plasma state to neutral state. Therefore radiation decouples from matter and freely travels out.</para>
+    <para id="id1165928500966">The photosphere has a mosaic of bright spots called granulations plus sporadically appearing darker patches called SUNSPOTS. At the granulations areas the photosphere is 1000 to 2000 km thick.</para>
+    <para id="id1165927223734">The average temperature of the photosphere is 6400 degree centigrade but at the Sun-spot it is cooler at 2,000 to 3,000 degree. Here magnetic fields are emanating which are 25,000 times stronger than earth magnetic field. Sun Spots appear and disappear. They are surrounded by clouds of bright, burning gas called faculae. Sun Spots number and sizes are indicative of Sun’s Solar Activity. Larger sizes and more numerous number is indicative of Sun’s Activity. The Sizes and number wane and wax in cycles of 11 years. This is known as 11 years cycle of Sun Activity. By studying the sun spot, the rate of rotation of Sun has been determined to be 27 days.</para>
+    <para id="id1165927322354">SOLAR CORONA- SOLAR FLARES-CORONAL MASS EJECTIONS</para>
+    <para id="id1165924204763">There is a pink fringe several thousand kilometers broad, around the solar disc. This Pink fringe is called the chromospheres. As the solar activity increases, magnificent prominences shoot out from this layer. They look like curls or bushes. These are Coronal Mass Ejections (CME). In these coronal mass ejections the sun blasts billion of tons of plasma blob material at very high speed. These prominences are sculpted by the magnetic field. The gas is ejected and re-circulated back at a high speed of 1000 km/sec. Sometimes this velocity is as high as 500,000km/sec.</para>
+    <para id="id1165927257780">Sudden explosions of Solar Atmospheres release energy equivalent to billions of Atomic Bombs within few minutes. The abrupt rearrangement of solar magnetic field , which arch upward from the surface of the sun, lead to this sudden release of energy.CME are accompanied with burst of X-Rays. Solar flares and different aspects of Space Weather involve the interplay of magnetic field and plasma.</para>
+    <para id="id1165924180833"> The exact physics has been unraveled by the study of Yohkoh satellites &amp; Ramaty High Energy Solar Spectroscopic Imager(RHESSI). Solar flares erupt from Sun Spots. At Sun Spots the solar magnetic fields is much stronger. It is the magnetostatic energy of these powerful magnetic fields which are unleashed during solar flares as thermal energy. Oppositely directed magnetic field lines come together and partially annihilate and rearrange. This is known as RECONNECT. This magnetic reconnection is responsible for the solar flare and CME. Invisible Magnetic Loops are emanating and terminating at the sun spots. These magnetic loops trap hot plasma. Initially this plasma is at several million Kelvin temperature. Hot charged particles spiral around the magnetic lines of force to and fro between the two foot points. The acceleration and deaccleration lead to synchrotron radiation in form of extreme UV and hard X-ray. In the process plasma heats up to 10 to 40 million Kelvin. As the magnetic reconnect takes place, gigantic solar flares erupt and CME occurs. As the sun spot increases , number of magnetic loops increase and hence the magnetic reconnect becomes more numerous leading gigantic solar storms.</para>
+    <para id="id1165927768486">Beyond the chromospheres, corona extends up to 10 Solar radii. This has long jets of gas running through it. A large number of energetic ionized hydrogen particles manage to penetrate the magnetosphere. These particles get trapped in the magnetosphere and travel in toroidal path around the magnetic field lines. This belt of trapped particles is called VAN ALLEN BELT.</para>
+    <para id="id1165928874051">These ionized particles keep travelling between North &amp; South Magnetic poles of the Earth. At a height from 100 km to 1000 km the inward –rushing or outward –rushing charged particles interact with neutral atmospheric gas particles(Nitrogen &amp; Oxygen).In the process they produce the peak of solar activity. Auroral displays become brighter and solar perturbations are perceptible up to the surface of the Earth.</para>
+    <para id="id1165927552960">Depression in corona let matter escape at a speed of 800km/sec. The brief solar flares cause a wind of 1000km/sec. Whereas the eruptions of prominences cause the solar wind to speed up to 2000km/sec.</para>
+    <para id="id1165927376177"> 11 year cycle remains an enigma.</para>
+    <para id="id1165928979160">EFFECT OF SOLAR ACTIVITY ON POWER TRANSMISSION &amp; COMMUNICATION</para>
+    <para id="id1165927315247">Periodic increase in solar activities in form of increased sun-spots and furious sun-flares lead to major disruptions in power transmissions and communication networks.</para>
+    <para id="id1165927390294">August 2, 1972 a 230KV transformer exploded in British Columbia in Canada.</para>
+    <para id="id1165941223710">On March 13,1989 , at the peak of Solar Activity, Quebec Province went without power due to failure of the electric transmission network.</para>
+    <para id="id1165941266960">October-November 2003 witnessed some of the largest solar flares ever recorded in mankind’s history. The barrage of charged particles forced many satellites to be turned off. Despite this preventive measure many satellites got damaged. Astronauts in international Space Station had to retreat to better shielded portions of their service modules. The air-liners were routed to lower latitudes to prevent communication failure and to protect passenger from unsafe level of radiation exposure. National Transmission Grids had to properly protected against surges. Despite this 50,000 residents in south Sweden faced power failure briefly.</para>
+    <para id="id1165933510483">  The Global Radio Broadcast at Short Wave RF gets seriously effected due to disruptions of ionosphere surrounding the Earth.</para>
+    <para id="id1165927393376"> Manned Space Missions can get disrupted. Understanding the solar flares will help the space walkers and astronauts going to Moon &amp;Mars in the coming decade. Astronauts exposed to eruptions can receive a year’s worth of radiation.</para>
+    <para id="id1165927479063">Coronal mass Ejections cause Solar Storm. This distorts Earth’s magnetic field. Backlash of charged particles trapped in radiation belts generates massive voltage that can damage satellites and power grids. </para>
+    <para id="id1165953606695">THE PATTERN OF SOLAR ACTIVITY</para>
+    <para id="id1165952165925">
+      <emphasis effect="bold">(cooling Sun may bring relief to sweltering Earth-The Hindu)</emphasis>
+    </para>
+    <para id="id1165927403164"><emphasis effect="bold"/>Sun’s output varies over a cycle of 11 years. When vast amount of energy are being released deep inside &amp; strong magnetic fields rip through the sun’s surface, this is the period of heightened solar activity accompanied with increased number of sun-spots. From 1650 to the end of 1700, the sun-spots almost completely disappeared &amp; Earth experienced little ice again. At this time Thames froze over, Europe shivered &amp; harvest failed.</para>
+    <para id="id1165960274002">In the next few years from now, solar activity will come down . This will lead to increase in cloud formation &amp; reduction in UV radiation reaching the atmosphere. Overall it will bring about a decline of 0.2 degree centigrade in Global Temperatures.</para>
+    <para id="id1165932333302">It is predicted the Carbon Emissions of 450ppm or Carbon Equivalent Emissions of 500ppm will bring a 2 degree C increase accompanied with great floods.</para>
+    <para id="id1165922288404">Carbon Dioxide is not the only greenhouse gas. Methane, Nitrous Oxide &amp; Hydrofluorocarbons are the other greenhouse gases. When we include the effect of other green house gases then we talk in terms of Carbon Dioxide Equivalent.</para>
+    <para id="id1165924956912">
+      <emphasis effect="bold">STEREO (Solar Terrestrial Relations Observatory) mission to scan the SUN In 3-D:</emphasis>
+    </para>
+    <para id="id1165940889558">NASA is to launch two nearly identical space-based observatories that will enable the construction of 3D view of the Sun. This is a $550-million, two year mission. This will help us understand CORONAL MASS EJECTIONS better.</para>
+    <para id="id1165928896551">NASA Scientist Madhulika Guhathakurta says,” of the bazillion stars that we have in our night sky, sun is the one that only counts. Any understanding or breakthrough we can make in understanding the sun &amp; its environment is of direct relevance to every human being on this Planet”.</para>
+    <para id="id1165936934564">This mission will improve early warning system against CME s.</para>
+    <para id="id1165950152718">[“The Mysterious Origins of Solar Flares” George D. Holman, Scientific American, April 2006; </para>
+    <para id="id1165927506295">“The fury of Space Storm”, James L. Burch, Scientific American, April 2001;</para>
+    <para id="id1165938189634">”Paradox of Hot Sun’s Corona” Bhola N. Dwivedi &amp; Kenneth J.Phillip, Scientific American, June 2001”.</para>
+    <para id="id1165927635584"><link url="http://hesperia.gsfc.nasa.gov/sftheory/">http://hesperia.gsfc.nasa.gov/sftheory/</link> ]</para>
+  </content>
+</document>

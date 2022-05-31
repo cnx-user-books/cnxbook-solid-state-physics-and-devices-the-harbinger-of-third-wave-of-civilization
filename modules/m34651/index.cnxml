@@ -1,0 +1,295 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 13_ Asymmetrical Universe</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34651</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 13_ Asymmetrical Universe</md:title>
+  <md:abstract>After the Big Bang, matter and anti-matter were balanced.As Universe cooled down, at 10^-10 sec, Salem-Weinberg Transition Phase decouples W and Z massive Bosons. These massive Bosons suppress certain transformations leading to CP violation. This CP violation leads to freezing out the baryonic and leptonic number. From then onward Baryonic and Leptonic number are conserved and from that our present Universe has evolved out.</md:abstract>
+  <md:uuid>342de0af-1dc7-493b-9eb4-e1656ed811ad</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164289809722"><emphasis effect="bold">SSPD_Chapter 1_Part 13_continued_Asymmetric Universe</emphasis>
+    </para>
+    <para id="id1164271681241">1.13.4. WHY WE HAVE UNIVERSE MADE OF MATTER AND NOT ANTI_MATTER</para>
+    <para id="id1164270327248">Before Hubble’s discovery (1929) of expanding Universe, it was sacredly held that matter is constant and conservation of matter holds good. Universe was suppose to be static and unchanging.</para>
+    <para id="id1164270498143">In 1928, P.A.M.Dirac successfully reconciled Quantum Mechanics and Special Theory of Relativity in his relativistic Wave Equation. This predicted the existence of anti-particle. It gave the correct value of the magnetic moment of electron. In May 1931, Dirac postulated an anti-particle in a following manner,” a hole, if there were one, would be entirely a new kind of particle, unknown to experimental physics, having the same mass but opposite charge of electron.” This was a bold assertion. In 1932 the anti-particle of electron was discovered by C.D.Anderson in Cosmic Rays. This was positron. This was not proton. E.Seagre, O.Chamberlain and their colleagues produced anti-proton in High Energy Labs in 1955.</para>
+    <para id="id1164280720426">After that a series of anti-particle was discovered namely anti-proton , anti-neutron and mesons. It became difficult to classify mesons- are they particle or antiparticle. Now we know that they are admixtures of particle and anti-particle depending upon the composition of a doublet as already discussed in Chapter 1_Part13_constituent particles.. Rewriting Eq.1.125 we get </para>
+    <table id="id1164284089521" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Up quark</entry>
+            <entry>Strange antiquark</entry>
+            <entry>K<sup>+</sup> Meson</entry>
+          </row>
+          <row>
+            <entry>Charge</entry>
+            <entry>(2/3) e<sub>0</sub></entry>
+            <entry>(1/3) e<sub>0</sub></entry>
+            <entry>+e<sub>0</sub></entry>
+          </row>
+          <row>
+            <entry>Equivalent mass</entry>
+            <entry>310MeV</entry>
+            <entry>-505MeV</entry>
+            <entry>-195MeV</entry>
+          </row>
+          <row>
+            <entry>Spin</entry>
+            <entry>(1/2)ћ</entry>
+            <entry>(-1/2) ћ</entry>
+            <entry>0ћ</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164283501912">Through <emphasis effect="bold">C</emphasis>harge conjugation, <emphasis effect="bold">P</emphasis>arity inversion and <emphasis effect="bold">T</emphasis>ime reversal we get the following anti-particle of positive K meson. To maintain CPT symmetry, existence of K<sup>+</sup> Meson and Anti-K<sup>+</sup> Meson or K<sup>-</sup>Meson is a physical reality.</para>
+    <table id="id1164278382560" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Up anti quark</entry>
+            <entry>Strange quark</entry>
+            <entry>Anti-K<sup>+</sup> MesonOr K<sup>-</sup>Meson</entry>
+          </row>
+          <row>
+            <entry>Charge</entry>
+            <entry>-(2/3) e<sub>0</sub></entry>
+            <entry>-(1/3) e<sub>0</sub></entry>
+            <entry>-e<sub>0</sub></entry>
+          </row>
+          <row>
+            <entry>Equivalent mass</entry>
+            <entry>-310MeV</entry>
+            <entry>505MeV</entry>
+            <entry>195MeV</entry>
+          </row>
+          <row>
+            <entry>Spin</entry>
+            <entry>(-1/2)ћ</entry>
+            <entry>(1/2) ћ</entry>
+            <entry>0ћ</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164290290718"/>
+    <para id="id1164293861159">These discoveries changed the basic law of conservation of matter. Today ant-particles and anti-atoms are being routinely created in High Energy Particle accelerators.</para>
+    <para id="id1164278042581">According to Dirac, there is a symmetry between particle and anti-particle. And this requires continuous creation and annihilation of matter and anti-matter.</para>
+    <para id="id1164279222802">e + anti e ↔ 2γ (soft gamma photons)</para>
+    <para id="id1164278593982">p + anti p ↔ 2γ (hard gamma photons) </para>
+    <figure id="id1164281790128">
+      <media id="id1164281790128_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-db8b.png" id="id1164281790128__onlineimage" height="68" width="650"/>
+      </media>
+    </figure>
+    <para id="id1164284407129">After the Big Bang, both matter and anti-matter were created in equal amount. Somewhere down the path of evolution. Matter was favoured over anti-Matter. This led to the conservation of :</para>
+    <para id="id1164277391627">(Baryon-antiBaryon)/(no. of energy quanta) = Baryonic Number</para>
+    <para id="id1164271307421">And conservation of:</para>
+    <para id="id1164269266783">(Lepton- antiLepton)/(no. of energy quanta)=Leptonic Number.</para>
+    <para id="id1164278848426">Thus the Law of Conservation of Matter was replaced by “symmetry of matter and anti-matter” and “conservation of Baryon Number and Lepton Number”.</para>
+    <para id="id1164283512342">Implicit in this new conservation is that:</para>
+    <para id="id1164278032012">( Baryon- antiBaryon)= difference of the two kinds of Baryons is constant and</para>
+    <para id="id1164271736463">(Lepton-antiLepton)= difference of the two kinds of Lepton is constant.</para>
+    <para id="id1164270546519">But individually any of these four kinds can change.</para>
+    <para id="id1164283698238">A fundamental law of Physics is CPT symmetry. This implies symmetry of physical laws under transformation that involve conjugation of <emphasis effect="bold">C</emphasis>harge, inversion of <emphasis effect="bold">P</emphasis>arity or reversal of handedness and reversal of <emphasis effect="bold">T</emphasis>ime simultaneously. CPT Theorem requires preservation of CPT symmetry by all physical phenomena.</para>
+    <para id="id1164281518000">The implication of CPT Theorem is that our Universe should have its mirror image known as Anti-Universe which should follow the same physical laws as are applicable to our present Universe..</para>
+    <para id="id1164276116600">Particle Physics should be invariant of CPT transformation. What this means is :</para>
+    <para id="id1164289166735">
+      <figure id="id1164269901929">
+        <media id="id1164269901929_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-274c.png" id="id1164269901929__onlineimage" height="45" width="681"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164278548244">In the following table we show how according to CPT Theorem, anti-particle is generated from particle.</para>
+    <table id="id1164271069517" summary="">
+      <tgroup cols="15">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <colspec colnum="12" colname="c12"/>
+        <colspec colnum="13" colname="c13"/>
+        <colspec colnum="14" colname="c14"/>
+        <colspec colnum="15" colname="c15"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry namest="c2" nameend="c8">Matter particle</entry>
+            <entry namest="c9" nameend="c15">Anti-matter particle</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>m</entry>
+            <entry>Ji</entry>
+            <entry>τ</entry>
+            <entry>q</entry>
+            <entry>µm</entry>
+            <entry>Bn</entry>
+            <entry>Ln</entry>
+            <entry>m</entry>
+            <entry>Ji</entry>
+            <entry>τ</entry>
+            <entry>q</entry>
+            <entry>µm</entry>
+            <entry>Bn</entry>
+            <entry>Ln</entry>
+          </row>
+          <row>
+            <entry>baryon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>+e</entry>
+            <entry>+µ</entry>
+            <entry>+1</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>-e</entry>
+            <entry>-µ</entry>
+            <entry>-1</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>baryon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>-e</entry>
+            <entry>-µ</entry>
+            <entry>+1</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>+e</entry>
+            <entry>+µ</entry>
+            <entry>-1</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>baryon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>0</entry>
+            <entry>-µ</entry>
+            <entry>+1</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>0</entry>
+            <entry>+µ</entry>
+            <entry>-1</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>gluon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>0</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>0</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>gluon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>+e</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>-e</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>gluon</entry>
+            <entry>m<sub>0</sub></entry>
+            <entry>J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>-e</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>-m<sub>0</sub></entry>
+            <entry>-J<sub>0</sub></entry>
+            <entry>τ<sub>0</sub></entry>
+            <entry>+e</entry>
+            <entry>?</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164285938090">m= mass, Ji = intrinsic angular momentum, τ = life time( in case of unstable atoms), q = charge , µm= magnetic moment, Bn= Baryon Number, Ln = Lepton number.</para>
+    <para id="id1164289766871">Neutron has negative magnetic moment (-1.91µ<sub>N</sub>) and anti-neutron (+1.91µ<sub>N</sub>) has positive magnetic moment. Though neutron has no charge but the constituent quarks have charges. These charges give rise to magnetic moment. The opposite arrangement in anti-particle gives rise to negative magnetic moment. In case of Neutron magnetic moment is negative hence anti-neutron has positive magnetic moment. Here µ<sub>N </sub>refers to nuclear magneton.</para>
+    <para id="id1164270549651">In 1964 CP-symmetry violation was observed in neutral K meson decays. </para>
+    <para id="id8784992">Neutral Kaon decayed into anti-Neutral Kaon</para>
+    <para id="id1164271057459">And anti-Neutral Kaon decayed into Neutral Kaon.</para>
+    <para id="id1164269351336">These two decays rates should be identical to preserve CP symmetry. But the two decay rates were not identical. Neutral Kaon had a much larger life-time. This hinted at CP symmetry not being exact in a real Universe. </para>
+    <para id="id1164271551915">In 1967, Sakharov laid the foundation of “Asymmetrical Universe” more technically known as “Baryogenesis”. He postulated the following:</para>
+    <list id="id1164283394905" list-type="enumerated" number-style="arabic">
+      <item>Baryon number changing processes in the Early Universe only;</item>
+      <item>CP-symmetry violation;</item>
+      <item>An out of equilibrium situation for the Universe at time of baryogenesis.</item>
+    </list>
+    <para id="id1164270024235">What Sakharov was implying was that early in the Universe, Baryon and anti-Baryons were being equally created and annihilated so that under thermal equilibrium baryon number is equal to zero. But at some out of equilibrium situation, baryon number freezes out and then onward it is maintained constant.</para>
+    <para id="id1164281944959">By 1974-75, the three generation model of Particle became a reality.[3G model of Particle Physics became well established by 1992 as mentioned in Chapter1_Part 13_Big Bang] The third generation quark namely CHARM and third generation lepton namely Tau-lepton were discovered. With this STANDARD MODEL of particle physics, CP-violation became its natural corollary.</para>
+    <para id="id1164279793733">Standard Model also predicts that baryon number changing processes (non-perturbative multiparticle effects) are very common at high temperature during the early part of Big-Bang but they become very rare later on at a much lower temperature of 3K which is CMBR temperature of present Universe. This is the reason why proton has a lifetime of 10<sup>32</sup> years. </para>
+    <para id="id1164269927887">During the SALEM-WEINBERG transition, the out of equilibrium condition occurs for freezing out the baryon number. As already discussed in previous section at 10<sup>-10</sup>second, Electro-weak symmetry is broken, weak force decouples, relic intermediate vector bosons are left out and from then onward baryon number and lepton number are conserved.. </para>
+    <para id="id1164277867816">
+      <emphasis effect="bold">Demonstration of CP Symmetry. </emphasis>
+    </para>
+    <para id="id1164271339333">Consider Parity Reversal operation. This operation is denoted by P. In this operation the object is MIRROR REFLECTED and ROTATED 180º as shown in Figure (1.77)</para>
+    <para id="id1164270463436">
+      <figure id="id1164285925238">
+        <media id="id1164285925238_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-12a6.png" id="id1164285925238__onlineimage" height="563" width="583"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164281782978">Figure.1.77. Parity Reversal ( Mirror Reflection and 180º Rotation) &amp; Charge Reversal or Conjugation.</para>
+    <para id="id1164269289794">The laws of classical mechanics, electromagnetism and strong interactions are invariant under Charge-Parity (CP) reversal. But weak interactions violate CP reversal. That is the laws of weak interactions change under CP reversal.</para>
+    <para id="id7292308">Electro-magnetic forces are mediated by massless photons. Here parity is conserved. Photons do not distinguish between the handedness of electrons and other elementary particles.</para>
+    <para id="id1164271536559">Weak forces are mediated by heavy, electrically charged W bosons and heavy but electrically neutral Z bosons. W bosons interact only with left handed particles. Thus this causes maximum parity violation. Z bosons do not show maximum parity violation because of Weak Mixing Angle θ<sub>W</sub> .</para>
+    <para id="id1164281741594">K-Mesons also known as Kaons and anti-Kaons decay at different rate. But this asymmetry is insufficient to explain the dominance of matter over anti-matter.</para>
+    <para id="id1164271367879">When electron and positron collide they produce massive B mesons. Stanford Linear Accelerator (SLAC), Stanford, USA, built BaBar and High Energy Accelerator Research Organisation(KEK), Tsukuba, Japan, built BELLE to study the decay rate of B mesons and anti- B mesons. The asymmetry in the two during CP reversal i.e. CP violation is measured by asymmetry parameter Sin<sup>2</sup> θ<sub>W</sub> . This asymmetry ranges from -1 to +1. Zero value implies perfect symmetry under Charge Conjugation and Parity Reversal. It has been proved at confidence level of 99% that asymmetry parameter is 0.4 at both the asymmetry factories. This study remains inconclusive as to why matter has such a large dominance over anti-matter. </para>
+  </content>
+</document>

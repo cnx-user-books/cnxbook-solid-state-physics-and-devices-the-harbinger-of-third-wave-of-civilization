@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 5_Section 5.1. Photo-Diodes and its Responsivity Curves.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48003</md:content-id>
+  <md:title>SSPD_Chapter 5_Section 5.1. Photo-Diodes and its Responsivity Curves.</md:title>
+  <md:abstract>Chapter 5 is on Photonics which will cover all the optical sources as well as optical sensors.Chapter 5,Section 5.1, covers the  Photo-diode which can act as optical sensor under reverse bias condition and acts as the photo-voltaic cell under no bias condition.</md:abstract>
+  <md:uuid>6b5a457d-269b-41ed-b8e7-6f86f6bcde74</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1171598941630">
+      <emphasis effect="bold">Chapter 5_Section 5.1_Semi-conductor Materials and its Absorption Coefficient curves.</emphasis>
+    </para>
+    <para id="import-auto-id1171598945622">In Photonics we study optical energy sources  and optical energy detectors/sensors. Both are diodes but they are especially constructed so that a source may emit a copious amount of optical energy and detector may absorb a 99% of the incident optical energy to produce a optimum response. The optical energy detectors are always kept reverse biased but when there is no bias then under illumination condition they can be used as photo-voltaic cells or solar cells also. The optical detectors under reverse bias detects a particular wavelength or shorter of Electro-Magnetic Radiation only when the Energy Packet of the given EM Radiation contains (hν) energy greater than the band-gap of the semiconducting material constituting the optical detectors.</para>
+    <para id="import-auto-id1171599286071">There is a very convenient relationship which directly gives the threshold wavelength . Incident light shorter than this threshold wavelength will optically excite optical sensor and generate an electrical signal in response to photo-excitation. The relationship is as follows:</para>
+    <figure id="import-auto-id1171585526881">
+      <media id="import-auto-id1171599286672" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-7c77.png" height="42" width="567"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171598860219">The sensitivity of the Optical Detector depends on the absorption coefficient  of the material constituting the optical detector. The absorption coefficient (α per cm) is described in Figure 5.1. as formulated below:</para>
+    <figure id="import-auto-id1171599152294">
+      <media id="import-auto-id1171598929774" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-aa82.png" height="43" width="624"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1171599221200">
+      <media id="import-auto-id1171599166216" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-e9bd.png" height="379" width="509"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1171599190146">
+      <media id="import-auto-id1171599166020" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-da0f.png" height="609" width="588"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171585511045">The absorption coefficient curves  are shown in Figure 5.2. for elemental semi-conductors such as Ge, Si and Hydrogenated Amorphous Si (α-Si) and for compound semiconductors such as GaAS, InP and InGaAs.</para>
+    <para id="import-auto-id1171599121370">As is evident from Figure 5.2, compound semiconductors have a very sharp cut-off in absorption coefficient at wavelengths larger than threshold wavelength.</para>
+    <para id="import-auto-id1171599188280">GaAs has a Band-Gap of 1.42eV which gives a threshold wavelength of 0.87μm from Equation 5.1. Hence for wavelengths longer than 0.87μm, GaAs is transparent. Light passes through a specimen of GaAs unobstructed at wavelengths longer than 0.87μm. At 0.87μm the specimen becomes opaque and absorbs light at 0.87μm and shorter wavelengths.</para>
+    <para id="import-auto-id1171598900905">The reciprocal of the absorption coefficients is penetration depth as defined below:</para>
+    <figure id="import-auto-id1171599279968">
+      <media id="import-auto-id1171598910199" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-dcf5.png" height="39" width="541"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171598883031">Penetration Depth tells that the thickness of GaAs detector/sensor must be greater than d*= 1μm in order to fully absorb the incident photons and give a large electrical response. All compound semiconductors behave in identical manner. As is evident from Figure 5.2, GaAs, InP and InGaAs  give a step jump in the absorption coefficient at and shorter wavelength than threshold wavelengths namely at  0.82μm, 0.92μm and 1.39μm  respectively. For optimum electrical response the thickness of absorbing layer must be  about 1μm in all three cases. Compound Semiconductor exhibit such a sharp response due to the fact that they are Direct-Bandgap Semi-conductor. </para>
+    <para id="import-auto-id1171598886792">In contrast elemental semi-conductors such as Si and Ge have much softer response. In case of Si, at wavelength 1.39μm and at shorter wavelengths the response only gradually increases as a result maximum response can be obtained only if the thickness of active absorbing layer is 50μm. In case of Ge, response gradually increases at 1.88μm and at shorter wavelengths and here also the effective thickness should be of the order of 50μm. This increases the cost of the detector or photo-voltaic cell. </para>
+    <para id="import-auto-id1171599145933">In Si, absorption coefficient can be vastly improved if we use hydrogenated amorphous Si(α-Si). This has an identical responsivity curve as that of GaAs hence it is the commonly used material in Solar Cells.</para>
+  </content>
+</document>

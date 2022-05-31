@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_CHAPTER 1_Part10_ Continued_The theoretical basis of Band Theory of Solids</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34268</md:content-id>
+  <md:title>SSPD_CHAPTER 1_Part10_ Continued_The theoretical basis of Band Theory of Solids</md:title>
+  <md:abstract>Chapter1_Part10_continuation gives the theoretical explanation for the Band Theory of Solids. This part invokes Heisenberg Uncertainty Principle and Pauli's Exclusion Principle to explain the same.</md:abstract>
+  <md:uuid>c3339347-030b-4488-9819-3dd6341edd67</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170710387341">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 10_continued_EXPLANATION OF ENERGY BAND THEORY BASED ON HEISENBERG’S UNCERTAINTY PRINCIPLE.</emphasis>
+    </para>
+    <para id="id8606850"><emphasis effect="bold"/>Heisenberg Uncertainty Principle states:</para>
+    <para id="id1170709135180">
+      <emphasis effect="bold">∆x.∆p</emphasis>
+      <emphasis effect="bold">x</emphasis>
+      <emphasis effect="bold"> ≥ ћ/2</emphasis>
+    </para>
+    <para id="id9110379">
+      <emphasis effect="bold">∆t.∆E ≥ ћ/2 1.82</emphasis>
+    </para>
+    <para id="id9069418">In a single Hydrogen Atom, when an electron jumps from the ground state to excited state then electron stays in the excited state for 10 nanoseconds. On atomic time scale this life-time in excited state is considered to be long. By Hiesenberg’s Uncertainty Principle a large temporal uncertainty in excited state makes the energy level less uncertain. The excited states have uncertainty of only 10<sup>-7</sup>eV. This means the energy spread has a magnitude of 10<sup>-7</sup>eV. Hence in single atoms all the states are discrete.</para>
+    <para id="id1170710336111">In a crystalline lattice on the contrary, the electrons stay at the excited state only for femtoseconds (10<sup>-15 </sup>seconds). Because of this very reduced temporal uncertainty in the lifetime of excited state a very large uncertainty, almost of the order of 1eV, creeps in the excited energy state. This leads to spreading of discrete energy states in a single atom to energy bands of the order of 1eV in a single crystal solid.</para>
+    <para id="id1170710382671">Why is the uncertainty in the life-time at higher energy states in a solid so minimal?</para>
+    <para id="id1170709585520">In a single atom, an electron is trapped in an infinite potential well hence we have well defined discrete energy states as permissible energy states. On the contrary in a crystalline solid, valence electrons are trapped in an array of finite potential wells and the potential walls dividing the potential wells are of finite thickness. This results in a finite quantum-mechanical tunneling probability of excited state electrons . This tunneling probability is higher for higher excited states. Because of this quantum mechanical tunneling phenomena, electrons are highly unstable at the excited states and they immediately return to the ground state. This explains the negligible uncertainty or negligible spread in the lifetime of excited electrons. Smaller is the spread in the lifetime larger is the energy spread of the excited state. As we go to outer orbits, meaning by as we go to higher energy states we have broader energy bands as seen in Fig (1.41.b &amp; c). The innermost energy bands are the narrowest and the outermost are the broadest.</para>
+    <para id="id9058497">
+      <figure id="id9102746">
+        <media id="id9102746_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-b06a.png" id="id9102746__onlineimage" height="354" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170710386702">
+      <media id="id1170710386702_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-4e49.png" id="id1170710386702__onlineimage" height="353" width="648"/>
+      </media>
+    </figure>
+    <para id="id1170710336341">Figure 1.41. Comparative study of the potential well of an isolated atom and the much wider potential box created by a crystalline solid.</para>
+    <para id="id1170710365900"><emphasis effect="bold"/>If there is 1-D array of atoms well separated as shown in Figure 1.41.a, the electrons continue to occupy discrete energy states given by the formula :</para>
+    <para id="id1170709376368">
+      <figure id="id1170710366623">
+        <media id="id1170710366623_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-7740.png" id="id1170710366623__onlineimage" height="31" width="60"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id9065878">But as the inter-atomic distances are reduced and electrons in individual potential wells start interacting the discrete energy states start spreading out in closely spaced energy levels. This cluster of closely spaced energy states appear as a permissible band of energy states. </para>
+    <para id="id1170710374154">In a solid if electrons are excited to an energy level greater than 0eV then the electron escapes out of the solid and is now present in free space where it can occupy a continuum of energy states. Hence we show a continuum of energy state above 0 eV.</para>
+    <para id="id8455120">
+      <emphasis effect="bold">SSPD_Chapter 1_Part10_continued_EXPLANATION OF ENERGY BAND THEORY ON THE BASIS OF PAULI’S EXCLUSION PRINCIPLE.</emphasis>
+    </para>
+    <para id="id8429218"><emphasis effect="bold"/>A single Atom and a 3-D array of atoms arranged in a crystalline solid have a fundamental difference.</para>
+    <para id="id1170710369698">A single atom has a single potential well which acts as the bounded space surrounding the nucleus. Within this bounded space only those electrons are permitted which fulfill the boundary conditions for standing waves. Since these electrons are fermions they obey Pauli’s Exclusion Principle. In an elemental phase space only two electrons of opposite spin can be accommodated. What this means is that no two electrons can be at the same energy level at the same spatial coordinate. If two electrons are at the same energy level, spatially they must spread out. If spatially they are squeezed to the same coordinates then they must spread out in energy sense.</para>
+    <para id="id8996515">When there are two atoms well separated, electrons in their respective host atoms can continue to be in the ground state and the two ground states will be equal. Here the two systems are non-interacting and their phase spaces are well separated.</para>
+    <para id="id9068761">In a crystalline solid, the 3-D array of potential wells constitute a common phase space bounded by the surface potential barriers of the solid and having a periodic potential variation throughout the three dimensional phase space. Now the electrons of the respective atoms belong to the common phase space and these electrons need to fulfill the boundary condition of standing waves as set by the common phase space and not by the potential well of individual atoms. The individual potential wells are drastically modified when the atoms are three dimensionally arranged into crystalline solid as shown in Fig(1.41. b).</para>
+    <para id="id1170709462964">The electrons do not belong to the individual host atoms but belong to the whole lattice space. Electrons instead of being localized are non-localized but their localization is destroyed to definite degree depending upon the orbital position of the electrons.</para>
+    <para id="id8669406">In a crystalline solid with a large atomic number, the inner orbital electrons are tightly bound to their respective nuclei and hence their localized nature is retained. The energy bands corresponding these electrons are narrow.</para>
+    <para id="id8855660">As we move outward, the localized nature is progressively destroyed and progressively they are mutually interacting. These leads to wider and wider broadening of the energy bands.</para>
+    <para id="id1170710380823">In Figure(1.41), we show the nature of an individual potential well and also the nature of the much wider potential well formed by the combination of the linear array of potential wells. We have also shown the periodic potential variation in the wide potential box caused by the total solid.</para>
+    <para id="id1170710381028">Within the single crystal solid, the creation of the much wider potential box and the periodic potential variation within the box are the underlying cause of the energy bands.</para>
+    <para id="id8999614">
+      <figure id="id1170710354360">
+        <media id="id1170710354360_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-3684.png" id="id1170710354360__onlineimage" height="519" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170710318418">
+      <emphasis effect="bold">Figure 1.42.a. </emphasis>
+      <emphasis effect="bold">The arrangement of two coupled springs.</emphasis>
+    </para>
+    <para id="id1170710342325">
+      <figure id="id1170709158112">
+        <media id="id1170709158112_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-e263.png" id="id1170709158112__onlineimage" height="465" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170709155053">Figure 1.42. The effect of two coupled springs and three coupled springs in splitting the individual energy levels and their natural frequencies of vibrations.</para>
+    <para id="id1170709155477">In Figure (1.42) we show two identical coupled spring loaded mass system and three identical coupled spring loaded mass system. The coupling is achieved through a massless and weak spring. Each individual spring loaded mass is constrained by frictionless guides. When the main spring loaded masses are uncoupled they exhibit identical frequencies of oscillation ν<sub>0</sub>. In two spring loaded mass system coupling results in splitting of the oscillation frequencies into two closely spaced frequencies namely :</para>
+    <para id="id1170709154798">ν<sub>0</sub>+ ∆ν<sub/>and ν<sub>0</sub>-∆ν. </para>
+    <para id="id1170709556011">In three spring loaded coupled system the central frequency splits into three closely spaced frequencies and in N coupled system the central frequency splits into N closely spaced frequencies. If N is very large then this splitting results into a continuous band of frequencies. </para>
+    <para id="id1170710371030">If we consider the frequency of the loaded spring to be analogous to the ground energy state of the electron in a hydrogen atom then two interacting hydrogen atoms will lead to the discrete ground energy state splitting into two energy states and the same splits into three energy states when three atoms are mutually interacting. By corollary a discrete ground energy state splits into N closely spaced energy states when there is a linear array of N atoms close enough to be mutually interacting. This N closely spaced energy states appears as a band of permissible energy states.</para>
+    <para id="id7094604">
+      <figure id="id1170709133229">
+        <media id="id1170709133229_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-6a09.png" id="id1170709133229__onlineimage" height="900" width="626"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Fig</emphasis>
+      <emphasis effect="bold">ure 1.43. Merging of two potential wells into one potential well and merging of three potential wells into one potential well.</emphasis>
+    </para>
+    <para id="id4513689">Let us examine two isolated atoms each with a diameter of d Å. The symmetric matter wave of principal quantum number n =1 corresponds to E<sub>0</sub>= h<sup>2</sup>/(8md<sup>2</sup>).</para>
+    <para id="id8710585">The symmetric matter wave of each atom will combine to give a symmetric wave and anti–symmetric wave belonging to a combined potential well of dimension 2d Å. Hence the resultant symmetric wave will have energy E<sub>1</sub>= h<sup>2</sup>/(32md<sup>2</sup>) = E<sub>0</sub>/4 and the anti-symmetric wave will have energy E<sub>2</sub> = h<sup>2</sup>/(8md<sup>2</sup>)= E<sub>0</sub>. Thus two atoms interaction result in the symmetric wave energy E<sub>0</sub> splitting into (anti-symmetric)E<sub>0 </sub>and (symmetric)E<sub>0</sub>/4 energy states.</para>
+    <para id="id1170709637222">Let us examine three isolated atoms. The lowest symmetric wave corresponds to E<sub>0 </sub>belonging to the principal quantum number n=1. When they are brought close enough to be interacting then the symmetric wave will combine to give three possible combinations: the lowest will be a symmetric wave of n=1, the anti-symmetric wave of n=2 and the next highest symmetric wave of n=3, all belonging to a combined potential well of dimension 3d Å. These three matter waves have energies :</para>
+    <para id="id8437603">E<sub>1</sub>= h<sup>2</sup>/(8m(3d)<sup>2</sup>)= E<sub>0</sub>/9; E<sub>2</sub>= 4h<sup>2</sup>/(8m(3d)<sup>2</sup>) =(4/9)E<sub>0</sub> ; E<sub>3</sub> =9 h<sup>2</sup>/(8m(3d)<sup>2</sup>)= E<sub>0</sub>;</para>
+    <para id="id8262521">Thus 3 atoms interaction cause the first energy state split into 3 energy states. By the same logic we can conclude that N atoms will interact to split the ground state E<sub>0</sub> into N energy states where lowest energy level would be E<sub>0</sub>/N and highest energy state would be E<sub>0 </sub>.</para>
+    <para id="id1170709110087">This simple model based on ‘electron in a potential well’ explains how a discrete energy state splits into N discrete energy states<sub/>but this model completely fails to show as to how the continuous band results.</para>
+    <para id="id8649416">This model is too simplistic and does not correspond to the reality. We have assumed a flat bottomed potential well where as in fact it is an undulating surface due to periodic potential variation as shown in Fig(1.41.b). A more accurate model is Kronig Penny Model which is the topic of discussion in the next section</para>
+  </content>
+</document>

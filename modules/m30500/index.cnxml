@@ -1,0 +1,181 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AnalogElectronics_Lecture3_Incremental Model of Diode.</title>
+  <metadata>
+  <md:content-id>m30500</md:content-id><md:title>AnalogElectronics_Lecture3_Incremental Model of Diode.</md:title>
+  <md:abstract>This develops the low frequency incremental model of diode and illustrates the harmonic distortion when small signal condition is violated.</md:abstract>
+  <md:uuid>4f92a8ff-84e7-48e9-ab65-c596d59be475</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4944744">LECTURE NO. 3</para>
+    <para id="id6398513">INCREMENTAL MODEL OF A PN JUNCTION DIODE</para>
+    <para id="id8473671">Fig.1. A dc diode circuit.<figure id="id4086373"><media id="id4086373_media" alt=""><image mime-type="image/png" src="../../media/Picture 1-72d4.png" id="id4086373__onlineimage" height="148" width="217"/></media></figure></para>
+    <para id="id1169968793640">V<sub>DD </sub>= V<sub>D</sub> + I<sub>D</sub> .R<sub>D</sub>_____(1)  This describes DC load line.</para>
+    <para id="id7366841">I<sub>D</sub> = I<sub>D0</sub> exp(V<sub>D</sub>/V<sub>T</sub>)_____(2)  This is the device characteristics.</para>
+    <para id="id6510888">Q-point or the quiescent point is the DC operating point and is obtained as the intersection of DC load line and the device characteristics.</para>
+    <figure id="id1169962286301">
+      <media id="id1169962286301_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-d5d0.png" id="id1169962286301__onlineimage" height="209" width="365"/>
+      </media>
+    </figure>
+    <para id="id1169968881001">Figure 2. The dc load line , the device characteristics and the Q point.</para>
+    <para id="id1169967557685">Tan(α)= slope of the load line= (-1/R<sub>D</sub>)</para>
+    <para id="id1169971080872">Under signal conditions:</para>
+    <figure id="id1169965066835">
+      <media id="id1169965066835_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-4603.png" id="id1169965066835__onlineimage" height="172" width="380"/>
+      </media>
+    </figure>
+    <para id="id1169962310965">Figure 3. Signal is being coupled with the diode circuit.</para>
+    <para id="id1169966459983">i<sub>D </sub>= I<sub>D</sub> + i<sub>d </sub>where i<sub>D</sub> is the instantaneous diode current.</para>
+    <para id="id1169968896498">I<sub>D </sub>is the DC diode current.</para>
+    <para id="id7363151">i<sub>d </sub>is the incremental diode current.</para>
+    <para id="id5717730">And v<sub>D </sub>(instantaneous diode voltage) = V<sub>D </sub>(DC Diode Voltage) + v<sub>d</sub>_(incremental diode voltage)</para>
+    <para id="id4021945">Now the loop or the mesh equation is:-</para>
+    <para id="id1169968686551">(V<sub>DD </sub>+v<sub>s </sub>)=v<sub>D </sub>+i<sub>D</sub> R<sub>D</sub>_______(3)</para>
+    <para id="id1169967582574">Rewriting the above equation we get:-</para>
+    <para id="id1169964451914">(V<sub>DD </sub>+v<sub>s </sub>)= (V<sub>D</sub> + v<sub>d </sub>)+( I<sub>D</sub> + i<sub>d</sub>) R<sub>D</sub>_____(4)</para>
+    <para id="id1169969214968">Now we have (Instantaneous – DC) = Incremental part, </para>
+    <para id="id1169968874720">that is Eq.(4)-Eq.(1) :</para>
+    <para id="id1169964637174">v<sub>s </sub>= v<sub>d</sub>+ i<sub>d </sub>R<sub>D </sub>= v<sub>d</sub> + v<sub>o</sub> ;</para>
+    <para id="id1169962365557">Incremental circuit will be:-</para>
+    <figure id="id1169966220509">
+      <media id="id1169966220509_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-869e.png" id="id1169966220509__onlineimage" height="139" width="245"/>
+      </media>
+    </figure>
+    <para id="id2248607">Figure 4. The incremental circuit of the Diode Circuit with signal.</para>
+    <para id="id1169964446010">A diode under instantaneous conditions has two parts :-</para>
+    <figure id="id7923179">
+      <media id="id7923179_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-bb31.png" id="id7923179__onlineimage" height="74" width="175"/>
+      </media>
+    </figure>
+    <para id="id9212352">
+      <figure id="id8698798">
+        <media id="id8698798_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-f5db.png" id="id8698798__onlineimage" height="87" width="280"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169963055602">The above is a relation between the diode current and the diode voltage.</para>
+    <para id="id1169965186033">We know that </para>
+    <para id="id1169971363726">e<sup>Ɵ</sup>= 1+Ɵ+(Ɵ<sup>2</sup>/2!)+ (Ɵ<sup>3</sup>/3!)+………….</para>
+    <para id="id1169971399009">If Ɵ &lt;&lt;1; e<sup>Ɵ</sup>= 1+Ɵ This now becomes a linear equation.</para>
+    <para id="id4729444">If incremental voltage across the diode is less than 5 mV then Ɵ&lt;&lt;1.</para>
+    <para id="id1169964833446">To maintain linearity, we maintain all the signals small.</para>
+    <para id="id3466305">So under small signal approximations,</para>
+    <para id="id1169968817524">e<sup>Ɵ</sup>= 1+Ɵ will hold good.</para>
+    <figure id="id1169962834323">
+      <media id="id1169962834323_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-815c.png" id="id1169962834323__onlineimage" height="91" width="359"/>
+      </media>
+    </figure>
+    <para id="id1169966425944">Now we note that V<sub>T</sub>=26mV and the room temperature=300K and if V<sub>d </sub>&lt; 5 mV then we satisfy the small signal condition and we obtain:</para>
+    <para id="id1169973520761">
+      <figure id="id1169965179614">
+        <media id="id1169965179614_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-6667.png" id="id1169965179614__onlineimage" height="85" width="233"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id9000906">Then we have;</para>
+    <figure id="id1169962347418">
+      <media id="id1169962347418_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-6e95.png" id="id1169962347418__onlineimage" height="63" width="213"/>
+      </media>
+    </figure>
+    <para id="id1169966075865">Thus;</para>
+    <figure id="id1169963779760">
+      <media id="id1169963779760_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-b576.png" id="id1169963779760__onlineimage" height="72" width="133"/>
+      </media>
+    </figure>
+    <para id="id1169964388142">Let:</para>
+    <para id="id1169966191412">
+      <figure id="id5260181">
+        <media id="id5260181_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-579e.png" id="id5260181__onlineimage" height="63" width="89"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169962315156">Putting V<sub>T</sub>=26mV and I<sub>D</sub>=1mA we get r<sub>d</sub>=26Ω.</para>
+    <para id="id5121718">Thus the incremental part of the diode circuit was determined as follows:</para>
+    <list id="id1169962323199" list-type="bulleted">
+      <item>We short circuit the DC voltage source(DC current source would have been open circuited).</item>
+      <item>Any forward biased junction would be replaced by incremental resistance.</item>
+    </list>
+    <para id="id1169964285951">Incremental resistance r<sub>d </sub>= (Thermal Resistance V<sub>T</sub>/ Quiescent Current through the diode)</para>
+    <figure id="id1169962747249">
+      <media id="id1169962747249_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-be01.png" id="id1169962747249__onlineimage" height="66" width="82"/>
+      </media>
+    </figure>
+    <figure id="id2377421">
+      <media id="id2377421_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-65b9.png" id="id2377421__onlineimage" height="52" width="367"/>
+      </media>
+    </figure>
+    <list id="id7647147" list-type="bulleted">
+      <item>All backward bias junction will act as open circuit.</item>
+      <item>Ohmic resistance will offer resistance in both DC and incremental part.</item>
+    </list>
+    <para id="id3998555">This is small signal approximation. Thus Diode equivalent circuit is composed of linear elements only under small signal condition. Hence the circuit in Figure 4 is incremental circuit or small signal equivalent circuit. The incremental resistance r<sub>d</sub> offered by the diode under small signal condition is a linear resistance and is included in the circuit only under incremental condition.</para>
+    <para id="id8943415">Table 1. Values of incremental resistance at 300K offered by a diode under various DC diode currents.</para>
+    <table id="id1169966006174" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>I<sub>D</sub> (mA)</entry>
+            <entry>r<sub>d</sub> (ohms)=V<sub>T</sub>/I<sub>D </sub>at Room Temerature(300K</entry>
+          </row>
+          <row>
+            <entry>1µA</entry>
+            <entry>26 kohms</entry>
+          </row>
+          <row>
+            <entry>10µA</entry>
+            <entry>2.6 kohms</entry>
+          </row>
+          <row>
+            <entry>100µA</entry>
+            <entry>260 ohms</entry>
+          </row>
+          <row>
+            <entry>1 mA</entry>
+            <entry>26 ohms</entry>
+          </row>
+          <row>
+            <entry>10mA</entry>
+            <entry>2.6ohms</entry>
+          </row>
+          <row>
+            <entry>100mA</entry>
+            <entry>0.26 ohms.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169963913361">Amplitude or Harmonic Distortion.</para>
+    <para id="id1169966344104">As can be seen from Figure 3, input sinusoidal voltage v<sub>S</sub> appears as addition and subtraction to V<sub>DD</sub>. Hence under signal condition, the load line is being shifted as shown in Figure 5. In doing so Q pint also shifts generating sinusoidal current swing. As can be seen in the figure, a small segment of I-V curve of the diode(which is the case under small signal condition) is essentially a straight line. Hence Q moves along a straight segment and in the process generates a sinusoidal swing in the current.</para>
+    <para id="id1169969085390">
+      <figure id="id1169964454673">
+        <media id="id1169964454673_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 17-5324.png" id="id1169964454673__onlineimage" height="304" width="463"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7983562">Figure 5. Diode Current Sinusoidal Swing under Sinusoidal Input Voltage under small signal condition.</para>
+    <para id="id4772954">But as seen in Figure 6, if input voltage is a large signal then Q traces a non-linear segment of I-V curve. This results in non-sinusoidal current swing in the diode. This means a sinusoidal voltage is not giving rise to a sinusoidal current in the output load resistance R<sub>L</sub>. Hence the output voltage will be non-sinusoidal and its Fourier Series Expansion will contain Fundamental and Harmonics. This is known as Amplitude or Harmonic Distortion.</para>
+    <para id="id1169964291366">
+      <figure id="id1169964823138">
+        <media id="id1169964823138_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-52d3.png" id="id1169964823138__onlineimage" height="300" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2646925">Figure 6. Non-sinusoidal diode current swing when input voltage is a large voltage.</para>
+  </content>
+</document>

@@ -1,0 +1,344 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38609</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts.</md:title>
+  <md:abstract>SSPD_chapter 7_Part 6 introduces the concept of Sheet Resistance and Capacitance per Unit Area. From the basic circuit concepts we can arrive at the absolute values of the circuit elements which help in modeling the circuit behaviour.</md:abstract>
+  <md:uuid>bdb55533-28a5-4678-a564-7bc6694e0e49</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171345150263">SSPD_Chapter 7_Part 6_Basic Circuit Concepts.</para>
+    <para id="id1171349046676">7.6.1. Sheet Resistance.</para>
+    <figure id="id1171359274404">
+      <media id="id1171359274404_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-3a9e.png" id="id1171359274404__onlineimage" height="256" width="584"/>
+      </media>
+    </figure>
+    <para id="id1171349165656">Referring to Figure 7.6.1 we see that:</para>
+    <para id="id1171352004234">Resistance of the slab along the longitudinal axis:</para>
+    <para id="id1171345225658">
+      <figure id="id1171342957594">
+        <media id="id1171342957594_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-487e.png" id="id1171342957594__onlineimage" height="42" width="534"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171346904450">Therefore <figure id="id1171358345613"><media id="id1171358345613_media" alt=""><image mime-type="image/png" src="../../media/graphics2-f193.png" id="id1171358345613__onlineimage" height="45" width="516"/></media></figure></para>
+    <para id="id1171357403779">Table 7.6.1 gives the typical values of the sheet resistance of the different layers of CMOS IC circuit.</para>
+    <para id="id1171342898918"><emphasis effect="bold">Table 7.6.1.Typical values of the sheet resistance R</emphasis><emphasis effect="bold">S</emphasis><emphasis effect="bold"> of MOS layers for technology generation 5μm, 2μm and 1.2μm. </emphasis>(Here 5μm, 2μm and 1.2μm imply the minimum feature size = channel length for the given technology . Consequently λ is 2.5μm, 1μm and 0.6μm for these three generations respectively).</para>
+    <table id="id1171353762632" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Layer</entry>
+            <entry namest="c2" nameend="c4">R<sub>S</sub>(Ω/square)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>5μm</entry>
+            <entry>2μm</entry>
+            <entry>1.2μm</entry>
+          </row>
+          <row>
+            <entry>Metal</entry>
+            <entry>0.03</entry>
+            <entry>0.04</entry>
+            <entry>0.04</entry>
+          </row>
+          <row>
+            <entry>Diffusion</entry>
+            <entry>10→50</entry>
+            <entry>20→45</entry>
+            <entry>20→45</entry>
+          </row>
+          <row>
+            <entry>Silicide</entry>
+            <entry>2→4</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Poly_Si</entry>
+            <entry>15→100</entry>
+            <entry>15→30</entry>
+            <entry>15→30</entry>
+          </row>
+          <row>
+            <entry>N channel</entry>
+            <entry>10<sup>4</sup></entry>
+            <entry>2×10<sup>4</sup></entry>
+            <entry>2×10<sup>4</sup></entry>
+          </row>
+          <row>
+            <entry>P channel</entry>
+            <entry>2.5×10<sup>4</sup></entry>
+            <entry>4.5×10<sup>4</sup></entry>
+            <entry>4.5×10<sup>4</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171356802874">
+      <emphasis effect="bold">7.6.1.1. Resistance calculation of N-Channel in 5μm Generation of Technology.</emphasis>
+    </para>
+    <para id="id1171367858402">If L:W = 2λ:2λ then R<sub>channel</sub> = R<sub>sheet</sub>×(L/W) = 1×10<sup>4</sup>Ω..</para>
+    <para id="id1171355994194">If L:W = 8λ:2λ then R<sub>channel</sub> = R<sub>sheet</sub>×(L/W) = 1×10<sup>4</sup>Ω.×4 =4×10<sup>4</sup>Ω..</para>
+    <para id="id1171377117177"> With scaling, feature size has decreased and the pitch of metal interconnect has decreased. This has led to excessive RC time delay. To control this, metal interconnects are being replaced by Metal Silicides. The metal silicides or the refractory silicides are formed by depositing metal on poly-silicon and then sintering it. Though these have proved to be successful substitutes of metal interconnects the extra processing steps make it uneconomical. </para>
+    <para id="id1171345391516"> With scaling the cross-sectional area of the metal interconnect decreases and current density increases. As this exceeds the limit of 1.5mA/mm, metal grains are pushed around and wire interconnects break. This is called migration. Silicides prevent electron migration.</para>
+    <para id="id8070847"> With the latest generation of technology, silicides are being further replaced by copper interconnects.</para>
+    <para id="id1171350305251">
+      <emphasis effect="bold">7.6.2. Area Capacitance of Layers.</emphasis>
+    </para>
+    <para id="id1171370277846">Parallel plate capacitance is given by the formula:</para>
+    <figure id="id1171350354581">
+      <media id="id1171350354581_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-e24e.png" id="id1171350354581__onlineimage" height="54" width="471"/>
+      </media>
+    </figure>
+    <para id="id1171347246835">Where D=thickness of the dielectric between the plates;</para>
+    <para id="id1171350240978">A = cross-sectional area of the plate;</para>
+    <para id="id1171370679333">Absolute permittivity (permittivity) = ε<sub>0</sub> = 8.85×10<sup>-14</sup> F/cm;</para>
+    <para id="id1171367639619">Relative permittivity of the dielectric in this case SiO<sub>2</sub> = 3.9;</para>
+    <para id="id2202748">In VLSI design we express Capacitance per unit area = (pF/μm<sup>2</sup>). To obtain it in this form we have to the scaling factor as follows:</para>
+    <figure id="id1171350086607">
+      <media id="id1171350086607_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-d464.png" id="id1171350086607__onlineimage" height="61" width="437"/>
+      </media>
+    </figure>
+    <figure id="id1171346885890">
+      <media id="id1171346885890_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-317b.png" id="id1171346885890__onlineimage" height="61" width="420"/>
+      </media>
+    </figure>
+    <para id="id1171371926759">
+      <figure id="id1171355171773">
+        <media id="id1171355171773_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-0a0c.png" id="id1171355171773__onlineimage" height="150" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171355315371">But Gate-to-Channel capacitance, C<sub>g </sub>(pF/μm<sup>2</sup>) = 4×10<sup>-4</sup>, 8×10<sup>-4</sup>, 16×10<sup>-4</sup> ;</para>
+    <para id="id1171352607203">Therefore D = 88.5nm, 44.27nm, 22.1nm</para>
+    <para id="id1171345236680">Typical values are given in Table 7.6.2.</para>
+    <para id="id1171356798401">Table 7.6.2. Typical area capacitance values for MOS cuircuits.</para>
+    <table id="id1171347280259" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Capacitance</entry>
+            <entry namest="c2" nameend="c4">Value in pF×(10<sup>-4</sup>/μm<sup>2</sup>) (relative value in brackets)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>5μm</entry>
+            <entry>2μm</entry>
+            <entry>1.2μm</entry>
+          </row>
+          <row>
+            <entry>Gate Oxide Thickness</entry>
+            <entry>88.5nm</entry>
+            <entry>44.27nm</entry>
+            <entry>22.1nm</entry>
+          </row>
+          <row>
+            <entry>Gate to Channel</entry>
+            <entry>4 (1.0)</entry>
+            <entry>8 (1.0)</entry>
+            <entry>16 (1.0)</entry>
+          </row>
+          <row>
+            <entry>Difusion(active)</entry>
+            <entry>1 (0.25)</entry>
+            <entry>1.75 (0.22)</entry>
+            <entry>3.75 (0.23)</entry>
+          </row>
+          <row>
+            <entry>Poly-Si to substrate</entry>
+            <entry>0.4 (0.1)</entry>
+            <entry>0.6 (0.075)</entry>
+            <entry>0.6 (0.038)</entry>
+          </row>
+          <row>
+            <entry>Metal 1 to substrate</entry>
+            <entry>.3 (0.075)</entry>
+            <entry>0. 33 (0.04)</entry>
+            <entry>0.33 (0.02)</entry>
+          </row>
+          <row>
+            <entry>Metal 2 to substrate</entry>
+            <entry>0.2 (0.05)</entry>
+            <entry>0.17 (0.02)</entry>
+            <entry>0.17 (0.01)</entry>
+          </row>
+          <row>
+            <entry>Metal 2 to metal 1</entry>
+            <entry>0.4 (0.1)</entry>
+            <entry>0.5 (0.06)</entry>
+            <entry>0.5 (0.03)</entry>
+          </row>
+          <row>
+            <entry>Metal 2 to poly-Si</entry>
+            <entry>.3 (0.075)</entry>
+            <entry>0. 3 (0.038)</entry>
+            <entry>0.3 (0.018)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171368201516">
+      <emphasis effect="bold">7.6.2.1. Calculation of Standard Unit of Capacitance □C</emphasis>
+      <emphasis effect="bold">g</emphasis>
+    </para>
+    <para id="id1171344347973"><emphasis effect="bold"/>Generally while designing we donot work in terms of absolute values of capacitances. Instrtead we work in relative terms with repect to some standard value and the absolute value of that standard is recorded accurately.</para>
+    <para id="id1171345114434"> In the present case the gate-to-channel capacitance of a MOS transistor with W=L=2λ is calculated fot the different generations of technology and this is refered to as □C<sub>g</sub>. Table 7.6.3 gives the values of □C<sub>g</sub> for three generations of technology namely 5μm, 2μm and 1.2μm.</para>
+    <para id="id1171358664527">Table 7.6.3. Standard Unit of Capacitance for 5μm, 2μm and 1.2μm Generation.</para>
+    <table id="id1171363296478" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>5μm</entry>
+            <entry>2μm</entry>
+            <entry>1.2μm</entry>
+          </row>
+          <row>
+            <entry>Gate-to-Channel</entry>
+            <entry>4 pF×10<sup>-4</sup>/μm<sup>2</sup></entry>
+            <entry>8 pF×10<sup>-4</sup>/μm<sup>2</sup></entry>
+            <entry>16 pF×10<sup>-4</sup>/μm<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>□C<sub>g</sub></entry>
+            <entry>(5μm×5μm)×4 pF×10<sup>-4</sup>/μm<sup>2</sup>= 0.01 pF</entry>
+            <entry>(2μm×2μm)×8 pF×10<sup>-4</sup>/μm<sup>2</sup>= 0.0032 pF </entry>
+            <entry>(1.2μm×1.2μm)×16 pF×10<sup>-4</sup>/μm<sup>2</sup> = 0.0023 pF </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171367519437">In Table 7.6.4 the oxide thickness is given for different Generations of Technology.</para>
+    <para id="id1171349138758">Table 7.6.4 Oxide Thickness scaling with channel length scaling.</para>
+    <table id="id2736233" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>L</entry>
+            <entry>5 μm</entry>
+            <entry>2 μm</entry>
+            <entry>1.2 μm</entry>
+            <entry>90nm</entry>
+            <entry>45nm</entry>
+            <entry>30nm</entry>
+          </row>
+          <row>
+            <entry>D</entry>
+            <entry>88nm</entry>
+            <entry>44nm</entry>
+            <entry>22nm</entry>
+            <entry>1.3nm=5atomic layers</entry>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171345542679"> As oxide becomes thinner, current leakage through the oxide layer by means of quantum tunneling and consequent heating becomes a serious problem. We need physically thick oxide to prevent the leakage and electrically thin to keep the threshold Voltage low. Rewriting Eq 7.6.2.1 we get:</para>
+    <figure id="id2453771">
+      <media id="id2453771_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-a7c0.png" id="id2453771__onlineimage" height="54" width="408"/>
+      </media>
+    </figure>
+    <para id="id1171349082095"> By inspection of the above Equation we see that if relative permittivity is doubled in the numerator then thickness of the oxide layer,D, will also double thus making the Gate dielectric layer thick enough to prevent leakage aand leaving the threshold voltage unaffected. </para>
+    <para id="id1171354246718"> Along with vertical scaling, lateral scaling has taken place. This has led to reduction in cross-sevtional area ‘A’. This decreases Capactance C and increases threshold voltage.. If threshold voltage has to be maintained around 0.5V then the thickness D will once again have to be decreased.</para>
+    <para id="id1171359946871"> Therefore High K-metal gate was introduced. High K made the oxide layer thicker and metal gate prevented Fermi level pinning..</para>
+    <para id="id1171373788043">
+      <emphasis effect="bold">7.6.2.2. Metal 1 to Substraate Area Capacitance Calculation for 5μm Generation.</emphasis>
+    </para>
+    <para id="id1171344261102">In Figure 7.6.2, the cross-sectional view and the plan view of a metal interconnect is shown.</para>
+    <para id="id1171346871216">The length by breadth of the metal track =(L=20λ×W=3λ) is given. Determine Metal 1 to Substrate area capacitance in terms of the standard capacitance.</para>
+    <para id="id1171354902807">From Table 7.6.1, for 5μm Generation of CMOS:</para>
+    <para id="id1171351464749">Metal 1 to substrate capacitance per unit area = 0.075×□C<sub>g</sub></para>
+    <para id="id1171369953375">Therefore total area relative capacitance :</para>
+    <figure id="id1171349413924">
+      <media id="id1171349413924_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-66b1.png" id="id1171349413924__onlineimage" height="42" width="292"/>
+      </media>
+    </figure>
+    <para id="id1171352014311">Therefore Total area capacitance between metal 1 and substrate </para>
+    <para id="id1171355768324">=15×0.075×□C<sub>g </sub>= 1.125□C<sub>g</sub></para>
+    <para id="id1171346953837">The absolute value of the interplate capacitance </para>
+    <para id="id1171355159800">between metal 1 and substrate=1.125×0.01pF=0.0125pF.</para>
+    <para id="id1171346875160">Similarly same area between poly-Si and substrate= 15×0.1×□C<sub>g</sub>=1.5□C<sub>g</sub> ;</para>
+    <para id="id1171347289191">Same area between n-type diffusion and substrate =15×0.25×□C<sub>g</sub>=3.75□C<sub>g</sub> ;</para>
+    <figure id="id1171344791471">
+      <media id="id1171344791471_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-e62e.png" id="id1171344791471__onlineimage" height="476" width="600"/>
+      </media>
+    </figure>
+    <para id="id1171365432662">
+      <emphasis effect="bold">7.6.2.3 Capacitance calculation in multi layer structures.</emphasis>
+    </para>
+    <para id="id1171373289857"> A CMOS IC with multi-layer metal interconnect is shown in Figure 7.6.2.2 and in Figure 7.6.2.3. plan view of metal interconnect making contact with Poly-Si extension from the gate is shown.</para>
+    <para id="id2207882">It should be noted that Poly-Si over the Gate lies over 88.5nm thin oxide layer has the nomenclature of Gate-to-Chanel and has the standard value of 1□C<sub>g</sub> on the other hand</para>
+    <para id="id1171357293852">Poly-Si over the remaining portion runs over 5μm thick oxide layer and has the nomenclature Poly-Si-to-Substrate and has the value of 0.1□C<sub>g</sub>.</para>
+    <figure id="id1171344171981">
+      <media id="id1171344171981_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-f398.png" id="id1171344171981__onlineimage" height="527" width="600"/>
+      </media>
+    </figure>
+    <para id="id1171350345366">In Figure 7.6.2.3 we are required to determine Metal interconnect-to-Substrate capacitancve, Poly-Si-to-Substrate capacitance excluding Gate, Gate capacitance and total capacitance are to be calculated.</para>
+    <para id="id1171367666566">Relative area of metal interconnect with respect to standard capacitance =(100λ×3λ)/(2λ×2λ) = 75</para>
+    <para id="id1171369414247">Therefore Metal interconnect-to-Substrate Capacitance = 75×0.075□C<sub>g</sub> = 5.625□C<sub>g</sub>;</para>
+    <para id="id1171347131590">
+      <emphasis effect="italics">C</emphasis>
+      <emphasis effect="italics">m</emphasis>
+      <emphasis effect="italics"> = 5.625□C</emphasis>
+      <emphasis effect="italics">g</emphasis>
+      <emphasis effect="italics"> ;</emphasis>
+    </para>
+    <para id="id1171360973660">Poly-Si-to-Substrate Capacitance(excluding Gate area) </para>
+    <para id="id1171349137240">=[(overlap area + extension area of Poly-Si excluding Gate)/(2λ×2λ)]×0.1□C<sub>g</sub></para>
+    <para id="id1171358290116">=[(4λ×4λ +3λ×3λ)/ 2λ×2λ)]×0.1□C<sub>g</sub>=0.55□C<sub>g</sub>;</para>
+    <para id="id1171346885078">
+      <emphasis effect="italics">C</emphasis>
+      <emphasis effect="italics">poly</emphasis>
+      <emphasis effect="italics"> = 0.55□C</emphasis>
+      <emphasis effect="italics">g</emphasis>
+      <emphasis effect="italics">;</emphasis>
+    </para>
+    <para id="id1171352879931">
+      <emphasis effect="italics">C</emphasis>
+      <emphasis effect="italics">gate</emphasis>
+      <emphasis effect="italics"> = 1□C</emphasis>
+      <emphasis effect="italics">g</emphasis>
+      <emphasis effect="italics"> ;</emphasis>
+    </para>
+    <para id="id1171344774499">Therefore C<sub>total</sub> = C<sub>m</sub> + C<sub>poly</sub> + C<sub>gate</sub> =(5.625+0.55+1) □C<sub>g</sub> = 7.175□C<sub>g</sub>;</para>
+    <para id="id1171373417874">The absolute value is C<sub>total </sub>= 7.157×0.01pF=0.0717pF for 5μm Generation.</para>
+    <figure id="id1171344871798">
+      <media id="id1171344871798_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-812e.png" id="id1171344871798__onlineimage" height="380" width="600"/>
+      </media>
+    </figure>
+  </content>
+</document>

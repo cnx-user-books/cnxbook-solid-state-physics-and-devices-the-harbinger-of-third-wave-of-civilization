@@ -1,0 +1,389 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_continued_Crystal Structure of Si,Ge and GaAs.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34415</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_continued_Crystal Structure of Si,Ge and GaAs.</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 11_continuation describes the crystal structure and its crystalline parameters.</md:abstract>
+  <md:uuid>033b8173-ec8b-4860-92b2-b2c1e4dcebb9</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169287987971">SSPD_Chapter 1_ Part 11_Solid State of Matter continued_Silicon, Germanium and GaAs crystal structures</para>
+    <para id="id1169267017618">
+      <emphasis effect="bold">1.11.5. SILICON AND COMPOUND SEMICONDUCTORS.</emphasis>
+    </para>
+    <para id="id1169259226833">Before the advent of Solid State Technology, i.e. before 1950, semiconductor was used as two terminal point contact diode and photodiode. With the invention of Bipolar Junction Transistor, Germanium rose to the position of eminence because of its unusually high mobility of electron = 3900 cm<sup>2</sup>/(V-sec) [Table 1.10]. But with the invention of Integrated Circuit Chips it yielded ground to Silicon.</para>
+    <para id="id1169269014814">
+      <emphasis effect="italics">Today Silicon has become the staple of the Post- Industrial Society just as Iron became the staple of the Industrial Society. </emphasis>
+    </para>
+    <para id="id1169261362691">Why Silicon has become the material of choice and the most studied semiconductor in Computer Era? It is primarily because of Silicon-dioxide layer which can easily be formed by oxidation either in dry Oxygen or in steam. Oxidation is the key process in I.C.Technology. SiO<sub>2 </sub>acts as passivating layer as well as a shielding layer during diffusion. As we know that Silicon is a 3-D orderly arrangement of Silicon atoms which is abruptly terminated at the surface boundary of the crystal. This abrupt termination of orderly arrangement leaves many covalent bonds incomplete. These incomplete bonds are known as dangling bonds. These dangling bonds cause surface states and these surface states tend to trap or release mobile carriers. This random release or trapping of mobile carriers cause 1/f noise or flicker noise. Passivation of the surface states minimizes the flicker noise, stabilizes the electrical characteristics of the device and provides a protective layer to the underlying device. Since SiO<sub>2 </sub>is a perfect insulator it is used for isolation of devices which considerably reduces the parasitic effects. Conventionally reversed biased diode is used which eats away a lot of the real estate on the Silicon Surface and gives rise to severe parasitic effects. The real estate is saved as well as parasitics are minimized by the use of SiO<sub>2</sub> as isolation layer as well as the substrate as it is done in Silicon - on - Insulator (SOI) Technology. </para>
+    <para id="id1169255965970">The second reason for the popularity of Silicon is easy and cheap availability. It is obtained from silica and silica comprises 25% of Earth’s crust. Silicon is second most abundant after oxygen.</para>
+    <para id="id1169259400764">But Silicon is most unsuitable for photonics because of indirect band-gap and its accompanying non-radiative transitions though in recent years Silicon has been suitably modified to obtain photonic circuits on Silicon Substrate. Because of the unsuitability of Silicon, we have had to opt for Compound Semiconductors and its alloy as shown in Table(1.25).   </para>
+    <para id="id1551971">Table(1.25) give the compound semiconductors which have application in Photonics.</para>
+    <para id="id1169276212561"/>
+    <para id="id1169274101360">Table. 1.25. Compound Semiconductors for Photonics application.</para>
+    <table id="id1169256489276" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Element</entry>
+            <entry>IV-IV compounds.</entry>
+            <entry>III-Vcompounds</entry>
+            <entry>II-VIcompounds</entry>
+            <entry>IV-VIcompounds</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>SiC</entry>
+            <entry>AlAs</entry>
+            <entry>CdS</entry>
+            <entry>PbSe.</entry>
+          </row>
+          <row>
+            <entry>Ge</entry>
+            <entry/>
+            <entry>AlSb</entry>
+            <entry>CdSe</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>BN</entry>
+            <entry>CdTe</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>GaAs</entry>
+            <entry>ZnS</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>GaP</entry>
+            <entry>ZnSe</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>GaSb</entry>
+            <entry>ZnTe</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>InAs</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>InP</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>InSb</entry>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id7266744"><emphasis effect="bold"/>In 1980’s with the development of low attenuation optical fiber , short haul-heavy traffic and long haul communication turned towards Optical Fiber Communication. In communication there is a heavy premium on Band Width and Optical fiber could offer immense amount of BW at very low cost. This gave a tremendous boost to R&amp;D in optoelectronic devices and optoelectronic chips. The material of choice could only be Compound Semiconductors and their alloys. The compound semiconductors are direct band-gap materials offering high radiative quantum efficiency.</para>
+    <para id="id1169261143668">Indium Antimonide (InSb) was the first III-V compound semiconductor to be discovered in 1950. Because of narrow band-gap, E<sub>g</sub>= 0.17eV, InSb is the suitable material for fabricating optoelectronic devices in far infrared spectrum because 0.17eV band-gap corresponds to critical wavelength λ<sub>c</sub> = (1.24/ E<sub>g</sub> )= 7.3μm. This critical wavelength will decide the optical emission and absorption wavelength.</para>
+    <para id="id1169293734010">The invention of semiconductor laser and the discovery of Gunn-Effect brought GaAs ( E<sub>g </sub>= 1.43eV) and InP ( E<sub>g</sub> = 1.35eV) to a position of eminence. The need for visible light Light Emitting Diodes by necessity led to the importance of GaP( E<sub>g</sub> =2.1 eV) and its alloys. 2.1eV band-gap corresponds to a critical wavelength of 0.59μm which falls in visible part of the spectrum. By suitable alloying , any critical wave length in the range 0.4μm to 0.7 μm can be achieved and 0.4μm to 0.7 μm is the visible part of the spectrum. The alloying process, to achieve a suitable critical wavelength, is known as <emphasis effect="bold">BAND-GAP ENGINEERING.</emphasis> We will deal with this topic in PHOTONICS Chapter.</para>
+    <para id="id1169256201513">The choice of different Binary Compounds provides us a wide range of Band-gaps ranging from InSb of band-gap 0.17eV to SiC of band-gap 2.99eV. SiC enabled the fabrication of Blue Laser diodes which are used to sense the pixels of DVD (Digital Versatile Disc). The advent of DVD has greatly enhanced the storage capacity. CD stores 700MB whereas DVD stores 4GB and more.</para>
+    <para id="id1169270262858">Here it may also be pointed out that Extreme Ultra-Violet photolithography is enabling the fabrication of nano-electronics chips or realization of lateral feature size less than 100nm as required in Ultra-Large-Scale-Integrated (ULSI) Chips. This again is dependent upon research in very wide band-gap material typically a band-gap of 12.4eV corresponding to a critical wavelength of 0.1μm.</para>
+    <para id="id1169256675187">The ease of alloying Binary Compounds into Ternary Compounds such as AlGaAs and Quaternary Compound such as InGaAlAs makes the use of compound semiconductor in photonics very attractive and convenient.. The alloyed Binary compounds gives a continuous and monotonic variation in Band-gap energy according the stoichometric coefficient of the alloyed material. This continuous variation gives the Photonic Scientists a more varied option in terms of band-structure, electronic properties and optical properties. The alloying process can be achieved by Molecular Beam Epitaxy(MBE). This alloying process also enables the fabrication of Hetrostructure Junctions which is much more power efficient as compared to Homojunctions. Homojunctions are junctions formed by P type and N Type of same material whereas Hetrojunctions are formed by P Type and N Type of different materials. Table(1.26) tabulates the electronic properties of Compound Semiconductors.</para>
+    <para id="id1169276246702">Table.1.26.Properties of Elemental &amp; Binary Compound Semiconductors at 300K.</para>
+    <table id="id1169290458026" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Semiconductor</entry>
+            <entry>Lattice Constant( a A° )</entry>
+            <entry>BandGap<emphasis effect="bold">(E</emphasis><emphasis effect="bold">g</emphasis><emphasis effect="bold"> eV)</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">Band</emphasis>
+              <emphasis effect="bold">a</emphasis>
+            </entry>
+            <entry namest="c5" nameend="c6">
+              <emphasis effect="bold">Mobility</emphasis>
+              <emphasis effect="bold">b</emphasis>
+              <emphasis effect="bold">(cm</emphasis>
+              <emphasis effect="bold">2</emphasis>
+              <emphasis effect="bold">/V-s)</emphasis>
+            </entry>
+            <entry>DielectricConstant</entry>
+          </row>
+          <row>
+            <entry>Elemental</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>μ<sub>n</sub></entry>
+            <entry>μ<sub>p</sub></entry>
+            <entry>ε<sub>r</sub></entry>
+          </row>
+          <row>
+            <entry>Ge</entry>
+            <entry>5.64</entry>
+            <entry>0.66</entry>
+            <entry>I</entry>
+            <entry>3900</entry>
+            <entry>1900</entry>
+            <entry>16.0</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>5.43</entry>
+            <entry>1.12</entry>
+            <entry>I</entry>
+            <entry>1450</entry>
+            <entry>450</entry>
+            <entry>11.9</entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c7">IV-IV</entry>
+          </row>
+          <row>
+            <entry>SiC<sup>c</sup></entry>
+            <entry>3.08</entry>
+            <entry>2.99</entry>
+            <entry>I</entry>
+            <entry>400</entry>
+            <entry>50</entry>
+            <entry>10.0</entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c7">III-V</entry>
+          </row>
+          <row>
+            <entry>AlSb</entry>
+            <entry>6.13</entry>
+            <entry>1.58</entry>
+            <entry>I</entry>
+            <entry>200</entry>
+            <entry>420</entry>
+            <entry>14.4</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>5.63</entry>
+            <entry>1.42</entry>
+            <entry>D</entry>
+            <entry>8500</entry>
+            <entry>400</entry>
+            <entry>13.1</entry>
+          </row>
+          <row>
+            <entry>GaP</entry>
+            <entry>5.45</entry>
+            <entry>2.26</entry>
+            <entry>I</entry>
+            <entry>110</entry>
+            <entry>75</entry>
+            <entry>11.1</entry>
+          </row>
+          <row>
+            <entry>GaSb</entry>
+            <entry>6.09</entry>
+            <entry>0.72</entry>
+            <entry>D</entry>
+            <entry>5000</entry>
+            <entry>850</entry>
+            <entry>15.7</entry>
+          </row>
+          <row>
+            <entry>InAs</entry>
+            <entry>6.05</entry>
+            <entry>0.36</entry>
+            <entry>D</entry>
+            <entry>33000</entry>
+            <entry>460</entry>
+            <entry>14.6</entry>
+          </row>
+          <row>
+            <entry>InP</entry>
+            <entry>5.86</entry>
+            <entry>1.35</entry>
+            <entry>D</entry>
+            <entry>4600</entry>
+            <entry>150</entry>
+            <entry>12.4</entry>
+          </row>
+          <row>
+            <entry>InSb</entry>
+            <entry>6.47</entry>
+            <entry>0.17</entry>
+            <entry>D</entry>
+            <entry>80000</entry>
+            <entry>1250</entry>
+            <entry>17.7</entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c7">II-VI</entry>
+          </row>
+          <row>
+            <entry>CdS</entry>
+            <entry>5.83</entry>
+            <entry>2.42</entry>
+            <entry>D</entry>
+            <entry>340</entry>
+            <entry>50</entry>
+            <entry>5.4</entry>
+          </row>
+          <row>
+            <entry>CdTe</entry>
+            <entry>6.48</entry>
+            <entry>1.56</entry>
+            <entry>D</entry>
+            <entry>1050</entry>
+            <entry>100</entry>
+            <entry>10.2</entry>
+          </row>
+          <row>
+            <entry>ZnO</entry>
+            <entry>4.58</entry>
+            <entry>3.35</entry>
+            <entry>D</entry>
+            <entry>200</entry>
+            <entry>180</entry>
+            <entry>9.0</entry>
+          </row>
+          <row>
+            <entry>ZnS</entry>
+            <entry>5.42</entry>
+            <entry>3.68</entry>
+            <entry>D</entry>
+            <entry>165</entry>
+            <entry>5</entry>
+            <entry>5.2</entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c7">IV-VI</entry>
+          </row>
+          <row>
+            <entry>PbS</entry>
+            <entry>5.93</entry>
+            <entry>0.41</entry>
+            <entry>I</entry>
+            <entry>600</entry>
+            <entry>700</entry>
+            <entry>17.0</entry>
+          </row>
+          <row>
+            <entry>PbTe</entry>
+            <entry>6.46</entry>
+            <entry>0.31</entry>
+            <entry>I</entry>
+            <entry>6000</entry>
+            <entry>4000</entry>
+            <entry>30.0</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169256426478"><sup>a</sup> I = Indirect, D = Direct;</para>
+    <para id="id1169260539958"><sup>b</sup> The values are for drift mobilities obtained in the purest and the most perfect materials available to date;</para>
+    <para id="id1169265545991"><sup>c</sup> Silicon Carbide crystallizes in the wurtzite structure.( Physics of Semiconductor Devices, S.M.Sze, 2<sup>nd</sup> Edition, Wiley, New York, 1981.</para>
+    <para id="id1169284924765">1.11.6. BASIC CRYSTAL STRUCTURES.</para>
+    <para id="id1169261131643"><emphasis effect="bold"/>The elemental semiconductors, Ge and Si, crystallize as diamond structure and most of the compound semiconductors crystallize as Zinc-Blende structure. These are variants of cubic structures.</para>
+    <para id="id1169261513076">We have three basic cubic structures: simple cube, body centered cube (bcc) and face centered cube (fcc). The side of a cube ‘a’ is known as lattice constant. The three parameters that characterize a cubic unit cell are : coordination number, the packing fraction and the nearest neighbor distance.</para>
+    <para id="id1169277856618">Polonium crystallizes as simple cube. </para>
+    <list id="id7353586" list-type="bulleted">
+      <item>Each lattice center is occupied by one atom. </item>
+      <item>At each corner we have one atom and each corner atom is occupied by eight cubes. Hence unit cell has 8 corner atoms×(1/8)= 1 atom. </item>
+      <item>Coordination number is the number of nearest neighbor lattice site. </item>
+      <item>In simple cube it is 6. Four lattice sites lie in the same plane and two lie above and below the plane. </item>
+      <item>Packing fraction is {[(1/8)(4/3)πR<sup>3</sup>]×8}/a<sup>3</sup>. Here a<sup>3 </sup>is the volume of an unit cell. If we assume that the atom spheres are touching one another then R=a/2 where R is the radius of the atom. Therefore packing fraction is π/6. The nearest neighbor distance is ‘a/2’.</item>
+    </list>
+    <para id="id1169266971515">Sodium and Tungsten crystallize as Body Centered Cube(bcc). </para>
+    <list id="id5491194" list-type="bulleted">
+      <item>This has one extra atom at the body center. </item>
+      <item>This amounts to [8 corner atoms×(1/8) + 1] = 2 atoms per cell. </item>
+      <item>The coordination number is 8 as the nearest neighbor atoms are the 8 body center atoms residing in the 8 unit cells surrounding each corner atom. </item>
+      <item>Therefore nearest neighbor distance a√3/2. </item>
+      <item>If we assume that the body center atom is touching the corner atom then the radius is R= a√3/4. </item>
+      <item>Therefore packing factor = (volume of 2 atoms)/a<sup>3 </sup>= [2×(4/3)πR<sup>3</sup>]/a<sup>3</sup> = [2×(4/3)π(a√3/4)<sup>3</sup>]/a<sup>3</sup> =π√3/8= 0.68.</item>
+    </list>
+    <para id="id1169290622475">Aluminum, copper, gold and platinum crystallize as Face Centered Cube(fcc) . </para>
+    <list id="id1169260430378" list-type="bulleted">
+      <item>Here there are no body centered atom. Instead there are 6 atoms at the center of the 6 faces of the cube. </item>
+      <item>This amounts to [8 corner atoms×(1/8) + 6 face atoms×(1/2) ] = 4 atoms per unit cell. </item>
+      <item>The corner atom lies at the intersection of 3 orthogonal planes. Each plane has four faces and each face has one atom at the center which is the nearest neighbor. Hence the coordination number is 12. Nearest neighbor distance is a√2/2 and the radius R = a√2/4. The packing factor is = (volume of 4 atoms)/a<sup>3</sup> = [4×(4/3)πR<sup>3</sup>]/a<sup>3</sup> = [4×(4/3)π(a√2/4)<sup>3</sup>]/a<sup>3</sup> = π√2/6= 0.74.</item>
+    </list>
+    <para id="id1169281660770">Figure (1.55) in SSPD_Chapter 1_Part 11_Soild state of Matter_Crystalline Nature of Solid depicts the three cubic crystal systems: simple, bcc and fcc.</para>
+    <para id="id1169261521995">Silicon and Germanium are Diamond lattice structures. Diamond structure has been described in SSPD_Chapter 1_Part 11_Soild state of Matter_Crystalline Nature of Solid in Figure 56. </para>
+    <list id="id1169274216071" list-type="bulleted">
+      <item>Diamond lattice structure belongs to cubic- crystal family. </item>
+      <item>Diamond structure is two interpenetrating fcc sub-lattices with one sub-lattice displaced with respect to the other along the diagonal of the cube by one quarter of the diagonal length i.e. by a√3/4 as shown in Figure(1.56.A). </item>
+      <item>We can better visualize the diamond structure by dividing one major cube (a×a×a) into 8 sub- cubes (a/2×a/2×a/2) by the name A,B,C,D in the upper half of the major cell and E,F,G,H in the lower half of the major cell as shown in Figure(1.56.B). Subcell E is hidden from sight. </item>
+      <item>The perspective view of the major cell is shown in Figure (1.56.B) </item>
+      <item>The plan view is shown in Figure (1.56.C) . </item>
+      <item>Each major cell has 4 subcells A,C,F,H containing tetrahedral structures of silicon or germanium atoms. </item>
+      <item>A tetrahedral structure is shown in Figure(1.56.D). A tetrahedral structure lies in a subcube. </item>
+      <item>There is one atom at the center of the subcube. </item>
+      <item>This body center atom time-shares its 4 valence electrons with 4 valence electrons of the corner atoms of the subcube. </item>
+      <item>The 4 corner atoms forming the covalent bonds with the body centered atom are the two diagonally opposite corner atoms on the upper plane and two diagonally opposite corner atoms on the lower plane but this time it is the other diagonal. </item>
+      <item>That is the two sets of diagonally opposite corner atoms comprise two orthogonal diagonals. </item>
+      <item>Thus in plan view we see, as in Figure (1.56.C), each Si(or Ge) time sharing its 4 valence electrons with 4 valence electrons of the four corner neighboring atoms and in the process each central atom is fulfilling its octave condition. </item>
+      <item>This is 100% covalent bond as the center of positive charge and the center of negative charge are coincident. </item>
+      <item>Each atom in the bulk is sharing the 4 valence electrons with 4 neighboring corner atoms hence octave condition and thereby covalent bond is fulfilled every where except at the surface of the crystal. </item>
+      <item>Hence at the surface we have unfulfilled covalent bonds or dangling bonds. </item>
+    </list>
+    <para id="id1169262688682">These dangling bonds are responsible for the surface states which if not properly controlled and passivated will lead to serious flicker noise problem as well as to the failure of the devices. At the initial stages of MOS fabrication there was serious Na impurity problem coupled with surface states problem which was leading to very low yields. Andy Grove, who was the cofounder of INTEL along with Gordon Moore and Robert Noyce , came into grip of this problem and gave a permanent solution of the low yields which enabled MOS Technology to take off. MOS Technology is the key to the fabrication of microprocessors. </para>
+    <para id="id1169259207171"><emphasis effect="bold"/>GaAs has zincblende lattice which is identical to diamond lattice except that one fcc sublattice consists of Ga and the other fcc sublattice consists of As. So in Plan View we see Ga atom surounded by four As atoms and similarly As atom is surrounded by four Ga atoms thereby each atom is fulfilling the octave condition by time sharing the electrons from the 4 neighboring atoms. The plan view of GaAs tetrahedral structure is shown in Figure(1.61).</para>
+    <figure id="id1169293218334">
+      <media id="id1169293218334_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-5778.png" id="id1169293218334__onlineimage" height="352" width="528"/>
+      </media>
+    </figure>
+    <para id="id1169260410133">Figure 1.61. Zincblende structure of GaAs.</para>
+    <para id="id1169258052724">1.11.7. CRYSTAL ORIENTATION.</para>
+    <para id="id1169259405288"><emphasis effect="bold"/>Crystals are anisotropic<emphasis effect="bold"/>because of different pattern of arrangement of atoms in different directions. Hence etching rate of the crystal is different in different directions. This property is utilized in Integrated Circuit Technology. Therefore crystal orientation is important in device fabrication and hence needs to be clearly defined. </para>
+    <para id="id1169285635503">The basis in which we define the planes and directions of a crystalline lattice is made possible by Miller Indices. This is derived from the Cartesian Coordinates in the following manner:</para>
+    <list id="id1169284670544" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>Any atom in the crystalline lattice is taken as the origin;</item>
+      <item>Reference coordinate axes are set up in the direction of basis vectors;</item>
+      <item>Consider a system of parallel planes. Find the intercepts made by one of the planes. Express them as multiples of unit basis vectors;</item>
+      <item>Take their reciprocals and reduce them to the smallest triad of integers h,k and l having the same ratio.(hkl) is the Miller Index of that system of parallel planes and &lt;hkl&gt; is the direction normal to the plane;</item>
+      <item>Suppose a plane has intercepts 2a, 3b and 4c where a, b and c are unit basis vectors along X, Y and Z axes. Then reciprocal is (1/2,1/3,1/4). These reciprocals are reduced to the smallest triad having the same ratio. The Miller index is (6,4,3). This has been obtained by multiplying the reciprocals with lowest common multiple of the denominator terms. The denominator terms are 2,3,4. The LCM is 12. Miller Index has been obtained by multiplying the reciprocals by 12. </item>
+      <item>(6,4,3) is the Miller Index of the given plane and &lt;6,4,3&gt; is the orientation vector of the plane.</item>
+    </list>
+    <para id="id5015460">The normal to the plane along which the crystals cleave is the crystal cleavage plane.. Generally they cleave along &lt;1,1,1&gt; plane. The cleavage plane is the plane of highest atomic density. If the surface of the Si wafer, known as major flat, is parallel to &lt;111&gt; plane then the crystal orientation is &lt;111&gt;. Different planes of a crystal structure is shown in Figure (1.62).</para>
+    <para id="id1169260373804">If the surface of the wafer is parallel to YZ plane then the crystal orientation is &lt;100&gt; . For MOS fabrication crystals with orientation &lt;100&gt; is utilized. For other applications &lt;111&gt; crystal orientations are preferred. </para>
+    <para id="id1169279555358">
+      <figure id="id1169288973055">
+        <media id="id1169288973055_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-7f65.png" id="id1169288973055__onlineimage" height="310" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169258090306">Figure. 1.62. Different Planes of a crystal.</para>
+    <para id="id3797501">
+      <emphasis effect="bold"/>
+    </para>
+  </content>
+</document>

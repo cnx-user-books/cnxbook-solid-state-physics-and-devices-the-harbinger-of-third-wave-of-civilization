@@ -1,0 +1,95 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Moore Law continues in the second decade of 21st Century.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38463</md:content-id>
+  <md:title>Moore Law continues in the second decade of 21st Century.</md:title>
+  <md:abstract>A paradigm shift takes place by the introduction of 22nm Tri-Gate Transistor which moves Transistor into third dimension and gives a new lease of life to Moore's Law in the second decade of 21st Century.</md:abstract>
+  <md:uuid>9b6da845-3cbb-4c9e-bdbe-f50c4b45166e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171710182084">
+      <emphasis effect="bold">The Onward March of Information Revolution in the second decade of 21</emphasis>
+      <emphasis effect="bold">st</emphasis>
+      <emphasis effect="bold"> Century.</emphasis>
+    </para>
+    <para id="id1171710190878">
+      <emphasis effect="bold">Intel’s 22nm Technology moves the transistor into 3</emphasis>
+      <emphasis effect="bold">rd</emphasis>
+      <emphasis effect="bold"> Dimension. </emphasis>
+    </para>
+    <para id="id1171722524046">In the Journey of IC Technology from Micro to Nano Era we have seen the major developments which have taken place to allow the Moore’s Law to be followed by Industries in IC manufacturing. But as we scale down below 45nm Technology a paradigm shift was inevitable if Moore’s Law is to be obeyed in future.</para>
+    <para id="id1171713516436"> On January 29, 2007, metal gate last and high-K technology in 45nm Technology was introduced. Using this technology Intel Core 2 Duo, Intel Core 2 Quad and multi-core processors were introduced.</para>
+    <para id="id1171712007742"> On May 4, 2011, Intel introduced Tri-Gate Transistor in 22nm Technology. This was the much awaited paradigm shift which will permit Moore’s Law to be continued for another decade.In conventional 2D MOSFET, a conducting channel is formed in the silicon region below the gate electrode in ON condition. High-K dielectric and metal gate has enabled the sub-threshold current to minimize but it has not completely turned off the channel. Hence power wastage remains though reduced.</para>
+    <para id="id1171710185763">
+      <figure id="id1171729371460">
+        <media id="id1171729371460_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-267f.png" id="id1171729371460__onlineimage" height="466" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171717507976">Figure 1. The cross-sectional view and the perspective view of Tri-gate Transistor. </para>
+    <para id="id1171713515654">In fully depleted tri-gate transistor, conducting channels are formed on three sides of a vertical fin structure as shown in Figure 1. The additional control (on the sides) enables as much transistor current to flow as possible when the transistor is in the “ON” state and it completely shuts down the current when it in “OFF” condition. This provides unprecedented combination of performance and energy efficiency. Hence it is suitable for a whole range of Computer Applications from servers to desktop and from lap-top to hand-held devices.</para>
+    <figure id="id1171713515919">
+      <media id="id1171713515919_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6a24.png" id="id1171713515919__onlineimage" height="477" width="590"/>
+      </media>
+    </figure>
+    <para id="id1171723432855">Figure 2. This I-V curve brings out the fully depleted character of Tri-Gate transistors.</para>
+    <para id="id1171712755766">This additional control speeds up the toggling rate also. The first microprocessor chip 4004, which had 2300 transistors and which used 10µm technology, toggled at 108kHz. In contrast Tri-Gate Transistor uses 22nm technology and switches 4000 times faster and it cuts down energy consumption by a factor of 1/5000 . The price per transistor has fallen down by a factor of 1/50,000 .</para>
+    <para id="id1171710183036">Intel’s 22nm Tri-Gate use third generation high-k/metal-gate scheme, copper interconnects, strained Silicon and 193 nm Immersion Lithography. These terms have been discussed in IC journey from micro to nano era.</para>
+    <para id="id1171740239132">Because of heat management considerations 8086 architecture was being gradually replaced by ARM(Advanced RISC Machines) in CPU applications. But the use of 22nm Tri-Gate dramatically changed the energy efficiency scenario as a result 8086 will continue to be in race for CPU applications.</para>
+    <figure id="id1171724772820">
+      <media id="id1171724772820_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-fd52.png" id="id1171724772820__onlineimage" height="458" width="585"/>
+      </media>
+    </figure>
+    <para id="id1171713517449">Figure 3. The photo-micrograph of Tri-Gate Transistors based IC.</para>
+    <para id="id1171710194850">Intel Technology Road Map.</para>
+    <table id="id1171710184668" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Process Name</entry>
+            <entry>P1266</entry>
+            <entry>P1268</entry>
+            <entry>P1270</entry>
+            <entry>P1272</entry>
+            <entry>P1274</entry>
+          </row>
+          <row>
+            <entry>Lithography</entry>
+            <entry>45nm</entry>
+            <entry>32nm</entry>
+            <entry>22nm</entry>
+            <entry>14nm</entry>
+            <entry>10nm</entry>
+          </row>
+          <row>
+            <entry>First Production Year</entry>
+            <entry>2007</entry>
+            <entry>2009</entry>
+            <entry>2011</entry>
+            <entry>2013</entry>
+            <entry>2015</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171710182138">
+      <figure id="id1171710181717">
+        <media id="id1171710181717_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-9ee7.png" id="id1171710181717__onlineimage" height="446" width="641"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171710184124">Compared to 32nm 2-D transistors, Tri-Gate transistors will be 37% faster and power efficiency will be 50% better. That is for the same operating conditions, Tri-Gate will consume 50% less power. Because of better power efficiency, battery back-up will be prolonged and battery-life will be improved.These will be run at lower voltages. This will also add up to the back-up time as well as the battery life. This will be a boon to heavy-duty network servers.</para>
+    <para id="id8910048">Tri-Gate transistor is a variant of ‘FinFet’ structure developed by Chenming Hu and his colleagues in late 1990s at University of California, Berkeley. IBM, Samsung and Taiwan Semiconductor Manufacturing Corporation are all working on FinFet. But even this 3-D structure will hit the wall sooner or later. Then perhaps a new technology ‘SPINTRONICS’ will come into picture.</para>
+  </content>
+</document>

@@ -1,0 +1,245 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Integrated Circuit Technology of  Future Generations-Part 4_QED properties continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44011</md:content-id>
+  <md:title>The Integrated Circuit Technology of  Future Generations-Part 4_QED properties continued</md:title>
+  <md:abstract>IC of future generation_Part 4 is a continuation of Quantum Electro-Dynamic properties of Graphene.</md:abstract>
+  <md:uuid>ffe56ed8-9b36-4c39-9431-ca52bcaf8932</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165184692689">
+      <emphasis effect="bold">8.3.4. Quantum Electrodynamical Properties of Graphene continued.</emphasis>
+    </para>
+    <para id="import-auto-id1165181495435">
+      <emphasis effect="bold">8.3.4.2.2. Vanishing Effective Mass of the carriers in graphene leads to Dirac quasi-particles</emphasis>
+    </para>
+    <para id="import-auto-id1165211455776">We have seen that electron in unbounded free space can assume all energy states but electron in an infinite potential well is permitted in only certain discrete states. The same  electron in a solid is permitted bands of energy states and thus is born the subject of the band theory of Solids. The valence electrons are localized and bonded to their host nuclei but the conduction electron wave function spreads throughout the crystalline lattice and the crystalline lattice creates a periodic potential distribution which modifies the  carrier wave- function. Electron moving through a 3D periodic potential distribution has a mass different from that of the free space electron. This mass of electron in a crystalline lattice is known as effective mass and is given by the formula[Sze (2012)]:</para>
+    <figure id="import-auto-id1165181593142">
+      <media id="import-auto-id1165180738948" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-28fe.png" height="59" width="387"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181067149">The magnitude and the sign of the second derivative of E-k diagram decides the mass and the nature of the  particle moving through the lattice structure. </para>
+    <para id="import-auto-id1165180748989">Figure 14 contains the profile of  reduced E-k, dE/dk-k, d<sup>2</sup>E/dk<sup>2</sup>-k and m*-k diagrams. Inspection of m*-k diagram shows that electron has the lightest mass at the bottom of reduced energy band diagram and heaviest at around k(wave vector) = ±π/(2a) where a = lattice constant. Hence metals with Fermi level at k = ±π/(2a) are heavy fermion metals. Electrons at the top of the valence band has (-)ve mass which gives rise to the phenomenological particle ‘Hole’.</para>
+    <para id="import-auto-id1165198271094">In graphene as we have seen in Eq.1. the energy dispersion relation is as follows:</para>
+    <figure id="import-auto-id1165208532198">
+      <media id="import-auto-id1165198823054" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-b557.png" height="22" width="412"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165207398210">
+      <media id="import-auto-id1165180750954" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-57ba.png" height="22" width="473"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165181577030">
+      <media id="import-auto-id1165181319028" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-c9d8.png" height="22" width="376"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id2822883">
+      <media id="import-auto-id1165196882611" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-6102.png" height="553" width="381"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165194246024">
+      <emphasis effect="bold">Figure 14. Reduced E-k , dE/dk-k, d</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">E/dk</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">-k and m*(effective mass of electron)-k diagram.π</emphasis>
+    </para>
+    <para id="import-auto-id1165198281922">From Figure 14 it is evident that Graphene is a zero-gap band semi-conductor or it is semi-metal. Because of zero bandgap , valence band and conduction band meet at K and K’  Dirac points of sublattices A and B, as shown in Figure 5. The conducting electron is perpetually at the rock-bottom of the conduction conic band hence it has the lightest effective mass so much so that it is massless and Zhang et. al. (2005) have shown it to be 0.007m<sub>e</sub> at Dirac Point. The velocity of a conducting electron with effective mass m<sub>e</sub><sup>*</sup> subjected to an accelerating voltage V<sub>acc</sub> is given as follows:</para>
+    <figure id="import-auto-id1165194657120">
+      <media id="import-auto-id1165181064433" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-bda5.png" height="52" width="304"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165197846900">
+      <media id="import-auto-id2321190" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-5254.png" height="63" width="405"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165202244522">Taking the effective mass of electron as 0.007m<sub>e</sub> and accelerating voltage as 0.025V = kT where k= Boltzmann constant and T = 300Kelvin we obtain a velocity of 1.12×10<sup>6</sup>m/s.</para>
+    <para id="import-auto-id1165191850149">The velocity of conducting electron is a fraction of the velocity of light (~ c/300) hence electron in Graphene is a relativistic particle.</para>
+    <para id="import-auto-id1165212944337">
+      <emphasis effect="bold">8.3.4.2.3. Energy of a relativistic paricle</emphasis>
+    </para>
+    <para id="import-auto-id1165195510734">Einstein equation of energy equivalent of a given mass m*  is as follows:</para>
+    <figure id="import-auto-id1165198161730">
+      <media id="import-auto-id1165217198200" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-ded5.png" height="63" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181485073">Where m<sub>0</sub> = rest mass and m*= effective mass moving with the relativistic velocity ‘v’.</para>
+    <para id="import-auto-id1165175998531">The momentum is :</para>
+    <figure id="import-auto-id1165195801399">
+      <media id="import-auto-id1165191774561" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-9066.png" height="60" width="378"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165206505972">Multiply Eq.11 by ‘c’ and square the whole equation:</para>
+    <figure id="import-auto-id1165196129677">
+      <media id="import-auto-id2289877" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-4321.png" height="123" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181557683">Simplifying Eq.12 we get:</para>
+    <figure id="import-auto-id1165181114903">
+      <media id="import-auto-id1165184852004" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-d776.png" height="91" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181427138">Substituting  Eq 10 in Eq 13  we get:</para>
+    <para id="import-auto-id1165184465078"><figure id="import-auto-id1165197798180"><media id="import-auto-id1165177659573" alt=""><image mime-type="image/png" src="../../media/graphics11-f667.png" height="22" width="404"/></media></figure>14</para>
+    <para id="import-auto-id1165175285902">Rearranging the terms in Eq.14 we get:</para>
+    <para id="import-auto-id1165180745451"><figure id="import-auto-id3676246"><media id="import-auto-id1165181556968" alt=""><image mime-type="image/png" src="../../media/graphics12-d1c0.png" height="22" width="381"/></media></figure>15</para>
+    <para id="import-auto-id1165185359034">Equation 15 is the energy equation for relativistic particles with rest mass ‘m<sub>0</sub>’.</para>
+    <para id="import-auto-id1165189476059">
+      <emphasis effect="bold">8.3.4.2.4.</emphasis>
+      <emphasis effect="bold">Linear</emphasis>
+      <emphasis effect="bold">Energy Dispersion Spectra of conducting electron in Graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1165184709737">We will use two equations from quantum mechanics namely:</para>
+    <para id="import-auto-id1165181192838">Energy of electron where electron is a wave packet like a photon is given by the expression  E (k) = hν = h(v<sub>F</sub>/λ) = p.v<sub>F</sub>16</para>
+    <para id="import-auto-id1165181257210">Here v<sub>F</sub> = c/300 = 10<sup>6</sup> m/s = Fermi Velocity = the velocity with which zero rest mass electron zips around the 2-D crystalline lattice of graphene.</para>
+    <para id="import-auto-id1165181422242">Using de Broglie Equation p = h/λ=±ħ│k│  in Eq.16 we get:</para>
+    <para id="import-auto-id1165181096629">E (k) = ± ħv<sub>F</sub>.│k│17</para>
+    <para id="import-auto-id1165181249904">where k = wave vector  and Fermi Energy Level is the Dirac point where E =0. </para>
+    <para id="import-auto-id1165181576637">Linear Energy Dispersion Spectra gives rise to Energy Cone as shown in Figure 5.</para>
+    <para id="import-auto-id1165181196268">The above linear energy dispersion gives rise to Dirac quasi-particles. Dirac-like equation is a consequence of graphene crystal structure which consists of two equivalent carbon sub-lattices A and B. Quantum Mechanical hopping between the sub-lattices leads to the formation of two cone-like energy bands and their intersection, the Dirac Points K and K', near the edges of Brillouin Zone yields the conical energy spectrum as shown in Figure 5. As a result , quasi-particle in graphene exhibit linear dispersion relation given by Eq.17. The particles in conventional metals and semi-conductor have parabolic (free-electron-like) dispersion relation. Because of this difference in energy dispersion relations the quasiparticles in graphene behave very differently from the particles in 3-D solids.</para>
+    <para id="import-auto-id1165200074344">The impact of the topological effects on graphene’s electronic properties can be elegantly described by the Atiyah-Singer Index Theorem. A direct consequence  of the index theorem is charge fractionalization which is known as fractional quantum effect. The charge fractionalization gives rise to the possibility of realizing grapheme based Anyons that unlike Bosons or Fermions exhibit fractional Statistics. Anyons are a strong candidate for performing error free quantum information processing. [Pachos (2009)]. </para>
+    <para id="import-auto-id1165181553502">
+      <emphasis effect="bold">8.3.4.2.5. Electrons and Holes in Graphene behave like Electrons-Positrons of Quantum Electro Dynamic (QED)Systems- The Origin of Charge Conjugate Symmetry.</emphasis>
+    </para>
+    <para id="import-auto-id1165181130983">[Katsnelson, Novoselov &amp; Geim (2006)]</para>
+    <para id="import-auto-id2722988">Electrons and holes in classical Solid State Devices or in Quantum 3D devices behave as independent entities, they are Schrodinger particles and they have separate Schrodinger descriptions. But this is not the case for electron-holes in 2D grapheme.</para>
+    <para id="import-auto-id1165198885068">As seen in Figure 15, filled energy states at the rock-bottom of the conduction cone gives rise to conducting electrons with positive energy, negative charge and zero rest-mass. This contributes to the electronic conduction in graphene.</para>
+    <para id="import-auto-id1165180721322">As a duality of this electronic conduction, the empty energy states at the apex of the valence cone corresponds to negative energy, positive charge and this also has zero rest mass. These empty energy states are holes and are analgous to positrons in Quantum Electro Dynamics(QED). This is a direct consequence of Time-Reversal Invariance.</para>
+    <para id="import-auto-id1165181558934">Just as in QED, we have one spinor function to describe electron-positron pair. Analogously we have the same spinor function to describe electron-hole pair in graphene except that the real spin of electron-positron is replaced by the pseudo-spin (σ) of electron-hole pair. Mapping of sublattices degree of freedom to pseudospin is best represented by Dirac Equation.</para>
+    <para id="import-auto-id1165182749342">In nutshell the charge-conjugation-symmetry found in QED is exhibited in graphene also.</para>
+    <para id="import-auto-id1165174842209">
+      <emphasis effect="bold">8.3.4.2.6. Chirality of Electrons and Holes in Graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1165184729107">Figure 16 describes  the hexagonal unit cell. As shown in Figure 16, the chiral vector determining the structure of CNT is  given by ‘L’ and its length gives the circumference of CNT. The chiral angle is represented by ‘η’. If η = 0 then CNT has zigzag periphery as shown in Figure 4.b  and if η = π/6 then CNT has arm-chair periphery as shown in Figure 4.c. [Ando (2009)].</para>
+    <para id="import-auto-id1165219352607">Figure 17 describes  the honeycomb structure consisting of two interpenetrating triangular lattices(“A” and “B” sublattices) with one lattice point of each type per unit cell. 2-D inversion (i.e. rotation by π) interchanges the two sublattices [Haldane (1988)].</para>
+    <para id="import-auto-id1165181359924">In Figure 17, Wigner-Seitz Unit Cell is centered on the star point ‘*’ of 6-fold symmetry and is bounded by the hexagon of nearest neighbor bond. Arrows on the second-neighbour bonds mark the direction of positive hopping with broken time reversal invariance.</para>
+    <para id="import-auto-id1165181149841">In Figure 18, we have shown the tunneling of electron through a potential barrier V<sub>0</sub> high and D wide. <emphasis effect="italics">Projection of pseudospin ‘σ’ on the direction of motion is chirality.</emphasis> Hence chirality is positive for electron and negative for holes. Chirality shows the additional built-in symmetry between electron and hole parts in graphene spectrum and it is analogous but not identical to chirality in 3-D materials. Thus we have two built-in symmetries in graphene: <emphasis effect="italics">charge conjugation symmetry and Chirality symmetry.</emphasis></para>
+    <figure id="import-auto-id1165181240613">
+      <media id="import-auto-id1165184753053" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-a27d.png" height="577" width="565"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181355119">
+      <emphasis effect="bold">Figure 15.The origin of Charge–conjugation-symmetry of electron and holes in Graphene and this results in spinor function description of electrons and holes in Graphene just as we have spinor function description of electron-positron in QED. </emphasis>
+    </para>
+    <para id="import-auto-id1165198144760">In essence the chiral character of the electronic charge in graphene is due to pseudospin associated with the two triangular sub-lattices that form the honeycomb lattice.</para>
+    <figure id="import-auto-id1165183922806">
+      <media id="import-auto-id1165180755850" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-274b.png" height="305" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181065934">
+      <emphasis effect="bold">Figure 16.The honeycomb 2D lattice of Graphene. The hexagonal unit cell contains two atoms (A and B). The chiral vector determining the structure of CNT is given by ‘L’ and its length gives the circumference of CNT. The chiral angle is represented by ‘η’. If η = 0 then CNT is zigzag and if η=π/6 then CNT is armchair. </emphasis>
+    </para>
+    <figure id="import-auto-id1165196950502">
+      <media id="import-auto-id1165184038010" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-a4d5.png" height="371" width="512"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181501081">
+      <emphasis effect="bold">Figure 17. 2-D grapheme has the honeycomb structure consisting of two interpenetrating triangular lattices (“A” and “B” sublattices) with one lattice point of each type per unit cell. 2-D inversion (i.e. rotation by π) interchanges the two sublattices.[Haldane (1988)]</emphasis>
+    </para>
+    <figure id="import-auto-id1165181210883">
+      <media id="import-auto-id1165193936470" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-119a.png" height="579" width="390"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165177012980">
+      <emphasis effect="bold">Figure 18. Tunneling through a potential barrier in graphene. (a)-Schematic diagrams of the spectrum of quasiparticles in single layer graphene. The spectrum is linear at low Fermi energies (&lt;1 eV). The red and green curves emphasize the origin of the linear spectrum, which is the crossing between the energy bands associated with crystal sub-lattices A and B. The three diagrams illustrate schematically the positions of the Fermi energy E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> across the potential barrier of height V</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold"> and width D shown in (b). The Fermi level (dotted lines) lies in the conduction band outside the barrier and the valence band inside it. The blue ﬁlling indicates occupied states. The pseudospin denoted by vector σ is parallel (antiparallel) to the direction of motion of electrons(holes),which also means that σ keeps a ﬁxed direction along the red and green branches of the electronic spectrum.</emphasis>
+    </para>
+    <para id="import-auto-id1165192298519">
+      <emphasis effect="bold">(c)-Low energy spectrum for quasiparticles in bilayer graphene. The spectrum is isotropic and, despite its parabolicity, also originates from the intersection of energy bands formed by equivalent sublattices,which ensures charge conjugation, similar to the case of single-layer graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1165195362859">
+      <emphasis effect="bold">8.3.4.2.7. Schrodinger particle in contact and in bulk semi-conductor/graphite and Dirac quasi-particle in graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1165181213456">In 3-D metallic contacts and in 3-D graphite/semiconductor, electron has a finite rest mass and negative charge of ‘e’ Coulombs and is described by Schrodinger Equation as follows:</para>
+    <para id="import-auto-id1165181578591">Schrodinger Equation: </para>
+    <figure id="import-auto-id1165192324971">
+      <media id="import-auto-id1165192269216" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-9488.png" height="23" width="474"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165189954031">
+      <media id="import-auto-id1165192358395" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-ec9f.png" height="41" width="345"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165181107042">
+      <media id="import-auto-id1165191907669" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-f919.png" height="39" width="162"/>
+      </media>
+    </figure>
+    <para id="import-auto-id2715389">Letting the Hamiltonian operate on matter wave function we get the final Schrodinger Equation as follows:</para>
+    <figure id="import-auto-id2134136">
+      <media id="import-auto-id1165194493393" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-f6ed.png" height="41" width="441"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165180709815">By separation of variables, the space dependent part and the time dependent partr are separated and then the second order differential equation is solved. The total solution is as follows:</para>
+    <figure id="import-auto-id1165181407628">
+      <media id="import-auto-id1165181115475" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-f290.png" height="43" width="576"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165180700310">
+      <media id="import-auto-id1165193538094" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-bb15.png" height="46" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165191730323">Here the first term is Backward wave-function and the second term is the Forward wave-function and the wave vector :</para>
+    <figure id="import-auto-id1165181361639">
+      <media id="import-auto-id1165181112223" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-853b.png" height="44" width="381"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1462389">Where E = total energy = kinetic energy [p<sup>2</sup>/(2m<sup>*</sup>)] + potential energy(-eV).</para>
+    <para id="import-auto-id1165176801601">A<sub>1</sub> and B<sub>1</sub> are two arbitrary constants incorporated in the complementary solution of 2<sup>nd</sup> order ordinary linear differential equation. These two are determined from two boundary conditions of the real physical situation.</para>
+    <para id="import-auto-id1165180687584">In graphene, we have to take the relativistic version of Schrodinger Equation. Relativity treats Space and Time as an unified space-time so relativistic generalization requires that space and time derivatives must enter symmetrically as they do in Maxwell Equations of Electro-Magnetic Field Theory. In relativity, momentum and energy are the space and time of 4-D space-time vector (x, y, z, t). and they are related by the relativistic ally invariant relation derived in Section 4.4.2.3, Equation 15:</para>
+    <figure id="import-auto-id1165201749760">
+      <media id="import-auto-id1165181029384" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-fdcc.png" height="42" width="510"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165181367428">This ‘Equation 20.a.’ says that the length of the vector is proportional to the invariant rest mass m<sub>0</sub>. Substituting the operator equivalents we get an equation describing the propogation of waves constructed from relativistic invariant objects, the Klein-Gordon Equation. In this relativistic formulation, Ψ wave function is a relativistic scaler: a complex number which has the same numerical value in all frames of reference. In context of Quantum Field Theory, the │Ψ│<sup>2</sup> corresponds to charge density and it can be positive and it can be negative. In Schrodinger formulation it is always probability density.</para>
+    <para id="import-auto-id1165181095450">Finding a relativistic field equation with first order derivatives required a more elaborate construction. The original form of Dirac Equation is:</para>
+    <figure id="import-auto-id1165180686512">
+      <media id="import-auto-id1165181044280" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-1651.png" height="41" width="478"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165184717707">𝛂 = α<sub>1</sub>+α<sub>2</sub>+α<sub>3</sub> . </para>
+    <para id="import-auto-id1165193214810">Here α<sub>1</sub>,α<sub>2</sub>,α<sub>3</sub> and 𝛽 are 4×4 matrices. They are all Hermitians. Hence Dirac Hamiltonian is Hermitian.</para>
+    <para id="import-auto-id1165184700338">Electron in 2-D graphene lattice behaves like Dirac quasi-particle which is a neutrino with electronic charge ‘e’. It is a relativistic particle with zero rest-mass and described by Dirac Spinor Functions:</para>
+    <para id="import-auto-id1165182312992">
+      <figure id="import-auto-id1165180732730">
+        <media id="import-auto-id1165181364462" alt="">
+          <image mime-type="image/png" src="../../media/graphics22-8618.png" height="79" width="576"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1165181360317">Here the wave vector k<sub>2</sub> is given by the wave vector formulation of a relativistic quasi-particle of zero-rest mass as given Eq.4. The more generalized wave vector formulation of k<sub>2</sub> is given as follows:</para>
+    <figure id="import-auto-id1165181332893">
+      <media id="import-auto-id1165184708272" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-2b6a.png" height="54" width="451"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165180716104">In graphene devices, semi-conductor physics has to be redone with Dirac Equations. We have to explore issues in Relativistic Quantum Mechanics which are otherwise inaccessible to experiment. In graphene we have to exploit the mathematical beauty of Dirac Equation to the best in developing novel devices and novel Integrated Circuits based on graphene.</para>
+  </content>
+</document>

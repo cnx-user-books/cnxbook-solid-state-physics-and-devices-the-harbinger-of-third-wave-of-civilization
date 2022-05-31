@@ -1,0 +1,489 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_Crystalline Nature of Solids</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34393</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_Crystalline Nature of Solids</md:title>
+  <md:abstract>Chapter 1_Part11_Solid State Matter_ Crystalline Nature describes the 14 Bravais Lattices and three allotropic forms of Carbon.</md:abstract>
+  <md:uuid>bd5c34c7-5764-4520-a733-d3e916ba670e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172238439510">SSPD_Chapter1_Part 11_Solid State of Matter_Crystalline Nature of Solid.</para>
+    <para id="id1172233132323">1.11. CRYSTALLINE STRUCTURE- SINGLE CRYSTAL, POLY CRYSTAL AND AMORPHOUS.</para>
+    <para id="id1172240175126">1.11.1. SINGLE CRYSTAL</para>
+    <para id="id1172241665704">Solid State is essentially a condensed state of matter. All solids are composed of atoms, molecules or ions. The atoms are held together by ionic bond, covalent bond, van der wal’s bond or metallic bond. When a geometric configuration of atoms/molecules/ions is repeated in 3-Dimensions to generate a solid then we have a crystalline solid. The geometric configuration is called the Unit Cell. The Crystal is a periodic arrangement of these unit cells and these unit cells are the basis or the pattern of the crystal. The periodic arrangement of atoms is referred to as crystal lattice and the unit cells are referred to as the lattice centers. The unit cells are of seven basic geometric configurations as listed in Table (1.20). The unit cell have three basic reference vectors a, b, c and mutual angles of inclination α, β, γ as shown in Figure (1.54). Different combinations of three basic reference vectors a, b, c and mutual angles of inclination α, β, γ give rise to 14 different 3-D spatial configurations or space lattices called BRAVAIS LATTICE. These are 1 triclinic, 2 monoclinic, 4 rhombic, 2 tetragonal and 3 cubic. But these reduce to seven basic geometric configurations which are illustrated in Figure 1.55. </para>
+    <para id="id1172237937633">
+      <emphasis effect="bold">Table 1.20. The seven crystal systems.</emphasis>
+    </para>
+    <table id="id1172237508200" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Serial Number</entry>
+            <entry>Name of the Crystal System</entry>
+            <entry>Length of axes.</entry>
+            <entry>Angle between axes.</entry>
+            <entry>Examples</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>Simple Cube</entry>
+            <entry>a=b=c</entry>
+            <entry>α=β=γ= 90°</entry>
+            <entry>Cu, NaCl</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Tetragonal </entry>
+            <entry>a=b≠c</entry>
+            <entry>α=β=γ= 90°</entry>
+            <entry>
+              <emphasis effect="bold">SnO</emphasis>
+              <emphasis effect="bold">2</emphasis>
+              <emphasis effect="bold">, NiSO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Orthorhombic</entry>
+            <entry>a≠b≠c</entry>
+            <entry>α=β=γ= 90°</entry>
+            <entry>
+              <emphasis effect="bold">KNO</emphasis>
+              <emphasis effect="bold">3</emphasis>
+              <emphasis effect="bold">, BaSO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Monoclinic</entry>
+            <entry>a=b≠c</entry>
+            <entry>α=β=90 ≠ γ</entry>
+            <entry>
+              <emphasis effect="bold">Na</emphasis>
+              <emphasis effect="bold">2</emphasis>
+              <emphasis effect="bold">SO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+              <emphasis effect="bold">,FeSO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Triclinic</entry>
+            <entry>a≠b≠c</entry>
+            <entry>α=β=90° ≠ γ</entry>
+            <entry>
+              <emphasis effect="bold">CuSO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+              <emphasis effect="bold">, K</emphasis>
+              <emphasis effect="bold">2</emphasis>
+              <emphasis effect="bold">Cr</emphasis>
+              <emphasis effect="bold">2</emphasis>
+              <emphasis effect="bold">O</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Trigonal(Rhombohedral)</entry>
+            <entry>a=b=c</entry>
+            <entry>α=β=γ ≠ 90°</entry>
+            <entry>
+              <emphasis effect="bold">Ca SO</emphasis>
+              <emphasis effect="bold">4</emphasis>
+              <emphasis effect="bold">, As</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Hexagonal</entry>
+            <entry>a=b≠c</entry>
+            <entry>α=β=90° and γ= 120°</entry>
+            <entry>
+              <emphasis effect="bold">Zn, Cd, SiO</emphasis>
+              <emphasis effect="bold">2</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172236046551"><figure id="id1172235982115"><media id="id1172235982115_media" alt=""><image mime-type="image/png" src="../../media/Picture 1-3e20.png" id="id1172235982115__onlineimage" height="503" width="634"/></media></figure><emphasis effect="underline">Orthorhombic or Orthogonal Crystal structure,</emphasis> a ≠ b ≠ c; α = β= γ= 90º; left to right: simple, base centered, body centered, face centered.</para>
+    <para id="id1172238903171"><emphasis effect="underline">Cubic crystal structure,</emphasis> a = b = c; α = β= γ= 90º; simple, b.c.c. , f.c.c..</para>
+    <para id="id1172234305680"><emphasis effect="underline">Tetragonal crystal structure,</emphasis> a = b ≠ c; α = β= γ= 90º; simple and b.c.c.</para>
+    <para id="id1172237567226">Out of 14 Bravais Lattices, 9 have unit cells with orthogonal edges.</para>
+    <para id="id1172237660469"><emphasis effect="underline">Two monoclinic lattices</emphasis>(referred to orthogonal planes for clarity) a = b ≠ c ; α = β= 90º , γ; (a) simple and (b) centered;</para>
+    <para id="id1172238910644"><emphasis effect="underline">Hexagonal Lattice .</emphasis> a = b ≠ c ; α = β= 90º , γ = 120º;</para>
+    <para id="id1172239052426"><emphasis effect="underline">Triognal Lattice or Rhombohedral.</emphasis> It has a set of primitive vectors of equal lengths and equal angles. a = b = c; α = β= γ ≠ 90º;</para>
+    <para id="id1172236605237"><emphasis effect="underline">Triclinic Lattice.</emphasis> No 90º angle. For clarity it has been referred to a cube and to orthogonal planes.</para>
+    <para id="id1172236618055">The diagrams of all these seven basic geometric configurations will uploaded as a supplement.</para>
+    <para id="id1172232794941">
+      <emphasis effect="bold">Figure. 1.55. The topograghy of the seven crystalline structure and 14 Bravais Lattices.</emphasis>
+    </para>
+    <para id="id1172240819056"><emphasis effect="bold">[</emphasis>Semiconductor Device Electronics, Warner and Grung, Publisher: Holt, Rinehart and Winston,1991, pp.64-65<emphasis effect="bold">]</emphasis></para>
+    <para id="id1172241280383">
+      <emphasis effect="bold">Table 1.21. Comparison of cell properties of some crystal lattices.</emphasis>
+    </para>
+    <table id="id1172240062370" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>S.No.</entry>
+            <entry>Properties</entry>
+            <entry>Diamond cube(dc)</entry>
+            <entry>Simple Cube(sc)</entry>
+            <entry>Body CenteredCube(bcc)</entry>
+            <entry><emphasis effect="bold">Face </emphasis>Centered Cube(fcc)</entry>
+            <entry>Hexa-gonalClose_pack structure</entry>
+            <entry>NaCl</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>Vol.of unit cell</entry>
+            <entry>a^3</entry>
+            <entry>a^3</entry>
+            <entry>a^3</entry>
+            <entry>a^3</entry>
+            <entry>(3/2)<emphasis effect="bold">[√3(ca^2)]</emphasis></entry>
+            <entry>a^3</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>No. of atoms percell</entry>
+            <entry>8</entry>
+            <entry>1</entry>
+            <entry>2</entry>
+            <entry>4</entry>
+            <entry>6</entry>
+            <entry>4 cations4 anions</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>No.of atoms per unit vol.</entry>
+            <entry>
+              <emphasis effect="bold">8/ a^3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">1/ a^3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">2/ a^3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">4/ a^3</emphasis>
+            </entry>
+            <entry>4/<emphasis effect="bold">[√3(ca^2)]</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">8/a^3</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>
+              <emphasis effect="bold">No.of nearest neighbours</emphasis>
+            </entry>
+            <entry>4</entry>
+            <entry>6</entry>
+            <entry>8</entry>
+            <entry>12</entry>
+            <entry>12</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Nearest neighbourDistance(2r)</entry>
+            <entry>a√3/4</entry>
+            <entry>a/2</entry>
+            <entry>a√3/2</entry>
+            <entry>a√2/2</entry>
+            <entry>a/2</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Atomic radius</entry>
+            <entry>a√3/8</entry>
+            <entry>a/2</entry>
+            <entry>a√3/4</entry>
+            <entry>a√2/4</entry>
+            <entry>a/2</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Atomic packingFactor</entry>
+            <entry>π√3/16=0.34</entry>
+            <entry>π/6= 0.52</entry>
+            <entry>π√3/8=0.68</entry>
+            <entry>π √2/6=0.74</entry>
+            <entry>π√2/6=0.74</entry>
+            <entry>0.67</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>Examples</entry>
+            <entry>
+              <emphasis effect="bold">Ge, Si and Diamond</emphasis>
+            </entry>
+            <entry>Polonium</entry>
+            <entry>Sodium,Iron,Chromium</entry>
+            <entry>Aluminium,Copper,Lead</entry>
+            <entry>Magnesium,Zinc,Cadmium</entry>
+            <entry>Ionic solids such as NaCl, AgCl,LiFMgO,CaO</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172234875640"><emphasis effect="bold"/>Water shows an anomaly in the range from 4°C to 0°C. With reduction in temperature at and below 4°C the density decreases instead of increasing. At 0°C, the Ice Temperature, it has the lightest density. This is because of the open-pack hexagonal structure of ice crystal. From 4°C to 0°C, the phase transition is occurring through out the volume of liquid and at 0°C the phase transition is complete. At this temperature the whole mass of water is fully transformed into a solid piece of ice. Therefore at 0°C we have the lightest density of Ice. It is this anomaly which helps the survival of fishes in frozen lakes. Nine-tenth of ice-berg is submerged and one-tenth of the ice-berg is visible. Therefore we say that the tip of the ice-berg is visible.</para>
+    <para id="id1172238170065">
+      <emphasis effect="bold">1.11.2 ALLOTROPIC FORMS OF CARBON </emphasis>
+    </para>
+    <para id="id2138255">There are elements which exist as different crystalline allotropes such as Carbon. This most commonly found element exists as three crystalline allotropes namely Graphite, Diamond and Buckminstefullerene Crystal also known a buckeyball structure. The structure is shown in Figure 1.56 and Figure 1.57 and their properties are tabulated in Table (1.22).</para>
+    <para id="id1172232742977">1.11.2.1. DIAMOND CRYSTAL.</para>
+    <para id="id1172240360512">In Figure 1.56 we show the Diamond allotropic form of Carbon. As shown in Fig 1.56 A , Diamond is two interpenetrating FCC sub-lattices with one sub-lattice displaced with respect to the other along the diagonal of the cube by a quarter of diagonal length (a√3)/4 where ‘a’ the lattice parameter. Since Diamond unit cell is a cube, its lattice parameter is the side of a cube as shown in Figure 1.56 B. The basic unit cell of Diamond is cube of equal sides ‘a’ length. ‘a’ is the lattice constant of Diamond. Its value is 3.57 Angstrom. The basic unit cell is subdivided into 8 subcubes ABCDEFGH. ABCD comprise the upper 4 subcubes and EFGH comprise the lower 4 subcubes. In the Figure 1.56B , subcube E is hidden due to the perspective view. The subcube A, C, in the upper layer and F,H in the lower layer contain the tetrahedral structure of carbon atoms as shown in Figure 1.56D. As a result the basic UNIT CELL has 8 C atoms at the 8 corners of the cube, 6 C atoms on the six faces of the cube and 4 C atoms in the bodies of A, C , F, H subcube. The net result is that on looking at the PLAN VIEW of Diamond Unit Cell as shown in Figure 1.56C we see one C atom sharing its 4 valence electrons with 4 C atoms at its 4 corners. This kind of structure is repeated through out. </para>
+    <para id="id1172238942119"/>
+    <figure id="id1172240561254">
+      <media id="id1172240561254_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-3e86.png" id="id1172240561254__onlineimage" height="460" width="637"/>
+      </media>
+    </figure>
+    <para id="id1172237654843">
+      <figure id="id1172239328620">
+        <media id="id1172239328620_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-607c.png" id="id1172239328620__onlineimage" height="429" width="614"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1172237153138">
+      <media id="id1172237153138_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-2782.png" id="id1172237153138__onlineimage" height="263" width="628"/>
+      </media>
+    </figure>
+    <para id="id1172243189815">
+      <figure id="id1172238292787">
+        <media id="id1172238292787_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-85cf.png" id="id1172238292787__onlineimage" height="453" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172237984930">
+      <emphasis effect="bold">1.11.2.2._GRAPHITE_AND_GRAPHENE</emphasis>
+    </para>
+    <para id="id1172239426466"><emphasis effect="bold">[</emphasis>‘Graphene: Status and Prospects’, A.K. Gelen, Science, Vol 324, 19<sup>th</sup> June 2009, 1530-1534;</para>
+    <para id="id1172238377062">‘Carbon Woderland’, Andre K. Geim and Philby Kim, Scientific American, April 2008, 90-97]</para>
+    <para id="id1172237659367">The two other alltropic forms of Carbon are Graphite and Buckminsterfullerene[Appendix XXXXV]. The crystal structure of these two allotropes are shown in Figure 1.57. The comparative study of these three alltropic forms of carbon is shown in Table 1.22.</para>
+    <para id="id1172236029731">In Graphite each layer has hexagonal arrangement of carbon atoms. As seen in Figure 1.57, each carbon atom has three neighbouring carbon atoms covalently bonded. This arrangement leaves 1 electron unbounded hence free to be released through out the lattice. This makes Graphite a good conductor and it has a metallic luster. There is a weak Van der Waals induced bonding between the layers as already discussed in Bonding chapter. Hence layers can move past one another and flak easily. They find applications in lubricants and pencil lead. </para>
+    <para id="id1172240381392">Graphite is a 3D bulk material which consists of stacks of 2D one atom hexagonal rings of Carbon sheets. In recent years with the advent of nanotechnology , it has been possible to separate out individual sheets and experiment with it. The flat sheet of hexagonal rings of Carbon is known as GRAPHENE. Wrapped up graphene is known as fullerenes. When it is wrapped up in honey comb cylinder like structure it is called carbon nano-tubes and when it is wrapped as soccer ball shaped as in Figure 1.57 then it is called bucky ball.</para>
+    <para id="id1172234669544">This 1 atom thick 2D grapheme is a wonder material. It is the strongest material- stronger than steel. The orderly arrangement of hexagonal rings is repeated through out the sheet with remarkable regularity as a result even at room temperature of 300K electron’s mean free path is in micrometer. This implies very few and far between scattering. Hence under the influence of electric field, electrons behave like mass-less Dirac quasi-particles on which relativistic quantum mechanics or Quantum Electrodynamics applies. Electron travels at (1/300) of speed of light. This is in contrast to electrons in 3D semiconductor where mass is near that in free space and mobility and drift velocity is much lower. These useful properties has opened immense possibilities for grapheme based electronics. Ballistic FETs are emerging which are suitable for 100GHz and above application. Graphene has given a new lease of life to Moore’s Law of microminiaturization. It will enable the scaling down right up to 10 nm.</para>
+    <para id="id1172238907822">Under normal conditions graphite crystallizes out but under excessive pressure condition diamond is favoured. Once the diamond has crystallized it remains stable under normal temperature and pressure. Deep in Earth’s vegetation remains are transformed into diamonds and coal over eons. This is the source of natural diamond.</para>
+    <para id="id1172241353650">Synthetic diamond can be obtained in the following manner. Graphite is dissolved in molten cobalt or nickel and the mixture is compressed by 60,000 bar pressure at 1600K. Less than 1 mm wide diamonds can be synthesized in this way. It is widely used in industrial applications for cutting and grinding tools.</para>
+    <para id="id1172237933049">
+      <emphasis effect="bold">1.11.2.3 BUCKY BALLS AND NANOTUBES.</emphasis>
+    </para>
+    <para id="id1172237678275"><emphasis effect="bold"/>In 1986 at Rice University, Houston, Texas, a third allotrope of carbon was discovered. It was fcc crystal structure as shown in Figure 1.57. At each lattice point there was a giant molecule. Each giant molecule C<sub>60</sub> consisted of 60 carbon atoms and it was of soccer ball type geometry. Within this giant molecule there are 12 pentagons and 20 hexagons. Since soccer ball type geometry resembles Geodesic Dome designed by Architect R. Buckminster Fuller[Appendix XXXXV] hence in his honour it is called ‘Buckminsterfullerene’ or bucky ball in short. These are stable and chemically unreactive. It can be made from graphite in the laboratory. It is found in small quantities in soot and in carbon rich found in Russia. Fullerene molecules are held in a solid form by Van der Waals attraction just as hexagonal carbon layers of graphene are held in stack in graphite. Fullerene come in groups of 28, 32, 50 70. There can be still larger fullerene molecules. K<sub>3</sub>C<sub>60</sub> yield a superconductor at room temperature.</para>
+    <para id="id1172237299748">Carbon Nanotubes is a variant of bucky balls. It contains tiny cylinders of rolled up grapheme. The hexagon of carbon atoms may be arranged straight along the tube or wind around like a helix. In the former case nanotube is a conductor and in the latter case it behaves like a semi-conductor. If nano tubes can be fabricated in longer lengths they hold promise as very strong fibers ten times stronger than stel and six times lighter and flexible. They will act as ideal material for reinforcing epoxy resin giving rise to unusually strong composite mnmaterial.</para>
+    <figure id="id1172238706073">
+      <media id="id1172238706073_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-4371.png" id="id1172238706073__onlineimage" height="610" width="650"/>
+      </media>
+    </figure>
+    <para id="id1172235312271"/>
+    <para id="id1172232983928">
+      <emphasis effect="bold">Table 1.22. Crystalline allotropes of Carbon(ρ is the density and Y is elastic modulus or Young’s modulus)</emphasis>
+    </para>
+    <para id="id1172238100874">
+      <emphasis effect="bold">[From </emphasis>
+      <emphasis effect="italics">Principles of Electronic Materials and Devices, Second Edition,</emphasis>
+      <emphasis effect="bold">S. O. Kasap(© McGraw- Hill, 2002)] </emphasis>
+    </para>
+    <table id="id1172231697022" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Graphite</entry>
+            <entry>Diamond</entry>
+            <entry>BuckminsterfullereneCrystal</entry>
+          </row>
+          <row>
+            <entry>Structure</entry>
+            <entry>Covalent bonding within layers.Van der Waals bonding between layers.Hexagonal unit cell.</entry>
+            <entry>Covalent bonded network.Diamond crystal structure.</entry>
+            <entry>
+              <emphasis effect="bold">Covalently bonded C</emphasis>
+              <emphasis effect="bold">60 </emphasis>
+              <emphasis effect="bold">spheroidal molecules held in an FCC crystal structure by van der Waals bonding.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Electrical and Thermal Properties</entry>
+            <entry>Good electricalConductor.Thermal conductivity comparable to metals.</entry>
+            <entry>Very good insulator.<emphasis effect="bold">Excellent thermal conductor, about 5 times more than that of silver or copper.</emphasis></entry>
+            <entry>Semiconductor.<emphasis effect="bold">Compounds with alkali metals (e.g. K</emphasis><emphasis effect="bold">3</emphasis><emphasis effect="bold">C</emphasis><emphasis effect="bold">60 </emphasis><emphasis effect="bold">) exhibit superconductivity.</emphasis></entry>
+          </row>
+          <row>
+            <entry>Mechanical Properties</entry>
+            <entry>Lubricating agent.Machinable.Bulk graphite:Y≈ 27GPa<emphasis effect="bold">ρ = 2.25 gm/cm</emphasis><emphasis effect="bold">3</emphasis></entry>
+            <entry><emphasis effect="bold">The hardest material.</emphasis>Y = 827GPa,<emphasis effect="bold">ρ = 3.5 gm/cm</emphasis><emphasis effect="bold">3</emphasis></entry>
+            <entry>Mechanically soft.Y≈ 18GPa<emphasis effect="bold">ρ = 1.65 gm/cm</emphasis><emphasis effect="bold">3</emphasis></entry>
+          </row>
+          <row>
+            <entry>Comment</entry>
+            <entry>Stable allotrope at atmospheric pressure.</entry>
+            <entry>High pressure allotrope.</entry>
+            <entry>Laboratory synthesized. Occurs in the soot of partial combustion.</entry>
+          </row>
+          <row>
+            <entry>Uses and potential uses</entry>
+            <entry><emphasis effect="bold">Metalurgical crucibles,</emphasis>Welding electrodes heating elements,Electrical contacts,Refractory applications.</entry>
+            <entry>Cutting tool applications.Diamond anvils. Diamond film coated drills, blades, bearings etc. Jewellry. Heat conductor for IC’s.Possible thin film semiconductor devices as the charge carrier drift mobilities are large.</entry>
+            <entry>Possible future semiconductors or superconductivity applications.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172235836414">Our main interest is Si, Ge , GaAs and other compound semiconductors used in Photonics. The portion of Periodic Table related to Solid State Technology including Photonics is shown in Table(1.23).</para>
+    <para id="id1172240710761">
+      <emphasis effect="bold">Table.1.23. Portion of the Periodic Table related to Semiconductors &amp; Photonics.</emphasis>
+    </para>
+    <table id="id1172235373783" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Period</entry>
+            <entry>Column II</entry>
+            <entry>Column III</entry>
+            <entry>Column IV</entry>
+            <entry>Column V</entry>
+            <entry>Column VI</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry/>
+            <entry>B</entry>
+            <entry>C</entry>
+            <entry>N</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Mg</entry>
+            <entry>Al</entry>
+            <entry>Si</entry>
+            <entry>P</entry>
+            <entry>S</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Zn</entry>
+            <entry>Ga</entry>
+            <entry>Ge</entry>
+            <entry>As</entry>
+            <entry>Se</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Cd</entry>
+            <entry>In</entry>
+            <entry>Sn</entry>
+            <entry>Sb</entry>
+            <entry>Te</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Hg</entry>
+            <entry/>
+            <entry>Pb</entry>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172236529832">
+      <emphasis effect="bold">1.11.3. POLYCRYSTAL &amp; AMORPHOUS.(Refer Figure 1.39, Chapter1_Part 10_Electron in single crystal and band theory of solid)</emphasis>
+    </para>
+    <para id="id8426826">Single Crystals exhibit long range periodicity. Single Crystal Silicon Atoms are 4-fold coordinated in exactly the same manner as Diamond crystal. This 4-fold coordination exists throughout the 3D crystalline lattice except at the surface. At the surface there are incomplete bonds which are known as dangling bonds and which give rise to surface states. These surface states introduce traps or recombination centers. These surface states reduce lifetime and reduce mobility of the carriers. The random capture-release of carriers from the conducting channel of MOS devices by these surface states give rise to flicker noise. By Silicon Dioxide passivation layer, these surface states can be inactivated and the adverse effects are minimized. </para>
+    <para id="id1172231145734">Silicon Polycrystals exhibit short range periodicity of the order of micrometers. These are grain sizes. These grains or crystal domains are divided by domain/grain boundaries. Grain boundaries are 2D surfaces where 2D defects are present. Defects are present due to broken bonds or due to incomplete bonds. Each domain has its own direction of periodicity and the direction of the periodicity changes from domain to domain. The basic unit cell remains the same in all domains.</para>
+    <para id="id1172239391674">Amorphous silicon has a still shorter range of periodicity or no periodicity. This is an irregular structure and has ill defined energy band gap. Because of irregularities there are a large number of dangling bonds within the bulk of the crystal as shown in Figure (1.35). These dangling bonds introduce traps within the bulk of a-Si (amorphous silicon) and hence severely reduce the lifetime as well as mobility of the mobile carriers. While depositing a-Si if hydrogen (or fluorine) introduced then H-atoms “tie –up” the dangling bonds and these improves the electrical properties of a-Si. Hydrogenated a-Si is denoted as a-Si:H.</para>
+    <para id="id1172240556208">The technology of growing amorphous silicon is much cheaper than the technology of growing single crystal silicon therefore amorphous silicon solar voltaic cells are emerging as a more economically viable option as renewable energy resource. </para>
+    <para id="id1172241375146">Poly-crystal silicon has an unique position in MOS fabrication. MOS stands for Metal-Oxide-Semiconductor. The use of heavily doped poly-silicon layer in place of aluminum as the metal electrode in MOS has proved to be far superior. This is especially true for thinner gate oxides of the order of 100 to 200 A°. </para>
+    <para id="id1172240406974">Doped poly-silicon is also used as diffusion source for creating shallow junctions. </para>
+    <para id="id1172237810816">Heavily doped Poly-silicon layer on N-Type silicon crystal gives an ohmic contact. By the conventional route of metallization, if we deposit aluminum layer on N Type crystal we obtain a rectifying contact. To ensure an ohmic contact to N type silicon crystal, we have to go for N<sup>+ </sup>contact deposition in N type silicon and then depositing an aluminum contact layer. This ensures ohmic contact but it entails an extra deposition. Deposition of heavily doped poly-silicon directly on N type silicon crystal gives ohmic contact. This simplifies the fabrication steps. </para>
+    <para id="id1172240157842">Using doped poly-silicon, interconnections can be made. Variously doped poly-silicon can be used to fabricate high value IC resistors.</para>
+    <para id="id1172238233797">The range of orderliness in single crystal, poly-crystal and amorphous is depicted in Figure (1.39).</para>
+    <para id="id1172240407786">Table (1.24) tabulates the properties of crystalline and amorphous silicon.</para>
+    <para id="id1172238004588">
+      <emphasis effect="bold">Table 1.24. Crystalline and amorphous silicon.</emphasis>
+    </para>
+    <para id="id1172246315962">
+      <emphasis effect="bold">[From </emphasis>
+      <emphasis effect="italics">Principles of Electronic Materials and Devices, Second Edition,</emphasis>
+      <emphasis effect="bold">S. O. Kasap(© McGraw- Hill, 2002)] </emphasis>
+    </para>
+    <table id="id1172237987308" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Crystalline Sic-Si</entry>
+            <entry>Amorphous Sia-Si</entry>
+            <entry>Hydrogenated a-Sia- Si:H</entry>
+          </row>
+          <row>
+            <entry>Stucture</entry>
+            <entry>Diamond cubic</entry>
+            <entry>Short range order only.Contains micro-voids and dangling bonds.</entry>
+            <entry>Short range order only.Structure contains typically 10% H.Hydrogen atoms passivate dangling bonds and relieve strain from bonds.</entry>
+          </row>
+          <row>
+            <entry>Preparation method</entry>
+            <entry>Czochralski technique/Float zone technique/epitaxial growth(CVD or Liquid Phase Epitaxy)</entry>
+            <entry>Electron beam evaporation of Si.</entry>
+            <entry>Chemical vapor deposition(CVD) of silane gas by RF induction heating.</entry>
+          </row>
+          <row>
+            <entry>Density<emphasis effect="bold">(gm/cm</emphasis><emphasis effect="bold">3</emphasis><emphasis effect="bold">)</emphasis></entry>
+            <entry>2.33</entry>
+            <entry>3 to 10% less dense</entry>
+            <entry>1 to 3% less dense.</entry>
+          </row>
+          <row>
+            <entry>Electronic applications</entry>
+            <entry>Discrete and integrated electronic devices.</entry>
+            <entry>None</entry>
+            <entry>Solar cells,Thin Film Transistor Arrays in Flat Panel Displays.Photoconductor drums used in photocopying.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

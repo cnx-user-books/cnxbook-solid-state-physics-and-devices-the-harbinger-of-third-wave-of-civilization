@@ -1,0 +1,97 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 2_BiCMOS Technology</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38358</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 2_BiCMOS Technology</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 2 gives the necessity of introducing BiCMOS in CMOS circuitary and the technology of fabrication of NPN BJT n CMOS environment.</md:abstract>
+  <md:uuid>7a8a1b57-bc36-4dfd-9d50-ade332a0d09c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171504503996">SSPD_Chapter 7_Part 2_BiCMOS Technology</para>
+    <para id="id1171502352902">7.2 In SSPD_Chapter 6_Part 6 we have extensively discussed CMOS Process Flow and CMOS fabrication technology. Here we deal with BiCMOS Technology. In Figure 7.2.1 we give the speed-power performance of available technologies.</para>
+    <figure id="id1171504969463">
+      <media id="id1171504969463_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-9a09.png" id="id1171504969463__onlineimage" height="438" width="483"/>
+      </media>
+    </figure>
+    <para id="id1171520063394">Here we will do a rapid review of the Logic Families available in the market. Figure 7.2.2 gives the broad classification of the Logic Families. From the graph in Figure 7.2.1 it is evident that GaAs is the fastest Logic Family and CMOS is the slowest but consumes nW power and has a very high packing density hence CMOS is the technology of choice for microprocessor and microcontroller.</para>
+    <para id="id1171500634908">CMOS has one serious drawback and that is its limited driving capability. To overcome this problem one could use CMOS with super-buffers using MOS transistors alone. But still it does not compare well with BiCMOS in output drive circuits.. As seen in Figure 7.2.1, BiCMOS is faster than CMOS though dissipating more power. </para>
+    <para id="id1171505054938">CMOS and Bipolar Technology have their own advantages as shown in Table 7.2.1. BiCMOS combines the virtues of both the technology.</para>
+    <para id="id1171500628036">
+      <figure id="id1171499350859">
+        <media id="id1171499350859_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-c60a.png" id="id1171499350859__onlineimage" height="445" width="516"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171514550832">
+      <emphasis effect="bold">Table 7.2.1. Comparison between CMOS and Bipolar Technologies.</emphasis>
+    </para>
+    <table id="id1171506621781" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>CMOS Technology</entry>
+            <entry>BJT Technology</entry>
+          </row>
+          <row>
+            <entry>Nano-watt logic. It has nano-watt standby power dissipation</entry>
+            <entry>Milli-watt standby power </entry>
+          </row>
+          <row>
+            <entry>High Zin hence low drive current</entry>
+            <entry>Low Zin hence high drive current</entry>
+          </row>
+          <row>
+            <entry>Scalable Threshold Voltage</entry>
+            <entry>Low Voltage swing</entry>
+          </row>
+          <row>
+            <entry>Noise Margin is large</entry>
+            <entry>Noise Margin is small</entry>
+          </row>
+          <row>
+            <entry>High packing density</entry>
+            <entry>Low packing density because of isolation diffusion</entry>
+          </row>
+          <row>
+            <entry>Low output drive current</entry>
+            <entry>High output drive current.</entry>
+          </row>
+          <row>
+            <entry>Low transconductance, gm</entry>
+            <entry>High gm</entry>
+          </row>
+          <row>
+            <entry>Low transit frequency</entry>
+            <entry>High transit frequency at low currents</entry>
+          </row>
+          <row>
+            <entry>Bidirectional capability-source and drain are interchangeable</entry>
+            <entry>Unidirectional from input to output</entry>
+          </row>
+          <row>
+            <entry>Near Ideal Switch</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171504877914">7.2.1. Process Technology of BiCMOS.</para>
+    <para id="id1171504129677"> The plan view and the cross-sectional view of a BiCMOS npn transistor is shown in Figure 7.2.3.</para>
+    <figure id="id1171512730428">
+      <media id="id1171512730428_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-9f2f.png" id="id1171512730428__onlineimage" height="521" width="541"/>
+      </media>
+    </figure>
+    <para id="id1171514103108">CMOS process flow can easily be extended to include bipolar NPN transistor. In the twin-tub process we will use N-tub for realizing NPN BJT. To reduce the collector series resistance, n+ buried layer is provided just below the n-tub. In addition p-base region is implanted in n-well region. Next n+ implantation is done for collector contact and for emitter region. Finally p+ is implanted as shown to make contact to the base region. Next contact pads are added to the collector contact area, emitter area and base contact area as black rectangles.</para>
+    <para id="id1171511778058">Including NPN BJT causes a loss of packing density and higher cost per gate.</para>
+    <para id="id1171498906093">By using this mix of technology we can realize complex systems in an optimal manner. In the mix, we have the option of CMOS, BiCMOS and ECL.</para>
+    <para id="id1171506567971">CMOS will be confined to logic circuitary.</para>
+    <para id="id1171516319619">BiCMOS for input/output and driver circuits.</para>
+    <para id="id1171506254814">ECL for critical high speed parts. </para>
+  </content>
+</document>

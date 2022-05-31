@@ -1,0 +1,191 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 3_concluded_The list of Foundaries</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36767</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 3_concluded_The list of Foundaries</md:title>
+  <md:abstract>This is the concluding part of SSPD_Chapter 6_Part 3.This gives the comprehensive list of the foundries and their technological capabilities.</md:abstract>
+  <md:uuid>83c1b9a0-0f13-4f6f-8a53-8c07f1dd266f</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167714564638">
+      <emphasis effect="bold">SSPD_Chapter 6_Part 3_Concluded_The list of foundaries catering to different generations of technologies.</emphasis>
+    </para>
+    <para id="id1167710387006"><emphasis effect="bold">EE Times_News&amp;Analysis_Chipmakers capabilities ranked_Peter Clarke_1/24/2011_11:58 AM EST. </emphasis>There will be three foundry sources of leading-edge semiconductor technology by the end of 2011: Taiwan Semiconductor Manufacturing Co. Ltd. (TSMC), GlobalFoundries Inc. and Samsung Electronics Co. Ltd., with possible addition of Intel, according to new research from IHS iSuppli.</para>
+    <para id="id1167710691842">Those three could be joined by an Intel entry into foundry supply. Intel Corp. may decide to offer foundry services to design companies and fabless semiconductor suppliers that are incorporating the Atom microprocessor into their designs. It could lead to significant revenue growth for Intel as well as more favorable asset utilization. The strategy of providing the Atom design to TSMC and its clients did not meet the expectations of either TSMC or Intel in 2010.</para>
+    <para id="id1167712106400">Several other foundries, including United Microelectronics Corp. and Semiconductor Manufacturing International Corp., will be capable of providing near-leading-edge foundry manufacturing in high volume. At the end of 2011 theere will be no Japanese suppliers manufacturing at the 32-nanometer and smaller geometries. Conceivably, Japanese equipment suppliers could leapfrog their competitors with the appropriate funding. If this were to happen, 2011 has to be the year that Japanese companies come out of their shells and become active in the foundry business. The Japanese semiconductor industry could suffer greatly if it chooses to remain in the sidelines, said iSuppli.</para>
+    <para id="id1167720837492">Table 6.8.1. Chipmakers capabilities ranked.</para>
+    <table id="id1167727123842" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>130nm</entry>
+            <entry>90nm</entry>
+            <entry>65nm</entry>
+            <entry>45/40 nm</entry>
+            <entry>32/28nm</entry>
+            <entry>22/20nm</entry>
+          </row>
+          <row>
+            <entry>Altis Semiconductors</entry>
+            <entry>Dongbu Hi Tek</entry>
+            <entry>SMIC</entry>
+            <entry>SMIC</entry>
+            <entry>UMC</entry>
+            <entry>TSMC</entry>
+          </row>
+          <row>
+            <entry>Dongbu Hi Tek</entry>
+            <entry>Grace Semiconductors</entry>
+            <entry>UMC</entry>
+            <entry>UMC</entry>
+            <entry>TSMC</entry>
+            <entry>Global foundaries</entry>
+          </row>
+          <row>
+            <entry>Grace Semiconductors</entry>
+            <entry>SMIC</entry>
+            <entry>TSMC</entry>
+            <entry>TSMC</entry>
+            <entry>Global foundaries</entry>
+            <entry>Intel</entry>
+          </row>
+          <row>
+            <entry>SMIC</entry>
+            <entry>UMC</entry>
+            <entry>Global foundaries</entry>
+            <entry>Global foundaries</entry>
+            <entry>ST Microelectronics</entry>
+            <entry>Samsung</entry>
+          </row>
+          <row>
+            <entry>UMC</entry>
+            <entry>TSMC</entry>
+            <entry>Infineon</entry>
+            <entry>Renesas(NEC)</entry>
+            <entry>Intel</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>TSMC</entry>
+            <entry>Global foundaries</entry>
+            <entry>Sony</entry>
+            <entry>IBM</entry>
+            <entry>Samsung</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Global foundaries</entry>
+            <entry>Seiko Epson</entry>
+            <entry>Texas Instruments</entry>
+            <entry>Fujitsu</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Seiko Epson</entry>
+            <entry>Freescale</entry>
+            <entry>Renesas(NEC)</entry>
+            <entry>Toshiba</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Freescale</entry>
+            <entry>Infineon</entry>
+            <entry>IBM</entry>
+            <entry>ST Microelectronics</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Infineon</entry>
+            <entry>Sony</entry>
+            <entry>Fujitsu</entry>
+            <entry>Intel</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Sony</entry>
+            <entry>Texas Instruments</entry>
+            <entry>Toshiba</entry>
+            <entry>Samsung</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Texas Instruments</entry>
+            <entry>Renesas(NEC)</entry>
+            <entry>ST Microelectronics</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Renesas(NEC)</entry>
+            <entry>IBM</entry>
+            <entry>Intel</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>IBM</entry>
+            <entry>Fujitsu</entry>
+            <entry>Samsung</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Fujitsu</entry>
+            <entry>Toshiba</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Toshiba</entry>
+            <entry>ST Microelectronics</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>ST Microelectronics</entry>
+            <entry>Intel</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Intel</entry>
+            <entry>Samsung</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Samsung</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

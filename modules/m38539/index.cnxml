@@ -1,0 +1,280 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part3_Basic Electrical Properties of MOScontinued5.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38539</md:content-id>
+  <md:title>SSPD_Chapter 7_Part3_Basic Electrical Properties of MOScontinued5.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part3_Basic Electrical Properties of MOScontinued5 describes the geometric optimization required for getting the best performance of the CMOS inverter.</md:abstract>
+  <md:uuid>0abd6129-509c-437f-8b6b-2323706306fc</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170589277878">SSPD_Chapter 7_Part3_Basic Electrical Properties of MOScontinued5.</para>
+    <para id="id1170586586955">7.3.12. Optimization of geometric parameters to achieve best ciruit performance of CMOS inverter.</para>
+    <para id="id1170601545748">We have seen in Section 7.3.3.1 that in triode region the drain current is:</para>
+    <figure id="id1170598475109">
+      <media id="id1170598475109_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-7fe7.png" id="id1170598475109__onlineimage" height="65" width="562"/>
+      </media>
+    </figure>
+    <figure id="id1170587669737">
+      <media id="id1170587669737_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-a26c.png" id="id1170587669737__onlineimage" height="52" width="507"/>
+      </media>
+    </figure>
+    <para id="id1170586737876">In pentode region the drain current is:</para>
+    <para id="id1170594465514">
+      <figure id="id3836346">
+        <media id="id3836346_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-d383.png" id="id3836346__onlineimage" height="48" width="549"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170585465792">
+      <media id="id1170585465792_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-e04c.png" id="id1170585465792__onlineimage" height="54" width="603"/>
+      </media>
+    </figure>
+    <para id="id3597384">Therefore:</para>
+    <figure id="id1170592182324">
+      <media id="id1170592182324_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-0d6f.png" id="id1170592182324__onlineimage" height="58" width="531"/>
+      </media>
+    </figure>
+    <para id="id1170586191120">Where <figure id="id1170586485405"><media id="id1170586485405_media" alt=""><image mime-type="image/png" src="../../media/graphics6-959f.png" id="id1170586485405__onlineimage" height="54" width="541"/></media></figure></para>
+    <para id="id1170593885360">For NMOS:<figure id="id1170601805898"><media id="id1170601805898_media" alt=""><image mime-type="image/png" src="../../media/graphics7-0767.png" id="id1170601805898__onlineimage" height="47" width="500"/></media></figure></para>
+    <para id="id1170586586661">For PMOS: <figure id="id1170586694914"><media id="id1170586694914_media" alt=""><image mime-type="image/png" src="../../media/graphics8-056e.png" id="id1170586694914__onlineimage" height="49" width="494"/></media></figure></para>
+    <para id="id1170600947013">Referring to Figure 7.3.11.3.(c) we see that CMOS has five regions of operation: </para>
+    <para id="id1170585752114">Region 1: I/P=LOW and O/P=HIGH, PMOS is fully ON and NMOS is fully OFF and O/P is connected to V<sub>DD</sub> through ON PMOS. Full logic ‘1’ voltage is available at the O/P.</para>
+    <para id="id1170586402807">Region 5: I/P=HIGH and O/P=LOW, PMOS is fully OFF and NMOS is fully ON and O/P is connected to GND through ON NMOS. Full logic ‘0’ voltage is available at the O/P.</para>
+    <para id="id1170588522314">Region 2: Transition region. PMOS is in triode region and NMOS is in Pentode region. Therefore:</para>
+    <figure id="id1170592427556">
+      <media id="id1170592427556_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-4e09.png" id="id1170592427556__onlineimage" height="65" width="554"/>
+      </media>
+    </figure>
+    <figure id="id1170586790364">
+      <media id="id1170586790364_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-633f.png" id="id1170586790364__onlineimage" height="57" width="592"/>
+      </media>
+    </figure>
+    <para id="id1170585373321">Region 4: Transition region. PMOS is in pentode region and NMOS is in trode region.</para>
+    <para id="id1170588380029">Therefore</para>
+    <figure id="id1170586144677">
+      <media id="id1170586144677_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-fe78.png" id="id1170586144677__onlineimage" height="65" width="553"/>
+      </media>
+    </figure>
+    <figure id="id6358650">
+      <media id="id6358650_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-9cb9.png" id="id6358650__onlineimage" height="57" width="604"/>
+      </media>
+    </figure>
+    <para id="id1170592521969">Region 3: Transtion region and both MOSs are in saturation region.</para>
+    <para id="id1170586339684">Therefore</para>
+    <figure id="id1170586776098">
+      <media id="id1170586776098_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-5d9a.png" id="id1170586776098__onlineimage" height="57" width="603"/>
+      </media>
+    </figure>
+    <figure id="id1170587147631">
+      <media id="id1170587147631_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-6b55.png" id="id1170587147631__onlineimage" height="57" width="621"/>
+      </media>
+    </figure>
+    <para id="id1170596700948">For PMOS: V<sub>GS</sub> = V<sub>in</sub> – V<sub>DD</sub> since source of PMOS is connected to positive bus.</para>
+    <para id="id1170600696180">For NMOS: V<sub>GS</sub> = V<sub>in</sub> since source of NMOS is connected to GND bus.</para>
+    <para id="id1170602019077"/>
+    <para id="id1170597923201">Therefore</para>
+    <figure id="id1170592820133">
+      <media id="id1170592820133_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-e51d.png" id="id1170592820133__onlineimage" height="57" width="517"/>
+      </media>
+    </figure>
+    <figure id="id1170607034582">
+      <media id="id1170607034582_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-d7a2.png" id="id1170607034582__onlineimage" height="57" width="542"/>
+      </media>
+    </figure>
+    <para id="id1170601611339">In region 3, when ON state is being transferred from one MOS to another then maximum current flows between the rails and since the two MOS are in series hence</para>
+    <para id="id1170595542140">
+      <figure id="id1170611185533">
+        <media id="id1170611185533_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-b215.png" id="id1170611185533__onlineimage" height="30" width="104"/>
+        </media>
+      </figure>
+      <figure id="id1170601640067">
+        <media id="id1170601640067_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-7d2e.png" id="id1170601640067__onlineimage" height="32" width="58"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170607019596">Therefore:</para>
+    <para id="id1170608964053">
+      <figure id="id1170601810812">
+        <media id="id1170601810812_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-361c.png" id="id1170601810812__onlineimage" height="47" width="346"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170603720336">Manipulating the terms we get:</para>
+    <figure id="id1170610869363">
+      <media id="id1170610869363_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-31d7.png" id="id1170610869363__onlineimage" height="66" width="438"/>
+      </media>
+    </figure>
+    <para id="id1170601608306">Square root of k<sup>2</sup> gives two solutions:</para>
+    <figure id="id3873213">
+      <media id="id3873213_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-5b54.png" id="id3873213__onlineimage" height="60" width="379"/>
+      </media>
+    </figure>
+    <para id="id1170597237919">The positive solution of k gives a physically untenable result:</para>
+    <figure id="id7909174">
+      <media id="id7909174_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-0c40.png" id="id7909174__onlineimage" height="55" width="241"/>
+      </media>
+    </figure>
+    <para id="id1170606399298">This is physically untenable because at k = 1 we get unacceptable result for V<sub>in</sub>.</para>
+    <para id="id1170591617416">The negative solution of k gives an acceptable value of V<sub>in</sub> :</para>
+    <para id="id1170597753918">
+      <figure id="id1170610944382">
+        <media id="id1170610944382_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics23-9b29.png" id="id1170610944382__onlineimage" height="55" width="224"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170606378106">Or <figure id="id1170597281038"><media id="id1170597281038_media" alt=""><image mime-type="image/png" src="../../media/graphics24-518c.png" id="id1170597281038__onlineimage" height="166" width="476"/></media></figure></para>
+    <para id="id1170610210131">If </para>
+    <para id="id1170588371283">
+      <figure id="id1170606672944">
+        <media id="id1170606672944_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics25-0dd2.png" id="id1170606672944__onlineimage" height="34" width="119"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170603614385">and the two transistors are of equal magnitude threshold voltage that is: <figure id="id1170596423943"><media id="id1170596423943_media" alt=""><image mime-type="image/png" src="../../media/graphics26-f4d5.png" id="id1170596423943__onlineimage" height="32" width="111"/></media></figure></para>
+    <para id="id1170595906453">then </para>
+    <figure id="id1170605857528">
+      <media id="id1170605857528_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-8917.png" id="id1170605857528__onlineimage" height="54" width="93"/>
+      </media>
+    </figure>
+    <para id="id1170611082435">This implies that the switch over is symmetrically disposed about the point :</para>
+    <figure id="id1170610278299">
+      <media id="id1170610278299_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-3ff0.png" id="id1170610278299__onlineimage" height="54" width="160"/>
+      </media>
+    </figure>
+    <para id="id1170597095694">To achieve a symmetrical transfer curve it is necessary that</para>
+    <figure id="id1170603408152">
+      <media id="id1170603408152_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-0bec.png" id="id1170603408152__onlineimage" height="34" width="115"/>
+      </media>
+    </figure>
+    <para id="id1170609279354">And</para>
+    <para id="id1170592841610">
+      <figure id="id1170595473820">
+        <media id="id1170595473820_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics30-f4d5.png" id="id1170595473820__onlineimage" height="32" width="111"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id5695209">This implies that </para>
+    <para id="id1170603033722">
+      <figure id="id4067058">
+        <media id="id4067058_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics31-e1e1.png" id="id4067058__onlineimage" height="61" width="139"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170609788369">Or </para>
+    <figure id="id1170605629680">
+      <media id="id1170605629680_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-aeae.png" id="id1170605629680__onlineimage" height="61" width="246"/>
+      </media>
+    </figure>
+    <para id="id1170597888601">As discussed in the preceding section, inorder to get optimum performance in switching speed as well as in transfer curve PMOS will have to be wider than NMOS.</para>
+    <para id="id1170596245057">In VLSI Technology, as the dimensions are being scaled short channel effects are showing up. One of the short channel effects is electric drift mobility dependence on longitudinal and transverse electric field.</para>
+    <para id="id1170592783495">Reference [“The dependence of the electron mobility on the longitudinal electric field in MOSFETs” by J.B.Rolden et al,Semiconductor Science Technology, Vol 12,(1997),321-330] gives the following relationship:</para>
+    <figure id="id1170592763232">
+      <media id="id1170592763232_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-1a30.png" id="id1170592763232__onlineimage" height="113" width="521"/>
+      </media>
+    </figure>
+    <figure id="id1170595505836">
+      <media id="id1170595505836_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-4c19.png" id="id1170595505836__onlineimage" height="33" width="315"/>
+      </media>
+    </figure>
+    <figure id="id7951046">
+      <media id="id7951046_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics35-1e09.png" id="id7951046__onlineimage" height="30" width="306"/>
+      </media>
+    </figure>
+    <figure id="id1170601634354">
+      <media id="id1170601634354_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-b1b1.png" id="id1170601634354__onlineimage" height="30" width="233"/>
+      </media>
+    </figure>
+    <para id="id1170593064872">Pucknell et. al. gives the following expression:</para>
+    <figure id="id1170605712102">
+      <media id="id1170605712102_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-e45c.png" id="id1170605712102__onlineimage" height="34" width="394"/>
+      </media>
+    </figure>
+    <para id="id1170592894041">Where φ = constant of the range 0.05;</para>
+    <para id="id1170596304540">V<sub>t</sub> = threshold voltage including the body effect;</para>
+    <para id="id7674631">And µ<sub>Z</sub> = drift mobility with zero transverse electric field.</para>
+    <para id="id1170588455904">V<sub>GS</sub>/D = decides the transverse electric field;</para>
+    <para id="id1170600742869">D = gate oxide thickness.</para>
+    <para id="id8623695">Since mobility has transverse electric field dependence hence only at the symmetry point, k = 1 hold good.</para>
+    <para id="id1170605879876">As can be seen from Eq.7.3.12.17, at V<sub>out </sub>=V<sub>DD</sub>/2 , V<sub>in</sub> = V<sub>DD</sub>/2 only at k = 1.</para>
+    <figure id="id1170601759582">
+      <media id="id1170601759582_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics38-3ff0.png" id="id1170601759582__onlineimage" height="54" width="160"/>
+      </media>
+    </figure>
+    <para id="id1170602423088">The relation ship is :</para>
+    <figure id="id1170601299388">
+      <media id="id1170601299388_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics39-618a.png" id="id1170601299388__onlineimage" height="61" width="140"/>
+      </media>
+    </figure>
+    <para id="id1170607492885">is satisfied.</para>
+    <para id="id7638688">If due to manufacturing tolerance k &lt; 1 then according to Eq.7.3.12.17,</para>
+    <figure id="id1170609969071">
+      <media id="id1170609969071_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-0891.png" id="id1170609969071__onlineimage" height="54" width="160"/>
+      </media>
+    </figure>
+    <para id="id1170593008556">If k &gt; 1</para>
+    <figure id="id1170599482603">
+      <media id="id1170599482603_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics41-162a.png" id="id1170599482603__onlineimage" height="54" width="160"/>
+      </media>
+    </figure>
+    <para id="id1170593502838">We get a similar kind of lateral shift in the transfer characteristics as shown in Figure 7.3.12.1.</para>
+    <para id="id1170608880833">
+      <figure id="id1170595249910">
+        <media id="id1170595249910_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-5ed5.png" id="id1170595249910__onlineimage" height="388" width="494"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170602247005">As can be recognized that the symmetry point is:</para>
+    <figure id="id1170606231164">
+      <media id="id1170606231164_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics42-3ff0.png" id="id1170606231164__onlineimage" height="54" width="160"/>
+      </media>
+    </figure>
+    <para id="id1170597515428">is inherently a unstable point hence the changeover from HIGH to LOW or vica versa is rapid and only </para>
+    <figure id="id1170597191480">
+      <media id="id1170597191480_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics43-df4d.png" id="id1170597191480__onlineimage" height="30" width="264"/>
+      </media>
+    </figure>
+    <para id="id1170604591738">Or <figure id="id1170606431884"><media id="id1170606431884_media" alt=""><image mime-type="image/png" src="../../media/graphics44-37fa.png" id="id1170606431884__onlineimage" height="30" width="264"/></media></figure></para>
+    <para id="id3887993">are the two stable operating points.</para>
+    <para id="id1170606624951">Now we will look at the circuit model of CMOS.</para>
+  </content>
+</document>

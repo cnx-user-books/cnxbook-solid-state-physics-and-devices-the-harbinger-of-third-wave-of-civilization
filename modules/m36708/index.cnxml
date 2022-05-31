@@ -1,0 +1,402 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 3_The challenges of IC Technology</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36708</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 3_The challenges of IC Technology</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 3 describes the challenges faced by IC fabrication technology in course of increased micro miniaturization.</md:abstract>
+  <md:uuid>eb1cb70a-4d2e-4644-859d-d8322d30f485</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165060830814">SSPD_Chapter 6_IC Fabrication Technology from 1960s to date (2011)_Part3.</para>
+    <para id="id1165041039599">The tortuous path and the challenges in the development of IC Fabrication Technology.</para>
+    <para id="id1165038126574"><emphasis effect="italics">Gordon Moore predicted that number of transistors on integrated circuits (a rough measure of computer processing power) will double every 18 months at a minimum cost. It became a self fulfilling prophecy</emphasis>. <emphasis effect="italics">Moore’s Law has become a yardstick of our progress as we harness the cunning of NATURE’s design strategies.</emphasis></para>
+    <para id="id1165041266758">There was a constant pressure on Chip manufacturers to integrate functionally complex chips. To meet this target it became a necessity to follow Moore’s Law of micro-miniaturization. Following this law through aggressive vertical and lateral scaling rapid advances took place and major milestones were established in the field of IC Technology as already mentioned in the Road Map of Computer Development.</para>
+    <para id="id2479719">In 1964 the third generation Computer using IC came into market. This was known as Table-Top Computer PDP-8 . This was compact. There was much less power requirement and much more cost affordable.</para>
+    <para id="id1165054742600"> In 1971 the first microprocessor chip (µP4004) was marketed by INTEL . This laid the foundation of Desk-Top computers belonging to Fourth Generation Computers. </para>
+    <para id="id1165070207862">µP4004 was followed by 8085, 8086, 80386, 80486, Pentium I, Pentium II, Pentium III and Pentium IV. Today in 2009 such powerful quad processors have been commercialized that Nvidia advertises its new workstation, the Tesla, as a “personal supercomputer”. It clusters 4 Nvidia C1060 processing boards, each of which unites 240 graphic cores to process instructions at nearly teraflop speed.</para>
+    <para id="id1165064682311"/>
+    <para id="id1165071083077">
+      <emphasis effect="bold">Table 6.6. Transistor Junction Depths and Doping Changes with years. [Muller &amp; Kamini, Solid State Devices; “Modelling of SiGe heterojunction transistors:200GHz frequencies with symmetrical delay times”, Jochen Eberhardt &amp; Erich Kasper, Solid State Electronics, 45(2001), 2097-2100.].</emphasis>
+    </para>
+    <table id="id1165041069111" summary="How the scaling progressed in BJT from 1960 till date">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Amplifying(Junction. Isolated)1964</entry>
+            <entry>Amplifying(Junction Isolated)1980</entry>
+            <entry>Switching(Junction Isolated)1980</entry>
+            <entry>Switching(Oxide Isolated)1980</entry>
+            <entry>Amplifying(oxide isolated)2001HBT</entry>
+          </row>
+          <row>
+            <entry>Surface area</entry>
+            <entry>212.5µm×250µm</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>20 µm×1µm</entry>
+          </row>
+          <row>
+            <entry>Epi Film Thickness_Resistivity of epi layer</entry>
+            <entry>10 μm_0.1Ω-cm</entry>
+            <entry>10μm_1Ω-cm</entry>
+            <entry>3μm_0.3-0.8 Ω-cm</entry>
+            <entry>1.2um_0.3-0.8 Ω-cm</entry>
+            <entry>172nmW<sub>C</sub>= 50nm</entry>
+          </row>
+          <row>
+            <entry>Buried Layer Sheet R<sub>Sheet</sub>Updiffusion</entry>
+            <entry>1Ω/▄_2.5 μm</entry>
+            <entry>20Ω/▄_2.5μm</entry>
+            <entry>20Ω/▄_1.4μm</entry>
+            <entry>30 Ω/▄_0.3 μm</entry>
+            <entry>0.7 Ω/▄_0.2 μm</entry>
+          </row>
+          <row>
+            <entry>Emitter Diffusion Depth_Sheet Resistance of Emitter</entry>
+            <entry>2.5 μm_1Ω/▄</entry>
+            <entry>2.5μm_5Ω/▄</entry>
+            <entry>0.8μm_12Ω/▄</entry>
+            <entry>0.25μm_30Ω/▄</entry>
+            <entry>W<sub>E</sub> = 110nm_378 Ω/▄_Emitter contact_5.2 Ω/▄</entry>
+          </row>
+          <row>
+            <entry>Base Diffusion Depth_R<sub>SHEET</sub></entry>
+            <entry>3.5 μm_200Ω/▄</entry>
+            <entry>3.25μm_100 Ω/▄</entry>
+            <entry>1.3μm_200 Ω/▄</entry>
+            <entry>0.5μm_600 Ω/▄</entry>
+            <entry>122nm260 Ω/▄</entry>
+          </row>
+          <row>
+            <entry>Base Width</entry>
+            <entry>1 μm</entry>
+            <entry>1 μm</entry>
+            <entry>0.5 μm</entry>
+            <entry>0.25 μm</entry>
+            <entry>W<sub>B</sub>=12nm</entry>
+          </row>
+          <row>
+            <entry>Substrate ResistivityCrystal Orientation</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>5 Ω-cm&lt;111&gt;</entry>
+            <entry/>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id1165040910570"/>
+    <para id="id1165064322494">
+      <emphasis effect="bold">Table 6.7. Dimension Scaling in MOSFET over the last decade.</emphasis>
+    </para>
+    <table id="id1165075610601" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>MOS</entry>
+            <entry>1967</entry>
+            <entry>1997</entry>
+            <entry>1999</entry>
+            <entry>2001</entry>
+            <entry>2003</entry>
+            <entry>2006</entry>
+          </row>
+          <row>
+            <entry>L(µm)</entry>
+            <entry>10</entry>
+            <entry>0.25</entry>
+            <entry>0.18</entry>
+            <entry>0.13</entry>
+            <entry>0.1</entry>
+            <entry>0.07</entry>
+          </row>
+          <row>
+            <entry>DRAM<emphasis effect="bold">(Gbit/cm</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">)</emphasis></entry>
+            <entry>64M</entry>
+            <entry>0.18</entry>
+            <entry>0.38</entry>
+            <entry>0.42</entry>
+            <entry>0.91</entry>
+            <entry>1.85</entry>
+          </row>
+          <row>
+            <entry>Junction Depth<emphasis effect="bold">(x</emphasis><emphasis effect="bold">j</emphasis><emphasis effect="bold">)nm</emphasis></entry>
+            <entry>1000</entry>
+            <entry>100</entry>
+            <entry>70</entry>
+            <entry>60</entry>
+            <entry>52</entry>
+            <entry>40</entry>
+          </row>
+          <row>
+            <entry>InterconnectionPitch(nm)</entry>
+            <entry>2000</entry>
+            <entry>600</entry>
+            <entry>500</entry>
+            <entry>350</entry>
+            <entry>245</entry>
+            <entry>130</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165078982372">Table 6.6 and Table 6.7 shows the strides taken in microminiaturization. This has meant a lot of energy, resources and time invested in technology improvement to achieve this kind of scaling.</para>
+    <para id="id1165045336038">As of 2004, current PC processors are fabricated at the 130 nm and 90 nm levels, with 65 nm chips being announced by the end of 2005. A decade ago, chips were built at a 500 nm level. Companies are working on using nanotechnology to solve the complex engineering problems involved in producing chips at the 45 nm, 30 nm, and even smaller levels—a process that will postpone the industry meeting the limits of Moore's Law.</para>
+    <para id="id1165078431775">Moore's Law of Integrated Circuits was not the first, but the fifth paradigm to provide accelerating price-performance. Computing devices have been consistently multiplying in power (per unit of time) from the mechanical calculating devices used in the 1890 U.S. Census, to Turing's relay-based "Robinson" machine that cracked the Nazi enigma code, to the CBS vacuum tube computer that predicted the election of Eisenhower, to the transistor-based machines used in the first space launches, to the integrated-circuit-based personal computers. In the process of miniaturization we have met with seemingly unsurmountable obstacles which in due course of time with new technological breakthroughs and innovations have become surmountable.</para>
+    <para id="id1165052976545">These technological breakthroughs and innovations have meant that R&amp;D, manufacturing, and test costs have increased steadily with each new generation of chips. As the cost of semiconductor equipment is expected to continue increasing, manufacturers must sell larger and larger quantities of chips to remain profitable. (The cost to "tapeout" a chip at 0.18um was roughly $300,000 USD. The cost to "tapeout" a chip at 90nm exceeds $750,000 USD, and the cost is expected to exceed $1.0M USD for 65nm.)</para>
+    <para id="id1165063773279">"What we didn't realize then was that the integrated circuit would reduce the cost of electronic functions by a factor of a million to one," Kilby said. </para>
+    <para id="id1165044672142">Placing several million transistors on a piece of silicon the size of a fingertip is intricate and exacting. Precision associated with chip manufacturing is measured in microns and increasingly in fractions of microns. A micron is one-millionth of a meter, or about one one-hundredth of the diameter of a human hair. Maintaining this level of precision demands chip production environments that are 1,000 times cleaner than today's cleanest surgical operating rooms. </para>
+    <para id="id1165056970505">Challenge number 1: “Clean Rooms for IC fabrication”.</para>
+    <para id="id1165065081415">Challenge number 2: “Patterning or Lithography”. </para>
+    <para id="id1165039569965">Challenge number 3:”Transistor Options”. Classical scaling ended in 2001.</para>
+    <para id="id1165071314877">Challenge number 4:”Interconnect options”.</para>
+    <para id="id1165041545190">Challenge number 5:”High density memory beyond SRAM is required in today’s devices.”</para>
+    <para id="id4316508">Challenge number 6:”System Integration”.</para>
+    <para id="id8733826">Solving these problems INTEL is moving to 32nm technology.</para>
+    <para id="id1165044671970">1960s was dominated by Bipolar Technology and TTL Logic Gates operating at 5V.</para>
+    <para id="id1165071498909">The earliest challenge of 1960s was the production of electrically stable MOS devices. By the end of 1960s electrical stability was achieved by using Phosphorous doped SiO<sub>2</sub> often known as P-Glass.</para>
+    <para id="id1165041719470">1970s saw the emergence of NMOS technology and NMOS based Dynamic Random Access Memory. IBM and Intel provided the technology and MOSTEK gave the Clock Design. This led to the successful marketing of the first VLSI 16K-bit DRAM. Scaling was applied to this DRAM structure.</para>
+    <para id="id1165041545422">A consortium of five top Japanese microelectronics companies:  Hitachi, NEC, Fujitsu, Mitsubishi and Toshiba worked on VLSI Technology Project and created the complete infrastructure for 256K-bit DRAM . For this they developed Ultra-Clean Rooms in which they ushered in 1-micron VLSI era by the end of 1970s.</para>
+    <para id="id1165041944687">By 1980s NMOS circuits were replaced by CMOS due to ease of circuit design. Quasi constant voltage scaling was adopted. Voltage tolerant device structures like the lightly doped drain (LDD) transistor, silicide clad source drain, and hot electron defense was adopted. These technologies provided some of the keys to continue scaling feature sizes slower than voltage . 1980s saw the crossing of 1 micron barrier and formally we entered into sub-micron technology era.</para>
+    <para id="id1165038849333">In 1980s only Carver Meade and Lynn Conway wrote a book by the title “Introduction to VLSI System”. In this they simplified the design rules of CMOS circuit by introducing Linear Device Scaling Theory. University of California, Berkeley, introduced ‘CADENCE’- a suite of design tools of CMOS circuits. This connected the device physics to logic circuits, logic circuits to circuit design and verification tools to check the design rules. The entire ASIC world of semi-custom chips opened up based on this set of abstractions and made scaling applicable to all chips.</para>
+    <para id="id1165041806557"> In 1990, Stanford developed process simulators and device simulators. They incorporated the scaling in Generation of Process Technology and a given Generation could be used for implementing a given system. Complex Systems would be implemented by advanced Generations. Thus emerged Technology Computer-Aided-Design today popularly known as TCAD. </para>
+    <para id="id1165062241030"> In order to make TCAD commercially viable, manufacturing yield and defect analysis had to be included. Redundancy and repair techniques were included. Yield analysis tool (developed at Carnegie Mellon University), defect measurement tools, systematic yield process and ramp process kept ‘linear scaling’ commercially viable. This enabled scaling beyond 256K-bitDRAM. </para>
+    <para id="id8777429">
+      <figure id="id2205382">
+        <media id="id2205382_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-6da8.png" id="id2205382__onlineimage" height="471" width="441"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165038930841">Figure 6.29. Scaling of Memory Chips.</para>
+    <para id="id2794182">As seen in Figure 6.29, from late 1970 the 2µm Generation of Technology(64kb per chip) improved to 0.18µm Technology (1Gb per chip) in 2000 for memory chips. In the same period Generation of Technology for logic chips improved from 10K devices to 100M device-count per chip as shown in Figure 6.30. As is evident from the two figures, Memory-Chip has been full one Generation ahead of Logic-Chips as far as technology is concerned. </para>
+    <para id="id1165052294869">Because of the edge of Japan over USA in early 80s in sub-micron VLSI Memory chips, USA under the aegies of Defence Advanced Research Program Agency (DARPA) started Microelectronics Manufacturing Science &amp; Technology (MMST) Program. DARPA made a consortium with Texas Instruments, US Air-Force, Semi-conductor Equipment manufacturers and University Researchers. Its purpose was the following: </para>
+    <list id="id1165042993930" list-type="enumerated" number-style="lower-alpha">
+      <item>To develop advanced IC-manufacturing Technologies which would enable dramatic improvements in process control, cycle-time and overall flexibility;</item>
+      <item>Continue scaling in deep-submicron level in a cost effective manner.</item>
+    </list>
+    <para id="id1165070181722">Under MMST program, technical feasibility of 100% single-wafer processing, dynamic/object oriented Computer-Integrated-Manufacturing(CIM), real time/model based process control, in-situ sensors, 95% dry processing and integrated mini environment was well demonstrated. Till 1993 it was 60% single-wafer processing and 40% batch processing was in vogue. But after 1993, 100% single wafer process tools are available.</para>
+    <figure id="id1165041040991">
+      <media id="id1165041040991_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-f6d3.png" id="id1165041040991__onlineimage" height="446" width="507"/>
+      </media>
+    </figure>
+    <para id="id1165041096143">Figure 6.30 Scaling of Logic Chips.</para>
+    <para id="id1165051460853">MMST has developed processing chambers in which sample wafers were heated by Rapid Thermal Processing(RPT) Lamps under multi-zone, closed-loop wafer-temperature control. Stanford University, Applied Materials Inc., subsequently introduced RTP in their Centura cluster tools. MMST also created the first lithography cluster tool.</para>
+    <para id="id1165055587037">In 1992, Semiconductor Industry Association(SIA) invited 179 key Semiconductor Technologists at Irving, Texas, to chalk out the Road Map of scaling of MOS devices for the next 15 years as given in Table 6.8.</para>
+    <para id="id1165078232152">They identified 5 areas of critical challenge which could impede or stop the progress of scaling.</para>
+    <list id="id1165051502675" list-type="bulleted">
+      <item>Patterning material and processes for device structures below 0.25um </item>
+      <item>Electrical interconnections, both on and off chip </item>
+      <item>Electrical test, time cost and capability </item>
+      <item>Design, modeling, simulation capability for all elements of IC technology and products </item>
+      <item>Software capability, availability and quality for all aspects of IC technology and production. </item>
+    </list>
+    <para id="id1165064381826">
+      <emphasis effect="bold">Table 6.8_1992 SIA Overall Roadmap Technology Characteristics</emphasis>
+    </para>
+    <table id="id1165057984053" summary="This gives the road map of technology from 1992 to 2007">
+<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry> </entry>
+            <entry>1992</entry>
+            <entry>1995</entry>
+            <entry>1998</entry>
+            <entry>2001</entry>
+            <entry>2004</entry>
+            <entry>2007</entry>
+          </row>
+          <row>
+            <entry>Feature Size (μm)</entry>
+            <entry>0.5</entry>
+            <entry>0.35</entry>
+            <entry>0.25</entry>
+            <entry>0.18</entry>
+            <entry>0.12</entry>
+            <entry>0.10</entry>
+          </row>
+          <row>
+            <entry>Gates/chip</entry>
+            <entry>300k</entry>
+            <entry>500k</entry>
+            <entry>2M</entry>
+            <entry>5M</entry>
+            <entry>10M</entry>
+            <entry>20M</entry>
+          </row>
+          <row>
+            <entry>Bits/Chip - DRAM - SRAM</entry>
+            <entry>16M/4M</entry>
+            <entry>64M/6M</entry>
+            <entry>256M/64M</entry>
+            <entry>1G/256M</entry>
+            <entry>4G/1G</entry>
+            <entry>16G/4G</entry>
+          </row>
+          <row>
+            <entry>Wafer processing  cost ($/cm2)</entry>
+            <entry>$4.00</entry>
+            <entry>$.390</entry>
+            <entry>$3.80</entry>
+            <entry>$3.70</entry>
+            <entry>$3.60</entry>
+            <entry>$3.50</entry>
+          </row>
+          <row>
+            <entry>Chip Size (mm2)-logic processor-DRAM</entry>
+            <entry>250*132</entry>
+            <entry>400*200</entry>
+            <entry>600*220</entry>
+            <entry>800*500</entry>
+            <entry>1000*700</entry>
+            <entry>1250*1000</entry>
+          </row>
+          <row>
+            <entry>Wafer Diameter (mm)</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200-400</entry>
+            <entry>200-400</entry>
+            <entry>200-400</entry>
+            <entry>200-400</entry>
+          </row>
+          <row>
+            <entry>Defect Density(Defects per cm2)</entry>
+            <entry>0.1</entry>
+            <entry>0.05</entry>
+            <entry>0.03</entry>
+            <entry>0.01</entry>
+            <entry>0.004</entry>
+            <entry>0.002</entry>
+          </row>
+          <row>
+            <entry>No. of  interconnect levels - logic</entry>
+            <entry>3</entry>
+            <entry>4-5</entry>
+            <entry>5</entry>
+            <entry>5-6</entry>
+            <entry>6</entry>
+            <entry>6-7</entry>
+          </row>
+          <row>
+            <entry>Maximum Power (watts per die)-high performance-portable</entry>
+            <entry>103</entry>
+            <entry>154</entry>
+            <entry>304</entry>
+            <entry>404</entry>
+            <entry>40-1204</entry>
+            <entry>40-2004</entry>
+          </row>
+          <row>
+            <entry>Power supply Voltage (V)-desktop-portable</entry>
+            <entry>5-3.3</entry>
+            <entry>3.3-2.2</entry>
+            <entry>2.2-2.2</entry>
+            <entry>2.2-1.5</entry>
+            <entry>1.5-1.5</entry>
+            <entry>1.5-1.5</entry>
+          </row>
+          <row>
+            <entry>No. of I/O’s</entry>
+            <entry>500</entry>
+            <entry>750</entry>
+            <entry>1500</entry>
+            <entry>2000</entry>
+            <entry>3500</entry>
+            <entry>5000</entry>
+          </row>
+          <row>
+            <entry>Performance (MHz)-off chip-on chip</entry>
+            <entry>60/120</entry>
+            <entry>100/200</entry>
+            <entry>175/350</entry>
+            <entry>250/500</entry>
+            <entry>350/700</entry>
+            <entry>500/1000</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id1165041597484">Before 1980, there used to be Integrated Device Manufacturers(IDM) which were vertically integrated. They designed , fabricated and marketed their chips. Start-up companies, who could not afford a foundary, used IDM’s excess capacity to fabricate their chips. But after 1980 as Process Technology Scaling became more systematic, R&amp;D and Design got bifurcated from the Foundries. A few major Foundries, situated in third world undeveloped or underdeveloped, catered to the needs of numerous Fab-less companies which concentrated their resources on the end market. Taiwan Semiconductor Manufacturing Corporation (TSMC) is one such foundries which enables a lower capital cost because of cheap labour. This allows the Fab-less companies to concentrate on their R&amp;D. This makes a lot of economic sense. </para>
+    <para id="id1165066045061">The specific technology development challenges of a successful foundry company in the next decade include:______________________________________________________________ </para>
+    <para id="id1165045236426">(1) aggressive scaling of transistors, interconnect, and design rules for both performance and density;____________________________________________________________________ </para>
+    <para id="id1165038152767">(2) embedded technologies for SOC(System-on-Chip) solutions;_______________________ </para>
+    <para id="id1165041720772">(3) cost effective and manufacturability process technology;___________________________ </para>
+    <para id="id1165071217661">(4) a versatile technology portfolio;______________________________________________ </para>
+    <para id="id1165057559842">and (5) easy integration among customers, design service/IP providers and the foundries.____</para>
+    <para id="id1165041584260">In the following years as the Foundries build their core competencies by including leading edge process technologies, advanced and flexible manufacturing capabilities and customer oriented service systems, the dichotomy between the Foundries and the Fab-less Companies will be complete.</para>
+    <para id="id1165058216025">As the scaling continues we need to answer the following challenges up to 90nm Generation Technology:</para>
+    <list id="id1165038395033" list-type="enumerated" number-style="arabic">
+      <item>Sub-micron optical lithography(including Optical Proximity Corrections/Resolution Enhancement);</item>
+      <item>Extending bulk CMOS by several performance boosters- stress/strain, ultra shallow junctions and ox nitrides;</item>
+      <item>Multi-level Cu interconnects including Chemical Mechanical Polishing(CMP).</item>
+    </list>
+    <para id="id2491378">At 45nm Generation Technology and beyond the following challenges have to be</para>
+    <para id="id1165061368910">answered:</para>
+    <list id="id1165066976322" list-type="enumerated" number-style="arabic">
+      <item>Device/process variability: In the micron Generation the yield loss was dominated by random defects in the wafer. By the time volume production started by suitable quality control of wafers, systematic yield losses was eliminated. But in sub-micron and deep submicron Generation Technology, random defect limited yield losses are less than 50%. Major losses come from lay-out systematics and parametric systematics. For 90nm NMOS Generation Technology, systematic variation in line width is 40% of the overall chip variance. The systematic variation in the line width has a serious effect on the electrical performance which in turn effects the yield. This layout systematics and parametric systematics have to be addressed by the circuit designer. The histogram in Figure 6.31 illustrates the above point.</item>
+    </list>
+    <figure id="id1165038859088">
+      <media id="id1165038859088_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-a54d.png" id="id1165038859088__onlineimage" height="424" width="597"/>
+      </media>
+    </figure>
+    <list id="id1165047596202" list-type="enumerated" number-style="arabic">
+      <item>Despite of new device architecture such as FinFET, Ultra-Thin Body Transistors(UTB), Inverted T FET, the bulk CMOS will dominate. With scaling, performance parameters become sensitive to random dopant fluctuations. Circuit designers will have to cope with much higher variability in parameters as well as higher leakage currents. </item>
+      <item>With scaling due to Fermi-Level pinning (AppendixIV), higher threshold Voltage (V<sub>Thres</sub>) resulted. Also High-k material have high elasticity hence result in higher phonon scattering or lattice scattering resulting in lower channel mobility. By screening the phonon effect, the deterioration in channel conductivity could be prevented. This required increasing the electron density in Poly-Si gate. Hence we had to switch to Metal-High k combination. This prevented:</item>
+    </list>
+    <list id="id1165054194758" list-type="enumerated" number-style="lower-alpha">
+      <item>Fermi-Level pinning hence threshold voltage normalized;</item>
+      <item>This normalized channel conductivity which had drastically deteriorated due to dipole vibration effect;</item>
+      <item>Metal Gate Electrode provides better bonding between Metal-Dielectric. Hence stable operation.</item>
+    </list>
+    <para id="id2205786">In mid-2003, Intel’s Hillsbaro, Ore, Development Fab developed HK-MG CMOS. Intel’s 130nm technology was used. Using Hafnium-Based Oxide and Metal Gate electrode following characteristics were achieved:</para>
+    <list id="id1165054726447" list-type="enumerated" number-style="lower-roman">
+      <item>Low Threshold = 1V;</item>
+      <item>Negligible leakage current through Oxide;</item>
+      <item>High 2-D channel mobility.</item>
+      <item>Advanced Process Control(APC) especially feed forward: Given the increasing complexity and small process windows, yield variability is a very significant problem. New approaches for yield relevant SOC(System on Chip) and APC are needed to take advantage of the increased process observables due to in-situ equipment sensor/FDC deployment.</item>
+      <item>Compact device models: Below 100 nm, compact device models must accommodate microscopic (i.e., "non-bulk") physical effects with minimal impact on overall computational complexities.   BSIM has filled this role for many technology generations as the workhorse, both for model characterization and node-to-node technology predictions.  It continues to have the confidence of industry and seems likely to remain in service (with the possible exception of RF) down to about 45 nm. </item>
+    </list>
+    <para id="id1165078216235">Compact models at 65 nm need to be urgently improved on account of the following:</para>
+    <para id="id1165057908282">(a) scalability of sub-threshold currents and output resistance from short-to-long channel lengths, due largely to lateral doping non-uniformities </para>
+    <para id="id1165056969868">(b) dependence of noise on voltage and geometry; i.e., considering 1/f noise dependence on random noise trap occurrences</para>
+    <para id="id1165041017675">(c) capabilities for handling geometrical statistical fluctuations which affect noise, threshold voltage and drive current.</para>
+    <list id="id1165058168877" list-type="enumerated" number-style="arabic">
+      <item>The above problems become more severe at 45 nm, along with the following additional priorities:</item>
+    </list>
+    <para id="id1165049664061">(1)  gate current scaling and dependences on novel (e.g., multi-layer) gate stacks,</para>
+    <para id="id1165041651391">(2)  carrier mobility in the channel due to layout-induced stress/strain,</para>
+    <para id="id1165045340794">(3)  statistical variations stemming from random dopant placements,</para>
+    <para id="id1165041870453">(4)  ballistic transport of carriers in intrinsic channel and, </para>
+    <para id="id1165046634240">(5)  quantum mechanical effects due to confinement in thin films.</para>
+    <para id="id1165050892632">In nutshell, Scaling theory has been the organizing principle of the progress of the semiconductor industry throughout three decades. It has created a framework for continued improvement in density and cost performance and facilitated the desegregation of the entire industry around design and manufacturing. Few concepts in our time have had as much influence on the economy.</para>
+    <para id="id1165045553920"> In this section we have done a rapid review of the challenges which have confronted the continuous microminiaturization of IC chips. In the next few sections we will study the specific technological developments and innovations made to meet these challenges. </para>
+    <para id="id1165045337836"/>
+  </content>
+</document>

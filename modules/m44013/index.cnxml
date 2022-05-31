@@ -1,0 +1,380 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Integrated Circuit Technology of  Future Generations-Part 5_QED properties continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44013</md:content-id>
+  <md:title>The Integrated Circuit Technology of  Future Generations-Part 5_QED properties continued</md:title>
+  <md:abstract>The Integrated Circuit Technology of  Future Generations-Part 5 describes Klein Paradox,Anolmous Integer Quantum Hall Effect,Aityah-Singer Index Theorem,near perfect crystal and opening the band-gap.</md:abstract>
+  <md:uuid>deb96d57-65e7-427c-8755-e80640dcfbe6</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164145579340">
+      <emphasis effect="bold">8.3.4. I.C.Technology of Future Generations_Part 5_Quantum Electrodynamical Properties of Graphene continued.</emphasis>
+    </para>
+    <para id="import-auto-id2171296"><emphasis effect="bold">8.3.4.3. Klein Paradox.</emphasis>[Katsnelson,M.;Novoselov,K.,&amp; Geim,A.K., “Chiral tunneling and Klein Paradox in Graphene”, <emphasis effect="italics">Nature Physics</emphasis>, <emphasis effect="bold">2, </emphasis>620-625, (2006);]</para>
+    <para id="import-auto-id1164152274207">Unimpeded penetration of  relativistic particles through high and wide potential barriers is known as Klein Paradox and is a consequence of Quantum Electrodynamics (QED). </para>
+    <figure id="import-auto-id1164151256976">
+      <media id="import-auto-id1164145208564" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-2bcd.png" height="392" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164126711867">
+      <emphasis effect="bold">Figure 19. The creation of Dirac Electron-Positron at the right interface of the</emphasis>
+    </para>
+    <para id="import-auto-id1164138178753">
+      <emphasis effect="bold">Potential barrier and annihilation of Dirac Electron-Positron at the left interface of</emphasis>
+    </para>
+    <para id="import-auto-id1164126543804">
+      <emphasis effect="bold">the potential barrier.</emphasis>
+    </para>
+    <para id="import-auto-id1164134726755">As seen in Figure 19 for every incident Dirac Electron at the left of the potential energy barrier of height eV<sub>0</sub>  Joules  there is a conjugate Dirac Positron in the Potential Energy Barrier and there is a corresponding transmitted Dirac Electron on the right of the barrier.</para>
+    <para id="import-auto-id1164154617482">At the right interface, Dirac electron-positron is created. Dirac Electron moves towards right as the transmitted electron and Dirac Positron moves leftward towards the left interface of the barrier.</para>
+    <para id="import-auto-id1164148402941">At the left interface, incident Dirac Electron and leftward moving Dirac Positron annihilate each other.</para>
+    <para id="import-auto-id1164127256167">This creation-annihilation of electron-positron in QED system is equivalent to generation-recombination of electrons-holes in 3-D semi-conductors. </para>
+    <para id="import-auto-id1164156611950">Thus matching between Dirac electron and Dirac positron spinor wave functions across the barrier leads to the high probability tunneling described by Klien Paradox. This Transmission probability ‘T’ depends only weakly on the barrier height. It approximates to perfect transparency for very high barriers. In non-relativistic tunneling ‘T’ exponentially decays with increasing height.</para>
+    <para id="import-auto-id4232810">
+      <emphasis effect="bold">8.3.4.3.1. Klein Paradox reformulated for single layer 2D Graphene</emphasis>
+    </para>
+    <para id="import-auto-id1164124230000">(Setting up the spinor functions outside and inside the Potential Barrier and match the reflection and transmission cofficients).</para>
+    <para id="import-auto-id1164151550273">Refer to Figure 19.</para>
+    <para id="import-auto-id1164129680160">V(x) = V<sub>0</sub>  for 0 &lt; x &lt; D;</para>
+    <para id="import-auto-id4395966">V(x) = 0  otherwise.</para>
+    <para id="import-auto-id1701034">We assume abrupt or step-like barrier edges. This assumption is valid if the Fermi-Wavelength λ of the quasi-particles is much larger than the characteristic width of the edge smearing which in turn should be larger than the lattice constant ‘a’ ( to disallow Umklapp scattering between different valleys in graphene).</para>
+    <para id="import-auto-id1164149783616">Dirac Electron Fermions are massless hence there is no formal requirement for the minimal electric field (ε) to form positron like states under the barrier. So for graphene experiments we routinely take the opposing field of the potential barrier to be ε = 10<sup>5</sup>V/cm . A field of this order is sufficient to create a well-defined potential barrier in realistic graphenes samples with disorder.</para>
+    <para id="import-auto-id4983011">For experimental verification of Klein Paradox in QED system, a potential drop of (m<sub>e</sub>c<sup>2</sup>/e)Volt is required over the Compton Length (ħ/(m<sub>e</sub>c)) meter within the barrier. This works out to be 10<sup>18</sup>V/m = 10<sup>16</sup>V/cm. This sort of barrier can be encountered only in extra –ordinary  situation such as positron production in super-heavy nuclei with charge Z ≥ 170 [Greiner,W.,Mueller,B.,andRafelski,J.(1994), Grib,A.A.,Mamayev,S.G.,andMostepanenko,V.M., (1994)] or in the evaporation of Black holes through generation of particle-anti particle generation at the event horizon [Page, D. N.(2005)]. </para>
+    <para id="import-auto-id1164151561911">These same very relativistic quantum tunneling described by Klein Paradox and other related QED phenomena can be tested in graphene test bed.</para>
+    <para id="import-auto-id1164154068426"> We assume that the incident Dirac electron wave travels at an angle ‘φ’ with respect to x-axis as shown in Figure 20.</para>
+    <figure id="import-auto-id1164123777316">
+      <media id="import-auto-id1164155207035" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6e7b.png" height="438" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164134954006">
+      <emphasis effect="bold">Figure 20. The incidence angle ‘φ’, its propogation Fermi-vector  and its projections on the x-axis and y-axis. </emphasis>
+    </para>
+    <para id="import-auto-id1164123737114">We write the Dirac spinor functions Ψ1 and Ψ2 for the Hamiltonian H = E(Kinetic energy) + eV(potential energy):</para>
+    <figure id="import-auto-id1164139008470">
+      <media id="import-auto-id1164123790597" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-8f35.png" height="26" width="341"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164124056051">
+      <media id="import-auto-id1164123709361" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1bfa.png" height="26" width="422"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164123471526">
+      <media id="import-auto-id1164123336601" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-683a.png" height="24" width="211"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164123841137">
+      <media id="import-auto-id1164123700152" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-4c7b.png" height="26" width="391"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164148517365">
+      <media id="import-auto-id1164125849052" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-e91f.png" height="26" width="476"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164136852806">
+      <media id="import-auto-id2083585" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-4c56.png" height="24" width="241"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164137508073">Where <figure id="import-auto-id4935650"><media id="import-auto-id1164122739975" alt=""><image mime-type="image/png" src="../../media/graphics7-ff23.png" height="62" width="576"/></media></figure></para>
+    <para id="import-auto-id1164146789869"> Satisfying the continuity of the  wave function by matching the coefficients a, b, r and t we get the reflection coefficient ‘r’ as follows:</para>
+    <figure id="import-auto-id1164134961482">
+      <media id="import-auto-id1164145305743" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-e36a.png" height="44" width="514"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164155055462">Transmission = T = │t│<sup>2</sup> =1-│r│<sup>2</sup></para>
+    <para id="import-auto-id1164152949932">In the limit of high barrier where │eV<sub>0</sub>│&gt;&gt;│E│ we get:</para>
+    <figure id="import-auto-id1164140337258">
+      <media id="import-auto-id1608935" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-f669.png" height="46" width="443"/>
+      </media>
+    </figure>
+    <para id="import-auto-id4345559">Under resonance conditions when q<sub>x</sub>D=πN where N = 0, ±1,….</para>
+    <para id="import-auto-id1164122645292">T = 1;</para>
+    <para id="import-auto-id1164123759154">For angles close to Normal Incidence, T is always equal to Unity.</para>
+    <para id="import-auto-id1164122498913">The matching between directions of psuedospin ‘σ’ for quasi-particles inside and outside the barrier results in perfect tunneling.</para>
+    <para id="import-auto-id1164133520170">The Fermi wavelength is given as follows:</para>
+    <figure id="import-auto-id1164148200146">
+      <media id="import-auto-id1164123846999" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-6c48.png" height="44" width="103"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164156457255">For Fermi Energy 80meV and Fermi-velocity=10<sup>6</sup>m/s, λ = 50nm.</para>
+    <para id="import-auto-id1164138104258">In non-relativistic Quantum devices such as Zener Diodes and Esaki Diodes the transmission coefficient is given as:</para>
+    <figure id="import-auto-id1164122258393">
+      <media id="import-auto-id1164123989152" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-bfff.png" height="82" width="487"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164148956535">So as the height of the potential barrier increases, transmission falls exponentially.</para>
+    <para id="import-auto-id1164126993878">Figure 21 gives the transmission pattern across the ‘D’ unit wide and “V<sub>0</sub>” volt high potential barrier with respect to incident angle ‘φ’.</para>
+    <figure id="import-auto-id1164123604866">
+      <media id="import-auto-id1164123945108" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-1129.png" height="309" width="395"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164124024633">
+      <emphasis effect="bold">Figure 21.Klein-like quantum tunneling in graphene systems.Transmission probability T through a 100-nm-wide barrier as a function of the incident angle for (a)single-and(b)bi-layergraphene. The electron concentration n outside the barrier is chosen 0.5×10</emphasis>
+      <emphasis effect="bold">12</emphasis>
+      <emphasis effect="bold"> cm−2 for all cases.Inside the barrier,hole concentrations p are1× 10</emphasis>
+      <emphasis effect="bold">12</emphasis>
+      <emphasis effect="bold"> and 3 ×10</emphasis>
+      <emphasis effect="bold">12</emphasis>
+      <emphasis effect="bold"> cm−2 for red and blue curves, respectively (such concentrations are most typical in experiments with graphene).This corresponds to the Fermi energy E of incident electrons ≈ 80 and 17meV for single-and bi-layer graphene, respectively,and λ ≈ 50nm.The barrier heights V</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold"> are(a)200and(b)50meV(red curves) and (a)285 and (b) 100meV(blue curves).</emphasis>
+    </para>
+    <para id="import-auto-id1164148998424">
+      <emphasis effect="bold">8.3.4.4. Anolmous Integer Quantum Hall Effect.</emphasis>
+    </para>
+    <para id="import-auto-id1164135165301">In 2-D electron gas in graphene when a magnetic field is applied perpendicular to the sheet, electron and hole orbits are created. These orbits are created at quantized values of Energy. These are known as Landau Levels of energy.</para>
+    <para id="import-auto-id1164122567934">There were two groups of researchers working on this ‘Anolmous Quantum Hall Effect” after the discovery of graphene.Phillips Kim was leading a group at Columbia University in USA and A.K. Geim’s was leading a second group at University of Manchester, England, and at the Institute for Microelectronics Technologyin Chernogolovka, Russia. Both group discovered that when graphene is sufficiently cold and exposed to high magnetic field then the sheet exhibits a distinctive Quantum Hall Effect.  </para>
+    <para id="import-auto-id1164122340053">Graphene exhibits exotic fractional quantum Hall States even at room temperature [Novoscelov et.al.(2005),Zhang et.al.(2005), Zheng et.al.(2002)] extending the previous temperature  of observation by a factor 10 . Integer Quantum Hall Effect is anolmous in that it occurs as half integer filling factors. Hence we call it  Half-Integer Quantum Hall Effect given as below[Zhang et.al.(2005)]: </para>
+    <para id="import-auto-id1164122698984">
+      <figure id="import-auto-id1164123961876">
+        <media id="import-auto-id1164124248801" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-fe22.png" height="89" width="576"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1164124512239">In Equation 21, g<sub>s</sub> = 4 which is the four fold degeneracy due to spin and sublattices. Landau Index = +1,+2… for electrons and -1, -2,…. for holes and Hall Conductivity occurs for N=0 also.  As soon as we go to bi-layer of graphene, the band symmetry is altered and ½-integer phase shift is removed [Wilson (2006)].</para>
+    <para id="import-auto-id1164123791935">The half-integer shift is a subtle consequence of graphene’s symmetric topology which constrains the electrons to obey Dirac Relativistic Equation. In Section 3.4.2.6 we had introduced the concept of pseudo spin and chirality. As electron orbits one cycle around the magnetic flux, its pseudospin rotates introducing 180° phase shift in electron wave function. This half-wavelength shift is Berry Phase or Geometric Phase discussed in Section……..  The introduction of Berry Phase changes the pattern of allowed energy levels and quantized steps in Hall Conductivity by just the observed amount.  </para>
+    <para id="import-auto-id1164125908107">Unique properties of Dirac quasi-particles in 2-D graphene such as 2-fold degeneracy for spin and 2-fold degeneracy for two sub-lattices, electron-hole degeneracy and vanishing carrier mass near the point of charge neutrality, know as Dirac point, gives rise to  distinctive half-integer Quantum Hall Effect which was already theoretically predicted [Zheng et. al.(2002), Gusynin et.al.(2005), Peres et.al.(2005)]. Using(2space dimensions+1time dimension) dimensional QED,  Zheng et.al.(2002) had proved that Hall conductivity in graphene displays Quantum Hall Effect when E<sub>F</sub> is in low lying Landau Levels and scattering is weak. When E<sub>F</sub> is far away from zero energy level then Hall Conductivity obtained by Self-Consistent Born Approximation approaches Boltzmann Conductivity. </para>
+    <para id="import-auto-id1164122907862">Zhang et. al. (2005) have experimentally measured R<sub>XX</sub> (magnatoresistance) and R<sub>XY</sub> (Hall Resistance) in a very good quality graphene samples and discovered half-integer shifted Quantum Hall Effect as shown in Figure 22.</para>
+    <para id="import-auto-id1164122956249">Conventional 2D devices exhibit Integer QHE. The half-integer shift observed in graphene is a result of the topologically exceptional electronic band structure of graphene. Time reversal invariance imparts charge conjugation symmetry to electron-hole. They both act as electron-positron pair with zero rest mass. (2+1) dimensional QED analysis gives Landau Level Energy [Zhang et. al.(2005)]. The relativistic Landau Level and charge conjugation symmetry have resulted into half-integer shifted QHE</para>
+    <figure id="import-auto-id1164123620040">
+      <media id="import-auto-id1164123893880" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-070e.png" height="455" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164124095828">
+      <emphasis effect="bold">Figure 22. Quantized magnetoresistance and Hall resistance of a graphene device. [Zhang.et.al.(2005)]</emphasis>
+    </para>
+    <para id="import-auto-id1164148899323">
+      <emphasis effect="bold">a, Hall resistance (black) and magnetoresistance (red) measured in the device  at T = 30 mK and Vg = 15 V. The vertical arrows and the numbers on them indicate the values of B and the corresponding filling factor ν of the quantum Hall states. The horizontal lines correspond to (h/e</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">)×ν values. The QHE in the electron gas is demonstrated by at least two quantized plateaus in Rxy with vanishing Rxx in the corresponding magnetic field regime. The inset shows the QHE for a hole gas at Vg = -4 V, measured at 1.6 K. The quantized plateau for filling factor ν = 2 is well-defined and the second and the third plateau with ν = 6 and 10 are also resolved. </emphasis>
+    </para>
+    <para id="import-auto-id4987960">
+      <emphasis effect="bold">b, The Hall resistance (black) and magnetoresistance (orange) as a function of gate voltage at fixed magnetic field B = 9 T, measured at 1.6 K. The same convention as in (a) is used here. The upper inset shows a detailed view of high  filling factor plateaus measured at 30 mK. </emphasis>
+    </para>
+    <para id="import-auto-id7095548">
+      <emphasis effect="bold">c, A schematic diagram of the Landau level(LL) density of states (DOS) and corresponding quantum Hall conductance (σ</emphasis>
+      <emphasis effect="bold">xy</emphasis>
+      <emphasis effect="bold">) as a function of energy. Note that in the quantum Hall States,σ</emphasis>
+      <emphasis effect="bold">xy</emphasis>
+      <emphasis effect="bold">=-Rxy</emphasis>
+      <emphasis effect="bold">-1</emphasis>
+      <emphasis effect="bold">. The LL index n is shown next to the DOS peak. In our experiment, the Fermi energy E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> can be adjusted by the gate voltage, and R</emphasis>
+      <emphasis effect="bold">xy</emphasis>
+      <emphasis effect="bold">-1 </emphasis>
+      <emphasis effect="bold">changes by an amount of (g</emphasis>
+      <emphasis effect="bold">s</emphasis>
+      <emphasis effect="bold">)</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">×(e</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/h) as E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> crosses a LL.  </emphasis>
+    </para>
+    <para id="import-auto-id1164122250544">As seen in Figure 22 , magneto-resistance is always positive hence its plot with respect to gate voltage is an even function and Hall Resistance is negative for holes and positive for electrons hence it is odd function with respect to gate voltage. Since Hall Resistance is discretized or quantiuzed hence clearly resolved plateau occur at N= 0, ±2, ±6, ±14 . At the points where Hall Conductivity  R<sub>XY</sub>(B)  peak occurs just at those points magneto-resistance R<sub>XX</sub>  vanishes. This is the hall-mark of QHE.</para>
+    <para id="import-auto-id1164137071905">½ Integer QHE is altered to integer QHE even if one additional sheet is  added to the system as shown in Figure 23.</para>
+    <figure id="import-auto-id1164127885944">
+      <media id="import-auto-id1164148162821" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-2e99.png" height="478" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164123454340">
+      <emphasis effect="bold">Figure 23. Quantum Hall effect in graphene. The hallmark of the integer QHE</emphasis>
+    </para>
+    <para id="import-auto-id1164123601700">
+      <emphasis effect="bold">is that the longitudinal resistivity ρ</emphasis>
+      <emphasis effect="bold">xx</emphasis>
+      <emphasis effect="bold"> (shown in green) of a two-dimensional</emphasis>
+    </para>
+    <para id="import-auto-id1164123609243">
+      <emphasis effect="bold">electron gas in a high magnetic field vanishes at precisely those discrete val-</emphasis>
+    </para>
+    <para id="import-auto-id1164124153548">
+      <emphasis effect="bold">ues where the transverse conductivity σ</emphasis>
+      <emphasis effect="bold">xy</emphasis>
+      <emphasis effect="bold"> (red) is quantized in units of e</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/h,</emphasis>
+    </para>
+    <para id="import-auto-id1164137290897">
+      <emphasis effect="bold">where h is Planck’s constant and e the charge on an electron or hole. An extra</emphasis>
+    </para>
+    <para id="import-auto-id1164138978668">
+      <emphasis effect="bold">factor of 4 accounts for the spin and band-structure degeneracy in graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1164135347452">
+      <emphasis effect="bold">At 4 K and 14 T, σ</emphasis>
+      <emphasis effect="bold">xy</emphasis>
+      <emphasis effect="bold"> increases in quantized steps as researchers sweep the</emphasis>
+    </para>
+    <para id="import-auto-id1164139092234">
+      <emphasis effect="bold">gate voltage applied to the crystal to vary the electron density n. But those</emphasis>
+    </para>
+    <para id="import-auto-id1164136910885">
+      <emphasis effect="bold">steps come at integer values shifted by one-half of a unit because electrons</emphasis>
+    </para>
+    <para id="import-auto-id1164148459648">
+      <emphasis effect="bold">mimic the relativistic behavior of Dirac fermions. Adding even one additional</emphasis>
+    </para>
+    <para id="import-auto-id1574696">
+      <emphasis effect="bold">sheet to the system alters the band symmetry and removes the 1/2-integer</emphasis>
+    </para>
+    <para id="import-auto-id1164152342069">
+      <emphasis effect="bold">phase shift, as the inset plot shows. [Adapted from Wilson (2006)].</emphasis>
+    </para>
+    <para id="import-auto-id1164151021499">The two sublattice symmetry gives the quantum phase to spin-1/2 pseudo-spinor function describing the Dirac quasi-particles. This quantum phase is known as non-trivial Berry Phase or Geometric Quantum Phase already described in Section 3.1. This Berry Phase is implicit in half-integer shifted quantization rules of QHE. This Berry Phase can further be probed in the magnetic field region where semi-classical magneto –oscillation is manifested [Sharapov et.al. (2004); Lukyanchuk and Kopelevich (2004)]. This is known as Shubnikov de Hass (SdH) Oscillation. SdH oscillation is described by Equation 22 and illustrated in Figure 24.</para>
+    <figure id="import-auto-id8510518">
+      <media id="import-auto-id2209972" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-6cba.png" height="41" width="468"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164138192276">Where R(B,T) = SdH Oscillation Amplitude; B<sub>F</sub> = the frequency of oscillation in 1/B;</para>
+    <para id="import-auto-id1164151794530">And β = associated Berry Phase which lies between ZERO and UNITY. β=0 and β=1 are trivial cases and β=1/2 implies Dirac Particles.</para>
+    <para id="import-auto-id1164129412328">From the temperature dependence of well developed SdH Oscilations at low magnetic field using standard SdH formalism we can extract the effective carrier mass m*. The effective mass comes to be 0.007m<sub>e</sub> at the Dirac Point and it is 0.04m<sub>e</sub> at a gate voltage corresponding to carrier density of 5×10<sup>12</sup>/cm<sup>2</sup> .</para>
+    <figure id="import-auto-id1164123946161">
+      <media id="import-auto-id1164145181695" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-b0cd.png" height="272" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164129040453">
+      <emphasis effect="bold">Figure 24. Temperature dependence and gate voltage dependence of the Shubnikov de Haas oscillations in graphene. a, Temperature dependence of the SdH oscillations at </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">Vg </emphasis>
+      </emphasis>
+      <emphasis effect="bold">= -2.5 V. Each curve represents </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">Rxx</emphasis>
+      </emphasis>
+      <emphasis effect="bold">(</emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">B</emphasis>
+      </emphasis>
+      <emphasis effect="bold">) normalized to </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">Rxx</emphasis>
+      </emphasis>
+      <emphasis effect="bold">(0) at a fixed temperature. The curves are in order of decreasing temperature starting from the top as indicated by the vertical arrow. The corresponding temperatures are listed in the left inset. The left inset represents the SdH oscillation amplitude divided by temperature measured at a fixed magnetic field. The standard SdH fit yields the effective mass. The right inset is a plot of the effective mass obtained at different gate voltages. The broken line is a fit to the single parameter model described in the text, which yields </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">vF </emphasis>
+      </emphasis>
+      <emphasis effect="bold">= 1.1x106 m/s, in reasonable agreement with the literature values. b, A fan diagram for SdH oscillations at different gate voltages. The location of 1/</emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">B </emphasis>
+      </emphasis>
+      <emphasis effect="bold">for the </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">n</emphasis>
+      </emphasis>
+      <emphasis effect="bold">th minimum (maximum) of </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">Rxx </emphasis>
+      </emphasis>
+      <emphasis effect="bold">counting from </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">B </emphasis>
+      </emphasis>
+      <emphasis effect="bold">= </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">B</emphasis>
+      </emphasis>
+      <emphasis effect="bold">F is plotted against </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">n</emphasis>
+      </emphasis>
+      <emphasis effect="bold"> (</emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">n</emphasis>
+      </emphasis>
+      <emphasis effect="bold">+1/2). The lines correspond to a linear fit, where the slope (lower inset) indicates </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">B</emphasis>
+      </emphasis>
+      <emphasis effect="bold">F and the </emphasis>
+      <emphasis effect="bold">
+        <emphasis effect="italics">n</emphasis>
+      </emphasis>
+      <emphasis effect="bold">-axis intercept (upper inset)</emphasis>
+    </para>
+    <para id="import-auto-id1164134647333">
+      <emphasis effect="bold">provides a direct probe of Berry’s phase in the magneto-oscillation in graphene.</emphasis>
+    </para>
+    <para id="import-auto-id8363796"/>
+    <para id="import-auto-id1164153424143">Non-zero Berry’s Phase ( or geometric Quantum Phase) had also been predicted because of the exceptional topology of graphene band structure [ Ando et.al.(1998), Mikitik &amp; Sharlai (1999)]. With the fabrication of Graphene [Novoselov et.al.(2004); Berger et.al. (2004); Zhang et.al. (2005a); Zhang et.al. (2005b); Bunch et.al.(2005) ]  the experimental verification of these exotic features have become a reality. </para>
+    <para id="import-auto-id1164128601619">
+      <emphasis effect="bold">8.3.4.5. Aityah-Singer Index Theorem [Pachos (2009)]</emphasis>
+    </para>
+    <para id="import-auto-id1164124023074">The impact of the topological effects on grapheme electronic properties can be elegantly described by the Aityah-Singer Index Theorem. This predicts the number of  permissible quantum states of the electron at the apex of the Dirac Cone. A direct consequence of the Index Theorem is charge fractionalization that is known as fractional quantum effect. The charge fractionalization gives rise to the possibility of realizing grapheme based Anyons that unlike Bosons and Fermions exhibit fractional statistics. Anyons are strong candidate for performing error free quantum information processing.</para>
+    <para id="import-auto-id1164127189718">
+      <emphasis effect="bold">8.3.4.6. Graphene is near perfect single crystal free of structural defects but with many caveats.</emphasis>
+    </para>
+    <para id="import-auto-id1164134669632">Solid State Device Designer’s  wish list consists a material which has no crystalline defects and precisely controlled impurities and no processing damages. Graphene is expected to meet these criterian but not quite. The underlying substrate has an influence on the structure and hence on the transport properties of the overlying graphene [Morozov et. al.(2006) 9]. The lithographic technique used for nano-patterning introduces photo-resist residues on the devices. These residues behave as adsorbates and are expected to effect the transport properties of graphene [Schedin et.al.(2007) 7]. Local charge disdorder [Huang et.al.(2006) 10] influence the transport of electrons. Atomic structure and the dangling bonds at the periphery of the graphene [Nimmi et.al.(2006) 11] and atomic scale defect [Wehling et.al.(2007) 12] play an important role in the electronic properties of graphene.</para>
+    <para id="import-auto-id1164148193642">Ishigami et.al.(2007) have resolved atomic structures of oxide-supported graphene based electronic devices using SEM/AFM/STM techniques. Real space images of graphene atomic lattice was taken and its thickness characterization and nano scale corrugation characterization of a clean sample was done. It was found that graphene partially conformed to the underlayer SiO<sub>2</sub> because graphene haver finite intrinsic stiffness. Resist residues are ubiquitious in devices using lithographic nano-patterning. They have to be fully removed if the intrinsic structural properties of graphene are to be revealed and taken advantage of. This study enabled to assess the impact of atomic scale defects and adsorbates on nano-scale transport properties.</para>
+    <para id="import-auto-id1164129242258">The corrugation of the graphene due to underelying silicon-dioxide substrate lowers the mobility of electrons [Morozov et.al.(2006)] and suppresses weak localization in graphene based devices[ibid]. Trapped Oxide charges of Silicon Dioxode also effect the transport properties of graphene [13]. The chemical adsorbates caused by Acrylic Lithography introduce unknown and uncontrollable perturbation in graphene. </para>
+    <para id="import-auto-id1164139093246">Heat treatment at 400°C in an atmosphere of Argon/Hydrogen atmosphere completely removes the resist residue. This helps uncover the intrinsic properties of graphene. Atomic-Resolution images of the graphene lattice show triangular and hexagonal lattice pattern in close proximity and this  reduces the mobility of carriers.  </para>
+    <para id="import-auto-id1164127897964">Hass et.al. (2006) have studied the structural coherent domain size, surface roughness from sublimation, mobility of electron and long range order in graphene grown on C-faced SiC substrate(0001bar) and in graphene grown on Si-faced SiC substrate(0001). On all these counts epitaxially grown graphene(EG) on C-faced SiC is far superior. Mean coherent structural domain size is three times larger, surface roughness due to sublimation in SiC is suppressed by an order of magnitude, mobility is much larger (in EG grown on C-faced substrate μ= 10,000 to 27,000cm<sup>2</sup>/(V-s) and in Si-faced sample μ= 1,000 cm<sup>2</sup>/(V-s)  and long range order exceeds 1 micron in EG on C-faced SiC. </para>
+    <para id="import-auto-id1164123555982">This study proves that substrate has to be optimized to get the best transport properties out of the graphene based IC. </para>
+    <para id="import-auto-id1164123357347">Stolyarova et.al.(2007)  have taken Scanning Tunneling Microscopy images of graphene and 3-layer graphene on SiO<sub>2</sub>. Single layer graphene give honeycomb symmetry, high degree of crystalline order, sub-nanometer fluctuations in height on lateral scale in STM imageries. The integrity of the graphene is maintained inspite of harsh processing condition.FLG show three-fold symmetry.Atomically  resolved STM topography show no prominent signs of perturbation induced by interaction with the underlying substrate. Lattice-defects, point-like interaction with the underlying substrate or folding of the single layer graphene sheet would be expected to cause significant perturbation of the local electron density and thus be reflected in STM topography. None of these were observed.</para>
+    <para id="import-auto-id1164151799675">
+      <emphasis effect="bold">8.3.4.7. Opening the Band-Gap in Graphene.[Ando (2009)]</emphasis>
+    </para>
+    <para id="import-auto-id1164126861300">For mainstream logic applications graphene remains metallic even at Charge Neutral Point or at Dirac Point. This is a major problem in building graphene device based logic gates. But Band-gap can be engineered.</para>
+    <para id="import-auto-id1164124524933">Bandgap of ∆E = 0.3eV can be induced in bilayer graphene but this is more suitable for tunable IR lasers and photo-detectors. Here an electric field is applied perpendicular the device as shown in Figue 25.</para>
+    <para id="import-auto-id1164127191158">The band gap induced = eFd/2  where F = external field due to top gate.</para>
+    <figure id="import-auto-id1164128493489">
+      <media id="import-auto-id1164137509824" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-977f.png" height="47" width="466"/>
+      </media>
+    </figure>
+    <para id="import-auto-id4202633">∆ = interlayer coupling =0.4eV, g<sub>s</sub> = spin degeneracy = 2 and g<sub>v</sub> = valley degeneracy =2;</para>
+    <figure id="import-auto-id1164123431465">
+      <media id="import-auto-id1164124558967" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-69b2.png" height="216" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164122471592">
+      <emphasis effect="bold">Figure 25.  Schematic illustration of bilayer graphene with a bottom gate  controlling the carrier concentration and an extra top gate. The distance between layers 1 and 2 is d ≈ 0.334 nm, and the potential diference is determined from eFd. F</emphasis>
+      <emphasis effect="bold">ext</emphasis>
+      <emphasis effect="bold"> represents the field due to the top gate. </emphasis>
+    </para>
+    <para id="import-auto-id1164122698391">In single layer graphene, band-gap ∆E can be induced by spatial confinement or by lateral-super lattice potential. When graphene is grown over Boron-Nitride or SiC, it has a sizeable gap (&gt;0.1eV) . This is because of large super-lattice effects.</para>
+    <para id="import-auto-id1164122645909">When A and B sub-lattices are at symmetrical energy level then we have energy dispersion given by Eq 1. But if we introduce asymmetry between the sub-lattices say of +δ for sub-lattice A and –δ for sub-lattice B then the energy dispersion relation is given as follows:</para>
+    <figure id="import-auto-id1164126924357">
+      <media id="import-auto-id1164123743701" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-286f.png" height="43" width="503"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164156018394">From Eq.24, at │k│ = 0, the band gap is 2δ. Such a band-gap is achieved by growing graphene on an appropriate substrate. This lateral super lattice potential of the substrate gives  rise to the asymmetry between the two sub lattices.</para>
+    <para id="import-auto-id1164137508739">Functionalizing graphene by reversible hydrogenation can change the electrical property  from metallic to semiconducting owing to induced changes of functionalized carbon from sp<sup>2</sup> to sp<sup>3 </sup>hybridization[Geim et.al (2007), Gilje et.al.(2007) and Wang et.al(2008)] The resultant hydrocarbon compound, GRAPHANE, can be modified into new materials, fine tuning its electronic property. This has opened up increasingly fertile possibilities in hydrogen storage and in 2D electronics [Berger et.al.(2006),Geim &amp; Novoselov (2007), Geim-Morozov-Hill et.al.(2007)], Gilje et.al.(2007), Novoselov et.al.(2007), Wang et.al.(2008) and Zhang et.al.(2006)]  </para>
+    <para id="import-auto-id1164126463542">In Solid State Devices, through potential well confinement band gap can be engineered as is done in quantum dot devices. But in graphene due to Klein Paradox [Section 4.4.3], potential well confinement is not possible. Hence we have to go for spatial confinement.</para>
+    <para id="import-auto-id1164135186562">In Schrodinger Systems, potential well confinement leads to enhanced band gap [Ando (2009)]:</para>
+    <figure id="import-auto-id1164152248132">
+      <media id="import-auto-id1164147748898" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-fab7.png" height="48" width="502"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164123759842">Where d = width of the potential well.</para>
+    <para id="import-auto-id1164123040373">In Schrodinger Systems i.e. in non-relativistic systems, wave function Ψ(x) is zero at x=0 and at x=d. Therefore electrons are weakly affected by disorder present at the boundary. Hence there is weak boundary roughness scattering.</para>
+    <para id="import-auto-id6915340">In graphene we have solutions of Dirac Differential Equation. These solutions are not zero at the edges hence Ψ(x) is quite sensitive to the edge structure. </para>
+    <para id="import-auto-id1164123074686">In zig-zag ribbons, edge states have no dispersion and localized in the vicinity of edges.</para>
+    <para id="import-auto-id1164149667214">In arm-chair ribbons the width decides the conductivity of the ribbon. As width increases the conductivity alternates between that of metal and semi-conductor . This is analogous to CNT.</para>
+    <para id="import-auto-id1164126939661">In actual preparation, the edges are extensively damaged and therefore far from ideal.</para>
+    <para id="import-auto-id1164123144971">Measurement of conductance of narrow ribbon at different temperature show that Band Gap is inversely proportional to the width, it is independent of ribbon direction and conductivity decreases with decreasing ribbon width. Therefore the gap is not band gap  but mobility gap related to edge disorder. Chemically derived ribbons may have tunable band-gap.  </para>
+  </content>
+</document>

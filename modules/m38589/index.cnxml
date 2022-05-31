@@ -1,0 +1,160 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_part 4_CMOS lay-out design rules.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38589</md:content-id>
+  <md:title>SSPD_Chapter 7_part 4_CMOS lay-out design rules.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 4 gives the importance of choosing the design rules for Minimum width, Minimum spacing, Surround and Extension.</md:abstract>
+  <md:uuid>4b5b728f-f807-4258-83e5-1fbdea56eb36</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171387777653">SSPD_Chapter 7_part 4_CMOS lay-out design rules.</para>
+    <para id="id1171387163489">7.4.1. Introduction to VLSI Design.</para>
+    <para id="id1171412382687"> Digital VLSI systems are mainly implemented by CMOS family of Logic in Silicon Wafer. Only for very high speed niche applications we go for ECL family of Logic. In this Chapter 7, we are mainly concerned with CMOS VLSI circuits. Figure 7.4.1 gives the flow chart of design and implementation of a CMOS Digital Systems.</para>
+    <figure id="id1171403523397">
+      <media id="id1171403523397_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-740d.png" id="id1171403523397__onlineimage" height="307" width="641"/>
+      </media>
+    </figure>
+    <para id="id5419744">7.4.2. Layout Design Rules.</para>
+    <para id="id1171400807898"> As seen in Figure 7.4.1. from the designers layout the masks will be prepared and these masks will be translated into IC circuits in the foundry. These masks will be prepared within certain tolerances and with certain minimum resolutions. Mask preparation is the crucial step in IC technology and inorder that ICs are fabricated with high yield rate the tolerances and rsolutions must be clearly defined and hence layout design rules have been given. </para>
+    <para id="id4120236">Minimum wire widths are specified to avoid breaks. Minimum wire spacings are specified to avoid shorts. Overlaps are specified to ensure that overlap is complete. The design rules are expressed in terms of microns. The design rules are required so that a certain minimum resolution/tolerance of masks are permissible.</para>
+    <para id="id1171387421127">The Generation of the Fabrication Process technology is specified by the minimum feature size. Minimum feature size refers to channel length. As the Generation of the Fabrication Process advances so does the packing density and level of integration advances as shown in Table 7.4.1.</para>
+    <para id="id1171390410001">
+      <emphasis effect="bold">Table 7.4.1. Different Generations of Technology and their respective Packing Densities in Microprocessor Chips.</emphasis>
+    </para>
+    <table id="id1171399914520" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Chip</entry>
+            <entry>L</entry>
+            <entry>Transistors per cm square</entry>
+          </row>
+          <row>
+            <entry>1971</entry>
+            <entry>4004</entry>
+            <entry>10µm</entry>
+            <entry>2.3K</entry>
+          </row>
+          <row>
+            <entry>1974</entry>
+            <entry>8080</entry>
+            <entry>6µm</entry>
+            <entry>6.0K</entry>
+          </row>
+          <row>
+            <entry>1976</entry>
+            <entry>8088</entry>
+            <entry>3µm</entry>
+            <entry>29K</entry>
+          </row>
+          <row>
+            <entry>1982</entry>
+            <entry>80286</entry>
+            <entry>1.5µm</entry>
+            <entry>134K</entry>
+          </row>
+          <row>
+            <entry>1985</entry>
+            <entry>80386</entry>
+            <entry>1.5µm</entry>
+            <entry>275K</entry>
+          </row>
+          <row>
+            <entry>1989</entry>
+            <entry>80486</entry>
+            <entry>0.8µm</entry>
+            <entry>1.2M</entry>
+          </row>
+          <row>
+            <entry>1993</entry>
+            <entry>Pentium</entry>
+            <entry>0.8µm</entry>
+            <entry>3.1M</entry>
+          </row>
+          <row>
+            <entry>1995</entry>
+            <entry>Pentium Pro</entry>
+            <entry>0.6µm</entry>
+            <entry>15.5M</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>Mobile PII</entry>
+            <entry>0.25µm</entry>
+            <entry>27.4M</entry>
+          </row>
+          <row>
+            <entry>2000</entry>
+            <entry>Pentium 4</entry>
+            <entry>0.18µm</entry>
+            <entry>42M</entry>
+          </row>
+          <row>
+            <entry>2002</entry>
+            <entry>Pentium 4(N)</entry>
+            <entry>0.13µm</entry>
+            <entry>55M</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171394559399">There are different design rules such as: Mead-Conway Design Rules, CUMF n-MOS Design Rules and Lambda based Design Rules. In this lecture we will concentrate on Lambda Based Design Rules.</para>
+    <para id="id1171396287798">1.Design rules are a set of geometrical specifications that dictate the design of the layout masks.</para>
+    <para id="id1171401913114">2.A design rule set provides numerical values:</para>
+    <list id="id1171408087636" list-type="bulleted">
+      <item>For minimum dimensions</item>
+      <item>For minimum line spacings </item>
+    </list>
+    <para id="id1171415955860">3.Design rules must be followed to insure functional structures on the fabricated chip.</para>
+    <para id="id1171395549411">4.Design rules change with technological advances (<link url="http://www.mosis.org/">www.mosis.org</link>).</para>
+    <para id="id1171407092030">Design rules are classified as :Minimum width, Minimum spacing, Surround and Extension. </para>
+    <para id="id1171413865695"> The following physical limitations compel us to specify the design rules:</para>
+    <list id="id1171387507768" list-type="enumerated" number-style="arabic">
+      <item>Line width limitation of an imaging system:<list id="id7748751" list-type="bulleted"><item>The reticle shadow projected on the photoresist does not have sharp edges due to optical diffraction.</item></list></item>
+      <item>Etching process problem:<list id="id1171409888490" list-type="bulleted"><item>Undercutting of the resist due to lateral etching decreases the resolution.</item></list></item>
+    </list>
+    <para id="id1171414263385">Limits on N+ spacing:</para>
+    <para id="id1171383065288">If depletion regions of adjacent pn junctions touch, then </para>
+    <list id="id1171418858492" list-type="bulleted">
+      <item>The current blocking characteristics are altered and</item>
+      <item>Current can flow between the two.</item>
+    </list>
+    <figure id="id1171394254074">
+      <media id="id1171394254074_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-7b2a.png" id="id1171394254074__onlineimage" height="164" width="338"/>
+      </media>
+    </figure>
+    <para id="id1171407407420">Figure 7.4.2. The depletion region surrounding N+ regions can merge hence a definite spacing has to be kept.</para>
+    <para id="id4352651">Electrical capacitive coupling can occur between closely spaced conducting lines. This leads to a problem called crosstalk</para>
+    <list id="id1171422913501" list-type="bulleted">
+      <item>A portion of the electrical energy is coupled to another causing noise.</item>
+      <item>This is a major problem in high-density design.</item>
+    </list>
+    <para id="id1171385531294">Hence closely spaced metal lines are kept well separated.</para>
+    <para id="id1171395183547">Certain electrical rules are followed such as the allowed width of a metal interconnect line:</para>
+    <list id="id1171407023986" list-type="bulleted">
+      <item>To avoid electromigration effects</item>
+      <item>The design rule set will stipulate the maximum current flow level permitted</item>
+    </list>
+    <para id="id1171401500751">
+      <figure id="id1171404713326">
+        <media id="id1171404713326_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-7476.png" id="id1171404713326__onlineimage" height="470" width="651"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171422706582">Figure 7.4.3. Three Dimensional Perspective View of NMOS fabricated in P-substrate.</para>
+    <para id="id1171409511737">Why do we use design rules?</para>
+    <para id="id1171406568885">The design rules provide the interface between designer and process engineer.</para>
+    <para id="id1171388132744">The design rules also provide the guidelines for constructing process masks.</para>
+    <para id="id1171385291146">Minimum length or width of a feature on a layer is 2lambda where lambda is half channel length. This is to allow for contraction of the feature.</para>
+    <para id="id1171384511842">Minimum separation of features on a layer is 2lambda.This is to ensure adequate continuity of the intervening materials. </para>
+  </content>
+</document>

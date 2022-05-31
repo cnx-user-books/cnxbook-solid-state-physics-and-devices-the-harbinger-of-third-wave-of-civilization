@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AnalogElectronics_Lecture4_PartB_low and high frequency model of CE BJT.</title>
+  <metadata>
+  <md:content-id>m31035</md:content-id><md:title>AnalogElectronics_Lecture4_PartB_low and high frequency model of CE BJT.</md:title>
+  <md:abstract>Part B of Lecture 4 derives the Hybrid-pi model of CE BJT from T-model of CB BJT at low and high frequencies.</md:abstract>
+  <md:uuid>fb7aa181-7da2-4089-a040-24935555c893</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164863580831">AnalogElectronics_Lecture4_PartB_low and high frequency model of CE BJT.</para>
+    <para id="id1164863204319">INCREMENTAL MODEL OF CE BJT FROM T MODEL OF CB BJT</para>
+    <figure id="id1164862869062">
+      <media id="id1164862869062_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-8bb8.png" id="id1164862869062__onlineimage" height="277" width="315"/>
+      </media>
+    </figure>
+    <para id="id1164869406452">Figure 11a. Low Frequency Incremental T Model of CB BJT.</para>
+    <para id="id1164862844110">Let us re-orient this as CE configuration.</para>
+    <figure id="id1164864355191">
+      <media id="id1164864355191_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-9d60.png" id="id1164864355191__onlineimage" height="265" width="294"/>
+      </media>
+    </figure>
+    <para id="id1164864429437">Figure 11b. The reoriented T Model to represent CE BJT.</para>
+    <para id="id1164865107409">It should be noticed that in T-Model under normal orientation has controlled current(α<sub>f</sub>i<sub>e</sub>) coming out of collector node since base current is coming out of base node. But in reoriented T Model controlled current(α<sub>f</sub>i<sub>e</sub>) coming into collector node since base current is coming into base node.</para>
+    <para id="id1164864651908">Input Mesh Equation:</para>
+    <para id="id1164870378207">
+      <figure id="id1164861076446">
+        <media id="id1164861076446_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-397e.png" id="id1164861076446__onlineimage" height="39" width="313"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1164860812339">
+      <media id="id1164860812339_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-6114.png" id="id1164860812339__onlineimage" height="41" width="271"/>
+      </media>
+    </figure>
+    <figure id="id1164860639640">
+      <media id="id1164860639640_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-b823.png" id="id1164860639640__onlineimage" height="75" width="222"/>
+      </media>
+    </figure>
+    <para id="id5275725">Where g<sub>m</sub> = trans conductance = I<sub>C</sub>/V<sub>T </sub>whereas r<sub>e</sub> = V<sub>T</sub>/ I<sub>E</sub> and I<sub>C</sub>= α<sub>F</sub>I<sub>E</sub></para>
+    <figure id="id1164863282085">
+      <media id="id1164863282085_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-cf8b.png" id="id1164863282085__onlineimage" height="44" width="172"/>
+      </media>
+    </figure>
+    <para id="id1164869470448">The output current is =<figure id="id1164865507495"><media id="id1164865507495_media" alt=""><image mime-type="image/png" src="../../media/Picture 7-d553.png" id="id1164865507495__onlineimage" height="39" width="185"/></media></figure></para>
+    <para id="id1164864413072">Here<figure id="id1164863491456"><media id="id1164863491456_media" alt=""><image mime-type="image/png" src="../../media/graphics1-5233.png" id="id1164863491456__onlineimage" height="66" width="281"/></media></figure>.</para>
+    <figure id="id7053796">
+      <media id="id7053796_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-5e05.png" id="id7053796__onlineimage" height="389" width="489"/>
+      </media>
+    </figure>
+    <para id="id1164862407580">Figure 12. Bode Plot of beta and alpha and location of ω<sub>β</sub> and ω<sub>α</sub>. </para>
+    <para id="id7842296">Beta cutoff frequency = ω<sub>β</sub> and alpha cutoff frequency = ω<sub>α</sub> .</para>
+    <para id="id1164865021962">Cut-off frequency = -3dB frequency</para>
+    <para id="id1164861971494">= this is the frequency where parameter falls to 0.707 of its flat band value or midband value</para>
+    <para id="id1164869397810">= corner frequency</para>
+    <para id="id1164860790866">= half power frequency</para>
+    <figure id="id1164861644495">
+      <media id="id1164861644495_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-9030.png" id="id1164861644495__onlineimage" height="311" width="542"/>
+      </media>
+    </figure>
+    <para id="id1164860983625">Figure 13. Low Frequency Hybrid-π Model of CE BJT.</para>
+    <figure id="id1164860628300">
+      <media id="id1164860628300_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-59be.png" id="id1164860628300__onlineimage" height="57" width="127"/>
+      </media>
+    </figure>
+    <para id="id1164863939494">This is due to EARLY EFFECT or due to Base Width Modulation. A parameter Early Voltage V<sub>A</sub> is used for determining the output impedance of the hybrid –π Model. This output impedance is 1/h<sub>oe</sub> . The definition of Early Voltage V<sub>A </sub>is given in Figure 14.</para>
+    <figure id="id1164867327463">
+      <media id="id1164867327463_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-70e1.png" id="id1164867327463__onlineimage" height="187" width="253"/>
+      </media>
+    </figure>
+    <para id="id1164862240398">
+      <figure id="id1164862190813">
+        <media id="id1164862190813_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-0b34.png" id="id1164862190813__onlineimage" height="389" width="554"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164864869202">Figure 14. The definition of Early Voltage for a CE BJT.</para>
+    <para id="id1164862717797">
+      <emphasis effect="underline">COMPARISON BETWEEN HYBRID-pi MODEL OF CE BJT AND T MODEL OF CB BJT</emphasis>
+    </para>
+    <figure id="id5921236">
+      <media id="id5921236_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-fe7f.png" id="id5921236__onlineimage" height="158" width="255"/>
+      </media>
+    </figure>
+    <figure id="id1164868143415">
+      <media id="id1164868143415_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-80f6.png" id="id1164868143415__onlineimage" height="151" width="277"/>
+      </media>
+    </figure>
+    <table id="id1164866232955" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>T-model of CB BJT </entry>
+            <entry>Hybrid-pi Model of CE BJT</entry>
+          </row>
+          <row>
+            <entry>Unilateral model</entry>
+            <entry>Non Unilateral model</entry>
+          </row>
+          <row>
+            <entry>h<sub>rb</sub>=<media id="id1164862188598" alt=""><image mime-type="image/png" src="../../media/graphics2-7b71.png"/></media></entry>
+            <entry>
+              <media id="id1164861171645" alt="">
+                <image mime-type="image/png" src="../../media/graphics3-0674.png"/>
+              </media>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164864038565">In CB BJT,if we consider base spreading resistance to be zero then</para>
+    <figure id="id1164861938118">
+      <media id="id1164861938118_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 28-b4c2.png" id="id1164861938118__onlineimage" height="300" width="645"/>
+      </media>
+    </figure>
+    <figure id="id1164863174966">
+      <media id="id1164863174966_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 29-50e2.png" id="id1164863174966__onlineimage" height="139" width="518"/>
+      </media>
+    </figure>
+    <para id="id1164862852912">For CE BJT if we consider r<sub>µ</sub> to be infinity then:</para>
+    <figure id="id1164869294830">
+      <media id="id1164869294830_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 30-bfe0.png" id="id1164869294830__onlineimage" height="79" width="643"/>
+      </media>
+    </figure>
+    <figure id="id1164860580984">
+      <media id="id1164860580984_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 31-c594.png" id="id1164860580984__onlineimage" height="391" width="591"/>
+      </media>
+    </figure>
+    <para id="id1164870600802">
+      <figure id="id1164861889821">
+        <media id="id1164861889821_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 32-8133.png" id="id1164861889821__onlineimage" height="395" width="569"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164860741277">Incremental model at high frequency</para>
+    <figure id="id1993274">
+      <media id="id1993274_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 33-4876.png" id="id1993274__onlineimage" height="348" width="626"/>
+      </media>
+    </figure>
+    <para id="id1164862408548">Figure 16. High frequency T-Model of CB BJT.</para>
+    <para id="id1164861387464">
+      <figure id="id1164862410229">
+        <media id="id1164862410229_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 34-95f9.png" id="id1164862410229__onlineimage" height="339" width="610"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1164865316686">
+      <media id="id1164865316686_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 35-78bb.png" id="id1164865316686__onlineimage" height="463" width="650"/>
+      </media>
+    </figure>
+    <para id="id7969473">
+      <figure id="id2221614">
+        <media id="id2221614_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 36-d8fd.png" id="id2221614__onlineimage" height="187" width="643"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164861620418">Here τ<sub>t</sub> is the transit time taken by the minority carriers to cross the base width. The mechanism of transit is both diffusion and drift.</para>
+    <para id="id1164860384812">Now let us consider CE BJT at high frequency:</para>
+    <para id="id8745740">Here β<sub>f</sub> (short circuit current gain in CE BJT) is arrived at in exactly the same manner as α<sub>f</sub> was arrived at in CB BJT.</para>
+    <figure id="id1164862426209">
+      <media id="id1164862426209_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 37-afe9.png" id="id1164862426209__onlineimage" height="353" width="646"/>
+      </media>
+    </figure>
+    <para id="id1164866846366">Figure 17. High Frequency Hybrid-π Model of CE BJT.</para>
+    <figure id="id1164865211758">
+      <media id="id1164865211758_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 38-64bf.png" id="id1164865211758__onlineimage" height="318" width="638"/>
+      </media>
+    </figure>
+    <figure id="id1164860984784">
+      <media id="id1164860984784_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 39.png" id="id1164860984784__onlineimage" height="209" width="642"/>
+      </media>
+    </figure>
+  </content>
+</document>

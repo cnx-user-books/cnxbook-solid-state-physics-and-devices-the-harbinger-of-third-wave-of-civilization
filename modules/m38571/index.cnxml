@@ -1,0 +1,314 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued7</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38571</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued7</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued7 gives the differences in the key parameters of BJT and MOSFET.</md:abstract>
+  <md:uuid>c43cc9c9-844c-4880-ab54-a64730aabd99</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171230112788">SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued7</para>
+    <para id="id1171273963752">7.3.14. Comparative aspects of Key Parameters of CMOS and BJT.</para>
+    <para id="id1171244149080">In the Table 7.3.14.1 we enumerate the major differences of CMOS and BJT in qualitative terms then we will deal with it in quantitative terms.</para>
+    <para id="id1171230106070">Table 7.3.14.1. Comparative study of CMOS and BJT.</para>
+    <table id="id1171237369892" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Bipolar Junction Transistors</entry>
+            <entry>CMOS</entry>
+          </row>
+          <row>
+            <entry>Carriers involved in transistor action</entry>
+            <entry>Bipolar(both minority and majority cariers are involved)</entry>
+            <entry>Unipolar (only majority carriers participate)</entry>
+          </row>
+          <row>
+            <entry>Input dynamic range</entry>
+            <entry>Exponential device hence input dynamic range for linear applications is 5mV</entry>
+            <entry>Quadratic Device hence input dynamic range for linear applications is 400mV</entry>
+          </row>
+          <row>
+            <entry>Noise Figure </entry>
+            <entry>Much higher hence not suitable for Low Noise Amplifier</entry>
+            <entry>At cryogenic temperatures its Noise Figure is nearly Unity hence MESFET is suitable for LNA</entry>
+          </row>
+          <row>
+            <entry>Packing Density</entry>
+            <entry>Because of isolation diffusion BJT ICs are traditionally 1-G behind in level of integration.</entry>
+            <entry>This has far ahead in packing density.</entry>
+          </row>
+          <row>
+            <entry>Speed</entry>
+            <entry>Historically it is much faster because transit through base width limits the switching speed. It has reached more than 100GHz</entry>
+            <entry>Here the transit through the channel length limits the speed. The maximum switching speed is 2GHz or more.</entry>
+          </row>
+          <row>
+            <entry>Transconductance</entry>
+            <entry>40mS at 1mA</entry>
+            <entry>1mS at 1mA</entry>
+          </row>
+          <row>
+            <entry>Drive capability(A/cm<sup>2</sup>)</entry>
+            <entry>10 times more than that of CMOSHence at the driver stage we use BiCMOS</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171235922187">7.3.14.1. Quantitative analysis of the key parameters of BJT and CMOS.</para>
+    <para id="id1171242316361">In the Pentode region of operation:</para>
+    <para id="id1171251392751">
+      <figure id="id1171271926099">
+        <media id="id1171271926099_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-d383.png" id="id1171271926099__onlineimage" height="48" width="549"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171232381285">
+      <figure id="id1171251372158">
+        <media id="id1171251372158_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-e04c.png" id="id1171251372158__onlineimage" height="54" width="603"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171230329867">Therefore:</para>
+    <figure id="id1171242331244">
+      <media id="id1171242331244_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-0d6f.png" id="id1171242331244__onlineimage" height="58" width="531"/>
+      </media>
+    </figure>
+    <para id="id1171230234682">Where <figure id="id1171230077948"><media id="id1171230077948_media" alt=""><image mime-type="image/png" src="../../media/graphics4-959f.png" id="id1171230077948__onlineimage" height="54" width="541"/></media></figure></para>
+    <para id="id1171232162696">In circuit application books β is referred to as K<sub>n</sub> , transcoductance parameter for NMNOS.</para>
+    <para id="id1171230212199">Substituting the values of the different parameters in Eq.7.3.12.4 we get:</para>
+    <figure id="id1171230216128">
+      <media id="id1171230216128_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-2744.png" id="id1171230216128__onlineimage" height="46" width="428"/>
+      </media>
+    </figure>
+    <figure id="id1171230308109">
+      <media id="id1171230308109_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-a8bb.png" id="id1171230308109__onlineimage" height="43" width="360"/>
+      </media>
+    </figure>
+    <para id="id1171230046896">Therefore β = (W/L)×69(µA/V<sup>2</sup>)</para>
+    <para id="id1171229865413">In Table 7.3.14.2 we get the special transconductance parameter for different aspect ratio.</para>
+    <para id="id1171229844388">Table 7.3.14.2. Special Transconductance Parameter for different geometries.</para>
+    <table id="id1171231423152" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>W</entry>
+            <entry>L</entry>
+            <entry>W/L</entry>
+            <entry>β(µA/V<sup>2</sup>)</entry>
+          </row>
+          <row>
+            <entry>20µm</entry>
+            <entry>1 µm</entry>
+            <entry>20</entry>
+            <entry>1380</entry>
+          </row>
+          <row>
+            <entry>60 µm</entry>
+            <entry>3 µm</entry>
+            <entry>20</entry>
+            <entry>1380</entry>
+          </row>
+          <row>
+            <entry>10 µm</entry>
+            <entry>0.25 µm</entry>
+            <entry>40</entry>
+            <entry>2760</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171246747437">From Section 7.3.5 we get:</para>
+    <para id="id1171230228143"><figure id="id1171230091420"><media id="id1171230091420_media" alt=""><image mime-type="image/png" src="../../media/graphics7-a545.png" id="id1171230091420__onlineimage" height="30" width="56"/></media></figure><figure id="id1171255224544"><media id="id1171255224544_media" alt=""><image mime-type="image/png" src="../../media/graphics8-9882.png" id="id1171255224544__onlineimage" height="32" width="106"/></media></figure> 7.3.23</para>
+    <para id="id1171230082308">Where <figure id="id1171230042501"><media id="id1171230042501_media" alt=""><image mime-type="image/png" src="../../media/graphics9-7f0c.png" id="id1171230042501__onlineimage" height="42" width="248"/></media></figure></para>
+    <para id="id1171230238470">Dividing Eq.7.3.23 by 7.3.12.3 we get:</para>
+    <figure id="id1171256099866">
+      <media id="id1171256099866_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-a8f2.png" id="id1171256099866__onlineimage" height="58" width="467"/>
+      </media>
+    </figure>
+    <para id="id1171230341516">We will choose W/L = 10µm/0.25µm = 40.</para>
+    <para id="id1171230236040">Special transconductance parameter = β= 40×69µA/V<sup>2</sup> = 2760 µA/V<sup>2</sup></para>
+    <para id="id1171245514681">Therefore:</para>
+    <para id="id1171230052399">
+      <figure id="id1171255185321">
+        <media id="id1171255185321_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-fb87.png" id="id1171255185321__onlineimage" height="47" width="299"/>
+        </media>
+      </figure>
+      
+    </para>
+    <para id="id1171227110712">Then V<sub>GS</sub>-V<sub>Tn</sub> =0.851V.</para>
+    <para id="id1171230295987">Substituting this value in Eq.7.3.14.1</para>
+    <para id="id1171269347274">We get :</para>
+    <figure id="id1171269995400">
+      <media id="id1171269995400_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-3c16.png" id="id1171269995400__onlineimage" height="58" width="513"/>
+      </media>
+    </figure>
+    <para id="id1171256129836">Similarly if we analyze BJT we get :</para>
+    <figure id="id1171232051688">
+      <media id="id1171232051688_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-9303.png" id="id1171232051688__onlineimage" height="58" width="77"/>
+      </media>
+    </figure>
+    <para id="id1171223257487">
+      <figure id="id1171262747685">
+        <media id="id1171262747685_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-eb18.png" id="id1171262747685__onlineimage" height="45" width="430"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171255476338">I<sub>C</sub> = d.c. collector current and V<sub>t</sub> = thermal voltage = kT/q = 25mV at 300K_Room Temperature.</para>
+    <para id="id1171270674320">
+      <figure id="id1171250247385">
+        <media id="id1171250247385_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics16-fe68.png" id="id1171250247385__onlineimage" height="58" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171253106049">By comparing Eq 7.3.14.2 aand 7.3.14.4 we see that for same bias current 1mA, BJT delivers 17 times transconductace as compared to that of MOSFET.</para>
+    <para id="id1171244266238">
+      <emphasis effect="bold">7.3.14.2. Current Delivery Capability of BJT and MOSFET.</emphasis>
+    </para>
+    <para id="id1171258370414">Rewriting Eq.7.3.12.3</para>
+    <figure id="id1171253207953">
+      <media id="id1171253207953_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-0d6f.png" id="id1171253207953__onlineimage" height="58" width="531"/>
+      </media>
+    </figure>
+    <para id="id1171232459788">Where <figure id="id1171230417726"><media id="id1171230417726_media" alt=""><image mime-type="image/png" src="../../media/graphics18-8c06.png" id="id1171230417726__onlineimage" height="42" width="151"/></media></figure></para>
+    <para id="id1171249177753">Therefore:<figure id="id1171245511864"><media id="id1171245511864_media" alt=""><image mime-type="image/png" src="../../media/graphics19-d58b.png" id="id1171245511864__onlineimage" height="47" width="266"/></media></figure></para>
+    <para id="id1171245500037">Or <figure id="id1171263242121"><media id="id1171263242121_media" alt=""><image mime-type="image/png" src="../../media/graphics20-faec.png" id="id1171263242121__onlineimage" height="47" width="547"/></media></figure></para>
+    <para id="id1171236059565">Calculating for W/L = 10µm/0.25µm = 40. And D = 25nm we get:</para>
+    <figure id="id1171262209970">
+      <media id="id1171262209970_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-d7a4.png" id="id1171262209970__onlineimage" height="58" width="557"/>
+      </media>
+    </figure>
+    <para id="id1171232124649">Analyzing for I<sub>DS</sub> = 1mA we get:</para>
+    <figure id="id1171262368470">
+      <media id="id1171262368470_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-5c6b.png" id="id1171262368470__onlineimage" height="113" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171251491438">Expressing it in A/cm<sup>2</sup> we get:</para>
+    <figure id="id1171264192442">
+      <media id="id1171264192442_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-0ee3.png" id="id1171264192442__onlineimage" height="54" width="388"/>
+      </media>
+    </figure>
+    <para id="id1171254963034">
+      <emphasis effect="bold">7.3.14.2.1. Current delivery capability of BJT.</emphasis>
+    </para>
+    <para id="id1171232275713">From the Physics of BJT we have the following relationship:</para>
+    <figure id="id1171266401872">
+      <media id="id1171266401872_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-ef5c.png" id="id1171266401872__onlineimage" height="139" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171236366929">Therefore:</para>
+    <figure id="id1171231104805">
+      <media id="id1171231104805_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-d380.png" id="id1171231104805__onlineimage" height="59" width="404"/>
+      </media>
+    </figure>
+    <para id="id1171255301411">Where W<sub>B</sub> = effective base width, n<sub>po</sub> = thermal equilibrium value of minority carrier in Base; λ = Exp(V<sub>BE</sub>/V<sub>t</sub>).</para>
+    <para id="id1171232265717">From Device Physics we also know that the Collector Current is diffusion current given by the following expression:</para>
+    <figure id="id1171251191331">
+      <media id="id1171251191331_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-3ee9.png" id="id1171251191331__onlineimage" height="114" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171258324793">Since our reference current is I<sub>C</sub> = 1mA and we choose A<sub>E</sub> = 1(µm)<sup>2</sup></para>
+    <para id="id1171245558264">Therefore <figure id="id1171251424215"><media id="id1171251424215_media" alt=""><image mime-type="image/png" src="../../media/graphics27-d551.png" id="id1171251424215__onlineimage" height="49" width="469"/></media></figure></para>
+    <para id="id1171247696452">Therefore <figure id="id1171249061292"><media id="id1171249061292_media" alt=""><image mime-type="image/png" src="../../media/graphics28-4ea1.png" id="id1171249061292__onlineimage" height="49" width="226"/></media></figure></para>
+    <para id="id1171242478991">Therefore <figure id="id1171230490037"><media id="id1171230490037_media" alt=""><image mime-type="image/png" src="../../media/graphics29-398d.png" id="id1171230490037__onlineimage" height="48" width="531"/></media></figure></para>
+    <para id="id1171242472095">Following are the various parameter values:q=1.6×10<sup>-19</sup>Coulombs, µ<sub>n</sub> = bulk electron mobility=1450 cm<sup>2</sup>/(V-sec), Thermal Voltage= V<sub>thermal</sub> = kT/q =25mV at 300Kelvin, n<sub>po</sub> = thermal equilibrium value of minority carriers in Base in a NPN transistor = 10<sup>3</sup>/cm<sup>3</sup> and W<sub>B</sub> = effective base width = 1µm=1×10<sup>-4</sup>cm.</para>
+    <para id="id1171255024511">Substituing the above values in Eq.7.3.14.12 we get:</para>
+    <figure id="id1171231399476">
+      <media id="id1171231399476_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-5074.png" id="id1171231399476__onlineimage" height="165" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171253357408">By inspection we see that it is a dimensionless quantity therefore:</para>
+    <para id="id1171261166055">
+      <figure id="id1171247172543">
+        <media id="id1171247172543_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics31-be25.png" id="id1171247172543__onlineimage" height="57" width="622"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171265291426">We substitute the value of λ=1.724×10<sup>15</sup> in Eq.7.3.14.10:</para>
+    <figure id="id1171257263381">
+      <media id="id1171257263381_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-89b7.png" id="id1171257263381__onlineimage" height="117" width="688"/>
+      </media>
+    </figure>
+    <para id="id1171272836726">Eq.7.3.14.13 is dimensionally balanced.</para>
+    <figure id="id1171247255880">
+      <media id="id1171247255880_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-a53a.png" id="id1171247255880__onlineimage" height="116" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171263512744">Comparing Eq 7.3.14.8 and Eq.7.3.14.14 we see that BJT has 10 times drive capability.</para>
+    <para id="id1171253239079"/>
+    <para id="id1171259915213">
+      <emphasis effect="bold">7.3.14.3.Quantitative differences in the key parameters</emphasis>
+    </para>
+    <table id="id1171261631206" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>BIPOLAR TRANSISTOR</entry>
+            <entry>MOSFET</entry>
+          </row>
+          <row>
+            <entry>Current drive capability for 1mA in units of A/cm<sup>2</sup></entry>
+            <entry>4,31,000</entry>
+            <entry>40,000</entry>
+          </row>
+          <row>
+            <entry>Transconductance/Bias Current(1/V)</entry>
+            <entry>40</entry>
+            <entry>2.35</entry>
+          </row>
+          <row>
+            <entry>Transconductace(Siemens)</entry>
+            <entry>Varies directly as bias current</entry>
+            <entry>Varies as the square root of the bias current</entry>
+          </row>
+          <row>
+            <entry>Transconductance as a function of geometry</entry>
+            <entry>Weak function</entry>
+            <entry>Strongly dependent on aspect ratio and oxide thickness</entry>
+          </row>
+          <row>
+            <entry>Transconductance as a function of process technology</entry>
+            <entry>Independent</entry>
+            <entry>Dependent through oxide thickness</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

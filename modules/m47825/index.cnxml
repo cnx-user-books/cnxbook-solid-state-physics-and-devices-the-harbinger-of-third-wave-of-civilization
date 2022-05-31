@@ -1,0 +1,67 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 4_Bipolar Junction Transistor Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47825</md:content-id>
+  <md:title>SSPD_Chapter 4_Bipolar Junction Transistor Physics</md:title>
+  <md:abstract>This Section gives the insight into the Forward Active Mode, Inverse Active Mode , Saturation Mode and Cut-Off Mode. of Bipolar Junction Transistor.</md:abstract>
+  <md:uuid>63066634-6506-4fa5-b338-379ccbcdf44c</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165052174303">4. Bipolar Junction Transistor.</para>
+    <para id="eip-506">The first 3 terminal Solid State Device to be invented and commercialized was Bipolar Junction Transistor. It was invented in 1948 and discrete Ge-BJT wre immediately mass produced. Subsequently the merits of Si-BJT were recognized and Si-BJT went into mass production for various Signal Processing Applications.In 1961 first Bipolar Si-IC also went into mass production. This was Resistance-Transistor-Logic IC. MOSFET IC's were  commercialized in 1970 mainly for application in watches but subsequently they became the main stay of Micro-processors chips. NMOS was soon replaced by CMOS because of its nano-watt standby dissipation characteristics. Today the heat management problems at nano-scale has led to the adoption of CMOS ICs but BJT still finds application in very high frequency,low noise and high output power applications.It is used in mobile phone output stages. BJT Analog ICs will continue to be the interface circuits in most general applications.</para><para id="import-auto-id1165059758254">Bipolar Junction Transistor (BJT) is a back-to-back(NPN) or face-to-face device(PNP) and it is three terminal device as shown in Figure 4.1.</para>
+    <figure id="import-auto-id1165054735970">
+      <media id="import-auto-id1165050514117" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-c836.png" height="479" width="623"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165058507786">It has four modes of operation as given below:</para>
+    <para id="import-auto-id1165056922802">Forward Active Mode: EB Jn Forward biased, BC Jn Reverse biased.</para>
+    <para id="import-auto-id1165058584592">Inverse Active Mode: EB Jn Reverse biased, BC Jn  Forward  biased.</para>
+    <para id="import-auto-id1165050802750">Saturation  Mode:  EB Jn Forward biased, BC Jn  Forward  biased.</para>
+    <para id="import-auto-id1165058499243">Cut off Mode:  EB Jn Reverse  biased, BC Jn Reverse biased.</para>
+    <para id="import-auto-id1165063479550">It can be biased as a linear device to amplify signals. It can be biased as a switch to act as Digital Logic Gate. </para>
+    <para id="import-auto-id1165057096335">In Forward Mode: BJT acts like a linear device.</para>
+    <para id="import-auto-id1165058491809">In Saturation Mode(short circuit) and in Cut-off Mode(open circuit) it acts like a Switch. </para>
+    <para id="import-auto-id1165058496498">Figure 4.2. gives Carrier Concentration Profile in Forward Active Mode.</para>
+    <figure id="import-auto-id1165052289953">
+      <media id="import-auto-id1165058515084" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-f1cf.png" height="371" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165057520315">Figure 4.3. shows the carrier flow. In Figure 4.3. we note that barrier potential at Forward Biased EB Junction reduces from Φ<sub>BO1 </sub> to Φ<sub>BO1</sub>- │V<sub>EB</sub>│ and at Reverse Biased BC junction it increases from Φ<sub>BO2 </sub> to Φ<sub>BO2</sub>- │V<sub>CB</sub>│. Therefore holes are easily injected into the Base. The Base is very narrow, less than 1μm, hence the injected holes easily diffuse across the BASE and fall down the reverse biased BC potential gradient. Hole is minority carrier in N-Type Base hence BC Junction acts as down-hill gradient for the holes. In effect Emitter is injecting the holes into the Base and Collector is collecting the holes and holes are transiting the BASE in a finite time called Base Transit Time = τ. This Transit Time decides the Transit Frequency or the Unity Gain Frequency of the given BJT. This Transit angular Frequency ω<sub>T</sub> = (1/τ) = 2πf<sub>T</sub>. This Transit Frequency ranges from 200MHz to 800MHz for UHF BJT and it can go as high as 500GHz for Microwave Transistors.</para>
+    <figure id="import-auto-id1165048063903">
+      <media id="import-auto-id1165058532940" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-d760.png" height="44" width="603"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165044141122">Here γ = Injection Efficiency = I<sub>Ep</sub>/I<sub>E</sub> ;</para>
+    <para id="import-auto-id1165057243487">And β*= Base Transport Factor = I<sub>Cp</sub>/I<sub>Ep</sub> ;</para>
+    <para id="import-auto-id1165069100922">M= Avalanche Multiplication Factor.</para>
+    <figure id="import-auto-id1165065822730">
+      <media id="import-auto-id1165058499193" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-17cd.png" height="454" width="623"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165048647585">
+      <figure id="import-auto-id1165050124323">
+        <media id="import-auto-id1165069281205" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-d2d8.png" height="356" width="623"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id8489779">In Figure 4.4. Carrier Concentration Profile of Inverse Active Mode is shown. It is exactly the inverse of Forward Active Mode. The performance of Inverse Active Mode BJT is much inferior to that of Forward Active Mode as we will see this in the Output Family of Curve  of Inverse Active Mode Common Base  BJT.</para>
+    <figure id="import-auto-id1165065878270">
+      <media id="import-auto-id1165044617118" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-6fce.png" height="361" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165066121764">In Figure 4.5. Carrier Concentration Profile in Saturation Mode is shown. Since both junctions are forward biased hence holes are being injected from Emitter and Collector both. This leads to heavy build up and storage of minority carries. It causes a very large Storage Time Delay during switching. Hence we use Schottky Clamped BJT where deep saturation is prevented. This leads to drastic improvement in switching speed. In 70’s gold dope was used to kill the minority carruier and thereby reduce the storage delay. But it led to large reverse leakage current. Hence Schottky Clamped method was adopted for improving the switching speed.</para>
+    <para id="import-auto-id1165070492945">In Figure 4.6.Carrier Concentration Profile in Cut-off  Mode is shown. Both Junctions are reverse biased hence no current flows..</para>
+    <figure id="import-auto-id1165048564236">
+      <media id="import-auto-id1165059033473" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-059f.png" height="370" width="624"/>
+      </media>
+    </figure>
+  </content>
+</document>

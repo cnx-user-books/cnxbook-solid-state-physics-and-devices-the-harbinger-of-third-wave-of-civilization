@@ -1,0 +1,27 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Syllabus of EC1X61_IC Design and Fabrication Technology-Microelectronics [3-1-0]</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37437</md:content-id>
+  <md:title>Syllabus of EC1X61_IC Design and Fabrication Technology-Microelectronics [3-1-0]</md:title>
+  <md:abstract>This module gives the syllabus of EC_1X61. The lecture notes covering this syllabus is given as Chapter 6 of Solid State Physics and Devices_The harbinger of third Wave of Civilization.</md:abstract>
+  <md:uuid>108b7cd8-ef55-4aac-aac0-b5f68319e67e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4703802">EC1661_IC Design and Fabrication Technology-Microelectronics [3-1-0]</para>
+    <para id="id1163954977418"><emphasis effect="italics">Introduction</emphasis> – 50 years journey of IC Technology from micro to nano era_a broad overview.</para>
+    <para id="id1163964939889"><emphasis effect="italics">Bipolar Junction Transistor Fabrication Process Flow</emphasis>; substrate preparation, <emphasis effect="bold">oxidation process</emphasis> (wet and dry),<emphasis effect="bold"> photo-lithography</emphasis>, <emphasis effect="bold">diffusion</emphasis> (pre-deposition and drive-in), buried layer diffusion_drive-in, <emphasis effect="bold">Chemical Vapour Phase Deposition of thin Si epitaxial layer</emphasis>, isolation diffusion, base diffusion, emitter and collector pre-deposition diffusion, <emphasis effect="bold">metallization</emphasis> for contact pads and interconnections, scribing of individual dies, mounting on ceramic wafers, ceramic wafers are bonded to headers, hermetic shielding and packaging (TO5 or Dual-in-Line package).</para>
+    <para id="id4690393">Diode, Resistance and capacitor realization by IC Technology.</para>
+    <para id="id1163954861620">BJT IC layout consideration.</para>
+    <para id="id1163953985344"><emphasis effect="italics">MOS instability and C-V measurement curves </emphasis>under steady state DC voltages, ideal High-Frequency Capacitance and Low Frequency Capacitance.</para>
+    <para id="id1163965224119">Theoretical formulation of Threshold Voltage in MOS.</para>
+    <para id="id4350113">Comparative studies of BJT and MOS Technology.</para>
+    <para id="id1163964172479"><emphasis effect="italics">Complete CMOS Process Flow:</emphasis><emphasis effect="bold">Ion –Implantation</emphasis>, <emphasis effect="bold">LOCOS</emphasis>, <emphasis effect="bold">Shallow Trench Isolation</emphasis>, Field –implant under LOCOS, Buried and Epitaxial layer option, LPCVD of Poly-Si gate, self-aligned Source and Drain, side-wall spacers along the edge of gate, source/drain LDD, <emphasis effect="bold">multi-level interconnection</emphasis>-back end processing.</para>
+    <para id="id4314638">Using ATLAS and ATHENA carrying out the following simulations;</para>
+    <para id="id1163953923237">PN Junction Diode Simulation.</para>
+    <para id="id1163966360585">NPN BJT Simulation.</para>
+    <para id="id1163966393068">CMOS simulation.</para>
+    <para id="id5326338"><emphasis effect="bold">Text Book: </emphasis>. Uploaded on <link url="http://Cnx.org/">http://Cnx.org</link> SSPD_Chapter 6 by Bijay Kumar Sharma;</para>
+    <para id="id1163965941170"><emphasis effect="bold">References</emphasis>: ”Silicon VLSI Technology: Fundamentals, Practice and Modeling”, Plummer, Deal and Griffin, Prentice Hall.</para>
+  </content>
+</document>

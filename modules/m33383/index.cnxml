@@ -1,0 +1,86 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix V_Polysilicon Emitter BJT</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33383</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix V_Polysilicon Emitter BJT</md:title>
+  <md:abstract>This Appendix is based on the patent filed in US for a simplified method of fabricating poly-silicon emitter BJT.</md:abstract>
+  <md:uuid>987aa033-037d-4c04-8c27-0597c3c8bd8b</md:uuid>
+</metadata>
+<content>
+    <para id="id8148903">Appendix V</para>
+    <para id="id8148907">
+      <emphasis effect="bold">Analysis of Polysilicon emitter BJT</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <para id="id6182529">In Polysilicon emitter BJT (PET), a polycrystalline Si Film lies between Metallic Emitter Contact and Silicon Proper. By ion-implantation, the Polycrystalline Silicon Film is doped with Donor Arsenic Ions. By subsequent annealing, shallow diffusion of Donor Arsenic atoms from N<sup>+</sup> Poly-Silicon Source takes place leading to a shallow layer of N<sup>+</sup> in Si proper contacted by a similarly doped N<sup>+</sup> Poly-Silicon thin film. This structure is known as Polysilicon emitter BJT.</para>
+    <para id="id8148235">This is suitable for shallow EB Junction;</para>
+    <para id="id8204807">Compatible with self-aligned processing. This minimizes parasitic Resistance and Capacitances leading to faster response time.</para>
+    <para id="id8143542">Short Circuit Current Gain (β<sub>F</sub>) in PET is considerably improved as compared to that of shallow all crystalline emitter of equivalent thickness.</para>
+    <para id="id8119930">The physics of improvement of Short Circuit Current Gain (β<sub>F</sub>) in PET.</para>
+    <para id="id8142560">
+      <figure id="id8163919">
+        <media id="id8163919_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-03c3.png" id="id8163919__onlineimage" height="520" width="500"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8204942">Figure V.1. Minority Carrier Concentration in a shallow EB Junction case 1. All pure single crystal structure and case 2 in Poly Si Emitter BJT.</para>
+    <para id="id8161260">Since W<sub>E</sub>&lt;&lt; L<sub>pE</sub> , therefore there is negligible recombination through out the Emitter. At the interface of Poly Si(region 1) and Pure Si(Region 2), continuity of carrier concentration and continuity of diffusion current requires that:</para>
+    <para id="id8145242"><figure id="id8144181"><media id="id8144181_media" alt=""><image mime-type="image/png" src="../../media/graphics1-c94a.png" id="id8144181__onlineimage" height="24" width="67"/></media></figure> = <figure id="id8134411"><media id="id8134411_media" alt=""><image mime-type="image/png" src="../../media/graphics2-e98f.png" id="id8134411__onlineimage" height="24" width="67"/></media></figure></para>
+    <para id="id8143217">
+      <figure id="id8143103">
+        <media id="id8143103_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-92ec.png" id="id8143103__onlineimage" height="32" width="210"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8203427">Therefore carrier concentration gradient in poly Si region is several times the carrier concentration gradient in Pure Silicon Emitter because mobility of hole in Pure Single Crystal Silicon region is several times greater than that in Poly Si on account of domain scattering in Poly region. Hence hole current crossing EB junction into Emitter is considerably reduced leading to a near unity Injection Efficiency. This leads to a much better α and hence a much better β . Now doping of base can be increased leading to a reduced base spreading resistance and hence better Figure of Merit and better Frequency Response without losing on current gain. </para>
+    <para id="id8131378">Process Steps of Poly Si Emitter BJT US Patent5736447. (P<sup>+</sup>NP)</para>
+    <para id="id7988914">
+      <link url="http://www.patentsform.us/patents/5736447/fulltext.html">www.patentsform.us/patents/5736447/fulltext.html</link>
+    </para>
+    <para id="id8183482">Step 1. Ion-Implantation of N type Base in P type substrate. Base Region is in space-apart relationship to the collector region.</para>
+    <figure id="id8143527">
+      <media id="id8143527_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-4156.png" id="id8143527__onlineimage" height="433" width="439"/>
+      </media>
+    </figure>
+    <para id="id8141700">Step 2. Stripping of exposed KPR layer(104) and deposition of FIRST Insulation Layer.</para>
+    <para id="id8141528">
+      <figure id="id8167686">
+        <media id="id8167686_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-8419.png" id="id8167686__onlineimage" height="407" width="413"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8192924">Step 3. Etching out of Emitter Contact Hole. The oxide film (108) is first isotropically etched and then anisotropically etched or we could do anisotropic etching directly</para>
+    <figure id="id8182976">
+      <media id="id8182976_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-3655.png" id="id8182976__onlineimage" height="285" width="415"/>
+      </media>
+    </figure>
+    <para id="id8203391">Step 4.Deposition of first conducting layer of thickness 500 to 2000 Angstrom. The first conducting layer is Poly-Silicon layer or in-situ polySi. P-type impurities namely Boron Ions are Ion-Implanted into the first conducting layer. Ion-Implantation energy is 50 to 100keV and the dose is 2×10<sup>15</sup> - 6×10<sup>17</sup>ions/cm<sup>2</sup>. Ion-implanted poly-Si layer acts as the source for shallow diffusion of P-type impurities in N-type Base to form a shallow self aligned Emitter in Pure Single Crystal Silicon Substrate. This shallow diffusion is achieved by rapid thermal annealing(RTA) at a temperature above 600ºC in a nitrogen atmosphere at a temperature of 800ºC - 950ºC.</para>
+    <figure id="id8122494">
+      <media id="id8122494_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-5be1.png" id="id8122494__onlineimage" height="430" width="436"/>
+      </media>
+    </figure>
+    <para id="id8168331">Step 5. Base and Collector contact holes etched out in first conducting layer(110) and in first insulating layer(108) to Base(106) and to Collector(102). This is achieved by isotropic and then anisotropic etching or only by anisotropic etching.</para>
+    <figure id="id8190546">
+      <media id="id8190546_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-9540.png" id="id8190546__onlineimage" height="239" width="550"/>
+      </media>
+    </figure>
+    <para id="id8084902">Step 6. Second Conducting Layer is deposited over 110 and to fill the contact holes at Emitter, Base and Collector. It may be Poly-Si or poly-Si in-situ or Metal Silicide. Second Conducting layer plus underlying conducting layer are patterned into Emitter Contact Pad, Base Contact Pad and Collector Contact Pad.</para>
+    <figure id="id7997482">
+      <media id="id7997482_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-f2c6.png" id="id7997482__onlineimage" height="396" width="432"/>
+      </media>
+    </figure>
+    <para id="id8192189">Directly quoted from the Patent:</para>
+    <para id="id8164201">“The above-described method of the present invention results in a BJT having a thin or shallow emitter region 113 which effectively minimizes the base-emitter junction capacitance, without the need for additional photolithographic steps required by the presently available technology. In this regard, the polysilicon emitter 112 is formed simultaneously with the patterning of the first and second conductive layers and is self –aligned with the resultant emitter contact. Moreover the necessity of the oxide layer 38 of the conventional method for manufacturing a BJT is eliminated. Hence this method is less complex and less costly than the conventional method”.</para>
+    <para id="id8083702"/>
+    <para id="id8122775"/>
+    <para id="id8191252"/>
+  </content>
+</document>

@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_concluded.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38588</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_concluded.</md:title>
+  <md:abstract>Chapter 7_Part 3_Conclusion module concludes the basic electrical properties of MOSFET by discussing the latch-up problem and its remedies.</md:abstract>
+  <md:uuid>a9eabe03-eacc-497f-95a3-c8cd6afa1420</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171766619618">SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_concluded.</para>
+    <para id="id9067746">7.3.16. Latch-Up problem in CMOS and its remedy.</para>
+    <para id="id1171762587506">[This part is adapted from the lecture series of Steve McGarry,Department of Electronics, University of Carleton, Ottawa. e-mail:smcgarry@doe.carleton.ca]</para>
+    <para id="id1171765550632">CMOS logic is fabricated either by P-Well or N-Well Process or by Twin-Well Process. In any of these processes we have a large number of junctions as . In Figure 7.3.16.1. we give the cross-sectional view of CMOS fabricated by N-Well process. These multiple junctions give rise to three-junction four-layer device which behaves like a SCR. This we call parasitic SCR. </para>
+    <para id="id1171765619131">This arises due to cross coupling of P+NP and N+PN transistors. How these parasitic transistors action arise is shown in Figure 7.3.16.2.</para>
+    <para id="id8442780">If this parasitic SCR is turned ON by the glitches on the power bus or by irradiation, then a low resistance conducting path is created between Positive Voltage Bus (V<sub>DD</sub>) and GND Bus (V<sub>SS</sub>). This causes irreversible damage to the IC chip. This precisely is SCR Latch-Up problem in CMOS. By careful control during fabrication, the parasitic SCR can be prevented from latching up under all conditions. </para>
+    <figure id="id8797709">
+      <media id="id8797709_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-eca3.png" id="id8797709__onlineimage" height="390" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171762556943">
+      <figure id="id1171766066988">
+        <media id="id1171766066988_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-43d5.png" id="id1171766066988__onlineimage" height="421" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171759892399">In MOS structures the source is always shorted to the body. As seen in the above Figures, Source of NMOS i.e. N+S is connected to P+body by a metal interconnect and P+body makes an ohmic contact to P-substrate. Similarly Source of PMOS i.e. P+S is connected to N+body by a metal interconnect and N+body makes an ohmic contact to N-Well. This ensures that Source-Body bias is zero which leads to zero BODY EFFECT hence threshold voltage of the MOS is held constant.</para>
+    <para id="id1171759839406">The equivalent circuit model is given in Figure 7.3.16.3.</para>
+    <para id="id1171764935105">As seen in the Figure, the positive voltage bus acts as the Anode of the parasitic SCR and the GND bus i.e. V<sub>SS</sub> bus acts as the Cathode of the parasitic SCR. <emphasis effect="italics">For discussion purpose we assume that R</emphasis><emphasis effect="italics">substrate</emphasis><emphasis effect="italics"> and R</emphasis><emphasis effect="italics">well</emphasis><emphasis effect="italics"> are infinite</emphasis>. Under normal condtions voltage between the two buses is 5V or less hence SCR doesnot fire and there is no latching.</para>
+    <para id="id8446340">7.3.16.1. Why does SCR fire above break-over voltage ? </para>
+    <para id="id8870700"> By inspection of the Circuit Model of SCR in Figure 7.3.16.3 we get the following equations:</para>
+    <figure id="id1171763822472">
+      <media id="id1171763822472_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-3e46.png" id="id1171763822472__onlineimage" height="30" width="467"/>
+      </media>
+    </figure>
+    <para id="id1171765858923">
+      <figure id="id1171762131215">
+        <media id="id1171762131215_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-fb0c.png" id="id1171762131215__onlineimage" height="30" width="525"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1171766981865">
+      <figure id="id1171763318834">
+        <media id="id1171763318834_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-75cc.png" id="id1171763318834__onlineimage" height="366" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171759804450">We further see that:</para>
+    <figure id="id1171764685396">
+      <media id="id1171764685396_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-73cf.png" id="id1171764685396__onlineimage" height="30" width="463"/>
+      </media>
+    </figure>
+    <figure id="id8682437">
+      <media id="id8682437_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-b711.png" id="id8682437__onlineimage" height="30" width="463"/>
+      </media>
+    </figure>
+    <para id="id1171765116314">Where I<sub>CBO</sub> = Collector-Base Junction reverse leakage current with Emitter open.</para>
+    <para id="id1171758622739">Adding the two above equations, we get:</para>
+    <figure id="id1171763121144">
+      <media id="id1171763121144_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-376a.png" id="id1171763121144__onlineimage" height="30" width="553"/>
+      </media>
+    </figure>
+    <para id="id1171760174488">By rearranging the terms we get:</para>
+    <figure id="id1171758581927">
+      <media id="id1171758581927_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-77be.png" id="id1171758581927__onlineimage" height="30" width="548"/>
+      </media>
+    </figure>
+    <para id="id1171762944532">We know that I<sub>E1</sub> = I<sub>E2</sub> = I<sub>E</sub> by Kirchoff’s Current Law;</para>
+    <para id="id1171758471218">Also I<sub>C1</sub> + I<sub>C2</sub> = I<sub>E2</sub> = I<sub>E </sub>;</para>
+    <para id="id1171764889712">Therefore rearranging the terms we get:</para>
+    <figure id="id1171760223663">
+      <media id="id1171760223663_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-23a2.png" id="id1171760223663__onlineimage" height="58" width="548"/>
+      </media>
+    </figure>
+    <para id="id1171767361001">
+      <figure id="id1171769060447">
+        <media id="id1171769060447_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-8792.png" id="id1171769060447__onlineimage" height="463" width="548"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171763935895">Forward Current Transfer Ratio of BJT is α<sub>F</sub> = γ×β*×M </para>
+    <para id="id1171758916065">Where γ = injection efficiency. It falls at low currents due to recombination in depletion layer and it also falls at high current due to conductivity modulation. It is at the maximum value at moderate currents.</para>
+    <para id="id1171760691833">Also β* = base transport factor. This improves as Base Width becomes narrower which it will at higher voltages of V<sub>CE</sub>(forward active mode).</para>
+    <para id="id1171759805378">M= Avalanche Multiplication Factor which does not come into picture at low voltages.</para>
+    <para id="id1171759839814">Initially α<sub>F</sub> is very small due to very low currents flowing through it but as V<sub>AK</sub> (voltage between anode and cathode) increases, due to shrinking of Base width both alphas improve.</para>
+    <para id="id1171766426802">At α<sub>F1</sub> + α<sub>F2</sub> = 1, the current increases in a runaway fashion only limited by the external resistance. This is the firing point of the parasitic SCR embedded in the CMOS structure and can do irreversible damage to the IC.</para>
+    <para id="id1171767541628">7.3.16.2. How does the runaway process of SCR current set in?</para>
+    <para id="id1171767281351">
+      <figure id="id1171762605837">
+        <media id="id1171762605837_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-09d7.png" id="id1171762605837__onlineimage" height="378" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171761831666">
+      <media id="id1171761831666_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-9fef.png" id="id1171761831666__onlineimage" height="382" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171767388958">
+      <figure id="id1171763807968">
+        <media id="id1171763807968_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-d45a.png" id="id1171763807968__onlineimage" height="426" width="629"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171766039050">
+      <media id="id1171766039050_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-6d0a.png" id="id1171766039050__onlineimage" height="417" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171765171058">
+      <figure id="id1171762106231">
+        <media id="id1171762106231_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-2ead.png" id="id1171762106231__onlineimage" height="389" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171762355801">
+      <media id="id1171762355801_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-e3ac.png" id="id1171762355801__onlineimage" height="389" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171766821786">
+      <figure id="id1171758546543">
+        <media id="id1171758546543_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-fe32.png" id="id1171758546543__onlineimage" height="374" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171759751060">
+      <media id="id1171759751060_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-abf0.png" id="id1171759751060__onlineimage" height="354" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171764968797"> As we see in Figure 7.3.16.5. Step 8 a positive feed back loop or regenerative loop is set up.</para>
+    <para id="id1171766870140"> A transient at P+Drain of PMOS sets up a hole current through Rsub which triggers N+drain of NMOS to set up an electron current through Rwell.</para>
+    <para id="id1171763886978"> The electron current through Rwell further enhances hole current through Rsub and hole current through Rsub further increments the electron current through Rwell. This leads to a runaway condition which results in a large current flow from V<sub>DD</sub> bus to V<sub>SS</sub> bus and subsequently damages the CMOS structure.</para>
+    <para id="id1171765951744">
+      <emphasis effect="bold">7.3.16.3. The remedies of Latching Problem in N-Well process/P-Well process.</emphasis>
+    </para>
+    <para id="id1171767841102">
+      <emphasis effect="italics">Design approach.(internal implants and larger spacing)</emphasis>
+    </para>
+    <para id="id5956060">As we see in Figure 7.3.16.5. Step 8, we have two BJTs Q1 and Q2.</para>
+    <para id="id2608718">Q1 is comprised of P+(drainof PMOS)-Nwell-Psubstrate and Q2 is comprised of N+(drain of NMOS)-Psubstrate-Nwell.</para>
+    <para id="id1171763390857">Q1 current gain can be reduced by introducing a buried layer in N-Well. This reduces the injection efficiency.</para>
+    <para id="id1171762780540">Q2 current gain can be reduced by increasing the spacing between N-Well and N+ Source/Drain. Increase in the spacing leads to reduced Base Transport Factor.</para>
+    <para id="id1171767871535">Fabrication approach.</para>
+    <para id="id1171765892431">As we saw in our discussion, Rsub and Rwell play a crucial role in setting up the runaway process. If by chosing higher doping level we reduce Rsub and Rwell then also runaway process will be prevented</para>
+    <para id="id1171763929195">Guard rings around N-Well with frequent contacts to the rings reduces the parasitic resistances. This also prevents the latch-up. The CMOS layout plan view is shown in Figure 7.3.16.6 and in Figure 7.3.16.7. without and with guard ring respectively.</para>
+    <para id="id1171765715708">7.3.16.4. Prevention of Latching in Twin-Tub Process.</para>
+    <para id="id1171762631485"><emphasis effect="bold"/>In Twin-Tub process by the formation of ‘Refilled Trench Isolation’ between Twin Tub.This isolation prevents formation of parasitic BJT as shown in Figure 7.3.16.8.</para>
+    <para id="id1171762711114"> The trench is formed in Silicon Substrate by anisotropic reactive sputter etching. Oxide layer is grown on the side-walls and bottom of the trench. This oxide lined trench is filled by Poly-Si or SiO<sub>2</sub> . This kind of structure is shown in Figure 7.3.16.8.</para>
+    <para id="id1171765867235"> The trench isolation disrupts the parasitic BJT hence parasitic SCR is prevented structurally as shown in Figure 7.3.16.8</para>
+    <para id="id1171766097793">
+      <figure id="id1171759473091">
+        <media id="id1171759473091_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-cef2.png" id="id1171759473091__onlineimage" height="390" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171758566996">
+      <media id="id1171758566996_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-cdd6.png" id="id1171758566996__onlineimage" height="420" width="650"/>
+      </media>
+    </figure>
+    <para id="id1171760420753">
+      <figure id="id6604052">
+        <media id="id6604052_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-cb1c.png" id="id6604052__onlineimage" height="476" width="636"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171763922300">7.3.16.5. BiCMOS Latch-up susceptibility.</para>
+    <para id="id1171764469653"> BiCMOS is less susceptible to latch-up problems because it has less substrate body resistance (Rsub) and less n-well body resistance (Rwell). Hence it requires larger currents through Rsub and Rwell to trigger latch-up process.</para>
+    <para id="id6811219"> A typical BiCMOS in N-well process is shown in Figure 7.3.16.9 </para>
+    <para id="id1171763822260">
+      <figure id="id1171763387236">
+        <media id="id1171763387236_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-5b80.png" id="id1171763387236__onlineimage" height="276" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171763288987">As can be seen from Figure 7.3.16.9 there is parasitic vertical PNP transistor constituted of </para>
+    <para id="id1171766907084">P base, N-Well and Psubstrate. This is a part of the N-Well Latch-up circuit. Due to the presence of N+BCCD(buried N+ subcollector), the life-time of minority carriers in the base of the parasitic vertical PNP is reduced. This reduces beta of the vertical PNP transistor since beta = life-time of minority cariers/ transit time. Hence latch-up susceptibility is reduced.</para>
+  </content>
+</document>

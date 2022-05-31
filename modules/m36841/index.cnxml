@@ -1,0 +1,246 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 6_MOS IC's Fabrication Technology_To be continued3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36841</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 6_MOS IC's Fabrication Technology_To be continued3</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 6_to be continued3 describes CMOS flow process after the twin tub has been realized. This part describes how Lightly Doped Drain is formed,sidewall spacers are formed and finally the Source and Drain are formed in the active region of the device.</md:abstract>
+  <md:uuid>f3ecfcc4-7f4a-4913-98bf-bd12d2eb5c63</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167389987697">SSPD_Chapter 6_Part 6_MOS Fabrication Technology_Concluded</para>
+    <para id="id1167386780696">Section 6.6.3 Gate Formation.</para>
+    <para id="id1167382651301"> In the preceding section we saw how the twin tub is fabricated for realizing the complementary symmetry MOS also known as CMOS. If we choose the process option of P-implant below Field Oxide then the crss-sectional view is as shown in Figure 6.51. If we choose the process option of incorporating buried and epitaxial layer then the cross-section looks like Figure 6.59. For simplicity we will start with the twin tub as described in Figure 6.48. Now the critical part of MOS has to be fabricated namely P-channel and N-channel in normally-off PMOS and normally-off NMOS respectively. In other words we are fabricating (E)PMOS and (E)NMOS.</para>
+    <para id="id1167399389634">For the convenience of the reader Figure 6.48 is being reproduced here as Figure 6.60.</para>
+    <figure id="id1167391858369">
+      <media id="id1167391858369_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-c606.png" id="id1167391858369__onlineimage" height="276" width="491"/>
+      </media>
+    </figure>
+    <para id="id1167401679249"><emphasis effect="bold"> 6.6.3.1. </emphasis>To precisely control the threshold voltage in the range 0.5 to 0.8 Volt, we do a second ion-implant of Arsenic or Phosphorous in N-tub and Boron in P-tub sequentially just below the gate oxide. The dose of this second ion-implant is calculated from Equation 6.22.</para>
+    <para id="id1167410938555"><figure id="id1167389021134"><media id="id1167389021134_media" alt=""><image mime-type="image/png" src="../../media/graphics1-76aa.png" id="id1167389021134__onlineimage" height="39" width="300"/></media></figure>--------------------------------------------6.22</para>
+    <para id="id1167382272953">Q<sub>I</sub> = implant dose in atoms per cm<sup>2</sup>_________________________________________</para>
+    <para id="id1167382642788">Here V<sub>FB</sub> = flat band voltage = gate voltage required to compensate for the work function difference in the gate metal and semiconductor = φ<sub>M </sub>– φ<sub>S </sub>;______________________</para>
+    <para id="id1167400767732">N<sub>A</sub> = doping density of P-tub which is going to host (E)NMOS before the critical ion-implant of Boron;_______________________________________________________</para>
+    <para id="id1167381055604">And ε<sub>S</sub> = permittivity of Silicon = absolute permittivity of free space × relative permittivity of Silicon;___________________________________________________ </para>
+    <para id="id1167401542596">C<sub>OX </sub>= unit area capacitance of the gate oxide;</para>
+    <para id="id1167382350913">
+      <figure id="id1167418050176">
+        <media id="id1167418050176_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-36f6.png" id="id1167418050176__onlineimage" height="41" width="72"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167412904251">t<sub>OX</sub> = thickness of the gate oxide . This has to be precisely controlled inorder to achieve a precision in the threshold voltage. </para>
+    <para id="id1167404302371">Here it is assumed that implant dose is located near the Si-SiO2 interface inside the respective MOS depletion region.</para>
+    <para id="id1167397508570"> Mask 4 is used for selectively ion implant the P-tub with Boron at a dose implant of 1 to 5×10<sup>12</sup>/cm<sup>2</sup> at 50 to 75 keV. The energy is high enough to pass through the gate oxide but low enough to lie near the Si-SiO2 interface,</para>
+    <para id="id1167396218942"> Mask 5 is used for selectively ion implant the N-tub with Arsenic or Phosphorous at a dose implant of 1 to 5×10<sup>12</sup>/cm<sup>2</sup> at 100 keV. The P-channel implant in N-Tub would be at a higher energy because Arsenic is heavier.</para>
+    <para id="id1167382724503"> So the final cross-sectional view would be as shown as in Figure 6.61.</para>
+    <figure id="id1167398621438">
+      <media id="id1167398621438_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-bef8.png" id="id1167398621438__onlineimage" height="307" width="479"/>
+      </media>
+    </figure>
+    <para id="id1167395841754"/>
+    <para id="id1167382459308">
+      <emphasis effect="bold">6.6.3.2. Regrowth of Gate Oxide to the precision required for the Threshold Voltage.</emphasis>
+    </para>
+    <para id="id1167409456226"> Gate area Silicon Dioxide layer has undergone two times battering under the two ion-implants hence the quality has deteriorated. Therefore it is important that it is stripped by dilute hydrofluoric acid and regrown to a precise thickness as demanded by the threshold voltage. Table 6.13 gives the typical gate oxide thickness for different generations of technology. After the gate-oxide is regrown to the precise thickness we go to the step of Poly-Si(heavily doped)Gate contacts. PolySi gate contacts were used before 45nm for achieving lower threshold voltage. But at 45nm technology, leakage current from the gate and the subthreshold current through the channel started deteriorating leading to increased thermal dissipation even in stand-by condition therefore thicker gate oxide thickness along with high – K dielectric such as Silicon Oxynitride was adopted as the gate dielectric. This reduced the standby dissipation but created the new problem of Fermi-pinning which led to the loss of control over the threshold voltage. Hence PolySi was replaced by Metal Contact. Thus at 45nm and below generation of technology, PolySi-SiO2 was replaced by MG-HK. </para>
+    <para id="id1167408587043"/>
+    <para id="id1167391931461">Table 6.13. Gate Oxide Thickness vs Channel Length </para>
+    <para id="id1167383118613">for different generations of Technology. </para>
+    <table id="id1167411988358" summary="">
+      <tgroup cols="11">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <tbody>
+          <row>
+            <entry>L(micron)(Poly-Si)</entry>
+            <entry>0.35</entry>
+            <entry>0.25</entry>
+            <entry>0.18</entry>
+            <entry>0.13</entry>
+            <entry>0.10</entry>
+            <entry>0.07</entry>
+            <entry>45nm(MG-HK)</entry>
+            <entry>32</entry>
+            <entry>22</entry>
+            <entry>15</entry>
+          </row>
+          <row>
+            <entry>T<sub>OX</sub>(nm)</entry>
+            <entry>8</entry>
+            <entry>6</entry>
+            <entry>4.5</entry>
+            <entry>3.4</entry>
+            <entry>2.5</entry>
+            <entry>1.9</entry>
+            <entry>4</entry>
+            <entry>3.4</entry>
+            <entry>2.5</entry>
+            <entry>1.2</entry>
+          </row>
+          <row>
+            <entry>I<sub>off</sub>(nA/micron)</entry>
+            <entry/>
+            <entry>0.5</entry>
+            <entry>3</entry>
+            <entry>10</entry>
+            <entry>40</entry>
+            <entry>100</entry>
+            <entry>200</entry>
+            <entry>300</entry>
+            <entry>300</entry>
+            <entry>300</entry>
+          </row>
+          <row>
+            <entry>Fringing Capacitance_C<sub>f</sub><sup>*</sup>(fF/µm)</entry>
+            <entry/>
+            <entry>0.60</entry>
+            <entry>0.71</entry>
+            <entry>0.61</entry>
+            <entry>0.74</entry>
+            <entry>0.78</entry>
+            <entry>0.74</entry>
+            <entry>0.85</entry>
+            <entry>1.04</entry>
+            <entry>1.01</entry>
+          </row>
+          <row>
+            <entry>Transistor delay_τ(ps)</entry>
+            <entry/>
+            <entry>6.26</entry>
+            <entry>4.56</entry>
+            <entry>2.55</entry>
+            <entry>1.88</entry>
+            <entry>1.46</entry>
+            <entry>1.15</entry>
+            <entry>1.23</entry>
+            <entry>1.47</entry>
+            <entry>1.45</entry>
+          </row>
+          <row>
+            <entry>Sheet resistance of heavily doped PolySi(ohms per sq)</entry>
+            <entry/>
+            <entry>300</entry>
+            <entry>250</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+            <entry>200</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167412003930">Table 6.13 is based on projection and simulation for nodes at 45nm and below. For nodes above 45nm, the Table is based on actual experimental work. It is clear that at 45nm and at greater scaling, we get counterscaling effects. Because of increased fringing capacitance, transit delay deteriorates beyond 45nm technology. But with emergence of multicore processors, number of available transistors is more important than making them faster. Hence scaling will continue to be used even though it is becoming counter productive.</para>
+    <para id="id1167382900869">6.6.3.3 LPCVD of PolySi for Gate contacts.</para>
+    <para id="id1167382296521">By Low-Pressure-Chemical-Vapour-Deposition techniques Si is deposited over the entire area of SiO2 as shown in Figure 6.62. Silane is passed over the wafer and at 600°C it decomposes into Si and H2. Si precipitates over SiO2 surface. Since the substrate of SiO2 is amorphous hence LPCVD Si is PolySi.</para>
+    <para id="id1167379866212">
+      <figure id="id1167384272086">
+        <media id="id1167384272086_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-2c9a.png" id="id1167384272086__onlineimage" height="331" width="378"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167406765568">300 nm to 500 nm thick PolySi is deposited over the entire wafer area. By unmasked ion-implant of Arsenic or Phosphorous , PolySi is heavily doped provideng sheet resistance of 300 ohms per square. The N-type ion-implant has a dose of 10<sup>15</sup>/cm<sup>2</sup> at an energy of less than 50keV so that it implants the PolySi but does not penetrate through to the underlying gate oxide. In subsequent thermal cycles N-type donor dopent will diffuse and evenly distribute throughout the PolySi contact.</para>
+    <para id="id1167396599057">In some PolySi deposition systems, in-situ doping is done while LPCVD is carried out. In this case ion-implant step of heavy doping is not required.</para>
+    <para id="id1167397731199">
+      <emphasis effect="bold">6.6.3.4. Formation of PolySi Gate contacts in MOS active areas.</emphasis>
+    </para>
+    <para id="id1167391025430">Using KPR and Mask 6, the PolySi is retained in Gate areas of MOS and PolySi is etched out from the remaining portions of the wafer as shown in Figure 6.63. This again is dry plasma etching using chlorine or bromine based plasma.</para>
+    <para id="id1167389513969">Heavily doped PolySi is not only used as Gate contacts but also as local interconnects between NMOS and PMOS gate contacts but these cannot be used for long interconnects like metal interconnections. PolySi has relatively high sheet resistance (300Ω/square) as compared to that of Metal interconnects which is only 0.1Ω/square. The RC delays of long poly lines make these long poly lines unacceptable in IC fabrication.</para>
+    <para id="id1167382254091">While etching PolySi we want selectivity as well as anisotropy. Selectively will ensure that only PolySi is etched and not the underlying SiO2 and anisotropy will ensure that there is no undercutting. Now these are two conflicting requirements. There has to be a trade off between the two in our plasma etching systyems.</para>
+    <para id="id1167410077117">The remaining fixed KPR is removed by stripper solution or by oxygen plasma etching.</para>
+    <para id="id1167387367589">
+      <figure id="id1167399760040">
+        <media id="id1167399760040_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-7d35.png" id="id1167399760040__onlineimage" height="332" width="416"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167412395176">
+      <emphasis effect="bold">6.6.3.5. Self-aligned Source and Drain fabrication.</emphasis>
+    </para>
+    <para id="id1167398707347">Using mask 7 light doping implant of Phosphorous is done in NMOS area situated in P-tub as shown in Figure 6.64. Typically a dose of 5×10<sup>13</sup> to 5×10<sup>14</sup> per cm<sup>2</sup> at 50keV is used. <emphasis effect="bold"/></para>
+    <figure id="id1167382407723">
+      <media id="id1167382407723_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-4484.png" id="id1167382407723__onlineimage" height="409" width="406"/>
+      </media>
+    </figure>
+    <para id="id1167388983767">Using mask 8 light doping implant of Boron is done in PMOS area situated in N-tub as shown in Figure 6.65. Typically a dose of 5×10<sup>13</sup> to 5×10<sup>14</sup> per cm<sup>2</sup> at 50keV is used. </para>
+    <para id="id1167382039292">Once the light dose implant is completed, fixed KPR is completely removed from the surface of the wafer by stripper or oxygen plasma. <emphasis effect="bold"/></para>
+    <figure id="id1167381593952">
+      <media id="id1167381593952_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-0425.png" id="id1167381593952__onlineimage" height="396" width="408"/>
+      </media>
+    </figure>
+    <para id="id1167407967680">Note that in Figure 6.64 and in Figure 6.65, LDD implant lies under the edge of the gate. This has been achieved by tilted angle implant.</para>
+    <para id="id1167382255773">6.6.3.5.1 Sidewall Spacers along the edge of the PoySi gate.</para>
+    <para id="id1167402603667">Now we do LPCVD of a conformal spacer dielectric layer (SiO2 or Si3N4) on the wafer surface. The thickness of this layer will decide the width of the sidewall spacer which is chosen around 100nm to optimize the device characterisics. </para>
+    <para id="id1167387905338">At 400°C, SiH<sub>4</sub> + O<sub>2</sub> → SiO<sub>2</sub> +2H<sub>2</sub>;</para>
+    <para id="id1167382645516">Or at 900°C, SiH<sub>2</sub>Cl<sub>2</sub> + 2N<sub>2</sub>O → SiO<sub>2</sub> + 2N<sub>2</sub> +2HCl;</para>
+    <para id="id1167399690400">Conformal spacer dielectric layer deposition is obtained as shown in Figure 6.66. Note that the thickness of SiO<sub>2</sub> is much thicker along the edges of the polysilicon as compared to that on the flat regions of the wafer surface. This thickening is caused due to conformal deposition on the vertical edge of the PolySi gate contact. </para>
+    <para id="id1167382602645">Now we use fluorine-based plasma to carry out highly anisotropic etching of SiO<sub>2</sub> over the entire wafer area(etches vertically but not horizontally).</para>
+    <para id="id1167381992282">Deposited conformal layer of SiO<sub>2</sub> is removed everywhere except at the vertical edges of PolySi gate contacts. Thus sidewall spacers are realized as shown in Figure 6.67. Note that SiO<sub>2</sub> has been removed from Source and Drain region also as a part of the Sidewall Spacer formation process.</para>
+    <figure id="id1167386117378">
+      <media id="id1167386117378_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-c4bf.png" id="id1167386117378__onlineimage" height="292" width="382"/>
+      </media>
+    </figure>
+    <figure id="id1167386315829">
+      <media id="id1167386315829_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-7c82.png" id="id1167386315829__onlineimage" height="258" width="375"/>
+      </media>
+    </figure>
+    <para id="id1167402383518">6.6.3.5.2. Final Source/Drain formation.</para>
+    <para id="id1167382555545"> In the process of Sidewall Spacer formation, the oxide layer has been completely removed from Source and Drain regions also. So another 10nm SiO<sub>2</sub> is thermally grown over the whole wafer area. This provides a 10nm ‘screen oxide’ in the source and drain regions as well as on top of the PolySi gate regions.</para>
+    <para id="id1167388083394">The ‘screen oxide’ is needed for the following reasons:</para>
+    <list id="id1167382776062" list-type="enumerated" number-style="lower-roman">
+      <item>Oxide being amorphous it randomizes the implanted ions trajectory thereby preventing Chanelling Effect. The Silicon lattice is crystalline and if the ion velocity vector is aligned with the crystal structure of Silicon, ions can go down the “channels” between lattice centers for long distances without encountering Silicon atoms. If this happens, the range of implanted ions will be much larger than expected. This is undesirable hence ‘screen oxide’ is needed.</item>
+      <item>‘screen oxide’ helps minimize the incorporation of trace impurities into the Silicon from the implanter system.</item>
+    </list>
+    <para id="id1167401953835">After ‘screen oxide’ has formed we use Mask 9, to selectively implant P-tub with N+ source and N+drain. The N+ implant is Arsenic because in modern devices we need shallow junctions in small geometry devices. An implant of high dose of 2×10<sup>15</sup> to 4×10<sup>15</sup> per cm<sup>2</sup> at 75keV is used. This allows the implanted ions to cross ‘screen oxide’ but still be masked by fixed KPR. This completes the step of formation of (E)NMOS as shown in Figure 6.68.</para>
+    <figure id="id1167405994568">
+      <media id="id1167405994568_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-0713.png" id="id1167405994568__onlineimage" height="398" width="390"/>
+      </media>
+    </figure>
+    <para id="id1167403786296">Now Mask 10 is used to implant P+ Source and Drain of (E)PMOS in N-tub. For this using Mask 10 N-tub regions are kept exposed through appropriate windows in KPR layer. After developing the KPR layer, the existing KPR is hardened and is fixed in the oven so that it can shield the implanted ions from entering the shielded areas. The implant is high dose of Boron at less than 75keV. The dose itself is 1×10<sup>15</sup> to 3×10<sup>15</sup> per cm<sup>2</sup>. Since Boron is lighter therefore it requires less energy to reach the same range.</para>
+    <para id="id1167379423838">In both these cases high dose implants have been used to minimize the parasitic resistances associated with the drain and sources. The final structure after the use of Mask 9 and 10 and after the final high temperature drive-in is as shown in Figure 6.69.</para>
+    <para id="id1167393235401">
+      <figure id="id1167384520592">
+        <media id="id1167384520592_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-c3e3.png" id="id1167384520592__onlineimage" height="373" width="424"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167384444766">6.6.4. Why do we have LDD and sidewall spacers along the edges of PolySi Gate Contacts?</para>
+    <para id="id1167379526630"> In VLSI era as we move to deep-sub-micron and ultra-deep-sub-micron devices we are forced to adopt small geometry and shallow junction devices. At these levels of miniaturization many new effects have shown up and which have to be taken care of. In Figure 6.70 we give the magnified view of Figure 6.69.</para>
+    <figure id="id1167384770763">
+      <media id="id1167384770763_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-09c7.png" id="id1167384770763__onlineimage" height="298" width="575"/>
+      </media>
+    </figure>
+    <para id="id1167393330018"> Because of the scaling trends and its concomitant effects we have been forced to introduce Lightly Doped Drain(LDD) or Lightly Doped Source and Sidewall Spacer along the edges of PolySi(N+) Gate Contact.</para>
+    <para id="id5110350">As device dimensions have been scaled the operating voltage has not been proportionately scaled as a result the average electric field has increased by one order of magnitude. This creates “hot electron” effects. The hot electron experiences “scatter limited velocity”. Here the drift velocity is not proportional to the electric field hence electron drift velocity in-effect saturates.</para>
+    <para id="id1167386484254">Plus “hot electron” cause carrier injection into gate oxide by overcoming the Si/Silicon Oxide interface potential barrier of 3.2eV. These carriers trapped in oxide will cause instability.</para>
+    <para id="id1167386341976">By grading the doping of Drain and Source from N+ to N- Lightly Doped Drain(LDD) , we allow the drain voltage to drop over larger distances leading to reduction in the peak of the electric field caused from Drain To Source. Even modest reduction in the peak electric field leads to significant improvement in the reliability of the device. </para>
+    <para id="id1167382465694">At deep-sub-micron level, short channel effect show up in a big way. Theoretically in Pentode Region, the Drain Current should be a function of Gate Voltage only but due to channel length modulation Drain Current is a function of Drain Voltage also as shown in Equation 6.23.</para>
+    <para id="id1167394690302"><figure id="id1167385878314"><media id="id1167385878314_media" alt=""><image mime-type="image/png" src="../../media/graphics3-0d15.png" id="id1167385878314__onlineimage" height="33" width="297"/></media></figure> 6.23</para>
+    <para id="id1167388784754">Where λ is channel length parameter it varies from 0.001 to 0.1 per volt. </para>
+    <para id="id1167386476946">As device geometry is scaled, this channel length parameter increases. By use of shallow junction this parameter can be minimized. LDD provides this shallow junction. To achieve LDD we use light dose implants along with sidewall spacer.</para>
+    <para id="id1167382732313">This sums up the reasons why LDD and sidewall spacer is used along the edge of PolySi Gate contact.</para>
+  </content>
+</document>

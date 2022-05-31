@@ -1,0 +1,48 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix II</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33379</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix II</md:title>
+  <md:abstract>This  gives the steps in photo-lithography technique. How the window pattern is made on the Photo-resist and how the window is opened in SiO2 layer.</md:abstract>
+  <md:uuid>6ed47d47-33f6-424b-a02a-c8ef3d3830f1</md:uuid>
+</metadata>
+<content>
+    <para id="id8453061">
+      <emphasis effect="bold">Appendix II.</emphasis>
+    </para>
+    <para id="id8461852">Steps in Optical Lithography</para>
+    <para id="id8498864">(Film-and-chemistry photography)</para>
+    <para id="id8462582">Blank Patch on a Silicon Wafer(12¨- Ø)</para>
+    <para id="id8339750">↓</para>
+    <para id="id8339753">Silicon Wafer is held on the chuk of a spinner by vacuum suction</para>
+    <para id="id8602228">↓</para>
+    <para id="id8485574">Next it is coated with photoresist and spun at a high r.p.m. to ensure uniform layer of photo resist across the wafer</para>
+    <para id="id8600838">↓</para>
+    <para id="id8565743">The correct mask is placed in contact with the photo resist layer</para>
+    <para id="id8602007">↓</para>
+    <para id="id8602011">The photo resist is exposed to Ultra-violet light for 1 minute through the mask</para>
+    <para id="id8491737">↓</para>
+    <para id="id8496121">The exposed region gets polymerized and hence hardened whereas the unexposed portion is soft and can be dissolved away</para>
+    <para id="id8579351">↓</para>
+    <para id="id8496950">Next wafer with the exposed Photo-Resist coating is dipped In a developer</para>
+    <para id="id8498711">↓</para>
+    <para id="id8491448">The developer dissolves away the soft portion leaving a window pattern on the hardened portion of the photo-resist layer</para>
+    <para id="id8463868">↓</para>
+    <para id="id8573037">Next the wafer along with the the window pattern printed on the photo resist is dipped in HF acid which is an etchant of SiO2. HF acid is a very strong solvent. It is placed in Teflon beaker and Teflon twigger is used for handling the wafer. HF acid must never come in touch with our skin. If it comes it will reach the bone and dissolve it. So the personnels will have to use Teflon gloves and suitable aprons for safety as well as for cleanliness</para>
+    <para id="id8497637">↓</para>
+    <para id="id8458629">The window pattern of the hardened resist is stripped off and the wafer is ready for diffusion or ion implantation or for metallization</para>
+    <para id="id8496507">↓ </para>
+    <para id="id8497357">Hundreds of identical microchip pattern is inscribed on the wafer by optical photo-lithography, plasma etching and a combination of ion-implantation or diffusion</para>
+    <para id="id8495801">↓</para>
+    <para id="id8497363">Sliced into microchips using a diamond tipped scriber</para>
+    <para id="id8497194">↓</para>
+    <para id="id8603736">Individual microchips also referred to as dies are mounted on headers</para>
+    <para id="id8469958">↓</para>
+    <para id="id8497793">Gold wires are connected from the bonding pads on the die to the external leads on the header by thermo-compression bonding or by Ultra-sonic bonding</para>
+    <para id="id8464009">↓</para>
+    <para id="id8497799">Hermetically sealed</para>
+    <para id="id8575071">↓</para>
+    <para id="id8463956">Sent for applications</para>
+    <para id="id8463960">(laptops, thumb drives, cell-phones and GPS)</para>
+  </content>
+</document>

@@ -1,0 +1,228 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 16_FERMIONS_Part 17_Density of States in Conduction Band of Metals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34682</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 16_FERMIONS_Part 17_Density of States in Conduction Band of Metals</md:title>
+  <md:abstract>Chapter 1_Part 16 and Part 17 describes the Fermi-Dirac Statistics and derives the density of permissible quantum states in Conduction Band of Metals in Bulk Devices.</md:abstract>
+  <md:uuid>1979e58d-a763-498e-b993-335d9a623f74</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168662641563">SSPD_Chapter 1_ Part 16 + Part 17.</para>
+    <para id="id1168663792512">1.16. FERMION AND FERMI DIRAC STATISTICS.</para>
+    <para id="id1168653511221"><emphasis effect="bold"/>In nature, particles with (n+1/2)ћ spin angular momentum are distinguishable particles and hence a pair of particles with opposite spin occupy an elemental phase space and no more. Hence at one time, two particles will occupy different energy states or at one spatial coordinate two particles will be at different momenta.</para>
+    <para id="id1168653533405">These particles obey Heisenberg’s Uncertainty Principle:</para>
+    <para id="id1168657576141">∆E.∆t ≥ ћ 1.161</para>
+    <para id="id1168664747299">
+      <emphasis effect="bold">∆p</emphasis>
+      <emphasis effect="bold">x</emphasis>
+      <emphasis effect="bold">.∆x ≥ ћ</emphasis>
+    </para>
+    <para id="id1168662634262">Heisenberg’s Uncertainty Principle leads us to Pauli Exclusion Principle. Pauli Exclusion Principle directly comes from Quantum Mechanics. Until the advent of Quantum Mechanics we could not arrive at the correct definition of Specefic Heat.</para>
+    <para id="id1168664310978">According to Quantum Mechanics, fermions obey the following distribution function also known as Fermi-Dirac Statistcs:</para>
+    <para id="id1168656505146"><emphasis effect="bold">P(E) = 1/[ Exp{(E-E</emphasis>
+      <emphasis effect="bold">F </emphasis>
+      <emphasis effect="bold">)/(kT)} +1 ] ................................1.162</emphasis>
+    </para>
+    <para id="id1168664448111"><emphasis effect="bold"/>This distribution function or probability function tells us that at 0 Kelvin absolute temperature the probability of occupancy till E<sub>F</sub> energy level is Unity and above E<sub>F </sub>probability of occupancy is zero. This implies that energy levels till E<sub>F </sub>are occupied and above are empty. Each level till E<sub>F </sub>are occupied by two oppositely spinning electrons. At 0 Kelvin the probability distribution function is rectangular as shown in Figure(1.86).<sub/></para>
+    <para id="id1168664206510">
+      <figure id="id1168665390199">
+        <media id="id1168665390199_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-ca7f.png" id="id1168665390199__onlineimage" height="340" width="529"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168656855442">Figure(1.86) At 0 Kelvin, fermions having rectangular probability distribution function.</para>
+    <para id="id1168665694340"><emphasis effect="bold"/>At T Kelvin, probability distribution is skewed and the probability of occupancy at E<sub>F </sub>is 50% . This means that half of the time E<sub>F </sub>is occupied and half of the time it is empty and electrons are occupying a higher energy state. The probability of occupancy distribution at T Kelvin is shown in Figure(1.87).</para>
+    <para id="id1168665033586">
+      <figure id="id1168653462395">
+        <media id="id1168653462395_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-4811.png" id="id1168653462395__onlineimage" height="410" width="559"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168657344466">Figure(1.87) Skewed Probability Distribution of Fermions at T Kelvin. </para>
+    <para id="id1168664429189">As shown in Figure(1.87), around Fermi-level E<sub>F</sub> and below number of electrons, n, is only slightly less than the available allowed energy states N(E)dE. This is known as DEGENERATE STATES and fermions follow Fermi-Dirac Statistics.</para>
+    <para id="id1168653494488">At energies E- E<sub>F</sub> &gt;&gt; kT and at 300 Kelvin kT= 0.026eV that is at E equal or greater than (E<sub>F</sub> + 0.26eV), the distribution function is the following:</para>
+    <para id="id1168669471085"><emphasis effect="bold">P(E)=Exp[-(E- E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">)/(kT)] ...................................1.163</emphasis>
+    </para>
+    <para id="id1168660833132">The above distribution function is the classical distribution function known as Maxwell- Boltzmann Distribution Function followed by ideal gas. Therefore Electrons at E ≥ (E<sub>F</sub> + 0.26eV) behave like ideal gas molecules in a closed container. If we look closely we find that at energies equal or greater than (E<sub>F</sub> + 0.26eV) , </para>
+    <para id="id1168665163623">n &lt;&lt; N(E)dE</para>
+    <para id="id1168655072688">That is number of particles is much less than the available allowed states and this is known as NON-DEGENERATE STATES.</para>
+    <para id="id1168661371465">Therefore we can generalize that fermions in degenerate state follow Fermi-Dirac Statistics whereas fermions in non-degenerate states follow Maxwell- Boltzmann Statistics.</para>
+    <para id="id1168667570252">SSPD_Chapter 1_Part 17_Density of States</para>
+    <para id="id1168657489298">1.17. Calculation of Density of States in the Conduction Band of metals based on Quantum Mechanics.</para>
+    <para id="id1168665398250"><emphasis effect="bold"/>Figure(1.88) describes the momentum space in terms of three reference momentum vectors p<sub>x </sub>, p<sub>y </sub>and p<sub>z </sub>. Figure (1.89) describes the potential well created by one atom in (a), describes the overlapping potential wells resulting in periodic variation of potential along a linear array of atoms in (b) and a 3-D potential box in a single crystal solid with periodic potential variations in (c).</para>
+    <para id="id1168654061634">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1168656502830">
+      <figure id="id1168653601719">
+        <media id="id1168653601719_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-f999.png" id="id1168653601719__onlineimage" height="352" width="498"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168654088304">Figure(1.88) Momentum Space .</para>
+    <para id="id1168664631137">We saw in Chapter 1_Part 8continued_Electron in an infinite potential well that in a 1-D potential well(Eq.1.51):</para>
+    <para id="id1168653867186">ka=nπ</para>
+    <para id="id1168660407882">where k is the wave vector or wave number, a is the lattice constant and n is the principal quantum number.</para>
+    <para id="id1168657500441">And E = ћ<sup>2</sup>k<sup>2</sup>/(2m*)= (h<sup>2</sup>/4π<sup>2</sup>)(1/(2m*))(nπ/a)<sup>2</sup> = n<sup>2</sup>h<sup>2</sup>/(8m*a<sup>2</sup>) </para>
+    <para id="id1168656710763">where m* is effective mass of electron.</para>
+    <para id="id1168654056471"><emphasis effect="bold">Therefore </emphasis>E = n<sup>2</sup>h<sup>2</sup>/(8m*a<sup>2</sup>) <emphasis effect="bold">...................................1.164</emphasis></para>
+    <para id="id1168660409433">In 3-D potential box where length , breadth and height are a, b and c</para>
+    <para id="id1168662566257"/>
+    <para id="id1168668337590">E = (h<sup>2</sup>/8m*)[n<sub>x</sub><sup>2</sup>/a<sup>2 </sup>+ n<sub>y</sub><sup>2</sup>/b<sup>2 </sup>+ n<sub>z</sub><sup>2</sup>/c<sup>2 </sup>]</para>
+    <para id="id1168669335563">If a=b=c=L then E= (h<sup>2</sup>/(8m*L<sup>2</sup>))[n<sub>x</sub><sup>2 </sup>+ n<sub>y</sub><sup>2 </sup>+ n<sub>z</sub><sup>2 </sup>]</para>
+    <para id="id1168657501262">Or E = (h<sup>2 </sup>n<sup>2</sup>)/(8m*L<sup>2</sup>))</para>
+    <para id="id6389484">Where n<sup>2</sup> = n<sub>x</sub><sup>2 </sup>+ n<sub>y</sub><sup>2 </sup>+ n<sub>z</sub><sup>2 </sup><emphasis effect="bold"/><emphasis effect="bold">.....................................................1.165</emphasis></para>
+    <para id="id1168660311488">At n<sub>x </sub>= 1, n<sub>y </sub>= 1, n<sub>z </sub>= 1, E<sub>0</sub> = (h<sup>2</sup>/(8m*L<sup>2</sup>))(3)</para>
+    <para id="id1168671165380">This is the lowest energy state and this is non-degenerate. Therefore the lowest energy state electron is non-degenerate.</para>
+    <para id="id1168655066074">But the energy state E<sub>1</sub>= (h<sup>2</sup>/(8m*L<sup>2</sup>))(6) has three fold degeneracy.</para>
+    <para id="id1168665045702">The following three states have the same energy namely:</para>
+    <para id="id1168671158567">n<sub>x </sub>= 2, n<sub>y </sub>= 1, n<sub>z </sub>= 1</para>
+    <para id="id1168663818494">n<sub>x </sub>= 1, n<sub>y </sub>= 2, n<sub>z </sub>= 1</para>
+    <para id="id1168653507907">n<sub>x </sub>= 1, n<sub>y </sub>= 1, n<sub>z </sub>= 2</para>
+    <para id="id1168659981221">Therefore E<sub>1</sub> has three fold degeneracy.</para>
+    <para id="id1168656654939">Next energy state E<sub>2</sub> = (h<sup>2</sup>/(8m*L<sup>2</sup>))(1+4+9)= (h<sup>2</sup>/(8m*L<sup>2</sup>))(14) has 6-fold degeneracy.</para>
+    <para id="id1168671023282">As the energy increases the degeneracy increases. From the allowed energy states and the number of electrons present we can determine if the given solid is conductor, semi-conductor or insulator.</para>
+    <para id="id1168664970002">1.17.1. Theoretical Formulation of density of permissible energy states.</para>
+    <para id="id1168654080330">Now we will do the theoretical formulation of density of permissible energy states.</para>
+    <para id="id1168668252064">Suppose </para>
+    <para id="id1168656303780">N(E)= permissible energy states per unit electron-volt per unit volume;</para>
+    <para id="id1168656518279">Therefore N(E)dE= permissible energy states per unit volume between E and E+dE.</para>
+    <para id="id1168663563014">We are studying a cubic volume with equal sides.</para>
+    <para id="id1168657094282">From Eq (1.165) we know that:</para>
+    <para id="id1168654051361">E= (h<sup>2</sup>/(8m*L<sup>2</sup>))[n<sub>x</sub><sup>2 </sup>+ n<sub>y</sub><sup>2 </sup>+ n<sub>z</sub><sup>2 </sup>]</para>
+    <para id="id1168654055328">Here with positive integer values of wave numbers n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>we have quantum states associated. In a 3-D Cartesian Momentum Space with n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>chosen as frame of reference, in the positive octet as shown in Figure(1.90), every point with integer coordinates are permissible and possible quantum states.</para>
+    <para id="id1168653634895">
+      <figure id="id1168653603545">
+        <media id="id1168653603545_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-7f98.png" id="id1168653603545__onlineimage" height="340" width="499"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168661275581">
+      <emphasis effect="bold">Figure (1.90) Positive Octet of 3-D momentum space with wave numbers n</emphasis>
+      <emphasis effect="bold">x </emphasis>
+      <emphasis effect="bold">, n</emphasis>
+      <emphasis effect="bold">y</emphasis>
+      <emphasis effect="bold">, n</emphasis>
+      <emphasis effect="bold">z </emphasis>
+      <emphasis effect="bold">as the frame of reference.</emphasis>
+    </para>
+    <para id="id1168665119824"/>
+    <para id="id1168674995133"><emphasis effect="bold"/>In reality n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>are discrete integer values but if we regard them to be continuous we will not incur much error. So we will regard n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>to be continuous.</para>
+    <para id="id1168656268355">Assuming that n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>are continuous we have the following relation:</para>
+    <para id="id1168664595139">N(E)dE= (1/8)(4πn<sup>2</sup>)dn =</para>
+    <para id="id1168658016460">permissible energy states in incremental energy dE in positive octet<emphasis effect="bold">........................................................ 1.166</emphasis></para>
+    <para id="id1168657548066">Where 4πn<sup>2 </sup>is the surface area of a sphere of radius n and 4πn<sup>2</sup>dn is the volume of the shell of radius n and thickness dn in n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>Cartesian Momentum Space. Since we are considering only the positive octet, we are considering only the positive values of n<sub>x </sub>, n<sub>y</sub>, n<sub>z</sub>. Hence (1/8) factor has been introduced.</para>
+    <para id="id1168653613224">From Eq(1.165) n<sup>2</sup> = (8m*L<sup>2</sup>/h<sup>2</sup>)E</para>
+    <para id="id1168656705558">Square root of this expression is:</para>
+    <para id="id1168653657565"><emphasis effect="bold"/>n = (8m*L<sup>2</sup>/h<sup>2</sup>)<sup>1/2 </sup>E<sup>1/2</sup><emphasis effect="bold">...................................................1.167</emphasis></para>
+    <para id="id1168665767731">Differentiating n with respect to E we get:</para>
+    <para id="id2973657"><emphasis effect="bold"/>dn/dE= (8m*L<sup>2</sup>/h<sup>2</sup>)<sup>1/2</sup>(1/2)(1/E<sup>1/2</sup>) <emphasis effect="bold">...............................1.168</emphasis></para>
+    <para id="id1168663964270">Substituting the values of dn/dE and n<sup>2</sup> in Eq(1.166)</para>
+    <para id="id1168657470176">N(E)dE= (1/8)(4π)( (8m*L<sup>2</sup>/h<sup>2</sup>)E) (8m*L<sup>2</sup>/h<sup>2</sup>)<sup>1/2</sup>(1/2)(1/E<sup>1/2</sup>)dE</para>
+    <para id="id1168663881049">Simplifying the expression:</para>
+    <para id="id6600026">N(E)dE= (π/4)( (8m*)<sup>3/2</sup>/ h<sup>3</sup>)(L<sup>3</sup>)E<sup>1/2</sup>dE</para>
+    <para id="id1168660670203"/>
+    <para id="id1168656495094">
+      <emphasis effect="bold">Therefore permissible states per unit volume:</emphasis>
+    </para>
+    <para id="id1168656337866">N(E)dE=(4√2)π( (m*)<sup>3/2</sup>/ h<sup>3</sup>)E<sup>1/2</sup>dE</para>
+    <para id="id1168662582898"><emphasis effect="bold">Since every permissible state has two electrons of opposite spins therefore with every point having integer values of </emphasis>n<sub>x </sub>, n<sub>y</sub>, n<sub>z </sub>has two quantum states associated. Therefore permissible quantum states per unit electron volt and per unit volume is:</para>
+    <para id="id1168660355712"><emphasis effect="bold"/>N(E)= (8π(√(2m*))/ h<sup>3</sup>)m E<sup>1/2</sup><emphasis effect="bold"/><emphasis effect="bold">...................................1.169</emphasis></para>
+    <para id="id1168675000251">In 3-D case N(E) = CE<sup>1/2</sup>--------- as in case of bulk devices.</para>
+    <para id="id1168654152599">In 2-D case N(E) = m*/(πћ<sup>2</sup>)= uniform---------- as in case of quantum sheet devices</para>
+    <para id="id1168664379492">In 1-D case N(E)= C/E<sup>1/2</sup>-------------------------- as in case of quantum dot devices.</para>
+    <para id="id1168653605861"><emphasis effect="bold"/>Special Quantum Devices can be fabricated using the fact that Density of States variation law depends on the dimensions.</para>
+    <para id="id1168664956060">
+      <figure id="id1168653577469">
+        <media id="id1168653577469_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-9e57.png" id="id1168653577469__onlineimage" height="556" width="588"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168664631150">Figure 1.91. Density of States with respect to E in bulk devices, sheet devices and quantum dot devices.</para>
+    <para id="id1168672990985">1.17.2. DETERMINATION OF THE CONDUCTING ELECTRONS IN A METAL.</para>
+    <para id="id1168657360532">Let the number of electrons in conduction band be = n per cm<sup>3</sup>;</para>
+    <para id="id1168664502957">Therefore n =∫{dn,0,E<sub>F</sub>} = ∫{N(E)dE, 0, E<sub>F</sub>};</para>
+    <para id="id1168667558789">Substituting Eq.(1.169):</para>
+    <para id="id1168656654933"/>
+    <para id="id1168653594315">n = ∫{(8π(√(2m*))/ h<sup>3</sup>)m* E<sup>1/2</sup>dE, 0, E<sub>F</sub>}</para>
+    <para id="id1168664951883"><emphasis effect="bold"/>n = (8π(√(2m*))/ h<sup>3</sup>)m* E<sub>F</sub><sup>3/2</sup>×(2/3)<emphasis effect="bold">....................................................... 1.170</emphasis></para>
+    <para id="id1168662525971">Rearranging the terms we get:</para>
+    <para id="id1168671280478"><emphasis effect="bold"/>E<sub>F</sub> = (3n/8π)<sup>2/3</sup>(h<sup>2</sup>/2m*)<emphasis effect="bold"> ............................................................1.171</emphasis></para>
+    <para id="id1168657450216">
+      <emphasis effect="bold">Table 1.33. The Fermi Energy (E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">) and Work Function (W</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">) of selected Metals.</emphasis>
+    </para>
+    <para id="id1168654085374">
+      <emphasis effect="bold">[From </emphasis>
+      <emphasis effect="italics">Principles of Electronic Materials and Devices, Second Edition,</emphasis>
+      <emphasis effect="bold">S. O. Kasap(© McGraw- Hill, 2002)] </emphasis>
+    </para>
+    <table id="id1168656362055" summary="">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <tbody>
+          <row>
+            <entry>Metal</entry>
+            <entry>Ag</entry>
+            <entry>Al</entry>
+            <entry>Au</entry>
+            <entry>Cs</entry>
+            <entry>Cu</entry>
+            <entry>Li</entry>
+            <entry>Mg</entry>
+            <entry>Na</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">W</emphasis>
+              <emphasis effect="bold">F</emphasis>
+              <emphasis effect="bold">(eV)</emphasis>
+            </entry>
+            <entry>4.26</entry>
+            <entry>4.28</entry>
+            <entry>5.1</entry>
+            <entry>2.14</entry>
+            <entry>4.65</entry>
+            <entry>2.3</entry>
+            <entry>3.7</entry>
+            <entry>2.75</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">F</emphasis>
+              <emphasis effect="bold">(eV)</emphasis>
+            </entry>
+            <entry>5.5</entry>
+            <entry>11.7</entry>
+            <entry>5.5</entry>
+            <entry>1.58</entry>
+            <entry>7.0</entry>
+            <entry>4.7</entry>
+            <entry>7.1</entry>
+            <entry>3.2</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

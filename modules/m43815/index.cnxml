@@ -1,0 +1,335 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Graphene IC Part 2_Graphene IC+Graphene Allotropes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43815</md:content-id>
+  <md:title>Graphene IC Part 2_Graphene IC+Graphene Allotropes</md:title>
+  <md:abstract>Graphene IC Part 2 gives the possible Graphene IC architecture and the material science of Graphene and its various allotropes.</md:abstract>
+  <md:uuid>b01d9904-ce2f-4153-b956-36e68700e63f</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1170342500996">
+      <emphasis effect="bold">8.2.Is Graphene based I.C. ready to don the mantle for continued scaling down along Moore’s Law ? </emphasis>
+    </para>
+    <para id="import-auto-id1170344913871">Quoted from <emphasis effect="italics">“Electrons in Atomically Thin Carbon Sheets Behave Like Massless Particles”</emphasis> Mark Wilson,</para>
+    <para id="import-auto-id1170342576620"><emphasis effect="italics">Phys. Today</emphasis><emphasis effect="bold">59</emphasis> (1), 21 (2006); doi: 10.1063/1.2180163</para>
+    <para id="import-auto-id1170342563125">“Microelectronics engineers are paying attention. In semiconductor heterostructures used to make FET devices, for instance, it takes million-dollar epitaxy machines and exquisite care to tie up dangling surface bonds and eliminate impurities in quantum wells. The preparation minimizes the scattering of electrons against interfaces and defects to ensure the largest electron mean-free paths in the device.</para>
+    <para id="import-auto-id1170342416092">But in graphene, just 1 Å thick, scientists have a material that is relatively defect free and whose electrons have a respectable mean-free path naturally, without materials manipulation</para>
+    <para id="import-auto-id1170342577370">and processing. Graphene can hardly be more low tech, and yet it still exhibits high</para>
+    <para id="import-auto-id1170342548142">conductivities. “It’s really counterintuitive and remains to be understood,” comments Geim, “but</para>
+    <para id="import-auto-id1170342432080">the electron wavefunction appears to localize only parallel to the sheet and does not interact with the outside world, even a few angstroms away.”</para>
+    <para id="import-auto-id1170342417782">Recent experiments have demonstrated the unique electronic properties of graphene thus charting a potential route to nano-electronics based on epitaxial graphene (EG). There are two possible approaches to nano-electronics [Hass et.al.(2006)]:</para>
+    <para id="import-auto-id1170342540466"><emphasis effect="italics">Approach 1</emphasis>- We use CNT to make gated devices and ballistic conducting wirers. To assemble them in an IC we will require to meet the following challenges:</para>
+    
+    <list id="import-auto-id1170342482797" list-type="enumerated" number-style="arabic">
+      <item>The control of the properties of individual CNT ( e.g. diameter and helicity);</item>
+      <item>Control of inherent heterojunction impedances associated with inter connection of CNT;</item>
+      <item>Finally the assembly of vast networks from individual CNT devices.</item>
+    </list>
+    <para id="import-auto-id1170342549427"><emphasis effect="italics">Approach 2</emphasis>-We rely on the continued scaling of Lithographic Techniques of the present day I.C. Technology. We use this for nano-patterning of graphene into graphene based IC. Graphene has excellent transport properties (very high mobility) and permits the control of elerctronic properties such as band-gap and doping.</para>
+    <para id="import-auto-id1170342502211">By low temperature epitaxy, we achieve 1cm×1cm graphene sheet on an appropriate substrate (may be SiC with C-face). This lithographically patterned into narrow ribbons or other shapes to provide the necessary confinement for devices.</para>
+    <para id="import-auto-id1170342577051">Graphene based IC will be a scalable assembly of nano-patterned EG devices such as ballistic transistors and ballistic interconnects.</para>
+    <para id="import-auto-id1170342536710">Graphene is a semi-metal at micron level or larger. But at less than 100nm, electron confinement opens up the band gap. This band-gap can be tuned and adjusted according to the requirement of the application. It can be sliced wider and narrower and in different patterns according to the requirement( wire, ribbons or some other component). To avoid contact resistance problem graphene sheet can be patterned into an array of thin parallel strips or wires.[Wilson (2006)]</para>
+    <para id="import-auto-id1170342543318">Berger et.al.(2004) have suggested that if suitable methods were developed to support and align graphene sheets, it would be possible to combine the advantages of nano-tube-like electronic properties with high resolution lithography to achieve large scale integration of ballistic devices.</para>
+    <para id="import-auto-id1170342545078">An essential difference between nano-tubes and planar graphene ribbons is the presence of dangling bonds at the edges. Normally these would be hydrogen-terminated with little influence on the valence electron properties. However edge atoms could be passivated with donor or acceptor molecules thus tuning the electronic properties without affecting the graphitic backbone.</para>
+    <para id="import-auto-id1170342588884">
+      <emphasis effect="bold">8.3.Material Science  of Graphene and its exotic properties.</emphasis>
+    </para>
+    <para id="import-auto-id1170342560949">In 2004, Andre Geim and Konstantin Novoselov, two chemist at the University of Manchester in UK, peeled out a layer of graphite which we call graphene. These are flat mono-layer of Carbon atoms tightly packed into 2D honey-comb lattice a living embodiment of 2D geometry in real life and taught in our text books.</para>
+    <para id="import-auto-id1170342417750">Phillip Russell Wallace, a theoretical Physicist of McGill University, Montreal, Canada, predicted electronic structure of graphene in 1947. But scientists believed that such a 2D structure would be unstable.</para>
+    <para id="import-auto-id1170342525690">Graphene was known to be an integral part of 3D Graphite but graphene sheet was presumed not to exist in a free state. It was largely considered to be an “academic material” and believed to be unstable in real life. The melting temperature of the film rapidly decreases with decreasing thickness and they become unstable(segregate into islands or decompose) at a thickness of dozen  of atomic layers. So atomic mono-layers were only known as an integral part of larger 3D structures usually grown epitxially on top of single crystals with matching crystal lattice. Unexpectedly in 2004 free-standing graphene could be exfoliated and follow up experiments proved that the charge carriers in graphene were indeed zero rest-mass Dirac fermions[Novoselov et.al.(2005),Zhang et.al(2005)] and that 2D layer with unusual properties had been discovered. The effective mass of electron in graphene is measured to be 0.007m<sub>e</sub> [Zhang et.al. (2005)].  Electrons and Holes in grapheme are charge conjugated symmetrical particles due to time-reversal invariance just as electrons and positrons are in Quantum Electro-Dynamic Systems [Ando (2009)]. A direct consequence of this charge conjugate symmetry is that electrons and holes in graphene have equal mass, equal mobility and opposite charge and hence can be represented by the same Dirac spinor function. This is quite unlike semi-conductor devices. In semi-conductor devices electrons and holes are independent entities with their own effective mass and their own mobilities. In intrinsic Si, electron has a mobility of 1450 cm<sup>2</sup>/(V-cm) whereas holes have a mobility of 450 cm<sup>2</sup>/(V-cm). In addition independent Schrodinger matter wave functions have to be used for describing the two entities. </para>
+    <para id="import-auto-id1170342549028">Soon after,  free-standing 2D atomic crystals of other compounds were also discovered such as single layer Boron Nitride and half layer Bi<sub>2</sub>Sr<sub>2</sub>CaCu<sub>2</sub>O<sub>x</sub> [Novoselov et.al(2005)].</para>
+    <para id="import-auto-id1170342477474">As shown in Figure 3, graphene is a basic 2D building block for graphitic materials of all other dimensionalities. It is considered the materia prima for other forms of Carbon. By creating topological defects, it can be wrapped up into 0D fullerenes, rolled into 1D carbon nanotubes(CNT) and stacked into 3D graphites. 0D fullerenes are also known as Buckeyballs and have 60 C atoms. 12 pentagon plaquettes are required in addition to hexagonal plaquettes to produce the spherical configuration shown in Figure 4. Graphene rolled into 1D CNT ,armchair or zigzag configuration, is shown in Figure 4.</para>
+    <para id="import-auto-id1170342496933">Bulk highly oriented Pyroletic Graphite , the raw material for the preparation of graphene, is a high purity semi-metal with a highly anisotropic electronic structure featuring nearly compensated low density electrons and holes with very small effective mass. In graphite, the monolayers of graphene are stacked at a separation of 3A°. The monolayer sheets are held together weakly by vender Waal’s forces and hence they can easily be peeled off by mechanical ex-foliation [Zhang et.al. (2005b)] </para>
+    <para id="import-auto-id1170342588907">Graphene and bilayer have simple electronic spectra. They are both zero gap semiconductors( or zero-overlap semimetals) with one type of electrons and one type of holes. Three or more layers but less than 10 have increasingly complicated spectra. Several charge carriers appear. Conduction Band and Valence Band start notably overlapping. Thus we can distinguish between single-, double- and few( 3 to &lt;10) layer graphene as three different types of 2D graphene crystals. Thicker structures should be considered as thin films of graphite.[Geim &amp; Novoselov (2007)]</para>
+    <figure id="import-auto-id1170342543359">
+      <media id="import-auto-id1170342461051" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-2b3e.png" height="464" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342578609">
+      <emphasis effect="bold">Figure 3. Graphene-mother of all graphitic forms. Graphene is a 2D building material for carbon materials of all other dimensionalities. It can be wrapped into a 0D buckeyball, 1D nanotube or stacked into a 3D graphite.[Geim &amp; Novoselov (2007)]</emphasis>
+    </para>
+    <figure id="import-auto-id1170342539016">
+      <media id="import-auto-id1170342543425" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-014b.png" height="293" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342578318">
+      <emphasis effect="bold">Figure 4.  (a)The C60 fullerene molecule, where there are 12 pentagons necessary to produce the spherical conﬁguration. Nano-tube of arm chair type (b) and of zigzag type(c).It is not necessary to introduce pentagons for producing nano-tubes as they have zero curvature.[Pachos (2009)]</emphasis>
+    </para>
+    <para id="import-auto-id1170342549516">In graphite, atomic bonds between layers are much weaker than the bonds across its layer.</para>
+    <para id="import-auto-id1170342578092">At 300K, mean free path of electron in graphene is several microns, an order of magnitude better than that in semi-conductors. The kind of massless electron we see in super-conductors at liquid He temperature we witness the same kind of kinematics at 300K in Graphene. Hence graphene provides a rare opportunity for doing quantum mechanical research.</para>
+    <para id="import-auto-id1170344931972">It has 100× tensile strength as compared to that of Steel. It has much better thermal conductivity than that of Diamond which till now was the most thermally conductive material. It is also most closely packed structure. It is impermeable to the smallest atom like Helium but it still can stretch.</para>
+    <para id="import-auto-id1170342578853">It is zero band-gap material meaning by conduction band and valence band lie close together hence graphene is a conductor  but it cannot switch on and off.</para>
+    <para id="import-auto-id1170342576554">In semi-conductors, because of the band- gap, photon must exceed the bandgap to cause photo-excitation and absorption hence semi-conductors are susceptible to only certain part of the spectrum. In graphene there is no such limitation. Graphene has equal absorption coefficient from UV to far IR light because it has zero bandgap.</para>
+    <para id="import-auto-id1170342525634">Exploiting Graphene’s optical and electron abilities along with strength and flexibility could lead to foldable plastic smartphones, cheaper solar cells or sensors that can detect single molecule of gas or identify individual DNA bases.</para>
+    <para id="import-auto-id1170342541380">Silicon took decades to find its signature role in technology. Graphene’s journey has just begun.</para>
+    <para id="import-auto-id1170342586910">Graphene has superlative mechanical, thermal and electronic properties as shown in Table 3[Savage  (2012)].</para>
+    <para id="import-auto-id1170342545732">
+      <emphasis effect="bold">Table 3. Tensile Strength, Young’s Modulus, Electron Mobility and Thermal Conductivity. </emphasis>
+    </para>
+    <table id="import-auto-id1170342551998" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>TensileStrength</entry>
+            <entry/>
+            <entry>Young’s Modulus</entry>
+            <entry/>
+            <entry>Electron Mobility</entry>
+            <entry/>
+            <entry>Thermal Conductivity</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>MPa</entry>
+            <entry/>
+            <entry>GPa</entry>
+            <entry/>
+            <entry>cm<sup>2</sup>/(V-s)</entry>
+            <entry/>
+            <entry>W/(mK)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>CNT</entry>
+            <entry>3000</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Graphene⋆</entry>
+            <entry>10<sup>8</sup></entry>
+            <entry>Diamond</entry>
+            <entry>3000</entry>
+            <entry>Graphene</entry>
+            <entry>200,000</entry>
+            <entry>Graphene</entry>
+            <entry>3000-5000</entry>
+          </row>
+          <row>
+            <entry>CNT†</entry>
+            <entry>20,000</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>8000</entry>
+            <entry>Graphene</entry>
+            <entry>1000</entry>
+            <entry>GaAs</entry>
+            <entry>8000</entry>
+            <entry>Cu</entry>
+            <entry>300</entry>
+          </row>
+          <row>
+            <entry>Diamond</entry>
+            <entry>2500</entry>
+            <entry>Steel</entry>
+            <entry>200</entry>
+            <entry>Diamond</entry>
+            <entry>2000</entry>
+            <entry>Ag</entry>
+            <entry>280</entry>
+          </row>
+          <row>
+            <entry>Steel</entry>
+            <entry>2000</entry>
+            <entry>Si</entry>
+            <entry>180</entry>
+            <entry>Si</entry>
+            <entry>1450</entry>
+            <entry>Au</entry>
+            <entry>220</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>Al</entry>
+            <entry>200</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>Si</entry>
+            <entry>180</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>Glass</entry>
+            <entry>1.8</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1170336521957">†CNT-Carbon Nano-Tube- it can be metal or semiconductor.</para>
+    <para id="import-auto-id7266436">⋆Graphene- Electrical Conductivity of Graphene is independent of ‘E<sub>F</sub>’ and ‘n’(carrier concentration) as long as variation in scattering length is neglected. Therefore Graphene is metal and not zero-gap Semi-conductor.</para>
+    <para id="import-auto-id2393807">From Table 3 , we can conclude that graphene is the thinnest, strongest, stiffest, most stretchable (almost 10%), having record thermal conductivity, permissible current density at 300K is 10<sup>8</sup>A/cm<sup>2</sup> million times higher than that of copper, highest intrinsic mobility (100 times that in Silicon), conducts electricity with zero carrier density,  electrons and holes carriers behave like electron and positron in Quantum ElectroDynamic Systems and also behave like Dirac quasi particles, carriers have longest mean free path of the order of micron and are most impervious hence they cannot host interstitial dopents. In effect graphene is a relativistic system goverened by Dirac Equations.</para>
+    <para id="import-auto-id5923657"><emphasis effect="bold">8.3.1.Graphene is a perfect conductor</emphasis>.[Sung &amp; Lee,(2012)]</para>
+    <para id="import-auto-id1170336687925">In conventional materials (conductors and semi-conductors) mobile carriers suffer from impurity/defect scattering and lattice vibrational scattering also called phonon(acoustical wave packet) scattering. Mean free path(L*) in metals are 90A°,250A°,293A°,328A°,441.6A° for Li, Na, K, Cu, Ag respectively and in semiconductors L* are 729A°, 2106A°, 4645.5A° for Si, Ge and GaAs respectively.[ <link document="m34343"><emphasis effect="underline">http://cnx.org/content/m34343/</emphasis></link> ]. The electron deBroglie wavelength are 5A° and 78A° in metal and semi-conductor respectively hence electron is strongly scattered by metallic lattice and weakly scattered by semi-conductor lattice [ ibid]. This precisely is the reason for a much higher mobility of electron in semi-conductor as compared to that in metal. In metal mobility is only 44cm<sup>2</sup>/(V-s) whereas it is 1450 cm<sup>2</sup>/(V-s) in Si, 3000 cm<sup>2</sup>/(V-s) in Ge, 8500 cm<sup>2</sup>/(V-s) in GaAs, 77000 cm<sup>2</sup>/(V-s) in InSb and 10×10<sup>6</sup> cm<sup>2</sup>/(V-s) in quantum well heterostructures of GaAlAs. All these materials have quadratic carrier energy spectrum given by Equation 7.  </para>
+    <para id="import-auto-id1170336784892">In contrast Graphene has a  carrier spectrum which is linear and chiral (see Section 8.4.4.2.6) with four-fold degeneracy arising from spin and valley. It has in addition a Berry Phase term arising from two sub-lattice symmetry which restricts the carriers from backscattering (see Section 8.4.1). The theoretical absence of backscattering led to the speculation that mobility could be extremely high even at 300K. This indeed was the case as proved by Bolotin et.al(2008). They measured a mobility as high as 200,000cm<sup>2</sup>/(V-s) in suspended specimen of graphene. In high mobility graphene electrons or holes move as described in Newton’s Laws of Motion over a distance of microns: a body in motion continues to be in motion along a straight line with an uniform velocity (=c/300) unless made to act otherwise by the application of force. </para>
+    <para id="import-auto-id2547079">The mobile carriers in  2-D honey-comb Carbon atoms array have intriguing (and conceptually novel) linear “Dirac-like” bare Kinetic Energy dispersion spectra namely [Ando (2009), derived in Section 8.4.4.2.4]:</para>
+    <figure id="import-auto-id1170336523016">
+      <media id="import-auto-id1170336584459" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-6f3b.png" height="25" width="472"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170336663202"> As we will see in Section 8.4.2, the three sp<sup>2</sup> hybrid orbitals of C atom in graphene constitute the σ-bond and one 2p<sub>z</sub> orbital constitute the π-bond. The σ valence band is filled up but π valence band is half filled. Electrons in π-band can hop from one C site to another C site. This quantum-mechanical hopping between the symmetrical sublattices A and B (this term is defined in Sec.8.4.4.2.6) leads to the formation two cone like energy bands and their intersection near the edge of the Brillouin zone yields the conical spectra as shown in Figure 5. Because of this conical energy spectra a linear energy dispersion is exhibited described by Eq.1.</para>
+    <para id="import-auto-id1170342541984">The intersection point of the two cone-like energy bands is charge neutrality point(CNP) or Dirac Point. For sublattice A the Dirac Point is ‘K’ and for sublattice B the Dirac Point is ‘K'’.</para>
+    <para id="import-auto-id1170342469514">Equation 1 is in contrast to the parabolic energy spectra of carriers in 3-D solids. <emphasis effect="italics">It is this difference in energy spectra of carriers in 2-D graphene and 3-D solids which is responsible for the unusual properties of graphene</emphasis>.</para>
+    <para id="import-auto-id1170342556298">This zero-bandgap band structure, as shown in Figure 5a and 5b, results into a linear and chiral (we will give the definition of chirality in Section 8.4.4.2.6 ) carrier spectrum with 4–fold degeneracy arising from spin and sub-lattice symmetry (also known as valley symmetry).</para>
+    <para id="import-auto-id1170342546395">The inherent sub-lattice symmetry results into a non-zero Berry Phase term [Ando (2009)]. This non-zero Berry Phase term prevents carrier backscattering. When the direction of particle motion is rotated by 2π radians, the phase of the wave function changes by ±π which changes algebraic sign. This leads to the absence of back scattering when a particle is scattered by impurities. Backscattering corresponds to the rotation of the direction by ±π radians and the amplitudes for ±π rotation cancel each other due to the algebraic sign difference.</para>
+    <para id="import-auto-id1170342465253">In CNT, the electron motion along the circumference of the tubes is quantized and electron motion is effectively one dimensional with resistance determined by back-scattering. Therefore absence of back scattering means that metallic CNT are ideal conductors with perfect conduction even in the presence scatterers.  </para>
+    <figure id="import-auto-id1170342505325">
+      <media id="import-auto-id1170342500480" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-cfed.png" height="626" width="547"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1170342279967">
+      <media id="import-auto-id1170342304630" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-6ff3.png" height="495" width="563"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342462599">
+      <emphasis effect="bold">Figure 5. (a) Energy bands near the Fermi level in graphene. The conduction and </emphasis>
+    </para>
+    <para id="import-auto-id1170342607705">
+      <emphasis effect="bold">valence bands cross at points K and K'. (b) Conic energy bands in the vicinity of the K and K' points. (c) Density of states near the Fermi level with Fermi energy E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> [Ando (2009].</emphasis>
+    </para>
+    <para id="import-auto-id1170342558430">As a result the carriers in graphene move as massless Dirac particles , effective mass of 0.007m<sub>e</sub>  [Zhang et.al.(2005c)]( this vanishing mass is justified in Section 4.4.2.2) at a relativistic velocity of 10<sup>6</sup>m/s ten times faster than that in Silicon(v<sub>scatter_limited</sub> = 10<sup>5</sup>m/s) and 1/300 of velocity of light(c) in vacuum. Hence graphene based devices consume less power and less chip area and speed up computation 3 times because of reconfigurable characteristics. The same OR gate can be transformed into EX-OR gate and again revurt back to OR gate depending on the need of the circuit [Sung &amp; Lee (2012)].</para>
+    <para id="import-auto-id1170342546284">In Silicon electrons has a mean free path of 72.9nm whereas in Graphene the mean free path is in microns. In Graphene Electron moves in a straight line across tens of thousands of atoms at ten times the speed of that in Silicon.</para><para id="import-auto-id1170342546286">Metals have overlapping valence and conductive Bands, insulators have large band-gaps(several tens of eV) , semi-conductors have moderate band-gaps(~1eV) whereas graphene has zero-bandgap. This implies that it has no ON and OFF states. It is always in ON state but in laboratory we see very unusual consequences of zero-bandgap property which we will examine in a subsequent section [Sung &amp; Lee (2012)].</para>
+    <para id="import-auto-id1170342546291">There are ways by which zero bandgap can be opened and ON and OFF state can be  achieved as is the requirement in Logic Gates.[Section  4.4.7]</para>
+    <para id="import-auto-id1170342417455"><emphasis effect="bold">8.3.2. Crystalline Structure of Graphene.</emphasis>[Chen et.al.(2009)]</para>
+    <para id="import-auto-id1170342417461">Graphene is 2-D carbon (<sup>6</sup>C = 1s<sup>2</sup>2s<sup>2</sup>2p<sup>2</sup>)  mono-layer built by strong carbon-carbon sp<sup>2</sup> bonds which provide graphene with high intrinsic strength across the 2D layer and this strength makes possible the isolation of single atomic layers. There are three isotopes of carbon 12C, 13C and 14C present in all carbon allotropes in the ratio 98.89%,1.11% and 1×10<sup>-10</sup>%  respectively. 12C and 13C are stable isotopes whereas 14C is radio-active isotope. 14C radio-active isotope has a half life-time of 5730±40 years and they are used for radio-carbon dating of archaeological samples within 30,000 years of age. Most graphites and graphene in use today have negligible 14C. Therefore the percentage composition of stable 12C and 13C is decisive in determining the exotic properties of graphene.</para>
+    <para id="import-auto-id1170342539193">In a study by Chen et.al (2012) it is found that the physics of phonons, the acoustical wave packets and the main heat carriers in graphene, have been found to be influenced by the percentage isotopic composition of the graphene. The thermal conductivity, K, of isotopically pure 12C(0.01% 13C)graphene was higher than 4000W/mK at 320K and more than a factor of two higher than the value of K in graphene sheets composed of 50:50 mixture of 12C and 13C. The experimental data is corroborated by Molecular Dynamics simulation.  </para>
+    <para id="import-auto-id1170342415324">In CH<sub>4</sub> (Methane), 2s orbital mixes with three 2p orbitals to form four sp<sup>3</sup> hybrids. The four sp<sup>3</sup> hybridized orbitals are overlapped by four hydrogen’s 1s orbital to form a tetrahedron structure with 109.5° angular spread between two adjacent apex of the tetrahedron as shown in Figure 6.</para>
+    <para id="import-auto-id1170342484164">In C<sub>2</sub>H<sub>4</sub> (Ethene), only two of the three available 2p orbitals form three sp<sup>2</sup> hybridized orbitals with one 2p orbital remaining as it is. This is triagonal hybridization. Three sp<sup>2</sup> hybrid orbits are coplanar and directed towards the corners of an equilateral triangle with 120° angular span. The third un-hybridized 2p orbital lies at right angle to the molecular plane of sp<sup>2</sup> orbits. Two sp<sup>2</sup> hybrid orbitals of a C atom form covalent bonds with 1s orbital electron of two H atoms. Two C atoms form π bond using 2p orbitals and σ bond using sp<sup>2</sup> hybrid orbital as shown in Figure 7.</para>
+    <para id="import-auto-id1170342541597">Similarly three sp<sup>2</sup> hybrid orbitals and one 2p orbital are used to form the hexagonal benzene ring structure of  C atoms in 2D plane of Graphene as shown in Figure 8. Graphene is one-atom-thick planar sheet of sp<sup>2</sup>- bonded and 2p-bonded carbon atoms through σ-bond and π-bond respectively. These are closely-packed in a honeycomb crystal lattice. C-C bond length is 1.42A° in a single graphene layer . In a stack of graphene layers which is graphite the interplanar spacing is 3.35A°. There is zero band-gap between valence band and conduction band as shown in Figure 10. In contrast Diamond is another allotrope of Carbon which is an insulator with a large band-gap of 5.6eV as shown in Figure 9. </para>
+    <para id="import-auto-id1170336828093">Diamond utilizes sp<sup>3</sup> hybrid orbitals to form σ-bonds in a tetrahedral structure as shown in Figure 9a. Valence band is completely filled up and conduction band is completely empty and bandgap is 5.6eV. Hence diamond is a perfect insulator as shown in Figure 9b.</para>
+    <para id="import-auto-id1170336568872">In Graphene, only two of the three available 2p orbitals form a total of three sp<sup>2</sup> hybrids with one 2p orbital remaining unhybridized. Two C atoms utilize one sp<sup>2</sup> hybrid each to mutually link up in a σ-bond or valence bond in a singlet coupled manner and ‘lone pair’ and 2p<sub>z</sub> of the given two C atoms  link up to form π-bond and ‘lone pair’. It is this 2p<sub>z </sub>electron which is quantum tunneling from one sub-lattice to another  and thereby contributing to the conductivity of the sample.  Thus C-C have double bonds resulting in zero  bandgap . The remaining two hybrids of each C atom overlap with the sp<sup>2</sup> hybrids of the neighbouring C atoms also in a singlet coupled manner and ‘lone pair’ as shown in Figure 8. Thus a benzene ring or hexagonal ring of C is formed in 2D layer extending to infinity in 2Dimensions.</para>
+    <para id="import-auto-id1170342540323">So Carbon atoms in Graphene are arranged to form a honeycomb lattice tightly held by σ bonds between sp<sup>2</sup> hybrid orbitals. This gives rise to occupied σ band at energies well below Fermi-Energy Level E<sub>F</sub> and empty anti-bond σ* band at energies well above E<sub>F</sub> as shown in Figure 8.</para>
+    <para id="import-auto-id1170342481194">The remaining valence electrons(one 2p orbital for each atom) populate π-band which localize above and below the 2-D lattice with a node on the surface plane (see Figure 11).</para>
+    <para id="import-auto-id1170342481205">This results in a robust honeycomb structure with E<sub>F</sub> placed at 0 energy level.</para>
+    <figure id="import-auto-id1170342417932">
+      <media id="import-auto-id1170342417934" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-4ad8.png" height="601" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342417944">
+      <emphasis effect="bold">Figure 6a.Methane molecule formation through four sp</emphasis>
+      <emphasis effect="bold">3</emphasis>
+      <emphasis effect="bold"> hybridized orbitals of Carbon being overlapped by four individual Hydrogen 1s orbital.</emphasis>
+    </para>
+    <figure id="import-auto-id1170342544142">
+      <media id="import-auto-id1170342544143" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-418a.png" height="282" width="323"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342546245">
+      <emphasis effect="bold">Figure 6b. The symbolic expression of Methane Molecule. Carbon atom is covalently bonded to 4 Hydrogen atoms through (sp</emphasis>
+      <emphasis effect="bold">3</emphasis>
+      <emphasis effect="bold">+1s) sigma bond.</emphasis>
+    </para>
+    <figure id="import-auto-id1170342554351">
+      <media id="import-auto-id1170342554352" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-8529.png" height="621" width="534"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342542338">
+      <emphasis effect="bold">Figure 7a.Ethene molecule C</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">H</emphasis>
+      <emphasis effect="bold">4</emphasis>
+      <emphasis effect="bold"> formation. There is a double bond between two C atoms and two sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> hybrid orbitals  of each C atom’s octave is completed by 1s orbital of two H atoms.</emphasis>
+    </para>
+    <figure id="import-auto-id1170342558132">
+      <media id="import-auto-id1170342558133" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-ceb8.png" height="439" width="549"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342465418">
+      <emphasis effect="bold">Figure 7b. The symbolic expression of Ethene molecule. The two sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> hybrid orbital of each C atom covalently bond with two H atoms and two C atoms form a sigma bond through sp</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">hybrid orbital and pi-bond through lone 2p orbital. Thus in Ethene two C atoms are double bonded and has zero band-gap due to σ and π bonds.</emphasis>
+    </para>
+    <figure id="import-auto-id6460746">
+      <media id="import-auto-id1170341763333" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-e468.png" height="500" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170336807386">
+      <emphasis effect="bold">Figure 8. Graphene:One-atom-thick planar sheet of sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">- bonded and 2p-bonded carbon atoms through σ-bond and π-bond respectively. These are closely-packed in a honeycomb crystal lattice. C-C bond length is 1.42A° in a single graphene layer and in a stack of graphene which is graphite the interplanar spacing is 3.35A°.</emphasis>
+    </para>
+    <figure id="import-auto-id6145748">
+      <media id="import-auto-id1170336621729" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-b0cc.png" height="534" width="407"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170343354062">
+      <emphasis effect="bold">Figure 9a.Tetrahedral structure of Diamond and its projection in 2D plane.</emphasis>
+    </para>
+    <figure id="import-auto-id1170341739726">
+      <media id="import-auto-id7946528" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-2759.png" height="342" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170336565862">
+      <emphasis effect="bold">Figure 9b. sp</emphasis>
+      <emphasis effect="bold">3</emphasis>
+      <emphasis effect="bold"> hybridization results in a 3D tetrahedral geometrical structure which is the basis of Diamond tetrahedaral crystal with a band gap of 5.6eV.</emphasis>
+    </para>
+    <figure id="import-auto-id1170342544227">
+      <media id="import-auto-id1170342544228" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-848c.png" height="551" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170342541408">
+      <emphasis effect="bold">Figure 10. sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> hybridization results in 2D layer of C as shown in Figure 8 with zero band-gap.</emphasis>
+    </para>
+    <para id="import-auto-id1170342541199">There is an ‘anti-bonding’ π* band which is empty at T=0K and charge neutral. The π-band  and π*-band are much closer to E<sub>F</sub> as shown in Figure 10. Hence this empty π*-band can easily be filled up with carriers  by applying a gate potential in a typical FET configuration. Thus the state of a given 2-D graphene system is a superposition of these different ways of binding and this allows the system to stay in a distinctive energy minima. Such π/π* band system governs the low-energy (upto 2eV) behaviour of charge carriers in graphene and is responsible for most of the extra-ordinary properties of this material. Because of close proximity of π/π* band system, we have zero bandgap metal/semiconductor.</para>
+    <para id="import-auto-id1170342541215">This also results in a very low density of crystal defects in graphene prepared by mechanical exfoliation.</para>
+  </content>
+</document>

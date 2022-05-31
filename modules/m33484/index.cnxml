@@ -1,0 +1,141 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 8_Electron in a Potential well_Formulation of Schrodinger Equation.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33484</md:content-id>
+  <md:title>SSPD_Chapter1_Part 8_Electron in a Potential well_Formulation of Schrodinger Equation.</md:title>
+  <md:abstract>SSPD_Chapter 1_ Part 8 deals with Electron in a Potential Well. To solve this problem we first write the Hamiltonian and formulate the Schrodinger Equation.</md:abstract>
+  <md:uuid>0a617526-8f29-406e-8d1a-ca7fc8e9caa7</md:uuid>
+</metadata>
+<content>
+    <para id="id15503466">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 8_ ELECTRON IN 1-D POTENTIAL WELL_Formulation of Schrodinger Equation.</emphasis>
+    </para>
+    <para id="id15128569"><emphasis effect="bold"/>One Dimensional Potential Well can be of three types:</para>
+    <list id="id12153571" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>1-D Potential Well of infinite height;</item>
+      <item>1-D Potential Well of finite height;</item>
+      <item>1-D Potential Well of finite height and finite thickness;</item>
+    </list>
+    <para id="id10628448">Before analyzing electron in a potential well we will give the physical significance of matter wave.</para>
+    <para id="id9679146">Like electromagnetic waves, matter wave is a progressive or traveling harmonic wave. </para>
+    <para id="id15295876">For mathematical simplicity we will deal with waves having plane wavefront. These are called Plane Waves.</para>
+    <para id="id12061883">There can be traveling waves of spherical wavefront or cylindrical wavefront and these are known as spherical waves or cylindrical waves respectively.</para>
+    <para id="id12364379">In fact a spherical wave or cylindrical wave becomes a plane wave after they have traveled for a very long distance. As long as radius of curvature is finite we have cylindrical or spherical curvature and curvature is defined as 1/r where r is the radius of curvature. As soon as radius of curvature is infinite as it would be if the wave has traveled for a very long distance , the curvature becomes zero and the wave assumes a plane wavefront and it is called Plane Wave.</para>
+    <para id="id3083163">In Fig.(1.21) a Plane Transverse Electro-Magnetic Wave is shown.</para>
+    <para id="id16391958">
+      <emphasis effect="bold">E(z,t) = E</emphasis>
+      <emphasis effect="bold">x0</emphasis>
+      <emphasis effect="bold"> Exp[j(k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold">.z – ω.t)]</emphasis>
+    </para>
+    <para id="id12237153">
+      <emphasis effect="bold">H(z,t) = H</emphasis>
+      <emphasis effect="bold">y0</emphasis>
+      <emphasis effect="bold"> Exp [j(k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold">.z - ω.t)]  1.41</emphasis>
+    </para>
+    <para id="id16351899">Where k<sub>z</sub> = 2π/λ<sub>z</sub> = wave propogation vector or wave number;</para>
+    <para id="id16187756">And ω = 2 π ν = circular frequency;</para>
+    <para id="id18200202">A wave front is defined as front on which all points have same phase. If this front is plane we say we have a plane wave. If the front is cylindrical, we have cylindrical waves and if the wave front is spherical we have spherical waves.</para>
+    <para id="id16928856">The wave front moves with a velocity . This wave front velocity is the velocity of wave propogation.</para>
+    <para id="id8025800">i.e. k<sub>z</sub>.z - ω.t = constant = K</para>
+    <para id="id13690148">Taking the time derivative we obtain:</para>
+    <para id="id16681541">k<sub>z</sub>.∂z/∂t - ω.= 0</para>
+    <para id="id12090535">rearranging the terms we get: .</para>
+    <para id="id17809176">
+      <emphasis effect="bold">∂z/∂t = ω/ k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold"> = λ</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold">. ν = velocity of the progressive wave front.</emphasis>
+    </para>
+    <para id="id15466836">A phase term of the form (k<sub>z</sub>.z - ω.t) gives a forward traveling wave</para>
+    <para id="id19146339">whereas a phase term of the form(k<sub>z</sub>.z + ω.t) gives a backward traveling wave.</para>
+    <para id="id18280548">In absolute vacuum Electromagnetic Wave travels with velocity of light c=3×10<sup>8</sup>m/sec.</para>
+    <para id="id15453938">In absolute vacuum, ω/k<sub>z</sub> = λ<sub>z</sub>.ν = c = 3×10<sup>8</sup>m/sec (velocity of light, in absolute vacuum,is suppose to be an invariant quantity i.e. invariant with respect to the frame of reference<emphasis effect="bold">[Lorentz Invariance or Gauge Invariance – Appendix XXIX ]</emphasis>. This fact was established by Albert Abraham Michelson(1852-1931) and Edward Williams Morley(1838-1923) in their celebrated experiment known as Michelson-Morley experiment<emphasis effect="bold">[Appendix XXXIII ]</emphasis>. This is called Special Theory of Relativity which was propounded by Einstein in 1905).The Eq.(1.41) is the solution of the wave equation given in <emphasis effect="bold">Appendix(XXXIV)</emphasis>.</para>
+    <para id="id8314182">
+      <figure id="id7753709">
+        <media id="id7753709_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-ebb4.png" id="id7753709__onlineimage" height="288" width="449"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id19281983">Fig(1.21) A Progressive Plane Electro-Magnetic Wave.</para>
+    <para id="id15203228">An electromagnetic wave is a transverse wave because the oscillation is transverse to the direction of propagation. Electric field is oscillating in X direction and Magnetic Field is oscillating in Y direction whereas Z axis is the direction of propagation. Here X and Y axes are transverse to Z-axis. Maxwell equations constrain Electric field and Magnetic Field to be perpendicular to each other and also to the direction of propagation.</para>
+    <para id="id16359119">In contrast sound wave is a longitudinal wave because the medium particles oscillate in the same direction as the direction of propagation.</para>
+    <para id="id12674168"><emphasis effect="bold"/>In an identical manner Schrodinger<emphasis effect="bold">[Appendix XXXV]</emphasis> proposed the progressive matter wave:</para>
+    <para id="id13363477">In 1926 Schrodinger stated the Hamiltonian Equation:</para>
+    <para id="id18421241">H. ψ = E. ψ </para>
+    <para id="id15641168">where H is the Hamiltonian<emphasis effect="bold">[Appendix XXXVI ]</emphasis> Energy Operator =p<sup>2</sup>/(2m) + V(r);</para>
+    <para id="id13524471">and E is the total energy; </para>
+    <para id="id18715687">Using this Schrodinger Equation, solutions are obtained for an electron in a Hydrogen atom and the four quantum numbers are predicted namely Principal Quantum Number(n), Azimuthial Quantum Number (l), Magnetic Quantum Number (m) and Spin Quantum Number (s). These quantum numbers correctly explain the experimental results.</para>
+    <para id="id16429518">Still there was no direct proof for the existence of matter wave.</para>
+    <para id="id13674560">The mathematical form of the solution of Schrodinger Equation is : </para>
+    <para id="id15563857">
+      <emphasis effect="bold">ψ(z,t) = ψ</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">.Exp[j(k</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold">.z - ω.t)] 1.42</emphasis>
+    </para>
+    <para id="id15996663">Where k<sub>z</sub> = 2π/λ<sub>z</sub> = wave propogation vector or wave number;</para>
+    <para id="id13686537">And ω = 2 π ν = circular frequency;</para>
+    <para id="id19541167">And ψ = probability amplitude;</para>
+    <para id="id7209414">And ψ .ψ* = | ψ |<sup>2</sup> = probability density = probability of finding the particle per unit volume;</para>
+    <para id="id15878232">| ψ |<sup>2</sup>dV= probability of finding the particle in an elemental volume.</para>
+    <para id="id10662118">If | ψ |<sup>2</sup>dV is integrated over the total volume where the particle is likely to be found then the integral will come out to be unity. This means the particle is certainly present in the given volume over which the integration has been carried out.</para>
+    <para id="id7796729">If the integral is zero then it means it is impossible to find the particle in the given volume.</para>
+    <para id="id13707299">If integral is between 0 and 1 say 0.5 that means if hundred observations are made within the given volume then in fifty observations the particle is likely to be detected.</para>
+    <para id="id18728165">If integral is 0.25 then it implies that out of 100 observations 25 times the particle will be observed.</para>
+    <para id="id16317730">Therefore closed ∫<sub>V</sub> [| ψ |<sup>2</sup>dV] = probability of finding the particle in volume V; </para>
+    <para id="id13484718">Therefore<emphasis effect="bold"> ∫</emphasis><emphasis effect="bold">V</emphasis><emphasis effect="bold"> [| ψ |</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">dV] = 1</emphasis> implies certainty of finding the particle in V <emphasis effect="bold">1.43</emphasis></para>
+    <para id="id15716206">And <emphasis effect="bold">∫</emphasis><emphasis effect="bold">V</emphasis><emphasis effect="bold"> [| ψ |</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">dV] &lt; 1</emphasis> implies less than 100% probability of finding the particle in volume V  <emphasis effect="bold">1.44</emphasis></para>
+    <para id="id13684583">In spite of this correctness there were no direct experimental proofs for the matter wave though a THOUGHT EXPERIMENT had been proposed in early 70’s. </para>
+    <para id="id15083208">In 1985 this thought experiment was practically performed as shown in Figure(1.22). </para>
+    <figure id="id7784076">
+      <media id="id7784076_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-ec0f.png" id="id7784076__onlineimage" height="593" width="444"/>
+      </media>
+    </figure>
+    <para id="id10850940">Fig(1.22) Single slit light diffraction experiment. </para>
+    <para id="id10937091">Path length of ray 1 is = D/CosӨ </para>
+    <para id="id7659241">Path length of ray 2 is = D/CosӨ + d.SinӨ</para>
+    <para id="id12531654">Therefore the path difference = d.SinӨ</para>
+    <para id="id15129699">When d.SinӨ = nλ then we have a bright fringe and</para>
+    <para id="id12602678">When d.SinӨ = (n+ ½)λ then we obtain a dark fringe. Thus Single Slit Diffractin pattern of light consists of alternate bright and dark fringes.</para>
+    <para id="id18718011">If instead of light we use a very weak source of electrons then instead of bright and dark fringes we obtain the high and low probability of finding the electrons on different parts of the screen.</para>
+    <para id="id18118531">For this experiment the electron source should be weak enough to pass singally or one by one through the single slit. As a detector the positively charged anode plate should be used and the whole diffraction set up should be installed in an evacuated chamber as shown in Fig(1.23). The strength of current picked up from different parts of the screen is directly proportional to the probability of incidence of the incident electrons. In place of bright fringe we will obtain a large current and in place of dark fringe we will obtain a small current.</para>
+    <figure id="id18291045">
+      <media id="id18291045_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-fb5d.png" id="id18291045__onlineimage" height="283" width="509"/>
+      </media>
+    </figure>
+    <para id="id7374696">Fig(1.23) Electron Diffraction Set Up. </para>
+    <para id="id12635193">After giving a physical interpretation of the matter wave we will come to the statement of Schrodinger Equation.</para>
+    <para id="id15320387">Position (z) and momentum in z direction (p<sub>z</sub> ) are defined as canonical conjugate variables.</para>
+    <para id="id19525813">Similarly time (t) and energy (E) are also defined as canonical conjugate variables.</para>
+    <para id="id12625838">Momentum p<sub>z</sub> is defined as operator iћ∂/∂z and </para>
+    <para id="id19707669">Energy E is defined as -iћ∂/∂t .</para>
+    <para id="id12444432">Schrodinger used </para>
+    <para id="id12576815">Hamiltonian Operaror H = Kinetic Energy Operator + Potential Energy Operator.</para>
+    <para id="id15448853">Therefore <emphasis effect="bold">H = p</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/(2m) + V(z)   1.45</emphasis></para>
+    <para id="id19755180">When Operator H operates upon a matter wave then it yields the Eigen value of the energy of the matter wave.</para>
+    <para id="id15102843">Therefore <emphasis effect="bold">Hψ = Eψ   1.46</emphasis></para>
+    <para id="id12273214">Therefore [p<sup>2</sup>/(2m) + V(z)] ψ = Eψ   </para>
+    <para id="id15997083">Substituting p operator we get:</para>
+    <para id="id12560599">[-(ћ<sup>2</sup>/2m) ∂<sup>2</sup>/∂x<sup>2</sup> + V(z)]ψ = Eψ</para>
+    <para id="id15135353">Therefore -(ћ<sup>2</sup>/2m) ∂<sup>2 </sup>ψ /∂z<sup>2 </sup>= [E-V(x)] ψ</para>
+    <para id="id16389594">
+      <emphasis effect="bold">Or (ћ</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/2m) ∂</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">ψ /∂z</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">+ [E-V(z)] ψ = 0   1.47</emphasis>
+    </para>
+    <para id="id8082093">This is a second order linear differential equation known as the Schrodinger Equation and this has a standard procedure for its solution.</para>
+  </content>
+</document>

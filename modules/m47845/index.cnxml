@@ -1,0 +1,42 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 4. Section 4.2. Structure of IC NPN BJT.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47845</md:content-id>
+  <md:title>Chapter 4. Section 4.2. Structure of IC NPN BJT.</md:title>
+  <md:abstract>Section 4.2 gives the structure, diffusion profile and concentration profile of NPN BJT.</md:abstract>
+  <md:uuid>d555241b-0aa2-4ba6-8406-14ceaf2fe90b</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1171213577495">
+      <emphasis effect="bold">Chapter 4. Section 4.2. Structure of IC NPN BJT.</emphasis>
+    </para>
+    <para id="import-auto-id1171213592329">In Figure 4.2.1. the Cross-sectional view of Integrated Circuit Vertical NPN Transistor is shown.</para>
+    <figure id="import-auto-id1171215086028">
+      <media id="import-auto-id1171229353396" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-21b5.png" height="371" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235091759">In 1960, we had micron scale BJT with Base Width(W<sub>B</sub>) = 1μm. Today in 2013 we have nano-scale BJT with Base Width= 10nm. In last 50 years with the advancement of IC Technology we have scaled down the Base Width by 1/100 times. This has resulted in improvement of Transit Frequency f<sub>T</sub> from 100MHz to 500GHz. This is 5000 times improvement in speed.</para>
+    <para id="import-auto-id1171218574162">Figure 4.2.2. gives the top view of Vertical NPN Transistor. As seen in Figure 4.2.1. There is 400 micron thick wafer of 300mm diameter. Now we are moving to 450mm diameter wafer for IC fabrication. This is called the substrate and it provides the mechanical strength to the IC fabricated over it. Where ever vertical NPN transistor is situated underneath it 1 micron deep Buried Layer is provided to give a very low resistance path to the collector current. If Buried Layer is not there then collector bulk series resistance will become high leading to large Vsat voltages.</para>
+    <para id="import-auto-id1171235057048">In saturation mode, transistor operates in cut-off mode and saturation mode. In Cut-off Mode transistor gives 5V output which corresponds to ‘1’ bit. In Saturation Mode transistor output is 0.2V and this corresponds to ‘0’ bit. If buried layer is not introduced then there will be considerable drop across series resistance of Collector bulk leading to Vsat = more than 1V. This is not a realistic ‘0’ bit. Hence buried layer is essential in case of Logic Applications. </para>
+    <figure id="import-auto-id1171234263982">
+      <media id="import-auto-id1171219043058" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-8520.png" height="355" width="623"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235534162">In Figure 4.2.3. the concentration profile before and after compensation is shown for IC Vertical NPN Transistor. The substrate is a wafer of 400μm thickness and has uniform doping of 10<sup>15</sup> per cc which corresponds to a ρ = 10 Ω-cm. Over the substrate a 10μm thick N-Type epitaxial layer is grown with a background doping of 10<sup>16</sup> per cc which corresponds to 0.1 Ω-cm. The actual IC components are fabricated in the epitaxial layer. The substrate is only for providing mechanical strength to the IC. Metallic interconnections (of Al or Cu) are made on the top surface of the epitaxial layer. Hence it is called Planar Technology.</para>
+    <para id="import-auto-id1171234503635">Base diffusion is a long drive-in for several hours from a limited source up to more than 3μm depth. Hence Base Diffusion Profile is a Gaussian Profile.</para>
+    <para id="import-auto-id1171234266084">Emitter Diffusion is a short diffusion from infinite source. Hence Emitter Diffusion is a complementary error function.</para>
+    <para id="import-auto-id1171213556885">After compensation we obtain an Abrupt Junction at EB metallurgical junction and we obtain linearly-graded junction at BC metallurgical junction.</para>
+    <para id="import-auto-id1171235483468">Emitter is heavily N-type doped at 10<sup>20</sup>/cc. This is equivalent to Sheet Resistance R<sub>Sheet</sub>=1Ω/square. In contrast Base is linearly graded from 10<sup>17</sup>/cc on Emitter side to 0 /cc on Collector side. This corresponds to R<sub>Sheet</sub> = 200Ω/cc. This large differential in sheet resistance helps achieve Emitter Injection Efficiency of nearly 100%. The linearly graded impurity profile creates an in-built electric field which aids the diffusion of minority carriers across the Base Junction as we will see in the Design Rules.</para>
+    <para id="import-auto-id1171235570363">17<figure id="import-auto-id1171234370226"><media id="import-auto-id1171234318041" alt=""><image mime-type="image/png" src="../../media/Picture 4-62c6.png" height="540" width="623"/></media></figure></para>
+    <para id="import-auto-id1171234991296">In Figure 4.2.4. we show the structure of Schottky Clamped NPN Transistor. As shown in the Figure 4.2.4. the Base Metallic Contact is extended upto collector. Metal-N-Type Semiconductor Interface becomes a Schottky Diode.</para>
+    <para id="import-auto-id1171213594244">This modification greatly reduces the switching time of TTL gates. Without Schottky Diodes, when “1” bit is impressed on the Base of a RTL Inverter, the base current drives the Gate Transistor is  into ‘DEEP SATURATION’. But in case of Schottky Clamped transistor, even before BC Junction is forward biased, Schottky diode turns ON and shunts the base current as a result Gate Transistor is driven into Shallow Saturation and minority carrier build-up in Base is limited. Hence Transistor easily switches off. This results into much faster switching of Schottky Clamped TTL gates.</para>
+    <figure id="import-auto-id1171235766499">
+      <media id="import-auto-id1171213570943" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-a782.png" height="300" width="624"/>
+      </media>
+    </figure>
+  </content>
+</document>

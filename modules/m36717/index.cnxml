@@ -1,0 +1,156 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 4_The instability of MOS in 60s and its soluion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36717</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 4_The instability of MOS in 60s and its soluion</md:title>
+  <md:abstract>SSPD_Chapter 6_ Part 4 deals with the instability of MOS in 60s and how this problem was solved.</md:abstract>
+  <md:uuid>095175f5-ba62-462e-8383-6546f3feed1b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167126339861">SSPD_Chapter 6_Part 4_The instability problem of MOS devices and its solution</para>
+    <para id="id1167119295712">In 1965 a very important paper was published "Investigation of Thermally Oxidized Silicon Surfaces Using Metal-Oxide-Semiconductor Structures" in<emphasis effect="italics"> Solid State Electronics </emphasis>in 1965. Due to electrical instability of Gate Oxide in MOS devices, commercial MOS ICs were not available in 60s. To overcome this instability, extensive studies were made of gate oxides using C-V measurements method. </para>
+    <figure id="id3119923">
+      <media id="id3119923_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-8fbd.png" id="id3119923__onlineimage" height="465" width="635"/>
+      </media>
+    </figure>
+    <para id="id3047777">
+      <emphasis effect="bold">Figure 6.32 MOS C-V measurement method under steady state DC gate voltage bias.</emphasis>
+    </para>
+    <para id="id1167120776772">MOS capacitance is Aluminum Gate contact deposited on dielectric SiO<sub>2</sub> thermally grown on P type Si-substrate. Here we assume that there are very little charges or defects in the oxide or at the interface of Si/SiO<sub>2</sub> or in the P type Si-Substrate.</para>
+    <para id="id1167119342097">There are four kinds of charges/defects present in Si/SiO<sub>2</sub> system which have been identified through C-V measurement curves namely:</para>
+    <list id="id1167122888144" list-type="enumerated" number-style="lower-alpha">
+      <item>Fixed Oxide Charge (Q<sub>f</sub>) – this is about 10<sup>9</sup> to 10<sup>11</sup>cm<sup>-2</sup>. This lies in the gate oxide 2nm distant from the interface. It likely to be associated with the transition from Si to SiO<sub>2</sub> . It is positive fixed charge and does not vary during the operation of the device.</item>
+      <item>Interface trapped Charge ( Q<sub>it</sub>) also known as surface states – this is possibly the incompletely oxidized Si atoms creating unsatisfied or dangling bond in the oxide layer but very near to the interface. They act as traps which can trap the mobile carrier of the channel. It will trap electrons in NMOS hence act as (-)ve charge and it will trap holes in case of PMOS acting as (+)ve charge. These act very much like bulk deep-level traps. The energy associated with the interface traps lie all along the forbidden gap but more so near the conduction band and the valence band. Oxidizing Si causes Q<sub>it</sub> = 10<sup>9</sup> to 10<sup>11</sup>cm<sup>-2</sup>eV<sup>-1</sup>. This is of the same order as fixed oxide charge and it is experimentally established that both have the same origin hence higher fixed oxide charge implies higher interface trapped charges.</item>
+      <item>Mobile Oxide Charge ( Q<sub>m</sub>) – these are generally sodium (Na<sup>+</sup>) and potassium (K<sup>+</sup>) ions. These were the main culprits which were making MOS ICs technically unviable in 60s. These mobile charges were causing the instability in the threshold voltages. These were controlled by Phosphate doped SiO<sub>2</sub> (P-glass) and by replacing the tungsten filament for electron beam deposition of Aluminum Contact. Tungsten filament was the main source of Alkali ion contamination. It was also experimentally established that the shift in V<sub>th</sub> is inversely proportional to C<sub>ox</sub> hence in subsequent years with scaling as C<sub>ox </sub>increased the instability of the threshold voltage became less of a problem.</item>
+      <item>Oxide trapped Charges ( Q<sub>ot</sub> ) – these are defects in the oxide layer which can trap electron or holes or both. These defects are caused due to broken Si and O bond due to ionizing radiation or due to process steps such as plasma etching or ion-implantation. These can be annealed and thereby minimized. But if they are not repaired they will cause trapped charges which will effect the threshold voltage of the MOS device. With scaling there is hot carrier effect and injection of hot carriers into oxide which may be trapped in these defects or the injected hot carriers may themselves cause defects leading to trapping of charges. These trapped charges will cause threshold instability.</item>
+    </list>
+    <para id="id1167119521412">Case 1. When gate voltage is (-) ve we get accumulation layer at the interface of Si/SiO<sub>2</sub>.</para>
+    <para id="id1167121790364">The negative charge on the gate (Q<sub>g</sub>) is exactly balanced by the accumulation of holes (Q<sub>a</sub>) in the substrate just below the oxide layer. There is band bending in the Si-substrate due to the negative gate bias. This band bending results in valence band coming nearer to the Fermi-level as shown in Figure 6.33. This results in P-type semi-conductor becoming more P-type resulting in accumulation layer of holes just under the oxide layer. If at high frequency from (100kHz to 1MHz) the small signal capacitance is measured , the capacitance value is :</para>
+    <para id="id1167123174233">C<sub>ox</sub> = (ε<sub>0</sub>ε<sub>oxide</sub> )A/(t<sub>oxide</sub>)_______________________________________________(6.6) </para>
+    <para id="id1167120030249">The measured value is given in upper part of Figure 6.32.</para>
+    <para id="id1167134316039">
+      <figure id="id1167125068866">
+        <media id="id1167125068866_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-65b4.png" id="id1167125068866__onlineimage" height="386" width="453"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167120407020">
+      <emphasis effect="bold">Figure 6.33 Creation of Accumulation layer below the oxide layer in the Si-substrate under (-)ve gate bias in an ideal MOS diode where energy band is flat when gate bias is zero.</emphasis>
+    </para>
+    <para id="id1167126465580">Case 2. When gate voltage is zero we get flat band condition since we have assumed ideal MOS diode.</para>
+    <para id="id1167126077814">Ideal MOS Diode has the following properties:</para>
+    <list id="id1167124234985" list-type="enumerated" number-style="lower-alpha">
+      <item>Energy Band is flat under no bias condition as shown in Figure 6.34;</item>
+      <item>Only charges are in the channel and in the gate and they are equal and opposite;</item>
+      <item>No carrier transport.</item>
+    </list>
+    <para id="id1167132546075">As seen in Figure 6.34, there is no band bending and if the small signal capacitance is measured at HF we get slightly less than C<sub>ox</sub> as indicated in the middle diagram of Figure 6.32.</para>
+    <para id="id1167126412670">
+      <figure id="id1167122611233">
+        <media id="id1167122611233_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-bf75.png" id="id1167122611233__onlineimage" height="463" width="605"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> Figure 6.34 Ideal MOS diode under zero bias condition.</emphasis>
+    </para>
+    <para id="id1167124394871">Case 3. When gate voltage is (+) ve biased then the holes in the substrate nearest the interface are pushed away from the interface and depletion layer ‘d’micron wide is formed. The positive gate charge is balanced by the exposed (-) ve ionic immobile charge in the depletion layer. This (-) ve ionic immobile charge is due to negatively charged Boron atoms which have created the holes and in the process, by acquiring electrons, have become negatively charged.</para>
+    <para id="id1167120723588">The positive gate charge Q<sub>g </sub>= Q<sub>d</sub> the depletion layer negative charge.</para>
+    <para id="id1167132063567">Now if small signal capacitance is measured at HF we measure the series combination of C<sub>ox </sub>and C<sub>D</sub></para>
+    <para id="id1167120545543">where C<sub>D </sub>= [ε<sub>0</sub> ε<sub>Si</sub> A/d] and d = depletion width___________________________(6.7)</para>
+    <para id="id1167119777662">The measured C = [C<sub>ox </sub>× C<sub>D</sub> /( C<sub>ox </sub>+ C<sub>D</sub>)]________________________________(6.8)</para>
+    <para id="id1167119371561">The measured value of C is shown in the middle diagram of Figure 6.32</para>
+    <para id="id1167117714594"/>
+    <figure id="id1167126713514">
+      <media id="id1167126713514_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-0ed7.png" id="id1167126713514__onlineimage" height="453" width="507"/>
+      </media>
+    </figure>
+    <para id="id1167118791834">Figure 6.35 MOS Diode under positive gate bias.</para>
+    <para id="id1167124107751">Case 4. When Gate bias voltage exceeds threshold voltage.</para>
+    <para id="id1167129363185">The depletion layer will go on widening until threshold voltage is crossed. At the crossing of the Threshold Voltage , the layer of the substrate below the oxide layer is inverted as shown in Figure 6.36. P-type becomes N-type over a thin layer called inversion layer. A 2-D sheet of electron channel is formed just underneath the oxide later amounting to Q<sub>i</sub> . Now the increase in gate bias voltage causes the electron density to become more copious. That is the channel becomes more conductive. But the depletion layer gets pinned at d<sub>max.</sub>. In other words increase in gate charge Q<sub>g</sub> is balanced by increase in Q<sub>i </sub>in steady state condition or in slow variation condition.</para>
+    <para id="id1167120843719">
+      <figure id="id1167126524288">
+        <media id="id1167126524288_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-f03d.png" id="id1167126524288__onlineimage" height="438" width="497"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167132087167">Figure 6.36. Ideal MOS diode with gate bias exceeding threshold voltage.</para>
+    <para id="id1167126061272">The n type channel has its electrons thermally generated hence its response is slow. Therefore when small signal capacitance is measured at HF then the rapid variation in gate charge can be matched only by the rapid variation in depletion width d<sub>max.</sub> and hence ΔQ<sub>g </sub>is balanced ΔQ<sub>d</sub> .</para>
+    <para id="id1167123520240">Therefore the capacitance measured is:</para>
+    <para id="id1167126214466">C<sub>min</sub> = series combination of C<sub>ox </sub>and C<sub>Dmin</sub> =[ (C<sub>ox </sub>× C<sub>Dmin</sub> ) / (C<sub>ox </sub>+ C<sub>Dmin</sub> )]_______(6.9)</para>
+    <para id="id1167132481664">Where C<sub>Dmin = </sub>= [ε<sub>0</sub> ε<sub>Si</sub> A/d<sub>max</sub> ]_________________________________________(6.10)</para>
+    <para id="id1167131901733">But under the same DC gate voltage if LF(Low Frequency) small signal capacitance is measured then ΔQ<sub>g </sub>is balanced by ΔQ<sub>i</sub> instead of ΔQ<sub>d</sub> because under low speed variation condition or under steady state condition electrons of the inversion layer can easily be thermally generated or recombined. Hence LF capacitance measured will be C<sub>ox</sub> as shown in Figure 6.37</para>
+    <para id="id1167132291529">
+      <figure id="id1167120928646">
+        <media id="id1167120928646_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-bd58.png" id="id1167120928646__onlineimage" height="434" width="581"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167119274658">Figure 6.37 Ideal MOS capacitance curves at high and low frequencies.</para>
+    <para id="id1167132583105">But in reality , depending on the preparation conditions of the oxide, how it was formed and so on, will determine what electrical characteristics you have.In actual practice the position of the shape of C-V measurement in Figure 3.37 is not obtained.</para>
+    <para id="id1167126077292">The position of that capacitance drop along the voltage axis compared to a corresponding theoretical plot, is a measure of the number of charges in the oxide.</para>
+    <para id="id1167124587593">The more positive charges in the oxide, for instance, the point where the capacitance drops along the voltage axis will move to the left, to more negative values as shown in Figure 6.38. If you have, for instance, negative charges in the oxide, the curve will be shifted in the positive direction compared to the theoretical plot.</para>
+    <para id="id1167120941419">
+      <figure id="id1167122108776">
+        <media id="id1167122108776_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-7b45.png" id="id1167122108776__onlineimage" height="419" width="611"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167123120574">
+      <emphasis effect="bold">Figure 6.38 Departure or parallel shift from Ideal Curve (a) due to flat band voltage V</emphasis>
+      <emphasis effect="bold">FB</emphasis>
+      <emphasis effect="bold">, Fixed Oxide Charge (Q</emphasis>
+      <emphasis effect="bold">f</emphasis>
+      <emphasis effect="bold">), Mobile Oxide Charge (Q</emphasis>
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold">), Interface trapped Charge ( Q</emphasis>
+      <emphasis effect="bold">it</emphasis>
+      <emphasis effect="bold">), Oxide trapped Charges ( Q</emphasis>
+      <emphasis effect="bold">ot</emphasis>
+      <emphasis effect="bold"> )</emphasis>
+    </para>
+    <para id="id1167120624814">We can measure the position of the C-V curve along the voltage axis before and after moving the sodium ions from the field plate interface to the silicon oxide interface using a bias-temperature stress test. You can move them back and forth and watch the C-V curve shift back and forth. This gives you a tool to measure the effect of all sorts of process conditions on charge formations. Stress conditions are normally ±50V/um of oxide, 300° C, and 2 minutes.</para>
+    <para id="id1167140691095">
+      <emphasis effect="bold">Table 6.9 Comparative study of density of various charges in two different orientations Si crystals</emphasis>
+    </para>
+    <table id="id1167120705898" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>&lt;100&gt;</entry>
+            <entry>&lt;111&gt;</entry>
+          </row>
+          <row>
+            <entry>Qit</entry>
+            <entry>10<sup>10</sup>/cm<sup>2</sup>/eV</entry>
+            <entry>10<sup>11</sup>/cm<sup>2</sup>/eV</entry>
+          </row>
+          <row>
+            <entry>Qf</entry>
+            <entry>10<sup>10</sup>/cm<sup>2</sup></entry>
+            <entry>5×10<sup>10</sup>/cm<sup>2</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167126224783">All four types of charges have deleterious effect on device operation. During fabrication we choose process sequences which will minimize the charges. By high temperature inert anneals in Ar and N<sub>2</sub> towards the end of the process flow and a moderate 400°C anneal in H<sub>2</sub> or forming gas (N<sub>2</sub>/H<sub>2</sub>) at the end of the process accomplishes this.</para>
+    <para id="id1167135661310">The instabilities that had been noted over these years in thermal oxides and MOS transistors, were actually due to mobile ions, like sodium, lithium, potassium. Very interesting series of events were occurring, in that there were several laboratories working on the same problem. IBM, RCA, Bell Laboratories, Philco and a couple of others.</para>
+    <para id="id1167126272085">In '64 the PLANAR-II technology was introduced for the fabrication of stable MOS. The PLANAR-II was a term that was used to denote stable MOS. </para>
+    <para id="id1167119261850">In order to fabricate stable MOS we go through the following steps:</para>
+    <para id="id1167135735408">1.Using a clean metallization system, that is using electron-beam metallization, rather than filament metallization, which had been used previously. </para>
+    <para id="id1167124290945">2.To minimize the sodium incorporation into the process gettering steps were used. Here phosphorous is deposited on Silicon Dioxide to form phosphosilcate glass (PSG). This PSG is used to actually suck the impurity ions out of the oxide after they get in there. Impurity got in there after all of the attempts to keep them out. </para>
+    <para id="id1167128070463">To stabilize MOS device a vapor-deposited oxide is needed at the final stage of fabrication. This is needed for passivation and stable performance where the oxide is produced in the vapor phase and deposited over the device or circuit. We cannot do thermal oxidation as it is done after metallization. The process that was initially used was called TEOS, which was tetraethylorthosilicate.</para>
+    <para id="id1167119183244">A process which involved the breakdown of a organic oxygen-containing compound to form SiO2. This was done at about 750 degrees. The problem with this process is 750 degrees is way over the melting point of aluminum, and we desired to have something that would go down under 450 degrees, be deposited at less than 450 degrees. Silane, SiH4, can be reacted with oxygen, to produce SiO2. Again, a vapor-deposited process, but it would be deposited around 400 degrees. This helped achieve deposited oxide that would go over an integrated circuit, having metallized aluminum as the interconnect material.. Now it's quite a standard process. This standard process has added plasma, activated process with plasma, which produces a more even, uniform oxide.</para>
+    <para id="id1167130146991">Once the fabrication of stable MOS was achieved it became the brick for building all of the microprocessors. </para>
+  </content>
+</document>

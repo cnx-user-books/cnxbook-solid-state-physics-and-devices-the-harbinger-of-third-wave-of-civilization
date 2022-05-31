@@ -1,0 +1,308 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Tutorial Sheet of Chapter 3.Diode Physics.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47716</md:content-id>
+  <md:title>Tutorial Sheet of Chapter 3.Diode Physics.</md:title>
+  <md:abstract>This is a tutorial sheet on Chapter 3 on Diode Physics.</md:abstract>
+  <md:uuid>570e9291-202b-40e8-adc5-1cd1e432e595</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id4982967">
+      <emphasis effect="bold">Tutorial Sheet of Chapter 3.Diode Physics.</emphasis>
+    </para>
+    <para id="import-auto-id1172093844982"><emphasis effect="bold">Question 1</emphasis>. Pspice is a software which is used for Circuit and System Simulation. The Diode adopted in it, if not specified, has the following fabrication parameters and geometrical dimensions:</para>
+    <table id="import-auto-id8561121" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>P-doping</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>N-doping</entry>
+            <entry>5×10<sup>15</sup>/cc</entry>
+            <entry>comments</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Abrupt Junction</entry>
+            <entry>m= 1/2</entry>
+            <entry>NA</entry>
+            <entry>NA</entry>
+            <entry>C<sub>j </sub>varies as 1/√(Φ<sub>BO</sub>+V<sub>R</sub>)</entry>
+          </row>
+          <row>
+            <entry>W<sub>P</sub></entry>
+            <entry>5μm</entry>
+            <entry>W<sub>N</sub></entry>
+            <entry>5μm</entry>
+            <entry>Bulk Width on two sides</entry>
+          </row>
+          <row>
+            <entry>Cross-SectionalArea</entry>
+            <entry>NA</entry>
+            <entry>NA</entry>
+            <entry>NA</entry>
+            <entry>100μm×100μm</entry>
+          </row>
+          <row>
+            <entry>Diffusion Coeff.</entry>
+            <entry>D<sub>P</sub>=10cm<sup>2</sup>/s</entry>
+            <entry>NA</entry>
+            <entry>D<sub>N</sub>=30cm<sup>2</sup>/s</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Life Time</entry>
+            <entry>τ<sub>P</sub>=0.1μs</entry>
+            <entry>NA</entry>
+            <entry>τ<sub>N</sub>=0.1μs</entry>
+            <entry>τ(depletion)=0.1μs</entry>
+          </row>
+          <row>
+            <entry>Mobility</entry>
+            <entry>384cm<sup>2</sup>/(V-s)</entry>
+            <entry>NA</entry>
+            <entry>1153cm<sup>2</sup>/(V-s)</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Diffusion Length</entry>
+            <entry>0.001cm=10μm</entry>
+            <entry/>
+            <entry>0.001732cm=17.32μm</entry>
+            <entry>L<sup>2</sup>=Dτ</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id7318761">NA-not applicable.</para>
+    <para id="import-auto-id1172094300843">i.The current density should not exceed 10<sup>3</sup>A/cm<sup>2</sup>.If the current density exceeds this value it is going to disrupt Aluminum interconnections. Nowadays with the scaling reaching its limit, the above current density is being exceeded leading to the failure of the devices. Hence Al interconnection is being superseded by Cu interconnection.</para>
+    <para id="import-auto-id5473818">Hence if the maximum rated current is 100mA then the cross-sectional area should be 100μm×100μm.</para>
+    <para id="import-auto-id1172093801882">ii.Since Diffusion Length is longer than Bulk width hence it is Narrow Bulk Diode.</para>
+    <para id="import-auto-id1172094783627">iii.The total depletion width = </para>
+    <para id="import-auto-id7256311"><figure id="import-auto-id7914313"><media id="import-auto-id1172095200152" alt=""><image mime-type="image/png" src="../../media/graphics1-1e92.png" height="42" width="412"/></media></figure>=0.68V </para>
+    <figure id="import-auto-id6044267">
+      <media id="import-auto-id7747914" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-4ece.png" height="23" width="234"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6526117">iv.Junction Capacitance=<figure id="import-auto-id6365359"><media id="import-auto-id7099983" alt=""><image mime-type="image/png" src="../../media/graphics3-b114.png" height="32" width="103"/></media></figure>;</para>
+    <para id="import-auto-id7265726">v. Reverse Saturation Current=Reverse Leakage Current for Narrow Bulk Diode=</para>
+    <figure id="import-auto-id2650869">
+      <media id="import-auto-id1172094196779" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-8aa1.png" height="46" width="310"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1172094436197">vi. Reverse Leakage Current for a Wide Bulk Diode (when Bulk Width is 10 times the diffusion length then we fulfill the criteria for Wide Bulk Diode)=</para>
+    <figure id="import-auto-id1172093823318">
+      <media id="import-auto-id8528494" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-7b84.png" height="46" width="222"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1172094256625">As we see the leakage current in Narrow Bulk Diode is larger than that in Wide Bulk Diode which is not desirable but its switching transients are much better as the minority carrier stored can be reduced considerably by reducing the bulk width.</para>
+    <para id="import-auto-id5988587">vii. The Calculation of Avalanche Break-Down Voltage=BV<sub>A</sub> :</para>
+    <para id="import-auto-id1172094705669">At the Avalanche breakdown point, E<sub>max</sub> at the metallurgical junction is equal to E<sub>critical </sub>= 5×10<sup>5</sup>V/cm and let the depletion width be d* then from the first principles:</para>
+    <figure id="import-auto-id6144759">
+      <media id="import-auto-id5205270" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-b40d.png" height="39" width="182"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6059521">Solving this equation we get: √(Φ<sub>BO</sub>+BV<sub>A</sub>) = 15.2989</para>
+    <para id="import-auto-id7058707">Therefore:  (Φ<sub>BO</sub>+BV<sub>A</sub>) = 234.05</para>
+    <para id="import-auto-id8222418">Therefore BV<sub>A</sub> = 233.37V.</para>
+    <para id="import-auto-id8593202">Calculate : i. Reverse Saturation Current [Answer 10<sup>-14</sup>A=10fA]</para>
+    <para id="import-auto-id1172093106677">ii.Junction Capacitance at zero bias [Answer 2pF]</para>
+    <para id="import-auto-id1172095690572">iii.Built-in barrier Potential [Answer 0.68V]</para>
+    <para id="import-auto-id8077594">iv.BV<sub>A</sub> ( Avalanche Breakdown Voltage) [Answer 233V]</para>
+    <para id="import-auto-id1172093492617">Once the design is complete the fabrication parameters, the method of diffusion and geometrical dimensions are sent to the Solid State foundry where the given Diode is fabricated and sent back to the customer for testing the design parameters.</para>
+    <para id="import-auto-id1172094942579"><emphasis effect="bold">Question 2</emphasis>. For an abrupt junction diode, N<sub>A</sub>=10<sup>17</sup>/cc and N<sub>D</sub>=10<sup>16</sup>/cc.</para>
+    <list id="import-auto-id1172093144971" list-type="enumerated" number-style="lower-alpha">
+      <item>Determine built-in barrier potential?[0.778V]</item>
+      <item>Determine total depletion width under no bias condition?[0.33μm, here permittivity </item>
+    </list>
+    <para id="import-auto-id1172093166249">ε=10<sup>-10</sup>F/m]</para>
+    <para id="import-auto-id1172094226027"><emphasis effect="bold">Question 3. </emphasis>Fill up the Table Below:</para>
+    <table id="import-auto-id6296639" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>N<sub>A</sub>(per cc)</entry>
+            <entry>N<sub>D</sub>(per cc)</entry>
+            <entry>Φ<sub>BO</sub>(V)</entry>
+            <entry>d<sub>0</sub>(μm)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>10<sup>17</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>2.5×10<sup>16</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id5777329">
+      <emphasis effect="bold">Answer:</emphasis>
+    </para>
+    <table id="import-auto-id1172094648457" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>N<sub>A</sub>(per cc)</entry>
+            <entry>N<sub>D</sub>(per cc)</entry>
+            <entry>Φ<sub>BO</sub>(V)</entry>
+            <entry>d<sub>0</sub>(μm)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>10<sup>17</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>0.778</entry>
+            <entry>0.327</entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>0.898</entry>
+            <entry>0.335</entry>
+          </row>
+          <row>
+            <entry>2.5×10<sup>16</sup>/cc</entry>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>0.682</entry>
+            <entry>0.345</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id7333475"><emphasis effect="bold">Question 3.</emphasis>Determine E<sub>max</sub> and d<sub>no</sub> and d<sub>po</sub> in Problem 2?</para>
+    <para id="import-auto-id6272125">[E<sub>max</sub>=47.584KV/cm, d<sub>po</sub>=0.0297μm, d<sub>no</sub>=0.297μm]</para>
+    <para id="import-auto-id2618373"><emphasis effect="bold">Question 4. </emphasis>If reverse saturation current =40fA then determine I<sub>D</sub> for V<sub>D</sub> = 0.7V and V<sub>D</sub> = 0.55V[Answer 19.7mA, 61.525μA].</para>
+    <para id="import-auto-id7626661">If forward diode current = 6mA the determine the applied voltage across the diode?[0.669V]</para>
+    <para id="import-auto-id6440192">Assume Ideality factor =1 .</para>
+    <para id="import-auto-id1172093134294"><emphasis effect="bold">Question 5. </emphasis>If reverse saturation current =5fA then determine I<sub>D</sub> for V<sub>D</sub> = - 0.04V and V<sub>D</sub> =</para>
+    <para id="import-auto-id6320235"> -2V[Answer -3.92fA, -5fA].</para>
+    <para id="import-auto-id7015660"><emphasis effect="bold">Question 6. </emphasis>When I<sub>D</sub>=1.14mA  what is V<sub>D</sub> at 300K if I<sub>DO</sub>=5fA.[Ans.0.68V]</para>
+    <para id="import-auto-id6118367">What is the diode voltage at275K and at 350K if Diode Current is to be maintained constant.[0.742V,0.555V] </para>
+    <para id="import-auto-id1172093807782">Diode Forward Voltage V<sub>D</sub> changes by -2.5mV per Kelvin for maintaining the forward diode current constant. </para>
+    <para id="import-auto-id7585085"><emphasis effect="bold">Question 7.</emphasis>Given η=1,I<sub>DO</sub>=10fA and Thermal Voltage(V<sub>Th</sub>) =25mV. Determine  diode current at Diode Voltage=0.7V,0.65V,0.6V,0.4V,-0.1V and -5V.</para>
+    <para id="import-auto-id7691393">[Answer:14.46mA,1.95mA,0.26mA,88nA,-9.8fA and -10fA]</para>
+    <para id="import-auto-id7505806"><emphasis effect="bold">Question8.</emphasis>Given η=1,I<sub>DO</sub>=100fA and Thermal Voltage(V<sub>Th</sub>) =25mV. Determine  diode current at Diode Voltage=0.4V and determine diode voltage for diode current=1mA.</para>
+    <para id="import-auto-id1172094852291">[0.888μA,0.576V]</para>
+    <para id="import-auto-id1172094269855"><emphasis effect="bold">Question 9.</emphasis> Given η=1,determine the factor by which current increases if forward diode voltage is increased by 100mV.[Hint:60mV increase gives a decade increase; Answer: factor of 46.4]</para>
+    <para id="import-auto-id6503439"><emphasis effect="bold">Question 10.</emphasis>In a Si Diode 1N4135, I<sub>DO</sub>(300K)=10nA. Determine I<sub>DO</sub>(316K). [30.3nA]</para>
+    <para id="import-auto-id8505132">Hint: I<sub>DO</sub>(316K)= I<sub>DO</sub>(300K)×2<sup>(T-300K)/10K</sup> = 10nA×2<sup>(316K-300K)/10K</sup>=10nA×2<sup>1.6</sup>=30.3nA.</para>
+    <para id="import-auto-id1172094179154"><emphasis effect="bold">Question 11.</emphasis>At 300K, forward bias of a diode = 0.7V and forward diode current = 7.42mA. To maintain the current constant at 7.42mA determine V<sub>D</sub>* at 316K. [660mV]</para>
+    <para id="import-auto-id7775580"><emphasis effect="bold">Question 12.</emphasis> In 1N4135, at 300K the current flowing through the diode is I<sub>D</sub> = 10mA </para>
+    <para id="import-auto-id7313657">given I<sub>DO</sub>(300K)<sub/>= 10nA and η=2 . Using the Real Diode Equation, forward diode Voltage is determined to be V<sub>D</sub> =0.7185V.</para>
+    <para id="import-auto-id4007975">If  the forward diode current is to be maintained constant at 10mA then determine V<sub>D</sub> at 290K, 310K and at 320K.</para>
+    <para id="import-auto-id8070906">Solution : Using the Real Diode Equation we get:</para>
+    <figure id="import-auto-id7070019">
+      <media id="import-auto-id8718225" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-0726.png" height="48" width="238"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1172093184780">Using the above equation we obtain forward diode voltage at T =290K, 300K, 310K and 320K.</para>
+    <para id="import-auto-id1172094679669">The answers are:</para>
+    <table id="import-auto-id1172094299768" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>Temperature(K)</entry>
+            <entry>290</entry>
+            <entry>300</entry>
+            <entry>310</entry>
+            <entry>320</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>V<sub>D</sub>(V)</entry>
+            <entry>0.725</entry>
+            <entry>0.714</entry>
+            <entry>0.701</entry>
+            <entry>0.6855</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id6379051"><emphasis effect="bold">Question 13.</emphasis> Given I<sub>DO</sub>(300K) = 10nA,η = 2. Determine I<sub>D</sub> at V<sub>D</sub> = 0.6V and at 0.7V. [Ans. 1.02mA and 7mA]</para>
+    <para id="import-auto-id1172095317326">If I<sub>D</sub> = 5mA then determine V<sub>D</sub> at 300K.  [Ans. 0.682V]</para>
+    <para id="import-auto-id1172094906033"><emphasis effect="bold">Question 14.</emphasis> In a given Si-Diode, I<sub>DO</sub>(300K) = 1nA,η = 2. At 300K, determine I<sub>D</sub> at V<sub>D</sub> = 0.7V, 0.1V, 0V, -0.1V  and at -0.7V.</para>
+    <para id="import-auto-id7619701">[Ans. 0.702mA, 5.8nA, 0A, -0.854nA, -1nA]</para>
+    <para id="import-auto-id7065551"><emphasis effect="bold">Question 15.</emphasis> In a given Si-Diode, I<sub>DO</sub>(300K) = 1nA,η = 2. At 300K, determine V<sub>D</sub></para>
+    <para id="import-auto-id6141917">at I<sub>D</sub> = -0.5nA, 0A, 0.5nA, 50nA and 50μA.</para>
+    <para id="import-auto-id1172093497801">[Ans. -0.036V, 0V, 0.021V,0.204V, 0.563V]</para>
+    <para id="import-auto-id6032972"><emphasis effect="bold">Question 16.</emphasis>(a)Determine built-in barrier potential Φ<sub>BO</sub> in a Si-diode. Silicon packing density is 5×10<sup>22</sup>atoms/cc. P-Side doping is 1Acceptor Atom per 10<sup>8</sup> of Si Atoms and N-Side doping is 2 Donor Atoms per 10<sup>7</sup> of Si Atoms.  </para>
+    <para id="import-auto-id7945155">Hint: P-Side doping is 1Acceptor Atom per 10<sup>8</sup> of Si Atoms implies N<sub>A</sub> = (5×10<sup>22</sup>/10<sup>8</sup>)<sup/>/cc = 5×10<sup>14</sup>/cc.</para>
+    <para id="import-auto-id8198690">N-Side doping is 2 Donor Atoms per 10<sup>7</sup> of Si Atoms implies N<sub>D</sub> = (5×10<sup>22</sup>/(10<sup>7</sup>/2)<sup/>)<sup/>/cc=1×10<sup>16</sup>/cc.</para>
+    <para id="import-auto-id1172093138707">[Ans.0.64V]</para>
+    <para id="import-auto-id1172095007789">(b) Determine built-in barrier potential Φ<sub>BO</sub> in a Si-diode where :</para>
+    <table id="import-auto-id1172093188629" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>P-side</entry>
+            <entry>N-side</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>σ</entry>
+            <entry>50S/m</entry>
+            <entry>100S/m</entry>
+          </row>
+          <row>
+            <entry>μ</entry>
+            <entry>0.05m<sup>2</sup>/(V-s)</entry>
+            <entry>0.13m<sup>2</sup>/(V-s)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1172094698710">Hint:<figure id="import-auto-id6420676"><media id="import-auto-id1172094288178" alt=""><image mime-type="image/png" src="../../media/graphics8-b63f.png" height="24" width="400"/></media></figure></para>
+    <figure id="import-auto-id4564893">
+      <media id="import-auto-id8709506" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-ef9a.png" height="22" width="395"/>
+      </media>
+    </figure>
+    <para id="import-auto-id7116223">Therefore Φ<sub>BO</sub>=0.687V.</para>
+  </content>
+</document>

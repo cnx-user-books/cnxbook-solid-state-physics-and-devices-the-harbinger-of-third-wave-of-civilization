@@ -1,0 +1,214 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part8_AppendixXXXV_Schrodinger Eqaution and its solution</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33591</md:content-id>
+  <md:title>SSPD_Chapter 1_Part8_AppendixXXXV_Schrodinger Eqaution and its solution</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 8_Appendix XXXV gives the setting up of Schrodinger Equation from the four postulates of Quantum Mechanics and method of solving this equation.</md:abstract>
+  <md:uuid>27d31136-8e7b-4937-9ca7-99441c694ccf</md:uuid>
+</metadata>
+<content>
+    <para id="id1165163832054">APPENDIX XXXV _Schrodinger Equation and its solution.</para>
+    <para id="id4808761"> To fully understand Schrodinger Equation we must understand the concept of operator associated with any physical observable (dynamical variable) and its canonical conjugate.</para>
+    <para id="id1165164583788">Translational momentum p is associated with the spatial coordinates: x, y and z;</para>
+    <para id="id4813642">Rotational momentum J is associated with the curvilinear coordinate θ;</para>
+    <para id="id1165159824507">Energy E is associated with temporal element time t.</para>
+    <para id="id1165169407432">We give the following excerpt from “ Basic Quantum Mechanics” Robert L. White, Publisher McGraw Hill, 1966. </para>
+    <para id="id1165164926709">The postulates of Quantum Mechanics:</para>
+    <para id="id1165168969718">POSTULATE 1. With every physical observable ‘a’, we may associate a mathematical operator A from whose properties we may deduce the possible results of measurements of the physical observable ‘a’. Measurement of a physical observable is analogous to taking a measurement. The result of measurement is ‘a<sub>n</sub>’.</para>
+    <para id="id1165166030955"><figure id="id1165167952442"><media id="id1165167952442_media" alt=""><image mime-type="image/png" src="../../media/graphics1-358d.png" id="id1165167952442__onlineimage" height="23" width="91"/></media></figure> XXXV.1</para>
+    <para id="id1165161091150">u<sub>n</sub> is a solution of the above equation. The above equation has a set of solutions which meet certain boundary conditions. This set of solutions are known as Eigen Functions. </para>
+    <para id="id1165164513841">In the above equation, operator A operates on the eigen function ‘u<sub>n</sub>’ and generates an eigen value ‘a<sub>n</sub>’ . If the eigen functions exist for discrete values of ‘a<sub>n</sub>’ then we say we have DISCRETE eigenvalue spectrum. </para>
+    <para id="id1165165932905">If the eigen functions exist for continuous values of ‘a<sub>n</sub>’ then we say we have CONTINUOUS eigenvalue spectrum.</para>
+    <para id="id1165163283200">POSTULATE 2. The only possible result of a measurement of the physical observable ‘a’ is one of the eigen values of operator A.</para>
+    <para id="id1165168832816">POSTULATE 3. For every dynamical system there exists a state function ψ which contains all the information that is known about the system. Ψ is the probability amplitude and |ψ|<sup>2</sup> is the probability density of obtaining a measurement ‘a<sub>n</sub>’ while carrying out a series of measurements on observable ‘a’.</para>
+    <para id="id1165160275797">POSTULATE 4. If we know ψ for any system at any particular time , then the evolution of ψ at all subsequent times is determined by:</para>
+    <para id="id1165158862911">
+      <figure id="id1165166745888">
+        <media id="id1165166745888_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-5658.png" id="id1165166745888__onlineimage" height="32" width="105"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7620657">Where H<sub>op</sub> is the operator associated with the Hamiltonian of the system. Postulate 4 directly leads to Schrodinger Equation.</para>
+    <para id="id2460379">Operators of Quantum Mechanics are generally not commutative.</para>
+    <para id="id4120754">Commutator Bracket is [A,B] = (AB-BA) = -[B,A]</para>
+    <para id="id1690883">    [A,A] = 0</para>
+    <para id="id8354590">    [A,K] = 0 where K is a constant.</para>
+    <para id="id7673397">    [A+B,C] = [A,C] + [B,C]</para>
+    <para id="id1165169086388">    [A,(BC)] = [A,B]C + B[A,C];</para>
+    <para id="id1165158593007">What the above properties imply is the following:</para>
+    <list id="id1165169235152" list-type="enumerated" number-style="lower-roman">
+      <item>Operator associated with any generalized coordinate(physical observable) commutes with operator associated with any other generalized coordinate.</item>
+    </list>
+    <para id="id7509048">[Q<sub>j</sub> , Q<sub>k</sub>] = 0;</para>
+    <list id="id1165163812645" list-type="enumerated" number-style="lower-roman">
+      <item>Likewise , the operators associated with two different generalized momenta always commute namely [P<sub>j</sub> , P<sub>k</sub>];</item>
+      <item>But the operator associated with a given generalized coordinate and the operator associated with its own conjugate momentum do not commute namely [Q<sub>j</sub> , P<sub>j</sub>] =iℏ whereas [Q<sub>j</sub> , P<sub>k</sub>] = 0 as long as j≠ k.Not only do they fail to commute, but their commutator bracket is equal to a very specific quantity, iℏ , involving Planck’s constant. If we made a numerically different assumption for the commutator bracket then we would predict a quantitatively incorrect optical emission spectrum for the hydrogen atom or a black body radiation law at variance with experimental fact or we would obtain a wrong infrared spectrum of solids. </item>
+      <item>Therefore [Q<sub>j</sub> , P<sub>j</sub>] =iℏ is the basic assumption of Quantum Mechanics.</item>
+    </list>
+    <para id="id1165162226257">Schrodinger in his classic formulation proposed a set of operators for quantum mechanical dynamical variables and their canonical conjugates.</para>
+    <table id="id4041844" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Dynamical Variable</entry>
+            <entry>Associated Operator</entry>
+          </row>
+          <row>
+            <entry>x →</entry>
+            <entry>x (multiply by x)</entry>
+          </row>
+          <row>
+            <entry>p<sub>x </sub>→</entry>
+            <entry>
+              <media id="id1165160785831" alt="">
+                <image mime-type="image/png" src="../../media/graphics3-401f.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>y →</entry>
+            <entry>y (multiply by y)</entry>
+          </row>
+          <row>
+            <entry>p<sub>y </sub>→</entry>
+            <entry>
+              <media id="id4301855" alt="">
+                <image mime-type="image/png" src="../../media/graphics4-3892.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>z →</entry>
+            <entry>z (multiply by z)</entry>
+          </row>
+          <row>
+            <entry>p<sub>z </sub>→</entry>
+            <entry>
+              <media id="id1165169086554" alt="">
+                <image mime-type="image/png" src="../../media/graphics5-d958.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>p →</entry>
+            <entry>
+              <media id="id1165161324778" alt="">
+                <image mime-type="image/png" src="../../media/graphics6-062f.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1165169459695" alt="">
+                <image mime-type="image/png" src="../../media/graphics7-fe46.png"/>
+              </media>
+              <emphasis effect="bold">→</emphasis>
+            </entry>
+            <entry>
+              <media id="id1165160406719" alt="">
+                <image mime-type="image/png" src="../../media/graphics8-f1b7.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>t →</entry>
+            <entry>
+              <media id="id1165161411203" alt="">
+                <image mime-type="image/png" src="../../media/graphics9-3a72.png"/>
+              </media>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5400855">We will consider the Hamiltonian Operator for conservative system:</para>
+    <para id="id1165160412400">H = T + qV where T is the Kinetic Energy and qV is the potential energy.</para>
+    <para id="id4948586">In translational motion:</para>
+    <figure id="id1165162006785">
+      <media id="id1165162006785_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-dc0d.png" id="id1165162006785__onlineimage" height="43" width="170"/>
+      </media>
+    </figure>
+    <figure id="id1165160586488">
+      <media id="id1165160586488_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-83ee.png" id="id1165160586488__onlineimage" height="23" width="103"/>
+      </media>
+    </figure>
+    <para id="id1165169078374">Therefore <figure id="id1165160795723"><media id="id1165160795723_media" alt=""><image mime-type="image/png" src="../../media/graphics12-28f9.png" id="id1165160795723__onlineimage" height="36" width="284"/></media></figure></para>
+    <para id="id1165159788848">We let this Operator operate on a probability amplitude function ψ(r,t).</para>
+    <para id="id1165169452470">Therefore: <figure id="id1165168984114"><media id="id1165168984114_media" alt=""><image mime-type="image/png" src="../../media/graphics13-3455.png" id="id1165168984114__onlineimage" height="36" width="415"/></media></figure> XXXV.2</para>
+    <para id="id8505874">Eq XXXV.2 is defined as Schrodinger Equation.</para>
+    <para id="id1165164684037">Just as we used the separation of variables in solving the Wave Equation in Appendix XXXIV we will use separation of variables in this equation also. In addition we will consider this as 1-D problem with V(x) = 0.</para>
+    <para id="id1165167140501">Hence Schrodinger Equation reduces to:</para>
+    <para id="id1165167629668">
+      <figure id="id1165159313784">
+        <media id="id1165159313784_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics14-0d27.png" id="id1165159313784__onlineimage" height="48" width="161"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165169456080">Let ψ(x,t) = ψ1(x).ψ2(t)</para>
+    <para id="id1165170538204">We assume ψ2(t) = Exp(-iωt) hence <figure id="id1165164652930"><media id="id1165164652930_media" alt=""><image mime-type="image/png" src="../../media/graphics15-6a0e.png" id="id1165164652930__onlineimage" height="32" width="205"/></media></figure></para>
+    <para id="id1165161240413">Therefore Right hand side of the Schrodinger equation is :</para>
+    <para id="id1165168094330">RHS = +ℏω<figure id="id1165163231700"><media id="id1165163231700_media" alt=""><image mime-type="image/png" src="../../media/graphics16-d7c3.png" id="id1165163231700__onlineimage" height="23" width="90"/></media></figure></para>
+    <para id="id1165169025378">Therefore Schrodinger Equation reduces to:</para>
+    <figure id="id1165165960943">
+      <media id="id1165165960943_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-cb25.png" id="id1165165960943__onlineimage" height="48" width="234"/>
+      </media>
+    </figure>
+    <para id="id1165164177390">This simplifies to: <figure id="id1165167667954"><media id="id1165167667954_media" alt=""><image mime-type="image/png" src="../../media/graphics18-1b9a.png" id="id1165167667954__onlineimage" height="48" width="268"/></media></figure></para>
+    <para id="id1165168132160">Ψ2(t) cancels out from both sides hence we have an ordinary linear differential equation namely:</para>
+    <para id="id1165162822981">
+      <figure id="id1165162824308">
+        <media id="id1165162824308_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-17d6.png" id="id1165162824308__onlineimage" height="48" width="202"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165168136326">
+      <media id="id1165168136326_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-59c6.png" id="id1165168136326__onlineimage" height="48" width="196"/>
+      </media>
+    </figure>
+    <para id="id1165163132826">This is a second order ordinary differential equation with two roots namely ±i√(<figure id="id1165168814724"><media id="id1165168814724_media" alt=""><image mime-type="image/png" src="../../media/graphics21-dae9.png" id="id1165168814724__onlineimage" height="31" width="34"/></media></figure></para>
+    <para id="id1165168437331">√(<figure id="id1165163148293"><media id="id1165163148293_media" alt=""><image mime-type="image/png" src="../../media/graphics22-446c.png" id="id1165163148293__onlineimage" height="44" width="198"/></media></figure>= <figure id="id1165162856836"><media id="id1165162856836_media" alt=""><image mime-type="image/png" src="../../media/graphics23-1765.png" id="id1165162856836__onlineimage" height="44" width="129"/></media></figure> = <figure id="id1165169245224"><media id="id1165169245224_media" alt=""><image mime-type="image/png" src="../../media/graphics24-6b65.png" id="id1165169245224__onlineimage" height="44" width="126"/></media></figure></para>
+    <para id="id3852548">But E = <figure id="id1165163070795"><media id="id1165163070795_media" alt=""><image mime-type="image/png" src="../../media/graphics25-8fc2.png" id="id1165163070795__onlineimage" height="33" width="18"/></media></figure></para>
+    <para id="id1165168738089">Therefore <figure id="id1165163101498"><media id="id1165163101498_media" alt=""><image mime-type="image/png" src="../../media/graphics26-6b65.png" id="id1165163101498__onlineimage" height="44" width="126"/></media></figure>= <figure id="id1165165505536"><media id="id1165165505536_media" alt=""><image mime-type="image/png" src="../../media/graphics27-e170.png" id="id1165165505536__onlineimage" height="44" width="89"/></media></figure> = <figure id="id1165167959658"><media id="id1165167959658_media" alt=""><image mime-type="image/png" src="../../media/graphics28-78d0.png" id="id1165167959658__onlineimage" height="31" width="19"/></media></figure>= k* = wave vector.</para>
+    <para id="id1165170675278">Hence ±√(<figure id="id1165163071564"><media id="id1165163071564_media" alt=""><image mime-type="image/png" src="../../media/graphics29-f18a.png" id="id1165163071564__onlineimage" height="31" width="39"/></media></figure>= ±k*</para>
+    <para id="id2447039">Therefore the solution is </para>
+    <para id="id1165168892343">Ψ(x,t) = ψ1(x)ψ2(t) </para>
+    <para id="id1165167912403">And ψ1(x) = AExp(+ik*x) + Bexp(-ik*x)</para>
+    <para id="id3267336">Therefore total solution is : Ψ(x,t) = ψ1(x)ψ2(t) </para>
+    <para id="id1165167967983">Or Ψ(x,t) = [AExp(+ik*x)+ Bexp(-ik*x)]Exp(-iωt)</para>
+    <para id="id1165169015949">Or Ψ(x,t) = AExp[-i(ωt-k*x)] + Bexp[-i(ωt+k*x)]→ These are two travelling waves: 1<sup>st</sup> is moving forward and second is moving backward.</para>
+    <para id="id1693719">If V(x) = V<sub>1</sub> = constant then the Schrodinger equation will be :</para>
+    <figure id="id1165169455150">
+      <media id="id1165169455150_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-9a37.png" id="id1165169455150__onlineimage" height="48" width="219"/>
+      </media>
+    </figure>
+    <figure id="id1165168773160">
+      <media id="id1165168773160_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-9a37.png" id="id1165168773160__onlineimage" height="48" width="219"/>
+      </media>
+    </figure>
+    <para id="id1165168796237">Again we apply the separation of variables method:</para>
+    <para id="id9009298">Let ψ(x,t) = ψ1(x).ψ2(t)</para>
+    <para id="id1165167623500">We assume ψ2(t) = Exp(-iωt) hence <figure id="id1165168643915"><media id="id1165168643915_media" alt=""><image mime-type="image/png" src="../../media/graphics32-6a0e.png" id="id1165168643915__onlineimage" height="32" width="205"/></media></figure></para>
+    <para id="id1165167888914">Therefore Right hand side of the Schrodinger equation is :</para>
+    <para id="id1165168957830">RHS = +ℏω<figure id="id1165165505859"><media id="id1165165505859_media" alt=""><image mime-type="image/png" src="../../media/graphics33-d7c3.png" id="id1165165505859__onlineimage" height="23" width="90"/></media></figure></para>
+    <para id="id2901418">Therefore: <figure id="id1165164174143"><media id="id1165164174143_media" alt=""><image mime-type="image/png" src="../../media/graphics34-a663.png" id="id1165164174143__onlineimage" height="34" width="165"/></media></figure>+ℏω<figure id="id3850359"><media id="id3850359_media" alt=""><image mime-type="image/png" src="../../media/graphics35-d7c3.png" id="id3850359__onlineimage" height="23" width="90"/></media></figure></para>
+    <para id="id1165167702290"><figure id="id1165169376352"><media id="id1165169376352_media" alt=""><image mime-type="image/png" src="../../media/graphics36-f728.png" id="id1165169376352__onlineimage" height="34" width="180"/></media></figure>+ℏω<figure id="id1165163144873"><media id="id1165163144873_media" alt=""><image mime-type="image/png" src="../../media/graphics37-41fa.png" id="id1165163144873__onlineimage" height="23" width="48"/></media></figure></para>
+    <para id="id1165163503503">Rearranging the terms:</para>
+    <para id="id1165169024844"><figure id="id1165167907587"><media id="id1165167907587_media" alt=""><image mime-type="image/png" src="../../media/graphics38-0e55.png" id="id1165167907587__onlineimage" height="34" width="115"/></media></figure>+ℏω<figure id="id1165163306200"><media id="id1165163306200_media" alt=""><image mime-type="image/png" src="../../media/graphics39-fcbb.png" id="id1165163306200__onlineimage" height="23" width="136"/></media></figure> = (ℏω<figure id="id1165168744765"><media id="id1165168744765_media" alt=""><image mime-type="image/png" src="../../media/graphics40-39cd.png" id="id1165168744765__onlineimage" height="23" width="92"/></media></figure></para>
+    <para id="id1165167761671"><figure id="id1165168657827"><media id="id1165168657827_media" alt=""><image mime-type="image/png" src="../../media/graphics41-663f.png" id="id1165168657827__onlineimage" height="34" width="113"/></media></figure>(ℏω<figure id="id2007095"><media id="id2007095_media" alt=""><image mime-type="image/png" src="../../media/graphics42-39cd.png" id="id2007095__onlineimage" height="23" width="92"/></media></figure> =<figure id="id1165168874168"><media id="id1165168874168_media" alt=""><image mime-type="image/png" src="../../media/graphics43-59cf.png" id="id1165168874168__onlineimage" height="31" width="36"/></media></figure>(E<figure id="id1165159184916"><media id="id1165159184916_media" alt=""><image mime-type="image/png" src="../../media/graphics44-39cd.png" id="id1165159184916__onlineimage" height="23" width="92"/></media></figure></para>
+    <para id="id1165169032094">This also has two roots : ±i<figure id="id1165162493465"><media id="id1165162493465_media" alt=""><image mime-type="image/png" src="../../media/graphics45-0869.png" id="id1165162493465__onlineimage" height="44" width="105"/></media></figure> = ±ik**</para>
+    <para id="id1165166956848">Therefore the solution is: Ψ(x,t) = AExp[-i(ωt-k**x)] + Bexp[-i(ωt+k**x)]</para>
+    <para id="id1165159514733">If E &gt; qV<sub>1</sub> , we have imaginay roots of the ordinary linear differential equation and we get traveling waves as the solution.</para>
+    <para id="id1165162168632">But if E &lt; qV<sub>1 </sub>, we have real roots of the ordinary linear differential equation and we get exponentially decaying or exponentially growing solutions.</para>
+  </content>
+</document>

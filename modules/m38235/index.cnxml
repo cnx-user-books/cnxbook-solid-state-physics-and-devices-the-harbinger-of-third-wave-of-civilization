@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Syllabus of CMOS DIGITAL VLSI DESIGN</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38235</md:content-id>
+  <md:title>SSPD_Chapter 7_Syllabus of CMOS DIGITAL VLSI DESIGN</md:title>
+  <md:abstract>CMOS DIGITAL VLSI Design is being offered as Elective III in four years B.Tech Course of Electronics and Communication Engineering. This module contains the syllabus of the same.</md:abstract>
+  <md:uuid>76bc3c1c-a0a7-479e-8654-f4ad5ba30cab</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167650169466">EC1XXXX_Elective III_CMOS Digital VLSI Design[3-1-0]</para>
+    <para id="id1167648541458">Introduction to IC Technology- Introduction to IC Technology, MOS and related VLSI technology, basic MOS Transistors(enhancement and depletion mode), NMOS process, CMOS process(P-well, N-well and twin-tub), BICMOS process flow, aspects of CMOS and BiCMOS devices.    6 L</para>
+    <para id="id1167650153075">Basic Electrical Properties of MOS Circuits – MOSFET Threshold Voltage, I-V relationships for MOSFET, MOSFET Transconductance, the pass transistor, NMOS inverter, pull-up to pull-down ratio for NMOS inverter driven by NMOS inverter and pass transistor, different forms of pull-up(load resistor, depletion mode NMOS, enhancement mode pull up, CMOS pull up), CMOS Inverter, MOS transistor circuit model, Latch-up in CMOS circuits, BICMOS Inverter, Comparative aspects of CMOS and BiPolar Transistors.   7 L</para>
+    <para id="id1167661998728">MOS circuit design processes – MOS layers, stick diagrams(NMOS design style, CMOS design style), Euler Path and Design Optimization, Design rules and layout (Lambda-based design rules, contact cuts, double metal MOS process rules, CMOS – lambda based design rules), 2 micron double metal double poly CMOS rules. 5 L </para>
+    <para id="id1167665432823">Basic circuit concepts – sheet resistance, area capacitance of layers, inverter delays, driving large capacitive loads, propogation delays (cascaded pass transistor, design of long polysilicon wires), wiring capacitances (fringing fields, interlayer capacitance, peripheral capacitance)       6 L</para>
+    <para id="id1167660987631">Scaling of MOS Circuits – scaling models and scaling factors (gate area, gate capacitance, channel current density, channel resistance, gate delay, maximum operating frequency, saturation current, current density, power dissipation), limitations of scaling.         4 L</para>
+    <para id="id1167648458614">Subsystem design and layout – Switch logic ( pass transistors and transmission gates), Gate logic ( inverter, 2-input CMOS NAND and NOR gates), structured design of a parity generator.        4 L</para>
+    <para id="id1167647551425">Memory and aspects of system timing – System timing consideration, 1-transistor dynamic memory cell, 3-transistor dynamic RAM cell area, dissipation, volatility), RAM arrays.          4 L</para>
+    <para id="id1167652917046">Practical aspects – Optimization of NMOS and CMOS inverters, I/O pads, aspects of design tools (graphical entry layout, design verification, design rule checkers, circuit extractors, simulators).        4 L.</para>
+    <para id="id1167644663382">Text books: i. Basic VLSI Design – Pucknell and Eshraghian;</para>
+    <para id="id1167658683893">  ii. VLSI Fabrication principles – Sorab Gandhi;</para>
+    <para id="id1167645676689">Reference books: i. The science and engineering of Microelectronic Fabrication – Stephen Camplell;</para>
+    <para id="id1167644971138">   ii. VLSI Design – Sujata Pandey and Manoj Pandey;</para>
+    <para id="id1167645934360">   iii. CMOS VLSI Design – Wolfe.</para>
+  </content>
+</document>

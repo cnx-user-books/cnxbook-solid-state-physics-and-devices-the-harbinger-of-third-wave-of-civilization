@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 7_Process Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37392</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 7_Process Simulator</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Introduction to ATHENA 7 is the concluding part of this topic 'Introduction to ATHENA'. This module concludes this section with Epitaxy Simulation.</md:abstract>
+  <md:uuid>d3140d28-401d-4b98-868e-9d068e6ba83a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169242592012">SSPD_Chapter 6_Part 7_Introduction to ATHENA 7_Process Simulator</para>
+    <para id="id1169251645547">7.7 Background of ATHENA.</para>
+    <para id="id1169245940302">7.7.9 Simulating the Epitaxy Process.</para>
+    <para id="id1169251286435"> ATHENA/SSUPREM4 can simulate a high temperature silicon epitaxial processes. The epitaxy process is considered as a combination of deposit and diffuse processes. Therefore, processes such as autodoping from a highly doped buried layer into a lightly doped epitaxial layer can be simulated. Diffusion parameters for epitaxial silicon, however, are considered the same as for single crystal silicon.</para>
+    <para id="id1169256773145"> The epitaxy process is defined in the ATHENA Epitaxy Menu (Figure 7-39). To open this menu, select Process→Epitaxy in the Commands menu. The ATHENA Epitaxy Menu consists of five sections:</para>
+    <para id="id1169248225124">• The Time/temperature section selects temperature step parameters in the same way as in the DIFFUSE statement.</para>
+    <para id="id1169246982241">• The Thickness/rate section selects either the total thickness of the epitaxial layer, or the deposit rate in microns/minute. In the latter case, the total thickness will be determined by the rate and time.</para>
+    <para id="id2519114">• The Grid Specification section specifies the vertical grid structure within the grown epitaxial layer. All grid parameters are equivalent to those of the ATHENA Deposit Menu </para>
+    <para id="id1169248400109">• The Ambient section is where the gas pressure can be modified to the value used in the Epitaxial Chamber.</para>
+    <para id="id1169246863199">• The Impurity Concentrations section specifies the growing epitaxial layer in the same way as in the DIFFUSE statement.</para>
+    <para id="id1169247822572"> All parameters in the last three groups are optional. If the parameters of an epitaxial step are set exactly as shown in Figure 7.39, the following statement will appear in the input file:</para>
+    <para id="id1169242475771"># EPI-LAYER</para>
+    <para id="id1169248219482">EPITAXY TIME=30 TEMP=900 T.FINAL=1000 THICKNESS=5 DIVISIONS=20 \ DY=0.05 YDY=0.00</para>
+    <para id="id1169243091017">Note: The diffusion during the epitaxy process will use the Diffusion Model Set in the most recent <emphasis effect="italics">METHOD </emphasis>statement. If you need another <emphasis effect="italics">METHOD</emphasis> statement, include it before the <emphasis effect="italics">EPITAXY</emphasis> statement.</para>
+    <para id="id1169247000651">
+      <figure id="id1169243327652">
+        <media id="id1169243327652_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-38cf.png" id="id1169243327652__onlineimage" height="472" width="627"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169248462428">
+      <figure id="id1169243912751">
+        <media id="id1169243912751_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-43db.png" id="id1169243912751__onlineimage" height="488" width="628"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8731569">Figure 7.39. ATHENA Epitaxy Menu</para>
+  </content>
+</document>

@@ -1,0 +1,154 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture8_MOSFET &amp; JFET_PartA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m31717</md:content-id>
+  <md:title>AE_Lecture8_MOSFET &amp; JFET_PartA</md:title>
+  <md:abstract>AE_Lecture8_PartA describes the structure and static characteristics of MOSFET.</md:abstract>
+  <md:uuid>46813d04-1931-4083-95dd-c87c8776a882</md:uuid>
+</metadata>
+
+<content>
+    <para id="id13138932">AE_Lecture8_PartA Static characteristics of FIELD EFFECT TRANSISTORS</para>
+    <para id="id20947184">A Field Effect Transistor is like a pentode. It is an analogue of pentode. Both are Voltage Controlled Current Sources.</para>
+    <para id="id22248040">FET is of two types JFET and MOSFET.</para>
+    <para id="id14010041">JFET is n channel FET known as nJFET and p channel FET known as pJFET.</para>
+    <para id="id14010046">Similarly MOS is n channel NMOS and p channel PMOS.</para>
+    <para id="id12335709">MOS can be enhancement mode which is normally-off or depletion mode normally-on device.</para>
+    <para id="id20027478">So NMOS can be (E)NMOS and (D)NMOS.</para>
+    <para id="id8555732">PMOS can be (E)PMOS and (D)PMOS.</para>
+    <para id="id21890005">The following is the circuit diagram of an Amplifier using N-channel JFET:</para>
+    <figure id="id14857946">
+      <media id="id14857946_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-1e98.png" id="id14857946__onlineimage" height="278" width="374"/>
+      </media>
+    </figure>
+    <para id="id21854903">Measurement of characteristics of N-channel JFET</para>
+    <para id="id21854908"/>
+    <figure id="id8431088">
+      <media id="id8431088_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 30-9465.png" id="id8431088__onlineimage" height="321" width="470"/>
+      </media>
+    </figure>
+    <para id="id15014402">Figure 2 gives the dc output characteristics nJFET. Note that Gate Voltage is always kept negative so that the gate current is always zero. We indicate the Gate-Drain breakdown also. As gate voltage becomes more negative , Avalanche Breakdown of Gate to Drain Junction takes place earlier.When (V<sub>DS</sub> – V<sub>GS</sub>) exceeds V<sub>P </sub>(Vpinchoff), the channel gets pinched off towards the Drain End and current becomes constant. This is saturation region. The dotted parabola seperates the Ohmic region or Triode Region from Saturation Region or Pentode Region. Here the pinch off voltage is -5V.</para>
+    <figure id="id14114802">
+      <media id="id14114802_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 31-0242.png" id="id14114802__onlineimage" height="321" width="475"/>
+      </media>
+    </figure>
+    <para id="id17308830">Figure 3 gives the output characteristics of (E)NMOS with a Threshold Voltage of 1V. Therefore when V<sub>DS</sub> increases and becomes equal to (V<sub>GS</sub> - V<sub>Th</sub>) the channel pinches off near the drain end and current saturates.. As V<sub>DS </sub>assumes larger values the pinched off region becomes wider, (V<sub>GS</sub> - V<sub>Th</sub>) drops across the channel and excess part of V<sub>DS</sub> drops across the pinched off region. Since there is a constant voltage dropping across the channel and since the channel is of constant length hence I<sub>DS</sub> is constant. But in real life there is a shortening of channel length leading to a slope of the saturated current. This channel length modulation is responsible for a finite output impedance r<sub>ds</sub> of the voltage controlled current source modeling (E)NMOS under incremental condition.</para>
+    <figure id="id15448898">
+      <media id="id15448898_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 32-807d.png" id="id15448898__onlineimage" height="321" width="475"/>
+      </media>
+    </figure>
+    <para id="id20132120">In Figure 4 we give the output characteristics of (D)NMOS. Depletion type device is normally-on device hence it gives a characteristic for positive gate voltage, zero gate voltage and negative voltage. In (D)NMOS when gate voltage becomes equal to Pinch-off voltage then (D)NMOS turns off. Here pinch off voltage is -4V.</para>
+    <para id="id21961954">
+      <figure id="id21801737">
+        <media id="id21801737_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 33-d9c9.png" id="id21801737__onlineimage" height="327" width="532"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id8462824">
+      <media id="id8462824_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 34-4a67.png" id="id8462824__onlineimage" height="389" width="532"/>
+      </media>
+    </figure>
+    <para id="id4750334">
+      <figure id="id4750338">
+        <media id="id4750338_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 35-42e0.png" id="id4750338__onlineimage" height="404" width="548"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id19859328">Comparing the transfer characteristics of nJFET, (E)NMOS and (D)NMOS as given in Figure 5, 6 and 7 we can say that (D)NMOS is most flexible device from design point of view as it accepts both positive and negative voltages as the gate voltage. </para>
+    <para id="id20961837">NMOS Transistor (Pentode and Triode Region)</para>
+    <figure id="id15416180">
+      <media id="id15416180_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 36-80f1.png" id="id15416180__onlineimage" height="293" width="434"/>
+      </media>
+    </figure>
+    <figure id="id13076334">
+      <media id="id13076334_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 37-1399.png" id="id13076334__onlineimage" height="334" width="460"/>
+      </media>
+    </figure>
+    <para id="id11135357">TRIODE REGION:</para>
+    <para id="id20875803"><figure id="id20875806"><media id="id20875806_media" alt=""><image mime-type="image/png" src="../../media/graphics1-328d.png" id="id20875806__onlineimage" height="40" width="276"/></media></figure>______(1)</para>
+    <para id="id20801671">K<sub>n</sub>=<sub/>K<sub>n</sub><sup>'</sup>multiplied_by<figure id="id16108696"><media id="id16108696_media" alt=""><image mime-type="image/png" src="../../media/graphics2-08e1.png" id="id16108696__onlineimage" height="40" width="33"/></media></figure></para>
+    <para id="id12899306">K<sub>n</sub>'= µ<sub>n</sub>C<sub>ox</sub>″
+...........Kn’  ia a transconductance parameter which is fixed for a given technology and cannot be changed by the circuit designer.
+Whereas Kn = Kn’×(W/L) = this is also a transconductance parameter but it includes the aspect ration (W/L) of the given MOSFET. The aspect ratio gives the geometry of the device and this is under control of a circuit designer . This second transconductance parameter can be controlled when he is generating the masks for a given circuit or system during ASIC(Application Specefic IC)  or SOC(System –on- Chip) design.
+W is the width of the gate and
+L is the length of the gate or the length of the channel.</para>
+    <para id="id11571413">
+      <figure id="id12724481">
+        <media id="id12724481_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-7900.png" id="id12724481__onlineimage" height="49" width="139"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id12108807">
+      <media id="id12108807_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-35ed.png" id="id12108807__onlineimage" height="48" width="478"/>
+      </media>
+    </figure>
+    <figure id="id14777818">
+      <media id="id14777818_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-b72c.png" id="id14777818__onlineimage" height="27" width="188"/>
+      </media>
+    </figure>
+    <para id="id11042990">Triode Region exists as long as <figure id="id8248437"><media id="id8248437_media" alt=""><image mime-type="image/png" src="../../media/graphics6-221f.png" id="id8248437__onlineimage" height="24" width="129"/></media></figure>.</para>
+    <para id="id3838753">Channel should not pinch off on the drain side.</para>
+    <para id="id15625735">PENTODE REGION</para>
+    <para id="id4523012">At <figure id="id23061229"><media id="id23061229_media" alt=""><image mime-type="image/png" src="../../media/graphics7-ded3.png" id="id23061229__onlineimage" height="24" width="115"/></media></figure>___________(2)</para>
+    <para id="id3838375">channel pinches off at drain end. From here onwards current becomes constant or current saturates.</para>
+    <para id="id11829949">Substituting (2) in (1),</para>
+    <figure id="id21925691">
+      <media id="id21925691_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-0968.png" id="id21925691__onlineimage" height="49" width="335"/>
+      </media>
+    </figure>
+    <figure id="id12237328">
+      <media id="id12237328_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-d822.png" id="id12237328__onlineimage" height="44" width="149"/>
+      </media>
+    </figure>
+    <figure id="id6464638">
+      <media id="id6464638_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-fd3f.png" id="id6464638__onlineimage" height="44" width="174"/>
+      </media>
+    </figure>
+    <figure id="id11813704">
+      <media id="id11813704_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-e1b1.png" id="id11813704__onlineimage" height="42" width="189"/>
+      </media>
+    </figure>
+    <para id="id16577572"><figure id="id16595545"><media id="id16595545_media" alt=""><image mime-type="image/png" src="../../media/graphics12-a525.png" id="id16595545__onlineimage" height="32" width="185"/></media></figure> Quadratic Law</para>
+    <figure id="id14787231">
+      <media id="id14787231_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-fa70.png" id="id14787231__onlineimage" height="49" width="295"/>
+      </media>
+    </figure>
+    <para id="id21077248">Where:<figure id="id3838951"><media id="id3838951_media" alt=""><image mime-type="image/png" src="../../media/graphics14-911e.png" id="id3838951__onlineimage" height="33" width="631"/></media></figure></para>
+    <figure id="id14805793">
+      <media id="id14805793_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-d62b.png" id="id14805793__onlineimage" height="43" width="402"/>
+      </media>
+    </figure>
+    <para id="id14811241">Pinch Off locus is parabolic<figure id="id14811245"><media id="id14811245_media" alt=""><image mime-type="image/png" src="../../media/graphics16-29cb.png" id="id14811245__onlineimage" height="39" width="110"/></media></figure></para>
+    <para id="id12486494">For any V<sub>GS</sub> , at V*<sub>DS</sub> = V<sub>GS </sub>- V<sub>TN</sub> the saturation sets in as the channel gets pinched off at that point. Beyond that point: V<sub>DS</sub> = V*<sub>DS</sub> + ΔV and V*<sub>DS</sub> drops across the channel and ΔV drops across the depleted region towards the drain end as shown in Figure 11. Since the voltage across the channel is constant at V*<sub>DS </sub>and since the channel is approximately constant ( it shortens slightly as Drain to Source Voltage increases) for practical purposes we assume that the drain current is constant and hence it has saturated. But in practice due to channel length shortening, there is slight increase in drain current with drain to source voltage. Hence output characteristics does have a slope. At higher currents the slope is higher.</para>
+    <para id="id20415556"><figure id="id4705253"><media id="id4705253_media" alt=""><image mime-type="image/png" src="../../media/Picture 38-36c1.png" id="id4705253__onlineimage" height="368" width="460"/></media></figure>V<sub>TN</sub>=1V</para>
+    <para id="id15436089">K<sub>n</sub>=25 µA/V<sup>2</sup></para>
+    <figure id="id23041404">
+      <media id="id23041404_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-fec3.png" id="id23041404__onlineimage" height="44" width="149"/>
+      </media>
+    </figure>
+    <figure id="id14119775">
+      <media id="id14119775_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6d3b.png" id="id14119775__onlineimage" height="300" width="458"/>
+      </media>
+    </figure><para id="eip-253">N channel JET has identical formulation except threshold voltage is replaced by pinch off voltage.</para>
+  </content>
+</document>

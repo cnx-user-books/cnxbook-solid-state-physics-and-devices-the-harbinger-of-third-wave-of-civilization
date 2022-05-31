@@ -1,0 +1,183 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter_2.2.6. Theoretical Formulation of thermal equilibrium values of majority and minority carriers in Semi-conductors.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47414</md:content-id>
+  <md:title>SSPD_Chapter_2.2.6. Theoretical Formulation of thermal equilibrium values of majority and minority carriers in Semi-conductors.</md:title>
+  <md:abstract>SSPD_Chapter 2.2.6 gives the theoretical formula for determining the majority and minority carrier density.</md:abstract>
+  <md:uuid>c0231526-42f5-417a-809b-376c8ae45d6d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1171615419022">
+      <emphasis effect="bold">2.2.6. Theoretical Formulation of thermal equilibrium values of majority and minority carriers in Semi-conductors.</emphasis>
+    </para>
+    <para id="import-auto-id1171637598614">The broad view of Silicon(intrinsic or doped) is that there is thermal generation of EHP(electron-hole pair), EHP are recombining and there is the ionization of the dopent.At any given temperature we have a thermal equilibrium established. At this thermal equilibrium, the concentrations achieved are time invariant and are referred to as thermal equilibrium concentrations.</para>
+    <para id="import-auto-id1171638185295">In intrinsic Silicon: electron thermal equilibrium concentration = hole thermal equilibrium concentration = intrinsic concentration.</para>
+    <figure id="import-auto-id1171645111838">
+      <media id="import-auto-id1171644607660" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-4c93.png" height="29" width="64"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171621050091">The bar indicates thermal equilibrium value.</para>
+    <para id="import-auto-id1171642451576">In N-Type Silicon we have:</para>
+    <figure id="import-auto-id1171610325356">
+      <media id="import-auto-id1171612162556" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1ea7.png" height="27" width="240"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171651748449">In P-Type Silicon we have:</para>
+    <figure id="import-auto-id1171638438064">
+      <media id="import-auto-id1171601740364" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-38d0.png" height="22" width="242"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171611058946">By Law of Mass Action in each case:</para>
+    <figure id="import-auto-id1171633331345">
+      <media id="import-auto-id1171601905689" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-27d8.png" height="22" width="214"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171608744718">
+      <emphasis effect="bold">2.2.6.1. Majority and Minority Carrrier thermal equilibrium concentrations as a function of Temperature in Kelvin.</emphasis>
+    </para>
+    <para id="import-auto-id1171607945784">In intrinsic Silicon, thermal equilibrium concentrations of electrons and holes are equal and are called intrinsic concentration. In Figure 2.2.26. the Intrinsic Concentration of Silicon as a function of Temperature(K) is given. It should be noted that conducting electron and holes in intrinsic Si is only due to thermal generation of EHP. Hence below 155K(liquid Nitrogen temperature), thermal generation stops and intrinsic Si becomes a perfect insulator.</para>
+    <para id="import-auto-id1171625881742">In Figure 2.2.29. Fermi-Dirac distribution is given at T=155K and at T=300K. At T= 300K, Fermi-Dirac distribution is more skewed hence the tail end of the distribution has a greater distribution as compared to that at 155K.</para>
+    <para id="import-auto-id1171647415380">At 300K, n<sub>i</sub> = 4×10<sup>9</sup> and P(E<sub>C</sub>) = 4×10<sup>-10</sup>;</para>
+    <para id="import-auto-id1171608683580">At 155K, n<sub>i</sub> = 6.55  and P(E<sub>C</sub>) = 6.55×10<sup>-19</sup>;</para>
+    <para id="import-auto-id1171636273875">For all practical purposes, thermal generation of EHP has altogether stopped and the sample freezes out. It becomes an insulator.</para>
+    <figure id="import-auto-id1171627983516">
+      <media id="import-auto-id1171641474387" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1c0b.png" height="407" width="396"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171609889371">In Extrinsic Silicon, below 155K, there is no thermal generation of EHP as well as there is no ionization of the dopent. Hence there are no charge carriers whatsoever in Si below 155K.</para>
+    <para id="import-auto-id1171641952034">From 155K to 200K, there is thermal generation of EHP but there is no ionization because the thermal lattice vibration does not provide enough energy for ionization. Above 200K the thermal energy is kT=17meV whereas ionization energy is only 10meV hence practically all dopent atoms get ionized and majority and minority carriers remain constant inspite of the fact that EHP thermal generation is exponentially increasing. This increase is felt only above 473K when intrinsic carrier concentration starts dominating the dopent concentration.</para>
+    <para id="import-auto-id1171610321282">In extrinsic Si, dopent concentration is in the range 10<sup>12</sup>/cc to 10<sup>15</sup>/cc whereas the intrinsic concentration at 473K and above is  above 10<sup>13</sup>/cc.</para>
+    <para id="import-auto-id1171653419739">Well above 473K depending on the dopent concentration, the sample becomes intrinsic type.</para>
+    <para id="import-auto-id1171602950690">The thermal equilibrium values of majority and minority carriers in N-Type Silicon with a donor doping density of 10<sup>13</sup>/cc  as a function of temperature is given in Figure 2.2.30.</para>
+    <figure id="import-auto-id1171614033928">
+      <media id="import-auto-id1171645077006" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-0c48.png" height="373" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171642460158">There are four distinct regions of Doped Silicon:</para>
+    <para id="import-auto-id1171613456814">Freeze out region (0K to 155K) - neither there is EHP thermal generation nor there is the ionization of the donor atoms.</para>
+    <para id="import-auto-id1171647368802">Intrinsic Semiconductor (155K to 200K) - thermal generation of EHP starts but there is no ionization of Donor Atoms.</para>
+    <para id="import-auto-id1171627367265">Extrinsic Semiconductor (200K to 473K) – Ionization of Donor atoms is 100% hence majority carriers thermal equilibrium density is decided by Donor Density hence it is constant at 10<sup>13</sup>/cc. Thermal generation of EHP is taking place but it is many orders of magnitude less than the majority carrier hence from 200K to 473K resistivity of the sample is relatively constant.</para>
+    <para id="import-auto-id1171613869390">Intrinsic Carrier Concentration dominates over the doping density(473K  and beyond) – at 473K , thermal generation of EHP becomes comparable to doping density. At 600K it becomes one order of magnitude greater than the doping density. So in this region it again behaves as Intrinsic Semiconductor.</para>
+    <para id="import-auto-id1171641557874">
+      <emphasis effect="bold">2.2.6.2.Theoretical Formulation of Majority Carriers and Minority Carriers.</emphasis>
+    </para>
+    <para id="import-auto-id1171611444244">Because of Pauli-Exclusion Principle, we have a term called Density of States N(E). This essentially means the number of electrons which can be accommodated per unit volume per unit eV in permissible energy states.</para>
+    <para id="import-auto-id1171627328365">In the Appendix of this Chapter I will show that:</para>
+    <figure id="import-auto-id1171633575028">
+      <media id="import-auto-id1171610360962" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-f15d.png" height="56" width="539"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171612251326">(2.2.6.2.1) </para>
+    <para id="import-auto-id1171647898890">N(E)dE=number of energy states per m<sup>3</sup> between energy level E and E+dE.</para>
+    <para id="import-auto-id1171602957759">Therefore actual number of electrons present in conduction band between energy level E and E+dE are = P(E)N(E)dE </para>
+    <para id="import-auto-id1171636790906">Where P(E) = 1/[1+Exp[(E-E<sub>F</sub>)/kT];</para>
+    <para id="import-auto-id1171610391692">But at T = 0K, P(E)= 1 upto E = E<sub>F</sub> hence </para>
+    <para id="import-auto-id1171617558108"> actual number of electrons present in conduction band between energy level E and E+dE are = (1)N(E)dE </para>
+    <para id="import-auto-id1171626819730">In Copper we know that electrons are filled up to the Fermi-Level and that the Fermi-level is at 7.05eV as shown in Figure 2.2.31.</para>
+    <figure id="import-auto-id1171646451968">
+      <media id="import-auto-id1171620715488" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-6251.png" height="243" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171615885564">Hence number of conducting electrons in the conduction band from the bottom of the conduction band to Fermi-level=∫(1)K√EdE,{E,0,7.05×1.6×10<sup>-19</sup>}</para>
+    <para id="import-auto-id1171602028528">Here K is a constant = 1.06216771234466×10<sup>56</sup>.</para>
+    <para id="import-auto-id1171613685501">Using Mathematica:</para>
+    <para id="import-auto-id1171613235910"><figure id="import-auto-id1171643660158"><media id="import-auto-id1171617674463" alt=""><image mime-type="image/png" src="../../media/graphics9-f671.png" height="31" width="428"/></media></figure>  (2.2.6.2.2)  </para>
+    <para id="import-auto-id1171613446880">Conduction Band conducting electron density = n= 8.5×10<sup>28</sup>/m<sup>3</sup>=8.5×10<sup>22</sup>/cc.</para>
+    <para id="import-auto-id1171649005470">This also implies that Copper atom packing density in Copper metal is 8.5×10<sup>28</sup>/m<sup>3</sup>=8.5×10<sup>22</sup>/cc.</para>
+    <para id="import-auto-id1171652361777">You can  see normally the packing density is of this order i.e.10<sup>22</sup>/cc.</para>
+    <para id="import-auto-id1171613767002">Exactly the same procedure is applied to determine the majority carrier thermal equilibrium density.</para>
+    <para id="import-auto-id1171652292298">In  N-Type Silicon:</para>
+    <para id="import-auto-id1171635870254">Number of electrons actually present in the conduction band at 300K=∫P(E)N(E)dE .</para>
+    <para id="import-auto-id1171626556569">This is a definite integral between the lower limit E<sub>C</sub> and the upper limit infinity as shown below:</para>
+    <para id="import-auto-id1171618304253"><figure id="import-auto-id1171613987278"><media id="import-auto-id1171608468892" alt=""><image mime-type="image/png" src="../../media/graphics10-8d6b.png" height="61" width="237"/></media></figure>(2.2.6.2.3)</para>
+    <para id="import-auto-id1171611398473">It will be shown in the Appendix of this Section that this integral comes out to be:</para>
+    <para id="import-auto-id1171651274471">Electron density= n<sub>n</sub><sup>---  </sup>= N<sub>C</sub>Exp[-(E<sub>C</sub>-E<sub>F</sub>)/(kT)]_____________(2.2.6.2.4)</para>
+    <para id="import-auto-id1171628970795">Where N<sub>C</sub> =2[(2πm<sub>e</sub>*kT)/h<sup>2</sup>]<sup>3/2</sup>=2.82×10<sup>25</sup>/m<sup>3</sup>= 2.82×10<sup>19</sup>/cc.</para>
+    <para id="import-auto-id1171611026432">Here m<sub>e</sub>*= effective mass of the electron at the bottom of the conduction band.</para>
+    <para id="import-auto-id1171618145229">For non-degenerate semiconductors where E<sub>F</sub> is several kT below E<sub>C</sub> , in such cases</para>
+    <para id="import-auto-id1171651318395">Fermi-Dirac Statistics(P(E) = 1/[1+Exp[(E-E<sub>F</sub>)/kT]) approximates Boltzmann-Maxwell Statistics namely P(E) = Exp[-(E-E<sub>F</sub>)/kT].</para>
+    <para id="import-auto-id1171645110303">At E = E<sub>C</sub> this reduces to P(E<sub>C</sub>)= Exp[-(E<sub>C</sub> -E<sub>F</sub>)/kT].</para>
+    <para id="import-auto-id1171608776761">Hence in Equation 2.2.6.2.4, if Exp[-(E<sub>C</sub> -E<sub>F</sub>)/kT] is the probability of occupancy at the lower edge of the conduction band and n<sub>n</sub><sup>---</sup> is the conduction electron density in conduction band then N<sub>C</sub> is the effective density of states at E<sub>C</sub>.</para>
+    <para id="import-auto-id1171604256296">We follow the same procedure for holes concentration calculation:</para>
+    <para id="import-auto-id1171626769584">Number of holes actually present in the valence band at 300K=∫(1-P(E))N(E)dE</para>
+    <para id="import-auto-id1171649042004">This is a definite integral between the lower limit E<sub>V</sub> and the upper limit (- infinity) as shown below:</para>
+    <para id="import-auto-id1171610409784"><figure id="import-auto-id1171604604215"><media id="import-auto-id1171620314539" alt=""><image mime-type="image/png" src="../../media/graphics11-62c5.png" height="77" width="305"/></media></figure>(2.2.6.2.5)</para>
+    <para id="import-auto-id1171616919659">As will be shown in the Appendix this reduces to:</para>
+    <para id="import-auto-id1171608448020">Hole density= p<sub>n</sub><sup>---  </sup>=  N<sub>V</sub>Exp[-(E<sub>F</sub>-E<sub>V</sub>)/(kT)] _____________(2.2.6.2.6)</para>
+    <para id="import-auto-id1171614108925">Where N<sub>V</sub>=2[(2πm<sub>h</sub>*kT)/h<sup>2</sup>]<sup>3/2</sup>=1.83×10<sup>25</sup>/m<sup>3</sup>= 1.83×10<sup>19</sup>/cc.</para>
+    <para id="import-auto-id1171611085044">Since Exp[-(E<sub>F</sub>-E<sub>V</sub>)/(kT)] = probability of non-occupancy at E<sub>V</sub> = probability of occurrence of hole at the upper edge of the valenvce band hence N<sub>V</sub>= is the effective density of states  at the upper edge of the valence band.</para>
+    <para id="import-auto-id1171650617567">N<sub>V</sub>= N<sub>C</sub> this identity does not hold since the effective masses are not the same as seen in Table 2.2.6.1.</para>
+    <para id="import-auto-id1171648308123">By Law of Mass Action: n<sub>n</sub><sup>---</sup>× p<sub>n</sub><sup>---</sup>=n<sub>i</sub><sup>2</sup>=N<sub>C</sub>N<sub>V</sub>Exp[- E<sub>G</sub>/(kT)] where E<sub>G</sub>=E<sub>C</sub>-E<sub>V</sub>;</para>
+    <para id="import-auto-id1171614812851">
+      <emphasis effect="bold">Hence intrinsic carrier concentration = </emphasis>
+    </para>
+    <para id="import-auto-id6339863">n<sub>i</sub>=√(N<sub>C</sub>N<sub>V</sub> ) ×Exp[- E<sub>G</sub>/(2kT)]_________________________(2.2.6.2.7)</para>
+    <para id="import-auto-id1171614044786">In Table 2.2.5.1. a comparative study of the band-gap, effective mass of electron and hole, effective density of states and intrinsic carrier concentration is made for Ge,Si and GaAs.By the inspection of Table 2.2.5.1, it is evident that density of states are in the range of 10<sup>19</sup> per cc for all three semi-conductors.. </para>
+    <para id="import-auto-id7893728">
+      <emphasis effect="bold">Table 2.2.6.1. Band-gap, effective mass , effective densiy of states and intrinsic carrier concentration at 300K.</emphasis>
+    </para>
+    <table id="import-auto-id1171627381896" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>All parameters at 300K</entry>
+            <entry>Ge</entry>
+            <entry>Si</entry>
+            <entry>GaAs</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>E<sub>G</sub>(eV)</entry>
+            <entry>0.66</entry>
+            <entry>1.12</entry>
+            <entry>1.424</entry>
+          </row>
+          <row>
+            <entry>(effecteive mass)m<sub>e</sub>* (×m<sub>e</sub>)</entry>
+            <entry>0.56</entry>
+            <entry>1.08</entry>
+            <entry>0.067</entry>
+          </row>
+          <row>
+            <entry>(effecteive mass)m<sub>h</sub>* (×m<sub>e</sub>)</entry>
+            <entry>0.29</entry>
+            <entry>0.81</entry>
+            <entry>0.47</entry>
+          </row>
+          <row>
+            <entry>N<sub>C</sub>(per cc)</entry>
+            <entry>1.05×10<sup>19</sup></entry>
+            <entry>2.82×10<sup>19</sup></entry>
+            <entry>4.37×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>N<sub>V</sub>(per cc)</entry>
+            <entry>3.92×10<sup>18</sup></entry>
+            <entry>1.83×10<sup>19</sup></entry>
+            <entry>8.68×10<sup>18</sup></entry>
+          </row>
+          <row>
+            <entry>n<sub>i</sub>(per cc)</entry>
+            <entry>1.83×10<sup>13</sup></entry>
+            <entry>8.81×10<sup>9</sup></entry>
+            <entry>2.03×10<sup>6</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

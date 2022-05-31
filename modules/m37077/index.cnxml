@@ -1,0 +1,90 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 4_concluded_MOS Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37077</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 4_concluded_MOS Physics</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 4_conclusion describes an ideal MOS diode, defines flat band voltage and gives the theoretical formulation of the threshold voltage.</md:abstract>
+  <md:uuid>3ba5af86-d3b9-446f-9535-7929974ac66a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165776377786">SSPD_Chapter 6_Part 4_concluded_MOS and its Physics.</para>
+    <para id="id1165774666016">What is an IDEAL MOS DIODE ?</para>
+    <para id="id1165777430004">The Band-Diagram of an Ideal MOS Diode is shown in Figure (A).</para>
+    <figure id="id1165781098981">
+      <media id="id1165781098981_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-eadf.png" id="id1165781098981__onlineimage" height="465" width="651"/>
+      </media>
+    </figure>
+    <para id="id1165782770873">In an ideal MOS diode we have the following features:</para>
+    <list id="id1165788328429" list-type="enumerated" number-style="lower-roman">
+      <item>The Flat Band Voltage = V<sub>FB</sub> = ϕm – ϕs where qϕm is the work-function of metal and qϕs is the work function of the semiconductor;</item>
+      <item>V<sub>FB</sub> = ϕm – ϕs = ϕm – [χ + E<sub>g</sub>/(2q) + ψ<sub>B</sub>] = 0 for P-type substrate where χ = electron affinity in semi-conductor, E<sub>g</sub> = energy band-gap of Silicon and ψ<sub>B</sub> = potemtial diiference between Fermi-level(Ef) and intrinsic level(Ei) in Si-Bulk;</item>
+      <item>Here the only charges are present at the gate and at the channel. These are equal and opposite.There is no charge in the oxide or at the interface of SiO<sub>2</sub>/Si;</item>
+      <item>No carrier transport through the oxide layer.</item>
+    </list>
+    <para id="id1165776781529">In real MOS diode flat band voltage is not zero. There is always a difference between Metal Work-function and Semiconductor Work-function.</para>
+    <para id="id1165797465405">Consider an example of Metal (Al)-Oxide- P-typeSi as shown in Figure B:</para>
+    <figure id="id1165774133304">
+      <media id="id1165774133304_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-da7b.png" id="id1165774133304__onlineimage" height="466" width="628"/>
+      </media>
+    </figure>
+    <para id="id5253535">The Flat Band Voltage is = V<sub>FB</sub> = ϕm – ϕs = ϕm – [χ + E<sub>g</sub>/(2q) + ψ<sub>B</sub>]</para>
+    <para id="id1165781859192">Therefore qV<sub>FB</sub> = qϕm – qϕs = qϕm – [qχ + E<sub>g</sub>/(2) + qψ<sub>B</sub>] = 4.1 – [4.15+0.55+0.3]</para>
+    <para id="id1165797475060">Therefore qV<sub>FB </sub>= 4.1- 5.0 = - 0.9eV;</para>
+    <para id="id1165790584872">Because of this Flat-Band Voltage there is band bending even at zero gate voltage when gate and bulk are shorted. there is a depletion layer of negatively charged immobile Born ions just under the interface of SiO<sub>2</sub>/Si as shown in Figure C. Because of band-bending near the interface Si-bulk is more intrinsic hence holes are pushed out leaving behind the space-charge region. Negative electrons leave Gate Plate and recombine with the holes pushed out from the bulk. Therefore we get a dipole layer centered on the oxide layer as shown in Figure C. Negative voltage -0.9 eV when applied to the Gate of MOS system compensates for this band bending and flattens the Band Diagram as shown on the left side of Figure C. On the right side of Figure C we see that below the interface in the Si-bulk we have near-intrinsic semiconductor. In effect a depletion layer exists in the bulk under the interface. If the band bending is 2 qψ<sub>B </sub>then the depletion layer reaches its maximum width d<sub>max</sub> and when band bending exceeds 2 qψ<sub>B</sub> then an inversion layer is formed just under the interface in the bulk.</para>
+    <para id="id1165774358498">
+      <figure id="id1165786167112">
+        <media id="id1165786167112_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-674d.png" id="id1165786167112__onlineimage" height="449" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165783083083">Theoretical Formulation of Threshold Voltage:</para>
+    <para id="id1165791869512">We will see in Chapter 6, Part 6, that the theoretical formula for thrshod voltage is given by:</para>
+    <para id="id1165775248764"><figure id="id1486268"><media id="id1486268_media" alt=""><image mime-type="image/png" src="../../media/graphics4-8234.png" id="id1486268__onlineimage" height="39" width="259"/></media></figure> 6.A</para>
+    <para id="id1165792744719">Let us look at the ideal MOS diode in Figure A. </para>
+    <para id="id1165774715740">We have to apply sufficient gate voltage so the band bending at the interface is 2qψ<sub>B</sub> as shown in Figure D. This band bending is known as ‘Surface Potential Parameter’ = qψ<sub>S</sub> = 2qψ<sub>B</sub>. At this Gate to Source Voltage = V<sub>GS</sub> we have applied sufficient voltage to just cross the Threshold Voltage ‘V<sub>Th</sub>’ and turn on the n-channel. The 2-D layer just below the Si-SiO<sub>2</sub> has experienced INVERSION. P-type semiconductor has been inverted to N-type semiconductor. The charges induced, the electric field created and the potential drop caused from Gate-to-Bulk is shown in Figure E.</para>
+    <para id="id1165792319970">. <figure id="id1165780606036"><media id="id1165780606036_media" alt=""><image mime-type="image/png" src="../../media/graphics5-c360.png" id="id1165780606036__onlineimage" height="478" width="620"/></media></figure></para>
+    <para id="id1165776465470">As seen in Figure E, the charge on the Gate (Q<sub>G</sub>) is exactly balanced by maximum depletion layer space-charge (Q<sub>dmax</sub> ) + inversion layer charge (Q<sub>i</sub>).</para>
+    <para id="id1165775787830">That is Q<sub>G </sub>= (Q<sub>dmax</sub> + Q<sub>i </sub>)_______________________________      A.1</para>
+    <para id="id1165776271149">Because of electric flux lines originating on Q<sub>G </sub>and terminating on (Q<sub>dmax</sub> + Q<sub>i </sub>) there is an uniform field in oxide layer E<sub>0</sub> and linearly graded E<sub>1</sub> just underneath the interface distributed across the depletion layer dmax wide.</para>
+    <para id="id1165781958616"><figure id="id1165796046438"><media id="id1165796046438_media" alt=""><image mime-type="image/png" src="../../media/graphics6-8d34.png" id="id1165796046438__onlineimage" height="33" width="97"/></media></figure> A.2</para>
+    <para id="id1165792575126">Where W = width of the channel and L= length of the channel.</para>
+    <para id="id1165780417782"><figure id="id1165780994147"><media id="id1165780994147_media" alt=""><image mime-type="image/png" src="../../media/graphics7-8347.png" id="id1165780994147__onlineimage" height="33" width="101"/></media></figure> A.3</para>
+    <para id="id1165773984238">Q<sub>dmax</sub> is the space charge of the depletion layer ‘dmax’ wide.</para>
+    <para id="id1165797000499">
+      <figure id="id1165776181410">
+        <media id="id1165776181410_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-e95f.png" id="id1165776181410__onlineimage" height="488" width="575"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165776544066">The depletion layer of PN junction diode :</para>
+    <para id="id1813899"><figure id="id4581246"><media id="id4581246_media" alt=""><image mime-type="image/png" src="../../media/graphics9-793c.png" id="id4581246__onlineimage" height="44" width="267"/></media></figure> A.4</para>
+    <para id="id1165774359275">In MOS diode the depletion layer extnds in P-type bulk only and surface potential barrier (ψ<sub>S</sub>) is equivalent to junction built-in potential barrier under no bias (ϕ<sub>BO</sub> ). </para>
+    <para id="id1165776181256">Assuming donor doping to be infinite and ϕ<sub>BO</sub> = ψ<sub>S</sub> equation A.4 reduces to:</para>
+    <para id="id1165793658827"><figure id="id1165776706849"><media id="id1165776706849_media" alt=""><image mime-type="image/png" src="../../media/graphics10-9aac.png" id="id1165776706849__onlineimage" height="44" width="148"/></media></figure> A.5</para>
+    <para id="id1165796239177">When V<sub>GS</sub> = V<sub>Th</sub> then d<sub>p </sub>= dmax and</para>
+    <para id="id1165776159340"><figure id="id1165774692134"><media id="id1165774692134_media" alt=""><image mime-type="image/png" src="../../media/graphics11-aaf3.png" id="id1165774692134__onlineimage" height="44" width="183"/></media></figure> A.6</para>
+    <para id="id1165781933137">The space charge in depletion layer is:</para>
+    <para id="id1165797618241"><figure id="id1165775393202"><media id="id1165775393202_media" alt=""><image mime-type="image/png" src="../../media/graphics12-75c4.png" id="id1165775393202__onlineimage" height="23" width="136"/></media></figure> A.7</para>
+    <para id="id1165776546957">Substituting A.6 in A.7 we get:</para>
+    <para id="id1165777405987"><figure id="id1165795522102"><media id="id1165795522102_media" alt=""><image mime-type="image/png" src="../../media/graphics13-957e.png" id="id1165795522102__onlineimage" height="27" width="179"/></media></figure> A.8</para>
+    <para id="id1165783774737">Referring to Figure E, in an ideal MOS Diode just at the point of turning ON:</para>
+    <para id="id1165795511799">V<sub>Th</sub> = V<sub>0</sub> + 2ψ<sub>B</sub> ;</para>
+    <para id="id1165776386796">Assuming Q<sub>G</sub> is equal to the space charge (Q<sub>dmax</sub>) in dmax depletion layer with inversion layer weakly induced we have :</para>
+    <para id="id1165787811581"><figure id="id4151417"><media id="id4151417_media" alt=""><image mime-type="image/png" src="../../media/graphics14-8d69.png" id="id4151417__onlineimage" height="33" width="133"/></media></figure>         A.9</para>
+    <para id="id6695793">Substituting A.8 in A.9 we get:</para>
+    <para id="id1165781005456"><figure id="id1165776433837"><media id="id1165776433837_media" alt=""><image mime-type="image/png" src="../../media/graphics15-1d03.png" id="id1165776433837__onlineimage" height="39" width="209"/></media></figure> A.10</para>
+    <para id="id1165781835661">We have already seen that Flat Band Voltage, V<sub>FB</sub>, has to be applied to flatten the band. This means a part of the job of the Gate Voltage is being done by V<sub>FB</sub> . Hence if this has to be accounted then Equation A.10 becomes A.11.</para>
+    <para id="id1165780495575"><figure id="id1165787788385"><media id="id1165787788385_media" alt=""><image mime-type="image/png" src="../../media/graphics16-26a8.png" id="id1165787788385__onlineimage" height="39" width="254"/></media></figure> A.11</para>
+    <para id="id6751998">If source to bulk voltage (V<sub>SB</sub>) is not zero then this also has to be accounted. This is called Body Effect. Now Equation A.11 becomes:</para>
+    <para id="id1165788255723"><figure id="id1165780691406"><media id="id1165780691406_media" alt=""><image mime-type="image/png" src="../../media/graphics17-364d.png" id="id1165780691406__onlineimage" height="39" width="276"/></media></figure>       A.12</para>
+    <para id="id1165789135110">If the charges in Oxide layer and at Si-SiO<sub>2</sub> have to be accounted then </para>
+    <para id="id1165797759712">Q<sub>SS </sub>= Q<sub>it</sub> (interface trapped charges) + Q<sub>ot</sub>(oxide trapped charges) + Q<sub>m</sub>(mobile chares in the oxide) + Q<sub>f</sub> (fixed oxide charges) and Equation A.12 becomes:</para>
+    <para id="id1165782089690"><figure id="id1165791091548"><media id="id1165791091548_media" alt=""><image mime-type="image/png" src="../../media/graphics18-a821.png" id="id1165791091548__onlineimage" height="39" width="306"/></media></figure>      A.13</para>
+    <para id="id1165776565066">This completes the theoretical formulation of the Threshold Voltage MOS device. </para>
+  </content>
+</document>

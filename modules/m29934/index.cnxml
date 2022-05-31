@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 4.</title>
+  <metadata>
+  <md:content-id>m29934</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 4.</md:title>
+  <md:abstract>Summary: Part 4 of 50 years journey;</md:abstract>
+  <md:uuid>90937c15-6297-480a-9728-b8f1b90d3f5d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169297098674">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 4.</para>
+    <para id="id1169299809227">Title:Part 4 of 50 yrs journey.</para>
+    <para id="id2676964">Keywords:Band-gap narrowing,BiCMOS,PolySi Emitter,Surface Recombination Velocity, Metal Silicide, base spreading resistance;</para>
+    <para id="id1169292952909">Summary: Part 4 of 50 years journey;</para>
+    <para id="id1169303120999">
+      <emphasis effect="bold">Section IV. The development in Bipolar Junction Transistor Structure over last 50 years for meeting the challenges of Post Industrial Society.</emphasis>
+    </para>
+    <para id="id2190436">(“Transistor Design and Application Considerations for ≥200GHz SiGe HBT”, Grey Freeman et al, IEEE Transactions on ED, Vol 50,No.3, March 2003, pp.645-655)</para>
+    <para id="id8422548"> BJT has historically been faster than MOSFET. FET depends on leading edge lithographic dimensions(45nm) but BJT depends on vertical base widths which has reached 10nm. BJT has structural flexibilities in minimizing the parasitic. It has higher transconductance, high self gain, low 1/f flicker noise and better V<sub>BE</sub> matching. All these factors make BJT the device of choice for demanding applications. Today SiGe HBT are surpassing GaAs HBT . SiGe depends on more conventional Si Technology whereas GaAs depends on Molecular Beam Epitaxy which has a much higher overhead cost. So combination of HBT and CMOS, known as BiCMOS, with a large menu of passive devices such as R,C,L, Varactor Diode, and low loss transmission lines opens numerous possibilities and cost effective ways of realizing systems which cannot be achieved by GaAs ICs. BiCMOS reduces the cost of mobile consumer products, advance high BW wireless communication and collision-avoidance automobile radar. BiCMOS lead to VLSI, ASIC &amp; Si based RF SOC solution. Hence SiGe/SiGeC is becoming the technology of future.</para>
+    <para id="id5039517"><emphasis effect="bold"/>Growth of Personal Computers kept CMOS in limelight and fueled the CMOS scaling in 70s. Today the growth of INTERNET, high speed communication that converges data, video and audio and the growth of mobile communication has sharply brought in focus the need for cheap, high speed and low power devices. SiGe HBT is a major candidate for the needs of New Communication. DSP and DSP &amp; Real World Interface are at the heart of INTERNET, so developing System on Chip (SOC) and integration of digital and Analog/RF function became the high priority area of research. Since advanced SiGe Process shrinks features and boosts performance it became the technology of choice for implementing 24GHz radar for blindside detection, for 77GHz radar system for automobile collision warning or advance cruise control, for 60Ghz Wi-Fi chips for next generation wireless LAN and backbone networks , for software defined radios, for cellular handset and for high frequency automatic test equipments.</para>
+    <para id="id7884355"> The emergence of high performance SiGe Technology tailored for low voltage, low power RF &amp; mixed signal applications has shown great potentials for microwave and mm wave applications.<emphasis effect="bold"/></para>
+    <para id="id2311314">
+      <emphasis effect="bold">IV.1. The relation between the physical parameters and performance parameters and Physics of High Performance nano BJT.</emphasis>
+    </para>
+    <para id="id6553832"><emphasis effect="bold"/>The carrier concentration profile in a forward biased diode is shown in Appendix III. As discussed in the Appendix III, in olden times EB junction was like a wide base diode but with dimension scaling and improvement in technology, EB junction became shallow and hence narrow base diode. In a narrow base diode the emitter surface contact is decisive in determining the resultant emitter injection efficiency. As shown in Figure 4, metal contact directly to pure single crystal emitter portion causes a poorer injection efficiency as compared to that where metal contact and n+ pure Silicon has heavily doped poly-Silicon emitter sandwiched between the two layers. </para>
+    <para id="id1169297501410"><emphasis effect="bold">IV</emphasis>.<emphasis effect="bold">1.1. Band Gap Narrowing in Emitter, its deleterious effects and its cure.</emphasis></para>
+    <para id="id2711206">Heavy doping of emitter causes Band Gap Narrowing in Emitter which limits the improvement in Injection Efficiency due to heavy doping of Emitter. Emitter doping may be N<sub>D</sub> = 10<sup>20</sup>/cc but in effect we get the Injection Efficiency corresponding to 10<sup>18</sup>/cc [Appendix IV]. Hence we say that BGN limits N<sub>Deff</sub> = 10<sup>18</sup>/cc. This effect(BGN) is mitigated by using heavily implanted PolySi layer used as emitter contact. </para>
+    <para id="id5465009">Due to heavy doping in Emitter, degeneracy is introduced which leads to Band Gap Narrowing(BGN) by ∆E<sub>g</sub> in </para>
+    <para id="id7473794">
+      <figure id="id788796">
+        <media id="id788796_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-bc82.png" id="id788796__onlineimage" height="77" width="274"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8497421">As shown in Appendix IV,   <figure id="id1169295204562"><media id="id1169295204562_media" alt=""><image mime-type="image/png" src="../../media/Picture 5-4415.png" id="id1169295204562__onlineimage" height="59" width="226"/></media></figure></para>
+    <para id="id3730667">For a doping level of N<sub>D</sub> = 10<sup>20</sup>/cc, ∆E<sub>g</sub>=0.12eV.</para>
+    <para id="id7620928">This gives an effective doping level of N<sub>Deff</sub> = 10<sup>18</sup>/cc.</para>
+    <para id="id1169299257220">The classical formula for current gain without BGN is:</para>
+    <para id="id1169304882979">
+      <figure id="id1169303032147">
+        <media id="id1169303032147_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-4a44.png" id="id1169303032147__onlineimage" height="61" width="222"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1959530">If we take the following data: (N<sub>D</sub>)<sub>E</sub> = 10<sup>20</sup>/cc, (N<sub>A</sub>)<sub>B</sub> = 10<sup>17</sup>/cc, W<sub>E</sub> = W<sub>B</sub> = 1µm and D<sub>pE</sub>=1.25 (cm)<sup>2</sup>/sec and D<sub>nB</sub>=20 (cm)<sup>2</sup>/sec then β<sub>F</sub> = 1.6×10<sup>4</sup> ;</para>
+    <para id="id1169302658318">But taking into account of BGN, β<sub>F</sub> = 160.</para>
+    <para id="id7692136">The other component responsible for improved Current Gain in Poly_Si Emitter Transistor is due to flatter slope of excess minority carrier in Emitter region [Appendix V ]</para>
+    <table id="id3567455" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry> </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id5691665">
+      <media id="id5691665_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-845f.png" id="id5691665__onlineimage" height="441" width="413"/>
+      </media>
+    </figure>
+    <para id="id3738653">
+      <emphasis effect="bold">Figure 4. Linear Gradient is a strong function of surface condition. Metal contact gives a large gradient and Poly Silicon contact to Emitter gives a much lower linear gradient on the emitter side thereby improving I</emphasis>
+      <emphasis effect="bold">Dn</emphasis>
+      <emphasis effect="bold">/I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">(Injection Efficiency) by several orders of magnitude.</emphasis>
+    </para>
+    <table id="id1169294883400" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169297098514">To achieve higher degree of integration we had to go for smaller feature size as well as shallow devices. Metallic contact gives infinite surface recombination velocity, hence it gives a much steeper gradient as shown in Fig 4a. whereas Poly-Silicon gives a much lower gradient resulting in a very low hole component of the total current thereby giving a much higher injection efficiency.[Appendix V ]</para>
+    <para id="id3042141">
+      <emphasis effect="bold">Table 7. Room Temperature current gain as a function of emitter contact for device run BIP-8.</emphasis>
+    </para>
+    <para id="id3243504">
+      <emphasis effect="bold">[“Effect of Emitter Contact on Current Gain of Silicon Bipolar Devices”, T.H.Ning &amp; R.D. Isaac, </emphasis>
+      <emphasis effect="italics">IEEE Int. Electron Devices Meeting,</emphasis>
+      <emphasis effect="bold"> pp.473-476, 1979].</emphasis>
+    </para>
+    <table id="id8502314" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Wafer</entry>
+            <entry>H</entry>
+            <entry>H</entry>
+            <entry>E</entry>
+          </row>
+          <row>
+            <entry>Contact</entry>
+            <entry>Al</entry>
+            <entry>Pd<sub>2</sub>Si + Al</entry>
+            <entry>Poly + Al</entry>
+          </row>
+          <row>
+            <entry>R<sub>DB </sub>(KΩ/▄)</entry>
+            <entry>7.2 ± 0.2</entry>
+            <entry>7.2 ± 0.2</entry>
+            <entry>7.6 ± 1.0</entry>
+          </row>
+          <row>
+            <entry>Gain </entry>
+            <entry>67 ± 3</entry>
+            <entry>51 ± 8</entry>
+            <entry>158 ± 12</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id3730215">“ The current gain of silicon bipolar transistors with shallow emitters depends critically on the emitter contact technology…………….The conventional contact by metal or metal silicide degrades the current gain, while contact by a thin layer of poly-silicon is effective in improving the current gain” [ibid].</para>
+    <para id="id1169294934011">
+      <emphasis effect="bold">IV.1.2. Base Spreading Resistance r</emphasis>
+      <emphasis effect="bold">x </emphasis>
+      <emphasis effect="bold">and the frequency response of BJT:</emphasis>
+    </para>
+    <para id="id7045357"> This is due to the narrow sandwich of high sheet resistance P base. P Base is of 200Ω/▄ to keep N<sub>A|B</sub>/N<sub>D|E </sub>= 10<sup>17</sup>/10<sup>19</sup> as low as possible. This results in r<sub>x </sub>= 100Ω. This creates serious deterioration in high frequency performance of BJT especially in terms of Unity Power Gain Frequency (f<sub>max</sub>).</para>
+    <para id="id3789174">It can be shown that (f<sub>max</sub>) = [f<sub>T</sub>/(8πr<sub>x</sub>C<sub>μ</sub>)]<sup>1/2</sup></para>
+    <para id="id6570585">Using the dimensions of BJT used in 70s we get [Appendix IV], we get</para>
+    <para id="id3056017">f<sub>t</sub> (Unity gain BW)= 624MHz;</para>
+    <para id="id1169295156799">f<sub>max</sub> = [f<sub>T</sub>/(8πr<sub>x</sub>C<sub>μ</sub>)]<sup>1/2</sup> = 18.6GHz;</para>
+    <para id="id1169303097860">From this example it is clear that base spreading resistance r<sub>x </sub>must be minimized to get best frequency performance but reduction of r<sub>x </sub>requires increased base conductivity but increased base conductivity means lower Injection Efficiency because </para>
+    <para id="id1169299348223">Injection Efficiency =γ = 1/[1+σ<sub>B</sub>W/(σ<sub>E</sub>L<sub>p</sub>)]</para>
+    <para id="id8185136">From injection efficiency point of view: σ<sub>B </sub>&lt;&lt; σ<sub>E</sub>;</para>
+    <para id="id8599580">These are contradictory requirements hence to achieve Short Circuit Current Gain of 100 we cannot allow Base Spreading Resistance to go below 100ohm.</para>
+    <para id="id1169297481756">By using Poly Silicon , γ can be improved several orders of magnitude. This results in β of the order of 10,000. Here base conductivity can be increased to minimize Base Spreading Resistance. Thus with a reasonable β of 100, considerably lower Base Spreading Resistance can be achieved which plays crucial role in frequency performance and in improving the Figure of Merit of BJT which happens to be </para>
+    <para id="id7406015">GBP= 1/( r<sub>x</sub> C<sub>μ</sub>);</para>
+  </content>
+</document>

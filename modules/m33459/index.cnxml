@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part6_Neil Bohr's Quantum Theory of Atoms.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33459</md:content-id>
+  <md:title>SSPD_Chapter1_Part6_Neil Bohr's Quantum Theory of Atoms.</md:title>
+  <md:abstract>SSPD_Chapter1_Part 6 gives the Quantum Theory of Atoms as proposed by Neil Bohr.</md:abstract>
+  <md:uuid>fda76c6d-369b-4689-a761-d82219f65bd2</md:uuid>
+</metadata>
+<content>
+    <para id="id1171609752450">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 6_NEIL BOHR’s QUANTUM THEORY OF ATOMS- STATIONARY AND RADIATION LESS ORBITS.</emphasis>
+    </para>
+    <para id="id1171609606385"> According to Classical Physics any accelerated charge will radiate electromagnetic waves called Synchrotron Radiation .</para>
+    <para id="id1171609788246"> Electrons in circular orbits around the nucleus experience a centripetal force due to electrostatic attraction ((q.q)/(4πε<sub>o</sub>r<sup>2</sup>)) and a reaction force called centrifugal force equal to mv<sup>2</sup>/r. An exact balance between the two keeps it in a stable circular orbit. If energy is being lost through radiation , due to the fact that a particle in a circular orbit is being continuously accelerated towards the centre, then the orbiting electron will spiral inward until it collapses into the nucleus. But no such thing happens in reality in an Atom though we do witness the phenomena of Synchrotron Radiation in a Betatron.</para>
+    <para id="id1171610519896"> As shown in Fig.(1.11) , Betatron consists of a powerful magnetic field along z axis perpendicular to the plane of paper. The electron is accelerated along an expanding spiral path in the plane of the paper around the longitudinal axis of the magnetic field. An electric field is applied parallel to the plane of paper by two oppositely charged D shaped electrodes which accelerate the electron every time it passes from one electrode region to the other region. The electric field is alternating field with period of alteration equal to the time taken to cover one circular path. This keeps accelerating electron into expanding spiral path.</para>
+    <para id="id1171608407751">
+      <figure id="id1171608439232">
+        <media id="id1171608439232_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-0ba3.png" id="id1171608439232__onlineimage" height="595" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171610401869">
+      <emphasis effect="bold">Fig.1.11. The schematic of a Betatron </emphasis>
+    </para>
+    <para id="id1171610542336"> The outward spiraling electron radiates a continuous spectrum of soft X-ray electromagnetic waves. This finds several commercial applications in the field of medicine and industries.</para>
+    <para id="id1171610372782"> But what is true at macro scale is not true at the atomic scale. Why?</para>
+    <para id="id1171609759704">In 1913 Niels Henrik David Bohr(1885-1962) <emphasis effect="bold">[Appendix XXIV]</emphasis> proposed a new set of postulates to circumvent this difficulty:</para>
+    <list id="id1171610187209" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>Electrons are permitted only in those orbits which are radiation less and support standing waves of electron probability amplitude Ψ(r,t);</item>
+    </list>
+    <para id="id1171610561847">(ii) Electron Orbital Angular Momentum= integral multiple of (h/(2π));</para>
+    <para id="id1171610333944">i.e. Iω = nћ        1.15 </para>
+    <para id="id1171607805320">where I =moment of inertia around the spin axis= mr<sup>2</sup> ;</para>
+    <para id="id1171610339480">and ω= orbital angular velocity = v/r;</para>
+    <list id="id1171610352694" list-type="enumerated" number-style="lower-roman" mark-prefix="(" mark-suffix=")">
+      <item>A photon is emitted when electron jumps from excited state to ground state. A photon is absorbed when electron jumps from ground to a excited state. In both the cases, that is in the case of radiation or absorption, the photon’s energy packet hν = ΔE = E<sub>2</sub> (excited state) – E<sub>1</sub>(ground state);</item>
+    </list>
+    <para id="id1171610204439">Neil Bohr himself did not prove these postulates. Heisenberg used Quantum Mechanics to prove these postulates and Schrödinger used Matrix Mechanics to prove the same. Heisenberg was awarded Nobel Prize in 1932 for his contribution to Quantum Mechanics.</para>
+    <para id="id1171609666969"> According to Matter Wave Theory, an electron in free space has a continuum of energy. It behaves as a traveling wave and its wave number and orientation can be continuously varied. This electron can occupy any energy level from zero to infinity.</para>
+    <para id="id1171609594835"> Total Energy = E = Kinetic Energy + Potential Energy;</para>
+    <para id="id1171610141219"><emphasis effect="bold">Therefore   E = p</emphasis>
+      <emphasis effect="bold">^2</emphasis>
+      <emphasis effect="bold">/(2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">) – qV(r) 1.16</emphasis>
+    </para>
+    <para id="id1171609804683">Where p= linear momentum of the electron;</para>
+    <para id="id1171608365943"> m<sub>e</sub> = mass of the electron;</para>
+    <para id="id1171610574604"> q = the charge of an electron;</para>
+    <para id="id1171609913327"> V(r) = potential at position r .</para>
+    <para id="id1171608402284">Wave number or wave propagation vector k = 2π/λ = (2π/h)p = p/ћ</para>
+    <para id="id1171608381201">Or    p = k ћ       1.17</para>
+    <para id="id1171610103342"> An electron in free space is an unbounded electron and can assume a continuum of energy values as p can assume a continuum of linear momentum values. p can assume a continuum of linear momentum values because in free space there are no boundary conditions to restrict the linear momentum values.</para>
+    <para id="id1171610252979"> From Eq.(1.16) E vs p or E vs k is a parabolic curve as shown in Fig.(1.12).</para>
+    <figure id="id1171610119065">
+      <media id="id1171610119065_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-811e.png" id="id1171610119065__onlineimage" height="301" width="488"/>
+      </media>
+    </figure>
+    <para id="id1171609758775">
+      <emphasis effect="bold">Figure.1.12. E vs k curve for an electron in free space.</emphasis>
+    </para>
+    <figure id="id1171607554980">
+      <media id="id1171607554980_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-5f40.png" id="id1171607554980__onlineimage" height="46" width="124"/>
+      </media>
+    </figure>
+    <para id="id1171607950457">Where m<sub>e</sub><sup>*</sup> = effective mass of the electron. </para>
+    <para id="id1171609893724">When an electron is restricted to an infinite potential well [Figure 1.13.C] then the matter wave as a traveling wave is converted to a standing wave. In a potential well only those standing waves are permitted which satisfy the condition of nodes at the potential well boundaries just as a vibrating spring can vibrate only at those notes where the standing waves have nodes at the two ends of the string which are tied to the side walls. That is the wavelength of the standing wave must satisfy the condition:</para>
+    <para id="id1171610170951"><emphasis effect="bold">W = (n . ½)λ       1.18</emphasis>
+    </para>
+    <para id="id1171609569447">Where n= 0, 1, 2, 3 ; and W is the width of the potential well.</para>
+    <para id="id1171609758667"> Fig(1.13.a and b and c) give the permitted standing wave pattern for a vibrating string tied on the two ends as well as for an electron in One-Dimensional Potential Well with infinite potential barrier at the two ends and the figure of an infinite potential well respectively..</para>
+    <figure id="id1171610552342">
+      <media id="id1171610552342_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-134c.png" id="id1171610552342__onlineimage" height="438" width="521"/>
+      </media>
+    </figure>
+    <para id="id1171610384932">
+      <emphasis effect="bold">Fig(1.13.A) The Standing Wave Pattern for a vibrating string tied on the two ends;</emphasis>
+    </para>
+    <para id="id1171610526578"/>
+    <para id="id1171608431299">For a standing wave on a vibrating string tied on two ends, the following condition has to be satisfied:</para>
+    <para id="id1171610558881">
+      <emphasis effect="bold">(N).(1/2)(λ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">) = L      1.19</emphasis>
+    </para>
+    <para id="id1171610523612">
+      <figure id="id1171607354716">
+        <media id="id1171607354716_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-cf3a.png" id="id1171607354716__onlineimage" height="595" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171610529186"><emphasis effect="bold">Fig.(1.13.B) The Standing Wave Pattern for an electron in 1-D infinte Potential Well in 1st,3rd,5th quantum states.</emphasis>
+    </para>
+    <para id="id1171610547661">
+      <figure id="id1171610405157">
+        <media id="id1171610405157_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-c169.png" id="id1171610405157__onlineimage" height="356" width="526"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171608411396">Figure 1.13.C. An infinite potential well of width W microns </para>
+    <para id="id1171610541586">For standing wave in an infinite potential well, the following condition has to be satisfied: </para>
+    <para id="id1171610402941">
+      <emphasis effect="bold">(n.1/2)(λ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">) = W      1.20</emphasis>
+    </para>
+    <para id="id1171609890080">The positively charged nucleus of an Atom creates 3-D Potential Well of spherical symmetry. In this finite space, electrons can exist only as Standing Waves with the boundary condition:</para>
+    <para id="id1171610174440">
+      <emphasis effect="bold">   2.π.r = n.(h/p</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">) = n.λ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">     1.21</emphasis>
+    </para>
+    <para id="id1171610051028">where n = 1, 2, 3, 4,……….. </para>
+    <para id="id1171609850130">Eq.(1.21) implies that electrons have physical existence only when the circumference of the permissible orbit is an integral multiple of the matter wave wavelength. This directly takes us to the Postulates of Neil Bohr.</para>
+    <para id="id1171609616102"> Rewriting Eq.(1.15),</para>
+    <para id="id1171610099912"/>
+    <para id="id1171610032909">
+      <emphasis effect="bold">Iω = nћ = nh/(2π)      1.22</emphasis>
+    </para>
+    <para id="id1171610240158">Where I = moment of inertia of the orbiting electron = mr<sup>2 </sup>;</para>
+    <para id="id1171609617031">   ω = orbital angular velocity = v/r ;</para>
+    <para id="id1171607671094">Substituting the values of I and ω in Eq.(1.22) we obtain the following Equation:</para>
+    <para id="id1171610407944"/>
+    <para id="id1171610367494">
+      <emphasis effect="bold">m.v.r = nh/(2π)      1.23</emphasis>
+    </para>
+    <para id="id1171609769352">Reshuffling the terms we get:</para>
+    <para id="id1171609760919"/>
+    <para id="id1171610146722">
+      <emphasis effect="bold">2.π.r = n.h/(mv</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">) = n.h/(p</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold">) = n.λ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1171608450995">Thus the first Postulate of Neil Bohr is a restatement of the fact that electron is a real material particle as well as it is a matter wave and hence electron’s permitted orbits are radiationless and support the standing wave pattern only.</para>
+    <para id="id1171607881002">Neil Bohr inadvertently corroborated the wave nature of electrons..</para>
+    <para id="id1171607491483">When we are working at macroscopic level that is at cm and meter level, then Newtononian Mechanics and Maxwell’s Electromagnetic Theory suffice for neutral and charged particles. But when we are working at atomic scale i.e. at Angstrom scale then we have to invoke Quantum Mechanics.</para>
+    <para id="id1171608414719">When we increase the scale from Angstrom to meter then Quantum Mechanics results correspond to those of Classical Mechanics. This known as Correspondence Principle.</para>
+  </content>
+</document>

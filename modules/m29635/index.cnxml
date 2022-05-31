@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analog Electronics Lecture 2_PartB_BJT configurations &amp; modes</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m29635</md:content-id>
+  <md:title>Analog Electronics Lecture 2_PartB_BJT configurations &amp; modes</md:title>
+  <md:abstract>Abstract: This describes three circuit configurations, four modes of operation and five schemes of biasing;</md:abstract>
+  <md:uuid>da474ff2-4c02-4004-8e6c-0b1585bafd1c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5440377">Analog Electronics Lecture 2_PartB_BJT configurations &amp; modes</para>
+    <para id="id4789435">Key words;CE,CC &amp; CB BJT; </para>
+    <para id="id5936760">Abstract: This describes three circuit configurations, four modes of operation and five schemes of biasing;</para>
+    <para id="id1170439084458">BIPOLAR JUNCTION TRANSISTOR</para>
+    <para id="id1170438490016">FOUR MODES OF OPERATION</para>
+    <table id="id5540899" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Type Of Biasing</entry>
+            <entry>Emitter-Base Junction</entry>
+            <entry>Base-Collector Junction</entry>
+          </row>
+          <row>
+            <entry>Forward Active Mode</entry>
+            <entry>Forward Biased</entry>
+            <entry>Reverse Biased</entry>
+          </row>
+          <row>
+            <entry>Inverse Active Mode</entry>
+            <entry>Reverse Biased</entry>
+            <entry>Forward Biased</entry>
+          </row>
+          <row>
+            <entry>Saturation Mode</entry>
+            <entry>Forward Biased</entry>
+            <entry>Forward Biased</entry>
+          </row>
+          <row>
+            <entry>Cut-Off Mode</entry>
+            <entry>Reverse Biased</entry>
+            <entry>Reverse Biased</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id7794438">THREE CIRCUIT CONFIGURATIONS</para>
+    <list id="id1170441232488" list-type="enumerated" number-style="arabic" mark-prefix="(" mark-suffix=")">
+      <item>COMMON BASE CONFIGURATION</item>
+    </list>
+    <figure id="id1170449748669">
+      <media id="id1170449748669_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 47.png" id="id1170449748669__onlineimage" height="203" width="460"/>
+      </media>
+    </figure>
+    <para id="id4771452"/>
+    <list id="id1170442632593" list-type="enumerated" number-style="arabic" mark-prefix="(" mark-suffix=")">
+      <item>COMMON EMITTER CONFIGURATION</item>
+    </list>
+    <figure id="id1170439355034">
+      <media id="id1170439355034_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-29b0.png" id="id1170439355034__onlineimage" height="265" width="381"/>
+      </media>
+    </figure>
+    <list id="id1170443052997" list-type="enumerated" number-style="arabic" mark-prefix="(" mark-suffix=")">
+      <item>COMMON COLLECTOR CONFIGURATION</item>
+    </list>
+    
+    <para id="eip-550">The Figure of Common Collector Configuration is not given here. An emitter follower is an example of Common Collector Configuration. In Emitter Follower the collector is directly connected to the positive of the battery and under incremental analysis or under small signal analysis the battery is considered short circuited.Hence under signal condition, collector is effectively shorted to ground. Hence Emitter Follower is a Common Collector Configuration.In Emitter followr , input is at base  but output is at emitter.The voltage at emitter follower follows the voltage at the input namely the base. Hence the voltage gain is Unity but current gain is almost 100. It can deliver a large current. Hence it is a Buffer and used for driving the load after the pre-amplifier.
+    </para><para id="id1170439507535">TYPES OF BIASING SYSTEM USED</para>
+    <para id="id4563373">(1)Two battery biasing:</para>
+    <para id="id1170440058748"> The 3 circuit configurations shown in the previous page are the examples of this biasing.</para>
+    <para id="id6126156">(2)Fixed Bias:</para>
+    <para id="id6306753"> This type of biasing system offers poor stability because it has negative feedback..</para>
+    <figure id="id1551402">
+      <media id="id1551402_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-5397.png" id="id1551402__onlineimage" height="227" width="319"/>
+      </media>
+    </figure>
+    <para id="id1170439663393">(3)Potential Divider Bias:</para>
+    <para id="id5484942"> This type of biasing also offers poor stability because this also has no negative feedback.</para>
+    <figure id="id1170442396328">
+      <media id="id1170442396328_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-29b0.png" id="id1170442396328__onlineimage" height="263" width="361"/>
+      </media>
+    </figure>
+    <para id="id1170439549019">(4)Self Biasing:</para>
+    <para id="id1170438659976"> This type of biasing system offers high stability because of current series feed-back.</para>
+    <para id="id1170443645767">
+      <figure id="id4686035">
+        <media id="id4686035_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-1f12.png" id="id4686035__onlineimage" height="254" width="334"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4995062">(5)Widlar Biasing:</para>
+    <para id="id5305276"> The above types of biasing systems are used normally for discrete circuits. But this type of biasing is used for IC technologies. It offers high stability because of voltage shunt feed-back.This is also known as collector to base feed-back.</para>
+    <figure id="id1170441911701">
+      <media id="id1170441911701_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-f8b7.png" id="id1170441911701__onlineimage" height="235" width="361"/>
+      </media>
+    </figure>
+  </content>
+</document>

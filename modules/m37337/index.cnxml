@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_ Diode Tutorial</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37337</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_ Diode Tutorial</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Tutorial on Diode gives problem of design and simulation on Varctor Diode, Ideality Factor and Tunnel Diode.</md:abstract>
+  <md:uuid>c7dc382e-8560-4672-9c70-9b622b6874c4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172606506868">
+      <emphasis effect="bold">SSPD_Chapter 6_Part 7_ Diode simulation Tutorial 1</emphasis>
+    </para>
+    <list id="id1172606375437" list-type="enumerated" number-style="arabic">
+      <item>Design a Varactor Diode and verify it by Device Simulatin program of ATLAS.[Hint:Step Junction Diode doping parameter m = 0, linearly graded junction diode m =1 and in Varactor Diode m = -3/2. Doping Profile analytic relation of Hyper-abrupt junction is given by the following expression: </item>
+    </list>
+    <para id="id1172605437498"><figure id="id1172611444373"><media id="id1172611444373_media" alt=""><image mime-type="image/png" src="../../media/graphics1-7b49.png" id="id1172611444373__onlineimage" height="40" width="332"/></media></figure> ; </para>
+    <para id="id1172606118820">depletion width varies as the square root of the reverse bias voltage in step junction diode, varies as cube root of the reverse bias voltage in linearly graded junction diode and varies as the square of the reverse bias voltage in hyperabrupt junction diode where </para>
+    <para id="id1172606132102">m = -3/2. The varactor diode is used to assemble Voltage Controlled Oscillator (VCO) which is used in generating Frequency Modulated(FM) Carriers].</para>
+    <list id="id1172607450701" list-type="enumerated" number-style="arabic"><item>Design a step junction diode and study the forward bias I-V characteristics. From I-V characteristics extract the ideality factor for different ranges of current. See what device fabrication parameter control the ideality factor. [Hint: In Shockley Diode Equation we have the two basic assumptions: a. Bulk is quasi-neutral region. b. there is no recombination in the depletion region. This leads to :</item>
+    </list>
+    <para id="id1172618564041">
+      <figure id="id1172607956716">
+        <media id="id1172607956716_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-106d.png" id="id1172607956716__onlineimage" height="28" width="468"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172607565975">But at low currents (below 0.5mA) assumption (b) is violated and at high currents i.e at currents greater than 5mA assumption (a) is violated. In both cases :</para>
+    <figure id="id1172605463003">
+      <media id="id1172605463003_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-bdd7.png" id="id1172605463003__onlineimage" height="57" width="650"/>
+      </media>
+    </figure>
+    <para id="id1172606097855">Hence in diode equation : <figure id="id1172615400917"><media id="id1172615400917_media" alt=""><image mime-type="image/png" src="../../media/graphics4-a29e.png" id="id1172615400917__onlineimage" height="41" width="199"/></media></figure></para>
+    <para id="id1172606204830">Under two conditions, when I<sub>D </sub>is less tthan 0.5mA and greater than 5mA, V<sub>J</sub> = V<sub>D</sub>/2 and therefore real diode equation under these two conditions is:</para>
+    <figure id="id1172606466323">
+      <media id="id1172606466323_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1bce.png" id="id1172606466323__onlineimage" height="51" width="215"/>
+      </media>
+    </figure>
+    <para id="id1172632464309">Therefore under these two conditions we have an Ideality Factor of η = 2 and real diode equation is given by:</para>
+    <para id="id1172606496776"><figure id="id1172612560646"><media id="id1172612560646_media" alt=""><image mime-type="image/png" src="../../media/graphics6-6e4d.png" id="id1172612560646__onlineimage" height="41" width="207"/></media></figure> ]</para>
+    <list id="id1172608047448" list-type="enumerated" number-style="arabic">
+      <item>Design a tunnel diode and simulate its I-V characteristics. As the doping concentration is raised the I-V characteristics are changed from conventional diode to Zener Diode to Backward Diode to Tunnel Diode. These changes in I-V characteristics can be tested by scaling up the doping.</item>
+    </list>
+    <figure id="id1172605721927">
+      <media id="id1172605721927_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-7c05.png" id="id1172605721927__onlineimage" height="481" width="515"/>
+      </media>
+    </figure>
+    <table id="id1172607499206" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Type</entry>
+            <entry>Anode doping</entry>
+            <entry>Cathode doping</entry>
+          </row>
+          <row>
+            <entry>Conventionaldiode</entry>
+            <entry>10<sup>16 </sup>dopent atoms/cc</entry>
+            <entry>10<sup>16 </sup>dopent atoms/cc</entry>
+          </row>
+          <row>
+            <entry>Zener Diode</entry>
+            <entry>10<sup>19 </sup>dopent atoms/cc</entry>
+            <entry>10<sup>19 </sup>dopent atoms/cc</entry>
+          </row>
+          <row>
+            <entry>Backward Diode</entry>
+            <entry>10<sup>20 </sup>dopent atoms/cc</entry>
+            <entry>10<sup>20 </sup>dopent atoms/cc</entry>
+          </row>
+          <row>
+            <entry>Tunnel Diode</entry>
+            <entry>10<sup>21 </sup>dopent atoms/cc</entry>
+            <entry>10<sup>21 </sup>dopent atoms/cc</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

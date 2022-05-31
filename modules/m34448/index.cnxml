@@ -1,0 +1,55 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_Conclusin_Defects in Crystal Structures</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34448</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_Conclusin_Defects in Crystal Structures</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 11_ Conclusion, describes the 1D,2D and 3D defects in crystals.</md:abstract>
+  <md:uuid>d2ad49b4-d12f-47f5-aeb1-4506f4909795</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166791439696">SSPD_Chapter 1_Part 11_Conclusion_Defects in Crystal structure</para>
+    <para id="id1166785704152">1.11.8. CRYSTAL DEFECTS- 1-D DEFECT, 2-D DEFECTS AND 3-D DEFECTS. </para>
+    <para id="id1166788947653"><emphasis effect="bold"/>A regular array of atoms extending to infinity in all three dimensions is an ideal crystal. In real life , crystals are always surface bounded where we have dangling bonds and hence surface states. Therefore real crystals are never ideal. But apart from this non-ideality, we have externally introduced defects. This could be a missing atom, atoms out of place, irregular arrangement of atoms, irregularity in the spacing of the rows of atoms and the presence of impurities. These defects effect the electrical properties of the material and devices made out of these materials.</para>
+    <para id="id1166792739684"><emphasis effect="italics">Point defects</emphasis> are the simplest category of defects. Vacancies, interstitial impurity atoms and substitutional impurity atoms comprise point defects. They are shown in Figure (1.63). Vacancies and interstitials occur in all crystals due to thermal excitation of 1~2 eV. As the ambient temperature increases the density of such point defects increases. By particle radiation such defects can be purposely introduced in a given sample for specific purposes such as decreasing the lifetime of the minority carriers. The lifetime of minority carriers can be changed from millisecond to pico-seconds. A relatively pure, single and defect-free crystal exhibits millisecond lifetime whereas with introduction of defects it falls. Particle radiation induced defects can kill the lifetime to as low as pico-seconds. </para>
+    <para id="id1166791522910">The controlled introduction of impurity dopents influence drift mobility, diffusion coefficient and lifetime. The dopents occupy either interstitial positions or substitutional positions.</para>
+    <para id="id1166798948931">
+      <figure id="id1166783621330">
+        <media id="id1166783621330_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-a87f.png" id="id1166783621330__onlineimage" height="478" width="568"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166783387637">Figure 1.63. Point defects in a crystal.(a)Vacancy, (b) Interstitial Donor Dopent (c) Substitutional Acceptor Dopent, (d) Interstitial Acceptor Dopent;</para>
+    <para id="id1166794172867"><emphasis effect="italics">Line Defect(1-D defects)</emphasis>: Dislocations are line defects. These act as precipitate sites for metallic impurities. This degrades the performance of the device.</para>
+    <para id="id1166778536764">In edge defect, a line of atoms is not in proper position. This causes a permanent deformation in the crystal structure without the loss of a property called ductility. Metals have the maximum ductility because of the nature of metallic bond. We will discuss the nature of metallic bond in the next section. Edge Defect is illustrated in Figure 1.64.</para>
+    <para id="id1166779660659">In screw dislocation, a part of the crystal lattice is displaced with respect to the other part. The consequence of this displacement is that atomic layers spiral around this dislocation. Screw Defect is illustrated in Figure 1.65.</para>
+    <para id="id1166794057942"/>
+    <figure id="id8587738">
+      <media id="id8587738_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-ecb1.png" id="id8587738__onlineimage" height="286" width="614"/>
+      </media>
+    </figure>
+    <figure id="id1166799535733">
+      <media id="id1166799535733_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-74c4.png" id="id1166799535733__onlineimage" height="454" width="574"/>
+      </media>
+    </figure>
+    <para id="id1166797854178"><emphasis effect="italics">Plane Defects(2-D defects)</emphasis>: Solidification of a polycrystalline solid from the melt creates grain boundaries. When crystallographic plane of orientation abruptly changes there we have grain boundaries. Grain Boundaries are shown in Figure 1.66. Grain boundaries lower the mobility of the carriers. Anti-phase boundaries is 2D defect. This occurs in ordered alloy. Here the crystallographic plane direction is the same the layers are in opposite phase. Instead of layer order of ABABABAB…… it is arranged as ABABBABABAB……….Stack faults are also 2-D defect. They occur in a number of crystal structure. But they commonly occur in closed packed structure. Stacking fault is one or two layer interruption in the stacking sequence. Instead of ABCABCABCABC…….. arrangement as found in fcc structure we have ABCABABABC….. arrangements then we say that stacking fault has occurred. </para>
+    <para id="id1166794802118"><emphasis effect="italics">Volume defects(3-D defects):</emphasis> Precipitates and voids are examples. Precipitates are reduced solubility of dopents at reduced temperature. Voids are shown in Figure 1.67</para>
+    <figure id="id1166786817682">
+      <media id="id1166786817682_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-ecee.png" id="id1166786817682__onlineimage" height="389" width="412"/>
+      </media>
+    </figure>
+    <para id="id1166800819354">Figure 1.66. Grain Boundaries along with point defects and line defects.</para>
+    <para id="id1166785354487">
+      <figure id="id1166788690104">
+        <media id="id1166788690104_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 26-fce8.png" id="id1166788690104__onlineimage" height="392" width="445"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166787214368">Figure 1.67. Volume Defect such as void.</para>
+  </content>
+</document>

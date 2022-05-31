@@ -1,0 +1,799 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Solid State Physics &amp; Devices _The harbinger of third wave of civilization_PREFACE_Unfolding of Third Information Revolution.</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m29929</md:content-id>
+  <md:title>Solid State Physics &amp; Devices _The harbinger of third wave of civilization_PREFACE_Unfolding of Third Information Revolution.</md:title>
+  <md:abstract>Summary: In the first part the lecture gives the background of Third Information Revolution. Then it describes the unfolding of Third Information Revolution. It traces the development in Electronics in general and in Computer Engineering in particular from 1833AD to date. It gives the development of SuperComputers till date. It gives the source of digital data and total data generated per annum. It gives a Table on World Wide Internet Users. Table 1 gives the evolution of µP chips, Table 2 gives the evolution of different generations of computers, Table 3 gives the evolution of Local Area Network, Table 4 gives the data on Submarine and land cables laid till now. It also gives a special note on Hard 350 Disc Drive introduced in IBM 305 Ramac Computers supplanting the magnetic tapes.</md:abstract>
+  <md:uuid>8b40b702-74ab-4dbf-a7e1-88d0ea797dcd</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1973688">
+      <emphasis effect="bold">ROAD MAP OF COMPUTER DEVELOPMENT</emphasis>
+    </para>
+    <para id="id4333122">  [Computer age- Communication fuelled Universal Empowerment]</para>
+    <para id="id1166957442027">Key words: Telegraphy, Vacuum Tube, Transistors, integrated Circuit Technology, Computer;</para>
+    <para id="id2008820">Summary: In the first part the lecture gives the background of Third Information Revolution. Then it describes the unfolding of Third Information Revolution. It traces the development in Electronics in general and in Computer Engineering in particular from 1833AD to date. It gives the development of SuperComputers till date. It gives the source of digital data and total data generated per annum. It gives a Table on World Wide Internet Users. Table 1 gives the evolution of µP chips, Table 2 gives the evolution of different generations of computers, Table 3 gives the evolution of Local Area Network, Table 4 gives the data on Submarine and land cables laid till now. It also gives a special note on Hard 350 Disc Drive introduced in IBM 305 Ramac Computers supplanting the magnetic tapes. </para>
+    <para id="id1166963637846">[<emphasis effect="bold">Science &amp;technology year by year</emphasis> –Marshall Publication,London,2001]</para>
+    <para id="id1166957888075">Gutenburg Revolution, the Second Information Revolution , gave rise to the rotating type Printing Press. “Printing Liberated people’s mind by enabling the widespread dissemination of knowledge and opinion. But it remained subject to censorship and worse. Television shrank the planets into Marshall Mclean’s “global village” but the representation it diffused were tightly controlled by editors, corporations, advertisers and governments.”</para>
+    <para id="id1166966888865">
+      <emphasis effect="italics">The net in contrast provides the first totally unrestricted , totally uncensored communication system-ever. It is a living embodiment of an open market in ideas. Its patron saint (if that is not a blasphemous though for such a secular hero) is Thomas Paine, the great 18</emphasis>
+      <emphasis effect="italics">th</emphasis>
+      <emphasis effect="italics"> century libertarian who advanced the remarkable idea (remarkable for the time, anyway )that everyone had a right to speak his mind and the even more notion that they had a right to be heard.”</emphasis>
+    </para>
+    <para id="id1166957875102">Precisely because of this “Net is potentially more powerful than both printing and TV because Net harnesses the intellectual leverage which printing gave to the man-kind without being hobbled by the one to many broadcast television.”</para>
+    <para id="id1166961309338"><emphasis effect="italics"/><emphasis effect="bold">BC700</emphasis><emphasis effect="italics">- </emphasis><emphasis effect="italics">The First Information Revolution - </emphasis>Invention of the Phoenicians Alphabets, the mother of all European languages.</para>
+    <para id="id1166958111468"><emphasis effect="bold">BC 400 –</emphasis>Invention of Brahmilipi , the mother of all Indian language except Urdu.</para>
+    <para id="id1166958524237"><emphasis effect="bold">100 AD –</emphasis>Invention of Kharosti language and alphabets, the mother of all Arabic</para>
+    <para id="id6143638">languages including Urdu</para>
+    <para id="id1972414"><emphasis effect="bold">1450AD –</emphasis><emphasis effect="italics">The Second Information revolution –</emphasis> Invention of rotating press by a German Mechanic named Gutenburg.</para>
+    <para id="id1053360"><emphasis effect="bold">1833AD –</emphasis> Michael Faraday made the earliest study of semiconductors.</para>
+    <para id="id1166958116700"><emphasis effect="bold">1834AD –</emphasis>Charles Babbage plans a machine to calculate and print results.</para>
+    <para id="id2676027"><emphasis effect="bold">1842AD –</emphasis>Ada Lovelace writes a step by step Programme for Babbage’s Machine.</para>
+    <para id="id1166966804140"><emphasis effect="bold">1850AD –</emphasis>George Boole invented <emphasis effect="bold">Boolean Algebra. </emphasis>Boolean Algebra is the basis of the </para>
+    <para id="id2993057">present set of Computer Systems which use <emphasis effect="bold">ALGORITHMIC</emphasis></para>
+    <para id="id1166963776948"><emphasis effect="bold">PROGRAMMING </emphasis>as opposed to <emphasis effect="bold">HEURISTIC PROGAMMING</emphasis> of </para>
+    <para id="id7467911">Artificial Intillegence Computers. Heuristics programming uses <emphasis effect="bold">Predicate</emphasis></para>
+    <para id="id1166959993241"><emphasis effect="bold">Logic. </emphasis>Heuristics means working by rule of thumbs and it is self learning</para>
+    <para id="id1166961457893">programme. In contrast Algorithm means a set of sequential steps which are</para>
+    <para id="id3022451">repeated or iterated. Here there is no self learning involved.</para>
+    <para id="id4953900"><emphasis effect="bold">1851AD</emphasis>-First successful commercial telegraph cable laid from England to France. The cable had a central core of copper wire, gutta-percha, tarred yarn, tarred hemp, and iron wires.</para>
+    <para id="id1166967099410"><emphasis effect="bold">1858AD</emphasis>-First transatlantic telegraph cable.</para>
+    <para id="id4509713"><emphasis effect="bold">1876AD – </emphasis>Alexander Graham Bell invented Telephone.</para>
+    <para id="id1166957399400"><emphasis effect="bold">1895AD –</emphasis>J.J Thomson discovers electron as the basic building block of Atom through</para>
+    <para id="id3043146">the study of Cathode Ray;</para>
+    <para id="id1166964362227"><emphasis effect="bold">1902-1906AD</emphasis>- Telegraph cable crosses the Pacific ocean.</para>
+    <para id="id1166964187961"><emphasis effect="bold">1904AD-</emphasis>John Ambrose Fleming invents Vacuum Tube Diode(two electrodes device).</para>
+    <para id="id7205415"><emphasis effect="bold">1906AD-</emphasis>Lee De Forest invented Vacuum Triode ( three electrodes device) and used it to </para>
+    <para id="id1166961619485">achieve RC coupled Amplifier. Subsequently four electrodes device tetrode and </para>
+    <para id="id1166959567412">five electrodes device pentode.</para>
+    <para id="id1166960334370"><emphasis effect="bold">1911AD-</emphasis>Using Heaviside “Distortion-less Transmission Condition” i.e. loading the </para>
+    <para id="id2011995">Telephone cables with large inductors, first long distance telephone call was </para>
+    <para id="id1166961048439">made from New York to Denver, Colorado, over a distance of 2000 miles. </para>
+    <para id="id2776193"><emphasis effect="bold">1913AD-</emphasis>Vacuum Tube Repeater introduced in Public Service Telephone </para>
+    <para id="id6955863">Network (PSTN). </para>
+    <para id="id1166959565284"><emphasis effect="bold">1915AD-</emphasis>Using inductor loading &amp; R.C Coupled Amplifier, first transcontinental </para>
+    <para id="id2931884">telephone call is made from New York to San Francisco across a distance of </para>
+    <para id="id5559409">4000miles. Telephone becomes a Public Utility Service.</para>
+    <para id="id1166958137547"><emphasis effect="bold">1918AD-</emphasis>Two Frenchmen, Block &amp; Abraham, build the first simple Calculator-a </para>
+    <para id="id1166958035291">calculator with programme storage and data storage facility is a computer.</para>
+    <para id="id3155484"><emphasis effect="bold">1937AD</emphasis>-Alan Turing invents “The Turing Machine “- it can perform all logical tasks.</para>
+    <para id="id2134836"><emphasis effect="bold">1943AD-</emphasis> To decipher encrypted messages, British Scientist build “Colossus”-</para>
+    <para id="id7911251">forerunners of Electronic Computers.</para>
+    <para id="id8984668"><emphasis effect="bold">1945AD-</emphasis>IBM builds first full scale calculator, MARK-I.</para>
+    <para id="id1166958116713"><emphasis effect="bold">1945AD-</emphasis>ENIAC (Electronic Numerical Integrator &amp; Calculator) build by Moore School </para>
+    <para id="id4202296">of Electrical Engineering at the University of Pennsylvania. ENIAC is 27Metric Tonnes , consumes 200kW and occupies a large room. The valves failed at a rate of one every 10 minutes and ENIAC had 18,000 valves. So development of user friendly home Computers was a pipe dream at that time. Development could not take place using Thermoionic Valves.</para>
+    <para id="id1166959582571"><emphasis effect="bold">1945AD-</emphasis> Microwave Telephone link established.</para>
+    <para id="id1166958577246"><emphasis effect="bold">1945AD-</emphasis>First Transoceanic Telephone Links established using voice quality coaxial </para>
+    <para id="id1166964191547">cables. Telegraphic Cables are not suitable for Telephone Conservation. Voice</para>
+    <para id="id7242848">quality cables were developed during World War II and introduced right after </para>
+    <para id="id1166958103620">the War .Before the World War II , no TransAtlantic or TransPacific Telephonic</para>
+    <para id="id1166966703648">Links were there. Across the oceans only Radio-Telephone call could be made.</para>
+    <para id="id1166958189251"><emphasis effect="bold">1947AD-</emphasis>At Bell Laboratories, John Bardeen, Walter Brattain &amp; William Shockley</para>
+    <para id="id1166959851153">invented BJT (Bipolar Junction Transistor). They were awarded Nobel Prize in </para>
+    <para id="id1166957867669">1956 in Physics for this invention. </para>
+    <para id="id1166957706673"><emphasis effect="bold">1948AD-</emphasis>Magnetic Drum Memory invented at Georgia Institute of Technology for</para>
+    <para id="id8112918">Computers.</para>
+    <para id="id2249289"><emphasis effect="bold">1952AD-</emphasis>UNIVAC I (Universal Automatic Computer)- First computer designed for </para>
+    <para id="id1166958605616">business use. The inventors were John Mauchy &amp; John Eckart.</para>
+    <para id="id1166959565921">7.26 Metric Tonnes, 5000 Vacuum tubes &amp; 1000 calculations per second.    These are termed <emphasis effect="bold">FIRST GENERATION COMPUTERS</emphasis>.</para>
+    <para id="id1166957884108"><emphasis effect="bold">1955AD-</emphasis>Semi Automatic Ground Environment (SAGE) installed. This takes in data</para>
+    <para id="id1166958136678">received by the RADAR network and computes interception trajectories and </para>
+    <para id="id1166963290315">steers the defenders within 1000yards of the attacker.</para>
+    <para id="id1166957381379"><emphasis effect="bold">1956AD-</emphasis>UNIVAC II using transistors come in the market. Manufactures are Sperry</para>
+    <para id="id8648557">Rand, USA. These are termed as <emphasis effect="bold">SECOND GENRATION COMPUTERS</emphasis>.</para>
+    <para id="id1166957910223"><emphasis effect="bold">1956AD-</emphasis>TAT-1, the first transatlantic voice grade telephony coaxial cable laid across the Atlantic Ocean.<emphasis effect="bold"/>Until then transatlantic telephone calls were made by Radio-Telephony.(Coaxial Cable, polythene insulation, vacuum tube repeaters).</para>
+    <para id="id1166958727580"><emphasis effect="bold">1956AD- </emphasis>September 13, 1956, IBM 305 Ramac Computer with DISK DRIVE was introduced. Till then the OS and data were stored on Magnetic Drums or Magnetic Tapes as a result the booting process of the computer or access of data was very slow. This newly introduced computer had 350 Disk File. This consisted of a rack of 24” magnetically coated platters 50 in number mounted on a single vertical spindle and could store 4.4MB of data as compared to today’s hard disc which store 70GB of data.[Please see the foot note]. </para>
+    <para id="id1166960408277"><emphasis effect="bold">1959AD-Integrated Circuit (IC)</emphasis> chip invented by Jack Kilby (Texas Instrument) and</para>
+    <para id="id3385496">Robert Noyce (FairChild). Discrete active and passive devices are integrated </para>
+    <para id="id1166965821585">together on one wafer thin silicon chip in the area of 1cm by 1cm square,</para>
+    <para id="id1166962735330">mounted on a header and then properly encapsulated and sealed. At the time it </para>
+    <para id="id1166962894603">started, it had only 30 components in the 1 square cm area. This heralded </para>
+    <para id="id1166962867463">the Information Age and <emphasis effect="bold">THIRD Information Revolution</emphasis>. It also produced an </para>
+    <para id="id5874762">Explosion in electronic consumer and communication applications such as Personal Computers to cell Phones. Jack Kilby was awarded the Nobel Prize in physics in the year 2000. Jack Kilby passed away on 1<sup>st</sup> August 2005. Robert Noyce went on to establish “ INTEL” (Integrated Electronics) along with Gordon Moore and Andy Grove . He passed away earlier than Jack Kilby so he could not be awarded. Noble Prizes are not awarded posthumously.</para>
+    <para id="eip-994">5th October,1959-IBM1401 mainframe computer makes its debut. This becomes the best selling computer in the world in mid-1960s.This was in the category of stored program computers. These stored program computers were vastly superior to IBM 604 Electronic Calculating Punch Machine which was vacuum tube, plugboard-controlled, serial-decimal machine with 50 digits of storage.Stored Program Computers were more flexible and adaptable than plugboard-based accounting machines. But these large-scale stored program computers were too expensive for common use.By the use of alloyed junction discrete transistor logic and Automatic Logic Design software, the volume and power consumption was reduced by 50% and 95% respectively.Standard Modular System(SMS) called Cube/Rolygon for electronic packaging was used. Saturating Complementary Transistor Diode Logic(CTDL)Family was used. This could clock at a maximum rate of 250kHz.CTDL was robust and handled large fan-ins and fan-outs.Memory to Memory architecture was used.This reduced the number of instructions needed for accounting and business programming.These changes achieved a entry-level rental price target of US$2500 per month.Previously it was as high as US$40,000 per month. It had outstanding print quality, powerful magnetic tape subsystem and a stored program computer for the mass market place.By 1965, half of the approximately 26000 computers in the World were 1400-family machines.Tape-oriented 1401 system became the computer of choice. Time-life transferred 40 million punched card subscriber records to just several hundred magnetic tapes.Full size system had 500,000 discrete components, weighed up to 4 tonnes, and consumed up to 13000W.It used 10,600 Ge alloy-junction transistors and 13,200 Ge point-contact diodes on 2300SMS cards interconnected with 5.5mi of wire. Memory varied from 1400 bytes to 16000 bytes memory space.It had a clock rate of 87000cycles/sec corresponding to one clock cycle of 11.7microsecond. In 50 machine cycles corresponding to 0.5ms two positive 20-digit numbers  could be added. Today a Pentium IV processor operating at 4GHz can add two 64-bit numbers in 0.5nano second.Magnetic Core Memories were priced at 60 cents per bit(or US$24 per byte in today's currency. This is 300 million times more costly than today's DRAM.Its high speed and enduring print quality made it an Industry Workhorse. By 1961, optical character recognition (OCR) devices were introduced as a peripheral to 1401. The 1401 contributed to the growth of programming as a profession and software as an industry.It had no operating system. IBM had a compatibility problem amongst its various versions and amongst its various peripherals. By April 1964 it introduced System/360. It consolidated software, peripherals and support in one compatible and scalable computer family. 1401 wound down with the announcement of S/360.[This part has been excerpted from"The Legendary IBM 1401 Data Processing System" by Robert Garner Fredrick(Rick) Dill, IEEE Solid-State Circuits Magazine,Winter 2010,Vol.2,No.1, pp.28-39]</para><para id="id4776974"><emphasis effect="bold">1960AD-</emphasis>PDP I (Programmed Data Processor).This was introduced by Digital Equipment </para>
+    <para id="id1166957897424">(DEC).DEC was founded by Kenneth Olsen &amp; Harlen Anderson .These were</para>
+    <para id="id1166967136162">also made of transistor. These were used as Office Computers. They were of </para>
+    <para id="id5319078">cabinet size. Control Panel and the Key Board sat on the desk. It cost $ </para>
+    <para id="id1166966725231">120,000.00. This was way too expensive for most customers and for most</para>
+    <para id="id1166964331934">application. This started the era of Mini-Computer.</para>
+    <para id="id2980366"><emphasis effect="bold">1960AD-</emphasis>Man-Computer Symbiosis was published by J.C. Licklider, an experimental </para>
+    <para id="id1812666">psychologist. This article stated that rote algorithm for computers &amp; creative </para>
+    <para id="id7638182">heuristics for Humans put together could be far more powerful than either could </para>
+    <para id="id5274856">be separately.</para>
+    <para id="id7154444"><emphasis effect="bold">1960AD-</emphasis>Sir Arthur’s Clark’s dream of Global Satellite Communication is realized.</para>
+    <para id="id7580300"><emphasis effect="bold">1961AD-</emphasis>FIRST RLT (Resistance Transistor logic) IC Chip is commercially marketed by </para>
+    <para id="id1166959623345">T I (Texas Instrument) and FairChild.</para>
+    <para id="id6790004"><emphasis effect="bold">1964AD</emphasis>-Semi-Automatic Business- Related Environment (SIBRE) is created by the</para>
+    <para id="id1166967065619">introduction of Nation-Wide Ticketing System like our Nation-Wide </para>
+    <para id="id1166958093293">Computerized Reservation System today in 2005 in Indian Railways.</para>
+    <para id="id1166958562599"><emphasis effect="bold">1964AD-FIRST Analog IC Amp. Chip MC 1530</emphasis> marketed by Motorola. Op. Amp.</para>
+    <para id="id2925641">Stands for Operational Amplifier which were in yesteryears used in Analog </para>
+    <para id="id2304113">Computers for different Mathematical Operations and hence the name Op. </para>
+    <para id="id1166960209603">Amp.</para>
+    <para id="id2250312"><emphasis effect="bold">1964AD-</emphasis>PDP 8, table top computer introduced in the market .It was a 8-bit computer </para>
+    <para id="id1166966806498">meaning by the address size is 8 bit. Larger is the address word, larger is the </para>
+    <para id="id1166962830740">address capability. 4-bit means 16 locations can be addressed and 8-bit means </para>
+    <para id="id1166959699352">256 locations can be addressed. This used IC Chips hence it was compact and </para>
+    <para id="id1166967016169">less power consuming. This was <emphasis effect="bold">THE THIRD GENERATION </emphasis></para>
+    <para id="id5993742">
+      <emphasis effect="bold">COMPUTER.</emphasis>
+    </para>
+    <para id="id2101815">Price $18,000.00, 125 kg, and 4kBytes memory.</para>
+    <para id="id6426887"><emphasis effect="bold">1965AD-</emphasis> Project MAC, started by Licklider at MIT, evolved into first On-Line </para>
+    <para id="id1166957849514">Community, complete with bulletin boards, e-mails , virtual friendship and a </para>
+    <para id="id1678828">“free ware” exchange.</para>
+    <para id="id1166958087504"><emphasis effect="bold">1968AD-</emphasis> MODEMS are used for Wide Area Network (WAN).</para>
+    <para id="id1166957971026"><emphasis effect="bold">1968AD-</emphasis> December1968, demonstration at Fall Joint Computer Conference in San</para>
+    <para id="id7048753">Francisco established Graphical User Interface(GUI) with mouse, on screen </para>
+    <para id="id1166959192456">windows, full screen word processing and a host of other innovations.</para>
+    <para id="id1166957459722"><emphasis effect="bold">1968AD-</emphasis>18<sup>th</sup> July, INTEL (Integrated Electronics) was established by Robert Noyce and </para>
+    <para id="id8594226">Gordon Moore . Later this team was joined by Andy Grove.</para>
+    <para id="id3888051"><emphasis effect="bold">1970AD-</emphasis>Advance Research Program Agency (ARPA) established ARPANET, the first </para>
+    <para id="id1166959351007">WAN, connecting Stanford Research Institute, University of Utah, University of </para>
+    <para id="id4532284">California Los Angels and University of California Santa Barbara mainly for </para>
+    <para id="id7817506">Defence research purposes. In three years it grew to cover whole USA.</para>
+    <para id="id1634008"><emphasis effect="bold">1970AD-</emphasis> PDP-11 introduced with 16 address word</para>
+    <para id="id2670233"><emphasis effect="bold">1970AD-</emphasis>Magnetic Disks replace Magnetic Drum as back up memory. These are called </para>
+    <para id="id1052786">Floppies (8” or 20cm) or Diskettes(3.5”or 9cm ).Memory capacity is 1.44MB.</para>
+    <para id="id7246641"><emphasis effect="bold">1971AD- FIRST INTEL MICROPRPCESSOR CHIP (μP 4004)</emphasis> introduced in the</para>
+    <para id="id1166963315741">market . It can handle 4-bit data word and 8-bit address word meaning by it can </para>
+    <para id="id1166958441313">address 256 locations. This 1 chip combined the function of 12 subsystems of a </para>
+    <para id="id6220962">CPU(Central Processor Unit). This one silicon chip (1cm×1cm)had 2300 </para>
+    <para id="id1166958043033">transistor , system clock rate 108kHz, Cost $299.00 . In India it was available </para>
+    <para id="id1166960371374">for Rs.7500.00.</para>
+    <para id="id2608024">[A development contract from a Japanese Company , for a set of chips needed to power an electronic calculator , triggered off what became the world’s <emphasis effect="bold">first computer-on-a-chip: the Microprocessor.</emphasis> 35 years ago, INTEL, a small Santa Clara (US) based manufacturer of memory and switching devices, unveiled a thumbnail-sized slab of silicon encased in a ceramic casing with 16 pins: this ushered in the era of Personal Computers, the era of Desk Top Computing and the era of <emphasis effect="bold">FOURTH GENERATION COMPUTERS.</emphasis></para>
+    <para id="id1166960026800"> The contract with Busicom required INTEL to deliver the electronics for calculating machine, as a set of 12 custom built chips. The electrical engineer assigned to handle the task-Dr. Marcian “TED” Hoff , a PhD from the Stanford university-had an inspired thought. Why make a set of chips just for one application? Why not generalize the design so that other computing tools could be built with the same generalized design?</para>
+    <para id="id1166961601990">In the process ,Dr. Hoff also suggested that the composite elements of a computer , as it was then understood- a unit to do the arithmetic (ALU-Arithmetic-Logic-Unit), a small memory and input and output interface –could be combined in a single slap of silicon..</para>
+    <para id="id1166962143360"> When Busicom had cash flow problems, INTEL bought back the design it had created and slipped the product into its own catalogue. </para>
+    <para id="id4608270">Intel μP 4004 was sold to Defence Establishment in India at a cost of Rs 7,000.00. Intel’s Indian Agent was Hyderabad based Electronics International which was later named as Microelectronics International] </para>
+    <para id="id1733241"><emphasis effect="bold">1971AD-</emphasis>Texas Instruments marketed first pocket calculator 1kg in weight and price $150.00. It was too bulky.</para>
+    <para id="id1166958041123"><emphasis effect="bold">1971-</emphasis>Electronic Mail or e-mail is invented by Ray Tomilinson.</para>
+    <list id="id1166963323444" list-type="bulleted">
+      <item>@ is introduced by Tomilinson to separate the User Name from domain name.</item>
+      <item>Tomilison combined the existing mail program ‘SENDMSG’ that worked only within an organization with a file transfer program called ‘CPYNET’ to create an e-mail public utility between 15 computers within the organization and use the same on the existing ARPANET.</item>
+      <item>The first e-mail; was “QWERTYUIOP”, the second row of the typewriter keyboard, sent by Tomilison.</item>
+      <item>The first telegraphic message was sent by Samuel Morse in 1844. It was “What hath God wrought”.</item>
+      <item>The first conversation carried out between Alexander Graham Bell and his assistant Watson in 1876 was, “Mr. Watson comes here. I want you.”.</item>
+      <item>Founder of Hotmail got the idea of accessing email via the web from a computer anywhere in the world. When Sabeer Bahtia came up with the business plan for the mail service , he tried all kinds of names ending in ‘mail’ and finally settled for Hotmail as it included the letters “html’(hyper text mark up language), the programming language used to write web pages .It was finally referred to as HoTMaiL with selective upper casings.</item>
+    </list>
+    <para id="id1983842"><emphasis effect="bold">1972AD-</emphasis>first 8 bit μP 8008 introduced by intel.</para>
+    <para id="id1166960160922"><emphasis effect="bold">1973AD-</emphasis>May 22, ETHERNET IEEE 802.3standards for LOCAL AREA NETWORK were born.</para>
+    <para id="id1166959636922">  The inventor of Ethernet was a young Xerox Palo Alto Research Scientist named </para>
+    <para id="id6425748">Robert M. Metcalfe.</para>
+    <para id="id1166964344282"><emphasis effect="bold">1974AD-</emphasis>8080μP chip introduced.</para>
+    <para id="id4325608"><emphasis effect="bold">1974AD- First paper on </emphasis>TCP (Transmission Control Protocol)and the architecture of the Internet </para>
+    <para id="id1166962502573">by Vinton Cerf and Kahn.</para>
+    <para id="id1166959999513"><emphasis effect="bold">1975AD-</emphasis>Altair 8800(mini-computer architecture) based on Intel μP Chip 8080 ( 8 bit </para>
+    <para id="id4576619">data &amp; 16 bit address word) introduced in the market. $397.00 worth kit </para>
+    <para id="id3075563">available.</para>
+    <para id="id1166960216793"><emphasis effect="bold">1976AD-</emphasis>APPLE CO. founded by Steve Wozniak &amp; Steve Tabs members of Home-Brew </para>
+    <para id="id823943">Computer Club (California) in a Garage. Apple I was introduced.</para>
+    <para id="id1166957861150"><emphasis effect="bold">1976AD-</emphasis>Cray 1 designed by Seymour Grey. This was a class apart called Super</para>
+    <para id="id4682590">Computer. It cost $8.8million. It could achieve 240MFLOPS (Floating Point</para>
+    <para id="id1166962963047">Operations per second) </para>
+    <para id="id3183810"><emphasis effect="bold">1977AD</emphasis>-Taito (Japanese Software Company) introduced a video game “SPACE</para>
+    <para id="id1942826">INVADERS” which takes the world by storm. The first video game was introduced in 1970’s by ATARI. It was a ping-pong game.</para>
+    <para id="id1166967052088"><emphasis effect="bold">1977AD-</emphasis>First Personal Computer was introduced, named APPLE II , at a price of </para>
+    <para id="id2218728">$1300.00 .It had 4kB RAM. It had a software VisiCalc the best spread sheet </para>
+    <para id="id8342430">package of its day. This was formally the <emphasis effect="bold">FOURTH GENERATION </emphasis></para>
+    <para id="id1166966802798">
+      <emphasis effect="bold">COMPUTER.</emphasis>
+    </para>
+    <para id="id1166962150738"><emphasis effect="bold">1977AD</emphasis>-Bill Gates, Harvard Under-Graduate dropout, and Paul Allen developed the</para>
+    <para id="id1478100">programming language BASIC for Altair 8800 and in the process founded </para>
+    <para id="id1945556">MICROSOFT Company at Albuquerque near MIT. The name was coined by </para>
+    <para id="id7438774">Bill Gates to represent the company that was devoted to MICROcomputer </para>
+    <para id="id1166962952615">SOFTware. MS provided DOS (disc operating system) to IBM and other PC </para>
+    <para id="id2560458">makers. </para>
+    <para id="id1166958738224"><emphasis effect="bold">1978AD</emphasis>-Intel introduces 8086 µP Chip which had 16bit data word and 16bit address </para>
+    <para id="id1166957959613">word.</para>
+    <para id="id1166957715353"><emphasis effect="bold">1978AD-</emphasis>HCL delivered 8CR μP based Desk Top computer.</para>
+    <para id="id7078115"> Indigenous OS;</para>
+    <para id="id4096331">  Indigenous BASIC Interpreter Languages.</para>
+    <para id="eip-490">1979AD___On July 1, 1979, Sony launched Walkman which played a magnetic tape popularly known as cassette but there was no provision for recording. While walking or moving, you could play a cassette and listen to it. It became so popular that within next two months , thirty thousand pieces were sold. To this date on 27.10.2010 altogether 385 million pieces have been sold. The production by Sony has been stopped as Apple-iPod has out sold Walkman. Apple-iPod has solid state memories and digital signal processing. Only the final stage where the music has to be played is an analog voltage amplifier. All these combined makes Apple-iPod much more handy, economical and much more diverse interms of variety of music which can be played. Hence Apple-iPod has caught the fancy of young people.</para><para id="id2058099"><emphasis effect="bold">1980AD</emphasis>-Voice to text system was developed by IBM.</para>
+    <para id="id7145033"><emphasis effect="bold">1981AD-</emphasis>IBM introduced its own brand of Personal Computer PC5150 based on 8088µP</para>
+    <para id="id5535180">Intel Chip. Clock Rate was the same as that of APPLE II but memory was much</para>
+    <para id="id1166958164738">bigger at 40kB. GREEN SCREEN, 2x5” Floppy Drives for loading OS. IBM </para>
+    <para id="id4771593">PC design accounts for 90% PCs. APPLE PC design accounts for 10% PCs.</para>
+    <para id="id5047040"><emphasis effect="bold">1982AD-</emphasis>France Telecom launches MINITEL system, a wide area network in which you </para>
+    <para id="id5333197">can login to a central data base from any where in the country and </para>
+    <para id="id1166962871126">pertinent information can be availed. This is first Public Utility On-Line</para>
+    <para id="id1166960187021">Service.</para>
+    <para id="id3898534"><emphasis effect="bold">1982AD-</emphasis>Intel introduces 80826µp Chip (16 bit data bus and 24 bit address bus and 68 </para>
+    <para id="id2953456">pin package).</para>
+    <para id="id1984130"><emphasis effect="bold">1983AD-</emphasis>MOUSE introduced in LISA, an Apple machine. It had a user friendly</para>
+    <para id="id2055762">graphical user interface (GUI). Its patent was bought from Xerox research center where it was used in Xerox Star. Screen icons were introduced which could be selected by the use of cursor using a mouse.</para>
+    <para id="id5587174"><emphasis effect="bold">1983AD-</emphasis>CD_ROM ( COMPACT DISC_READ ONLY MEMORY ) introduced. It has </para>
+    <para id="id7831482">700MB as opposed as 1.44MB in floppies. This can accommodate one hour of </para>
+    <para id="id2122629">music .</para>
+    <para id="eip-538">1983AD:	TCP/IP, standardized in 1978, rolls out formally 1 January 1983 and all ARPA-sponsored packet networks (ARPANET, Packet Radio Net, Packet Satellite Net) and, subsequently ethernets that are becoming commercially available, incorporate the standardized version of TCP/IP.
+
+</para><para id="id1166961292379"><emphasis effect="bold">1984AD-</emphasis>APPLE MACINTOSH is introduced. It is a complete stand alone system with</para>
+    <para id="id1166959743624">the latest GUI, namely mouse and screen icons. Its cost was $2500.00.</para>
+    <para id="id1166959203559"><emphasis effect="bold">1984AD-</emphasis>Musical instruments digital interface (MIDI) introduced.</para>
+    <para id="id1166961816458"><emphasis effect="bold">1985AD-</emphasis>Desktop publishing introduced by ALDUS PAGE MAKER along with LASER</para>
+    <para id="id1166961837437">JET PRINTER in Apple Macintosh.</para>
+    <para id="id1166963380888"><emphasis effect="bold">1986AD-</emphasis>80386(Intel) and 68030(Motorola) introduces 24 bit address bus.</para>
+    <para id="id2091618"><emphasis effect="bold">1988AD-</emphasis>VIRTUAL REALITY (VR) is introduced. When VR headset is put on , you see </para>
+    <para id="id1166960583872">a world of your choice with the help of computer. You can place yourself in the</para>
+    <para id="id1166958062986">cockpit of a jet plane and experience the sensation of actual flight.</para>
+    <para id="id1166961806632"><emphasis effect="bold">1988AD-</emphasis>Pattern Recognition Software introduced to read hand written documents by </para>
+    <para id="id9006928">computer .</para>
+    <para id="id1166961310712"><emphasis effect="bold">1988AD-</emphasis>MPEG (Moving Picture Expert Group ) is devised for compressing digital</para>
+    <para id="id1756821">videos Band Width.</para>
+    <para id="id1166961853515"><emphasis effect="bold">1988AD-</emphasis>First Trans Atlantic Optical Fiber Cable, TAT8, used in place of coaxial cable.</para>
+    <para id="id2233283">Coaxial Cable can carry 3,000 simultaneous phone calls. In contrast Optical Fiber cable can carry 37,500 simultaneous telephone calls with the present state of art of electronics. As the switching speed increases, the number of simultaneous calls increases exponentially. Total BW: 5.12terabits/sec.</para>
+    <para id="id1166966689087"><emphasis effect="bold">1988AD-</emphasis>Touch Screen Computers are developed.</para>
+    <para id="id1166962140301"><emphasis effect="bold">1989AD-</emphasis>Disk Operating System (DOS) are replaced by MS WINDOW OS., MS EXCEL </para>
+    <para id="id7613331">and MS WORD introduced. WINDOW 3.0 VERSION released.</para>
+    <para id="id4945263"><emphasis effect="bold">1989AD</emphasis>- March 1989, computer software child prodigy, now an adult, Mr. Tim Berners-Lee of CERN, Geneva, handed a proposal ‘Information Management: a proposal’. They came up with global hypertext language, the basis of “http” in website address. By October 1990, they developed the first web browser. The World Wide Web Technology was made available for wider use on INTERNET from 1991 onward without any royalties. “Internet is a vast network of networks, interconnected in many different ways yet they all speak the same language. Web is one-albeit the most influential and well known-of many different applications which run over the Internet”. Today in 2009 March, as we celebrate 20<sup>th</sup> Anniversary of Web Technology, Tim Berners-Lee is a researcher at MIT,US, and a Professor at Computer Science Department at South Hampton University, Britain, and still heads the World Wide Web Consortium that coordinates development of the Web.</para>
+    <para id="id5975868"><emphasis effect="bold">1991AD-</emphasis>ARPANET was confined to exclusive clientele (DOD sponsored research). To </para>
+    <para id="id1166959483817">make the NET available to University Community at large, NSF(National </para>
+    <para id="id1166959904351">Science Foundation) connected his own NSFNET to ARPANET . This led to </para>
+    <para id="id1166962488993">exponential growth in the use of NET. In mid-90’s the collection of networks </para>
+    <para id="id1166964187895">was looked at as INTERNET.</para>
+    <para id="id3447999"><emphasis effect="bold">1991AD-</emphasis>Until 1991, internet was largely populated by academic, government and </para>
+    <para id="id1166965645583">industrial researchers. Tim Bernes Lee developed Hyper Text Mark Up </para>
+    <para id="id1166965561601">Language (HTML) for easy file transfer and from here he was able to build up</para>
+    <para id="id6145964">World Wide Web (WWW). HTML is the lingua franca of WEB pages. This </para>
+    <para id="id7448652">made Internet useful for the whole populations – academic and non academic</para>
+    <para id="id1166958100261">both.</para>
+    <para id="id1166959313559"><emphasis effect="bold">1992AD-</emphasis>Mobile Phones enter Digital Age. These are second generation (2G) mobiles.</para>
+    <para id="id1166959847173"><emphasis effect="bold">1993 AD-</emphasis>PENTIUM I introduced . it had 3.1x10<sup>6</sup> CMOS(Complementary Metal Oxide</para>
+    <para id="id3913023">Semiconductor Field Effect Transistor) placed on one chip .</para>
+    <list id="id1166959638096" list-type="bulleted">
+      <item>it could perform 90MFLOPS, 5 IMES THE SPEED OF 80486.</item>
+      <item>data bus 32 bits and address bus 32 bits </item>
+      <item>clock rate 1500 times that of 4004 .</item>
+    </list>
+    <para id="id1166957850479"><emphasis effect="bold">1995AD-</emphasis>WINDOW 95 was introduced .<emphasis effect="bold">1996AD-</emphasis>Multi-media Extension Pentium Chips (MMX) Chips launched. It had 5.5x10<sup>6</sup></para>
+    <para id="id2947142">transistors (CMOS). It can perform 300MFLOPS and speed up multi media </para>
+    <para id="id1166963940337">processes.</para>
+    <para id="id1166959383460"><emphasis effect="bold">1998AD-</emphasis>APPLE launches iMAC fully internet compatible.</para>
+    <para id="id1166958106693"><emphasis effect="bold">1998AD-</emphasis>Global Positioning System (GPS) introduced by US Defence.</para>
+    <para id="id1070026"><emphasis effect="bold">1999AD-</emphasis>IBM’s DEEP BLUE defeats Garry Kasporov (chess grand master). 200 million </para>
+    <para id="id6056093">different chess positions are examined per second.</para>
+    <para id="id1166957850859"><emphasis effect="bold">1999AD-</emphasis>DVD(Digital Versatile Device )introduced with a memory space of 8 GB as</para>
+    <para id="id5625513">compared to 700MB in CD. DVD became a reality only after the invention of </para>
+    <para id="id1166958210892">Blue Laser Diode .</para>
+    <para id="id1166962985763"><emphasis effect="bold">1999AD-</emphasis>HDTV(High Definition TV) introduced.</para>
+    <para id="id5124866"><emphasis effect="bold">1999AD-</emphasis>WEB CAM (WEB camera ). Digital Camera connected to your computer. It </para>
+    <para id="id1166962240213">has a special drive which allows a picture to be taken every 10 seconds, turns </para>
+    <para id="id1166965669431">this into a standard file format and uploads to the server where your website is</para>
+    <para id="id4914911">stored . People can keep visiting the site and have a look at the photographs of the location as desired.</para>
+    <para id="id1166960182864">- Handheld Internet Access introduced;</para>
+    <para id="id1166960439898">  - Hand held Personal Organizer introduced;</para>
+    <para id="id1166958345455">  - MP3 standard is introduced for Digital Audio Compression.</para>
+    <para id="id8189370"><emphasis effect="bold">2000AD-</emphasis> Blue Tooth Technology introduced . This Wireless Technology allows computers, phone hand sets and CD players to communicate and share data over a distance of 10m and less. Operating frequency 2.45GHz. Switches the operating frequency 1600 times per second . This is called Frequency Hopping Spread Spectrum method. When Blue Tooth capable devices come within range of one another they have electronic conversations.</para>
+    <para id="id5754469"><emphasis effect="bold">2001AD-</emphasis>Pentium IV chip introduced;</para>
+    <list id="id1166957568665" list-type="bulleted">
+      <item>Nano-electronics chip;</item>
+    </list>
+    <list id="id1166962839239" list-type="bulleted">
+      <item>It has 42 million transistors packed in an area of 1 cm by 1 cm;</item>
+      <item>System Clock Rate is 2GHz;</item>
+      <item>20,000 more powerful than 4004 μP Chip;</item>
+      <item>Cost Rs 15,000.00</item>
+    </list>
+    <para id="id1166963620109"><emphasis effect="bold">2001AD-</emphasis> 23<sup>rd</sup> October 2001, Apple iPod, the iconic device that defines our era as distinctively as the Sony Walkman defined 1980s. An entire ecosystem of goods and services have evolved around Apple iPod. Minispeakers can be plugged into it; microphones attachment can convert it into digital audio recorder; it can be turned into small radio transmitters that beam songs to the nearest FM radio; attachments can turn it into breadth analyzer. iPod plus iTunes turned out to be a grand success where other musical gadgets and soft-wares failed. </para>
+    <para id="id5056987"><emphasis effect="bold">2003AD-</emphasis>APPLE introduces Power Mac G5 PC.</para>
+    <list id="id1166958138782" list-type="bulleted">
+      <item>64 bit data word and 64 bit address word;</item>
+      <item>18 PETA Memory locations can be addressed;</item>
+      <item>System Bus operates at 800 MHz;</item>
+      <item>System Clock operates at 2GHz, dual processors;</item>
+      <item>80 to 160GB hard disc;</item>
+      <item>256MB to 512MB high speed RAM;</item>
+    </list>
+    <para id="id7435655"><emphasis effect="bold">2004AD-</emphasis>Internet Protocol Version 6 (IPv6) introduced. Till now we have been using </para>
+    <para id="id7627516">IPv4;</para>
+    <list id="id8314485" list-type="bulleted">
+      <item>Address field is only 32 bit long in IPv4 but 128bits long in IPv6. This will </item>
+    </list>
+    <para id="id7912914">allow much larger number of users than what it can support till now;</para>
+    <list id="id6606021" list-type="bulleted">
+      <item>New version allows a larger through-put;</item>
+      <item>New version offers a better support for options;</item>
+      <item>New version provides better methods of authentication and privacy. This will</item>
+    </list>
+    <para id="id1166960582769">provide a much better protections against Hackers;</para>
+    <para id="id1676797"><emphasis effect="bold">2004AD- </emphasis>“ Project Columbia” a $50 million super-computer built by SILICON </para>
+    <para id="id1166960162727">GRAPHICS is introduced;</para>
+    <list id="id1166961539905" list-type="bulleted">
+      <item>it is powered by 10,240 processors in 20 units;</item>
+      <item>it is Intel Itanium chips;</item>
+      <item>it performs 43 Tera FLOPS as compared to the world record of 36TFLOPS </item>
+    </list>
+    <para id="id1166964245768">performed by IBM’s BlueGene/L super computer;</para>
+    <list id="id1166959571074" list-type="bulleted">
+      <item>This is a ten fold increase in NASA’s supercomputing capacity;</item>
+      <item>Applications in hurricane tracking, weather modeling and earth’s interior </item>
+    </list>
+    <para id="id1166964040516">imaging;</para>
+    <para id="id1166961362668"><emphasis effect="bold">2004AD-</emphasis>Norton Internet Security 2005 is introduced for Rs 3,618.00. It offers Norton </para>
+    <para id="id4654609">Anti-Virus, Norton Anti-Spam and Norton Personal Firewall. Firewall protects </para>
+    <para id="id1644779">the system from Trojan Horses and other attackers. It also includes parental and </para>
+    <para id="id4560560">privacy controls;</para>
+    <para id="id4334225"><emphasis effect="bold">2004AD-</emphasis> Radio frequency Identification (RFID). It is a stamp size chip which gives</para>
+    <para id="id2211600">a Radio Signal as the tag mark of the product it is attached to;</para>
+    <para id="id2047564"><emphasis effect="bold">2005AD-</emphasis> GeForce 7800 GTX (latest Graphics Processing Unit or GPU) introduced by </para>
+    <para id="id4991968">US-based nVIDIA Corporation for Video Games;</para>
+    <list id="id4740212" list-type="bulleted">
+      <item>302 million CMOS on one 1cmx1cm chip;</item>
+      <item>Performs 202 GFLOPS;</item>
+      <item>10% less power consumption ;</item>
+      <item>50% quieter</item>
+      <item>twice as powerful as its processors 6800 but it costs the same as before that is </item>
+    </list>
+    <para id="id2272541">Rs. 32,000.00 ;</para>
+    <list id="id1166959746038" list-type="bulleted">
+      <item>Market for video games is one of the fastest growing sectors in Computer </item>
+    </list>
+    <para id="id1166963103090">Industry;</para>
+    <para id="id1166958532491"><emphasis effect="bold">2005AD-</emphasis>Dual cores Microprocessor chip are introduced;</para>
+    <para id="id1967565">Intel introduces Pentium “Extreme Edition” 840 with Clock Rate=3.2GHz and </para>
+    <para id="id5937561">with billon transistors . This is dual core as well as it has a software called</para>
+    <para id="id8589669">‘hyperthreading’(HT). This is a software which enables one to work with double</para>
+    <para id="id1166959270998">virtual processors. Thus a dual core with HT will allow application developers </para>
+    <para id="id5304563">to write software that can carve up the task between four processors;</para>
+    <list id="id7818254" list-type="bulleted">
+      <item>Intel introduces Xeon for servers and Pentium M for laptops;</item>
+      <item>AMD introduces Opteron 800 series for servers and workstations;</item>
+      <item>AMD introduces Athlon 64 X2 for consumers and business PC’s;</item>
+    </list>
+    <para id="id1166961509089"><emphasis effect="bold">2008 October</emphasis>. GeForce 9400M is a single chip solution for graphical processing platform for portable applications. It has computing rate of 55GFlops (Floating Point Operations), the most powerful integrated graphics processor in the market in 2008. It has 6 cores operating in parallel. But much less power hungry. New MacBook family will be fuelled by these chips.</para>
+    <para id="id1166963225411"><emphasis effect="bold">2008 November.</emphasis>Intel and AMD have launched a native quad processor unlike the earlier version where 2 dual core chips had been combined in the same package. Intel has launched ‘Nehalem’,the i7 processor using 45nm technology. AMD has launched 45nmOpteron. Both achieve the 4 cores on the same silicon slab. This has Memory Bandwidth. These conserve energy by cutting down power when the device is idle.</para>
+    <para id="id1166960980053"><emphasis effect="bold">2009 May</emphasis>- Interplanetary Internet Protocols are tested by using computers on the International Space Station. Eventually there will be an internet connectivity among Earth, multiple probes, rovers, orbiters and space crafts exploring the solar system. This will be the basis of Interplanetary Internet. The network’s key technologies are called Delay Tolerant Networking(DTN) protocols. The problem in deep space internet is the huge delay and occultation of the nodes. To overcome this problem “store and forward” technique will be used. The node will save the data and then passes on when the link is again established. A third test is yet to be carried. In this a security protocol and a new file-transfer protocol will be used.</para>
+    <para id="id3012392"><emphasis effect="bold">2010AD</emphasis>-Pacific Unity will lay multiple fibers. Total capacity; 7.68 terabits per second.</para>
+    <para id="id1166959016616">ROAD MAP OF SUPERCOMPUTER.[‘The Data’, IEEE SPECTRUM, APRIL 2009]</para>
+    <para id="id1166957847584"><emphasis effect="bold">1976 </emphasis>Illiac IV, 64 processors, teraflops capability, cost was 4.8×10<sup>-7</sup>TeraFlops per million dollars or 4.8×10<sup>5</sup>Floating Point Operations per Second which is 480×10<sup>3</sup>FLOPS or 480kFLOPS per million dollars.</para>
+    <para id="id4700786"><emphasis effect="bold">1976 </emphasis>CRAY-1, 1 processor with teraflops capability, cost was 1.778×10<sup>-5</sup>TeraFlops per million dollars or 17.78MFLOPS per million dollars.</para>
+    <para id="id1166961261113"><emphasis effect="bold">1988 </emphasis>CRAY Y-MP, 8-vector processors with teraflops capability, cost was 1.115×10<sup>-4 </sup>TeraFlops per million dollars that is 111.5MFLOPS per million dollars.</para>
+    <para id="id5000494"><emphasis effect="bold">1997</emphasis> ASCI RED, 4510 processors with teraflops capaability, cost was 1.818182×10<sup>-2 </sup>TeraFlops per million dollars which comes to 18.18182GFLOPS per million dollars.</para>
+    <para id="id5926852"><emphasis effect="bold">2002</emphasis> EARTHSIMULATOR , 5120 processors, cost was 17.5GFLOPS per million dollars.</para>
+    <para id="id7458073"><emphasis effect="bold">2004 </emphasis>BLUEGENE/L, 65536 processors with 10TFLOPS capability, cost was 2.8TFLOPS per million dollars.</para>
+    <para id="id8529020"><emphasis effect="bold">2007 </emphasis>PLAYSTATION3 CLUSTER, 8playstation 3s, 375TFLOPS per million dollars†.</para>
+    <para id="id1695943"><emphasis effect="bold">2008 </emphasis>NVIDIA TESLA, 960 cores, 439.1 TFLOPS per million dollars*.</para>
+    <para id="id1166962507070"><emphasis effect="bold">2008 </emphasis>ROADRUNNER, 19440 processors with several tens of TFLOPS capability, cost was 8.3TFLOPS per million dollars‡.</para>
+    <para id="id1166960526443">*Based on the cost of building your own Tesla supercomputer out of four Tesla C1060 units. Complete instructions are available at nvidia.com</para>
+    <para id="id7575592">† Seven processors per node at 150GFLPS per Unit for a single processor( 11 processors per node for a dual processor). $400-plus per node.</para>
+    <para id="id1166958345769">‡ 6480 Opteron CPUs and 12960 Cell processors.</para>
+    <para id="id1166964159247">Supercomputers are massively parallel chips can be used to calculate protein folding, predict climate change and crack the encryption of hitherto-secure Web sites. </para>
+    <para id="id1166961939882">Nvidia advertises its new workstation, the Tesla, as a “personal supercomputer”. It clusters 4 Nvidia C1060 processing boards, each of which unites 240 graphic cores to process instructions at nearly teraflop speed.</para>
+    <para id="id1166961715004">Tesla does single-precision floating-point calculations using 8-bit bytes.</para>
+    <para id="id7015926">Roadrunner uses 64-bit floating integers.</para>
+    <para id="id3936465">Digital Data Generation.</para>
+    <para id="id1166961308688">Sources of digital data: </para>
+    <list id="id1166960817663" list-type="enumerated" number-style="lower-alpha">
+      <item>social networking sites,</item>
+      <item>internet-enabled mobile phones and</item>
+      <item>government surveillance.</item>
+      <item>70% of the digital content is created by by individuals through phne cals, emails, photos, online banking transactions or postings on social networking sites.</item>
+    </list>
+    <para id="id2278879">Digital Universe Report in 2007 gave total digital content as 161 bn gigabytes.</para>
+    <para id="id1166965734950">Digital Universe Report in 2009 gave total digital content as 487 bn gigabytes.</para>
+    <para id="id1166961727113">IDC/EMC estimate:</para>
+    <para id="id1166963754462">The cost of the computers, networks and storage facilities that drive the digital universe is $6 tn.</para>
+    <para id="id5765082">Medical equipment, entertainment and content creation equipments cost another $6 tn.</para>
+    <para id="id3045775">Total World GDP is $50tn.</para>
+    <para id="id1166961885375"/>
+    <para id="id1166957864547">80% of PC’s are powered by Intel Chips and remaining 20% powered by Motorola, Digital Co., AMD and Transmeta.</para>
+    <para id="id8010702">2006AD-We have reached 1 billion mark in personal Computers. 39% is accounted by USA, 25% is accounted by Europe and 12% by Asia.</para>
+    <para id="id1166963027610">PC user per hundred of the population- (USA 70%), (France 35%), (Brazil 7%), (China 3%), (India 15 per 1000);</para>
+    <para id="id8018893">2006AD-2 billion Cellular Phones- worldwide;</para>
+    <para id="id1166960106093">China- 450m cell phones; India-95m. cell phones</para>
+    <para id="id9007910">World Wide Internet Usage [www.internetworld-stats.com] Total User 1.3 billion</para>
+    <table id="id1166963030925" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Countries</entry>
+            <entry>Total Number till March 2006</entry>
+            <entry>% penetration in the total population</entry>
+          </row>
+          <row>
+            <entry>India</entry>
+            <entry>30m</entry>
+            <entry>5.4</entry>
+          </row>
+          <row>
+            <entry>China</entry>
+            <entry>123m</entry>
+            <entry>9.3</entry>
+          </row>
+          <row>
+            <entry>Japan</entry>
+            <entry>86m</entry>
+            <entry>67.2</entry>
+          </row>
+          <row>
+            <entry>USA</entry>
+            <entry>207m</entry>
+            <entry>69.3</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166962423297">To bridge the Digital Divide, Government of India is planning to set up Common Service Centers (CSC)- broad band enabled computer kiosks that will offer a range of government-to-citizen and business-to-customer services, besides providing sheer access to the Internet. About 100,000 plus CSC’s will be introduced in 600,000 villages by March 2008. </para>
+    <para id="id7502875">Companies in PC manufacturing – WIPRO, PSI, ZENITH, DCM,HCL</para>
+    <para id="id1166961822186">-27% growth rate -5m. unit/yr  </para>
+    <para id="id1166960955738"/>
+    <para id="id2554676">Table 1.Evolution of Microprocessor Chip</para>
+    <table id="id1166958568954" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Name</entry>
+            <entry>Date &amp; Address Size</entry>
+            <entry>Packing Density</entry>
+            <entry>Number of Pins</entry>
+            <entry>Clock Rate </entry>
+            <entry>Instructions Per Second</entry>
+            <entry>Year &amp; Price.</entry>
+          </row>
+          <row>
+            <entry>Intel 4004</entry>
+            <entry>4-bit</entry>
+            <entry>2300PMOS</entry>
+            <entry>16</entry>
+            <entry>108kHz</entry>
+            <entry>?</entry>
+            <entry>1971 Rs 7,500.00</entry>
+          </row>
+          <row>
+            <entry>Intel 8080</entry>
+            <entry>8-bit</entry>
+            <entry>6000NMOS</entry>
+            <entry>40</entry>
+            <entry>2MHz</entry>
+            <entry>0.64MIPS</entry>
+            <entry>1977</entry>
+          </row>
+          <row>
+            <entry>Intel 8086</entry>
+            <entry>16-bit</entry>
+            <entry>29,000 HMOS</entry>
+            <entry>40</entry>
+            <entry>5 MHz</entry>
+            <entry>0.33MIPS</entry>
+            <entry>1978</entry>
+          </row>
+          <row>
+            <entry>Intel 80286</entry>
+            <entry>Data 16b Address 24b</entry>
+            <entry>134,000 HMOS</entry>
+            <entry>68</entry>
+            <entry>6-12.5 MHz</entry>
+            <entry>1 MIPS</entry>
+            <entry>1982</entry>
+          </row>
+          <row>
+            <entry>Intel 80386 </entry>
+            <entry>32-bit </entry>
+            <entry>275,000 CMOS</entry>
+            <entry>132</entry>
+            <entry>16 MHZ</entry>
+            <entry>5 MIPS</entry>
+            <entry>1985</entry>
+          </row>
+          <row>
+            <entry>Intel 80486</entry>
+            <entry>32-bit</entry>
+            <entry>1.2million CMOS </entry>
+            <entry>168</entry>
+            <entry>25 MHZ</entry>
+            <entry>20 MIPS</entry>
+            <entry>1989</entry>
+          </row>
+          <row>
+            <entry>Pentium</entry>
+            <entry>Data 64b Address32bMemory Size 2<sup>32=</sup>4GB</entry>
+            <entry>3.1 million CMOS</entry>
+            <entry>?</entry>
+            <entry>60 MHZ</entry>
+            <entry>100 MIPS</entry>
+            <entry>1993</entry>
+          </row>
+          <row>
+            <entry>Pentium II</entry>
+            <entry>Same</entry>
+            <entry>7.5 million CMOS</entry>
+            <entry>370</entry>
+            <entry>233 MHZ</entry>
+            <entry>400 MIPS</entry>
+            <entry>1997</entry>
+          </row>
+          <row>
+            <entry>Pentium III</entry>
+            <entry>same</entry>
+            <entry>9.5 CMOS</entry>
+            <entry>370</entry>
+            <entry>450 MHZ</entry>
+            <entry>1000 MIPS</entry>
+            <entry>1999</entry>
+          </row>
+          <row>
+            <entry>Pentium IV</entry>
+            <entry>Data 64b Address 64b</entry>
+            <entry>42 million CMOS(Nano electronics)</entry>
+            <entry>478</entry>
+            <entry>2.2 GHz</entry>
+            <entry>?</entry>
+            <entry>2001</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166957875674">
+      <emphasis effect="bold">MOORE’s LAW: The packing density of CMOS on μP Chip would double every two years leading to an exponential growth in the complexity and speed of μP Chip.</emphasis>
+    </para>
+    <para id="id1166961331174"/>
+    <para id="id4595899">Table 2. Evolution of Computers. </para>
+    <table id="id1166967129025" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Generation</entry>
+            <entry>Components </entry>
+            <entry>Architecture</entry>
+            <entry>Logic</entry>
+            <entry>Programming</entry>
+            <entry>Language</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c2" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>1<sup>st </sup>(1947-ENIAC 1952- Univac I, Main-Frame)</entry>
+                  <entry>Vacuum Tubes</entry>
+                </row>
+                <row>
+                  <entry>2<sup>nd</sup>(1956-UNIVAC II, Main Frame</entry>
+                  <entry>Discrete BJT</entry>
+                </row>
+                <row>
+                  <entry>3<sup> rd</sup>(1964- PDP8,Mini-comp.,Table Top)</entry>
+                  <entry>IC’s chips</entry>
+                </row>
+                <row>
+                  <entry>4<sup> th</sup>(1977- APPLE II, Micro-comp., Desk Top, Personal Comp.</entry>
+                  <entry>μP chips</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Von-neumann, sequential</entry>
+            <entry>Boolean</entry>
+            <entry>Algorithm</entry>
+            <entry>Fortran,Basic,Algol</entry>
+          </row>
+          <row>
+            <entry>5<sup> th</sup>Robotics, Data Based Medical Diagnostic Tools</entry>
+            <entry>Artificial Intelligence Machines</entry>
+            <entry>Data-flow, Systolic, Pipeline</entry>
+            <entry>Predicate</entry>
+            <entry>Heuristic</entry>
+            <entry>Prolog, Lisp</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id3188617"/>
+    <para id="id4413982">Table 3. Evolution of Local Area Network</para>
+    <table id="id1166957393254" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Standard</entry>
+            <entry>Name</entry>
+            <entry>Data transfer rate</entry>
+          </row>
+          <row>
+            <entry>1973</entry>
+            <entry>802.1</entry>
+            <entry>OSI (Open System Interconnection)</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.2</entry>
+            <entry>Logical Link Control</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry>1983</entry>
+            <entry>802.3</entry>
+            <entry>CSMA/CD (Carrier Sense Multiple Access/Collision Detect)</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.4</entry>
+            <entry>Token Bus</entry>
+            <entry>100Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.5</entry>
+            <entry>Token Ring</entry>
+            <entry>100Mbps</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>802.11</entry>
+            <entry>WLL (Wire Local Loop)</entry>
+            <entry>1 Gbps</entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>802.13</entry>
+            <entry>Wi-Fi (Wireless internet Access</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1819486">
+      <emphasis effect="bold">Table 4. Development in submarine cable.(Sources: Telegraphy Research: </emphasis>
+      <emphasis effect="italics">“History of the Atlantic Cable and Undersea Communications”</emphasis>
+      <emphasis effect="bold"> by Bill Glover,Wikipedia.</emphasis>
+    </para>
+    <table id="id6550854" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Region</entry>
+            <entry>Submarine Cable %BW utilization</entry>
+            <entry>LIT Submarine Cable Capacity</entry>
+          </row>
+          <row>
+            <entry>Asia</entry>
+            <entry>69%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Middle East</entry>
+            <entry>73%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Oceania</entry>
+            <entry>56%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Europe</entry>
+            <entry>52%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>US &amp; Europe</entry>
+            <entry>51%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Latin America &amp; Caribbean</entry>
+            <entry>77%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Africa</entry>
+            <entry>69%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Transatlantic Cable</entry>
+            <entry/>
+            <entry>15%</entry>
+          </row>
+          <row>
+            <entry>US-Latin America</entry>
+            <entry/>
+            <entry>37%</entry>
+          </row>
+          <row>
+            <entry>Transpacific</entry>
+            <entry/>
+            <entry>21%</entry>
+          </row>
+          <row>
+            <entry>Europe-Asia</entry>
+            <entry/>
+            <entry>91%</entry>
+          </row>
+          <row>
+            <entry>Intra-Asia</entry>
+            <entry/>
+            <entry>31%</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5812612">Submarine Cable Boom: In 2001 US $13.5 billion was spent. Due to Dot.com bust, only $2billion was spent during four lean years from 2004 to 2007. Even the during the lean periods, global demand never slaked growing at an average compound annual rate of 54% from 2002 to 2008. In Latin America and the Caribbean, traffic grew the most at more than 75%.</para>
+    <para id="id2977847"><emphasis effect="bold">METALFE LAW:</emphasis> The value of a NETWORK grows as the square of the number of users. </para>
+    <para id="id1166961312555">Foot Note: 350 Disk Drive, introduced in IBM 305 Ramac Computer, consisted of 50 Number of 24-inch magnetically coated platters mounted on a single vertical spindle and rotating at high speed. In between the platters and looking rather like a giant animated hair-comb, was an assembly of read-write heads that clacked in and out, reading and writing data from and to the disks and passing the information to and from the machine’s processor.</para>
+    <para id="id1166957547744"> The drive was the size of two large refrigerators and was leased to customers at an annual rental of $35,000/-, which according to my calculations would be $250,000 in today’s currency.</para>
+    <para id="id1166963838007"> But corporate customers thought it a bargain because it meant that their Main Frame Computers could become much more versatile and faster. A digital computer works by taking data from a permanent storage medium, carrying out operations on that data, and then writing back into storage.</para>
+    <para id="id8594375"> Slowest part of this process was getting data transferred to and fro from the processor to the storage. Hard Disks offered a way of easing the bottleneck. The result was faster computation and faster data processing.</para>
+    <para id="id1166961888746"> IBM’s colossal spinning plate rack held a total of 4.4MB of Data.</para>
+    <para id="id2926244"> Today the hard disk in the iPod is just 1.8” in diameter and yet it can store 60GB of Data, which is almost 14,000 times the capacity of the 350 Disk File. The drive in laptop is 2.5” in diameter and has a capacity of 120GB.</para>
+    <para id="id8929956"> This cheap and boundless mass storage has enabled the existence of companies such as Google, Amazon and eBay and services such as Apples iTunes, Wikipedia and Internet Archive.</para>
+    <para id="id1166960521982"> The story of computing has been told almost entirely in terms of advances in processors and networks. Whereas in fact the success and proliferation of computer usage is as much due to the vast, fast, cheap mass storage provided by Hard Disks. </para><para id="eip-517">Development in Memory Technology:
+The convergence of consumer,computer and communication electronic system is leading to exponential growth in need of memories. Memories are required for code storage, computing input-output storage and data storage. In the past, we could associate a memory technology to a specific market segment : 
+RAM to computer;
+NOR Flash memory to mobile communication;
+NAND Flash memory to consumer DSC;
+Today such distinctions are being blurred.A common format is emerging.
+The new electronic systems stack different non-volatile memory and xRAM and use microprocessor for facilitating interfacing and managing the overall memory.</para><table id="eip-757" summary="This describes the evolution of Telephone network. The left cell in a ROW describes the state of art in Telephone Exchange and the right cell in the same ROW describes the capability of the given Telephone exchange."><title>Evolution of Telephone Exchanges.</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Manual</entry>
+    <entry>operator directs the call</entry>
+  </row>
+  <row>
+    <entry>Automatic Dialling:
+*Strowger-rotary switches(UAXs,SAXs,TXS)
+*Electromechanical crossbar(TXKs)
+*Electronic-control reed-relay switches(TXE2)
+*SPC non-digital(TXE4)
+*Digital(Systems X and Y- AXE10: may be further categorised as to whether they are ISDN -capable, I suppose;5ESS; DMS100;UXD5) </entry>
+    <entry>2 letter exchange-2 to 5 digit number;
+3-3-4 system adopted(area code-exchange prefix-line number);
+The number system 3-3-4 first used in Wichita, Falls, Texas.</entry>
+  </row>
+  <row>
+    <entry>Global Telephone System</entry>
+    <entry>Service switching points, 
+mobile switching points</entry>
+  </row>
+  <row>
+    <entry>SS7(Signaling System 7)
+links telephone networks all over the globe. Every Telecom carrier and manufacturer has to work and develop around SS7</entry>
+    <entry>Smart coordinator that helps callers find one another</entry>
+  </row>
+  <row>
+    <entry>VoIP(voice on internet protocol)</entry>
+    <entry>It is a telephone service on Data Network(no taxes hence cheap)</entry>
+  </row>
+  <row>
+    <entry>Futuristic Systems
+(21CN-21st Century Network)</entry>
+    <entry>System will know how and where to locate the destination;
+Convergence-lots of systems but few devices;
+preferred formats - Voice or Video, Real Time or dekayed, reading the voice mails and hearing the emails</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+  </content>
+</document>

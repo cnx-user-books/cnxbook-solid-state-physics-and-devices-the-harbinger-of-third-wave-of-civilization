@@ -1,0 +1,34 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The upgraded Internet Protocol IPv6 and challenges of expolsively growing INTERNET(Untitled)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44385</md:content-id>
+  <md:title>The upgraded Internet Protocol IPv6 and challenges of expolsively growing INTERNET(Untitled)</md:title>
+  <md:abstract>The Asia-Pacific Network Information Center, which comprises the fast growing countries India and China was the first RIR to exhaust its allocation of IPv4 addresses on 15th April 2011.Thus it was the first RIR to receive the new block of IPv6 address.</md:abstract>
+  <md:uuid>cbd963f1-014f-4404-a2f0-523e9bfc621e</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169022404330">June 6, Wednesday, 2012 was theWorld  IPv6 Day&lt;h3&gt;Internet , a trillion times roomier now.</para>
+    <para id="import-auto-id1169025714731">[The Hindu,Thursday, June 7,2012]</para>
+    <para id="import-auto-id1169025713858">Till now we have had IPv4 which allocated 32-bit integer for addresses which permitted 4.3 billion addresses.The Internet Assigned Numbers Authority(IANA) distributes the available internet protocol addresses to the five regional information registries(RIR).The Asia-Pacific Network Information Center, which comprises the fast growing countries India and China was the first RIR to exhaust its allocation of IPv4 addresses on 15<sup>th</sup> April 2011.Thus it was the first RIR to receive the new block of IPv6 address.</para>
+    <para id="import-auto-id1169026909034">In IPv6 protocol, successor to the IPv4 protocol, there is 128-bit integer addresses to be assigned to hosts or the systems. 128-bit addresses permits 2^128 addresses which amounts to 340 trillion, trillion, trillion=3.4×10<sup>38</sup> addresses. This is more than enough for all the new devices which are likely to be connected  to the INTERNET in next five years.</para>
+    <para id="import-auto-id1169032221259">IPv6 protocol requires upgraded infrastructure to operate. In phases  IPv4 will be eased out and IPv6 will be accordingly introduced so that the whole process is seamless.</para>
+    <para id="import-auto-id1169026947278">Challenges of Video and Mobile access in INTERNET</para>
+    <para id="import-auto-id1169026796615">[Excerpted from the article “The NET was not built keeping Video and Mobile Access in mind”, The Economic Times, Monday, 27<sup>th</sup> August, 2012, Kolkota edition]</para>
+    <para id="import-auto-id1169022733051">Tom Leighton is the co-founder and chief scientist at Akamai Technologies and he is also a MIT Professor in Computer Science Department.</para>
+    <para id="import-auto-id1169025548119">$1.1 billion servers of Akamai Technologies carry about a third of World’s Web Service and its customers include White House, Facebook, Apple, Twitter, Auch India Infoline and Shopper’s Stop.The following information has been taken from his interview.</para>
+    <para id="import-auto-id1169011184861">Right now in August 2012 there are 35-billion connected devices . This will become 1 trillion in next few years.</para>
+    <para id="import-auto-id1169035261804">Our total population is 7billion as of today. As Internet is penetrating the hinterlands of undeveloped economies, internet connections are exponentially increasing. Also the  number of devices per person is  increasing  The number of devices per person will touch a factor of 10 by 2017.</para>
+    <para id="import-auto-id1169021959806">There is a diversification in the devices. It could be smart phones, tablets or desktops. There is  a diversification in their working.  Some have CDMA, others are GSM. There is a diversification in their  Operating  Systems. Some have Android. Apple has its own propriety OS and MicroSoft has its own propriety OS. There is diversification in the formats of Video and Audio transmission such as JPEG, PNG,GIF and TIFF. In audio we have MPEG, Digital Theater System(DTS), Windows Media Audio.</para>
+    <para id="import-auto-id1169026796873"> These diversifications create a huge stress on the INTERNET for which INTERNET is not prepared.</para>
+    <para id="import-auto-id1169034647137">Even though Mobile Cellular Net is becoming better , faster and cheaper still it takes very long to get a video download or to get webpage open on cell phones.</para>
+    <para id="import-auto-id1169020330275">Internet is not built for Video Transmissions nor for mobile access. It is not prepared for Social Networking which has come in a big way. This creates network management problems.</para>
+    <para id="import-auto-id1169039280346">On the Internet every different device costs money. The last mile BW is not the same for different devices. Different formats have to be coded/decoded differently. Every added users adds cost.</para>
+    <para id="import-auto-id1169011436953">To remove this cumulative cost build up, we have to bring the diversified  messages on a common platform, process it, transmit it, reprocess it and then serve it to the end users  at the right bit rates. Algorithm has to be written for these diversified tasks and embedded in the common platform that works for all kinds of devices, across all the formats and across different Band Widths.</para>
+    <para id="import-auto-id1169011150370">Security is the biggest problem and we have to make sure that credit card information are not stolen.</para>
+    <para id="import-auto-id1169013447606">Cellular Phone networks are built for Voice BW in the range 8 to 16 kb/sec. A typical Webpage 100kB. This cannot open the webpage fast.  Our goal is instant access on cellular devices. Traditional Internet infrastructure is not capable of handling Video.</para>
+    <para id="import-auto-id1169013924253">In India we want high speed and low cost.</para>
+    <para id="import-auto-id1169013926024">Using applied Maths and Algorithms we are improving the efficiency of our servers. We are also working on the next generation delivery so that most bits come from the Internet and not from our computer.</para>
+    <para id="import-auto-id1169028265050">It is only after these issues are addressed and resolved that we will have a seamless convergence of Video, Audio and Data on the INERNET., </para>
+  </content>
+</document>

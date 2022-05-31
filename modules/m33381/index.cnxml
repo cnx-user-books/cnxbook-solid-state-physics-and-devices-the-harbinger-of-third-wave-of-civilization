@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix IV_Band Gap Narrowing and its effect on Emitter Injection Efficiency</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33381</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix IV_Band Gap Narrowing and its effect on Emitter Injection Efficiency</md:title>
+  <md:abstract>Appendix IV describes the effect of band gap narrowing in degenerate semiconductor.</md:abstract>
+  <md:uuid>1cf17648-077e-43ce-8d05-3a6da3d88030</md:uuid>
+</metadata>
+<content>
+    <para id="id7946069">Appendix IV</para>
+    <para id="id14278784">Band Gap Narrowing(BGN) and its effect on Emitter Injection Efficiency.</para>
+    <para id="id13382156">In homojunction: </para>
+    <figure id="id14804321">
+      <media id="id14804321_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-b2ff.png" id="id14804321__onlineimage" height="44" width="160"/>
+      </media>
+    </figure>
+    <figure id="id17593494">
+      <media id="id17593494_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-d149.png" id="id17593494__onlineimage" height="46" width="211"/>
+      </media>
+    </figure>
+    <para id="id14345052">To obtain high gain, Emitter needs to be heavily doped and we need thin Base Region.</para>
+    <figure id="id8219229">
+      <media id="id8219229_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-9de3.png" id="id8219229__onlineimage" height="51" width="142"/>
+      </media>
+    </figure>
+    <para id="id12152996">Due to heavy doping in Emitter, degeneracy is introduced which leads to Band Gap Narrowing(BGN) by ∆E<sub>g</sub> . The radius of the fifth electron or the donor electron orbiting donor atom is 13×10<sup>-8</sup>cm = 13Angstrom = 13Aº. </para>
+    <figure id="id10376528">
+      <media id="id10376528_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-56af.png" id="id10376528__onlineimage" height="313" width="250"/>
+      </media>
+    </figure>
+    <para id="id12395723">Figure IV.1.Calculation of critical packing density where donor electrons wave function of donor atoms start to overlap.</para>
+    <para id="id3477174">N<sub>crit</sub> = 1/V<sub>d</sub>= 1/(2r<sub>d</sub>)<sup>3</sup> = 1.7×10<sup>19</sup>/cc.</para>
+    <para id="id8097425">When the doping level approaches this critical level, energy level corresponding to donor atoms no more remain DISCRETE but they become a continuum in effect extending the conduction band and narrowing the Forbidden Energy Band Gap which is known as Band Gap Narrowing(BGN). This is a degenerate semiconductor and the Fermi-level lies at the edge of the conduction band or within the conduction band as it is in metal. Hence a degenerate semi-conductor is semi-metal. The energy band diagram of degenerate and non-degenerate semiconductor is given in Fig.IV.2.</para>
+    <figure id="id14402504">
+      <media id="id14402504_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-7e35.png" id="id14402504__onlineimage" height="502" width="594"/>
+      </media>
+    </figure>
+    <para id="id9552677">Figure IV.2. The Energy Band Diagram of Pure, doped and heavily doped semiconductor.</para>
+    <figure id="id5298048">
+      <media id="id5298048_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-d149.png" id="id5298048__onlineimage" height="46" width="211"/>
+      </media>
+    </figure>
+    <para id="id10771177">            IV.1</para>
+    <para id="id8411646">
+      <figure id="id10747589">
+        <media id="id10747589_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-141e.png" id="id10747589__onlineimage" height="52" width="210"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id10757332">
+      <media id="id10757332_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-f67c.png" id="id10757332__onlineimage" height="52" width="168"/>
+      </media>
+    </figure>
+    <figure id="id10919664">
+      <media id="id10919664_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-935f.png" id="id10919664__onlineimage" height="51" width="143"/>
+      </media>
+    </figure>
+    <para id="id10746517">            IV.2</para>
+    <para id="id7629742">With BGN the intrinsic carrier concentration increases </para>
+    <figure id="id7844192">
+      <media id="id7844192_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-d149.png" id="id7844192__onlineimage" height="46" width="211"/>
+      </media>
+    </figure>
+    <para id="id17693583">Substituting Eq.IV.2 in Eq.IV.1 we get</para>
+    <figure id="id17695698">
+      <media id="id17695698_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-8251.png" id="id17695698__onlineimage" height="56" width="246"/>
+      </media>
+    </figure>
+    <para id="id17629501">            IV.3</para>
+    <para id="id8298603">Therefore   <figure id="id14994026"><media id="id14994026_media" alt=""><image mime-type="image/png" src="../../media/graphics10-f8fa.png" id="id14994026__onlineimage" height="30" width="153"/></media></figure></para>
+    <para id="id14640964">            IV.4</para>
+    <para id="id14368171">The empirical relationship for BGN is:</para>
+    <figure id="id17551014">
+      <media id="id17551014_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-6184.png" id="id17551014__onlineimage" height="61" width="311"/>
+      </media>
+    </figure>
+    <para id="id3639186">Where E<sub>ref</sub> = 0.009eV and N<sub>ref </sub>= 10<sup>17</sup>/cc for typical cases.</para>
+    <para id="id8246427"/>
+    <para id="id8246431">Table IV.1. ∆E<sub>g</sub> vs N<sub>D</sub> .</para>
+    <table id="id14820522" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Emitter Doping DensityN<sub>D</sub> (number per cc)</entry>
+            <entry>BGN∆E<sub>g</sub> (eV)</entry>
+          </row>
+          <row>
+            <entry>10<sup>20</sup></entry>
+            <entry>0.12466</entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup></entry>
+            <entry>0.083</entry>
+          </row>
+          <row>
+            <entry>10<sup>18</sup></entry>
+            <entry>0.0424</entry>
+          </row>
+          <row>
+            <entry>10<sup>17</sup></entry>
+            <entry>6.36×10<sup>-3</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>16</sup></entry>
+            <entry>1meV</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id12721751">Table IV.2. N<sub>Deff</sub> vs N<sub>D</sub>.</para>
+    <table id="id13137300" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>N<sub>D</sub> (number per cc)</entry>
+            <entry>∆E<sub>g</sub> (eV)</entry>
+            <entry>N<sub>Deff</sub> (number per cc)</entry>
+          </row>
+          <row>
+            <entry>10<sup>20</sup></entry>
+            <entry>0.12466</entry>
+            <entry>8.258×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup></entry>
+            <entry>0.083</entry>
+            <entry>4×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>18</sup></entry>
+            <entry>0.0424</entry>
+            <entry>1.96×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>17</sup></entry>
+            <entry>6.36×10<sup>-3</sup></entry>
+            <entry>8×10<sup>16</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>16</sup></entry>
+            <entry>1meV</entry>
+            <entry>1×10<sup>16</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id13289965">For a doping level of N<sub>D</sub> = 10<sup>20</sup>/cc, ∆E<sub>g</sub>=0.12eV.</para>
+    <para id="id13142214">This gives an effective doping level of N<sub>Deff</sub> = 10<sup>18</sup>/cc.</para>
+    <para id="id12976858">The classical formula for current gain without BGN is:</para>
+    <para id="id14277265">
+      <figure id="id8161966">
+        <media id="id8161966_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-aaaf.png" id="id8161966__onlineimage" height="36" width="151"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id10016796">If we take the following data: (N<sub>D</sub>)<sub>E</sub> = 10<sup>20</sup>/cc, (N<sub>A</sub>)<sub>B</sub> = 10<sup>17</sup>/cc, W<sub>E</sub> = W<sub>B</sub> = 1µm and D<sub>pE</sub>=1.25 (cm)<sup>2</sup>/sec and D<sub>nB</sub>=20 (cm)<sup>2</sup>/sec then β<sub>F</sub> = 1.6×10<sup>4</sup> ;</para>
+    <para id="id14206026">But taking into account of BGN, β<sub>F</sub> = 160.</para>
+  </content>
+</document>

@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter2.2.1.and 2.2.1.Solid State Equivalent of Vacuum Devices and Crystalline structure of Silicon</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47251</md:content-id>
+  <md:title>SSPD_Chapter2.2.1.and 2.2.1.Solid State Equivalent of Vacuum Devices and Crystalline structure of Silicon</md:title>
+  <md:abstract>SSPD_Chapter 2.2.1 and Chapter 2.2.2 give the Solid State Equivalent of Vacuum Devices and the Crystalline Structure of Silicon.</md:abstract>
+  <md:uuid>1fcb8613-8aae-4019-9005-3fa4a22c64dc</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164952318158">
+      <title>2.2.1.Solid State Equivalent of all the Vacuum Tube Devices.</title>
+      <table id="import-auto-id1164949645334" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>Vacuum Tube Devices</entry>
+              <entry>Solid State Equivalent</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Photo-multiplier Tube</entry>
+              <entry>Photo-diode/Op/.Amp.</entry>
+            </row>
+            <row>
+              <entry>Ruby and Gas LASER</entry>
+              <entry>PN Junction Diode LASER</entry>
+            </row>
+            <row>
+              <entry>Cathode Ray Oscilloscope</entry>
+              <entry>Flat Panel Display- LCD (Liquid Crystal Devices) and LED(Light-emitting Devices) version</entry>
+            </row>
+            <row>
+              <entry>T.V. Camera.</entry>
+              <entry>Charge-Couple Device Camera.</entry>
+            </row>
+            <row>
+              <entry>Thyratron</entry>
+              <entry>Thyristor or SCR(Silicon Contol Rectifier)</entry>
+            </row>
+            <row>
+              <entry>Vacuum Tube Triode and Pentode</entry>
+              <entry>Bipolar Junction Transistor(BJT), MOSFET(Metal-Oxide-Semiconductor Field-Effect-Transistor),JFET(Junction-FET)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="import-auto-id1164979807565">
+      <title>2.2.2. Crystalline Structure of Silicon</title>
+      <para id="import-auto-id1164977626544">Silicon is a Group IV element with 4 electrons in its outermost orbit. Each Silicon atom is co-valently bond to 4 neighbouring Si atoms. In the process the octave is completed for all the Si stoms except those on the surface of the specimen. The surface has dangling bonds which need to be passivated. The crystalline structure of Silicon is called Diamond Lattice Structure.</para>
+      <figure id="import-auto-id1164977421004">
+        <media id="import-auto-id1164968843185" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-9726.png" height="516" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1164948652415">Silicon has a lattice constant of ‘a’=5.43A° at 300K. It is two interpenetrating FCC(Face-Center-Cube) lattice with one sub-lattice displaced with respect to the other by quarter of the distance along the cross diagonal of the cube.</para>
+      <para id="import-auto-id1164960823597">The whole diamond lattice cube is divided into 8 sub-cubes.Two sub-cubes in the upper half and two sub-cubes in the lower half contain the tetrahedral structure. The four sub-cubes are so arranged that the top view gives seamless continuity of co-valent sharing of the electrons with four neighbouring atoms as shown in Figure 2.2.4.</para>
+      <figure id="import-auto-id1164968499212">
+        <media id="import-auto-id1164975641582" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-5db6.png" height="546" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1164948289796">Tetrahedral structure shown in Figure 2.2.3. is repeadted throughout the lattice space as a consequence there are:</para>
+      <para id="import-auto-id1164952512286">4 body atoms = 4 × 1  =  4 atoms</para>
+      <para id="import-auto-id1164979074735">6 face atoms  =  6 × ½ =  3 atoms.</para>
+      <para id="import-auto-id1164950529976">8 corner atoms = 8 ×1/8 = 1 atoms</para>
+      <para id="import-auto-id1164979038194">Hence there are 4+3+1= 8 atoms per unit cell.</para>
+      <para id="import-auto-id1164994744954">Therefore atom number density = 8 / a<sup>3</sup>=8/(5.43A°)<sup>3</sup>= 5×10<sup>22</sup>atoms/cc.</para>
+      <para id="import-auto-id1164954661558">Generally all crystalline solid material have a packing density of this order. This is the reason whuy in Copper each atom being univalent contributes 1 electron. Hence conducting electron concentration ‘n’ ~ 10<sup>22</sup> electrons/cc .</para>
+      <para id="import-auto-id1164949566399">Weight Density = atom density×weight per atom.</para>
+      <para id="import-auto-id1164971301260">Weight per atom = Weight of 1 gram-mole/Avogadro Number=A/A<sub>vog</sub></para>
+      <figure id="import-auto-id1164958916198">
+        <media id="import-auto-id1164956826229" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-7b00.png" height="50" width="392"/>
+        </media>
+      </figure>
+    </section>
+  </content>
+</document>

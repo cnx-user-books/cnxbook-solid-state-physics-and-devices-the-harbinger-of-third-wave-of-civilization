@@ -1,0 +1,27 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Syllabus_EC1410A_Solid State Physics and Devices in nano-technology era.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46876</md:content-id>
+  <md:title>Syllabus_EC1410A_Solid State Physics and Devices in nano-technology era.</md:title>
+  <md:abstract>This is the syllabus of 42 hours lecture Course EC1410A[3-0-3]. There are 3 hours lecture and 3 hours Laboratory class per week for 14 weeks in one semester.</md:abstract>
+  <md:uuid>e1ee1996-8bfe-4ca4-a4e4-ac949c580fdd</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1170588975852">
+      <title>Syllabus_EC1410A_Solid State Physics and Devices in nano technology era.[3-0-3] Total Lectures 42.</title>
+      <list id="import-auto-id8321474" list-type="enumerated" number-style="arabic"><item><emphasis effect="bold">History of development of Electron Devices from Vacuum Tube Technology to Solid State Technology to NanoTechnology Era- the Harbinger of The Third Wave of Civilization.[2 Lectures]</emphasis>
+        </item>
+        <item>Semiconductor Physics,Carrier Modelling and Carrier Action:Fermi-Dirac Distribution of Fermions, Intrinsic Semiconductor,Extrinsic Semicnductor, Intrinsic Carrier Concentration, Thermal Equilibrium values of Majority and Minority Carrier Concentration, Law of Mass Action, Compensation, Space Charge Neutrality, Recombination:Shockley-Hall Read Recombination and Auger Recombination, Life-Time of excess minority carriers, mobility, electric drift current, diffusion current, continuity equation in steady state condition.<emphasis effect="bold">[6 Lectures]</emphasis></item>
+        <item>Classical diodes- Derivation of Ideal Diode Equation/Shockley Equation, Real Diode Equation ,Ideality Factor, temperature dependence of reverse leakage current, temperature dependence of forward bias voltage, Avalanche Breakdown, Zener Breakdown, Backward diode, Tunnel Diode, Varactor Diode, Schottky Diode,difference between rectifying contact and ohmic contact, Junction Capacitance, Diffusion Capaitance, Incremental Circuit Model of a Diode(low frequency and high frequency), Switching Characteristics of a Diode.<emphasis effect="bold">  [6 Lectures]  </emphasis></item>
+        <item>Fabrication of Integrated Circuit Vertical NPN transistor,Physics of Operation of BJT: emitter injection efficiency, base transport factor, multiplication factor, base transit time, short circuit forward current transfer ratio (α<sub>F </sub> and α<sub>f</sub>), short-circuit forward current gain (β<sub>F</sub> and β<sub>f</sub>) ,transit frequency (ω<sub>T</sub>), Incremental Circuit Model of CB BJT (T-Model at low and high frequenies), Incremental Circuit Model of CE BJT(Universal Hybrid-π Model at low and high frequencies). Output Characteristics of CB BJT, Outpt Characteristics of CE BJT(Forward Active Mode, Inverse Active Mode, Saturation Mode, Cut-off Mode), Switching Transient of RTL inverter circuit.<emphasis effect="bold">[6 Lectures]</emphasis></item>
+        <item>Fabrication of Integrated Circuit n channel JFET(Junction Field Effect Transistor), Physics of Operation nJFET:Ohmic or Triode Region of operation, Saturation or Pentode Region of Operation, Transfer Characteistics, Output Characteristics(Depletion Type Device or Normally-On device), Symbol of nJFET and pJFET, incremental model of CS nJFET (at low and high frequencies)<emphasis effect="bold">[6 Lectures]</emphasis></item>
+        <item>Fabrication of Integrated Circuit n channel MOSFET(Metal-Oxide-Field Effect Transistor), Physics of Operation nMOS:Ohmic or Triode Region of operation, Saturation or Pentode Region of Operation, Transfer Characteistics, Output Characteristics, Symbol of NMOSFET , PMOSFET and CMOS, incremental model of CS NMOSFET (at low and high frequencies), Transfer and Output Charateristics of NMOS(E)_enhancement type and NMOS(D)_depletion type.</item>
+      </list><para id="import-auto-id1170588982144">
+        <emphasis effect="bold">[6 Lectures]</emphasis>
+      </para>
+      <list id="import-auto-id1170589902037" list-type="enumerated" number-style="arabic"><item>Photonics- direct and indirect bandgap semiconductor, Element and Compound Semiconductor, Band-Gap Engineering, Homo and HeteroJunction Diode, Homo and HetroJunction BJT, Fabrication and Physics of Operation of Photo-Diode, Fabrication and Physics of Operation of LightEmittingDiode(LED), BandGap Engineering of LED to obtain different coloured LED, Fabrication and Physics of Operation of LASER-Diode.<emphasis effect="bold">[8 Lectures]</emphasis></item>
+        <item>Basic Structure of CHARGE COUPLED DEVICES(CCD) and its application as a CCD Camera in Space Applications.<emphasis effect="bold">[2 Lectures]</emphasis></item>
+      </list></section>
+  </content>
+</document>

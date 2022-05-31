@@ -1,0 +1,159 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 4_ Section 4.1.Physical Significance of hybrid parameters (h-parameters) of BJT.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47840</md:content-id>
+  <md:title>SSPD_Chapter 4_ Section 4.1.Physical Significance of hybrid parameters (h-parameters) of BJT.</md:title>
+  <md:abstract>This Chapter gives physical significance of the four hybrid parameters and on the basis of these four h-parameters the salient differences of CB and CE BJT are brought out.Early Effect or Base Width Modulation and Conductivity Modulation  are explained.</md:abstract>
+  <md:uuid>ca332160-0b73-419b-a994-222bbcc9f9d0</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164351253563">
+      <emphasis effect="bold">4.1. Physical Significance of hybrid parameters (h-parameters) of BJT.</emphasis>
+    </para>
+    <para id="import-auto-id1164351309486">In small signal analysis of solid state circuits, we use h-model for BJT either connected as Common Base or Common Emitter configuration. We treat BJT as a Black Box and we look at open circuit or short circuit parameters at the input and output port as shown in Figure 4.1.1.</para>
+    <figure id="import-auto-id1164351848510">
+      <media id="import-auto-id1164351329543" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-2701.png" height="458" width="418"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351251437">Definition of h-parameters:</para>
+    <figure id="import-auto-id1164352297125">
+      <media id="import-auto-id1164352672690" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-673f.png" height="39" width="560"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351676384">Here incremental output voltage is kept at zero to measure input impedance  h<sub>i</sub>  of BJT circuit configuration. Incremental Output Voltage being kept at zero means that output DC Voltage(V<sub>CB</sub> in case of CB circuit configuration and V<sub>CE</sub> in case of CE configuration)<sub/> is kept constant.  </para>
+    <figure id="import-auto-id1164351268990">
+      <media id="import-auto-id1164351270484" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-555b.png" height="39" width="552"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351374529">Here incremental input current is kept at zero to measure reverse transmission factor  h<sub>r</sub>  of BJT circuit configuration. Incremental Input Current being kept at zero means that input DC Current(I<sub>E</sub> in case of CB circuit configuration and I<sub>B</sub> in case of CE configuration)<sub/> is kept constant.  </para>
+    <figure id="import-auto-id1164351298450">
+      <media id="import-auto-id1164351335938" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-1722.png" height="42" width="532"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351759114">Here incremental output voltage is kept at zero to measure forward short circuit current gain  h<sub>f</sub>  of BJT circuit configuration. Incremental Output Voltage being kept at zero means that output DC Voltage (V<sub>CB</sub> in case of CB circuit configuration and V<sub>CE</sub> in case of CE configuration)<sub/> is kept constant.  </para>
+    <figure id="import-auto-id1164351309938">
+      <media id="import-auto-id1164351939501" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-14f5.png" height="42" width="539"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351930056">Here incremental input current is kept at zero to measure output admittance  h<sub>o</sub>  of BJT circuit configuration. Incremental Input Current being kept at zero means that input DC Current(I<sub>E</sub> in case of CB circuit configuration and I<sub>B</sub> in case of CE configuration)<sub/> is kept constant.  </para>
+    <para id="import-auto-id1164351867893">For CB Circuit configuration, subscript b is added and for CE configuration subscript e is added.</para>
+    <para id="import-auto-id1164352638203">Namely for CB configuration the four parameters are:</para>
+    <figure id="import-auto-id1164351340184">
+      <media id="import-auto-id1164351329010" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-8770.png" height="23" width="399"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164352202742"> Namely for CE configuration the four parameters are:</para>
+    <figure id="import-auto-id1164351283041">
+      <media id="import-auto-id1164351299442" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-5be6.png" height="23" width="397"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351931887">The typical parameters for the four h-parameters in CB and CE configuration are tabulated in Table 4.1.1.</para>
+    <para id="import-auto-id1164351311975">Table 4.1.1. Typical values of the four h-parameters in CB and CE configurations.</para>
+    <table id="import-auto-id1164351372401" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>Physical significance of h-parameter</entry>
+            <entry>CB</entry>
+            <entry>CE</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>h<sub>i</sub></entry>
+            <entry>Input impedance of the given configuration</entry>
+            <entry>h<sub>ib</sub>= 26 Ω</entry>
+            <entry>h<sub>ie</sub> =  2.6kΩ</entry>
+          </row>
+          <row>
+            <entry>h<sub>r</sub></entry>
+            <entry>Reverse transmission factor from output to input</entry>
+            <entry>h<sub>rb</sub>= 10<sup>-4</sup></entry>
+            <entry>h<sub>re</sub> =  2.6×10<sup>-3</sup></entry>
+          </row>
+          <row>
+            <entry>h<sub>f</sub></entry>
+            <entry>Forward short circuit current gain</entry>
+            <entry>h<sub>if  </sub>=  - 0.99 = α<sub>fo</sub></entry>
+            <entry>h<sub>if</sub> = 100 = β<sub>fo</sub></entry>
+          </row>
+          <row>
+            <entry>h<sub>o</sub></entry>
+            <entry>Output Admittance of the given configuration</entry>
+            <entry>h<sub>ob </sub> =  1/(1MΩ)</entry>
+            <entry>h<sub>ie</sub> =  1/(40kΩ)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1164351261959">From the output characteristics of CB configuration and CE configuration it is obvious that CB is an ideal current source and CE is a non-ideal  current source. A set of vertical I-V characteristics represents a controlled voltage source whereas a set of horizontal I-V characteristics represents a controlled current source. A sloping I-V characteristics shows a current source with finite but large output impedance. In CB family of curves we have a set of horizontal lines with very small slope hence its output impedance at the Quiescent Point is very large. In this case the output impedance is almost 1MΩ or larger. Hence we say that CB Configuration is ideal current source. In case of CE configuration there is a much larger slope which results in a lower output impedance of 40kΩ. </para>
+    <para id="import-auto-id1164352650355">This slope results due to Base-Width Modulation also known as Early Effect. This we will discuss in the next section.</para>
+    <para id="import-auto-id1164351310044">Next we look at the reverse transmission factor. It is one order of magnitude smaller in CB configuration as compared to that in CE configuration. This means that feed-back from output to input is negligible and BJT is an Unilateral Device in case of CB configuration. Whereas there is much larger feedback from output to input in case of CE configuration  and CE BJT behave  as an non-Unilateral device. Hence RF Amplifiers which are susceptible to <emphasis effect="italics">Parasitic Oscillations</emphasis>  prefer CB configuration as compared to CE configuration.</para>
+    <para id="import-auto-id1164351375120">The fact that CB is Unilateral device and CE is non-Unilateral device is evident from Figure 4.1.2. also.</para>
+    <figure id="import-auto-id1164352677210">
+      <media id="import-auto-id1164351312699" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-6490.png" height="364" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351371847">T-Model of CB BJT has two meshes, input mesh and output mesh, which are very weakly interacting through  base spreading resistance, r<sub>x</sub> , and are completely non-interacting if r<sub>x</sub> = 0. Hence CB BJT is near Unilateral Device and inspecting the diagram we see that:</para>
+    <figure id="import-auto-id1164351230369">
+      <media id="import-auto-id1164351339486" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-96cf.png" height="42" width="505"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351280668">Hybrid-π Model of CE BJT has two very strongly interacting input and output meshes even if the base spreading resistance is zero. Therefore CE BJT is considered to be non-Unilateral device therefore it is highly susceptible to parasitic oscillations in RF Applications. Hence CE BJT is never utilized for building a RF Amplifier. Inspecting the diagram wew see that:</para>
+    <figure id="import-auto-id1164351320417">
+      <media id="import-auto-id1164351723872" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-5232.png" height="45" width="492"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351269302">Input impedance of CB BJT is only 26Ω whereas input impedance of CE BJT is 2.6kΩ at I<sub>C</sub> = 1mA.</para>
+    <para id="import-auto-id1164351849536">The short circuit current gain in CB BJT is less than Unity hence called short circuit current transfer ratio:</para>
+    <figure id="import-auto-id1164351266198">
+      <media id="import-auto-id1164351325754" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-c4cc.png" height="23" width="498"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351854418">The short circuit current gain in CE BJT is β<sub>fo</sub> ~ 100. Because of Unity Short Circuit Current Gain in CB BJT, it  has a much larger cut-off frequency as compared to that of CE BJT:</para>
+    <figure id="import-auto-id1164351319489">
+      <media id="import-auto-id1164351262624" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-6b9f.png" height="39" width="452"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164351295099">Alpha cut-off frequency or Alpha -3dB frequency = 800MHz and </para>
+    <para id="import-auto-id1164352791628">Beta cut-off frequency = 8 MHz.</para>
+    <para id="import-auto-id1164351259939">
+      <emphasis effect="bold">4.1.1.1. Early Effect or Base-Width Modulation.</emphasis>
+    </para>
+    <para id="import-auto-id1164351250551">As the output voltage in CB or CE configuration varies it leads to variable reverse bias voltage across BC Junction. This leads to variation in the Neutral Base Region. A narrow base gives a better transistor action and a wide base gives a poor transistor action. As output voltage decreases, neutral base width decreases leading to increase in Collector Current. This gives the slope to the output characteristic.</para>
+    <para id="import-auto-id1164352633049">In CB BJT, transistor action is a weak function of W = width of the neutral base hence in CB BJT there is small slope in I-V curve and output impedance is more than 1MΩ at 1mA collector current.</para>
+    <para id="import-auto-id1164351255394">In CE BJT, transistor action  is a strong function of W therefore we obtain a larger slope in I-V curve and output impedance falls to 40kΩ at 1mA Collector Current.</para>
+    <para id="import-auto-id1164351330627">Both these points are evident when we look at the output characteristics of CB and CE BJT.</para>
+    <para id="import-auto-id1164351280725">
+      <emphasis effect="bold">4.1.1.2. Forward Beta (β</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">) fall off at low and high currents.</emphasis>
+    </para>
+    <para id="import-auto-id1164351313994">At moderate currents from 0.1mA to 5mA short circuit current gain is constant but it falls off at very low currents and at very high currents as shown in Figure 4.1.3.. Just as in Diode there is a deviation from the ideal Diode equation at low currents due to recombination in the depletion region in exactly the same way the injection efficiency in BJT falls off at low currents due to recombination in the depletion region. This leads to a deterioration in <emphasis effect="bold">β</emphasis><emphasis effect="bold">F </emphasis> at low currents.</para>
+    <para id="import-auto-id1164352637694">Again just as in Diode there is a deviation from ideal Diode equation at high currents due to High Injection Level(HIL) , in the same way there is a conductivity modulation of Base at high currents due to HIL effects. This again leads to the deterioration in injection efficiency and hence in <emphasis effect="bold">β</emphasis><emphasis effect="bold">F</emphasis><emphasis effect="bold"/>at high cureents.</para>
+    <para id="import-auto-id1164351230353">In the design section we will show that for a good injection efficiency conductivity of emitter must be much larger than that of the Base. But this condition is not satisfied at high injection level.</para>
+    <figure id="import-auto-id1164351279641">
+      <media id="import-auto-id1164351252307" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-e83d.png" height="348" width="462"/>
+      </media>
+    </figure>
+  </content>
+</document>

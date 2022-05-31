@@ -1,0 +1,49 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 7continued_Theoretical Formulation of Rydberg Constant</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33481</md:content-id>
+  <md:title>SSPD_Chapter1_Part 7continued_Theoretical Formulation of Rydberg Constant</md:title>
+  <md:abstract>This is the continuation of Chapter 1_Part 7. This gives the theoretical explanation of the  five distinct series of LINE SPECTRA experimentally observed in Hydrogen Gas.</md:abstract>
+  <md:uuid>80fad838-b5e3-4caa-ab8c-d72a96577ae3</md:uuid>
+</metadata>
+<content>
+    <para id="id6959496">1.6.3.2. THEORETICAL DERIVATION OF RYDBERG CONSTANT.</para>
+    <para id="id7837448"/>
+    <para id="id7262309"> When a photon of energy packet hν is incident on an atom of a given element , it excites an electron from ground state n<sub>1</sub> to the excited state n<sub>2 </sub>in a way so as to satisfy the following condition:</para>
+    <para id="id6573827"> ΔE = E<sub>n2 </sub>– E<sub>n1</sub> = hν;</para>
+    <para id="id6899507">From Eq.(1.35) the condition to be satisfied is:</para>
+    <para id="id6239248"> hν = (-13.6/n<sub>2</sub><sup>2</sup> + 13.6/n<sub>1</sub><sup>2</sup>) eV;</para>
+    <para id="id7831875">
+      <emphasis effect="bold">or N= 1/λ = ν/c = (13.6eV/hc) (-1/n</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> + 1/n</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">) 1.37</emphasis>
+    </para>
+    <para id="id7222608">By comparing Eq(1.36) and Eq(1.37) we arrive at the numerical value of Rydberg Constant R to be:</para>
+    <para id="id7227162">R = (13.6eV/hc)   1.38</para>
+    <para id="id7139490">Substituting the numerical values of h and c in Eq.(1.38) we obtain :</para>
+    <para id="id7231971">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id6764860">
+      <emphasis effect="bold">R= 1.096×10</emphasis>
+      <emphasis effect="bold">5</emphasis>
+      <emphasis effect="bold"> cm</emphasis>
+      <emphasis effect="bold">-1</emphasis>
+      <emphasis effect="bold">   1.39</emphasis>
+    </para>
+    <para id="id7245876">The theoretical value of Rydberg Constant is close to the experimental value as given by Eq.(1.36).</para>
+    <para id="id6931268">Theoretical derivation of Rydberg Constant is considered as a definite vindication of the Quantum Theory of Atoms as proposed by Neil Bohr.</para>
+    <para id="id6927590">Based on this interpretation we get the underlying explanation for the various line spectra exhibited by Hydrogen Atom namely Lyman Series or K series, Balmar Series or L series, Paschen series or M series, Brackett series or N series and Pfund series or O series. The excitation states which create the five series of line spectra are shown in Fig.(1.17).</para>
+    <figure id="id6571422">
+      <media id="id6571422_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-e1bd.png" id="id6571422__onlineimage" height="763" width="604"/>
+      </media>
+    </figure>
+    <para id="id6140757">Fig.(1.17) Basic underlying cause for the generation of the five line spectra of Hydrogen Atom.</para>
+    <para id="id5901625">Based on these line spectra the shell corresponding to principal quantum number n=1 that is the innermost orbit is referred to as K Shell. Similarly the subsequent orbits corresponding to n= 2,3,4,5 are called L, M, N, O Shells respectively.</para>
+  </content>
+</document>

@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>(SSPD_Chapter 1_Part 2 continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33403</md:content-id>
+  <md:title>(SSPD_Chapter 1_Part 2 continued</md:title>
+  <md:abstract>This is continuation of Part 2_Photoelectric Effect.</md:abstract>
+  <md:uuid>c166d697-8f0d-4539-8e44-30d1d89b2211</md:uuid>
+</metadata>
+<content>
+    <para id="id21601634">Photo electric effect continued.</para>
+    <figure id="id24764970">
+      <media id="id24764970_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-cd47.png" id="id24764970__onlineimage" height="320" width="496"/>
+      </media>
+    </figure>
+    <para id="id17174313">P (Joules/second) / (hν) = number of photons incident . </para>
+    <para id="id16637330">If quantum efficiency is 100% then each photon will cause photoemission of a corresponding electron.</para>
+    <para id="id18833412">Hence P (Joules/second) / (hν) = number of photoemitted electrons/second.</para>
+    <para id="id12859284">Assuming that all photo-excited electrons are picked up by the Anode , this will constitute the Photo-ionic Current. Hence</para>
+    <para id="id9409690">I<sub>A</sub> (Photo-ionic Current) = q.P (Joules/second) / (hν)</para>
+    <para id="id5832590">This graph is a straight line graph passing through the origin and with a slope Tanα=[q/((hν)] where α is the angle of inclination of the straight line graph. </para>
+    <para id="id24755155">Fig(1.7) Photoionic Current versus Intensity of Light for a monochromatic light source. </para>
+    <para id="id9013065">
+      <figure id="id22822790">
+        <media id="id22822790_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 22-003e.png" id="id22822790__onlineimage" height="314" width="582"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7650043">
+      <emphasis effect="bold">Fig.(1.8) I</emphasis>
+      <emphasis effect="bold">A</emphasis>
+      <emphasis effect="bold"> vs V</emphasis>
+      <emphasis effect="bold">A</emphasis>
+      <emphasis effect="bold"> family of Output Curves for a constant Intensity but incident light frequency being increased in steps of ν</emphasis>
+      <emphasis effect="bold">Th</emphasis>
+      <emphasis effect="bold"> . </emphasis>
+    </para>
+    <para id="id6962106">Einstein was able to explain all the three graphs by assuming the quantum nature of light. Does this mean that Wave Nature of Light is wrong ? Absolutely not. We have studied Diffraction (aperture is comparable to wave length) and Interference pattern in Intermediate Physics and this can be explained only on the basis of Wave Nature of Light.</para>
+    <para id="id5054683">
+      <emphasis effect="italics">What this implies is that Electromagnetic Waves , which visible light is, manifests Wave Nature while interacting with Energy whereas it manifests Quantum Nature while interacting with Matter. Photo-Electric Effect and Compton Effect are two such examples.</emphasis>
+    </para>
+    <para id="id24491196"> The Photo-Electric also implies that every metal has its characteristics Work-Function and whenever the conduction electrons are energetic enough to overcome this Work-Function they will escape from the metal surface into vacuum.</para>
+    <para id="id19946057"> Work-Function can be defined as follows:</para>
+    <para id="id17583974"> It is the minimum energy required at zero Kelvin for a given metal for electron emission into vacuum.</para>
+    <para id="id24612370"> A monochromatic light source emits photons of frequency ν at a constant rate of P/(hν) photons per second where P= Intensity of the monochromatic source in Joules per second. Each incident photon interacts with a single electron only and imparts the energy packet in totality to the electron with which it is interacting. If the incident photon’s frequency is less than the Threshold Frequency then no intensity of light will cause photo-ionic emission. This is because increase in intensity means increase in the number of photons but energy packet transferred from the photon to the interacting electron remains insufficient to cross the surface potential barrier. Hence below threshold frequency no amount of incident light will cause any photo-ionic current.</para>
+    <para id="id17892968"> When the frequency of the monochromatic source is increased to become equal to the threshold frequency then photo-ionic emission will just occur with photo-emitted electrons having zero kinetic energy.</para>
+    <para id="id24505270"> When the incident frequency exceeds the threshold frequency then photo-emitted electrons have finite kinetic energy (1/2)m<sub>e</sub>v<sup>2</sup> and photo-ionic current starts being detected as anode current. This kinetic energy can be measured by the application of retarding voltage at the anode. The application of positive Anode Voltage causes a potential downhill which accelerates the photo-emitted electrons. Hence positive Anode Voltage facilitates the collection of photo-ionic current as Anode Current. The application of negative Anode Voltage causes a potential uphill which retards the photo-emitted electrons and converts the kinetic energy of the photo-emitted electrons in potential energy and this prevents the collection of photo-ionic current as Anode Current and hence Anode Current decreases. As retarding voltage is increased the anode current decreases until at a retarding voltage V<sub>R</sub> the anode current becomes zero. This gives the famous Einstein Equation:</para>
+    <para id="id21194567">
+      <emphasis effect="bold">hν – W</emphasis>
+      <emphasis effect="bold">F </emphasis>
+      <emphasis effect="bold">= (1/2)m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">v</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">=q |V</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">|</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">  1.5</emphasis>
+    </para>
+    <para id="id12055804">where hν &gt; W<sub>F </sub>is the necessary condition for photoemission</para>
+    <para id="id23013924">
+      <emphasis effect="bold">ν- </emphasis>
+      <emphasis effect="bold">W</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">/</emphasis>
+      <emphasis effect="bold">h</emphasis>
+      <emphasis effect="bold">= ν – ν</emphasis>
+      <emphasis effect="bold">Th</emphasis>
+      <emphasis effect="bold"> = (</emphasis>
+      <emphasis effect="bold">q</emphasis>
+      <emphasis effect="bold">/</emphasis>
+      <emphasis effect="bold">h</emphasis>
+      <emphasis effect="bold">) |</emphasis>
+      <emphasis effect="bold">V</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">|</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">    1.</emphasis>
+      <emphasis effect="bold">6</emphasis>
+    </para>
+    <para id="id6792889">
+      <emphasis effect="bold">or (h/q)ν – (h/q)ν</emphasis>
+      <emphasis effect="bold">Th</emphasis>
+      <emphasis effect="bold"> = |V</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">|</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">1.7</emphasis>
+    </para>
+    <para id="id16910307">is a straight line equation like y=mx+c </para>
+    <para id="id13286226">where |V<sub>R</sub>| is the dependent variable y, </para>
+    <para id="id16935257">ν is the independent variable x </para>
+    <para id="id18114207">and (h/q) is the slope Tanθ </para>
+    <para id="id16812352">where θ is the angle of inclination of the straight line.</para>
+    <para id="id7092658">The y intercept in Eq.(1.7) is – (h/q)ν<sub>Th</sub>= -W<sub>F</sub>/q = Surface Barrier Potential φ<sub>B</sub>;</para>
+    <para id="id21823855">The x intercept in Eq(1.7) is ν<sub>Th </sub>;</para>
+    <para id="id16528701">Thus from the straight line graph |V<sub>R</sub>| vs ν (the incident photon frequency) , Fig(1.4), we can obtain Surface Barrier Potential φ<sub>B </sub>and Planck’s Constant h .</para>
+    <para id="id9409695">In Fig(1.7) the straight line graph I(Anode Current) vs P(Incident light Intensity) is obtained. Here the incident frequency, which is greater than the threshold frequency, is kept constant while the intensity of the incident light is increased.</para>
+    <para id="id24639361">At frequencies greater than threshold frequency, each incident photon causes corresponding photoemission of a single electron . Because of the one to one correspondence the Anode Current ,which is the collection of photo-ionic electrons per second, is directly proportional to the incident light intensity provided we have a constant positive Anode Voltage. This results in a straight line Graph passing through the origin.</para>
+    <para id="id19900413">Fig(1.8) is the family of curves comprising of the static output characteristics of Photo-Electric Device. The static output characteristic is I<sub>A </sub>vs V<sub>A </sub>for a given incident frequency and which is a multiple of threshold frequency and for a given intensity of light.</para>
+    <para id="id24098515">In the first quadrant of the Graph if we do not enter high field emission region then for a given incident frequency we have a constant Anode Current with respect to Anode Voltage provided the intensity of light is kept constant. Constant light intensity implies constant number of incident photons. If quantum efficiency is 100%, constant incident photons number implies constant photo-emitted electrons. Hence no matter what the anode accelerating voltage is, a constant number of photo-emitted electrons are collected. That is the Photo-Electric Current Device acts as constant current source as long as the incident light intensity is constant.</para>
+    <para id="id5073961">Here we may define Constant Current Sources and Constant Voltage Sources. A Constant Current Source delivers a constant current irrespective of the load voltage whereas a Constant Voltage Source will give a constant terminal voltage irrespective of the load current.</para>
+    <para id="id6962113"> The I-V curve of a Constant Current Source will be a horizontal line as it is in the case of Photo-Electric Current Device whereas the I-V curve of a Constant Voltage Source will be a vertical line.</para>
+    <para id="id21444765"> For this simple but elegant explanation of Photo Electric Effect , Albert Einstein was awarded Nobel Prize in 1921.</para>
+    <para id="id6947898">These photons are virtual particles but they exhibit all the properties of material particles. They have translational momentum and hence exert force and pressure. Had the pressure of sun-light not been considered, Viking would have missed Mars by about 15,000 km.</para>
+    <para id="id17983085"> Insolation in the upper most part of Atmosphere= 1400W/m<sup>2</sup>;</para>
+    <para id="id21630439">
+      <emphasis effect="bold">Force (F) = rate of change of translational momentum (dp/dt) 1.8</emphasis>
+    </para>
+    <para id="id18729023">Force.displacement = F.Δx</para>
+    <para id="id11479365">    = ΔU ( incremental work done on incremental displacement) </para>
+    <para id="id11854447">
+      <emphasis effect="bold">F.Δx = (dp/dt). Δx = Δp.(dx/dt) = Δp.v 1.9</emphasis>
+    </para>
+    <para id="id22012723">In case of light in free space : ΔU = Δp.c;</para>
+    <para id="id15166200">Therefore Δp = ΔU/c;</para>
+    <para id="id24615498">Therefore <emphasis effect="bold">Δp/∆t = ΔU/∆t /c = (1/c)(dU/dt) = Force = F (Newtons) 1.10</emphasis></para>
+    <para id="id21998476"/>
+    <para id="id15707377">dU/dt = rate of energy incidence;</para>
+    <para id="id17174580">dU/dt/m<sup>2</sup> = Energy falling per unit time per unit area = Insolation;</para>
+    <para id="id19149855">Eq.(1.10) gives:</para>
+    <para id="id20849506"/>
+    <para id="id22003834">F/m<sup>2</sup> (Pressure)= (1/c)(dU/dt)/m<sup>2</sup> = I (intensity)/c ;</para>
+    <para id="id18050373">Given I(intensity) = </para>
+    <para id="id19131828">Insolation of sun-light in the upper part of the atmosphere = 1400W/m<sup>2</sup></para>
+    <para id="id19504873"> Resulting pressure= I (intensity)/c </para>
+    <para id="id17894459">= 1400W/m<sup>2</sup>÷(velocity of light in vacuum)</para>
+    <para id="id24751838">=4.7×10<sup>-6</sup> N/m<sup>2</sup>;</para>
+    <para id="id14136539">1mW/m<sup>2</sup> is equivalent to 3.3pN/m<sup>2</sup>; </para>
+    <para id="id20849434"/>
+    <para id="id21438475">Total force exerted on Earth by Sunlight = (F/m<sup>2</sup> ) × (πR<sub>EARTH</sub><sup>2</sup>)</para>
+    <para id="id24506264">= 4.7×10<sup>-6</sup> N/m<sup>2</sup> × π×(6.37×10<sup>6</sup>)<sup>2</sup>m<sup>2</sup></para>
+    <para id="id4840008">= 6×10<sup>8</sup> N= 6×10<sup>8</sup> N/(10<sup>4</sup>N/metric Ton)</para>
+    <para id="id17892970">= 60,000 metric tons. </para>
+  </content>
+</document>

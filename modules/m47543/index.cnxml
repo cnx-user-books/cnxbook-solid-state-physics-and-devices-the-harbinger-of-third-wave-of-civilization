@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Supplement_2.1.3.2.Transport in NanoTechnology Era.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47543</md:content-id>
+  <md:title>Supplement_2.1.3.2.Transport in NanoTechnology Era.</md:title>
+  <md:abstract>This supplement of Nano Technology Era gives the transport physics of charge carriers in nano-devices.</md:abstract>
+  <md:uuid>375dd704-b955-4639-ad2e-e042ff0078bb</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1163921207625">
+      <emphasis effect="bold">Supplement_2.1.3.2.Transport in NanoTechnology Era. </emphasis>
+    </para>
+    <para id="import-auto-id1163921215026">In micron size devices electron transport is that of a Fermion. Thermal energy causes random motion of electrons. It moves over a short distance and gets scattered thereby changing its direction. The magnitude of the mean free path decides its mobility. Mean Free Path in turn is decided by the crystal structure. If it is a single crystal with no defects, no impurities, no lattice vibration and no boundaries then the single crystal is a super-conductor with infinite mobility. Ordinarily the real life single crystals are non-ideal and hence they have finite mobility but strongly influenced by the boundaries, impurities, defects and lattice vibrations. In these micron size crystals, electron experiences diffusion from higher concentration to lower concentration as well as drift down the potential gradient.</para>
+    <para id="import-auto-id1163921283488">As we reach sub-micron size devices and dimensions become comparable to the mean free path then electron experiences ballistic transport.</para>
+    <para id="import-auto-id1163921244460">In Nano-meter size dimensions and in graphene, electron does not remain a Schrodinger Particle but becomes Dirac-quasi particle. It cannot be described by Schrodinger Equations but is described by Dirac Equations. Electron experiences Quantum Transport.</para>
+    <para id="import-auto-id1163921218688">At 1nm and less it is atomic dimension and electron is in Quantum Transport region. These different modes of transport is shown in Figure A.</para>
+    <figure id="import-auto-id1163921221732">
+      <media id="import-auto-id1163921291852" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-d6b8.png" height="358" width="576"/>
+      </media>
+    </figure>
+  </content>
+</document>

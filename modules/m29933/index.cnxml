@@ -1,0 +1,274 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 3.</title>
+  <metadata>
+  <md:content-id>m29933</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 3.</md:title>
+  <md:abstract>Summary: This gives Part 3 of 50 yrs journey.</md:abstract>
+  <md:uuid>812b5fab-4db4-4f0e-8426-975f90447d3c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171440124113">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 3.</para>
+    <para id="id1171440124117">Title: Part 3 of 50 yrs journey.</para>
+    <para id="id1171440124122">Keyword: Scale of Integration, Contact printing, Projection printing, Proximity printing,UV, Deep UV,Immersion Technique.</para>
+    <para id="id1171440124127">Summary: This gives Part 3 of 50 yrs journey.</para>
+    <para id="id1171440124131">Section III. The Different Generations of Lithographic Technology serving the IC Fabrication Foundries over the last 50 years.</para>
+    <para id="id1171440124136"><emphasis effect="bold">[</emphasis>“New Uses of IC Technology will enable better opportunities for optical lithography”, Resor &amp; Griff, Solid State Technology,01-Nov07; “Technology Interdependence &amp; the evolution of Semiconductor lithography,” Ron Adner &amp; Rahul Kapur, Solid State Technology, Nov.2007; IC knowledge.com ]</para>
+    <para id="id1171440124149"> At the time I.C. technology was born mask preparation and optical lithography was manual[Appendix II].</para>
+    <para id="id1171440124155">As we move from Small Scale Integrated (SSI) Circuits to Medium Scale Integrated Circuits(MSI) to LSI to VLSI and finally now to ULSI, the need for smaller and smaller feature size in circuit fabrication has driven the evolution of Optical Lithography. Table 5 shows the growth in the packing density of components in the chips fabricated in last 50 years.</para>
+    <para id="id1171440124163">
+      <emphasis effect="bold">Table 5. Classification of Chips according to degree of integration.</emphasis>
+    </para>
+    <table id="id1171440124170" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>SSI(Small Scale Integrated Circuits)</entry>
+            <entry>Less than 30 components</entry>
+          </row>
+          <row>
+            <entry>MSI(Medium Scale Integrated Circuits)</entry>
+            <entry>30 to 100 components</entry>
+          </row>
+          <row>
+            <entry>LSI ( Large Scale Integrated Circuits)</entry>
+            <entry>100,000 components</entry>
+          </row>
+          <row>
+            <entry>VLSI(Very Large Scale Integrated Circuits)</entry>
+            <entry>1 million components</entry>
+          </row>
+          <row>
+            <entry>ULSI( Ultra Large Scale Integrated Circuits)</entry>
+            <entry>40 million components</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171440124299">Table 6. The Development in Lithography Technique in last 50 years.</para>
+    <para id="id1171440124303">[“Shrinking Possibilities”, Bill Arnold, <emphasis effect="italics">IEEE Spectrum,</emphasis>April 2009, pp.23-25, 46-48.]</para>
+    <para id="id1171440124314"/>
+    <table id="id1171440124319" summary="">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <tbody>
+          <row>
+            <entry>Year </entry>
+            <entry>Generation</entry>
+            <entry>W*(nm)Min.linewidth</entry>
+            <entry>λ(nm)</entry>
+            <entry>Source</entry>
+            <entry>Year of dominance</entry>
+            <entry>Type of mask</entry>
+            <entry>Method of exposure</entry>
+            <entry>NumericalAperture</entry>
+          </row>
+          <row>
+            <entry>1962</entry>
+            <entry>Contactprinting</entry>
+            <entry>7µm</entry>
+            <entry>480</entry>
+            <entry>UV</entry>
+            <entry>1972</entry>
+            <entry>Emulsionplates</entry>
+            <entry>Refraction through lens system</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>Late 60s</entry>
+            <entry namest="c2" nameend="c8">Computerization and automation of mask preparation using high speed step and repeat cameras. This gave reduced geometries and greater accuracy.</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>1972</entry>
+            <entry>ProximityPrinting. </entry>
+            <entry>3 µm</entry>
+            <entry>480</entry>
+            <entry>UV</entry>
+            <entry>1973</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>1973</entry>
+            <entry>Projection</entry>
+            <entry>2µm</entry>
+            <entry>480</entry>
+            <entry>UV</entry>
+            <entry>1977</entry>
+            <entry>Electron beam systems used in mask making</entry>
+            <entry>do</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>1976</entry>
+            <entry>Electron beam</entry>
+            <entry>0.5 µm</entry>
+            <entry>480</entry>
+            <entry>UV</entry>
+            <entry>never</entry>
+            <entry>.</entry>
+            <entry>Electrostaticlensing</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>1978</entry>
+            <entry>X-Ray</entry>
+            <entry>0.3 µm</entry>
+            <entry>480</entry>
+            <entry>UV</entry>
+            <entry>never</entry>
+            <entry>No suitable mask materials</entry>
+            <entry>?</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>1978</entry>
+            <entry>G-line</entry>
+            <entry>1.25 µm</entry>
+            <entry>436</entry>
+            <entry>G line of Hg vap.lamp</entry>
+            <entry>1982</entry>
+            <entry/>
+            <entry>Lens system.Refractive exposure</entry>
+            <entry>0.3</entry>
+          </row>
+          <row>
+            <entry>1985</entry>
+            <entry>I-line</entry>
+            <entry>0.80 µm</entry>
+            <entry>436/365</entry>
+            <entry>I line of Hg</entry>
+            <entry>1991</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.4</entry>
+          </row>
+          <row>
+            <entry>1986</entry>
+            <entry>DUV248 nm</entry>
+            <entry>0.45 µm</entry>
+            <entry>365</entry>
+            <entry>Same</entry>
+            <entry>1998</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.4</entry>
+          </row>
+          <row>
+            <entry>1996</entry>
+            <entry>DUV193nm</entry>
+            <entry>0.15 µm</entry>
+            <entry>365/248</entry>
+            <entry>KrF Excimer </entry>
+            <entry>2006</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.6</entry>
+          </row>
+          <row>
+            <entry>1998</entry>
+            <entry>DUV157nm</entry>
+            <entry>0.10 µm</entry>
+            <entry>248</entry>
+            <entry>do</entry>
+            <entry>Never</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.6</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>DUV193nm</entry>
+            <entry>0.18 µm</entry>
+            <entry>248</entry>
+            <entry>do</entry>
+            <entry/>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.6</entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>DUV193nm</entry>
+            <entry>0.13 µm</entry>
+            <entry>248</entry>
+            <entry>do</entry>
+            <entry/>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.7</entry>
+          </row>
+          <row>
+            <entry>2003</entry>
+            <entry>DUV193nm</entry>
+            <entry>0.09 µm</entry>
+            <entry>248/193</entry>
+            <entry>ArF Excimer</entry>
+            <entry/>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.8</entry>
+          </row>
+          <row>
+            <entry>2005</entry>
+            <entry>DUV193nm immersion</entry>
+            <entry>0.04 µm</entry>
+            <entry>193</entry>
+            <entry>do</entry>
+            <entry>Todate</entry>
+            <entry/>
+            <entry>do</entry>
+            <entry>0.8</entry>
+          </row>
+          <row>
+            <entry>future</entry>
+            <entry>EUV 100nm</entry>
+            <entry>Less than0.030 µm</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>Reflective mirror exposure system**.</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171440130881">W* = minimum feature size=(according to Rayleigh Equation)=k.λ/(NA) </para>
+    <para id="id1171440130887">where NA(numerical aperture)=n.Sin(α) = d/(2f);</para>
+    <para id="id1171440130892">n= index of refraction of the medium surrounding the lens and α = acceptance angle of the lens system;</para>
+    <para id="id1171440130900">d= aperture diameter and f = focal length.</para>
+    <para id="id1171440130905">k= resolution factor. Resolution factor is also falling. It depends on the photo resist and resolution enhancement techniques such as :</para>
+    <para id="id1171440130911">phase shift mask, </para>
+    <para id="id1171440130916">off axis illumination </para>
+    <para id="id1171440130920">and optical proximity corrections (this corrects for the blurring effects of diffraction of light from small aperture slits). In the mask a rectangle pattern is replaced by dog bone pattern so that after exposure we get a rectangle with sharp corners on the wafer.</para>
+    <para id="id1171440130927">Increased NA gives reduced depth of focus. For high resolution, surface of Photoresist must be flat and within the depth of focus.</para>
+    <para id="id1171440130933">By looking at the Rayleigh Equation we immediately see the advantage of using immersion technique. The most suitable medium is non-ionized ultra pure water which has n=1.47 and absorption less than 6% over 6mm. This medium is non-contaminating hence most suitable for immersion optical lithography. By immersion technology, DUV 157nm will be able to go up to minimum line width of less than 30nm.</para>
+    <para id="id1171440130943">** The mask and the refractive lens used in conventional lithography systems would absorb 100nm light required for patterning features smaller than 50 nm. Hence refractive lens is replaced by reflective mirror and masks are replaced by reflecting type Molybednum-Silicon masks a few nm’s thick . On this a pattern of chromium is laid down. This absorbs light in appropriate places and reflects elsewhere and thus the pattern is transferred to the Wafer.</para>
+    <para id="id1171440130955">
+      <figure id="id1171440130959">
+        <media id="id1171440130959_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-5587.png" id="id1171440130959__onlineimage" height="460" width="628"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171440130983">Figure 3. Extreme UltraViolet Lithography.</para>
+    <para id="id1171440130988">
+      <emphasis effect="bold">[Curtsey </emphasis>
+      <emphasis effect="italics">Scientific American</emphasis>
+      <emphasis effect="bold">, April 2004, The First Nanochips by G.Dan Hutcheson]</emphasis>
+    </para>
+    <para id="id1171440131004">At 100nm and below Optical Lithography reaches its limit even with Resolution Enhancement Techniques such as Optical Proximity Corrections and Phase Shift Masks. So we have to work out Post Optical Lithgraphy or Next Generation Lithography. SAMATECH Program has come up with five alternatives for NGL. These are described in Appendix II.</para>
+  </content>
+</document>

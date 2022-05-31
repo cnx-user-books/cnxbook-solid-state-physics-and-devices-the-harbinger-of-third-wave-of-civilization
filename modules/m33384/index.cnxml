@@ -1,0 +1,391 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix IX_History of SiGe HBT</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33384</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix IX_History of SiGe HBT</md:title>
+  <md:abstract>Appendix IX gives the brief history of SiGe HBT and the role it is playing in revolutionizing personal communication.</md:abstract>
+  <md:uuid>ff8e2954-d968-4678-9231-d6f8a9e514df</md:uuid>
+</metadata>
+<content>
+    <para id="id1166732171848">Appendix IX.</para>
+    <para id="id6615700">History and Physics of SiGe HBT.</para>
+    <para id="id1166737257718">[Overview: Fabrication of SiGe HBT Bi-CMOS Technolgy- Cressler]</para>
+    <para id="id7544198">
+      <emphasis effect="bold">Table IX.1. History of SiGe HBT.</emphasis>
+    </para>
+    <table id="id1166730260888" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Device</entry>
+            <entry>Year of first intoduction</entry>
+            <entry>Reference</entry>
+          </row>
+          <row>
+            <entry>First epitaxial BJT</entry>
+            <entry>1960</entry>
+            <entry>Theurer,Kleimeck, Loar &amp; Christemer, “Epitaxial Diffused Transistor”, Proceedings of IRE 48, 1642-1643,1960.</entry>
+          </row>
+          <row>
+            <entry>First SiGe HBT</entry>
+            <entry>1987</entry>
+            <entry>Iyer, Patton, Delage, Tiwari &amp; Stork, “ Silicon-Germanium Base heterojunction bipolar transistors by MBE,” Technical Diget of IEEE International Election Device Meeting, San Francisco, 1987, 874-876.</entry>
+          </row>
+          <row>
+            <entry>First ideal SiGe HBT by CVD</entry>
+            <entry>1989</entry>
+            <entry>King, Hoyt, Gronet, Gibbons, Scott &amp; Turner, “Si/Si<sub>(1-x)</sub>Ge<sub>x</sub> heterojunction Transistor produced by limited reaction processing,” IEEE ED Letters, 10, 52-54,1989.</entry>
+          </row>
+          <row>
+            <entry>First SiGe HBT by UHV/CVD</entry>
+            <entry>1989</entry>
+            <entry>Patton, Harame, Stork, Meyerson, Scilla and Ganin, “ Graded-SiGe-Base, poly-emitter heterojunction bipolar transistors,” IEEE ED Letters 10, 534-536, 1989.</entry>
+          </row>
+          <row>
+            <entry>Fiirst High performance SiGe HBT</entry>
+            <entry>1990</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First self-aligned SiGe HBT</entry>
+            <entry>1990</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT ECL ring oscillator</entry>
+            <entry>1990</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First pnp SiGe HBT</entry>
+            <entry>1990</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First operation of SiGe HBTs at cryogenic temperature</entry>
+            <entry>1990</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT BiCMOS Technology</entry>
+            <entry>1992</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>LSI SiGe HBT IC(12 bit DAC-1.2GS/sec)</entry>
+            <entry>1993</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT with peak f<sub>T</sub>=100GHz</entry>
+            <entry>1993</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT in 200mm Wafer Technology</entry>
+            <entry>1994</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT Technology optimized at 77K</entry>
+            <entry>1994</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First Radiation Tolerance investigation of SiGe HBT</entry>
+            <entry>1995</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First Report of Low Frequency Noise in SiGe HBT</entry>
+            <entry>1995</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe:C HBT </entry>
+            <entry>1996</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First High power SiGe HBT</entry>
+            <entry>1996</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First sub-10psec SiGe HBT in ECL circuit</entry>
+            <entry>1997</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First High Performance SiGe:C HBT Technology</entry>
+            <entry>1999</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT with peak f<sub>T</sub> above 200GHz</entry>
+            <entry>2001</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiG HBT with peak f<sub>T</sub> above 300GHz</entry>
+            <entry>2002</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First complementary symmetry amplifier using HBT</entry>
+            <entry>2003</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First C:SiGe Technology with npn &amp; pnp f<sub>T</sub> above 100GHz</entry>
+            <entry>2003</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First vertical SiGe HBT on thin film SOI(CMOS compatible)</entry>
+            <entry>2003</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>First SiGe HBT with both f<sub>T </sub>and f<sub>max</sub> above 300GHz</entry>
+            <entry>2004</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166729949125">Steps in SiGe HBT fabrication.</para>
+    <para id="id6931973">Step 1. Low Sheet Resistance Buried layer is fabricated: High dose Arsenic implant followed by a long thermal cycle in oxidizing ambient. This drives Arsenic deep in the wafer and anneals the defects caused by ion-implantation. A thin epi-layer is deposited at high temperature. The buried layer has a sheet resistance of R<sub>sh</sub>= 10Ω/▄ .</para>
+    <para id="id1166728499764">Alternatively</para>
+    <para id="id1166730095373">Sub-collector may be just implanted in the wafer. This wafer is more compatible for CMOS processing. Burt since no following anneal step, hence to minimize the defects, dose and depth of implant is considerably less and R<sub>sh</sub>= 100Ω/▄ .</para>
+    <para id="id1166728606735">Combination of deep trench isolation and buried sub-collector leads to reduced Collector Capacitance and reduced Collector Resistance therefore maximum <emphasis effect="bold">f</emphasis><emphasis effect="bold">T </emphasis><emphasis effect="bold">and f</emphasis><emphasis effect="bold">max </emphasis>can be realized.</para>
+    <para id="id1166731941739">In advanced HBT structure scaling involves both vertical and lateral scaling. </para>
+    <para id="id3138795">Vertical Scaling:</para>
+    <para id="id1166730212062"> Vertical scaling consists of thinning all the three layers of HBT(base, collector and emitter). The base width is scaled by shrinking the base width and increasing Ge gradient across the base which includes increasing the peak Ge%. If all doped regions are thinned then transit time may decrease but RC time constant increases because R increases. To get an overall improvement in f<sub>T </sub>overall time delay τ<sub>EC</sub> must be brought down.</para>
+    <figure id="id1166729083846">
+      <media id="id1166729083846_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-8ff2.png" id="id1166729083846__onlineimage" height="41" width="231"/>
+      </media>
+    </figure>
+    <para id="id4702508"/>
+    <figure id="id1166731999557">
+      <media id="id1166731999557_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-0848.png" id="id1166731999557__onlineimage" height="43" width="386"/>
+      </media>
+    </figure>
+    <para id="id1166730237554">Where <figure id="id1166731893249"><media id="id1166731893249_media" alt=""><image mime-type="image/png" src="../../media/graphics3-2d87.png" id="id1166731893249__onlineimage" height="36" width="365"/></media></figure></para>
+    <para id="id1166730117634">τ<sub>E</sub> = RC delay time constant at EB junction;</para>
+    <para id="id8675385">τ<sub>C</sub> = RC delay time constant at CB junction;</para>
+    <para id="id1166729085818">τ<sub>B</sub> = Transit time delay through Base Width;</para>
+    <para id="id1166729259971">τ<sub>CSCL</sub> = Transit time delay through reverse biased CB junction;</para>
+    <para id="id8035846">v<sub>S</sub> = scatter limited velocity of electrons while falling down the potential hill at CB junction;</para>
+    <para id="id1166729788638">To achieve this objective , we must simultaneously reduce the two transit times, cross-sectional area of capacitances and series resistances. Introduction of C in SiGe base has helped reduce R<sub>sh</sub> of Base even after thinning as required in vertical scaling.</para>
+    <para id="id7076462">Reduction in time delay requires that quiescent I<sub>C</sub> is increased which means that Kirk Effect must be pushed to high Current Density. This is achieved by increasing Collector Dopant Concentration for which we do Selectively Implanted Collector(SIC).</para>
+    <para id="id1166731788299">SIC allows higher values of I<sub>C</sub>, decreases R<sub>C</sub> and reduces W<sub>CSCL</sub>. But increase in SIC, means more lateral and vertical diffusion in subsequent heat cycles which leads to higher C<sub>CB</sub>. So vertical and lateral scaling should be carefully controlled to maximize <emphasis effect="bold">f</emphasis><emphasis effect="bold">T </emphasis><emphasis effect="bold">and f</emphasis><emphasis effect="bold">max</emphasis><emphasis effect="bold">.</emphasis></para>
+    <para id="id1166729875580">Table IX.2. Milestones of Development of SiGe-strained Si FETs.</para>
+    <table id="id1166736773127" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Device</entry>
+            <entry>Year of first introduction</entry>
+          </row>
+          <row>
+            <entry>FET concept</entry>
+            <entry>1926</entry>
+          </row>
+          <row>
+            <entry>Si(MOSFET)</entry>
+            <entry>1960</entry>
+          </row>
+          <row>
+            <entry>Si(CMOS)</entry>
+            <entry>1963</entry>
+          </row>
+          <row>
+            <entry>First oxidation study of SiGe</entry>
+            <entry>1971</entry>
+          </row>
+          <row>
+            <entry>SiGe-nMODFET</entry>
+            <entry>1986</entry>
+          </row>
+          <row>
+            <entry>SiGe-pMODFET</entry>
+            <entry>1986</entry>
+          </row>
+          <row>
+            <entry>SiGe Photodetector</entry>
+            <entry>1986</entry>
+          </row>
+          <row>
+            <entry>SiGe SBD</entry>
+            <entry>1988</entry>
+          </row>
+          <row>
+            <entry>SiGe hole RTD</entry>
+            <entry>1988</entry>
+          </row>
+          <row>
+            <entry>SiGe BiCFET</entry>
+            <entry>1989</entry>
+          </row>
+          <row>
+            <entry>SiGe gate CMOS tech</entry>
+            <entry>1990</entry>
+          </row>
+          <row>
+            <entry>SiGe Wave Guide</entry>
+            <entry>1990</entry>
+          </row>
+          <row>
+            <entry>SiGe pMOSFET</entry>
+            <entry>1991</entry>
+          </row>
+          <row>
+            <entry>SiGe electron RTD</entry>
+            <entry>1991</entry>
+          </row>
+          <row>
+            <entry>SiGe LED</entry>
+            <entry>1991</entry>
+          </row>
+          <row>
+            <entry>SiGe Solar Cell </entry>
+            <entry>1992</entry>
+          </row>
+          <row>
+            <entry>SiGe photo transistor</entry>
+            <entry>1993</entry>
+          </row>
+          <row>
+            <entry>SiGe pMOSFET on SOI</entry>
+            <entry>1993</entry>
+          </row>
+          <row>
+            <entry>Strained Si pMOSFET</entry>
+            <entry>1993</entry>
+          </row>
+          <row>
+            <entry>Strained Si nMOSFET</entry>
+            <entry>1994</entry>
+          </row>
+          <row>
+            <entry>SiGe:C pMOSFET</entry>
+            <entry>1996</entry>
+          </row>
+          <row>
+            <entry>SiGe pFET on SOS</entry>
+            <entry>1997</entry>
+          </row>
+          <row>
+            <entry>Submicron SiMOSFET </entry>
+            <entry>1998</entry>
+          </row>
+          <row>
+            <entry>Vertical SiGe pFET</entry>
+            <entry>1998</entry>
+          </row>
+          <row>
+            <entry>Strained SiCMOS</entry>
+            <entry>2002</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166728529112"> SiGe Technology has become the driving force behind the explosion in low cost, light weight, personal communication devices like digital wireless handsets and other entertainment and information technologies such as Digital Set-Top Boxes, Digital Broadcast Satellites, Automobile Collision Avoidance and Personal Digital Assistants. SiGe extends the life of wireless phone batteries and allows more durable communication devices. Products combining the capabilities of Cellular Phone, Global Positioning and Internet access in one package are designed using SiGe.</para>
+    <para id="id1166729968336"> These multi-function, low cost mobile client devices capable of communication over voice and data networks represent a key element of the future of computing.</para>
+    <para id="id1166730921883"> SiGe HBT in CMOS for high end PC failed but SiGe HBT succeeded in RF Communication Circuits because of low power consumption.</para>
+    <para id="id1166731889390"> SiGe Technology is finding extensive applications in:</para>
+    <para id="id7785590">Wired Communication;</para>
+    <para id="id1166729037478">Wireless Communication Circuits;</para>
+    <para id="id6393325">In Disk Storage;</para>
+    <para id="id1166728349146">High speed BW instrumentation;</para>
+    <para id="id7702826">Discrete SiGe HBT in Amplifiers and Wireless Devices;</para>
+    <para id="id1166731383773">IC SiGe HBT in GSM handsets, in CDMA hand sets, in Base stations, in Wireless LAN chipsets and in high speed 10-40Gb/s Synchronous Optical Networks(SONETS) receivers.</para>
+    <para id="id1166729788348">Ge grading in Base helps higher transit frequency f<sub>T</sub> and increase in short circuit current gain β<sub>F</sub> . By suitable trading of β<sub>F</sub> with r<sub>x</sub> ( base spreading resistance), BW can further be improved. By increased Base Doping, r<sub>x</sub> reduces. This reduction adversely effects β<sub>F</sub> but gives considerable improvement in transit frequency and in Noise Figure of the device. For same I<sub>C</sub> (collector current) , SiGe HBT has a higher short circuit current gain, lower RF noise and lower flicker noise or 1/f noise as compared to an identical Si BJT. In SiGe , higher raw speed and lower power consumption can be traded depending upon the application.</para>
+    <para id="id1166730253890">Table IX.3 Comparison of CMOS with conventional Si-BJT and SiGe HBT ( after Harame)</para>
+    <table id="id1166729787420" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Parameters</entry>
+            <entry>CMOS</entry>
+            <entry>Si BJT</entry>
+            <entry>SiGe HBT</entry>
+          </row>
+          <row>
+            <entry>f<sub>T</sub></entry>
+            <entry>high</entry>
+            <entry>high</entry>
+            <entry>Higher</entry>
+          </row>
+          <row>
+            <entry>f<sub>max</sub></entry>
+            <entry>high</entry>
+            <entry>high</entry>
+            <entry>Higher</entry>
+          </row>
+          <row>
+            <entry>Linearity</entry>
+            <entry>Best</entry>
+            <entry>Good</entry>
+            <entry>Better</entry>
+          </row>
+          <row>
+            <entry>V<sub>BE</sub> (or V<sub>Th</sub>) tracking</entry>
+            <entry>Poor</entry>
+            <entry>Good</entry>
+            <entry>Good</entry>
+          </row>
+          <row>
+            <entry>1/f noise</entry>
+            <entry>Poor</entry>
+            <entry>Good</entry>
+            <entry>Good</entry>
+          </row>
+          <row>
+            <entry>Broad Band Noise</entry>
+            <entry>Poor</entry>
+            <entry>Good</entry>
+            <entry>Good</entry>
+          </row>
+          <row>
+            <entry>Early Voltage</entry>
+            <entry>Poor</entry>
+            <entry>OK</entry>
+            <entry>Good</entry>
+          </row>
+          <row>
+            <entry>g<sub>m</sub></entry>
+            <entry>Poor</entry>
+            <entry>Good</entry>
+            <entry>Good</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id3124166">Real strength of SiGe lies in Analog, RF and Digital Applications in existing CMOS Fabrication Foundaries. This makes possible implementation of new Architecture such as direct conversions and software defined radio.</para>
+    <para id="id1166730090095">SiGe BiCMOS Technology.</para>
+    <para id="id1166730258830">This technology demands that Low Temperature Epitaxy(LTE) SiGe process be combined with high temperature CMOS processing.</para>
+    <para id="id1166732177136">CMOS performance must be retained ( same as the parent CMOS process) after the addition of LTE SiGe in order to use existing digital ASIC Libraries and Design Methodologies.</para>
+    <para id="id7701784">Similarly CMOS processing must not significantly alter the doping profile ( and hence performance) of SiGe HBT.</para>
+    <para id="id7647798">In this integration the two primary issues are thermal budget and trade off between process modularity and process sharing.</para>
+    <para id="id1166730122197">IBM first generation (5HP) 0.5µm SiGe BiCMOS used a “base equal gate” scheme. A common layer stack is used for both HBT base and FET poly-Si Gates. </para>
+    <para id="id1166728516570">Problem arises when CMOS advances to 0.24µm Technology(6HP). At this point CMOS thermal cycle increased significantly because of the need for Source/Drain dopant activation for NMOS and gate side wall oxidation. So “ base after gate” strategy is adopted. HBT is built after the formation of gate, gate spacer, LDD implants and NMOS anneals. This simplified BiCMOS integration of SiGe HBT with newer generation of CMOS. </para>
+  </content>
+</document>

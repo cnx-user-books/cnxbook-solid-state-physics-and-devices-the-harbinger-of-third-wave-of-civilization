@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 4. Section 4.3.supplement-Solved Problems on Design of BJT.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47910</md:content-id>
+  <md:title>Chapter 4. Section 4.3.supplement-Solved Problems on Design of BJT.</md:title>
+  <md:abstract>Section 4.3 supplement gives some solved problems in designing BJT.</md:abstract>
+  <md:uuid>a35c9ba4-9ad7-4ac3-995e-e24f949c46bc</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1170322964631">
+      <emphasis effect="bold">Chapter 4. Section 4.3.supplement-Solved Problems on Design of BJT.</emphasis>
+    </para>
+    <para id="import-auto-id1170322893194"><emphasis effect="bold">Problem 1.</emphasis> A BJT has I<sub>C</sub> = 1mA and I<sub>B</sub> = 10μA. What are α<sub>F</sub> , β<sub>F</sub> and I<sub>E</sub> ?</para>
+    <para id="import-auto-id1170304391151">Solution:</para>
+    <figure id="import-auto-id1170322990220">
+      <media id="import-auto-id1170322990221" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-95e1.png" height="22" width="267"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1170304388267">
+      <media id="import-auto-id1170304388268" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-4c10.png" height="42" width="390"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170322990197">You can check for consistency that :</para>
+    <figure id="import-auto-id1170322990199">
+      <media id="import-auto-id1170322990200" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-1892.png" height="43" width="328"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170304330231"><emphasis effect="bold">Problem 2.</emphasis> Heavy Emitter Doping effect on Short Circuit CE BJT Current Gain. In a BJT D<sub>nB</sub> (diffusion coefficient of electron in Base)= 3 D<sub>pE</sub> (diffusion coefficient of holes in Emitter); Emitter Bulk Width = W<sub>E</sub> = 3W<sub>B</sub>; Base Doping is uniform = N<sub>B</sub> = 10<sup>18</sup>/cc; n<sub>iB</sub><sup>2</sup>=n<sub>i</sub><sup>2</sup>;</para>
+    <para id="import-auto-id1170304312512">Determine β<sub>F</sub> for (a) N<sub>E</sub> =10<sup>19</sup>/cc; and (b) N<sub>E</sub> = 10<sup>20</sup>/cc ? [include band gap narrowing due to heavy emitter doping]</para>
+    <para id="import-auto-id1170304381927">Solution: Rewriting Equation 4.3.17 we get:</para>
+    <figure id="import-auto-id1170322990171">
+      <media id="import-auto-id1170322990172" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-d3e1.png" height="57" width="405"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170322713836">Case (a) At N<sub>E</sub> =10<sup>19</sup>/cc , Band-gap narrowing = 50meV</para>
+    <para id="import-auto-id1170322713846">Therefore:<figure id="import-auto-id1170322713848"><media id="import-auto-id1170322713850" alt=""><image mime-type="image/png" src="../../media/graphics5-7506.png" height="33" width="193"/></media></figure></para>
+    <para id="import-auto-id1170304372821">Case (b) At N<sub>E</sub> =10<sup>20</sup>/cc ,, Band-gap narrowing= 95meV</para>
+    <para id="import-auto-id1170304388278">Therefore β<sub>F</sub> = 900/38.6 = 23.3.</para>
+    <para id="import-auto-id1170304388283">Band-gap narrowing has a very adverse effect. If it was not considered then S.C.Current Gain would have been 90 and 900 but now it has been reduced to 13 and 23.</para>
+    <para id="import-auto-id1170304388287">Problem 3. Determine the forward Base  Transit Time  if  W<sub>B</sub> = 70nm and D<sub>nB</sub> = 10cm<sup>2</sup>/s ? Also determine the improvement in forward Transit Time if W<sub>B</sub> = 10nm and D<sub>nB</sub> = 10cm<sup>2</sup>/s ?</para>
+    <figure id="import-auto-id1170304388289">
+      <media id="import-auto-id1170304511613" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-b5bd.png" height="45" width="415"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170322713758">This corresponds to Transit angular Frequency or Unity Current Gain angular BW:</para>
+    <figure id="import-auto-id1170322713760">
+      <media id="import-auto-id1170322713762" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-1485.png" height="42" width="473"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170322713721">This corresponds to :<figure id="import-auto-id1170322713724"><media id="import-auto-id1170322713725" alt=""><image mime-type="image/png" src="../../media/graphics8-366b.png" height="28" width="460"/></media></figure></para>
+  </content>
+</document>

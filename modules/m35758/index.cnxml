@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE Lecture 8_Part A_MOSFET &amp; JFET continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35758</md:content-id>
+  <md:title>AE Lecture 8_Part A_MOSFET &amp; JFET continued</md:title>
+  <md:abstract>AE Lecture 8_Part A gave the quantitative treatment of MOSFET. The continuation of Part A gives the quantitative treatment of JFET.</md:abstract>
+  <md:uuid>67725f25-d56d-4042-8f9f-110066134bfa</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164862017910">AE_Lecture 8_MOSFET &amp; JFET_Part A continued.</para>
+    <para id="id7678180">In Part A of Lecture 8 we have seen the quantitative formulation of Enhancement and Depletion type MOSFET in Triode as well as in Pentode region. In this lecture, the continuation of Lecture 8_Part A, we will study the quantitative formulation of nJFET in ohmic and saturation region also known as triode and pentode region respectively.</para>
+    <para id="id1164862123791">Enhancement Type MOSFET was termed as Normally-Off device since with Gate-Voltage zero we have no current.</para>
+    <para id="id5910397">Similarly Depletion Type MOSFET is termed as Normally-On device since here even under Gate Voltage zero we do have a drain current because in NMOS(D), n-channel has been ion-implanted at fabrication stage hence it conducts at zero Gate Voltage. </para>
+    <para id="id5990915">In exactly the same fashion, JFET has a conducting channel at Gate Voltage zero. Hence it conducts under zero Gate Voltage therefore it is called Normally – On device. It is a depletion-mode device.</para>
+    <para id="id1164855727151">The physical structure of nJFET in a simplified manner is given in Figure 1.</para>
+    <figure id="id1164854935658">
+      <media id="id1164854935658_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-db5c.png" id="id1164854935658__onlineimage" height="570" width="570"/>
+      </media>
+    </figure>
+    <para id="id1164849453870">
+      <emphasis effect="bold">Figure 1. Physical structure of nJFET is given for negligible Drain-to-Source biasing and significant Drain-to-Source biasing respectively. </emphasis>
+    </para>
+    <para id="id1164854748029">For negligible Drain-to-Source biasing, we have uniform n-channel as shown in the upper diagram. In this biasing condition, nJFET is operating in ohmic region or in Triode region.</para>
+    <para id="id1164851955875">For V<sub>DS</sub> &gt; 0.1 V, we have trapezoidal n-channelas shown in the lower diagram. The device is still in Triode region but its ohmic behavior is non-linear.</para>
+    <para id="id1164854650686">When V<sub>DS</sub> = (V<sub>GS</sub> – V<sub>P</sub> ) then the n-channel gets pinched off near the Drain and current saturates at that point. Now the device has entered saturation region. For V<sub>DS</sub> &gt;(V<sub>GS</sub> – V<sub>P</sub> ), the current remains constant and device is said to be in Pentode region.</para>
+    <para id="id1164852396359">In Ohmic Region:</para>
+    <para id="id1164854425108">i<sub>D</sub> = K<sub>n</sub> [ 2(v<sub>GS</sub> – V<sub>P</sub>) v<sub>DS</sub> – v<sub>DS</sub><sup>2</sup>] for 0 &lt; v<sub>DS</sub> ≤ ((v<sub>GS</sub> – V<sub>P</sub>)……………………….1</para>
+    <para id="id1164852827468">For small values of v<sub>DS</sub> ,</para>
+    <para id="id1164857565991">i<sub>D</sub> = K<sub>n</sub> [ 2(v<sub>GS</sub> – V<sub>P</sub>) v<sub>DS</sub>]……………………………………………………………2</para>
+    <para id="id1164858402348">At v<sub>DS</sub><sup>*</sup> = (V<sub>GS</sub> – V<sub>P</sub>), device enters the saturation region since channel is pinched off near the drain.</para>
+    <para id="id1164851429183">In saturation region, irrespective of v<sub>DS</sub> current becomes constant at the value decided by v<sub>DS</sub><sup>*</sup> = (V<sub>GS</sub> – V<sub>P</sub>). Substituting v<sub>DS</sub><sup>*</sup> = (V<sub>GS</sub> – V<sub>P</sub>) in Equation 1, we get:</para>
+    <para id="id1164852348049">I<sub>D</sub> = K<sub>n</sub> (V<sub>GS</sub> – V<sub>P</sub>)<sup>2</sup> for v<sub>DS </sub>≥ v<sub>DS</sub><sup>*</sup> …………………………………………3</para>
+    <para id="id1164847290198">At V<sub>GS</sub> = 0, we have I<sub>D</sub> = K<sub>n</sub> ( -V<sub>P</sub>)<sup>2</sup> = this denoted by I<sub>DSS</sub> ;</para>
+    <para id="id1164865659242">Hence </para>
+    <para id="id1164852603382"><figure id="id1164861544732"><media id="id1164861544732_media" alt=""><image mime-type="image/png" src="../../media/graphics1-72d5.png" id="id1164861544732__onlineimage" height="34" width="66"/></media></figure>……………………………………………………………………………….4</para>
+    <para id="id1164863775098">Typical values of Pinch-off voltage V<sub>P</sub> = 0 to -25V and typical values of I<sub>DSS</sub> is from 10µA to 10A.</para>
+    <para id="id1164852097703">For a given value of I<sub>D</sub> , Equation 3 gives two values of V<sub>GS</sub> . Only one value is physically tenable. It must lie in the range:</para>
+    <para id="id1164865466978">……………………………….V<sub>P</sub> &lt; V<sub>GS</sub> &lt; 0</para>
+    <para id="id1164847210622">The line of demarcation or the pinch-off locus is a parabola. By substituting </para>
+    <para id="id1164852184920">v<sub>DS</sub><sup>*</sup> = (V<sub>GS</sub> – V<sub>P</sub>) in Equation 3 we get:</para>
+    <para id="id1164846507019">I<sub>D</sub> = K<sub>n</sub> (V<sub>GS</sub> – V<sub>P</sub>)<sup>2</sup> = I<sub>D</sub> = K<sub>n</sub> (V<sub>DS</sub><sup>*</sup> )<sup>2</sup> which is a parabola and is defined as pinch off parabola.</para>
+    <figure id="id1164850662262">
+      <media id="id1164850662262_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-a1ad.png" id="id1164850662262__onlineimage" height="296" width="417"/>
+      </media>
+    </figure>
+    <para id="id1164864481999">Figure 2. IC version of JFET.</para>
+  </content>
+</document>

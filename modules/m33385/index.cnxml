@@ -1,0 +1,156 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Part 9_Journey of IC</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33385</md:content-id>
+  <md:title>Part 9_Journey of IC</md:title>
+  <md:abstract>This last part of the main text of IC journey from 1959 to 2009 gives cost metrics of IC Chip. It gives the algorithm to determine the cost of a die.</md:abstract>
+  <md:uuid>7247548d-ff7a-467f-9eed-fdc3ccf0fa4b</md:uuid>
+</metadata>
+<content>
+    <para id="eip-87">Reference materials:ECE4121/ECE4141,VLSI Design,Design Metrics by AHM Zahirul Alam.</para><para id="eip-916">Cost of IC Chip=Non-recurring expenditure(NRE)+Recurring Expenditure(RE)</para><para id="eip-661">NRE is the fixed cost of mask generation. It is one-time cost factor.</para><para id="eip-696">RE is the expenditure incurred in Silicon procesing, packaging, volume of production and the die area.</para><para id="eip-845">70nm ASIC incurs $4M NRE on account of masks.</para><para id="eip-279">"The club of people who can offer an extreme sub-micron ASIC or COD design is getting pretty exclusive."Ron Wilson,EE Times (May,2000)</para><para id="id3675622">The Cost Metrics of the IC Chip.</para>
+    <table id="id4063333" summary="Examples of Cost Metrics(1994)">
+<tgroup cols="11"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <tbody>
+          <row>
+            <entry>Chip</entry>
+            <entry>M.L</entry>
+            <entry>L.W(μm)</entry>
+            <entry>W.C($)</entry>
+            <entry>W.D(mm)</entry>
+            <entry>D/cm<sup>2</sup></entry>
+            <entry>D.S.(mm)</entry>
+            <entry>D(mm<sup>2</sup>)</entry>
+            <entry>D/W</entry>
+            <entry>Y(%)</entry>
+            <entry>D.C.($)</entry>
+          </row>
+          <row>
+            <entry>386DX</entry>
+            <entry>2</entry>
+            <entry>0.9</entry>
+            <entry>900</entry>
+            <entry>150</entry>
+            <entry>1</entry>
+            <entry>10</entry>
+            <entry>43</entry>
+            <entry>360</entry>
+            <entry>71</entry>
+            <entry>4</entry>
+          </row>
+          <row>
+            <entry>486DX2</entry>
+            <entry>3</entry>
+            <entry>0.8</entry>
+            <entry>1200</entry>
+            <entry>150</entry>
+            <entry>1</entry>
+            <entry>12</entry>
+            <entry>81</entry>
+            <entry>181</entry>
+            <entry>54</entry>
+            <entry>12</entry>
+          </row>
+          <row>
+            <entry>P.PC601</entry>
+            <entry>4</entry>
+            <entry>0.8</entry>
+            <entry>1700</entry>
+            <entry>150</entry>
+            <entry>1.3</entry>
+            <entry/>
+            <entry>121</entry>
+            <entry>115</entry>
+            <entry>28</entry>
+            <entry>53</entry>
+          </row>
+          <row>
+            <entry>_7100</entry>
+            <entry>3</entry>
+            <entry>0.8</entry>
+            <entry>1300</entry>
+            <entry>150</entry>
+            <entry>1</entry>
+            <entry/>
+            <entry>196</entry>
+            <entry>66</entry>
+            <entry>27</entry>
+            <entry>73</entry>
+          </row>
+          <row>
+            <entry>DECα</entry>
+            <entry>3</entry>
+            <entry>0.7</entry>
+            <entry>1500</entry>
+            <entry>150</entry>
+            <entry>1.2</entry>
+            <entry/>
+            <entry>234</entry>
+            <entry>53</entry>
+            <entry>19</entry>
+            <entry>149</entry>
+          </row>
+          <row>
+            <entry>S.SPARC</entry>
+            <entry>3</entry>
+            <entry>0.7</entry>
+            <entry>1700</entry>
+            <entry>150</entry>
+            <entry>1.6</entry>
+            <entry/>
+            <entry>256</entry>
+            <entry>48</entry>
+            <entry>13</entry>
+            <entry>272</entry>
+          </row>
+          <row>
+            <entry>Pent.</entry>
+            <entry>3</entry>
+            <entry>0.8</entry>
+            <entry>1500</entry>
+            <entry>150</entry>
+            <entry>1.5</entry>
+            <entry>18</entry>
+            <entry>296</entry>
+            <entry>40</entry>
+            <entry>9</entry>
+            <entry>417</entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table>
+    <para id="eip-704">M.L.-metal layers, L.W.-line width,W.C.-Wafer Cost,W.D.-Wafer Diameter(mm),D./cm^2-defects per cm square,D.S.-die size(mm),D(mm^2)-Die Area(mm square),D/W-Dies/Wafer, Y-Yield,D.C.-Die Cost($)</para><para id="id4311431">Algorithm for calculating the die cost:</para>
+    <para id="eip-728">Recurring costs:</para><para id="id11516389">Variable Cost = <figure id="id12668920"><media id="id12668920_media" alt=""><image mime-type="image/png" src="../../media/graphics1-9ea1.png" id="id12668920__onlineimage" height="34" width="277"/></media></figure></para>
+    <para id="id3590465">Where : Cost of Die =<figure id="id11607220"><media id="id11607220_media" alt=""><image mime-type="image/png" src="../../media/graphics2-10dd.png" id="id11607220__onlineimage" height="42" width="92"/></media></figure></para>
+    <para id="id3471276">
+      <figure id="id3471280">
+        <media id="id3471280_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-b293.png" id="id3471280__onlineimage" height="58" width="324"/>
+        </media>
+      </figure>
+    </para>
+    
+    <para id="eip-673">die yield= [1+((defect/area)*(die area))/alpha]^(-alpha)</para><para id="id12496016">One example:</para>
+    <para id="id6569344">Wafer size = 12’’ = 30.48 cm;</para>
+    <para id="id9629684">Die size = 2.5 cm<sup>2</sup> ;</para>
+    <para id="id5684465">1 defect/cm<sup>2</sup>;</para>
+    <para id="id11761936">alpha=α= 3( complexity);</para>
+    <para id="id11761940">Number of dies per wafer = 252 dies /wafer;</para>
+    <para id="id4435146">Die yield = 16 %;</para>
+    <para id="id4802967">252×0.16 = 40 die/wafer;</para>
+    <para id="id3583688">40 die per wafer can actually be marketed.</para>
+    <para id="id3583693">Hence die cost = wafer cost/40 ; </para><para id="eip-177">Die cost is a strong function of die area.</para><para id="eip-991">Die cost is proportional to the Nth power of die area where n=3 to 4.</para>
+  </content>
+</document>

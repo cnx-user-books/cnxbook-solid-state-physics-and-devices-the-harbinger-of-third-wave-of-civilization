@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 6</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38645</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 6</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 6 discusses the propogation delay encountered in cascaded pass transistors, along long polysilicon wires and along regular metallic interconnects.</md:abstract>
+  <md:uuid>226aeaa6-c38b-47ea-840d-f54838719615</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169542137791">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 6.</emphasis>
+    </para>
+    <para id="id1169562555342">
+      <emphasis effect="bold">7.6.8. Propogation delays.</emphasis>
+    </para>
+    <figure id="id1169530351998">
+      <media id="id1169530351998_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-bae9.png" id="id1169530351998__onlineimage" height="233" width="600"/>
+      </media>
+    </figure>
+    <para id="id1169550456114"> A typical Electronic System as shown in Figure 7.6.8.1 consists of several modules interconnected through high bit transfer buses. Each module is a PCB which interconnect several ICs through copper tracks etched out on the PCB. Each IC itself has several hundreds of millions of transistors interconnected to achieve a Systen-on-Chip through metal paths or silicide paths.</para>
+    <para id="id1169538019788"> These metal/silicides interconnects is becoming the biggest bottleneck both cost and performance wise. Scaling of the metal paths pitch in larger and complexICs is leading to long transmission lines with interconnect delay dominating the chip delay as shown in Figure 7.6.8.2.</para>
+    <figure id="id1169560589238">
+      <media id="id1169560589238_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-5d58.png" id="id1169560589238__onlineimage" height="323" width="599"/>
+      </media>
+    </figure>
+    <para id="id1169553844006"> Metallic/Silicides pathways or interconnects on the IC Chip act as the data bus as well as the instruction bus. As the clock speed goes up, these interconnect face skin effect and eddy current losses. Skin effect leads to excessive resistance and heat dissipation. The oscillating signals on the buses induce stray eddy current in the board’s conducting part leading to heavy eddy current losses. With increase in clock rate, attenuation along the copper buses increases exponentially. At 2GHz clock, there is 50% attenuation and at 10GHz, there is 95% attenuation. At few GHz several resonances occur which cause signal to be reflected from the VIAS.</para>
+    <para id="id1169556033776"> Apart from this, there is severe cross-talk among the metallic interconnects leading to excessive Bit Error Rate (BER). At 10Gb.p.s. rates, cross-talk blurs the signal after 1 meter of ppropogation down the coper bus.</para>
+    <para id="id1169539157772"> With the increase in the processing speed, the problem of attenuation and cross-talk is becoming more acute.</para>
+    <para id="id1169549534560">7.6.8.1.Comparison between metallic and electro-optical interconnects.</para>
+    <para id="id1169535895423"> In Figure 7.6.8.3 a comparative study is made between metallic interconnect and electro-optical interconnect in terms of propogation delayencountered.</para>
+    <figure id="id1169543529328">
+      <media id="id1169543529328_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-0299.png" id="id1169543529328__onlineimage" height="430" width="600"/>
+      </media>
+    </figure>
+    <para id="id1169538035582">In Figure 7.6.8.3 we see that the propogation delay is halfed using electro-optical interconnect as opposed to metallic interconnect.</para>
+    <para id="id1169537877677">
+      <emphasis effect="bold">7.6.8.2. Delay through Cascaded Pass Transistors.</emphasis>
+    </para>
+    <para id="id1169536157254"><emphasis effect="bold"/>A chain of four cascaded pass transistors and its equivalent distributed circuit model is shown in Figure 7.6.8.3. The gates of the pass transistors are held at V<sub>DD</sub> so that all the pass transistors are ON.</para>
+    <para id="id1169550536164">
+      <figure id="id1169530590233">
+        <media id="id1169530590233_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-1c7e.png" id="id1169530590233__onlineimage" height="483" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169552367698">Consider nodes 1,2 and 3.</para>
+    <para id="id1169543518180">At node 2 we have:</para>
+    <figure id="id1169530739023">
+      <media id="id1169530739023_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-f8a0.png" id="id1169530739023__onlineimage" height="55" width="356"/>
+      </media>
+    </figure>
+    <para id="id1169543593023">But</para>
+    <para id="id1169537975157">
+      <figure id="id1169558703780">
+        <media id="id1169558703780_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-6566.png" id="id1169558703780__onlineimage" height="44" width="546"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169550567968">      7.6.8.2</para>
+    <para id="id1169549383484">Using Eq 7.6.8.1 and Eq.7.6.8.2</para>
+    <figure id="id1169553917609">
+      <media id="id1169553917609_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-d96a.png" id="id1169553917609__onlineimage" height="55" width="429"/>
+      </media>
+    </figure>
+    <para id="id1169553342763">Rearranging the terms of Eq.7.6.8.3</para>
+    <para id="id1169560521810">
+      <figure id="id1169545266676">
+        <media id="id1169545266676_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-cce4.png" id="id1169545266676__onlineimage" height="72" width="290"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169545579181">Therefore</para>
+    <figure id="id1169549423377">
+      <media id="id1169549423377_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-bef1.png" id="id1169549423377__onlineimage" height="57" width="406"/>
+      </media>
+    </figure>
+    <para id="id1169550549390">Eq.7.6.8.4 has been derived in Pucknell’s book but this equation is not the standard wave equation. Hence it doesnot have a standard solution and is very difficult to understand as to how Pucknell concludes that the propogation delay = t<sub>pd</sub> is given as:</para>
+    <figure id="id1169530641466">
+      <media id="id1169530641466_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-ff5a.png" id="id1169530641466__onlineimage" height="33" width="441"/>
+      </media>
+    </figure>
+    <para id="id1169529856017"> In the Book ‘VLSI Design Techniques for Analog &amp; Digital Circuits’ by Randell L.Geiger, Phillip E.Alen and Noel R.Strader, Publisher McGraw Hill Series, 1990, 969 pages,Chapter 7 ‘Basic Digital Building Block’, Section 7.7.1 NMOS Pass Transistors, Page 561, above statement is very clearly inferred by deduction.</para>
+    <para id="id1169563112613">The delay for one section is RC.</para>
+    <para id="id1169542200187">If second pass transistor is added and only capacitance is considered then delay for two sections will be (R2C);</para>
+    <para id="id1169544944039">If second pass transistor is added and second series resistance is considered and capacitance is neglected then delay for two sections will be (2RC);</para>
+    <para id="id1169530545459">If while considering two sections 2R and 2C are considered then</para>
+    <para id="id1169537628362">Delay is 2R×2C=4RC=2<sup>2</sup>RC.</para>
+    <para id="id1169537865819">If N pass transistors are considered then delay = N<sup>2</sup>RC.</para>
+    <para id="id1169547990770">Hence in a cascade of pass transistors more than 4 NMOS are never used. If a long chain has to be used then it must be segmented at intervals of 4 NMOS by inverters.</para>
+  </content>
+</document>

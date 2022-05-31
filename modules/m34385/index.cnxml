@@ -1,0 +1,461 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_diifferent bondings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34385</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_diifferent bondings</md:title>
+  <md:abstract>Chapter 1_ Part 11 continues with the discussion on different kinds of bonding in Solid State of matter</md:abstract>
+  <md:uuid>2bf9865d-523a-47d2-8574-33b62a9f15a3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170063137889">Chapter 1_Part 11_Solid State of Matter_ Bonding.</para>
+    <para id="id1170050539559">1.10.3. BONDING IN SOLIDS</para>
+    <para id="id1170048651135"><emphasis effect="bold"/>In Group IV elements there is 100% sharing of electrons leading to 100% covalent bond. 4 electrons in outer most orbit of an atom are shared with 4 electrons of the four neighboring atoms. In the process the given atom fulfills its octave condition of eight electrons as well the four neighboring atoms also fulfill their respective octave condition. This leads to the formation of very stable and strong covalent bonds. Covalent bond fully depends upon time sharing of outer most electrons with the neighboring atoms.</para>
+    <para id="id1170066895206">In contrast NaCl has ionic bond created by columbic attraction between positively charged Na(Group I) ion by virtue of losing its lone outer most electron to Cl(Group VII) which becomes negatively ionized. This ionic bond has 100% transfer of electron from Na to Cl.</para>
+    <para id="id4283471">1.10.3.1. COVALENT BOND.</para>
+    <para id="id1170052594991">Covalent bond of Group IV elements exhibit a very interesting feature. Though all elements of Group IV have covalent bonds they exhibit varying physical properties. As we move down from Carbon to Silicon to Germanium to Gray Tin and finally to Lead we find hardness, melting point and electrical conductivity changing over a wide range. Diamond , an allotrope of Carbon, is the hardest material and has very high melting point of 3550ºC whereas Tin is very soft and has low melting point. (It has just been announced that “Diamond is no longer nature’s hardest material”,Jessica Griggs, New Scientist, 16<sup>th</sup> February,2009. Wurtzite Boron Nitride is 18% harder and Mineral Lonesdaleite is 58% harder than diamond.) Diamond is very good insulator, Si and Ge are semi-conductors and Tin is a good conductor. In fact one finds a gradual transition from a extreme valence bond in Diamond to metallic bond in Lead. Diamond, Silicon, Germanium, Silcon Carbide , tin and rutile form covalent bonds.</para>
+    <para id="id1170061904526">The gradual transition from extreme valence bond to metallic bond occurs because of gradual reduction in the energy band gap between Valence Band and Conduction Band. Energy Band Gap is 5.2eV in Diamond. Whereas it is 1.21eV in Si, 0.67eV in Ge, 0.08eV in Gray Tin and 0eV in Lead. This leads to increasing intrinsic carrier concentration and hence to increasing metallicity as we move from Diamond to Gray Tin. In Table 1.15 we make a comparative study of Group IV elements.</para>
+    <para id="id1600481">
+      <emphasis effect="bold">Table 1.15. Room Temperature Energy Band Gap(E</emphasis>
+      <emphasis effect="bold">g</emphasis>
+      <emphasis effect="bold">), intrinsic carrier concentration (n</emphasis>
+      <emphasis effect="bold">i</emphasis>
+      <emphasis effect="bold">) and resistivity(ρ) </emphasis>
+    </para>
+    <table id="id3811244" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Diamond(C)</entry>
+            <entry>Si</entry>
+            <entry>Ge</entry>
+            <entry>Sn(gray)</entry>
+            <entry>Pb</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">g</emphasis>
+              <emphasis effect="bold">(eV)</emphasis>
+            </entry>
+            <entry>5.2</entry>
+            <entry>1.21</entry>
+            <entry>0.67</entry>
+            <entry>0.08</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">n</emphasis>
+              <emphasis effect="bold">i</emphasis>
+              <emphasis effect="bold">(cm^-3)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">5.46×10^-25</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">1×10^10</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">1.3×10^13</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">5.5×10^18</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">2.6×10^19</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>ρ(Ω-cm)</entry>
+            <entry>
+              <emphasis effect="bold">10^16</emphasis>
+            </entry>
+            <entry>300,000</entry>
+            <entry>47</entry>
+            <entry>
+              <emphasis effect="bold">2×10^-4</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">2×10^-5</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>bonding</entry>
+            <entry>covalent</entry>
+            <entry>covalent</entry>
+            <entry>covalent</entry>
+            <entry>Semi-metallic</entry>
+            <entry>metallic</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170055113108">
+      <emphasis effect="bold">1.10.3.2 IONIC BOND.</emphasis>
+    </para>
+    <para id="id1170048476411"><emphasis effect="bold"/>Just as elements of Group IV complete their octave condition (closed valence energy shell) by time sharing of electrons, elements of alkali group (Li, Na, K, Rb, Cs) and elements of Group VII, halogen Group(F, Cl, Br, I) complete their octave condition by exchanging electrons. Alkali metal releases its single electron in its outermost orbit to achieve the octave condition and becomes positively charged Cations. Halogen group acquires electron given up by Alkali metal to achieve the octave condition and becomes negatively charged Anion. By acquiring single electron from the alkali metal it completes 8 electrons in outermost orbit where it had 7 electrons from before. By completing this set of 8 electrons it fulfils the octave condition. These two oppositely charged ions bond together to form 100% ionic bond in alkali halide salts. Examples are NaCl,KF, LiF, MgO, CsCl and ZnS. Since both the ions have their electrons tightly bound hence ionic salts are insulators. Since ions are regularly arranged in solid hence they are crystalline in nature: fcc(face centered cube) in NaCl with coordination number 6 and bcc( body centered cube) in CsCl with coordination number 8. [fcc and bcc will be discussed in next section].</para>
+    <para id="id4113934">Truly ionic crystals cannot absorb light hence they are transparent to light. Light can pass through without absorption. Most ionic salts are hard owing to the strength of the ionic bonds. They have high melting points because of their hardness. They are brittle because the atoms cannot slip past each other. In contrast metals are ductile and malleable because atoms can slip past each other. Ionic crystals are soluble in polar liquids because of their high dielectric constant. The columbic force of attraction is considerably reduced in polar liquids such as water because of the fact that:</para>
+    <para id="id1899890"/>
+    <para id="id3799194">ε<sub>0</sub>ε<sub>r</sub>E = D</para>
+    <para id="id1170061365475">hence E = D/(ε<sub>0</sub>ε<sub>r</sub>)</para>
+    <para id="id3877511"/>
+    <para id="id1170068782709">Water has a dielectric constant of 70 under DC condition. In DC condition polarization is contributed in major part due to the alignment of polar molecules which water molecules are. This is the main reason for its high dielectric constant. Hence when NaCl salt is put in water, because of very weak columbic attraction between Cations and Anions, the two dissociate and they give rise to very good electrolytic solution which is suitable for carrying out electrolysis. At the same time ionic salts are insoluable in covalent liquids such as benzene(C<sub>6</sub>H<sub>6</sub>) and carbon tetrachloride(CCl<sub>4</sub>) which have very low dielectric constant. Hence ionic bonds cannot be broken and ionic salts remain intact in organic solvents. The ionic salts are good IR absorbers because IR resonates with the natural frequency of the molecular ionic salt.</para>
+    <para id="id2188642">On one extreme we have 100% covalent compounds and covalent elements. Covalent bonds may be non-polar if the centres of charge coincide as is the case in Si and Ge and polar if the two centers are displaced as is the case in Water (H<sub>2</sub>O).</para>
+    <para id="id1170066284123">In water molecule two Hydrogen atoms share their two electrons with six electrons of one oxygen atom. In the process Oxygen completes its octave and Hydrogen also completes its octave and the system is at Energy Minima and hence in stable state. We say two Hydrogen atoms are covalently bonded to one Oxygen atom. In the process center of negative charge shift towards Oxygen nucleus and water molecule becomes polar. </para>
+    <para id="id1170056240015">On the other extreme we have 100% ionic bonds between Gr I and Gr VII where there is 100% transfer of electrons.</para>
+    <para id="id1170052982493">In between these two extremes we have intermediate cases where we have a mix of covalent bond and ionic bond. As we move from I-VII to II-VI to III-V the ionic bond is progressively transformed to covalent bond. In these case we have mixtures of two bands. Some electrons are exchanged and some electrons are shared. For example II-VI BaS compound is predominantly ionic and slightly covalent. As we move to III-V InP we have predominance of covalent bond.</para>
+    <para id="id1170049255187">1.10.3.3. METALLIC BONDS.</para>
+    <para id="id1170050616444"><emphasis effect="bold"/>A metal is an assembly of positive ions with their valence shells completed and hence octave completed. This assembly is submerged in a sea of conducting electrons which are the outer most electrons of the atoms but which no longer belong to their host atoms but they belong to the whole crystalline lattice. The outermost lone electron is loosely held because of large orbital radius hence first ionization energy is very low. As seen in Table 1.16 for Li it is 5.4eV and as we go down the Group I the size becomes bigger hence first ionization decreases to 3.9eV for Cesium. After first ionization the metal becomes monovalent cations with very stable electron configuration. Hence second ionization is much larger about 14 times more in case of Lithium. Again because of increasing size the valence electrons are less tightly held as we go down Group I hence second ionization also decreases. It is 6 times greater than First Ionization energy in case of Cesium. </para>
+    <para id="id1170071864815">Being the first elements of each period, alkali metals have the largest atomic and ionic radii in their respective periods. As we move within a period, the atomic radius and ionic radius tend to decrease due to increase in the effective nuclear charge. On moving down the group, there is increase in the number of shells and, therefore, atomic and ionic radii increase.</para>
+    <para id="id6730438">Table 1.16. Electronic configurations and ionization energies of Alkali Metals.</para>
+    <table id="id1170070726371" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Li</entry>
+            <entry>Na</entry>
+            <entry>K</entry>
+            <entry>Rb</entry>
+            <entry>Cs</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Lithium</entry>
+            <entry>Sodium</entry>
+            <entry>Potassium</entry>
+            <entry>Rubidium</entry>
+            <entry>Cesium</entry>
+          </row>
+          <row>
+            <entry>Atomic Number</entry>
+            <entry>3</entry>
+            <entry>11</entry>
+            <entry>19</entry>
+            <entry>37</entry>
+            <entry>55</entry>
+          </row>
+          <row>
+            <entry>Atomic radius(pm)</entry>
+            <entry>152</entry>
+            <entry>186</entry>
+            <entry>227</entry>
+            <entry>248</entry>
+            <entry>264</entry>
+          </row>
+          <row>
+            <entry>Ionic Radius(pm)</entry>
+            <entry>76</entry>
+            <entry>102</entry>
+            <entry>138</entry>
+            <entry>152</entry>
+            <entry>167</entry>
+          </row>
+          <row>
+            <entry>Electronic configuration</entry>
+            <entry>(He)2s1</entry>
+            <entry>(Ne)3s1</entry>
+            <entry>(Ar)4s1</entry>
+            <entry>(Kr)5s1</entry>
+            <entry>(Xe)6s1</entry>
+          </row>
+          <row>
+            <entry>First Ionization Energy (kJ/Mole)</entry>
+            <entry>520</entry>
+            <entry>496</entry>
+            <entry>419</entry>
+            <entry>403</entry>
+            <entry>376</entry>
+          </row>
+          <row>
+            <entry>First Ionization Energy(eV)</entry>
+            <entry>5.4</entry>
+            <entry>5.1</entry>
+            <entry>4.3</entry>
+            <entry>4.17</entry>
+            <entry>3.9</entry>
+          </row>
+          <row>
+            <entry>Second Ionization Energy (kJ/Mole)</entry>
+            <entry>7298</entry>
+            <entry>4562</entry>
+            <entry>3051</entry>
+            <entry>2633</entry>
+            <entry>2230</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170057299530">Within the crystalline lattice, conducting electrons can freely move around hence alkaline metals are conductors but as they come to the boundary they are faced with surface barrier potential φ<sub>BS</sub> and the energy required to overcome this surface barrier is known as work function W<sub>F</sub> = q φ<sub>BS. </sub>This sea of conductin electrons belong to the whole lattice and hold together the positively charged ionic cores by what we know as metallic bond.. What is the physical basis of this metallic bond?</para>
+    <para id="id1170048256505">In the five alkaline metals, in atomic state the outer most electron has zero kinetic energy and negative potential energy decided by the principal quantum number. The principal quantum numbers are 2, 3, 4, 5 and 6 for Li, Na, K, Rb and Cs. As they come together in sold state. The outermost electron acquire Kinetic Energy which is (3/5)E<sub>F</sub> . In Cu Fermi Energy is 9.04eV and average Kinetic Energy is 4.44eV. But sum of Potential Energy and Kinetic Energy is at its minimum . Hence metallic solid configuration is stable. But as we move to Group II and Group III, Kinetic Energy increase due to large number of outer orbital electrons or valence electrons hence metallic bond becomes weaker and eventually it is non-existent. Hence metallic bond exists from Group I to Group II ( transition metals). It also exists in Group III namely Al, Ga, In and Ti. But not beyond this. </para>
+    <para id="id1170052343633">Because of the sea of conducting electrons in conduction band, metals have high electrical conductivities as well as thermal conductivities.</para>
+    <para id="id1170048527603">Bonding energies and melting points are shown in Table 1.17.</para>
+    <para id="id1170061425426">Table 1.17. Bonding Energies and Melting Temperatures of selected substances.</para>
+    <para id="id1170069978301"><emphasis effect="bold">[</emphasis>“Rudiments of Material Science” by Pillai and Pillai, Talble 1.A, New Age International Publishers 2005<emphasis effect="bold">]</emphasis></para>
+    <table id="id1170067329454" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Bonding Type</entry>
+            <entry>Material</entry>
+            <entry namest="c3" nameend="c4">Bonding Energy</entry>
+            <entry>Melting Point</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>kJ/Mole</entry>
+            <entry>eV per atom or ion or molecule</entry>
+            <entry>(ºC)</entry>
+          </row>
+          <row>
+            <entry>Ionic</entry>
+            <entry>NaCl</entry>
+            <entry>640</entry>
+            <entry>3.3</entry>
+            <entry>801</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>MgO</entry>
+            <entry>1000</entry>
+            <entry>5.2</entry>
+            <entry>2800</entry>
+          </row>
+          <row>
+            <entry>Covalent</entry>
+            <entry>Si</entry>
+            <entry>450</entry>
+            <entry>4.7</entry>
+            <entry>1410</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>C(diamond)</entry>
+            <entry>713</entry>
+            <entry>7.4</entry>
+            <entry>3600</entry>
+          </row>
+          <row>
+            <entry>Metallic</entry>
+            <entry>Hg(Gr.IIB)</entry>
+            <entry>68</entry>
+            <entry>0.7</entry>
+            <entry>-39</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Al(Gr.III)</entry>
+            <entry>324</entry>
+            <entry>3.4</entry>
+            <entry>660</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Fe(Gr.IIB)</entry>
+            <entry>406</entry>
+            <entry>4.2</entry>
+            <entry>1538</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>W(Gr.IIB)</entry>
+            <entry>849</entry>
+            <entry>8.8</entry>
+            <entry>3410</entry>
+          </row>
+          <row>
+            <entry>Van der Waals:Induced dipole</entry>
+            <entry>Ar(Nobel Gas)</entry>
+            <entry>35</entry>
+            <entry>0.08</entry>
+            <entry>-189</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Chlorine</entry>
+            <entry>51</entry>
+            <entry>0.32</entry>
+            <entry>-101</entry>
+          </row>
+          <row>
+            <entry>Van der Waals:Hydrogen bond</entry>
+            <entry>Ammonia</entry>
+            <entry>35</entry>
+            <entry>0.36</entry>
+            <entry>-72</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Water</entry>
+            <entry>51</entry>
+            <entry>0.52</entry>
+            <entry>0.0</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170048222918">Because of orderly arrangement of the positive ionic centers in a spatial lattice network, metals are highly crystalline.</para>
+    <para id="id1170064584282">The metallic bonds are non-directional and allow the ionic centers to go past one another therefore metals can bend without fracture. Metals are ductile, malleable and possess metallic luster.</para>
+    <para id="id1170057143983">Alloys are physical mixtures of different metals but of similar atomic size. Whereas covalent compound or ionic compounds are chemical compounds. Chemical compostion cannot change but stochiometric coefficient of different metals in an alloy can change. </para>
+    <para id="id4332545">Hydrogen of Group I is an exception. In gaseous, liquid or solid state at normal atmospheric pressure, hydrogen remains non-conducting. This is because Hydrogen is always in H<sub>2</sub> molecular state hence the two electrons are tightly held to the molecular state of Hydrogen.</para>
+    <para id="id1170052543468">Under unusually high pressure in Jupiter and Saturn, hydrogen molecules are brought so close together that electrons probability waves overlap and spread to the whole lattice. Under these conditions liquid Hydrogen becomes metallic and conductive. The electric currents set up in the metallic core of Jupiter and Saturn due to the planet’s spin create magnetic fields 20 times stronger than the terrestrial magnetic fields.</para>
+    <para id="id1170071961123">Metallic Hydrogen if achieved at normal pressure could be used as super conductors, rocket propellants and in fuel cells. Solid Hydrogen Propellants develop 5 times as much thrust per kg as the present day rocket fuels. This is the reason why ISRO is in process of developing cryogenic engine based on liquid-hydrogen propellant rocket system. Solid Hydrogen in form of Deutrium and Tritium could become very efficient fuel for fusion reactors.</para>
+    <para id="id1170052628951">1.10.3.4. VAN DER WAAL’s BOND- INDUCED BONDING .</para>
+    <para id="id1170054009963">It has been found over a century that Nobel Gases which are chemically inert and monatomic exhibit inter-atomic attractive forces. It is because of these weak attractive forces that Argon, Helium and Neon liquefy at low temperatures. These forces were first proposed by Dutch Physicist Johannes van de Waals[Appendix XXXXVI] to explain the deviation from the ideal gas laws when applied to real gases. The physical basis of these forces were only recently understood.</para>
+    <para id="id1170051390802">In absence of covalent bond, ionic bond and metallic bond, it is Vanm der Waals weak inter-atomic force which provides the cohesive force for liquefaction and solidification particularly in inert elements. The macroscopic behavior of solids such as surface tension, friction, viscosity, adhesion and cohesion have their basis in this force only. This force varies inversely as the seventh power of inter-atomic distance i.e. as 1/r<sup>7</sup> hence they act only when molecules are very close together.</para>
+    <para id="id4361937">Van der Waals force act between polar molecules as well as in non-polar molecules. In polar molecules it is simply dipole-dipole electrostatic attraction. In non-polar it is by induction.</para>
+    <para id="id1170052634345">The induced bonding is shown in Figure 1.51.</para>
+    <figure id="id1170053039232">
+      <media id="id1170053039232_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-45a7.png" id="id1170053039232__onlineimage" height="454" width="378"/>
+      </media>
+    </figure>
+    <para id="id1170049136831">Figure 1.51. The mechanism of generating induced bonding in non-polar molecules.</para>
+    <para id="id1170076245474">As shown in Figure 1.51, on a time average basis there may be charge symmetry and generation of dipole but on instantaneous basis the material does not have charge symmetry hence it has no dipole If the dipole generation is properly synchronized then a net force can develop. This is referred to as Van der Waals induced bonding.</para>
+    <para id="id1170065386560">Even rare gas atoms experience Van de Waals force which otherwise are chemically inert. It is these forces which help crystallize Argon crystals at -187ºC and liquefy He at 4K.</para>
+    <para id="id1170065673453">Van der Waals force is much weaker than ionic, covalent and metallic bonds hence molecular solids , where this fourth bond is operative, have much lower melting point, boiling point and lower bond strengths as shown in Table 1.18.</para>
+    <para id="id1170066615828">Table 1.18. Melting Point and bond strength of molecular solids such as Argon, Hydrogen and Methane.</para>
+    <table id="id1170045464985" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Element or compound</entry>
+            <entry>Melting Point(ºC)</entry>
+            <entry>Bond Strength (eV/ molecule)</entry>
+          </row>
+          <row>
+            <entry>Solid Argon</entry>
+            <entry>-189</entry>
+            <entry>0.08</entry>
+          </row>
+          <row>
+            <entry>Solid Hydrogen</entry>
+            <entry>-259</entry>
+            <entry>0.01</entry>
+          </row>
+          <row>
+            <entry>Solid Methane</entry>
+            <entry>-183</entry>
+            <entry>0.1</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170049064590">
+      <emphasis effect="bold">1.10.3.5.</emphasis>
+      <emphasis effect="bold">VAN DER WAAL’s BOND- HYDROGEN BONDING .</emphasis>
+    </para>
+    <para id="id7747170">Hydrogen bond is a strong type of Van der Waals bond. This is formed between Hydrogen and Group VII/VI/V/IV elements. Methane (CH<sub>4</sub>), Ammonia (NH<sub>3</sub>), Water (H<sub>2</sub>O) and Hydroflouric Acid (HF) are examples of hydrogen bond based on Van der Waals forces. Here Hydrogen atom or atoms donate their electrons to another element’s atom to complete the octave condition and thereby create stable electronic configuration. The resulting molecule will link up with identical molecules through Van der Waals force. The Van der Waals force is arising due to the electrostatic attraction created by the unshielding of the hydrogen nucleus. This has 1/r<sup>2</sup> dependence therefore hydrogen bonds are 1/10 th as strong as covalent bonds.</para>
+    <para id="id4021460">In water molecule, covalent bond exists between one atom of Oxygen and two atoms of Hydrogen. Oxygen completes its octave by sharing its 6 electrons with 2 electrons of 2 Hydrogen atoms. As shown in Figure 1.52. there are 4 pairs of electrons surrounding Oxygen nucleus. These four pairs occupy four regions that form a tetrahedral pattern. Two pairs are linked up with two Hydrogen atoms but two pairs are unattached and are capable of Hydrogen bonding with two other molecules. In next Figure 1.53 we show how H2O link up to form Hydrogen bonds.</para>
+    <para id="id1170057584459">In liquid state these bonds are continuous breaking and forming due to thermal agitation. On an average the water molecules are closer together in liquid state than in solid state. In solid state the molecules are permanently arranged in hexagonal channel like structure. Hence water has least density at 0ºC. From 4ºC to 0ºC there is phase transformation from liquid to solid. At 0ºC all the liquid is finally transformed to solid and latent heat of solidification is released. Below 0ºC it remains in solid state. This is known as anolmous behavior of water which permits the upper surface of lakes to freeze keeping the under layer at 4ºC in liquid water state. This permits the marine life to survive in deep frozen weather conditions.</para>
+    <para id="id1170050398069">Hydrogen bonds occur in biological molecules. In poly peptide chains of protein where amino acids are connected to form the poly peptide chains, we hydrogen bonds. The two spiral strands of DNA are linked together through hydrogen bonds. Hydrogen bonds provide the optimum strength so as to permit transcription, translation and replication of DNA.</para>
+    <figure id="id1552517">
+      <media id="id1552517_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-525e.png" id="id1552517__onlineimage" height="488" width="419"/>
+      </media>
+    </figure>
+    <para id="id1170069802964">Figure 1.52 The covalent bonding between one Oxygen and two Hydrogen atoms and the possibility of Hydrogen bonding with two other H2O molecules indicated by arrows.</para>
+    <para id="id1170055150748">
+      <figure id="id1932586">
+        <media id="id1932586_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-cc35.png" id="id1932586__onlineimage" height="473" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170064500790">Table 1.19. Comparison of Bond Types and typical properties.</para>
+    <para id="id1170065888049"><emphasis effect="bold">[</emphasis>“Principles of Electronic Materials and Devices”, Secnd Edition, S. O. Kasap, McGraw Hill, 2002<emphasis effect="bold">]</emphasis></para>
+    <table id="id8055422" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Bond Type</entry>
+            <entry>Typical Solids</entry>
+            <entry>Bond energy(eV/atom)</entry>
+            <entry>Melt.Temp.(ºC)</entry>
+            <entry>Elastic Modulus(GPa)</entry>
+            <entry>Density(gm-cm^-3)</entry>
+            <entry>Typ.Properties</entry>
+          </row>
+          <row>
+            <entry>Ionic</entry>
+            <entry>NaCl<emphasis effect="bold">(rock salt);</emphasis>MgO<emphasis effect="bold">(magnesia);</emphasis></entry>
+            <entry>3.210</entry>
+            <entry>8012852</entry>
+            <entry>40250</entry>
+            <entry>2.173.58</entry>
+            <entry>NaCl:electrical insulator. Becomes conductive at high temperatures.MgO:High elastic modulus. Hard and brittle but cleavable. Thermal conductivity less than metals</entry>
+          </row>
+          <row>
+            <entry>Metallic</entry>
+            <entry>
+              <emphasis effect="bold">Cu;</emphasis>
+              <emphasis effect="bold">Mg;</emphasis>
+            </entry>
+            <entry>3.11.1</entry>
+            <entry>1083650</entry>
+            <entry>12044</entry>
+            <entry>8.961.74</entry>
+            <entry><emphasis effect="bold">Cu:good electrical conductor.</emphasis>Mg:good thermal conductor. High elastic modulus. Ductile.</entry>
+          </row>
+          <row>
+            <entry>Covalent</entry>
+            <entry><emphasis effect="bold">Si;</emphasis>C<emphasis effect="bold">(diamond);</emphasis></entry>
+            <entry>47.4</entry>
+            <entry>14103550</entry>
+            <entry>190827</entry>
+            <entry>2.333.52</entry>
+            <entry>Si: large elastic modulus. Hard , brittle.C(diamond):Hardest. Good electricalInsulator. Exceptionally high thermal conductivity.</entry>
+          </row>
+          <row>
+            <entry>Van derWaals:Hydrogenbonding</entry>
+            <entry>PVC<emphasis effect="bold">(polymer);</emphasis><emphasis effect="bold">H2O(ice);</emphasis></entry>
+            <entry>0.52</entry>
+            <entry>2120</entry>
+            <entry>49.1</entry>
+            <entry>1.30.917</entry>
+            <entry>PVC: low elastic modulus. Some ductility.Ice: electrical insulator. Poor thermal conductivity. Large thermal expansion coefficient.</entry>
+          </row>
+          <row>
+            <entry>Van derWaals:inducedbonding</entry>
+            <entry>Crystalline <emphasis effect="bold">Argon;</emphasis></entry>
+            <entry>0.09</entry>
+            <entry>-189</entry>
+            <entry>8</entry>
+            <entry>1.8</entry>
+            <entry>Low elastic modulus. Electrical insulator. Poor thermal conductivity. Large thernmal expansion coefficient.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

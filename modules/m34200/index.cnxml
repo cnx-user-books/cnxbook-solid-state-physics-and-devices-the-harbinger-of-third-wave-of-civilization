@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Crystal Growth-Bulk and Epitaxial Film-Part 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34200</md:content-id>
+  <md:title>Crystal Growth-Bulk and Epitaxial Film-Part 2</md:title>
+  <md:abstract>Part 2 of Crystal Growth describes the sawing of the Ingot into taper free, flat Si Wafers. Lapping , chemical etching and polishing are described to obtain mirror finish, defect free 300mm diameter Silicon Wafer.</md:abstract>
+  <md:uuid>b06a8bf3-e24d-42f5-b0ca-e4fc14c9a7eb</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171911893270">Crystal Growth- Bulk and Epitaxial Film- Part2.</para>
+    <para id="id1171898259439">SLICING OF SINGLE CRYSTAL INGOT INTO SILICON WAFERS</para>
+    <para id="id1171897493440">Slicing of the Si ingot into Si wafers is achieved by circular saw blade. The circular saw blade is illustrated in Figure 7. </para>
+    <figure id="id1171898077088">
+      <media id="id1171898077088_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-caba.png" id="id1171898077088__onlineimage" height="490" width="620"/>
+      </media>
+    </figure>
+    <para id="id1171904611612">Circular saw blade consists of stainless steel impregnated with diamond dust at the cutting edge. On the hardness scale diamond is the hardest. 500 micrometres thick Si wafers are sliced out through damage free and parallel sawing. The ingot should be sawed in parallel planes to avoid taper of the wafer.</para>
+    <para id="id1171898556038">
+      <figure id="id1171929927158">
+        <media id="id1171929927158_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-8e0f.png" id="id1171929927158__onlineimage" height="450" width="470"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171923654856">In the process of sawing , mechanical, defects are inevitable. To remove the mechanical defects and to achieve taper-free, flat, mirror finish wafers we do lapping, chemical etching and polishing.</para>
+    <para id="id1171895672116"><emphasis effect="bold">LAPPING</emphasis>: For removing mechanical scratches and abrasions encountered during sawing, lapping is essential. A batch of wafers are placed between two parallel plain steel discs which describe planetry motion in relation to each other. A slurry of cutting compound (generally alumina) is used and as lapping progresses, the grade of abrasion is refined. Smoothness is within 10 μm and flatness is within 2 μm.</para>
+    <para id="id1171893236716"><emphasis effect="bold">CHEMICAL ETICHING</emphasis>: To remove edge damages which had been caused due to sawing and grinding, the wafers is dipped in HF acid using Teflon beakers. Chemical Vapor etching can also be done as described in epitaxy section.</para>
+    <para id="id1171904130609"><emphasis effect="bold">POLISHING</emphasis>: A slurry of silica in NaOH is used for polishing to mirror smoothness. Lapping , Chemical Etching and Polishing removes 100μm thick substrate leaving behind 400μm thick silicon substrate on which I.C. Fabrication can be carried out..</para>
+    <para id="id1171896543968">FLOW CHART OF WAFER PREPARATION</para>
+    <para id="id1171926340803">Starting Material - Sand, Sand reduced to Silicon, Silicon converted to TriChloroSilane, through multiple distillation TrichloroSilane is purified to Electronic Grade and reduced in Siemen’s Reactor to Pure Electronic Grade Polycrystalline Si.</para>
+    <para id="id1171904217614">↓</para>
+    <para id="id1171895827803">From purified Silicon Melt, single crystal ingot is pulled out by Czochralski Method or Poly Si ingot is purified re- crystallized by Float Zone Method. Required Dopent ( Phosphoprous for N Type ingot and Boron for P Type ingot) is added to the melt in calculated manner to form single crystal ingot of specific impurity type doping and of given resistivity.</para>
+    <para id="id1171912498599">      ↓</para>
+    <para id="id1171903408050">Sawing, Lapping, Grinding and Polishing</para>
+    <para id="id1171917129336">      ↓</para>
+    <figure id="id1171896008821">
+      <media id="id1171896008821_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-6ea3.png" id="id1171896008821__onlineimage" height="294" width="542"/>
+      </media>
+    </figure>
+    <para id="id1171910014513">In early days when IC Technology had just started i.e. in the year 1961 the wafer size was only 1 inch. Then it was:    
+    
+    * 2 inch (50.8 mm). Thickness 275 µm.
+    * 3 inch (76.2 mm). Thickness 375 µm.
+    * 4 inch (100 mm). Thickness 525 µm.
+    * 5 inch (127 mm) or 125 mm (4.9 inch). Thickness 625 µm.
+    * 150 mm (5.9 inch, usually referred to as "6 inch"). Thickness 675 µm.
+    * 200 mm (7.9 inch, usually referred to as "8 inch"). Thickness 725 µm.
+    * 300 mm (11.8 inch, usually referred to as "12 inch" or "Pizza size" wafer). Thickness 775 µm.
+    * 450 mm ("18 inch"). Thickness 925 µm (expected).
+By all these technique , high purity (99.999%) single crystal ingots with a controlled amount of N or P type dopent can be produced. The maximum resistivity obtained in Si ingot is 10<sup>4</sup> Ω-cm whereas in Ga As and InP the ρmax =10<sup>8</sup>Ω-cm. That is almost semi-insulating ingot of GaAs and InP can be obtained. Semi-insulating GaAS and InP wafers are suitable for reduction of parasitics, for isolaton of active devices from one another, for reduction of power drain and for achieving high speed.</para>
+    <para id="id1171923749359">Presently because of technical constraints we have the option of Si, GaAs and InP substrate only. Therefore we have a very limited choice of overlay films also. This severely constrains the photonic device design.</para>
+    <para id="id1171895883473"/>
+  </content>
+</document>

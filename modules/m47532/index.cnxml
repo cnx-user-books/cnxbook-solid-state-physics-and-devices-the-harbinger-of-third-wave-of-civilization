@@ -1,0 +1,214 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter_2.2.9-2.2.10-2.2.11:Diffusion,Life-Time and Continuity Equation.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47532</md:content-id>
+  <md:title>SSPD_Chapter_2.2.9-2.2.10-2.2.11:Diffusion,Life-Time and Continuity Equation.</md:title>
+  <md:abstract>Chapter 2.2.9,2.2.10 and 2.2.11 gives the diffusion process, recombination process and carrier concentration profile under steady state condition for optically perturbed Si-Bar.</md:abstract>
+  <md:uuid>0065b1ef-d96e-4ab2-854b-90c9efa3b825</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1170633874578">
+      <emphasis effect="bold">2.2.9.Diffusion Process and Diffusion Current.</emphasis>
+    </para>
+    <para id="import-auto-id1170640889922">In kinetic theory of gases we have studied the concept of diffusion. Gas tends to move from higher concentration to lower concentration until gas is uniformly distributed through the room.</para>
+    <para id="import-auto-id1170635188358">Just as potential gradient causes drift current in a similar manner concentration gradient causes a diffusion current. Linear concentration gradient causes a constant diffusion current as shown in Figure 2.2.40.</para>
+    <figure id="import-auto-id1170635566788">
+      <media id="import-auto-id8343860" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-6299.png" height="293" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170636726102">Conducting electrons and holes always move from high concentration to low concentration hence the rate of carrier movements per unit area or  carrier flux density is proportional to the negative of the concentration gradient as given in the equation below:</para>
+    <figure id="import-auto-id1170634287136">
+      <media id="import-auto-id6483402" alt="">
+        <image mime-type="image/png" src="../../media/Picture 40.png" height="63" width="532"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170635533728">(2.2.9.1)</para>
+    <para id="import-auto-id1170634443806">Here D<sub>n</sub> and D<sub>p</sub> are diffusion coefficient of electron and holes respectively.</para>
+    <para id="import-auto-id1170641022922">The unit of Diffusion Coefficient = cm<sup>2</sup>/s and Einstein Relation gives the inter-relation between Diffusion Coefficient and mobility namely:</para>
+    <para id="import-auto-id1170634589857"><figure id="import-auto-id1170640285564"><media id="import-auto-id1170633962837" alt=""><image mime-type="image/png" src="../../media/Picture 42-c63c.png" height="36" width="181"/></media></figure>(2.2.9.2)</para>
+    <para id="import-auto-id1170636134498">Table 2.2.9.1. tabulates the values of diffusion coefficient and mobility foe conducting electrons and holes in intrinsic Si at 300K.</para>
+    <para id="import-auto-id1170642109102">
+      <emphasis effect="bold">Table 2.2.9.1. Comparative values of diffusion coefficients and mobilities of conducting electrons and holes in intrinsic Si at 300K.</emphasis>
+    </para>
+    <table id="import-auto-id1170640152518" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>Material</entry>
+            <entry>μ<sub>n</sub>(cm<sup>2</sup>/V-s)</entry>
+            <entry>μ<sub>p</sub>(cm<sup>2</sup>/V-s)</entry>
+            <entry>D<sub>n</sub>(cm<sup>2</sup>/s)</entry>
+            <entry>D<sub>p</sub>(cm<sup>2</sup>/s)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Ge</entry>
+            <entry>3900</entry>
+            <entry>1900</entry>
+            <entry>100</entry>
+            <entry>50</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>1350</entry>
+            <entry>480</entry>
+            <entry>35</entry>
+            <entry>12.5</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>8500</entry>
+            <entry>400</entry>
+            <entry>220</entry>
+            <entry>10</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1170638256672">When we assign the electronic charge to the flux density we obtain diffusion current density due to conducting electron or due to holes.</para>
+    <para id="import-auto-id1170634329704"><figure id="import-auto-id1170639098834"><media id="import-auto-id1170637992973" alt=""><image mime-type="image/png" src="../../media/Picture 44.png" height="67" width="466"/></media></figure> (2.2.9.3)</para>
+    <para id="import-auto-id1170634510731">
+      <emphasis effect="bold">2.2.10.Life Time of Minority Carriers.</emphasis>
+    </para>
+    <para id="import-auto-id1170639168305">Life Time of minority carriers is the average survival time of minority carriers before it recombines.</para>
+    <para id="import-auto-id1170634247564">In an ideal semiconductor, there are no impurities, no defects and hence no energy states in the band-gap. Therefore once EHP is thermally generated it has very little likelihood to recombine.</para>
+    <para id="import-auto-id2300662">
+      <emphasis effect="bold">2.2.10.1.Two kinds of recombination.</emphasis>
+    </para>
+    <para id="import-auto-id1170634306828">There are two kinds of recombination: in-direct recombination also known as Shockley-Hall-Reed(SHR) recombination and direct recombination known as Auger recombination.</para>
+    <para id="import-auto-id1170634735506">In ideal semi-conductors, the equilibrium between thermal generation and Auger Recombination of EHP decides the equilibrium value and any perturbation of carrier concentration takes a very long time to come to the thermal equilibrium value. In such circumstances the life-time is very large in minutes and seconds.</para>
+    <para id="import-auto-id1170635071241">In real semi-conductors there are energy states introduced in the energy band-gap. Impurities introduce intermediate energy states in the band gap. Imperfections in the crystal structure or crystal defects also introduce intermediate energy states. These intermediate energy states act as the stepping stone for indirect recombination or for SHR recombination as shown in Figure 2.2.41. But the effectiveness of these intermediate energy states as a recombination center depends  on the relative position within the band-gap. The middle position within the band-gap makes the intermediate energy states a very effective stepping stone for in-drect recombination. For instance Au. It introduces intermediate energy states which lie in the middle of the Si band-gap hence it is a very effective stepping stone for recombination.Therefore Au is a life-time killer.</para>
+    <figure id="import-auto-id1170634640653">
+      <media id="import-auto-id1170634057133" alt="">
+        <image mime-type="image/png" src="../../media/Picture 24-ea8a.png" height="283" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170635280350">Under very high injection condition, when minority carriers concentration is comparable to majority carriers concentration then Direct Recombination takes place called Auger Recombination as shown in Figure 2.2.42. This situation is encountered in Silicon Control Rectifier when it fires and goes in Saturation mode. It also occurs under large forward bias of PN Junction diode.</para>
+    <figure id="import-auto-id1170635787753">
+      <media id="import-auto-id1170636506702" alt="">
+        <image mime-type="image/png" src="../../media/Picture 26-3588.png" height="416" width="372"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170634511561"><emphasis effect="bold">2.2.10.2. Decay of Perturbations in equilibrium values of electron and holes. </emphasis>Under normal conditions, conducting electrons and holes are in equilibrium conditions. There are two mechanisms which are perpetually at  work within a semi-conductor:</para>
+    <para id="import-auto-id1170633891266">Generation of EHP by thermal process or optical process and represented by ‘G’.</para>
+    <para id="import-auto-id1170634290202">Recombination of EHP by indiect recombination process and represented by ‘R’.</para>
+    <para id="import-auto-id6465571">Under equilibrium condition: G = R and n and p achieve an equilibrium value which is time –invariant.</para>
+    <para id="import-auto-id1170635548254">There can always be external perturbing factors.</para>
+    <para id="import-auto-id1170640627074">If external perturbing factors persist, n and p will acquire a new equilibrium value.</para>
+    <para id="import-auto-id1170634032584">If external perturbing factor is transitory then perturbation in n and p will be a decaying type transient.</para>
+    <para id="import-auto-id1170636543085">This decaying type transient is a solution of the following differential equation which beautifully embodies the Generation and Recombination process:</para>
+    <para id="import-auto-id1170636745367"><figure id="import-auto-id1170639850693"><media id="import-auto-id1170640840582" alt=""><image mime-type="image/png" src="../../media/graphics1-3cd1.png" height="34" width="178"/></media></figure>(2.2.10.2.1)</para>
+    <para id="import-auto-id1170640667821">Excess carrier decay time constant is always decided by the minority carrier life-time hence in the above Equation both decay rates are controlled by τ<sub>n</sub> because in this case electrons are the minority carriers.</para>
+    <para id="import-auto-id1170637974508">In the above equation, LHS gives the rate of change of the carriers and RHS gives the excess carrier divided by carrier Life-Time. If excess carrier is positive, rate of change is negative and if excess carrier is negative then rate of change is positive.</para>
+    <para id="import-auto-id1170634260649">Phyical implication is the following: </para>
+    <list id="import-auto-id1170634590173" list-type="enumerated" number-style="lower-roman">
+      <item>if the actual carrier is greater than the thermal equilibrium value then the excess carrier decays to equilibrium value by recombination.</item>
+      <item>If the actual carrier is less than the thermal equilibrium value then the deficit carrier builds up to equilibrium value by generation.</item>
+      <item>In both cases the perturbed values exponentially decay and actual values settle to equilibrium values.</item>
+    </list>
+    <para id="import-auto-id1170640867703">Equation 2.2.10.2.1. is a first order ordinary linear differential equation. Its variable is the perturbed values: </para>
+    <para id="import-auto-id2132904"><figure id="import-auto-id2166172"><media id="import-auto-id1170640325697" alt=""><image mime-type="image/png" src="../../media/graphics2-4951.png" height="25" width="175"/></media></figure>;(2.2.10.2.2)</para>
+    <para id="import-auto-id2320694">Rewriting Equation 2.2.10.2.2. in terms of perturbed values:</para>
+    <figure id="import-auto-id1170641049740">
+      <media id="import-auto-id1170634790708" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-bb1a.png" height="46" width="85"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1956397">Or  <figure id="import-auto-id1901808"><media id="import-auto-id1170640778170" alt=""><image mime-type="image/png" src="../../media/graphics4-de29.png" height="37" width="90"/></media></figure></para>
+    <para id="import-auto-id1170640474516">Therefore the solution of the first order ordinary linear differential equation is:</para>
+    <figure id="import-auto-id1981672">
+      <media id="import-auto-id1170634216407" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1793.png" height="42" width="196"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170640731919">A is an arbitrary constant determined by one boundary condition:</para>
+    <para id="import-auto-id1170634850800">At time t=0, <figure id="import-auto-id1170640611996"><media id="import-auto-id1170634304468" alt=""><image mime-type="image/png" src="../../media/graphics6-e673.png" height="24" width="133"/></media></figure></para>
+    <para id="import-auto-id1170634691823">Substituting this boundary condition we get: A = n<sup>^</sup><sub>0</sub>;</para>
+    <para id="import-auto-id1170640341879">Theefore the  solution  is rewritten as:</para>
+    <para id="import-auto-id1170637974141"><figure id="import-auto-id1170635859131"><media id="import-auto-id2207285" alt=""><image mime-type="image/png" src="../../media/graphics7-320f.png" height="35" width="200"/></media></figure>(2.2.10.2.3)</para>
+    <para id="import-auto-id1170640338696">If n &gt; n<sup>-</sup> then excess carrier recombines exponentially with time constant τ<sub>n</sub>;</para>
+    <para id="import-auto-id1170636682276">If n &lt; n<sup>-</sup> then deficit in concentration is made up by net generation and carrier concentration exponentially increases with time constant τ<sub>n</sub>; until the thermal equilibrium value is reached.</para>
+    <para id="import-auto-id1170634418472">Exponential decay of perturbation in thermal equilibrium value of carrier concentration is shown in Figure 2.2.43. for different values of Life-Time.</para>
+    <para id="import-auto-id1170633657541">Life-Time varies from ns to ms depending upon the impurty concentration and crystal imperfections.If impurity concentration and density of imperfection is low then we have lifetime of ‘ms’ interval otherwise we have ‘ns’ interval life-time.</para>
+    <figure id="import-auto-id2248558">
+      <media id="import-auto-id2019529" alt="">
+        <image mime-type="image/png" src="../../media/Picture 28-69ea.png" height="329" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170639657412">
+      <emphasis effect="bold">2.2.11.Continuity Equation in Silicon Bar optically excited by a continuous beam of light under steady state condition.</emphasis>
+    </para>
+    <para id="import-auto-id2811241">In Figure 2.2.44. N-Type Bar (N<sub>D</sub>=10<sup>14</sup>/cc)  is shown which is illuminated by continuous light which has energy packet of 2eV on the left end of the sample.In due course of time the concentration profile of the majority and minority carriers become time-invariant and we say that thermal equilibrium condition has been achieved.</para>
+    <figure id="import-auto-id2416512">
+      <media id="import-auto-id1170640811470" alt="">
+        <image mime-type="image/png" src="../../media/Picture 30-f5e3.png" height="511" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id2791248">Here we have assumed minority carrier hole life-time=2μs.</para>
+    <para id="import-auto-id1170639793344">Let Optical Generation Rate = G number of EHPs are being opticall generated per second.</para>
+    <para id="import-auto-id1863188">The photon of the incident light has an energy packet=2eV=hν.</para>
+    <para id="import-auto-id1170640201999">Suppose the rate of incidence of energy=10mW = 10mJ/s.</para>
+    <para id="import-auto-id1170633756391">Since photon is 2eV which exceeds the energy band-gap=1.12eV hence it is powerful enough to cause photo-excitation. Hence all photons are absorbed by the left surface and equal number of EHPs are optically generated.</para>
+    <para id="import-auto-id1170633778684">The physics of photo-excitation of EHP and recombination of EHP is shown in Figure 2.2.45.</para>
+    <figure id="import-auto-id1170640200897">
+      <media id="import-auto-id1170641238857" alt="">
+        <image mime-type="image/png" src="../../media/Picture 32-88f5.png" height="322" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170640469301">Assuming 1 optically generated EHP for each absorbed incident photon, the optical generation rate G is as follows:</para>
+    <para id="import-auto-id1170638435212"><figure id="import-auto-id1170636526715"><media id="import-auto-id1170639096837" alt=""><image mime-type="image/png" src="../../media/Picture 54.png" height="44" width="318"/></media></figure>(2.2.11.1)</para>
+    <para id="import-auto-id1170634198266">Therefore under optical excitation, the left surface experiences a photon boosted generation rate of EHPs = 3.125×10<sup>16</sup>EHPs/sec.</para>
+    <para id="import-auto-id1170633692788">Let the photons be absorbed within a volume=∆Vcc.</para>
+    <para id="import-auto-id1170640245503">Therefore optical generation rate -= g<sub>op</sub>=10<sup>13</sup>EHP/(cc-μs)= 10<sup>19</sup>EHP/(cc-s).</para>
+    <para id="import-auto-id1170638004565">In DARK condition, through out the bar, thermal generation rate decides the equilibrium concentrations.</para>
+    <para id="import-auto-id1170634404931">In Left End illumination, the photo-generation + thermal generation together decide the equilibrium concentration values on the left end of the Si-Bar.</para>
+    <para id="import-auto-id1170640884758">Let new equilibrium concentration on the left end be p<sub>n0</sub> and n<sub>n0</sub>.</para>
+    <para id="import-auto-id1170639570333">Generation-Recombination equation under optical-excitation condition is:</para>
+    <para id="import-auto-id2712517"><figure id="import-auto-id1170636375100"><media id="import-auto-id1170634389454" alt=""><image mime-type="image/png" src="../../media/Picture 56.png" height="108" width="267"/></media></figure>(2.2.11.2)</para>
+    <para id="import-auto-id1170636559075">Now Law of Mass Action does not hold good because of external illumination.</para>
+    <para id="import-auto-id1170638458397">Therefore n<sub>n0</sub>×p<sub>n0</sub> ≠ n<sub>i</sub><sup>2</sup>;</para>
+    <para id="import-auto-id1170636176080">Some time after illumination, carrier concentration assumes a steady state value through out the Si-Bar along the z-axis.</para>
+    <para id="import-auto-id1170643278325">This steady state concentration profile has to be determined.</para>
+    <para id="import-auto-id1170634355385">Let us consider holes only.</para>
+    <para id="import-auto-id1170640775787">Refer to Figure 2.2.46.</para>
+    <figure id="import-auto-id1170638903866">
+      <media id="import-auto-id1170639029795" alt="">
+        <image mime-type="image/png" src="../../media/Picture 34-8878.png" height="632" width="542"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170634928636"><figure id="import-auto-id1170634619623"><media id="import-auto-id1170637923351" alt=""><image mime-type="image/png" src="../../media/Picture 58-b549.png" height="105" width="249"/></media></figure>(2.2.11.3)</para>
+    <figure id="import-auto-id1170634713089">
+      <media id="import-auto-id1170634197834" alt="">
+        <image mime-type="image/png" src="../../media/Picture 60-9da9.png" height="678" width="550"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170638745249">(2.2.11.6)</para>
+    <para id="import-auto-id1170634288284">The typical diffusion length in this particular example is:</para>
+    <para id="import-auto-id1170634392323">L<sub>p</sub><sup>2</sup>=τ<sub>p</sub>D<sub>p</sub>=2×10<sup>-6</sup>×12.5cm<sup>2</sup>/s = 25×10<sup>-6</sup>cm<sup>2</sup>;</para>
+    <para id="import-auto-id1170634675609">Therefore diffusion length=L<sub>p</sub>=5×10<sup>-3</sup>cm=0.5μm.</para>
+    <para id="import-auto-id1170635590762">In Figure 2.2.47. steady state carrier concentration profiles are given with one end of the Si-Bar photo-excited and for the case Length of the Bar ‘L’ &gt;&gt; L<sub>p</sub>. This is a wide-bulk case.</para>
+    <figure id="import-auto-id1170635801137">
+      <media id="import-auto-id1170636448930" alt="">
+        <image mime-type="image/png" src="../../media/Picture 36-a13a.png" height="466" width="516"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1170634806288">In Si-Bar, when we have L ~ Lp or L &lt;&lt; L<sub>p</sub> then we have narrow-bulk case and steady state carrier concentration profile is linear as shown in Figure 2.2.48.</para>
+    <para id="import-auto-id1170634413474">The linearity of the concentration profile is due to the fact that in a narrow bulk thee is hardly any recombination hence diffusion current is constant along the z-axis and hence carrier concentration of the carrier is also constant. This leads to a linear slope within the bulk for both majority and minoreity carriers.</para>
+    <para id="import-auto-id1170634583052">In our example, in case of narrow-bulk Si-Bar, the far end steady state concentration values depend upon surface recombination velocity. In our case we have assumed infinite surface recombination velocity hence:</para>
+    <para id="import-auto-id1170638054524"><figure id="import-auto-id1170636105304"><media id="import-auto-id1170635341459" alt=""><image mime-type="image/png" src="../../media/Picture 62-5450.png" height="27" width="156"/></media></figure>(2.2.11.7) </para>
+    <para id="import-auto-id1170637188885">The case for finite surface recombination velocity will be dealt in the Appendix of this Chapter. </para>
+    <figure id="import-auto-id1170634132719">
+      <media id="import-auto-id1170634283901" alt="">
+        <image mime-type="image/png" src="../../media/Picture 38-6d04.png" height="474" width="525"/>
+      </media>
+    </figure>
+  </content>
+</document>

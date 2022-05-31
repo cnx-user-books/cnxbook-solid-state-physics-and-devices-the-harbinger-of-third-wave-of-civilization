@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 9_PAULI-EXCLUSION PRINCIPLE</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34233</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 9_PAULI-EXCLUSION PRINCIPLE</md:title>
+  <md:abstract>Part 9 of Chapter 1 describes the four quantum numbers and Pauli-Exclusion Principle.</md:abstract>
+  <md:uuid>6ada9fb4-aed6-45ff-9370-120e4fe23b52</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165950017724">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 9_ THE FOUR QUANTUM NUMBERS OF ATOMIC ELECTRONS AND PAULI-EXCLUSION PRINCIPLE.</emphasis>
+    </para>
+    <para id="id1165951526691"><emphasis effect="bold"/>Till now we have solved the Schrodinger Equation for 1-D Potential Well. If the same equation is solved for a real life 3-D<emphasis effect="bold"/>Potential Well associated with a Hydrogen Atom then we get the following equation: </para>
+    <para id="id1165986582174"><figure id="id1165961343190"><media id="id1165961343190_media" alt=""><image mime-type="image/png" src="../../media/graphics1-f5b1.png" id="id1165961343190__onlineimage" height="32" width="163"/></media></figure>  1.74     </para>
+    <para id="id1165956376719">The solution of this Equation gives the full quantum mechanical description of electron bound to the host atom in this case hydrogen atom.</para>
+    <para id="id1165977315234">The potential well of a hydrogen atom or any real atom has a spherical symmetry hence we use spherical coordinates r, Ө, φ, while solving Eq.(1.74)</para>
+    <para id="id1166006628370">By taking the nonrelativistic Hamiltonian, we get three quantum numbers n, l, and m.</para>
+    <para id="id3850744">n is the principal quantum number or the total quantum number and specifies the K,L,M,N……Shells of the electron orbits It gives the quantized values of energies associated with these principal Shells.</para>
+    <para id="id1165964586426">In Hydrogen Atom , the principal energy levels are:</para>
+    <figure id="id1165988003220">
+      <media id="id1165988003220_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-010c.png" id="id1165988003220__onlineimage" height="41" width="102"/>
+      </media>
+    </figure>
+    <para id="id1165986215413">Table 1.5. Energy Levels of principal quantum numbers.</para>
+    <table id="id1165977805076" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">n</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>-13.6 eV</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>-3.4eV</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>-1.5eV</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>-0.85eV</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165959992203">The energies also known as eigen energies associated with the principal quantum number are negative since we have taken the energy of an electron removed far away from the atom as zero and we are considering the energy of bound electrons. Therefore the eigen energies are negative. There are infinite such bound states becoming very closely spaced for large values of n. </para>
+    <para id="id1165982774849">The second quantum number ‘l’ is azimuthial or angular momentum quantum number. It gives the quantization of orbital angular momentum L as well as the shape of the orbital sub-shell belonging a given shell n.</para>
+    <para id="id1166002905402">L = Iω = Moment of inertia of the orbiting electron × angular orbital velocity;</para>
+    <para id="id1165987996724">For a given n, l = 0, 1 2 …….(n-1) </para>
+    <para id="id1165987951873">i.e. n =1, l =0 ; only one value of l;</para>
+    <para id="id7752892">n=2, l =0, 1;</para>
+    <para id="id1165959360244">n=3; l =0, 1, 2;</para>
+    <para id="id1165975383501">The magnitude of orbital angular momentum |L| = [√{l (l +1)}]×ћ</para>
+    <para id="id1166002598026">And |L|<sub>max</sub> = (l +Δ)×ћ;</para>
+    <para id="id1165964409947">Therefore l = 0 implies zero orbital angular momentum and a perfectly spherical sub-shell belonging to a given shell n. </para>
+    <para id="id1165965333358">l =0 constrains the orbital sub-shell to be have a spherical symmetry and therefore all possible orbital angular momentum vectors cancel one another to give a resultant |L| = 0.</para>
+    <para id="id1166006224702">l = 1 implies |L| = [√2]×ћ. This implies a resultant orbital angular momentum and hence an ellipsoidal sub-shell.</para>
+    <para id="id1165980232499">l = 2 implies |L| =[√{2(2+1)}]×ћ = [√6]×ћ. This implies a higher oblateness of the ellipsoidal sub-shell. </para>
+    <para id="id1165972793739">
+      <figure id="id1165961343373">
+        <media id="id1165961343373_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-aaa3.png" id="id1165961343373__onlineimage" height="900" width="611"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165954128485"/>
+    <figure id="id1165977250171">
+      <media id="id1165977250171_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-cd7f.png" id="id1165977250171__onlineimage" height="298" width="650"/>
+      </media>
+    </figure>
+    <para id="id1165965342986">
+      <emphasis effect="bold">Figure 1.33. The possible permitted subshells of electrons belonging to a host atom.</emphasis>
+    </para>
+    <para id="id1165989318684">From nonrelativistic treatment there is n-fold degeneracy for every value of principal quantum number ‘n’. This means the electrons in given shell ‘n’ have different values of ‘l’ ranging from 0 to n-1 and all these have same energy level corresponding to ‘n’. This is termed as n-fold degeneracy.</para>
+    <para id="id1165950271924">For n=1, l = 0 , there is no degeneracy</para>
+    <para id="id1165964186951">For n=2, l = 0, 1 and there is two fold degeneracy;</para>
+    <para id="id1166006739473">For n = 3, l = 0, 1 , 2 and there is three fold degeneracy;</para>
+    <para id="id1165955567343">Next we have magnetic quantum number ‘m’. This implies the spatial quantization of orbital angular momentum. For a given value of l we have a given value of Orbital Angular Momentum.</para>
+    <para id="id3884014">Say we take l = 2. This has L= [√6]×ћ. Now when a magnetic field is applied then L vector can be permitted to assume only those spatial directions in which the z axis projections of L i.e. L<sub>Z</sub> = 0ћ, ±1ћ, ±2ћ, as shown in Figure(1.34).</para>
+    <para id="id1166007839536">
+      <figure id="id1165965337282">
+        <media id="id1165965337282_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-8840.png" id="id1165965337282__onlineimage" height="899" width="633"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166000156157">
+      <emphasis effect="bold">Figure 1.34. In the presence of a magnetic field, the spatial quantization of L = [√6]×ћ;</emphasis>
+    </para>
+    <para id="id1165989920701">Therefore l will range from 0 to (n-1) and each value of l between 0 and n-1 has 2l +1 eigen states.</para>
+    <para id="id1166003865501">In Fig.(1.34) L corresponding to l = 2 can be parallel or anti-parallel giving a projection of ±2ћ on z axis. L can be inclined to z-axis to give a projection of ±ћ or L can be transverse to z-axis giving a projection of 0ћ.</para>
+    <para id="id1166002278265">L corresponding to l = 0 is transverse to the z-axis. L corresponding to l = 1 is obliquely aligned with respect z-axis so as to give a projection of ±1ћ on the z-axis and L is also transverse to z-axis.</para>
+    <para id="id1165952735755">Therefore a given value of n has altogether ∑(2 l +1) degeneracy with l ranging from 0 to (n-1) . The total number of eigen states associated with principal quantum number n is n<sup>2</sup>. These eigen state energies are not explicitly determined by l or m. Hence these n<sup>2 </sup>eigen states have the same energy level –(13.6/ n<sup>2</sup> ). Therefore a given principal quantum number n has n<sup>2 </sup>-fold<sup/> degeneracy. Energy states for a hydrogenic atom is given Fig.(1.35).</para>
+    <para id="id1165965536480">As seen in Figure 1.35. for n =1, l = 0; This has 1-fold degeneracy.</para>
+    <para id="id1165959207607">For n =2 , l = 0 and 1; Here there is 1-fold degeneracy for l = 0 and 3 fold degeneracy for l = 1;</para>
+    <para id="id1165996219896">For n= 3, l = 0,1 and 2; Here there is 1-fold degeneracy for l = 0 and 3 fold degeneracy for l = 1 and 5-fold degeneracy for l =2; </para>
+    <para id="id1165996984929">So we see that if in an atom the electronic shells are occupied upto n=3 then it has (1+3+5) =9 electrons. For every quantum state characterized by n, l and m there is further possibility of ±(1/2)ћ spin angular momentum.</para>
+    <para id="id1165954286701">for n =1, l = 0; This has 1-fold degeneracy. But l =0 has 2-fold degeneracy due to spin quantum number namely ±(1/2)ћ.</para>
+    <para id="id1165964836865">For n =1 there will be two electrons permitted.</para>
+    <para id="id1165988213882">For n= 2 there will be eight electrons permitted.</para>
+    <para id="id1165960044687">For n= 3 there will be eighteen electrons permitted.</para>
+    <para id="id1165997998824">And for n in general there will be 2n<sup>2</sup> electrons permitted. This sets the rule by which the elements are built up in a Periodic Table.</para>
+    <figure id="id1165950637834">
+      <media id="id1165950637834_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-ac6c.png" id="id1165950637834__onlineimage" height="732" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165992296531">
+      <emphasis effect="bold">Figure 1.35. Energy Level of Hydrogenic Atom from nonrelativistic Hamiltonian.</emphasis>
+    </para>
+    <para id="id1166004160283">From the discussion above and from the discussion which will follow in the sequel part, we can conclude Pauli-Exclusion Principle namely:</para>
+    <para id="id1165965982705">No two electrons can have all the four quantum numbers to be the same.</para>
+    <para id="id1165964808088"/>
+  </content>
+</document>

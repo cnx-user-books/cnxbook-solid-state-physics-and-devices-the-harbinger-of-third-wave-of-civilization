@@ -1,0 +1,386 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Integrated Circuit Technology of  Future Generations-Part 3_mobility measurement, defect estimate, balllistic nature, conductivity variation.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44012</md:content-id>
+  <md:title>The Integrated Circuit Technology of  Future Generations-Part 3_mobility measurement, defect estimate, balllistic nature, conductivity variation.</md:title>
+  <md:abstract>Future IC Chips_Part 3, describes Quantum Electrodynamic properties of Graphene. It gives the mobility measurement and defect estimate results. It gives the possibility of achieving Ballistic Transistor at room temperature and it gives the gate control of conductivity.</md:abstract>
+  <md:uuid>2e857729-d0af-443c-a989-1e8d9568091e</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165918053199">
+      <emphasis effect="bold">8.3.3 Electrical Mobility measurement and Defect Estimation.</emphasis>
+    </para>
+    <para id="import-auto-id1165917575290">A mobility of 200,000cm<sup>2</sup>/(V-s) is achieved in suspended graphene samples with electron density of 2×10<sup>11</sup>/cm<sup>2</sup>. From this mobility it is estimated that the upper bound on the native crystalline defect density of exfoliated graphene is 6×10<sup>9</sup>/cm<sup>2</sup> [Bolotin et.al. (2008)].</para>
+    <para id="import-auto-id1165918043173">This residual crystal defects are a potential source of intervalley scattering. Crystalline defects are present in various concentrations in graphene synthesized by reduction of graphene oxide, by CVD or by segregation of C on SiC. </para>
+    <para id="import-auto-id1165917575583">The pristine graphene has metallic behavior. But even a small amount of irradiation drastically affects the low temperature behaviour.</para>
+    <para id="import-auto-id1165917765242">In pristine graphene, minimum conductivity is temperature independent from 4 to 100K. But irradiated graphene is insulating with diverging resistivity at T approaching 0 K.</para>
+    <para id="import-auto-id1165917761320">Electrons in Graphene behave like particles with zero rest mass, known as chiral Fermions or neutrinos [Novelselov et.al. (2005)]. Electrons are best described by Relativistic Quantum Physics. Graphene is condensed matter system. [In condensed matter system we study the physical properties  of condensed phase of matter. Solid and Liquid are ordinary condensed phases. Super conductors and Bose-Einstein Condensate are exotic condensed phases.] In graphene, electrons mimic zero-mass particles governed by Dirac’s (Relativistic ) equations and have effective speed of light ~ 10<sup>6</sup> m/s = c/300. Hence the effective mass of  conducting electron in Graphene is:</para>
+    <figure id="import-auto-id1165913267714">
+      <media id="import-auto-id1165917764674" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-6737.png" height="64" width="566"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912429323">Where m<sub>0</sub> = zero rest mass and v<sub>0</sub> = 10<sup>6</sup> m/s = Fermi velocity of electron mobile carriers.The effective mass is experimentally measured as 0.007m<sub>e</sub> [Zhang et.al.(2005c)].</para>
+    <para id="import-auto-id1165917572023">The ‘holes’ in graphene are the quantum electrodynamical equivalent of prositrons. Hence electrons and holes are charge conjugate symmetrical particle described by the same Dirac Spinor Function.</para>
+    <para id="import-auto-id1165917709321">
+      <emphasis effect="bold">8.3.4. Quantum-Electrodynamical behavior of electron carriers confined in 2D graphene layer[Geim &amp; Novoselov (2007)]. </emphasis>
+    </para>
+    <para id="import-auto-id1165918156527">
+      <emphasis effect="bold">8.3.4.1. The possibility of achieving Ballistic Transistors(the holy grail of Electronics Engineers) through the fabrication of GrapheneFET(GFET)</emphasis>
+    </para>
+    <para id="import-auto-id1165913858037">Charge carriers in graphene have an unique nature. In condensed matter physics the Schrodinger Equation  is sufficient to describe the electronic properties of materials. But in graphene the charge carriers mimic relativistic particles. Hence carriers in graphene behave like quasi-particles and are described by the Dirac Equation.</para>
+    <para id="import-auto-id1165914566543">Electrons interaction with periodic potential variation of graphene honeycomb lattice gives rise to a new quasiparticle that at low energies are described by (2 Space+1 Time)-dimensional Dirac Equation with an effective speed of v<sub>0</sub> = 10<sup>6</sup>m/s. These massless Dirac Fermions can be seen either as electrons which have lost their rest mass or as neutrinos which have acquired a charge ‘e’.</para>
+    <figure id="import-auto-id1165917713314">
+      <media id="import-auto-id1165917569401" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-8b30.png" height="150" width="467"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917987734">
+      <emphasis effect="bold">Figure 11.The graphene honey-comb lattice with C atom placed at the lattice sites. Hybrid sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> symmetric overlap with the neighbouring hybrid sp</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> gives rise to the covalent “backbone” of graphene with honeycomb lattice  geometry. The remaining 2p</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold"> orbital symmetric overlap with the available 2p</emphasis>
+      <emphasis effect="bold">z</emphasis>
+      <emphasis effect="bold"> orbital creates half filled π-bond. It is this half-filled π-bond which provides free electrons that tunnel from site to site giving rise the fascinating electronic properties of graphene [Pachos (2009)]  </emphasis>
+    </para>
+    <para id="import-auto-id1165913977594">Graphene is a large molecule of C atoms where C atoms are covalently bonded in a flat configuration. One C atom occupies one lattice center. Three(sp<sup>2</sup> electrons) of the four valent electrons of each C atom are covalently shared with the corresponding valent electrons(sp<sup>2</sup> ) of the three neighbouring C atoms via σ bonds which gives rise to completely filled σ energy band. These electrons are highly localized and tightly bound to the host C atom and donot contribute to mobile carriers or conductivity of the graphene. The σ-bond provide the covalent “backbone” structure of graphene with honeycomb lattice geometry. Their strength is responsible for the flexibility and robustness of the 2D graphene lattice though 3D graphite  is very soft.</para>
+    <para id="import-auto-id1165913442456">The 2p<sub>z</sub> orbital of the fourth electron symmetrically overlap the available unpaired 2p<sub>z</sub> orbital of one of the three neighbouring C atoms to create a π-bond which give rise to half-filled π energy band. Each π-bond allows its 2p<sub>z</sub> orbital electron to tunnel from one atom to the neighbouring atom. Hence graphene is a many body system: several electrons are allowed to tunnel from site to site while at the same time satisfy Pauli-Exclusion Principle. </para>
+    <para id="import-auto-id1165912510253">Each carbon atom effectively contributes 1 electron in 2p<sub>Z</sub> orbital for site to site tunneling which creates the electrical conductivity and there are two atoms per unit cell of hexagonal shape. The area of one unit cell is:</para>
+    <figure id="import-auto-id1165918154949">
+      <media id="import-auto-id1165912933953" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1e69.png" height="64" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1005130">Where d = lattice constant = 1.42A°</para>
+    <para id="import-auto-id1165917866277">Therefore A(total area) = 5.238760873 (A°)<sup>2</sup>=5.238760873 ×10<sup>-20</sup> m<sup>2</sup></para>
+    <para id="import-auto-id1165912574211">So the aerial density per cm<sup>2</sup> = (1×10<sup>-4</sup>)/( 5.238760873 ×10<sup>-20</sup>) = 1.908848341×10<sup>15</sup>unit cells per cm<sup>2</sup></para>
+    <para id="import-auto-id1165917576612">Each unit cell has two carbon atoms hence maximum carrier concentration possible</para>
+    <figure id="import-auto-id1165918127151">
+      <media id="import-auto-id1165914567405" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-d1fe.png" height="23" width="331"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165919147804">Simple geometrical configuration of C atoms gives graphene a surprisingly rich collective behavior at microscopic level. They exhibit non-zero Berry Phase which prevents back-scattering [Section 4.1]. This enables the mean free path of electron in micron or sub-micron range at room temperature. The mean free path is independent of carrier concentration and doping density and weakly dependent on ambient temperature hence the mobility is unusually high . Routinely we get a mobility greater than 15000cm<sup>2</sup>/(V-sec) and with extra care mobility as high as 200,000cm<sup>2</sup>/(V-sec) can be achieved. From this mobility the mean free path can be calculated from Eq.4 below [Bolotin et.al.(2008)] . In this equation ‘l’ is the mean free path of the carrier, ‘n’ is the carrier concentration, ‘e’ is the electron charge and ‘h’ is Planck’s constant.</para>
+    <figure id="import-auto-id1165917576358">
+      <media id="import-auto-id1165917710733" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-159b.png" height="43" width="392"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917791918">Rearranging Eq.4 we get the mean free path as:</para>
+    <figure id="import-auto-id1165912373104">
+      <media id="import-auto-id1165918127672" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-e083.png" height="43" width="394"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165914140037">Table 4 tabulates the value of mean-free path of carriers for different carrier concentration and different motilities’.</para>
+    <para id="import-auto-id1165918132774">
+      <emphasis effect="bold">Table 4. Mean free path of the carriers in graphene for different mobility and different carrier concentration at 300K.</emphasis>
+    </para>
+    <table id="import-auto-id1165914546230" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>μ</entry>
+            <entry>15,000cm<sup>2</sup>/(V-sec)</entry>
+            <entry>70,000cm<sup>2</sup>/(V-sec)</entry>
+            <entry>200,000cm<sup>2</sup>/(V-sec)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>l(μm)</entry>
+            <entry>l(μm)</entry>
+            <entry>l(μm)</entry>
+          </row>
+          <row>
+            <entry>10<sup>11</sup>/cm<sup>2</sup></entry>
+            <entry>0.05</entry>
+            <entry>0.258</entry>
+            <entry>0.74</entry>
+          </row>
+          <row>
+            <entry>10<sup>12</sup>/cm<sup>2</sup></entry>
+            <entry>0.175</entry>
+            <entry>0.8</entry>
+            <entry>2.33</entry>
+          </row>
+          <row>
+            <entry>10<sup>13</sup>/cm<sup>2</sup></entry>
+            <entry>0.55</entry>
+            <entry>2.58</entry>
+            <entry>7.4</entry>
+          </row>
+          <row>
+            <entry>10<sup>14</sup>/cm<sup>2</sup></entry>
+            <entry>1.75</entry>
+            <entry>8.166</entry>
+            <entry>23.3</entry>
+          </row>
+          <row>
+            <entry>10<sup>15</sup>/cm<sup>2</sup></entry>
+            <entry>5.534</entry>
+            <entry>25.8</entry>
+            <entry>73.8</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id8288785">From the Table 4 it is evident that carriers are in ballistic mode and we should be able to fabricate ballistic transistors at room temperature which has been the ultimate wish list of Electronic Design Engineers. </para>
+    <para id="import-auto-id1165919201547">Ballistic Transistor is defined as a device where channel length is much shorter than the mean free path of the carrier which is the case in graphene transistor.</para>
+    <para id="import-auto-id1165917792969">Hence transit angular frequency of an ideal graphene transistor is as follows:</para>
+    <figure id="import-auto-id1165917654386">
+      <media id="import-auto-id1165917763645" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-1a43.png" height="43" width="444"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912647266">Therefore transit frequency of an ideal ballistic transistor is:</para>
+    <figure id="import-auto-id1165917792754">
+      <media id="import-auto-id1165917572160" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-aecf.png" height="37" width="442"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165913863181">But we donot have an ideal graphene transistor. In real life graphene transistor we have metal contacts at Source and Drain and in metal contact we have non-relativistic Schrodinger electrons and holes. Thus the Graphene FET has mixed-particle entity: within source Schrodinger particles obeying electric drift kinematics are taking part in transistor action; along the channel length the non-relativistic Schrodinger particle is transformed into relativistic Dirac quasi-particles and again at the Drain relativistic Dirac quasiparticles transform into non-relativistic Schrodinger particles. This lowers the Fermi velocity at which ballistic action takes place. Also the Transmission at normal incidence in Source is less than Unity. It is because of these two reasons that the cut-off frequency experimentally observed in gated ballistic transistors is much lower than the prediction of Equation 6.</para>
+    <para id="import-auto-id1165915020855">D.Dragoman and M . Dragoman (2011) have carried out numerical calculation which confirms that ballistic action is carried out at almost half the Fermi-velocity. So the advantage of Dirac quasi-particles is not fully derived in metal contact GFETs as shown in Table 5.</para>
+    <para id="import-auto-id1165917788345">
+      <emphasis effect="bold">Table 5. Improvement in transit frequency of ideal and real ballistic transistors as the channel length is scaled down as given by Eq.6 in the text.</emphasis>
+    </para>
+    <table id="import-auto-id1165915835733" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Channel length(nm)</entry>
+            <entry>Ideal GFET f<sub>T</sub></entry>
+            <entry>Real GFET f<sub>T</sub></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>100</entry>
+            <entry>1.6THz</entry>
+            <entry>795GHz</entry>
+          </row>
+          <row>
+            <entry>75</entry>
+            <entry>2THz</entry>
+            <entry>1THz</entry>
+          </row>
+          <row>
+            <entry>50</entry>
+            <entry>3THz</entry>
+            <entry>1.6THz</entry>
+          </row>
+          <row>
+            <entry>25</entry>
+            <entry>6.4THz</entry>
+            <entry>3.2THz</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>16THz</entry>
+            <entry>8THz</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>32THz</entry>
+            <entry>16THz</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>159THz</entry>
+            <entry>79.6THz</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1165914616501">
+      <emphasis effect="italics">Table 5 clearly brings out the possibility that gated 2-D graphene systems could potentially become multifunctional high speed and high power transistors, thus introducing a prospective paradigm shift in future generation of micro-(and nano-)electronics. [Hwang et.al.(2007)]</emphasis>
+    </para>
+    <para id="import-auto-id1165914444540">
+      <emphasis effect="bold">8.3.4.2. Quantum-mechanically enhanced carrier transport phenomena in Graphene.</emphasis>
+    </para>
+    <para id="import-auto-id1165912382913">Dirac Electrons in 2-D graphene are markedly different from the Schrodinger Electrons in Quantum Well as seen in Semi-conductor Photonic Devices.</para>
+    <para id="import-auto-id1165912552127">Each Carbon atom in graphene honeycomb lattice forms strong covalent bond with neighboring three Carbon atoms through the symmetric overlap of its three sp<sup>2</sup>hybrid orbital. One 2p<sub>Z</sub> is left over to wander across the two dimensional crystal. </para>
+    <para id="import-auto-id1165912398731"> Electron motion in Graphene  is equivalent to  that of a neutrino or a relativistic Dirac Electron with vanishing mass. This causes a nontrivial Berry Phase under 2π rotation in wave vector space leading to the absence of backscattering and in CNT perfect conduction even in the presence of scatterers.</para>
+    <para id="import-auto-id1165918125559"> In CNT, circumferential chiral vector determines the fictitious Aharonov-Bohm flux.CNT becomes metallic when flux vanishes and semi-conductor when flux is non-zero. Another way of looking at this is ‘quantum coherence’ . If quantum coherence of electron motion around the circumference of CNT is maintained then it is metallic otherwise it is semi-conducting [Zheng et.al. (2002)]. In contrast conductivity of graphene is independent of E<sub>F</sub> ( Fermi Energy) and n (electron concentration) as long as variation in effective scattering is neglected. Therefore Graphene should be treated as a metal and not zerogap semiconductor.[Ando (2009)]</para>
+    <para id="import-auto-id1165917791769">In contrast 3-D graphite is a semi-metal whose bands slightly overlap and allow pockets of electrons and holes to tunnel between staggered layers. Here the carriers have a quadratic energy dispersion relationship as given in the equation below:</para>
+    <figure id="import-auto-id1165912645837">
+      <media id="import-auto-id1165917763359" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-3ea3.png" height="44" width="311"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912441909">m<sup>⋆</sup> is the effective mass which accounts for the carrier interaction with the periodic potential distribution throughout the crystalline lattice due to the orderly arrangement of the lattice sites.</para>
+    <para id="import-auto-id1165918046970">In a single 2-D graphene sheet, the overlap shrinks down to a single point K and K′ also known as Dirac Points. The two Dirac Points correspond to the two symmetric sub-lattices A and B  of the 2-D graphene crystal ( see Figure 17). This results in two cones aligned longitudinally and just touching at the apex as shown in Figure 5b. At low energies, this results into linear energy dispersion relationship as given  by Equation 1.</para>
+    <para id="import-auto-id1165917566029">Because of the linear energy dispersion relationship, electron dynamics is not modeled by Schrodinger Particle but instead by Dirac’s Quasi-particle. The dispersion relationship implies that electron’s mass vanishes through a large range of momentum values in the crystalline lattice.</para>
+    <para id="import-auto-id1112661">Electrons are not massless but their transport properties are more like those of PHOTON.</para>
+    <para id="import-auto-id1165918162143">In gated graphene as shown in Figure 12a, increased gate voltage raises the Fermi Level E<sub>F</sub> into the conduction band and negative voltage lowers the Fermi Level into the valence band as shown in Figure 15. Positive Voltage results into the enhancement of ‘n’(electron concentration) and negative voltage results into enhancement of ‘p’(hole concentration). </para>
+    <para id="import-auto-id1165917574914"><emphasis effect="bold">8.3.4.2.1. Conductivity Variation in Gated Devices</emphasis>.</para>
+    <para id="import-auto-id1165917572376"> Just as in enhancement mode and depletion mode MOSFET the channel carrier density can be controlled by the gate voltage in exactly the same manner with a proper gated structure as shown in Figure 12a, the concentration of carriers in graphene layer can be precisely controlled by the gate voltage. The concentration variation profile is given in Figure 12b. It should be noted that the maximum concentration of electron or hole achieved in Graphene (~5×10<sup>13</sup>cm<sup>-2</sup>) is comparable to the channel carrier concentration induced in a comparable MOSFET. </para>
+    <figure id="import-auto-id1165918133441">
+      <media id="import-auto-id1165914427231" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-3d1e.png" height="421" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917765070">
+      <emphasis effect="bold">Figure 12. In upper figure (a) the gated structure of graphene is given. In lower figure (b) the hole and electron concentration variation with respect to gate voltage is shown.</emphasis>
+    </para>
+    <para id="import-auto-id1165912401006">From Figure 12 it is evident that graphene exhibits pronounced ambipolar electric field effect namely electron and hole can be tuned continuously with gate voltage from 10<sup>11</sup>/cm<sup>2</sup> to  10<sup>13</sup>/cm<sup>2</sup>. Mobility is weakly dependent on temperature T. This means mobility in Graphene is limited by impurity scattering and hence can be significantly improved.</para>
+    <para id="import-auto-id1165918052595">In InSb only under intrinsic condition mobility is as high as 77000 cm<sup>2</sup>/(V-s). But in graphene mobility remains high even at highest electric field-induced concentration and seems to be little effected by chemical doping. This translates into ballistic devices at submicron level (shorter than 0.3micron channel length at 300K) as already discussed in Section 4.4.1. Room temperature Ballistic transistor has been the holy grail for Electronics Engineers and  graphene should make it happen. Large value of Fermi Velocity and low resistance contacts without schottky barrier should reduce switching time to 10<sup>-13</sup>s.  </para>
+    <para id="import-auto-id1165912707101">Quantum Theory applied to 2D graphene in the presence and absence of a magnetic field for two different cases of scattering, i.e. short and long range scattering, give results which are qualitatively different from those obtained by  the application Boltzmann Transport Theory [Shon et.al.(1998)]. In high magnetic field limit, the conductivity exhibits a series of peaks whose values depend on natural constants and Landau Level Index. At E(energy) = 0 we have an universal conductivity (e<sup>2</sup>/(π<sup>2</sup>ħ)) independent of magnetic field.</para>
+    <para id="import-auto-id1165915831700">Long range scatterers are random charged impurity centers in the substrate at distance ‘d’ Angstrom from the interface. The short range scatterers are lattice defects in the graphene. Quantitative agreement between theory and experiment indicates that the dominant scattering mechanism is Coulomb scattering by random charged impurities located near the interface of graphene and substrate on the substrate side.</para>
+    <para id="import-auto-id1165918053193">The typical impurity concentration in SiO<sub>2</sub> substrate is n<sub>i</sub>= 10<sup>12</sup>/cm<sup>2</sup>. This corresponds to μ (300K)=15,000 cm<sup>2</sup>/(V-s). If n<sub>i</sub> can be reduced to 10<sup>10</sup>/cm<sup>2</sup> then μ would improve to 2×10<sup>6</sup> cm<sup>2</sup>/(V-s).</para>
+    <para id="import-auto-id1165914373614">Theoretically at gate voltage = 0V, Fermi Energy is at 0eV and Density of State, D(E<sub>F</sub>)  should be zero.But in real graphene devices because of charged impurity cwenters the density of state at Dirac Point is not zero. The presence of charged impurities causes potential fluctutations in otherwise symmetric and periodic potential distribution in the graphene 2-D lattice. Theoretical calculations including level broadening effect performed prior to experiment showed that conductivity takes an universal value:</para>
+    <figure id="import-auto-id1165916173885">
+      <media id="import-auto-id1165915510614" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-aeec.png" height="63" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917788790">These charged impurities lead invariably to large  scale density inhomogenities in 2-D carrier system. The carrier density fluctuation ∆n &gt; n<sub>s</sub> at low carrier density. Hence the system breaks into a random network of 2-D electron and holes conducting puddlesa, producing a finite conductivity at zero gate voltage.</para>
+    <para id="import-auto-id1165917871078">Ideally at V<sub>G</sub> = 0 V, n<sub>s</sub> = 0. But graphene doesnot remain a homogenous zero gap semiconductor but a spatially inhomogenous semi-metal with small random puddles of electrons and holes 2-D liquid depending on the details of charged impurity configuration in the substrate.</para>
+    <para id="import-auto-id1165916587937">Ideally Eq(1) holds for linear energy dispersion. At V<sub>G</sub> = 0 V, n = p = 0. </para>
+    <para id="import-auto-id1165916261238">At T = 0 Kelvin also n = p = 0. But in real life  there are remote interfacial charge impurities . This causes electron and hole puddles at low carrier density.</para>
+    <para id="import-auto-id1165912937226">Gate Voltage V<sub>g</sub> causes an electron concentration:</para>
+    <figure id="import-auto-id1165915764983">
+      <media id="import-auto-id1165917766163" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-2cc6.png" height="39" width="403"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165914164881">Rearranging the terms we get:</para>
+    <figure id="import-auto-id1165914370015">
+      <media id="import-auto-id1165912394965" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-93ae.png" height="64" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912508660">At large gate voltage, there are large carrier concentration ‘n’ &gt;&gt; ∆n ( due to potential fluctuations). </para>
+    <para id="import-auto-id1165912645481">Hence at n &gt; n<sub>i</sub>,  system is homogenized and Boltzmann Transport holds good.</para>
+    <para id="import-auto-id1165918156799">At n &lt; n<sub>i</sub> , the onset of the inhomogeneous puddles of electron and hole carrier starts and Boltzmann Transport Theory breaks down.</para>
+    <para id="import-auto-id1165918162591">Experiment show that n<sub>c</sub> (critical density of carriers) = n<sub>i</sub> ~ 10<sup>12</sup>/cm<sup>2</sup> is the characteristic density below which the onset of inhomogenity starts.</para>
+    <para id="import-auto-id1165918125486">The fluctutation <figure id="import-auto-id1165913447704"><media id="import-auto-id1165913667062" alt=""><image mime-type="image/png" src="../../media/graphics12-8f86.png" height="50" width="576"/></media></figure></para>
+    <para id="import-auto-id1165912545759">Hence transport near the Dirac Point is dominated by a spatially inhomogenous carrier density.</para>
+    <para id="import-auto-id1165913529274">Hwang et.al. have shown that charge impurities in the substrate near the interface are the dominant source of scattering. In low carrier density regime that is n &lt; 10<sup>12</sup>/cm<sup>2</sup>, carier density fluctuation caused by charged impurities leads to electron-hole puddles. This leads to σ<sub>min</sub> even at  gate voltage = zero. Finally the Fermi Temperature of 2-D graphene is 1300K for n = 10<sup>12</sup>/cm<sup>2</sup> hence conductivity (σ) has no temperature dependence from 0 to 300Kelvin. It is limited by charged impurity scattering  This is in excellent agreement with experiment.</para>
+    <para id="import-auto-id1165917577105">The density of states in graphene is given as follows:</para>
+    <figure id="import-auto-id1165918163115">
+      <media id="import-auto-id1165918162399" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-79be.png" height="49" width="460"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917989910">Einstein relation gives the conductivity as:</para>
+    <figure id="import-auto-id1165916438558">
+      <media id="import-auto-id1165918160718" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-5b35.png" height="22" width="443"/>
+      </media>
+    </figure>
+    <para id="import-auto-id8297586">In Eq.(E), g<sub>v</sub>= 2 = valley degeneracy corresponding to the two symmetric sub-lattices.</para>
+    <para id="import-auto-id2100125">D<sup>*</sup> = diffusion coefficient, g<sub>s</sub> = 2 = spin degeneracy.</para>
+    <para id="import-auto-id1165912397077">Let τ = relaxation time due to impurity scattering. Then diffusion coefficient is :</para>
+    <figure id="import-auto-id1165917765708">
+      <media id="import-auto-id1165917788557" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-99af.png" height="22" width="418"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165918162898">Reciprocal of relaxation time is defined as follows(this relaxation time is different from mean free time):</para>
+    <figure id="import-auto-id1165912582902">
+      <media id="import-auto-id1165918227358" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-ffd4.png" height="39" width="404"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165914549301">Where n<sub>i</sub>= impurity density, U<sub>i</sub> = matrix element of the impurity potential between initial and final states.</para>
+    <para id="import-auto-id1165918154621">&lt;…&gt;<sub>Ef</sub> = denotes the average potential at E<sub>F</sub>.</para>
+    <para id="import-auto-id1165914575403">Substituting Eq. (E), Eq.(G) and Eq.(H) in  Eq.(F) we get:</para>
+    <figure id="import-auto-id1165918664744">
+      <media id="import-auto-id1165918161141" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-ac94.png" height="49" width="390"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165916247825">Simplifying Eq.(I) we get :</para>
+    <figure id="import-auto-id1165914792318">
+      <media id="import-auto-id1165912574117" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-a29f.png" height="34" width="382"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165918157301">Eq.(H) can be re-written as:</para>
+    <figure id="import-auto-id1165912410743">
+      <media id="import-auto-id1165918127516" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-18f9.png" height="55" width="383"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165918045522">Substituting Eq.(K) in Eq.(J) we get:</para>
+    <figure id="import-auto-id1165917764106">
+      <media id="import-auto-id1165914838559" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-3ce9.png" height="60" width="382"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165917579830">Substituting Eq.(E) in Eq.(L) we get:</para>
+    <figure id="import-auto-id1165912436558">
+      <media id="import-auto-id1165913267848" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-aa4e.png" height="71" width="421"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912455107">Define a dimensionless parameter ‘W’ which characterizes the strength of impurity scattering. We define it as follows:</para>
+    <figure id="import-auto-id1165917791708">
+      <media id="import-auto-id1165912718096" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-b0e8.png" height="47" width="404"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165913551189">Eq (M) is simplified as:</para>
+    <figure id="import-auto-id1165914379022">
+      <media id="import-auto-id1165912394758" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-99a5.png" height="60" width="409"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165914100194">Multiplying the numerator and denominator of Eq.(O) by ‘W’ we get:</para>
+    <figure id="import-auto-id1165912427638">
+      <media id="import-auto-id1165913595724" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-b5de.png" height="64" width="459"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912387062">Cancelling the common terms and simplifying Eq.(P)</para>
+    <figure id="import-auto-id1165918545446">
+      <media id="import-auto-id1165917867666" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-95bb.png" height="57" width="451"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912284015">Ando et. al.(2009) give this the conductivity as :</para>
+    <figure id="import-auto-id1165917579656">
+      <media id="import-auto-id1165917792848" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-386e.png" height="41" width="438"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165912543698">Eq(R) tells us that the conductivity is independent of  E<sub>F</sub> and carrier concentration ‘n’ as long as the strength of scatterer  ‘W’ dependence on  E<sub>F </sub>and ‘n’ is neglected.</para>
+    <para id="import-auto-id1165912383925">The carrier transport in Graphene has some unique properties. Graphene’s conductivity never falls below a minimum value corresponding to the quantum unit of conductance even when concentration of charge carriers tend to be zero. This quantum unit of conductance is [e<sup>2</sup>/(π<sup>2</sup>ħ)] [Ando(2006)]. This quantum unit is given by natural constants and is independent of scattering strength and band parameter. Theoretically it has been derived using Self-consistent Born Approximation of Quantum Theory [Shon and Ando (1998)].The measured minimum conductance is larger than the predicted value. According to Bolotin et.al(2008) as described by Eq.4 in Section 4.4.1 it is given as :</para>
+    <figure id="import-auto-id1165917576378">
+      <media id="import-auto-id1165917712657" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-b557.png" height="42" width="427"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165918053910">
+      <media id="import-auto-id1165918163600" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-a24d.png" height="43" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165913212289">It is further observed by Ando(2006) that electrical conductivity varies linearly with carrier concentration which means that mobility is independent of scatterers.  No saturation is observed  at high carrier concentration.</para>
+    <figure id="import-auto-id1165913849291">
+      <media id="import-auto-id1165917787401" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-41c6.png" height="460" width="542"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165915204744">
+      <emphasis effect="bold">Figure 13. Sub-linear dependence of conductance on carrier concentration.σ</emphasis>
+    </para>
+    <para id="import-auto-id1165912714420">Bolotin(2008) has observed  sublinear dependence of conductance in suspended graphene as shown in Figure 13. The sub-linear dependence shows that short range scatterers are involved . This may be  associated with point defects or sample edges. The shape of conductivity indicates that high mobility sample contain short range disorder whereas low mobility sample are dominated by long range scatterers [Tan et.al.(2007)] . The scattering between K and K′ points of the energy band diagram in Figure 5a determine the range of scattering. If the range is shorter than lattice constant then we have short range scattering and if the range is comparable to or longer than the lattice constant but much smaller than typical electron wavelength then we have long range scattering. It can also be stated that Scattering between the two Dirac points implies long-range scattering and absence of scattering implies short range scattering [Zheng et.al. (2002)]. Point defects in graphene can be categorized as short and long-range scatterers. Flourination of the graphite surface causes a kind of local π-electron defect. This is a short range scatterer. When graphene is exposed to ozone and Ultra-Violet radiation then adsorption is caused. This adsorption is long range scattering potential [ibid]. A charged impurity or Coulomb impurity situated in the substrate near the graphene is long range scatterer. Some points have both short and long-range scattering characteristics. For example Boron atom in boron-doped graphene brings about a notable correction on the electron density only in the range of one unit cell around it hence this is a short-range scatterer. However boron atom slightly deforms the flatness of the graphite surface in a much larger range. Hence this is long range scattering of electron motion[ibid].</para>
+    <para id="import-auto-id1165917987647">Graphene has all its bonds(three sp<sup>2</sup>-σ bonds and one 2p<sub>z</sub>-π bond) completely saturated hence underlying substrate should have  little or no effect on its conductivity. But Aizawa et.al.(1990) have experimentally found that transition-metal-carbide substrate has considerable bonding with the overlying graphene layer leading to considerable remote interfacial phonon scattering.</para>
+    <para id="import-auto-id1165912577721">Bolotin(2008) have also proved that suspended graphene layer experiences more than an order of magnitude improvement in its mobility as compared to that of a sample overlaid on a substrate.</para>
+    <para id="import-auto-id1165917765822">Both these experiments clearly prove that remote interfacial phonon scattering has a significant role to play in carrier transportation.</para>
+  </content>
+</document>

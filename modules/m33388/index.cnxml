@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix VI+VII_Atomic Layer Deposition+FermiLevelPinnning</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33388</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix VI+VII_Atomic Layer Deposition+FermiLevelPinnning</md:title>
+  <md:abstract>Appendix VI and Appendix VII deal with two major problems of CMOS Technology namely how to achieve smooth and even oxide layer for improved yield and how to prevent Fermi Level Pinning.</md:abstract>
+  <md:uuid>b8a3e82e-9c37-4cf4-8ca4-e1748df7efc9</md:uuid>
+</metadata>
+<content>
+    <para id="id28615350">Appendix VI.</para>
+    <para id="id20118846">Atomic layer Deposition</para>
+    <para id="id4599702">Dielectric Layers were deposited by Reactive Sputtering or by Metal Organic CVD. This left unevenness on the surface which caused charge trapping. There were charges stored at the interface too. These charges altered the behavior of MOS capacitance from discharge cycle to discharge cycle. So a deposition method had to be adopted which allowed dielectric deposition in controlled manner atom layer by layer.</para>
+    <figure id="id21522502">
+      <media id="id21522502_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-2e95.png" id="id21522502__onlineimage" height="289" width="650"/>
+      </media>
+    </figure>
+    <para id="id25086563">Figure VI.1. Methodology of Atomic Layer Deposition.</para>
+    <para id="id19654974"> In Figure VI.1 the steps taken for Atomic Layer Deposition is illustrated. Gas1 reacts with bare Silicon surface to form a single atomic layer of insulator Si-Gas1. As soon as one layer is completed Gas1 stops reacting with Si because no bare Si is in contact with Gas1.</para>
+    <para id="id22052607"> In step 2, Gas2 is chosen which is reactive with dielectric1 or Si-Gas1 insulator. Gas2 reacts with dielectric layer1 to form dielectric layer2 (Dielectric1-Gas2 insulator). As soon as dielectric layer2 covers the whole of dielectric1, reaction stops. Thus each reaction is terminated at the end of layer deposition. In this way we achieve layered gate insulator which is controllable down to the width of a single atom.</para>
+    <para id="id24670282"> This produces much smoother dielectric hence the charge trapping is prevented . MOS produced is reproducible and stable in operation.</para>
+    <para id="id10115036"/>
+    <para id="id13050076"/>
+    <para id="id20754845">Appendix VII.</para>
+    <para id="id21031238">Fermi-level pinning and its prevention.</para>
+    <para id="id22632432">(academic.brooklyn.cuny.edu/physics/tung/Schottky/index.htm)</para>
+    <para id="id14792765">At Metal-ntype-Semiconductor interface we realize Schottky Barrier Diode. This exhibits a rectifying contact characteristic hence it has an in-built Schottky Barrier Height(SBH) as illustrated in Figure VII.1. </para>
+    <figure id="id11175641">
+      <media id="id11175641_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-34e6.png" id="id11175641__onlineimage" height="332" width="650"/>
+      </media>
+    </figure>
+    <para id="id7553154">Figure VII.1. Asymptotic Energy Band Diagram of Metal-Semiconductor Interface and illustration of Schottky Barrier Potential Height.</para>
+    <para id="id27570890">It was found experimentally that SBH is insensitive to the Metal Work Function. This was defined as Fermi-Level pinning (FL pinning). It generally occurred at the mid-band gap of Semiconductor. This was always the case with polycrystalline MS interfaces and it was quite counterintuitive. In 1980s a few high quality, single crystal MS interfaces prepared and SBH measured. SBH was found to be sensitive to orientation/structure of of MS interface. By spatially-resolved SBH measurement technique notably by Ballistic Electron Emission Microscopy(BEEM) it was found that SBH are inhomogeneous at polycrystalline MS interfaces and structure dependent at single crystal MS interfaces.</para>
+    <para id="id12746144">At the turn of the century when dipole associated with chemical bonding at MS interfaces was modeled using established methods borrowed from Molecular Physics it was shown that FL pinning was a natural consequence of interfacial bonding.</para>
+    <para id="id20886772">If minimization of total energy is applied </para>
+    <list id="id5605957" list-type="enumerated" number-style="arabic">
+      <item>then it results in structure dependence of SBH at epitaxial interfaces and</item>
+      <item>SBH inhomogeneity at polycrystalline interfaces.</item>
+    </list>
+    <para id="id20396605">By this theory FL pinning at polycrystalline MS interfaces and the pinning position at mid-band gap</para>
+    <para id="id11445255">comes automatically.</para>
+    <para id="id20060197">This model is being further refined.</para>
+  </content>
+</document>

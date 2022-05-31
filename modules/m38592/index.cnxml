@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_part 4_CMOS lay-out design rules_concluded.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38592</md:content-id>
+  <md:title>SSPD_Chapter 7_part 4_CMOS lay-out design rules_concluded.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 4_CMOS Layout conclusion gives the design rules for contact enclosures, device well to device well spacing and the complete N-Well CMOS layout with the 
+PMOS:NMOS =(W/L)p:(W/L)n = 2:1 for best noise margin.</md:abstract>
+  <md:uuid>1ae5ef0e-9bdb-4540-a9c6-15985f521a1b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168421283059">SSPD_Chapter 7_Part 4_CMOS design rules_continued3</para>
+    <para id="id1168410795612">7.4.3.1. Device Well-Device Well spacing should be 3Lambda.</para>
+    <figure id="id1168410619253">
+      <media id="id1168410619253_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-9cd1.png" id="id1168410619253__onlineimage" height="485" width="650"/>
+      </media>
+    </figure>
+    <para id="id1168426558790">
+      <emphasis effect="bold">7.4.4. Metal Overlay on Diffusion Contact/Poly Si Contact/Metal 1,Metal 2 Via.</emphasis>
+    </para>
+    <para id="id1168422815215"> In Figure 7.4.4.1 we give the design rules for Contact Size and Contact Spacing with respect to Diffusion Well/PolySi Edge /Channel, minimum poly-spacing with respect to adjacent diffusion well, minimum gate overlap of Diffusion –Well and minimum Source/Drain width according to CUMF NMOS Design Rules. Contact area is marked black.</para>
+    <para id="id4351491"/>
+    <para id="id1168412562717">
+      <figure id="id1168413099952">
+        <media id="id1168413099952_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-cc0c.png" id="id1168413099952__onlineimage" height="579" width="650"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Figure 7.4.4.1. The design rules for Contact Size and Contact Spacing with respect to Diffusion Well/PolySi Edge /Channel, minimum poly-spacing with respect to adjacent diffusion well, minimum gate overlap of Diffusion –Well and minimum Source/Drain width according to CUMF NMOS Design Rules. Contact area is marked black.</emphasis>
+    </para>
+    <para id="id1168431827846"> In Figure 7.4.4.2 we give the definition of Via and how through Vias different level of metallization are interconnected. Minimum distance between two vias is 3Lambda.</para>
+    <para id="id1168413817810">
+      <figure id="id1168412595761">
+        <media id="id1168412595761_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-05b3.png" id="id1168412595761__onlineimage" height="255" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168419660031">
+      <emphasis effect="bold">7.4.5. Rules for CMOS Layout.</emphasis>
+    </para>
+    <para id="id1168413369704">CMOS can be fabricated by the following three methods:</para>
+    <list id="id1168413112882" list-type="enumerated" number-style="lower-roman">
+      <item>N-Well in P-Substrate;</item>
+      <item>P-Well in N-Substrate;</item>
+      <item>Twin Well in P-Substrate.</item>
+    </list>
+    <para id="id1168426790659">We will choose N-Well in P-Substrate. In this case we have the following three requirements:</para>
+    <para id="id1168414382705">1. Definition of n-well area</para>
+    <para id="id1168413047469"> 2. Threshold implant of two types of transistor</para>
+    <para id="id1168412949859"> 3. Definition of source and drains regions for the NMOS and PMOS.</para>
+    <para id="id1168431827524">To ensure the separation of the PMOS and NMOS devices, n-well supporting PMOS is 6lambda away from the active area of NMOS transistor. </para>
+    <para id="id1168410676092">This is to prevent overlap of the associated regions as shown in Figure 7.4.5.1.</para>
+    <para id="id1168425852576">Simplest MOS processes require only 4 masks. It can be p-channel or n-channel FETs, not both.</para>
+    <para id="id1168411614072">In CMOS we have n and p transistors transistors simultaneously and therefore CMOS is a major improvement over NMOS or PMOS technology.</para>
+    <para id="id1168425312775"/>
+    <figure id="id1168420594474">
+      <media id="id1168420594474_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-3b98.png" id="id1168420594474__onlineimage" height="259" width="520"/>
+      </media>
+    </figure>
+    <para id="id1168430531809">
+      <emphasis effect="bold">7.4.5.1. Complete CMOS Layout.</emphasis>
+    </para>
+    <para id="id1168412953687"> We have seen that for maximum noise margin, CMOS should have symmetrical operation around Vin = Vout = 0.5 V<sub>DD</sub> . This requires that special transconductance parameter β<sub>N</sub> = β<sub>P</sub> . Since mobility of majority carriers in PMOS is half that of majority carriers in NMOS hence (W/L)<sub>P</sub> = 2× (W/L)<sub>N</sub> . Based on this inference the CMOS layout is given in Figure 7.4.5.2.</para>
+    <figure id="id1168422656004">
+      <media id="id1168422656004_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-9707.png" id="id1168422656004__onlineimage" height="429" width="650"/>
+      </media>
+    </figure>
+  </content>
+</document>

@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 6.</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m29937</md:content-id>
+  <md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 6.</md:title>
+  <md:abstract>Summary: This Part 6 of 50 years journey.</md:abstract>
+  <md:uuid>b33eb5a7-0811-4c21-9b5a-e87e7264e420</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5271792">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 6.</para>
+    <para id="id1171282104105">Keywords: Vertical Scaling, Lateral Scaling, transit time, scatter limited velocity;</para>
+    <para id="id6457945">Summary: This Part 6 of 50 years journey.</para>
+    <para id="id1171282183932">
+      <emphasis effect="bold">IV.1.3.1. The scaling issues in SiGe HBTs.</emphasis>
+    </para>
+    <para id="id1171272448981">SiGe successful demonstration was first done in late 1980[Appendix VI,history of HBT]. This was continuously scaled to achieve a record peak f<sub>T</sub> of 300GHz  in 2006[“Effect of collector lateral scaling on performance of high-speed SiGe HBTs with f<sub>T</sub> &gt; 300GHz”, Rieh, Khater, Joseph, Freeman and Ahlgren, IEEE ED Letters, Vol 42, ,No20, 28<sup>th</sup> September 2006.]</para>
+    <para id="id7099361">The speed of operation in vertical devices has two components: transit time across the base and BC reverse biased junction on one hand and RC delays due to junction parasitic and bulk resistances.</para>
+    <figure id="id6292670">
+      <media id="id6292670_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-7068.png" id="id6292670__onlineimage" height="151" width="454"/>
+      </media>
+    </figure>
+    <para id="id6336250">τ<sub>E</sub> = RC delay time constant at EB junction;</para>
+    <para id="id4055199">τ<sub>C</sub> = RC delay time constant at CB junction;</para>
+    <para id="id4350303">τ<sub>B</sub> = Transit time delay through Base Width;</para>
+    <para id="id2439504">τ<sub>CSCL</sub> = Transit time delay through reverse biased CB junction;</para>
+    <para id="id6783301">v<sub>S</sub> = scatter limited velocity of electrons while falling down the potential hill at CB junction;</para>
+    <para id="id1171275089029">The vertical scaling is done for reduction in base and collector transit time. This is achieved by reducing the thermal cycles once base profile is achieved. Ge ramp in SiGe base has to be increased and C added to base for limiting the boron diffusion. Ge ramp creates a built-in field which aids the diffusing electrons cross the base region. </para>
+    <para id="id7737091">To reduce the time delays, base width and collector widths have to be reduced and I<sub>C </sub>must be increased which requires Kirk Effect should be pushed to higher Current Desities. This achieved by increasing Collector Dopent Concentration. Hence Selectively Implanted Collector(SIC) is introduced.</para>
+    <para id="id2085738">Lateral scaling reduces the overlap and cross sectional area of the junction hence parasitic capacitance and resistance will be reduced leading to a diminished RC delay time constant. Therefore along with aggressive vertical scaling a judicious lateral scaling also has to be resorted to. Excessive lateral scaling results in an early onset of Kirk effect. So lateral scaling has to be optimized. </para>
+    <para id="id8960805">Decreasing the Shallow Trench Isolation Width increases the perimeter collector to substrate capacitance which is a significant component in time-delay equation. Hence STI Width is not decreased every generation.</para>
+    <para id="id1171272646486">Decreasing the distance between SIC(selectively implanted collector) and extrinsic base implant will increase the overlap i.e. C<sub>CB</sub>OL. This has to be minimized. This is achieved by raised extrinsic base structure.</para>
+    <figure id="id1171272463185">
+      <media id="id1171272463185_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-734f.png" id="id1171272463185__onlineimage" height="417" width="663"/>
+      </media>
+    </figure>
+    <para id="id1212204"><emphasis effect="bold">Figure 7. Cross-sectional view of fabricated device.(</emphasis>W<sub>B</sub> is the base width which is scaled under vertical scaling and W<sub>C</sub> is the collector width which is scaled under lateral scaling).</para>
+    <para id="id1171272934072">The result of aggressive vertical scaling and judicious lateral scaling is shown in the Figure 8.</para><para id="id5957328">
+      <figure id="id5809898">
+        <media id="id5809898_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-f79e.png" id="id5809898__onlineimage" height="438" width="668"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2292683">
+      <emphasis effect="bold">Figure 8. Cutoff frequencies versus year for various Technologies.[Rieh et al, IPRM, 2003, pp374-377]</emphasis>
+    </para>
+    <para id="id3414752">As is evident from graph in Figure 8, today in 2009 through scaling and innovation , SiGe HBT is a better technology than III-V technology. While trying to improve the performance using scaling technology, some new problems come to the fore namely:</para><para id="id1171282028504">Self heating , electromigration and reduction in the safe region of operation. By scaling the emitter width(E<sub>W</sub>) with respect to 1/J<sub>C</sub> (the peak f<sub>T </sub>current) significantly reduces self-heating and it eases electromigration problem[“ A look into the Future for SiGe HBTs”, Harame, Freeman et al,IEEE Symposium,WA3.5(invited)]</para>
+    <para id="id8565162"> Heterojunction Bipolar Transistor strategy was adopted to maintain high injection efficiency with high Base conductivity so that base spreading resistance could be minimized and a better figure of merit as well as better f<sub>max</sub> could be achieved but in practice it is found that as base doping is increased and Ge content and ramp increased, neutral base recombination is enhanced leading to a deterioration in current gain. So an optimization in Ge profile has to be done inorder to get the full advantage of increased base doping[“Current Gain of SiGe HBT under High Base Doping Concentrations” Ningyue Jiang &amp; Zhenquieng Ma,” Semiconductor Science &amp; Technology, 22, S168-S172, 2007.].</para>
+    <para id="id1171272560126"> SiGe HBT technology was originally developed for high-end computing but it failed because it consumed much more power as compared to that in CMOS. Hence it was abandoned. Subsequently it was found that for RF circuits it consumed much less power as compared to that of CMOS for the same level of performance. So SiGe rapidly developed its application area in various forms of communications such as wired and wireless communication, disk storages, high speed high bandwidth instrumentation. Discrete SiGe are being used universally in RF amplifies and integrated SiGe chips are prolifigating in GSM,CDMA wireless hand sets and base stations. They are rapidly penetrating LAN chipsets and high speed 10-40 Gb/s synchronous optical network(SONET) transceivers.</para>
+    <para id="id6268594"> SiGe real strength lies in its ability to integrate analog, RF and digital on a single chip using existing CMOS fabs. This kind of compatibility is not found with GaAs technology. Apart from this versatility it is enabling new architecture such as direct conversion and software radio.</para>
+    <para id="id1171272279599"> Today SiGe BiCMOS is the fastest growing semiconductor process.</para>
+    <para id="id1171272436548"/>
+  </content>
+</document>

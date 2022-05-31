@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Experiment 2_Time Domain Response of HPF.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50960</md:content-id>
+  <md:title>SSPD_Experiment 2_Time Domain Response of HPF.</md:title>
+  <md:abstract>This module gives the Figures of Time Domain Response  of HPF.</md:abstract>
+  <md:uuid>cfa6bce4-8d5e-414f-a0e4-576da5e330f8</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164847241687"><emphasis effect="bold">Experiement -2-Time Domain Response of  HPF.</emphasis>
+    </para><para id="import-auto-id1164854433257"><emphasis effect="bold">2.4. High pass RC circuit</emphasis> .</para>
+    <figure id="import-auto-id1164846676813">
+      <media id="import-auto-id1164851636623" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-1878.png" height="225" width="601"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164847744434">
+      <emphasis effect="bold">Figure 2 .a. Input Square Wave of High Pass Filter .</emphasis>
+    </para>
+    <figure id="import-auto-id1164847513402">
+      <media id="import-auto-id1164852618292" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-3a57.png" height="260" width="557"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164846926645">
+      <emphasis effect="bold">Figure 2 .b. Output Square Wave Response of High Pass Filter for T &gt;&gt; τ .</emphasis>
+    </para>
+  </content>
+</document>

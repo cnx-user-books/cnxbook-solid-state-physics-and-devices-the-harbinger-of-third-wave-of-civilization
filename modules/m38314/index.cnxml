@@ -1,0 +1,401 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 1_The Art of Microchip Fabrication transforms into HiTech Computer-Aided VLSI DESIGN and Microchip Fabrication.(Untitled)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38314</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 1_The Art of Microchip Fabrication transforms into HiTech Computer-Aided VLSI DESIGN and Microchip Fabrication.(Untitled)</md:title>
+  <md:abstract>SSPD_Chapter 7 is concerned with the physical level design of VLSI Circuits. SSPD_Chapter 7_Part 1 deals with the level of Automation which has been achieved in the design of VLSI circuits.</md:abstract>
+  <md:uuid>9e942016-205d-41a5-b629-3046731a3309</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171755209024">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 1_The Art of Microchip Fabrication transforms into HiTech Computer-Aided VLSI DESIGN and Microchip Fabrication.</emphasis>
+    </para>
+    <para id="id1171770890200">[This chapter is based on the write up titled ‘Technology Computer Aided Design for Si, SiGe and GaAs Integrated Circuits’ edited by G.A. Armstrong and C.K. Maiti as a part of IET Circuits, Devices and Systems Series 21]</para>
+    <para id="id1171757474875">In last 60 years, the successful scaling of the silicon devices and advances in processing technologies has enabled us to achieve dizzying heights in terms of complexity of electronics systems integrated till date. The advanced level of integration and complexity achieved is testified by 3D HDTV and 4G Mobile Communication.</para>
+    <para id="id1171759706382">Today we have successfully marched from micro era to nano era of IC Technology and reached giga scale level of integration but we are running into serious road blocks . These road blocks are due to reaching the physical limits of the devices and quantum mechanics will have to be invoked for further scaling of the devices.</para>
+    <list id="id1171768304869" list-type="bulleted">
+      <item>Principles of VLSI Design</item>
+    </list>
+    <para id="id1171756458875">[CMOS VLSI Design: A Circuits and Systems Perspective, Third Edition.by Neil H.E. Weste and David Harris.ISBN: 0-321-14901-7, Addison Wesley.</para>
+    <para id="id1171760244117"><emphasis effect="bold">Supplementary texts :</emphasis>Digital Integrated Circuit Design by Ken Martin, Oxford University Press (2000). Digital Integrated Circuits, A Design Perspective, Second Edition by J. Rabaey, A. Chandrakasan and B. Nikolic, Prentice Hall (2003).]</para>
+    <para id="id1171763870497">What are the concepts and techniques of modern integrated circuit design (CMOS VLSI).</para>
+    <para id="id1171785890661">How to design integrated circuits using Commercial Computer Aided Design (CAD) Tools (CADENCE). </para>
+    <para id="id1171764256978"><emphasis effect="bold">The Design Process</emphasis>:<emphasis effect="italics"/>An iterative process that refines an <emphasis effect="italics">idea </emphasis>to a manufacturable device through at least five levels of design abstraction.</para>
+    <para id="id1171758567474"><emphasis effect="bold">Top level</emphasis>: The <emphasis effect="italics">idea </emphasis>refined into a set of requirements called specifications: </para>
+    <para id="id1171754071312">What does the chip do?</para>
+    <para id="id1171789622021">How fast does it need to operate in order to be competitive?</para>
+    <para id="id1171756747146">How big will it be?</para>
+    <para id="id1171755866933">How much power will it consume?</para>
+    <para id="id1171754406155">Design Constraints:</para>
+    <para id="id1171754066419">Speed, power and area.</para>
+    <para id="id1171762957653"><emphasis effect="bold">Abstraction</emphasis>:<emphasis effect="italics"/>A very effective means of dealing with design complexity.</para>
+    <para id="id1171761230297">Creating a model at a higher level of abstraction involves replacing detail at</para>
+    <para id="id1171763871182">the lower level with simplifications.</para>
+    <para id="id1171757454462"><emphasis effect="bold">Simulation</emphasis>:<emphasis effect="italics"/>The functional behavior of the design (or a parameter such as power)</para>
+    <para id="id1171763871522">is determined by applying a set of excitation vectors to a circuit model.</para>
+    <para id="id1171758728023"/>
+    <para id="id1171766466451">Levels of abstraction:</para>
+    <para id="id1171756584632">(1) Functional (architecture)</para>
+    <para id="id1171768350438">(2) Register Transfer Level (microarchitecture, block)</para>
+    <para id="id1171765166578">(3) Logic Design</para>
+    <para id="id1171780139540">(4) Circuit Design</para>
+    <para id="id1171768289872">(5) Physical Design</para>
+    <para id="id1171758551681">Hardware Description Languages</para>
+    <para id="id1171758537152">Verilog, VHDL etc.</para>
+    <para id="id1171756689055">VHDL Example: 32 bit adder</para>
+    <para id="id1171761645130">Entity ALU32 is port(</para>
+    <para id="id1171780135584"> A, B: in bit_vector(31 downto 0);</para>
+    <para id="id1171754905303">.....) <emphasis effect="bold">end </emphasis>ALU32;</para>
+    <para id="id1171758757697"><emphasis effect="bold">if </emphasis>(a=b) <emphasis effect="bold">then</emphasis></para>
+    <para id="id1171754049378">sum &lt;= ‘0’ ;</para>
+    <para id="id1171762125371">else</para>
+    <para id="id1171765166036">sum &lt;= (a or b);</para>
+    <para id="id2625615">end if;</para>
+    <para id="id1171758393636">This is Behavioural Simulation.</para>
+    <para id="id1171756511359">In the following four diagrams the four levels of abstraction are introduced.</para>
+    <para id="id1171755160621">
+      <figure id="id1171754404736">
+        <media id="id1171754404736_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-f1ce.png" id="id1171754404736__onlineimage" height="443" width="613"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171758728396">
+      <emphasis effect="bold">Figure 7.1. VLSI Design at RTL and Logic Design Level.</emphasis>
+    </para>
+    <para id="id1171763871385">
+      <figure id="id1171757286069">
+        <media id="id1171757286069_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-184c.png" id="id1171757286069__onlineimage" height="432" width="609"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171786671672">Figure 7.2. VLSI Design at Circuit Design and Physical Design Level.</para>
+    <para id="id1171758856904">In this SSPD_ Chapter 7 we are concerned with physical design level.</para>
+    <para id="id1171780960124">The layout of a CMOS inverter is shown below. In course of the discussion of Chapter 7 we will arrive at the particular layout of CMOS as shown in Figure 7.3</para>
+    <para id="id1171756447986">
+      <figure id="id1171765165748">
+        <media id="id1171765165748_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-4731.png" id="id1171765165748__onlineimage" height="455" width="599"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171763940406">
+      <emphasis effect="bold">Figure Prin </emphasis>
+      <emphasis effect="bold">Figure 7.3. CMOS Layout on IC Chip.</emphasis>
+      <emphasis effect="italics"/>
+      <emphasis effect="bold">CMPE 315</emphasis>
+    </para>
+    <para id="id1171767256594">
+      <emphasis effect="bold">7.2. Hierarchy and Abstraction</emphasis>
+    </para>
+    <para id="id1171778219113"><emphasis effect="bold">Moore’s Law</emphasis><emphasis effect="bold"/><emphasis effect="bold">states</emphasis><emphasis effect="bold">:</emphasis><emphasis effect="italics"/>Integration density doubles every 18 months.</para>
+    <para id="id1171757377315">For example, Microprocessors:</para>
+    <para id="id1171758392150">The million transistor/chip barrier crossed in ‘88 with the 486. Today we have more than 100 million transistors on a single chip in Pentium IV..</para>
+    <para id="id1171789591648">Impact of this revolution on design is:</para>
+    <para id="id1171755871787">Hand crafting not possible anymore for designing a pentium IV (as was done for the 4004).</para>
+    <para id="id1171760321976"><emphasis effect="bold">Hierarchy</emphasis><emphasis effect="italics"/>is used in the design of complex VLSI circuits.</para>
+    <para id="id1171765166820">A large system can be partitioned into many units. Each unit can have functional blocks,</para>
+    <para id="id1171773994955">Functional blocks are built from cells, cells are ultimately constructed from transistors.</para>
+    <para id="id1171764206525">The processor is a collection of modules each composed of cells. Re-use of cells reduces design effort.</para>
+    <para id="id1171762123934">In Figure 7.4, the hierarchical levels of VLSI Design is shown. It is top-down approach.</para>
+    <para id="id1171758581426">
+      <figure id="id1171766707802">
+        <media id="id1171766707802_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-bae5.png" id="id1171766707802__onlineimage" height="442" width="634"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171762125005">Figure 7.4. Hierarchical Level Representation of VLSI Design.</para>
+    <para id="id1171757222294"><emphasis effect="bold">Abstraction</emphasis><emphasis effect="italics"/>is also used in digital designs. It is critical for dealing with the design complexity.</para>
+    <para id="id1171754404260">Entire CAD design frameworks are based on this design philosophy.</para>
+    <para id="id1171763870255">These have made it possible to achieve current design complexity.</para>
+    <para id="id1171756895661">Examples of CAD tools for digital design are:</para>
+    <para id="id1171778343183">Simulators that work at various complexity levels.</para>
+    <para id="id1171763122763">Design verification tools.</para>
+    <para id="id1171778348615">Place and Route tools. (Layout generation)</para>
+    <para id="id1171756061532">Logic synthesis tools.</para>
+    <para id="id1171754902795"><emphasis effect="bold">Standard cells</emphasis><emphasis effect="italics"/>are a popular design style that makes layout generation easy.</para>
+    <para id="id1171754626772">Layouts of basic gates such as AND, OR, NAND, NOR, and NOT as well as</para>
+    <para id="id1171760238257">arithmetic and memory modules are provided as input.</para>
+    <para id="id1171790319048">These cells are designed with similar characteristics, such as constant height,</para>
+    <para id="id1171763871738">and can be manipulated easily to generate a layout.</para>
+    <para id="id1171763105066">Place-and-Route tools can use these libraries and generate layouts using logic level description of the design.</para>
+    <para id="id1171782630818">Digital Circuit Design</para>
+    <para id="id1171754409307">If design automation solves all the problems, why be concerned with digital circuit</para>
+    <para id="id1171765146786">design?</para>
+    <para id="id1171755223789">Reality is more complex and a knowledge of digital circuit design will be important</para>
+    <para id="id1171764222602">for some time to come.</para>
+    <para id="id1171780135524">Someone has to design and implement the module libraries.</para>
+    <para id="id1171758394607">Porting from technology generation to technology generation (different feature</para>
+    <para id="id1171756367103">sizes) is NOT automatic.</para>
+    <para id="id1171765122412">This occurs approximately every two years!</para>
+    <para id="id1171756367924">􀂁 Creating an adequate <emphasis effect="italics">model </emphasis>of a cell/module requires an in-depth understanding</para>
+    <para id="id1171763871025">of its internal operation.</para>
+    <para id="id1171754919858">􀂁The library-based approach does NOT work for all situations, i.e. high performance</para>
+    <para id="id1171754039727">sub-systems in designs like microprocessors.</para>
+    <para id="id1171772444066">The abstraction-based approach is only correct to a certain degree.</para>
+    <para id="id1171754926323">Performance of a module, i.e. an adder, is substantially influenced by the way</para>
+    <para id="id1171758394011">it is connected in its environment (<emphasis effect="italics">interconnect parasitics</emphasis>).</para>
+    <para id="id1171766687674">􀂁Scaling tends to emphasize other deficiencies of the abstraction-based approach.</para>
+    <para id="id1171782643725">Global entities, such as clock signals and supply lines, are significantly</para>
+    <para id="id1171754035650">affected by scaling.</para>
+    <para id="id1171780136114">􀂁 New design issues emerge over time.</para>
+    <para id="id1171754049562">Power dissipation issue periodically re-emerges.</para>
+    <para id="id2907420">􀂁 Trouble shooting an erroneous design requires circuit expertise.</para>
+    <para id="id1171757456585">􀂁<emphasis effect="bold">And</emphasis><emphasis effect="italics">: </emphasis>You need to know it for doing the class assignments and project.</para>
+    <figure id="id1171756310027">
+      <media id="id1171756310027_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-8209.png" id="id1171756310027__onlineimage" height="452" width="651"/>
+      </media>
+    </figure>
+    <para id="id1171754408256">Figure 7.5. Functional testing of the VLSI System.</para>
+    <para id="id1171768480216">
+      <figure id="id1171763870229">
+        <media id="id1171763870229_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-26d9.png" id="id1171763870229__onlineimage" height="401" width="634"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171790111997">Figure 7.5. Functional and Parametric Testing.</para>
+    <figure id="id1171782637012">
+      <media id="id1171782637012_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-b153.png" id="id1171782637012__onlineimage" height="409" width="647"/>
+      </media>
+    </figure>
+    <para id="id1171759079676">
+      <emphasis effect="bold">7.3. History of Chip Design</emphasis>
+    </para>
+    <para id="id1171789553846">[“The History of Custom MOS Design”, Steve Golson,Trilobyte Systems,Email: sgolson@trilobyte.com</para>
+    <para id="id1171772443952">Web: <link url="http://www.trilobyte.com/">http://www.trilobyte.com</link>]</para>
+    <para id="id1171754068013">1968 – This was the beginning Custom MOS design.</para>
+    <para id="id1171754039964"><emphasis effect="bold">• </emphasis>Hand-drawn schematics</para>
+    <para id="id1171754030262"><emphasis effect="bold">• </emphasis>Standard cells -- new library for each product line</para>
+    <para id="id1171765229229">~ 6 kinds of gates, ~ 4-5 speed ranges</para>
+    <para id="id1171754054114"><emphasis effect="bold">• </emphasis>Gate sizing by hand using CT curves (load vs delay)</para>
+    <para id="id1171754068828"><emphasis effect="bold">• </emphasis>Place &amp; route by hand on rubylith mylar sheets</para>
+    <para id="id1171754066394"><emphasis effect="bold">• </emphasis>TTL breadboard for verification</para>
+    <para id="id1171754661729"><emphasis effect="bold">• </emphasis>Transistor-level timing analysis using SPICE-like programs</para>
+    <para id="id1171754086304">Designer thinks about:</para>
+    <para id="id1171754069197">Gates, transistors, breadboard, and maybe library</para>
+    <para id="id1171754680380">Early 1970s -- some improvements</para>
+    <para id="id1171754070672"><emphasis effect="bold">+ </emphasis>Module-level design (multiple designers working on one chip)</para>
+    <para id="id1171754051824"><emphasis effect="bold">+ </emphasis>Software simulation (cycle-based)</para>
+    <para id="id1171754566060"><emphasis effect="bold">+ </emphasis>On-chip bus design (trade wires for time)</para>
+    <para id="id1171760397950"><emphasis effect="bold">+ </emphasis>Pitch-matched layout (datapath, PLA, ROM, RAM)</para>
+    <para id="id1171768816171"><emphasis effect="bold">+ </emphasis>MOS-specific circuit techniques (dynamic logic)</para>
+    <para id="id1171768759423">Designer thinks about:</para>
+    <para id="id1171758394347">Gates, netlist simulation, floorplan, transistors</para>
+    <para id="id1171754035156">Early 1980s -- LSI Logic et al.</para>
+    <para id="id1171783111133">Hand-drawn schematics</para>
+    <para id="id1171778338917"><emphasis effect="bold">• </emphasis>Hand-typed netlist</para>
+    <para id="id1171761840324"><emphasis effect="bold">+ </emphasis>Automatic place and route</para>
+    <para id="id1171759303530"><emphasis effect="bold">• </emphasis>Netlist simulation</para>
+    <para id="id1171785238274"><emphasis effect="bold">+ </emphasis>Gate-level timing analysis</para>
+    <para id="id1171757377060">Designer thinks about:</para>
+    <list id="id1171778224401" list-type="enumerated" number-style="arabic">
+      <item>Gates, netlist simulation</item>
+      <item>Mid 1980s -- some improvements</item>
+    </list>
+    <para id="id1171758735192">Schematic capture</para>
+    <para id="id1171762125091"><emphasis effect="bold">+ </emphasis>Automatic netlist generation</para>
+    <para id="id1171755155853"><emphasis effect="bold">• </emphasis>Automatic place and route</para>
+    <para id="id1171754040446"><emphasis effect="bold">• </emphasis>Netlist simulation</para>
+    <para id="id1171757364382"><emphasis effect="bold">• </emphasis>Gate-level timing analysis</para>
+    <para id="id1171766749905">Designer thinks about:</para>
+    <list id="id1171756268192" list-type="enumerated" number-style="arabic">
+      <item>Gates, netlist simulation</item>
+      <item>Early 1990s -- Verilog and synthesis</item>
+    </list>
+    <para id="id1171757456191">RTL Verilog</para>
+    <para id="id1171760720866"><emphasis effect="bold">+ </emphasis>RTL simulation</para>
+    <para id="id1171754073336"><emphasis effect="bold">+ </emphasis>Synthesized netlist</para>
+    <para id="id1171759765723"><emphasis effect="bold">• </emphasis>Netlist simulation</para>
+    <para id="id1171764897149"><emphasis effect="bold">• </emphasis>Automatic (?) place and route</para>
+    <para id="id1171754943797"><emphasis effect="bold">• </emphasis>Gate-level timing analysis</para>
+    <para id="id1171764897400">Designer thinks about:</para>
+    <list id="id1171754619699" list-type="enumerated" number-style="arabic">
+      <item>RTL code, RTL simulation, gates, netlist simulation</item>
+      <item>Late 1990s -- Behavioral synthesis</item>
+    </list>
+    <para id="id1171785800649">Behavioral Verilog, some generated by graphical HLDA tools</para>
+    <para id="id1171758766147"><emphasis effect="bold">+ </emphasis>Behavioral Verilog and HLDA simulation</para>
+    <para id="id1171756366312"><emphasis effect="bold">• </emphasis>RTL Verilog, some automatically generated by HLDA tool</para>
+    <para id="id1171779842691"><emphasis effect="bold">• </emphasis>RTL simulation</para>
+    <para id="id1171757236018"><emphasis effect="bold">• </emphasis>Synthesized netlist</para>
+    <para id="id1171757586403"><emphasis effect="bold">• </emphasis>Netlist simulation</para>
+    <para id="id1171754030499"><emphasis effect="bold">• </emphasis>Automatic (???) place and route</para>
+    <para id="id1171754051626"><emphasis effect="bold">• </emphasis>Gate-level timing analysis</para>
+    <list id="id1171754069061" list-type="enumerated" number-style="arabic">
+      <item><emphasis effect="bold">+ </emphasis>FPGA breadboard</item>
+    </list>
+    <para id="id1171754070639">Late 1990s -- Behavioral synthesis</para>
+    <para id="id1171754038124">Designer thinks about:</para>
+    <para id="id1171754050658">Behavioral code, RTL code, gates, floorplan,</para>
+    <list id="id1171754042808" list-type="enumerated" number-style="arabic">
+      <item>behavioral simulation, RTL simulation, netlist simulation, breadboard</item>
+    </list>
+    <para id="id1171761154475">2001 and beyond the infinite…</para>
+    <para id="id1171761365194"><emphasis effect="bold">+ </emphasis>System design language (C++, Superlog, SystemC, etc.)</para>
+    <para id="id1171761348054"><emphasis effect="bold">+ </emphasis>System design language simulation</para>
+    <para id="id1171779298900"><emphasis effect="bold">+ </emphasis>System design language synthesis</para>
+    <para id="id1171781464891"><emphasis effect="bold">• </emphasis>RTL Verilog</para>
+    <para id="id1171756037259"><emphasis effect="bold">• </emphasis>RTL simulation</para>
+    <para id="id3550929"><emphasis effect="bold">• </emphasis>Floorplan</para>
+    <para id="id1171789659169"><emphasis effect="bold">• </emphasis>RTL synthesized netlist &amp; placement (physical synthesis)</para>
+    <para id="id1735252"><emphasis effect="bold">• </emphasis>Netlist simulation</para>
+    <list id="id1171771819953" list-type="enumerated" number-style="arabic">
+      <item><emphasis effect="bold">• </emphasis>Gate-level timing analysis</item>
+    </list>
+    <para id="id1171754581183">2001 and beyond the infinite…</para>
+    <para id="id6631485">Designer thinks about:</para>
+    <para id="id1171761578042">System code, RTL code, gates, floorplan, placement,</para>
+    <list id="id3016394" list-type="enumerated" number-style="arabic">
+      <item>system simulation, RTL simulation, netlist simulation, breadboard</item>
+      <item>Levels of abstraction today…</item>
+    </list>
+    <para id="id5577421">[Steve Golson -- Trilobyte Systems -- Levels of Abstraction: The History of Custom MOS Design]</para>
+    <para id="id1171789282211">Levels of abstraction today…</para>
+    <figure id="id1171774303997">
+      <media id="id1171774303997_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-8d00.png" id="id1171774303997__onlineimage" height="342" width="542"/>
+      </media>
+    </figure>
+    <para id="id1171767359033">
+      <emphasis effect="bold">Figure 7.8. Levels of abstraction versus Year.</emphasis>
+    </para>
+    <para id="id1171766395059">Levels of abstraction tomorrow??</para>
+    <figure id="id1171789165994">
+      <media id="id1171789165994_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-990a.png" id="id1171789165994__onlineimage" height="330" width="521"/>
+      </media>
+    </figure>
+    <para id="id1171780086714">
+      <emphasis effect="bold">Figure 7.9. Levels of abstraction in Future.</emphasis>
+    </para>
+    <para id="id1171754372216">What designers need</para>
+    <para id="id8638073">is to have abstraction levels <emphasis effect="italics">removed</emphasis>,</para>
+    <para id="id1171756283666">not <emphasis effect="italics">added</emphasis></para>
+    <para id="id1171773196038">What designers need… is RTL signoff</para>
+    <para id="id1171766479289">Designer thinks about:</para>
+    <para id="id1171783510863">System code, RTL code,</para>
+    <para id="id1171776432364">System simulation, RTL simulation</para>
+    <para id="id1171767169241">Vendor thinks about:</para>
+    <para id="id8358510">everything else</para>
+    <para id="id1171775911087">Levels of abstraction: RTL signoff</para>
+    <figure id="id1171775854114">
+      <media id="id1171775854114_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-2742.png" id="id1171775854114__onlineimage" height="330" width="560"/>
+      </media>
+    </figure>
+    <para id="id1171766629291">
+      <emphasis effect="bold">Figure 7.10. With RTL signoff, level of abstraction comes down to 4 level. As complexity increases the levels again start adding.</emphasis>
+    </para>
+    <para id="id1171781068765">What designers need…</para>
+    <para id="id8242127"><emphasis effect="bold">• </emphasis>Physical synthesis</para>
+    <para id="id1171778146578"><emphasis effect="bold">+ </emphasis>Improve quality of synthesis</para>
+    <para id="id1171782566222"><emphasis effect="bold">+ </emphasis>Improve quality of place &amp; route</para>
+    <para id="id1171766433151"><emphasis effect="bold">+ </emphasis>No more gate tweaks and layout modules</para>
+    <para id="id1171771750821"><emphasis effect="bold">+ </emphasis>No longer worry about gate-level timing</para>
+    <para id="id1171789721607"><emphasis effect="bold">• </emphasis>Automatic verification of RTL vs netlist</para>
+    <para id="id1171783730800"><emphasis effect="bold">+ </emphasis>No longer worry about netlist simulation</para>
+    <para id="id1171768407613"><emphasis effect="bold">• </emphasis>RTL analysis tools for timing, power, area</para>
+    <para id="id1171775648800"><emphasis effect="bold">• </emphasis>Smarter IP lawyers</para>
+    <para id="id1171773218719">Things to consider</para>
+    <para id="id1171782779666">about new EDA tools</para>
+    <para id="id8628497"><emphasis effect="bold">• </emphasis>How do they fit into my existing design flow?</para>
+    <para id="id1171782711352"><emphasis effect="bold">• </emphasis>Revolutionary or evolutionary?</para>
+    <para id="id1171773635466"><emphasis effect="bold">• </emphasis>What problems do they solve?</para>
+    <para id="id1171787219981"><emphasis effect="bold">• </emphasis>What new problems might they introduce?</para>
+    <para id="id1171783654472">Higher-level abstractions place you further away from</para>
+    <para id="id1171766570460">an intuitive feel for hardware and timing: “How fast is it?”</para>
+    <para id="id1171779674597">Just because you can do something,</para>
+    <para id="id1171784831935">doesn’t mean it is worth doing</para>
+    <list id="id1171780590898" list-type="bulleted">
+      <item>Chip Design. </item>
+    </list>
+    <para id="id1171788351543">These are carried out at five levels of abstraction:</para>
+    <list id="id1171776388876" list-type="enumerated" number-style="lower-alpha">
+      <item>System level;</item>
+      <item>Logic level;</item>
+      <item>Circuit level;</item>
+      <item>Layout level;</item>
+      <item>Technological level.</item>
+    </list>
+    <para id="id1171782974616">Chip Design starts with product specification followed by front end design and back end design.</para>
+    <para id="id1171784618765">Front end design starts from system level and goes to the lower level using top-down approach. Up to logic level we are not concerned if we are using Bipolar Technology or MOS technology. After the logic level we come to circuit level. At circuit level, the logic functionality, timing delays, speed and power are the primary concerns. This level is technology dependent it is relatively process-independent.</para>
+    <para id="id1171760362152">At the back-end, the final design needs to be translated into the physical layout. This SSPD_chapter 7 is concerned with the physical layout.</para>
+    <para id="id1171777444245">At the front-end we have electronic computer-aided design(ECAD). These are so powerful today that the logic design can be synthesized from a high level description language such as VHDL or Verilog. The circuit netlist can be extracted from the logic functional description and the layout can be extracted from the circuit and logic-level. This part is full well explained in Collection on Digital System Design by the same author. </para>
+    <list id="id1171754624447" list-type="bulleted">
+      <item>History of Device Simulator.</item>
+    </list>
+    <para id="id1171762402818">In early 1970, numerical processor was coupled with device simulators in SUPREM and SEDAN at Stanford University. These were 1-D programs.</para>
+    <para id="id1171787124040">SEDAN could analyze devices with five metallurgical junctions. Here device analysis was carried out by solving Poisson Equation and transient current continuity equation. This gave the potential distribution and carrier concentration distribution in Silicon devices. In Table 7.1 we give the chronological development of Device Simulator.</para>
+    <para id="id1171769076718">Table 7.1. Chronological Development of Device Simulator.</para>
+    <table id="id1171785127973" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Simulator</entry>
+            <entry>Function</entry>
+          </row>
+          <row>
+            <entry>1970</entry>
+            <entry>SUPREM,SEDAN</entry>
+            <entry>1-D programs run to obtain potential distribution and carrier concentration.</entry>
+          </row>
+          <row>
+            <entry>1980</entry>
+            <entry>MINIMOSBAMBI,PISCES,BIPOLE,HQUPETS</entry>
+            <entry>2-D numerical simulators for solving 2-D Poisson’s Equation and current continuity equation.MINIMOS source codes were made widely available and was specially developed for MOS structures.</entry>
+          </row>
+          <row>
+            <entry>1980</entry>
+            <entry>IBM’sFEDSS/FIELDAYAgere’sPROPHET,PADRE;</entry>
+            <entry>2-D simulators for solving 2-D Poisson’s Equation and current continuity equation.</entry>
+          </row>
+          <row>
+            <entry>Late 1980</entry>
+            <entry>MINIMOS-NT</entry>
+            <entry>This handles planar and non-planar device structures in 2- and 3-Dimensions.</entry>
+          </row>
+          <row>
+            <entry>1980s</entry>
+            <entry>BIPOLE</entry>
+            <entry>Quasi-2-D device simulator. Input consists of mask dimensions, impurity profiles and carrier life-time. It solves for the terminal electrical characteristics. Extremely fast in computing time. It models Avalanche Multiplication and Avalanche Breakdown in fast transistors. It allows for parameter extraction.</entry>
+          </row>
+          <row>
+            <entry>Late 1980s</entry>
+            <entry>PISCES</entry>
+            <entry>General purpose 2-D simulator for Bi-pole and MOS structures. It was adopted by SILVACO</entry>
+          </row>
+          <row>
+            <entry>1990</entry>
+            <entry>ATLAS</entry>
+            <entry>Silvaco International Product, originally derived from PISCES, has enhanced capability of carrying out numerical, physics-based,2- and 3-D simulation of semiconductor devices.</entry>
+          </row>
+          <row>
+            <entry>1990s</entry>
+            <entry>Coupling of ECAD with TCAD</entry>
+            <entry>To support the process and device engineers in exploring the design space, provisions have been made to couple Electronic Design and Technology Design. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171766788579">7.6. History of Process Simulators.</para>
+    <para id="id1171785909526"> Process Simulator models all the fabrication steps encountered in IC Chip fabrication such as: oxidation, implantation, diffusion, etching, deposition and lithography.</para>
+    <para id="id1171760589043"> Early models depended on analytical equations. But with smaller dimensions, second order effects became significant. Hence numerical analysis became inevitable.</para>
+    <para id="id1171783359201"> With shrinking dimensions, according to Moore’s law, 3-D analysis of devices has become important. Later versions of SUPREM have these capabilities.</para>
+    <para id="id1171767665072">
+      <emphasis effect="bold">7.7. Evolution of TCAD.</emphasis>
+    </para>
+    <para id="id2867461"> TCAD modeling based on computer simulation spans the interrelated disciplines of circuit design, device engineering, process development and integration into manufacturing. TCAD is routinely used for process and device development.</para>
+    <para id="id1171758340740"> TCAD is used for rapid prototyping as well to study new device structures and discover newer terminal characteristics. </para>
+    <para id="id1171759100940">SUPREM for process simulation and PISCES for device simulation have been commercialized by Technology Modeling Associates(TMA) by the name TSUPREM4 and MEDICI respectively. Silvaco bought the license and offered the same by the name ATHENA and ATLAS. Integrated Systems Engineering(ISE) offered its own version of process and device simulator by the name DIOS and DESSIS. ISE has since merged with Synopsis.</para>
+  </content>
+</document>

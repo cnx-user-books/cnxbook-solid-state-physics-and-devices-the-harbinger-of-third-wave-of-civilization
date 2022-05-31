@@ -1,0 +1,293 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_concluded</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38654</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_concluded</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_concluded This module concludes the basic circuit concepts by giving the analysis of the parasitic capacitances associated with fringing-field effect, with interlayer effect,with inter-wire effect,with overlap effect and with peripheral effect.Including these parasitics makes the modelling and simulation more acurate and hence more realistic.</md:abstract>
+  <md:uuid>65cbbfdf-005a-41d7-8f54-181714f62b33</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165384916650">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_concluded</emphasis>
+    </para>
+    <para id="id1165396380890">7.6.9. Wiring Capacitances.</para>
+    <para id="id1165395980929"><emphasis effect="bold"/>We have already discussed area capacitances and its effects on the speed of switching. Here we will discuss the various parasistic capacitances associated with the interconnection wirings. These need to be accounted along with the area capacitances while studying the performance of CMOS circuits. Three main sources of wiring parasitic capacitances are: fringing fields, interlayer capacitances aand peripheral capacitances.</para>
+    <para id="id1165393827345">
+      <emphasis effect="bold">7.6.9.1.Fringing Fields.</emphasis>
+    </para>
+    <para id="id1165397265496"> In any area parallel-plate capacitance there are transverse field lines as well as fringing field lines which can be significant fraction of the transverse field line as shown in Figure 7.6.9.1. In the standard parallel plate formula (εA/d) which is used for area capacitance calculation we account for transverse field only. To consider the total capacitance we need to calculate the Capacitance due to fringe field.</para>
+    <para id="id1165394456907">
+      <figure id="id1165394422483">
+        <media id="id1165394422483_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-afe0.png" id="id1165394422483__onlineimage" height="427" width="599"/>
+        </media>
+      </figure>
+      <figure id="id2169319">
+        <media id="id2169319_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-6182.png" id="id2169319__onlineimage" height="45" width="598"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165393622889">Where</para>
+    <figure id="id1165393637059">
+      <media id="id1165393637059_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-cddd.png" id="id1165393637059__onlineimage" height="26" width="451"/>
+      </media>
+    </figure>
+    <para id="id1165386194404">It is given:</para>
+    <para id="id1165398216108">
+      <figure id="id1165395896296">
+        <media id="id1165395896296_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-cfbb.png" id="id1165395896296__onlineimage" height="42" width="241"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165384708148">FF is plotted in Figure 7.6.9.2.</para>
+    <figure id="id1165403933326">
+      <media id="id1165403933326_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-9237.png" id="id1165403933326__onlineimage" height="553" width="592"/>
+      </media>
+    </figure>
+    <para id="id1165409826400">From the graph in Figure 7.6.9.2 it is evident that narrower and thicker interconnect segment has a much larger Fringing Field Effect . </para>
+    <para id="id1285581">Pucknell et.al give the formula for fringing field capacitance for fine line metallization. It is as follows:</para>
+    <figure id="id1165384799248">
+      <media id="id1165384799248_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-c404.png" id="id1165384799248__onlineimage" height="123" width="597"/>
+      </media>
+    </figure>
+    <para id="id1165388120414">Where L=wire length, </para>
+    <para id="id1165395066204"> t = thickness of the wire,</para>
+    <para id="id1165395257818"> h = wire to substrate separation.</para>
+    <para id="id1165394128461">7.6.9.2. Interlayer capacitance.</para>
+    <para id="id1165393959431"> In multi-level metallization IC Chip, interlayer capacitance becomes important therefore in area capacitance chart Table 7.6.2. we have metal 2 to metal 1 and metal 2 to polysilicon. This will occur where two level metal paths overlap or cross each other.</para>
+    <para id="id1165393719681">
+      <emphasis effect="bold">7.6.9.3.Inter-wire Capacitance(due to lateral field). </emphasis>
+    </para>
+    <figure id="id1165393753103">
+      <media id="id1165393753103_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-c6ee.png" id="id1165393753103__onlineimage" height="242" width="590"/>
+      </media>
+    </figure>
+    <para id="id1165393954429"> There is inter-wire capacitance between two metal pathways at the same level due to lateral field as shown in Figure 7.6.9.3. Along side Fringe Field Capacitance and Parallel Plate Capacitance is also shown.</para>
+    <para id="id1165394450740">7.6.9.4. Overlap Fringe Field Capacitance.</para>
+    <para id="id1165394415515"> Two level metal pathways may overlap as shown in Figure 7.6.9.4. In this case Overlap Fringe-Field Capacitance is caused.This has to be ascounted for accurate modeling and simulation.</para>
+    <figure id="id1165393869367">
+      <media id="id1165393869367_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-dcea.png" id="id1165393869367__onlineimage" height="297" width="582"/>
+      </media>
+    </figure>
+    <para id="id1165384886946">7.6.9.5. Peripheral Capacitance.</para>
+    <para id="id2551374"> In Table 7.6.2 we have a row which gives the diffusion(active)region capacitance. These are the junction capacitance of the junction diode made by source and drain diffusion into the Well or into the substrate.</para>
+    <figure id="id1165384256994">
+      <media id="id1165384256994_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-cc59.png" id="id1165384256994__onlineimage" height="375" width="600"/>
+      </media>
+    </figure>
+    <para id="id1939618"> In Figure 7.6.9.5 we show the cross-section of CMOS structure achieved by N-Well Process.</para>
+    <para id="id1165381429219"> We have P+ Source and P+Drain diffusion into N-Well to realize PMOS and we have N+Source and N+Drain diffusion into P-Substrate to realize NMOS. This created 12 PN Junction Diodes.</para>
+    <para id="id1165386076846"> D1,D3,D4 and D6 are sidewall diodes and D2 &amp; D5 are the bottom diodes. Table 7.6.2 in the 5<sup>th</sup> row accounts for the capacitance associated with D2 &amp; D5 only. The side wall diodes junction capacitances are called peripheral capacitances and have not been accounted for.</para>
+    <para id="id1165405582173"> Similarly N+Source and N+Drain diffusion into P-substrate have created D7,D9,D10 and D12 sidewall diodes and D8 &amp; D11 bottom diodes. Here also 5<sup>th</sup> Row of Table 7.6.2 acounts for D8 &amp; D11 botom diodes only.Peripheral diodes junction capacitance remain to be accounted for.</para>
+    <para id="id1165393961182"> As we scale downGeneration after Generation the relative value of peripheral capacitances increases with respect to area capacitances(or bottom capacitances).</para>
+    <para id="id1165393074598"> If instead of diffusion, the active regions are achieved by ion-implantation then because of the very shallow depths of the active regions the sidewall capacitances are insignificant and hence can be neglected.</para>
+    <para id="id1165396492898">Table 7.6.9.1 gives the values of the bottom junction capacitances and sidewall junction capacitances.</para>
+    <para id="id7977704"><emphasis effect="bold">Table 7.6.9.1.Typical values for diffusion capacitances</emphasis>.</para>
+    <table id="id1165395973927" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry namest="c2" nameend="c4">Typical values of junction capacitances, bottom and sidewall.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>5μm</entry>
+            <entry>2μm</entry>
+            <entry>1.2μm</entry>
+          </row>
+          <row>
+            <entry>Area Capacitance(C<sub>area</sub>)</entry>
+            <entry>1.0×10<sup>-4</sup>pF/μm<sup>2</sup></entry>
+            <entry>1.75×10<sup>-4</sup>pF/μm<sup>2</sup></entry>
+            <entry>3.75×10<sup>-4</sup>pF/μm<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>Peripheral Capacitance(Cperiph)</entry>
+            <entry>8.0×10<sup>-4</sup>pF/μm<sup>2</sup></entry>
+            <entry>Ion-implant</entry>
+            <entry>Ion-implant</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165393759214">7.6.9.6. Choice of layers according to the suitability of their functions.</para>
+    <para id="id2273817">Metal Layers , poly-silicon layers, diffusion layers are chosen according to the functions which they are to perform.</para>
+    <list id="id2247128" list-type="enumerated" number-style="arabic">
+      <item>V<sub>DD</sub> and Ground (V<sub>SS</sub>) should be distributed on metallic paths.</item>
+      <item>Long lengths of poly-silicon layer should not be used because their high sheet resistance. They are suitable only for local interconnects.</item>
+      <item>Capacitive effects are critical in fast signal lines. Fast signal lines should pass over interconnects with low sheet resistance and running over low permittivity dielectric layers because velocity of the signal is:</item>
+    </list>
+    <figure id="id1165399328406">
+      <media id="id1165399328406_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-85bd.png" id="id1165399328406__onlineimage" height="66" width="121"/>
+      </media>
+    </figure>
+    <para id="id1165395652395">Lower is the value of relative permittivity closer is the velocity of propogation to ‘c’(velocity of light in free space)..</para>
+    <para id="id1165400915906">Table 7.6.9.2 gives the maximum length of communication lines based on the speed of</para>
+    <para id="id1165393865890">switching consideration.</para>
+    <para id="id1165397762339">Table 7.6.9.2.Electrical Rules for communication lines.</para>
+    <table id="id1165406336654" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>layer</entry>
+            <entry namest="c2" nameend="c4">Maximum legth of communication wire</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Lambda-based(5μm)</entry>
+            <entry>μm-based(2μm)</entry>
+            <entry>μm-based(1.2μm)</entry>
+          </row>
+          <row>
+            <entry>Metal</entry>
+            <entry>Chip wide</entry>
+            <entry>Chip wide</entry>
+            <entry>Chip wide</entry>
+          </row>
+          <row>
+            <entry>Silicide</entry>
+            <entry>2000λ</entry>
+            <entry>NA</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Polysilicon</entry>
+            <entry>200λ</entry>
+            <entry>400μm</entry>
+            <entry>250μm</entry>
+          </row>
+          <row>
+            <entry>Diffusion(active)</entry>
+            <entry>20λ*</entry>
+            <entry>100μm</entry>
+            <entry>60μm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1718490">*Taking into account of peripheral and area capacitances. NA=not applicable.</para>
+    <para id="id1165400222419">Table 7.6.9.3 gives the thickness values of different layers in 0.8μm CMOS process.</para>
+    <para id="id1165387664204">Table7.6.9.3.Thickness values of different layers(0.8μm CMOS process)</para>
+    <table id="id1165387567462" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Layer</entry>
+            <entry>Thickness(μm)</entry>
+          </row>
+          <row>
+            <entry>Field Oxide</entry>
+            <entry>0.52</entry>
+          </row>
+          <row>
+            <entry>Gate Oxide</entry>
+            <entry>16nm</entry>
+          </row>
+          <row>
+            <entry>Poly-Si thickness</entry>
+            <entry>0.35</entry>
+          </row>
+          <row>
+            <entry>Poly-Metal Oxide thickness</entry>
+            <entry>0.65</entry>
+          </row>
+          <row>
+            <entry>Metal 1 thickness</entry>
+            <entry>0.60</entry>
+          </row>
+          <row>
+            <entry>Via Oxide thickness</entry>
+            <entry>1.00</entry>
+          </row>
+          <row>
+            <entry>Metal 2 thickness</entry>
+            <entry>1.00</entry>
+          </row>
+          <row>
+            <entry>N+ junction depth</entry>
+            <entry>0.40</entry>
+          </row>
+          <row>
+            <entry>P+ junction depth</entry>
+            <entry>0.40</entry>
+          </row>
+          <row>
+            <entry>N-Well junction depth</entry>
+            <entry>3.5</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id6724968">Different terms used in Table 7.6.9.3 are explained in Figure 7.6.9.6.</para>
+    <para id="id1165388311604">
+      <figure id="id1165381796944">
+        <media id="id1165381796944_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-b806.png" id="id1165381796944__onlineimage" height="457" width="559"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165382184226">In Table 7.6.9.4. we give the functional suitability of different layers.</para>
+    <para id="id8043873">Table 7.6.9.4.Functional suitability of different layers.</para>
+    <table id="id1165398143381" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Layer</entry>
+            <entry>R</entry>
+            <entry>C</entry>
+            <entry>Comments</entry>
+          </row>
+          <row>
+            <entry>Metal </entry>
+            <entry>low</entry>
+            <entry>low</entry>
+            <entry>Use for power distribution and global signals</entry>
+          </row>
+          <row>
+            <entry>Silicide</entry>
+            <entry>low</entry>
+            <entry>moderate</entry>
+            <entry>Modest RC delay. Reasonably long wires are possible. Silicide is used in place of Poly-Si in some NMOS processes</entry>
+          </row>
+          <row>
+            <entry>Poly-Si</entry>
+            <entry>high</entry>
+            <entry>moderate</entry>
+            <entry>Moderate RC delay and high IR drop</entry>
+          </row>
+          <row>
+            <entry>Diffusion(active)</entry>
+            <entry>moderate</entry>
+            <entry>high</entry>
+            <entry>Moderate IR drop but high C hence hard to drive.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

@@ -1,0 +1,40 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 5_Stick Diagrams of Logic Gates_continued 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38596</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 5_Stick Diagrams of Logic Gates_continued 2</md:title>
+  <md:abstract>SPD_Chapter 7_Part 5 continues with simple examples of stick diagrams of (E)NMOS inverter with (D)NMOS pull up and using the same inverter for generating the complement of (A+BC).</md:abstract>
+  <md:uuid>f09ece78-dd7b-4dd3-b7b1-577c0851d4a1</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1163811133831">SSPD_Chapter 7_Part 5_Stick Diagrams of Logic Gates_continued 2</para>
+    <para id="id1163818150758">
+      <emphasis effect="bold">7.5.1. NMOS inverter with (D)NMOS as pull-up transistor.</emphasis>
+    </para>
+    <para id="id1163839165875">In Figure 7.5.1.1. we give the circuit diagram of (E)NMOS inverter with (D)NMOS as pull-up transistor.</para>
+    <para id="id1163842619267">In Figure 7.5.1.2. we give the circuit diagram of (E)NMOS inverter with (D)NMOS as pull-up transistor along with a Pass Transistor at the INPUT.</para>
+    <para id="id1163834577958">In Figure 7.5.1.3. we give the circuit diagram of Z= Complement of (CB+A) and its stick diagram.</para>
+    <figure id="id1163824378795">
+      <media id="id1163824378795_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-f36f.png" id="id1163824378795__onlineimage" height="688" width="513"/>
+      </media>
+    </figure>
+    <para id="id1163835608025">
+      <figure id="id1163827450770">
+        <media id="id1163827450770_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-cf62.png" id="id1163827450770__onlineimage" height="703" width="598"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1163825428182">
+      <figure id="id1163815697133">
+        <media id="id1163815697133_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-3690.png" id="id1163815697133__onlineimage" height="454" width="599"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7344212">In all these three diagrams, metal layer is the topmost layer, Poly-Si is intermediate layer and diffusion is the lowest layer. So crossing doesnot imply contact. Only when contact is made at the intersection of different layers that contact is made between different layers.</para>
+    <para id="id7183302">Also (E)NMOS is simply red line crossing green line but (D)NMOS is red line crossing green line within a broken brown box. This implies that N implant has been made under the Gate of (D)NMOS so that the transistor is normally-on.</para>
+  </content>
+</document>

@@ -1,0 +1,135 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued8</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38576</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued8</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOSFET_continued 8 gives the configuration of BiCMOS inverter and its optimized version.</md:abstract>
+  <md:uuid>569f5e23-6f26-464c-8f74-9134f4632b52</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170588143220">SSPD_Chapter 7_Part 3_Basic Electric Properties of MOSFET_Continued_8</para>
+    <para id="id1170611006791">
+      <emphasis effect="bold">7.3.15. BiCMOS Inverters.</emphasis>
+    </para>
+    <figure id="id1170575952765">
+      <media id="id1170575952765_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-f04e.png" id="id1170575952765__onlineimage" height="454" width="536"/>
+      </media>
+    </figure>
+    <para id="id1170575945373">In the output stage where loads have to be driven, CMOS Logic Gates themselves cannot give adequate current for drivng the loads. In these circuits buffer BJT are added as shown in Figure 7.3.15.1. The inverted logic operation is carried out as shown in Table 7.3.15.1.</para>
+    <para id="id8541604">Table 7.3.15.1. The Inverted Logic Operation of BiCMOS inverter.</para>
+    <table id="id1170586926714" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Input</entry>
+            <entry>Q1</entry>
+            <entry>Q2</entry>
+            <entry>Q3</entry>
+            <entry>Q4</entry>
+            <entry>Vout</entry>
+          </row>
+          <row>
+            <entry>LOW(GND)</entry>
+            <entry>off</entry>
+            <entry>On and Q2 sources current to charge C<sub>L</sub> to 5V through a low impedance path provided by on BJT Q2</entry>
+            <entry>off</entry>
+            <entry>on</entry>
+            <entry>HIGH=5-V<sub>BE</sub>(on)</entry>
+          </row>
+          <row>
+            <entry>HIGH(5V)</entry>
+            <entry>On and Q1 sinks current thereby discharging C<sub>L</sub> through low impedance path provided by on BJT Q1</entry>
+            <entry>off</entry>
+            <entry>on</entry>
+            <entry>off</entry>
+            <entry>LOW = V<sub>CE</sub>(sat)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170608770577">The characteristics of BiCMOS Inverter.</para>
+    <para id="id1170592918805">i.Logic levels are close to bus voltages;</para>
+    <para id="id3348607">ii.High input impedance;</para>
+    <para id="id1170565355307">iii.Low output impedance;</para>
+    <para id="id1170608672056">iv. It has high current drive capability and occupies a relatively small area;</para>
+    <para id="id8706887">v. It has large Noise Margin.</para>
+    <para id="id1170598473276">But this configuration has high standby dissipation under I/P = HIGH condition since Q1 and Q3 provide a low impedance path from Positive Bus to GND bus.</para>
+    <para id="id1170586809834">Also this configuration has no path for turning off the BJT when required.This slows the switching operation. Hence we go for improved circuit configuration.</para>
+    <figure id="id1170585386040">
+      <media id="id1170585386040_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-93fb.png" id="id1170585386040__onlineimage" height="460" width="524"/>
+      </media>
+    </figure>
+    <para id="id1170591882736">In Figure 7.3.15.2 we have removed the direct dc path from Positive Bus to GND through Q3 and Q1 but when Vin = HIGH, Vout ≠ V<sub>CE</sub>(sat) which is 0.2V but Vout = V<sub>BE</sub>(on) = 0.7V. Hence output swing is reduced from full 5V to about 4V. </para>
+    <para id="id1170564795949">Also BJTs still donot have a discharge path for their base currents during turn off of the respective BJT. So a third configuration is given in Figure 7.3.15.3.</para>
+    <para id="id1170582951307">
+      <figure id="id1170575728718">
+        <media id="id1170575728718_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-9633.png" id="id1170575728718__onlineimage" height="461" width="532"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170569018770">In the improved version shown in Figure 7.3.15.3. two resistances R1 and R2 are introduced in the discharge paths of the bases of the BJTs , Q1 and Q2. Because of the resistances, the logic levels are improved and hence voltage swing is optimized. The resistances also speed up the switching of the transistors.</para>
+    <para id="id1170575287555">Though this is an improved version of BiCMOS Inverter from IC technology point of view it is impractical because passive chip resistances occupy large real estate area and suitable values are difficult to realize. Hence chip resistances are replaced by MOS transistors as shown in Figure 7.3.15.4.</para>
+    <para id="id4521522">In Figure 7.3.15.4, the function of R1 is fulfilled by Q5 and function of R2 is fulfilled by Q6. The states of different transistors during Inverted Logic Operation are given in Table 7.3.15.2.</para>
+    <para id="id1170586295550">Table 7.3.15.2. Inverted Logic Operation of the optimized version ogf BiCMOS.</para>
+    <table id="id1170585857054" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Vin</entry>
+            <entry>Q1</entry>
+            <entry>Q2</entry>
+            <entry>Q3</entry>
+            <entry>Q4</entry>
+            <entry>Q5</entry>
+            <entry>Q6</entry>
+            <entry>Vout</entry>
+          </row>
+          <row>
+            <entry>HIGH</entry>
+            <entry>SAT</entry>
+            <entry>OFF</entry>
+            <entry>ON</entry>
+            <entry>OFF</entry>
+            <entry>ONThis provides the discharge path for the base current of Q2 which was ON previously</entry>
+            <entry>OFF</entry>
+            <entry>LOW=V<sub>CE</sub>(sat)</entry>
+          </row>
+          <row>
+            <entry>LOW</entry>
+            <entry>OFF</entry>
+            <entry>ON</entry>
+            <entry>OFF</entry>
+            <entry>ON</entry>
+            <entry>OFF</entry>
+            <entry>ONThis provides the discharge path for the base current of Q1 which was in SAT previously</entry>
+            <entry>HIGH</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1170599532358">
+      <media id="id1170599532358_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-932a.png" id="id1170599532358__onlineimage" height="519" width="557"/>
+      </media>
+    </figure>
+    <para id="id1170561932429">This circuit offers enormous advantages where high load current sourcing and sinking are required. Whenever Video Monitors or Speakers are to be driven there we require BiCMOS interface at the output.</para>
+  </content>
+</document>

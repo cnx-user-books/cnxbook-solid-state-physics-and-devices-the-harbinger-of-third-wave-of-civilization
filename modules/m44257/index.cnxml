@@ -1,0 +1,137 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>I.C.Chips of Future Generation Part 3.carriers-phonon interaction in Graphene.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44257</md:content-id>
+  <md:title>I.C.Chips of Future Generation Part 3.carriers-phonon interaction in Graphene.</md:title>
+  <md:abstract>Future IC Chips Part 3 supplement describes the special features of carrier-phonon interaction in Graphene which is an ideal testbed to demonstrate textbook condensed matter phenomena.</md:abstract>
+  <md:uuid>081f94c2-91ec-46a5-939e-08a649e2f6b1</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164866283611">
+      <emphasis effect="bold">8.3. Supplement_Carrier-Phonon interaction in Graphene-an ideal test bed for demonstrating textbook condensed matter phenomena.</emphasis>
+    </para>
+    <para id="import-auto-id1164873935698">In conventional metals with large Fermi Sphere and Fermi Surfaces, Debye Temperature (θ<sub>D</sub>) , the characteristic phonon energy scale, sets the demarcation between high temperature  and low temperature behavior in electron-phonon scattering. This Debye temperature depends on the tensile strength of the material. Since graphene has the highest tensile strength hence its Debye Temperature is 2800 Kelvin. What this means is that above 2800K, all the phonon modes are excited namely Longitudinal Optical (LO) phonon, Transverse Optical (TO) phonon, Longitudinal Acoustic(LA) phonon and Transverse Acoustic(TA) phonon. That is in graphene, above 2800K, all phonon modes are excited and phonon population is proportional to absolute temperature and Resistivity (ρ) varies as T (Kelvin).</para>
+    <para id="import-auto-id1164866551535">In large Fermi Sphere, below θ<sub>D</sub> phonons start freezing out and ρ(T) ~ T<sup>5</sup> in 3-D metal and ρ(T) ~ T<sup>4</sup> in 2-D metal. But this is not the case in graphene.</para>
+    <para id="import-auto-id1164866568242">In case of metals with small Fermi-Sphere such as graphene and doped semi-conductors, all the phonon modes are excitable well below θ<sub>D</sub> upto Bloch-Gruneisan(BG) temperature θ<sub>BG</sub> where θ<sub>BG</sub> is given as below [Efetov &amp; Kim(2010)]:</para>
+    <figure id="import-auto-id1164869352523">
+      <media id="import-auto-id1164866581476" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-e4db.png" height="44" width="438"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164866586373">
+      <media id="import-auto-id1164867123785" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-b04d.png" height="43" width="444"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164866587678">For Graphene , which is unusually stiff, the Debye Temperature is 2800K and it has small Fermi Sphere hence 2k<sub>F</sub> &lt; q<sub>D</sub> . Here k<sub>F</sub> is the radius of Fermi-sphere of electron in graphene or the Fermi wave vector given by Eq.(iii).  Corresspondingly θ<sub>BH</sub> &lt;  θ<sub>D</sub> .</para>
+    <para id="import-auto-id1164872135647">In Eq.(i), v<sub>S</sub>= velocity of sound= 10<sup>4</sup>m/s in graphene; q<sub>D</sub> = maximum phonon wave vector &gt; 2k<sub>F</sub> . Therefore θ<sub>BG</sub> is significantly less than θ<sub>D</sub> = 2800K. </para>
+    <para id="import-auto-id1164866284062">Eq.(i) can be further simplified if we remember that carriers in graphene follow linear dispersion law as given in Eq.1 in Section 4.1. namely:</para>
+    <figure id="import-auto-id1164866284146">
+      <media id="import-auto-id1164892824990" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-97f3.png" height="23" width="403"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164866557251">In Eq.(iii), ħ = Planck’s Constant/(2π); v<sub>F</sub> = c/300 = 1.1×10<sup>6</sup>m/s=Fermi Velocity;</para>
+    <para id="import-auto-id1164866999600">Fermi Wave Vector = k<sub>F</sub>;</para>
+    <para id="import-auto-id1164867790729">Substituting Eq.(iii) in Eq.(i) we get:</para>
+    <figure id="import-auto-id1164866567269">
+      <media id="import-auto-id1164866582110" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-144b.png" height="44" width="557"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164892874393">In Eq.(iv)  k<sub>B</sub> = Boltzmann Constant, E<sub>F</sub>=0.11eV. Therefore θ<sub>BG</sub> for graphene according to Eq.(iv) is 26Kelvin. But experimentally this comes to be 200K[Hwang &amp; Sarma (2008)]. This is due to the uncertainty in the value of deformation-potential coupling constant (D).</para>
+    <para id="import-auto-id1164866562103">Eq.(iv). also shows that Bloch-Gruneisen Low Temperature activity range (θ<sub>BG</sub> = 26K theoretical) can be tuned by the gate voltage. Efectov et.al.(2010) have shown that  graphene exhibits a very distinct crossover from linear T dependence to superlinear T<sup>4</sup> dependence well below Debye Temperature of 2800K and enters Low Temperature Activity range defined by Bloch and Gruneisen. By adjusting the gate voltage over ±1V, Bloch-Gruneisen Temperature was altered by 1 order of magnitude. Efectov and Kim (2010) also establish the universal scaling behavior of the normalized resistivity with normalized temperature. This represents 2D nature of electrons and phonons along with the chiral nature of carriers  in graphene. Table (i) shows one order of magnitude alteration in Bloch-Gruneisen Temperature Scale by tuning the Fermi Level of the sample.</para>
+    <para id="import-auto-id1164866179931">
+      <emphasis effect="bold">Table i. Alteration of B-G Temperature scale by suitably tuning the Fermi-Level of the Sample.</emphasis>
+    </para>
+    <table id="import-auto-id1164866592670" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Fermi Level of the sample (eV)</entry>
+            <entry>θ<sub>BG</sub> (K)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>0.1</entry>
+            <entry>21.1</entry>
+          </row>
+          <row>
+            <entry>0.2</entry>
+            <entry>42.2</entry>
+          </row>
+          <row>
+            <entry>0.3</entry>
+            <entry>63.5</entry>
+          </row>
+          <row>
+            <entry>0.4</entry>
+            <entry>84.4</entry>
+          </row>
+          <row>
+            <entry>0.5</entry>
+            <entry>105.5</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>210.1</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1164866197187">As seen in Eq.(iv) by adjusting the gate voltage in gated Graphene FET (see Section 8.3.4.2.1 , Figure 12) and hence E<sub>F</sub> by ±1V, Bloch-Gruneisen temperature (θ<sub>BG</sub>) can be altered by one order of magnitude.</para>
+    <para id="import-auto-id1164866283875">Hence Graphene is amazingly tunable:</para>
+    <list id="import-auto-id1164874231628" list-type="enumerated" number-style="lower-roman">
+      <item>E<sub>F</sub> can be tuned by chemical doping [Schedin et.al.(2007), Chen et.al.(2008)];</item>
+      <item>E<sub>F</sub> can be tuned by the gate voltage (Section 8.3.4.2.1);</item>
+      <item>K (dielectric constant- strength of electron to electron interaction) depends on the substrate on which graphene is epitaxially grown. This ‘K’ introduces an asymmetry to ‘A’ and ‘B’ sub-lattices which in turn introduces a band gap in the otherwise metallic graphene (Section 8.3.4.7). </item>
+    </list>
+    <para id="import-auto-id1164866286029">At 300K, mean free path of electron in graphene is several microns, an order of magnitude better than that in semi-conductors because of reduced phonon-electron interaction at 300K and hence this leads to intrinsic resistivity ρ(300K) = 30 ohm [Chen et.al.(2007)]. This corresponds to  1×10<sup>-6</sup>Ω-cm in 3D metal which is lower than that of Silver , the most electrically conductive material till date. Graphene has the highest transparency [Nair et.al.(2008)]. Hence graphene is the ultimate transparent conducting electrode material. Graphene optical property as discussed in the foot note is another evidence for graphene being a relativistic system belonging to the realms of Quantum ElectroDynamic System.  </para>
+    <para id="import-auto-id1164869477333">[Foot-note:</para>
+    <figure id="import-auto-id1164866275967">
+      <media id="import-auto-id1164876322125" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-d663.png" height="294" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164890439656">
+      <emphasis effect="bold">Figure A. Looking through one-atom-thick crystals. (A) Photograph of a 50-mm aperture partially covered by graphene and its bilayer. The line scan profile shows the intensity of transmitted white light along the yellow line. (Inset) Our sample design: A 20-mm-thick metal support structure has several apertures of 20, 30, and 50 mm in diameter with graphene crystallites placed over them. (B) Transmittance spectrum of single-layer graphene (open circles). Slightly lower transmittance for l &lt; 500 nm is probably due to hydrocarbon contamination (5). The red line is the transmittance T = (1+0.5pa)–2 expected for two-dimensional Dirac fermions, whereas the green curve takes into account a nonlinearity and triangular warping of graphene’s electronic spectrum. The gray area indicates the standard error for our measurements (5). (Inset) Transmittance of white light as a function of the number of graphene layers (squares). The dashed lines correspond to an intensity reduction by pa with each added layer.</emphasis>
+    </para>
+    <para id="import-auto-id1164866576086">
+      <emphasis effect="bold">[adapted from Nair et.al.(2008)] </emphasis>
+    </para>
+    <para id="import-auto-id1164866544266">
+      <emphasis effect="italics">There are very few phenomena in condensed matter physics which are governed by fundamental constants only and have nothing to do with material parametrers. (h/e</emphasis>
+      <emphasis effect="italics">2</emphasis>
+      <emphasis effect="italics">) is the resisitivity quantum and appears in Quantum Hall Effect and in Universal Conductance fluctuations. (h/(2e)) is the magnetic flux quantum and appears in super conductivity. Similarly opacity of  a single graphene is:</emphasis>
+    </para>
+    <figure id="import-auto-id1164866201817">
+      <media id="import-auto-id1164866551848" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-3ead.png" height="36" width="363"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164866591068">
+      <emphasis effect="italics">As seen in Figure A(A), white light is absorbed in quantas of 2.3%. As number of intervening graphene layers increase so does the amount of absorbed light. It increases in step of 2.3% as shown in the inset of Figure A(B). The spectrum analysis shows that all the wavelength in the white light is absorbed in equal amount that is 2.3% for all practical purposes within observational errors.</emphasis>
+    </para>
+    <para id="import-auto-id1164866274844">
+      <emphasis effect="italics">Fine structure constant α = e</emphasis>
+      <emphasis effect="italics">2</emphasis>
+      <emphasis effect="italics">/(4πε</emphasis>
+      <emphasis effect="italics">0</emphasis>
+      <emphasis effect="italics">ħc) ~ (1/137)  shows the coupling between light and relativistic electron and it is traditionally associated with Quantum ElectroDynamics and not with material science. That graphene opacity is governed by the fine structure constant proves that grapheme is a relativistic system.]</emphasis>
+    </para>
+    <para id="import-auto-id1164877673163">It is also found that electron-phonon scattering is independent of E<sub>F</sub> and n<sub>S</sub>  (carrier concentration). At n<sub>S</sub> = 1×10<sup>12</sup>/cm<sup>2</sup>, mean free path is greater than 2 micron and this results in intrinsic mobility of 200,000 cm<sup>2</sup>/(V-s). This is larger than InSb mobility at room temperature which is 77,000 cm<sup>2</sup>/(V-s) and larger than that  of Carbon Nano Tube (CNT)  which is 100,000 cm<sup>2</sup>/(V-s).  </para>
+    <para id="import-auto-id1164872467681">The kind of massless electron we see in super-conductors at liquid He temperature we witness the same kind of kinematics at 300K in Graphene. Hence graphene provides a rare opportunity for doing quantum mechanical research.</para>
+    <para id="import-auto-id1164892678236">Graphene is highly simplified and conceptually easy to visualize. Dirac Equation is obeyed by massless relativistic carriers even at Room Temperature. Psuedospin degree of freedom plays the role of relativistic spin(Section 8.3.4.2.6). Dispersion of Electronics Band is described by a single parameter v<sub>F</sub> (Fermi Velocity) as seen in Eq.1 and also in Eq.iii.</para>
+    <para id="import-auto-id1164892860807">The combination of simplicity and tunability makes graphene an ideal test bed for demonstrating fundamental condensed matter phenomena. </para>
+    <para id="import-auto-id1164867482693">It has 100× tensile strength as compared to that of Steel. It has much better thermal conductivity than that of Diamond which till now was the most thermally conductive material. It is also most closely packed structure. It is impermeable to the smallest atom like Helium but it still can stretch.</para>
+    <para id="import-auto-id1164892518830">It is zero band-gap material meaning by conduction band and valence band lie close together hence graphene is a conductor  but it cannot switch on and off.</para>
+    <para id="import-auto-id1164866583291">In semi-conductors, because of the band- gap, photon must exceed the bandgap to cause photo-excitation and absorption hence semi-conductors are susceptible to only certain part of the spectrum. In graphene there is no such limitation. Graphene has equal absorption coefficient from UV to far IR light because it has zero bandgap.</para>
+    <para id="import-auto-id1164866577268">Exploiting Graphene’s optical and electron abilities along with strength and flexibility could lead to foldable plastic smartphones, cheaper solar cells or sensors that can detect single molecule of gas or identify individual DNA bases.</para>
+    <para id="import-auto-id1164866578067">Silicon took decades to find its signature role in technology. Graphene’s journey has just begun.</para>
+    <para id="import-auto-id1164866486163">Graphene has superlative mechanical, thermal and electronic properties as shown in Table 3[Savage  (2012)].</para>
+  </content>
+</document>

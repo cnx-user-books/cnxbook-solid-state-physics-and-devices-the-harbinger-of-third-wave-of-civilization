@@ -1,0 +1,332 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 6_Process Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37387</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 6_Process Simulator</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Introduction to ATHENA6_Process Simulator describes the need for multiple models for each process, choosing appropriate model with method statement,method statements during process flow,switching guidelines, modeling the correct substrate depth, simulating ion implantation, simulating ion implantation damage, simulating diffusion, simulating rapid thermal anneal and simulating oxidation.</md:abstract>
+  <md:uuid>84c3b9d7-8b5d-4e9a-9978-68039ddff0a4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171822633194">SSPD_Chapter 6_Part 7_Introduction to ATHENA 6_Process Simulator.</para>
+    <para id="id1171822501896">7.7. Background of ATHENA.</para>
+    <para id="id1171822694516">
+      <emphasis effect="bold">7.7.3. Choosing Models In SSUPREM4</emphasis>
+    </para>
+    <para id="id1171823745990"> This section describes how to simulate process steps (e.g., implantation, diffusion/oxidation, epitaxy, and silicidation) specific to the SSUPREM4 module of ATHENA. Also discussed, are the SSUPREM4 model statements, such as METHOD, OXIDE, MATERIAL, and IMPURITY.</para>
+    <para id="id1171822532387"> When simulating any process involving dopant or its diffusion or both, it is absolutely critical for simulation accuracy to use the appropriate model. Process steps where correct choice of models are vital include implantation, diffusion, rapid thermal annealing, oxidation, and epitaxy . This section provides specific advice on which models should be used for each process step.</para>
+    <para id="id1171822316769">7.7.3.1: The Reason for Multiple Models for Each Process</para>
+    <para id="id1171822754802"> The key to simulating any dopant related process is to accurately account for damage in the semiconductor. For example, in silicon processing, typical implantation doses can cause sufficient damage to the substrate to enhance dopant diffusion rates by three orders of magnitude or more, so choosing the wrong model in this instance will result in inaccurate results.</para>
+    <para id="id1171822341871"> Well known device anomalies such as the Reverse Short Channel Effect in MOS processing or the emitter push effect in bipolar processing are wholly the result of such damage enhanced diffusion.</para>
+    <para id="id1171824173024"> Other processes that consume the semiconductor, such as oxidation and silicidation also inject damage into the substrate. This must be accounted for if accurate dopant profiles are a requirement.</para>
+    <para id="id1171822803583"> This section aims to provide you with a set of rules outlined, indicating the correct model that can be used most of the time without you having a detailed knowledge of the physics involved. The usual rules of model selection apply here. The more complicated the model, the greater the simulation time. There is always a compromise between simulation accuracy and simulation time. The following sections describe when to use the hierarchy of models so that the most complicated models are only used when you make a significant difference to the result.</para>
+    <para id="id1171821915458">7.7.3.2.: Choosing an Appropriate Model Using the Method Statement</para>
+    <para id="id1171823114201"> The hierarchy of diffusion and damage models available is broadly related to the maximum level of damage already in the semiconductor or the maximum level of damage that the next process step is likely to introduce at any particular time during the process flow. The level of damage in the semiconductor at any one time is not a static quantity but will depend on when and how much damage was induced by a process step and how much annealing has occurred in subsequent thermal steps. The range of models available to you can account for all of the above effects and allows accurate simulation of dopant diffusion if appropriate models have been chosen.</para>
+    <para id="id1171824149296"> The choice of model or combination of models for any of the process steps described above is defined in the METHOD statement. The METHOD statement serves a number of functions but in the context of defining damage models the METHOD statement is used for two purposes.</para>
+    <para id="id1171822733468"> The first purpose is to specify models for how damage is induced during processes such as implantation or oxidation. The second purpose is to specify how that damage anneals and diffuses in subsequent or concurrent thermal processes.</para>
+    <para id="id1171822558970"> It’s important to realize that the METHOD statement must be placed above the line, specifying the process step or steps to which it refers in the input file. Any number of method statements can be used in an input file allowing you to change the models at will during the process flow to optimize the speed and accuracy of the simulation. The models specified in the METHOD statement will hold true for all processes that follow it until it’s updated by a subsequent method statement.</para>
+    <para id="id1171823234855">Table 7.5 below indicates a recommended method statement for typical processes. It should be realized that these statements are hierarchical, so there is no accuracy lost if a more complicated model is used where a simpler one would suffice. The only downside here is a longer simulation time. The table below starts off with the simplest of models and progresses to the more complicated ones.</para>
+    <para id="id1171822718681">
+      <emphasis effect="bold">Table 7.5. Recommended Method Statements for Typical Processes.</emphasis>
+    </para>
+    <table id="id1171822843286" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Method Statement Syntax</entry>
+            <entry>Suitability of using this method</entry>
+          </row>
+          <row>
+            <entry>method fermi</entry>
+            <entry>Use only before undamaged silicon diffusions, where doping concentrations are less than 1e20/cm3 and no oxidizing ambient is present.</entry>
+          </row>
+          <row>
+            <entry>method two.dim</entry>
+            <entry>Use before implant doses less than 1e13/cm2 and for oxidations.</entry>
+          </row>
+          <row>
+            <entry>method full.cpl cluster.dam high.conc</entry>
+            <entry>Use before implant doses greater than 1e13/cm2</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171822818114">
+      <emphasis effect="bold">7.7.3.3. : Changing the Method Statement During the Process Flow</emphasis>
+    </para>
+    <para id="id1171823131918"> It has previously been stated that the disadvantage of using the most advanced and complex models is the time involved during diffusion cycle simulation. Accordingly, there is an incentive during complex process simulations to switch back to a simpler model during a diffusion cycle when the majority of the damage created by a previous implant has been annealed. We will show you when to switch to a simpler model.</para>
+    <para id="id1171827381848"><emphasis effect="bold"/>If the process being modeled has involved implantation or oxidation at any stage, we advise not to use the fermi model. An exception to this would be in some power devices with very long diffusion times where the exact nature of surface damage would have little impact on the final distribution of the dopant and simulation time is at a premium.</para>
+    <para id="id1171823362949"><emphasis effect="bold"/>In reality, for most small geometry processes, the question of switching models becomes one of when to add a new method statement that changes from:</para>
+    <para id="id1171825096620">METHOD FULL.CPL CLUSTER.DAM HIGH.CONC</para>
+    <para id="id1171822665512">to</para>
+    <para id="id1171830150763">METHOD TWO.DIM</para>
+    <para id="id1171822547475">after a high dose implant.</para>
+    <para id="id1171823311216">
+      <emphasis effect="bold">7.7.3.4. Switching Guidelines.</emphasis>
+    </para>
+    <para id="id1171824202970"> A simple guideline to follow when to switch method statements during a process flow is by switching back to the TWO.DIM model if the anneal temperature is greater than 900° and the device has been annealed for at least one minute, following an implant where the dose is greater than 1e13/cm^2.</para>
+    <para id="id1171824716769"> For a more accurate guideline, see the Chapter 3: “RTA Diffusion Modelling”. Table 3-6 shows the anneal temperature/time combinations required for 95% of the clusters formed during high dose implants to dissolve. Modeling these dopant/defect clusters requires the fully coupled (full.cpl) and cluster damage (cluster.dam) models. Only when these clusters have dissolved can the two.dim model be used without significant loss of simulation accuracy. As a general rule, we recommend that the method statement be changed to method two.dim only after a diffusion time that is at least two or three times as long as the values quoted in the table.</para>
+    <para id="id1171824505563"> If you wish to be certain of when it’s safe to switch models, the recommended procedure is to save a structure file at the point of interest, load the file into TONYPLOT and perform a 1D cutline. Plot the clusters and interstitials. If the cluster concentration is still visible, it’s too early to switch models.</para>
+    <para id="id1171832502879"> For power devices, where simulation time is at a premium, the same method already described should be used. But instead of using the cluster concentration as a guide of when to switch models, the interstitial concentration should be used as the guide as to when to switch models one more time from the TWO.DIM model to the basic FERMI model. When the interstitial concentration near the surface during a very long anneal has been reduced to only marginally above the background level at the anneal temperature concerned, the method statement can be switched to METHOD FERMI to greatly reduce the simulation time. The interstitial background level will be the level deep in the substrate where little damage has occurred.</para>
+    <para id="id1171823292049">7.7.4: Modelling the Correct Substrate Depth</para>
+    <para id="id1171822707398">An important and often overlooked aspect of the correct modeling of dopant diffusion is the choice of substrate depth. It has been mentioned previously that the rate of dopant diffusion is highly dependent on the level of damage in the substrate. Therefore, the accurate modeling of dopant diffusion requires the accurate modeling of substrate damage, particularly the movement of interstitials. In general, the interstitials created directly or indirectly by implantation and oxidation tend to diffuse much greater distances than the dopant. The substrate depth chosen for modeling purposes must therefore be deep enough to allow the interstitial concentrations to return to background levels at the bottom of the simulated substrate, even if no dopant diffusion occurs at this depth.</para>
+    <para id="id1171823942907">
+      <figure id="id1171822564220">
+        <media id="id1171822564220_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-d218.png" id="id1171822564220__onlineimage" height="106" width="628"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1171827971112">
+      <media id="id1171827971112_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-f023.png" id="id1171827971112__onlineimage" height="513" width="627"/>
+      </media>
+    </figure>
+    <para id="id1171822568048">
+      <emphasis effect="bold">Figure 7.33.</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">Interstitials can move far into the substrate even after a short 10min anneal</emphasis>
+    </para>
+    <para id="id1171830537851"> Figure 7.33 shows typical diffusion profiles of interstitials after a 1e15/cm3 20keV Boron implant at various anneal times (as-implant, 6 seconds anneal, 1 minute anneal and 10 minute anneal). After only a 10 minute anneal, the interstitials have diffused 8µm into the substrate.</para>
+    <para id="id1171823352414"> Interstitials, like dopant, require a concentration gradient in order for overall diffusion to take place. For example, if the concentration gradient of interstitials is removed by having too shallow a substrate depth, the concentration of interstitials will start to pile up because they are no longer being removed through diffusion into the bulk of the substrate. If the level of modeled interstitials becomes too high, the diffusion of dopant, even near the surface of the substrate, will also be too high and the simulation will be inaccurate as shown in Figure 7.34.</para>
+    <figure id="id1171827348923">
+      <media id="id1171827348923_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-e323.png" id="id1171827348923__onlineimage" height="99" width="626"/>
+      </media>
+    </figure>
+    <figure id="id1171822842562">
+      <media id="id1171822842562_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-02ee.png" id="id1171822842562__onlineimage" height="466" width="624"/>
+      </media>
+    </figure>
+    <para id="id1171822909144">
+      <emphasis effect="bold">Figure 7.34.</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">Effect on Boron diffusion profile when too small a substrate depth is used in the simulation</emphasis>
+    </para>
+    <para id="id1171826335057"> Figure 7.34. shows the Boron profiles for two identical anneals, the only difference is the depth of the simulated substrate. You’ll see that a shallow modeled substrate ( the upper curve with circles ) always results in more total diffusion, even though the substrate depth was greater than the total diffusion depth in both cases.</para>
+    <para id="id1171825944225"> Modeling a deep substrate doesn’t need to involve a huge number of extra mesh points, since the mesh points can be placed quite far apart near the bottom of the substrate. All that is required of the mesh points near the bottom of the substrate is that there be sufficient to model the gradient of interstitials in this region. The number of additional mesh points can be further reduced in the X-direction by the using several RELAX statements.</para>
+    <para id="id1171823082162"> For normal small geometry MOSFET/Bipolar processing, a substrate depth of 20 µm should be more than adequate. This depth can be reduced by plotting the vertical interstitial profiles at various points in the process to find the maximum depth of interstitial diffusion. There is little to be gained by reducing the depth of simulation, however, if the combination of large grid spacing is deep in the substrate and the RELAX statement is used appropriately.</para>
+    <para id="id1171830150326">7.7.5. Simulating Ion Implantation</para>
+    <para id="id1171824103665"> Ion implantation is the main method used to introduce doping impurities into semiconductor device structures. Adequate simulation of the ion implantation process is very important because modern technologies employ small critical dimensions (CDs) and shallow doping profiles, high doses, tilted implants and other advanced methods.</para>
+    <para id="id1171825284079"> The IMPLANT statement can be set by using the ATHENA Implant Menu (Figure 7.35). To open this menu, select Process →Implant... in the Commands menu.</para>
+    <para id="id1171826065562">
+      <figure id="id1171823948783">
+        <media id="id1171823948783_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-e85b.png" id="id1171823948783__onlineimage" height="542" width="585"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171823387917">Figure 7.35. ATHENA Implant Menu.</para>
+    <para id="id1171824308790">The following gives the minimum set of parameters that should be specified:</para>
+    <para id="id8586171">• Name of implant impurity (e.g., boron)</para>
+    <para id="id1171826985920">• Implant dose using the slider for the pre-exponential value (e.g., 4.0) and the Exp menu for the exponent (e.g., 12)</para>
+    <para id="id1171830150192">• Implant energy in KeV (e.g., 60)</para>
+    <para id="id1171825090234">• Tilt angle in degrees (e.g., 7°)</para>
+    <para id="id1171823300481">• Rotation angle in degrees (e.g., 30°)</para>
+    <para id="id1171825625888">All other parameters can use their default values.</para>
+    <para id="id1171824438687">Press the Write button and the following statement will appear in the input file.</para>
+    <para id="id1171824038028"># CHANNEL IMPLANT</para>
+    <para id="id1171824237519"># DUAL PEARSON MODEL IS BEING USED FOR IMPLANT PROFILE</para>
+    <para id="id1171825763602">IMPLANT BORON DOSE= 4.0E12 ENERGY= 60 PEARSON TILT=7 ROTATION=30 \ CRYSTAL</para>
+    <para id="id1171824139421"> All of the parameters in the statement above are self-explanatory except CRYSTALLINE. The CRYSTALLINE parameter indicates that for all analytical models, the range statistics extracted for a single silicon crystal will be applied (when available). If AMORPHOUS is selected, the range parameters measured in pre-amorphized silicon will be used (when available). The CRYSTALLINE parameter also has another meaning for the Monte Carlo or BCA implant models. It invokes the Crystalline Material Model which takes channeling into account. Note that the latter model is much slower (5 - 10 times) than the Amorphous Material Model. The Crystalline Material Model is the default model for BCA or Monte Carlo simulation.</para>
+    <para id="id1171822689498"> For a detailed description of ion implant model selection, see Chapter 3: “SSUPREM4 Models”, Section 3.5:“Ion Implantation Models”.</para>
+    <para id="id1171836297656"> You can specify tilt and rotation angles of the ion beam. Positive tilt angles correspond to the ion beam coming from the top left. Specifying the rotation angle makes sense only for non-zero tilt angles. Zero rotation means that the ion beam vector lies in the plane parallel to the 2D simulation plane. 90° rotation means that the ion beam vector lies in the plane perpendicular to the simulation plane.</para>
+    <para id="id8012946"> Selecting Continual rotation causes SSUPREM4 to rotate the wafer, i.e., implantation will be performed at 24 different rotation angles from 0 to 345°, in increments of 15°.</para>
+    <para id="id1171823361334"> There are several damage models available in SSUPREM4. These models allow you to estimate distributions of various defects generated after ion implantation. For more details about the damage models and their effect on subsequent diffusion, see Chapter 3: “SSUPREM4 Models”, Section</para>
+    <para id="id1171834891432">7.7.6:“Ion Implantation Damage”.</para>
+    <para id="id1171823301292"> When the Monte Carlo model is selected, you can specify several additional optional parameters (See Figure 7.36). The first three parameters are related to the Damage model (Point defects, {311}-clusters, and dislocation loops). The three others control Monte Carlo calculation (initial random number, number of trajectories, and smoothing). See Table 7.6 for a quick reference of ATHENA implant models.</para>
+    <para id="id1171822860879"/>
+    <para id="id1171822754705">
+      <emphasis effect="bold">Table 7.6. ATHENA Implant Model Reference</emphasis>
+    </para>
+    <table id="id1171825293066" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Process </entry>
+            <entry>Model</entry>
+            <entry>Assumption</entry>
+            <entry>Recommendation</entry>
+          </row>
+          <row>
+            <entry>Implant</entry>
+            <entry>SIMS Verified DualPearson (SVDP) - Default</entry>
+            <entry>Empirical</entry>
+            <entry>See Chapter 3: “SSUPREM4 Models”, Table 3-7.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Single Pearson</entry>
+            <entry>Analytic</entry>
+            <entry>All other cases</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Monte CarloMonte or BCA</entry>
+            <entry>Statistical</entry>
+            <entry>Multi-layer structures: angled implants into a structure where many ions could be reflected (trenches); when channeling is not described by SVDP; high or very low energy</entry>
+          </row>
+          <row>
+            <entry>SiliconType</entry>
+            <entry>Amorphous</entry>
+            <entry>No channeling effect is included</entry>
+            <entry>Most of implant profile is within amorphous materials (oxide, polysilicon, pre- amorphized silicon); channeling is negligible or not important</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Crystal - Default</entry>
+            <entry>Channeling effect is included</entry>
+            <entry>When channeling effects are important: light ions (boron, phosphorus)_, zero or close to 0° tilt, implant through thin amorphous layer into crystalline substrate</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171822803662">
+      <figure id="id1171824280755">
+        <media id="id1171824280755_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-4968.png" id="id1171824280755__onlineimage" height="434" width="582"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171826204780">
+      <emphasis effect="bold">Figure 7.36. ATHENA Implant Window continued on next page</emphasis>
+    </para>
+    <para id="id1171825023946">
+      <figure id="id1171823150358">
+        <media id="id1171823150358_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-4d71.png" id="id1171823150358__onlineimage" height="499" width="581"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171825232955">Figure 7.36. ATHENA Implant Window</para>
+    <para id="id1171824685595">
+      <emphasis effect="bold">7.7.7 Simulating Diffusion</emphasis>
+    </para>
+    <para id="id1171822307080"> Simulation of thermal process steps is a focal point of SSUPREM4. The hierarchy of diffusion and oxidation models is described in this chapter and in Chapter 3: “SSUPREM4 Models”, Sections 3.1: “Diffusion Models” and 3.3: “Oxidation Models”. This section will demonstrate how to set different parameters and models of diffusion, oxidation and silicidation. The last process will take place only if at least one refractory metal or silicide layer is present in the structure.</para>
+    <para id="id1171825689374"> The parameters and models of a diffusion/oxidation step can be prepared from the ATHENA Diffuse Menu. (Figure 7.37).</para>
+    <para id="id1171825278928">
+      <figure id="id1171822568470">
+        <media id="id1171822568470_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-b273.png" id="id1171822568470__onlineimage" height="424" width="629"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171834508571">Figure 7.37. ATHENA Diffuse Menu.</para>
+    <para id="id1171826153256"> To open this menu, select Process→Diffuse... in the Deckbuild Commands menu. The Diffuse menu has four sections. Only the Time/Temperature and Ambient fields appear initially. The Impurities and Models fields appear only when the corresponding check boxes are selected.</para>
+    <para id="id1171827943837"> The minimum set of diffusion step parameters is as follows:</para>
+    <para id="id1171822553722">• Time (e.g., 60 minutes)</para>
+    <para id="id1171822793522">• Temperature (e.g., 1100° Celsius)</para>
+    <para id="id1171824684986">• Gas pressure (1 atmosphere is default)</para>
+    <para id="id1171824294764">The following input file statements will appear:</para>
+    <para id="id1171823744525"># DRIVE-IN</para>
+    <para id="id1171826461976">DIFFUSE TIME=60 TEMP=1100 NITRO PRESS=1.00</para>
+    <para id="id1171823455938">If you choose the Ramped box and End Temperature or Temperature rate, a ramped temperature thermal step is simulated. The temperature rate is a variable by default, but it can be set to a specific constant temperature rate by selecting Constant in the Rate box. If the End Temperature is set to 1000, the following lines appear:</para>
+    <para id="id1171826688814"># RAMPING DOWN</para>
+    <para id="id1171824245105">DIFFUSE TIME=60 TEMP=1100 T.FINAL=1000 NITRO PRESS=1.00</para>
+    <para id="id1171827265707"> The same pull down menu used for inert diffusions is also used for oxidations described in the “Simulating Oxidation” Section on page 2-39. But, since there are special considerations for inert diffusions which come under the category of Rapid Thermal Anneals (RTA), the special notes pertaining to this specific set of conditions are described in the next section. These notes are very important for accurate simulation of high temperature, short duration anneals. We recommend that you read these notes before attempting to write the RTA section of the input file.</para>
+    <para id="id1171824249437">7.7.8: Simulating Rapid Thermal Anneals (RTA) Notes</para>
+    <para id="id1171821728483"> The usual reason for employing a Rapid Thermal Anneal (RTA) in a process flow is to anneal out damage in the substrate that has been caused by a previous process step, usually an implant, while at the same time minimizing dopant diffusion. Dopant activation also occurs during this process. These anneals are usually high in temperature and low in duration for sound device physics reasons.</para>
+    <para id="id1171824258910"> Once again, the key to accurate simulation of RTA lies in the accurate simulation of substrate damage behavior. The role of interstitials in enhanced dopant diffusion has already been explained in Section 2.4:“Choosing Models In SSUPREM4” to become familiar with the role of interstitials during process simulation.</para>
+    <para id="id1171823352469"> The reason why an RTA usually employs high temperatures and short durations is because for a given high dose implant, if an anneal duration is selected so that a fixed percentage of the damage is annealed, the lower the anneal temperature, the more dopant diffusion occurs.</para>
+    <para id="id1171824506683">The above statement requires an explanation since intuitively, the opposite would seem more likely. A descriptive explanation of what is happening can be informative if the two extremes of anneal temperature are considered.</para>
+    <para id="id1171825319202"> For the lowest anneal temperatures, the damage anneal rate is almost zero, so dopant diffusion rates are enhanced by a factor of 1000°C or more for the long time periods required to remove the damage. This results in high total dopant diffusion.</para>
+    <para id="id1171825812867"> For the highest temperature anneals, a significant percentage of damage removal occurs in a fraction of a second. Almost zero damage enhanced diffusion or total diffusion occurs in this instance, and the anneal time to remove the damage is very short. Extrapolating between these extremes provides a qualitative explanation of what occurs for intermediate temperature anneals.</para>
+    <para id="id1171824339727">Two important points have now been established:</para>
+    <para id="id1171827104827">1. For sound device physics reasons, most RTA processes consist of high temperature, short duration anneals.</para>
+    <para id="id1171822321266">2. Damage-enhanced diffusion will only occur for a few seconds at typical RTA temperatures.</para>
+    <para id="id1171825217772"> For accurate simulation of RTA, the second point is most important and often wrongly neglected. Suppose an RTA consists of a 10 second ramp up to 1000°C, followed by a 20 second anneal and a 10 second cool down. From the second point, it is apparent that most of the Total Dopant Diffusion would have taken place during the Ramp Up Phase of the RTA.</para>
+    <para id="id1171825455461"> Therefore, always model the temperature ramp up accurately when simulating an RTA process. In most cases, the ramp down can be neglected, since all the diffusion has already taken place at the beginning when the silicon was still damaged.</para>
+    <para id="id1171822799264">7.7.9: Simulating Oxidation</para>
+    <para id="id1171823454413"> It has already been stated that the pull down menu for simulating oxidations is the same as that for simulating inert diffusions described in the “Simulating Diffusion” Section on page 2-37. See this section for advice on selecting the appropriate pull down menu from DECKBUILD.</para>
+    <para id="id1171830900578"> The default method for oxidation is Compress. In SSUPREM4 examples there are a number of examples which illustrate the use of different models for different processes and structures.</para>
+    <para id="id1171823256223"> In our previous example described in the “Simulating Diffusion” Section on page 2-37, if the next temperature step is going to be at a constant temperature of 1000°C in dry O2 with 3% of HCL in the ambient, select the Dry O2 box and set HCL% equal to 3 in the Ambient section of the Diffuse menu. The following input file fragment will appear:</para>
+    <para id="id1171822919788"># GATE OXIDE</para>
+    <para id="id1171823442886">DIFFUSE TIME=60 TEMP=1000 DRYO2 PRESS=1.00 HCL.PC=3</para>
+    <para id="id1171823427457"> If the ambient is a mixture consisting of more than one oxidant, the total oxidation rate will depend on the combined effect of all species in the ambient. To specify the contents of the ambient mixture, select the Gas Flow button in the Ambient section and an additional ATHENA Gas Flow Properties Menu (Figure 7-38) will appear.</para>
+    <para id="id1171822689270">
+      <figure id="id1171822711316">
+        <media id="id1171822711316_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-f683.png" id="id1171822711316__onlineimage" height="175" width="480"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171822634382">Figure 7.38. ATHENA Gas Flow Properties</para>
+    <para id="id1171824380742"><emphasis effect="bold"/>If the Gas Flow components are selected, as shown in Figure 7.38, the following statement will be generated:</para>
+    <para id="id1171824152673"># GATE OXIDE</para>
+    <para id="id1171821796766">DIFFUSE TIME=60 TEMP=1000 F.H2O=5.3 F.HCL=0.06 F.O2=8.0 \ PRESS=1.00</para>
+    <para id="id1171821937405">One or several impurities can be present in the ambient. To set ambient in the Impurity Concentration section of the ATHENA Diffuse Menu (See Figure 7-37), check the corresponding checkboxes, and set the values using sliders and the Exp menus.</para>
+    <para id="id1171823078413">For example, by selecting the appropriate boxes and values, the following DIFFUSE statement will be inserted into the input file:</para>
+    <para id="id1171825255778"># FIELD OXIDE</para>
+    <para id="id1171825224562">DIFFUSE TIME=100 TEMP=850 T.FINAL=1060 WETO2 PRESS=1.00 \ HCL.PC=0 C.ARSENIC=9.0E19 C.PHOSPHOR=4.0E20</para>
+    <para id="id1171825233473">Several other parameters not included on the menu are available in the DIFFUSE statement (Chapter 6: “Statements”, Section 6.15:“DIFFUSE”). The DUMP, DUMP.PREFIX, and NO.DIFF parameters can be useful. DUMP and DUMP.PREFIX can be used to make a movie using TONYPLOT. The NO.DIFF parameter specifies that impurity redistribution will be neglected. This provides a good approximation for low temperature processes, such as silicidation.</para>
+    <para id="id1171824136510"> Several other model specification statements are important for diffusion processes. These are as follows:</para>
+    <para id="id1171825283287">• IMPURITY, INTERSTITIAL, and other impurity and point defect statements, which specify model parameters (e.g., diffusivity or segregation) of these species.</para>
+    <para id="id1171825319586">• The OXIDE statement, which specifies parameters for different oxidation models.</para>
+    <para id="id1171836294430">• The MATERIAL statement, which specifies some basic parameters for all materials.</para>
+    <para id="id1171825229906">• The SILICIDE statement, which specifies silicidation coefficients.</para>
+    <para id="id1171825466042">Table 7.7 shows the basic diffusion and oxidation models.</para>
+    <para id="id1171824143885">
+      <emphasis effect="bold">Table 7.7. Basic Diffusion and Oxidation Models.</emphasis>
+    </para>
+    <table id="id1171822528603" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Process</entry>
+            <entry>Model</entry>
+            <entry>Assumption</entry>
+            <entry>Recommendation</entry>
+          </row>
+          <row>
+            <entry>Diffuse</entry>
+            <entry>Fermi- Default</entry>
+            <entry>Defect in equilibrium</entry>
+            <entry>For undamaged substrates in inert ambients</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>two.dim</entry>
+            <entry>Transient defect diffusion</entry>
+            <entry>during oxidation, and after medium dose implant (e.g., OED)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>full.cpl</entry>
+            <entry>Defect and impurity binding energy model</entry>
+            <entry>Post high dose implant &amp; co-diffusion effects, but execution time is high</entry>
+          </row>
+          <row>
+            <entry>Oxidation</entry>
+            <entry>Vertical</entry>
+            <entry>Planar</entry>
+            <entry>1D oxidation only (should never be used)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Compress- Default</entry>
+            <entry>Non-planar with linear flow</entry>
+            <entry>2D oxidation (e.g. birds beak)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>ViscousElastic</entry>
+            <entry>Non-planar with non- linear flow</entry>
+            <entry>2D oxidation (e.g. birds beak with thick Si3N4, however, execution time is higher</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171822708852"> For a detailed description of all diffusion and oxidation models, see Chapter 3: “SSUPREM4 Models”, Sections 3.1: “Diffusion Models” and 3.3: “Oxidation Models”.</para>
+  </content>
+</document>

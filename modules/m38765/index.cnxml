@@ -1,0 +1,279 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 7_Scaling of MOS circuits_continued2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38765</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 7_Scaling of MOS circuits_continued2</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 7_Scaling of MOS circuits_continued2 deals with the scaling models with constant field, constant voltage and dimensions and voltage being scaled by different scaling factors.</md:abstract>
+  <md:uuid>41af2af8-f5ea-472f-af5a-db836948bc51</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171928514972">SSPD_Chapter 7_Part 7_Scaling of MOS circuits_continued2 </para>
+    <para id="id1171929308423">
+      <emphasis effect="bold">7.7.7. Scaling models and scaling factors.</emphasis>
+    </para>
+    <figure id="id1171938823994">
+      <media id="id1171938823994_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-29be.png" id="id1171938823994__onlineimage" height="488" width="492"/>
+      </media>
+    </figure>
+    <para id="id3984694">In Figure 7.7.7.1. NMOS cross-secctional view and top view are shown. </para>
+    <para id="id1171929863108">Linear dimensions both vertical and lateral are being scaled by 1/α..</para>
+    <para id="id1171936410231">DC Biasing voltage ,V<sub>DD</sub> , and Oxide thickness,D, are being scaled by 1/β.</para>
+    <para id="id1171937297208">We have three scaling models:</para>
+    <list id="id3978735" list-type="enumerated" number-style="lower-roman">
+      <item>Constant Field Scaling Model- here physical dimensions and bias voltage have the same scaling factor therefore α = β;</item>
+      <item>Constant Voltage Scaling Model- here physical dimensions are scaled but bias voltage is kept constant therefore β = 1;</item>
+      <item>General Scaling Model- here the two scaling factors are kept different.This is more realistic and presently widely practiced in the Industries.</item>
+    </list>
+    <para id="id1171929523693">
+      <emphasis effect="bold">7.7.7.1.Scaling Factors for Device Geometrical parameters</emphasis>
+    </para>
+    <para id="id1171933177956">1. Gate Area = A<sub>g</sub> = L×W. Each dimension is scaled by 1/α hence A<sub>g</sub> is scaled by 1/α<sup>2</sup>.</para>
+    <para id="id1171931925654">2.Gate Capacitance per unit area = C<sub>OX</sub> = ε<sub>0</sub>ε<sub>OX</sub>/D where D is scaled by 1/β therefore C<sub>OX</sub> is scaled by β.</para>
+    <para id="id1171939553084">3. Gate Capacitance , C<sub>g</sub> , = C<sub>OX</sub>×LW has a scaling factor of β/α<sup>2</sup> .</para>
+    <para id="id1171929286106">4. Parasitic Capacitance, C<sub>X</sub> = ε<sub>0</sub>ε<sub>Si</sub> A<sub>X</sub>/d= junction capacitance of the diode at Source-Substrate Junction and at Drain-Substrate Junction. ‘d’ is the depletion width of the diode. Since Source and Drain are at 0V and 5V respectively and substrate is also at 0V therefore depletion region around Source and Drain are d1 and d2 respectively extending primarily into P-Substrate because the two diodes are one-sided step junctions There is a depletion region d3 under the gate in the substrate. This is due to the trapped charges in the gate-oxide and due to the positive voltage a the gate electrode. </para>
+    <figure id="id1171933139330">
+      <media id="id1171933139330_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-3886.png" id="id1171933139330__onlineimage" height="659" width="556"/>
+      </media>
+    </figure>
+    <para id="id1171928797876">In Figure 7.7.7.1 cross-sectional view of NMOS structure with depletion region of ‘d’μm width is illustrated in the upper figure and in the figure below ‘d’μm’ plot with respect to Background doping of P-substrate is shown.</para>
+    <para id="id1171936701276">From Device Physics we know that for one-sided step junction:</para>
+    <figure id="id1171933548631">
+      <media id="id1171933548631_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-6ce3.png" id="id1171933548631__onlineimage" height="64" width="346"/>
+      </media>
+    </figure>
+    <para id="id1171928853158">As the channel length is scaled down, depletion region width ‘d’ must also be scaled down to prevent the source and drain depletion regions from meeting. This is probably to prevent “Punch Through” - a phenomena which occurs in BJT also.</para>
+    <para id="id1171932036415">During scaling, cross-sectuional area A<sub>X</sub> is scaled by 1/α<sup>2</sup> and Backgound Doping is increased so that d is scaled by 1/α.</para>
+    <para id="id1654365">So the scaling factor of C<sub>X</sub> is :</para>
+    <figure id="id4282684">
+      <media id="id4282684_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-8548.png" id="id4282684__onlineimage" height="58" width="295"/>
+      </media>
+    </figure>
+    <para id="id1171928469448">Increase in substrate doping N<sub>B</sub> decreases ‘d’ but increases threshold voltage V<sub>Th</sub> which is against the required trend of scaling and hence cannot be permitted therefore substrate doping is selectively increased around Source and Drain but not under the Gate by the application of deep channel implantation.</para>
+    <para id="id1171930726469">
+      <emphasis effect="bold">7.7.7.2.Scaling factors for different performance parameters for General Scaling Model.</emphasis>
+    </para>
+    <para id="id1171933538557">i.Carrier density in the channel = Q<sub>ON </sub>= C<sub>OX</sub>×V<sub>GS</sub> . (since V<sub>GS</sub> = V<sub>DD</sub> hence scaling factor for V<sub>GS</sub> is the same as for V<sub>DD</sub>). Hence scaling factor for Q<sub>ON </sub>= β×(1/β) = 1</para>
+    <para id="id1171928692284">ii. Channel resistance R<sub>ON</sub> is given as follows:</para>
+    <figure id="id1171934116986">
+      <media id="id1171934116986_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-d241.png" id="id1171934116986__onlineimage" height="54" width="533"/>
+      </media>
+    </figure>
+    <para id="id1171930109945">Where ρ is resistivity of the ON channel and σ is the conductivity of the ON channel and </para>
+    <figure id="id1171929300435">
+      <media id="id1171929300435_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-4704.png" id="id1171929300435__onlineimage" height="30" width="484"/>
+      </media>
+    </figure>
+    <para id="id1171933184110">Where μ<sub>n</sub> = drift mobility of electrons since we are dealing with NMOS, </para>
+    <para id="id1171940018466">q= charge of an electron, </para>
+    <para id="id1171935145630">n<sub>n</sub> = number density or electron number per unit volume of the channel therefore</para>
+    <figure id="id1171929635268">
+      <media id="id1171929635268_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-6780.png" id="id1171929635268__onlineimage" height="55" width="575"/>
+      </media>
+    </figure>
+    <para id="id1171942437154">Substituting Eq.7.7.2.2 and Eq 7.7.2.3 in Eq.7.7.2.1 we get:</para>
+    <para id="id3921484">
+      <figure id="id8189985">
+        <media id="id8189985_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-7367.png" id="id8189985__onlineimage" height="76" width="585"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171929046630">Therefore From Eq.7.7.2.4: R<sub>ON</sub> = (L/W)×[1/(μ<sub>n</sub>Q<sub>ON</sub>)]</para>
+    <para id="id1171928673882">Mobility is unaffected by scaling. Hence scaling factor is 1×1=1</para>
+    <para id="id1171929810855">iii Gate Delay τ<sub>d</sub> = C<sub>g</sub>R<sub>ON</sub> = (L×W)C<sub>OX</sub>×(L/W)×[1/(μ<sub>n</sub>Q<sub>ON</sub>)] = L<sup>2</sup>C<sub>OX</sub>[1/(μ<sub>n</sub>Q<sub>ON</sub>)]</para>
+    <para id="id1171931808286">Therefore scaling factor of Gate Delay is (1/α<sup>2</sup>)×β×1= β/α<sup>2</sup> ;</para>
+    <para id="id1171938770901">iv Maximum toggle rate = f<sub>max</sub> = 1/τ<sub>d </sub>. Therefore the scaling factor is the reciprocal of that of Gate Delay i.e. (α<sup>2</sup> /β) .</para>
+    <para id="id1171929869376">v Saturation Current I<sub>DSS</sub> = (μ<sub>n</sub>C<sub>OX</sub>/2)(W/L)(V<sub>GS</sub>-V<sub>th</sub>)<sup>2</sup> Here both V<sub>GS</sub> and V<sub>th</sub> are being scaled by (1/β). Hence the scaling factor is β×1×(1/β)<sup>2</sup>=1/β.</para>
+    <para id="id1171928887323">vi. Switching energy per gate E<sub>gate</sub> = (1/2)C<sub>g</sub>(V<sub>DD</sub>)<sup>2</sup>. The scaling factor is (β/α<sup>2</sup>)(1/β)<sup>2</sup>=</para>
+    <para id="id1171935979661">1/(α<sup>2</sup>β).</para>
+    <para id="id6236404">vii. Power dissipation per gate P<sub>gate</sub> = Quiescent Power + Dynamic Power </para>
+    <para id="id1171932464319">= (V<sub>DD</sub>)<sup>2</sup>/R<sub>ON</sub> + f<sub>max</sub>×E<sub>gate</sub> . Hence the scaling factor is (1/β)<sup>2</sup>×1+(α<sup>2</sup>/β)×(1/(α<sup>2</sup>β)</para>
+    <para id="id1171941020742">=1/β<sup>2</sup>.</para>
+    <para id="id1171936363138">viii. Power dissipation per unit area = P<sub>□</sub>= P<sub>gate</sub>/A<sub>gate</sub> . Therefore the scaling factor = (1/β<sup>2</sup>)/(1/α<sup>2</sup>) = (α/β)<sup>2</sup> .</para>
+    <para id="id1171929234262">ix. Power Speed Product is the Figure of Merit of the Gate = P<sub>gate</sub>× τ<sub>d</sub> . This has a scaling factor = 1/β<sup>2</sup>× β/α<sup>2</sup>=1/(βα<sup>2</sup>).</para>
+    <para id="id1171931689910">
+      <emphasis effect="bold">Table 7.7.7.2.1. Scaling factors for different performance parameters for General Scaling Model.</emphasis>
+    </para>
+    <table id="id1171927898254" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Performance parameter</entry>
+            <entry>Formula</entry>
+            <entry>Scaling Factor</entry>
+          </row>
+          <row>
+            <entry>Q<sub>ON</sub></entry>
+            <entry>C<sub>OX</sub>×V<sub>GS</sub></entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>R<sub>ON</sub></entry>
+            <entry>(L/W)×[1/(μ<sub>n</sub>Q<sub>ON</sub>)]</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>τ<sub>d</sub></entry>
+            <entry>C<sub>g</sub>R<sub>ON</sub> = L<sup>2</sup>C<sub>OX</sub>[1/(μ<sub>n</sub>Q<sub>ON</sub>)]</entry>
+            <entry>β/α<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>Maximum toggle rate</entry>
+            <entry>f<sub>max</sub> = 1/τ<sub>d</sub></entry>
+            <entry>(α<sup>2</sup> /β)</entry>
+          </row>
+          <row>
+            <entry>I<sub>DSS</sub></entry>
+            <entry>(μ<sub>n</sub>C<sub>OX</sub>/2)(W/L)(V<sub>GS</sub>-V<sub>th</sub>)<sup>2</sup></entry>
+            <entry>1/β</entry>
+          </row>
+          <row>
+            <entry>J<sub>DSS</sub></entry>
+            <entry>I<sub>DSS</sub>/(L×W)</entry>
+            <entry>α<sup>2</sup> /β</entry>
+          </row>
+          <row>
+            <entry>E<sub>gate</sub></entry>
+            <entry>(1/2)C<sub>g</sub>(V<sub>DD</sub>)<sup>2</sup></entry>
+            <entry>1/(α<sup>2</sup>β)</entry>
+          </row>
+          <row>
+            <entry>P<sub>gate</sub></entry>
+            <entry>(V<sub>DD</sub>)<sup>2</sup>/R<sub>ON</sub> +f<sub>max</sub>×E<sub>gate</sub></entry>
+            <entry>1/β<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>P<sub>□</sub></entry>
+            <entry>P<sub>gate</sub>/A<sub>gate</sub></entry>
+            <entry>(α/β)<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>Figure of Merit</entry>
+            <entry>P<sub>gate</sub>× τ<sub>d</sub></entry>
+            <entry>1/(βα<sup>2</sup>)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171938672956">7.7.7.3. Scaling factors for all the three scaling models.</para>
+    <para id="id1171934234111">In this section we will tabulate the scaling factors for all the three scaling models namely:</para>
+    <list id="id1171928824708" list-type="enumerated" number-style="lower-roman">
+      <item>Constant Electric Field Model also known as Full Scaling Model. Here α=β.</item>
+      <item>Constant Voltage Model also known as Fixed Voltage Model. Here β =1.</item>
+      <item>General Scaling Model. Here two scaling factors are kept different. This is most realistic and generally accepted by Industries.</item>
+    </list>
+    <para id="id1171936616310">Table 7.7.7.3.1. Scaling Factors for long channel devices for the three scaling models.</para>
+    <table id="id6266029" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Parameter</entry>
+            <entry/>
+            <entry>Full Scaling</entry>
+            <entry>General Scaling</entry>
+            <entry>Fixed Scaling</entry>
+          </row>
+          <row>
+            <entry>W,L,D</entry>
+            <entry/>
+            <entry>1/α</entry>
+            <entry>1/ α for W&amp;L, 1/β for D</entry>
+            <entry>1/ α</entry>
+          </row>
+          <row>
+            <entry>V<sub>DD</sub> , V<sub>th</sub></entry>
+            <entry/>
+            <entry>1/ α</entry>
+            <entry>1/β</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>N<sub>B</sub>*</entry>
+            <entry>V/d<sup>2</sup></entry>
+            <entry>α</entry>
+            <entry>α<sup> 2</sup>/β</entry>
+            <entry>α<sup> 2</sup></entry>
+          </row>
+          <row>
+            <entry>Area/device</entry>
+            <entry>WL</entry>
+            <entry>1/ α<sup>2</sup></entry>
+            <entry>1/ α<sup>2</sup></entry>
+            <entry>1/ α<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>C<sub>OX</sub> = C<sub>□g</sub></entry>
+            <entry>1/D</entry>
+            <entry>α</entry>
+            <entry>β</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>C<sub>g</sub></entry>
+            <entry>C<sub>OX</sub>WL</entry>
+            <entry>1/α</entry>
+            <entry>β/ α<sup>2</sup></entry>
+            <entry>1/ α<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>k<sub>n</sub> or k<sub>p</sub></entry>
+            <entry>C<sub>OX</sub>W/L</entry>
+            <entry>α</entry>
+            <entry>β</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>I<sub>DSS</sub></entry>
+            <entry>kV<sup>2</sup></entry>
+            <entry>1/ α</entry>
+            <entry>1/β</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>t<sub>d</sub></entry>
+            <entry>C<sub>g</sub>V/ I<sub>DSS</sub></entry>
+            <entry>1/ α</entry>
+            <entry>β/ α<sup>2</sup></entry>
+            <entry>1/ α<sup>2</sup></entry>
+          </row>
+          <row>
+            <entry>P<sub>gate</sub></entry>
+            <entry>C<sub>g</sub>V<sup>2</sup>/t<sub>d</sub></entry>
+            <entry>1/ α<sup>2</sup></entry>
+            <entry>1/β<sup>2</sup></entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>E<sub>gate</sub></entry>
+            <entry>C<sub>g</sub>V<sup>2</sup></entry>
+            <entry>1 α<sup>3</sup></entry>
+            <entry>1/(β α<sup>2</sup>)</entry>
+            <entry>1/ α<sup>2</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171933387713">*From Eq.7.7.7.1.1 :</para>
+    <figure id="id1171928702182">
+      <media id="id1171928702182_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-576a.png" id="id1171928702182__onlineimage" height="59" width="230"/>
+      </media>
+    </figure>
+  </content>
+</document>

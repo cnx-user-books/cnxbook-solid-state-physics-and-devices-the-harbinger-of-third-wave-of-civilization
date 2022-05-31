@@ -1,0 +1,99 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Tutorial Sheet of Chapter 2.Semiconductor Physics.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47718</md:content-id>
+  <md:title>Tutorial Sheet of Chapter 2.Semiconductor Physics.</md:title>
+  <md:abstract>This gives the tutorial sheet on Chapter 2-Semiconductor Physics.</md:abstract>
+  <md:uuid>ef98b7ce-1dcd-4c7d-b2fd-3e8daf3dd505</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1168630077057">
+      <emphasis effect="bold">Tutorial Sheet of Chapter 2.Semiconductor Physics.</emphasis>
+    </para>
+    <para id="import-auto-id1168639587617"><emphasis effect="bold">Question 1.</emphasis> (a)Determine the Drift Velocity of electron and hole in the given intrinsic sample in Figure-Tutorial 2.1. with 10V applied across the junction?[vdrift(n)=5800cm/s,vdrift(p)=1800cm/s]Assume mobility given for intrinsic sample.</para><para id="import-auto-id1168636001190">(b)Determine the conductivity of the following intrinsic sample?[σ=3*10<sup>-6</sup>S/cm]</para><para id="import-auto-id1168635917833">(b) Determine the current flowing though the intrinsic sample?[0.72microA]</para><figure id="import-auto-id1168631957110">
+      <media id="import-auto-id1168638051751" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-bdeb.png" height="371" width="623"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1168630201491"><emphasis effect="bold">Question 2.</emphasis> The energy-band diagram is given in Figure-Tutorial2.2.</para>
+    <figure id="import-auto-id1168635881850">
+      <media id="import-auto-id1168623389357" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-f2b5.png" height="434" width="623"/>
+      </media>
+    </figure>
+    <list id="import-auto-id1168648357162" list-type="enumerated" number-style="lower-alpha" mark-prefix="(">
+      <item>Calculate the probability of occupancy at Ed according to Fermi-Dirac Statistics? [P(Ed)=1.41%]</item>
+      <item>Calculate the % of ionization of Donor Atoms ? [99%]</item>
+      <item>If N<sub>C</sub> = effective density of states at E<sub>C</sub> = 3.01×10<sup>19</sup>/cc then calculate n<sub>n</sub><sup>-</sup> ? [6.3917×10<sup>16</sup>/cc]</item>
+      <item>Calculate p<sub>n</sub><sup>-</sup> if N<sub>V</sub> = effective density of states at E<sub>V</sub> = 1.04×10<sup>19</sup>/cc ? [2773.81]</item>
+      <item>Calculate n<sub>i</sub><sup>2</sup> ? [(1.15×10<sup>10</sup>)<sup>2</sup> ]</item>
+      <item>Calculate N<sub>D</sub> [6.3917×10<sup>16</sup>/cc ]</item>
+    </list>
+    <para id="import-auto-id1168635862653"><emphasis effect="bold">Question 3</emphasis>.In a P-Type material, E<sub>F</sub>-E<sub>V</sub> = 0.1 eV and E<sub>a</sub>-E<sub>V</sub> =0.045eV.</para>
+    <para id="import-auto-id1168640283294">Calculate the % of ionization of Acceptor Atoms ? [89%]</para>
+    <para id="import-auto-id1168623392756"><emphasis effect="bold">Question 4</emphasis>.There is a compensated P-Type material at 300K. Minority carrier concentration is measured to be n<sub>p</sub><sup>- </sup>=10<sup>6</sup>/cc. Acceptor Dopent Concentration = 10<sup>15</sup>/cc.</para>
+    <list id="import-auto-id1168637936034" list-type="enumerated" number-style="lower-alpha" mark-prefix="(">
+      <item>Determine majority carrier concentration? [10<sup>14</sup>/cc].</item>
+      <item>Determine N<sub>d</sub>  ?[9×10<sup>14</sup>/cc].</item>
+      <item>Determine the total scattering centers.[ 19×10<sup>14</sup>/cc ].</item>
+    </list>
+    <para id="import-auto-id1168633962119"><emphasis effect="bold">Question 5.</emphasis> In Copper, resistivity= ρ = 1.67×10<sup>-8 </sup>Ω-m and conductivity = σ = 6×10<sup>7</sup> S/m=qμn and n=8.5×10<sup>22</sup>/m<sup>3</sup>. Determine electron mobility ? [40 cm<sup>2</sup>/(V-s) ]</para>
+    <para id="import-auto-id1168637885092"><emphasis effect="bold">Question 6.</emphasis> In a 3 m long Cu Wire R = 0.03Ω and I = 15A through the wire.</para>
+    <list id="import-auto-id1168625374159" list-type="enumerated" number-style="lower-alpha" mark-prefix="(">
+      <item>Determine V<sub>drop</sub> across the wire ? [0.45V]</item>
+      <item>Determine E along the z-axis ? [0.15V/m]</item>
+      <item>Determine drift velocity of electron if μ= 40 cm<sup>2</sup>/(V-s)? [0.6×10<sup>-3</sup>m/s]</item>
+      <item>Determine the Fermi-velocity of conducting electron ? [10<sup>6</sup>m/s]</item>
+      <item>Determine the mean free time between two scatterings also defined as relaxation time ? [2.27×10<sup>-14</sup>s]</item>
+      <item>Determine the mean free path ?[275A°]. Compare this with lattice constant a =3.6A°.</item>
+    </list>
+    <para id="import-auto-id1168637770270"><emphasis effect="bold">Question 7.</emphasis> Typical N-Type resistivity ρ<sub>S</sub> =1Ω-cm.Typical current density 100A/cm<sup>2</sup>. mobility of electrons=1000cm<sup>2</sup>/V-s</para><list id="import-auto-id1168629130317" mark-prefix="(" list-type="enumerated" number-style="lower-alpha"><item>Calculate E  ?  [100V/cm]</item>
+      <item>Calculate drift velocity ? [1.0×10<sup>5</sup>cm/s]</item>
+    </list><para id="import-auto-id1168625986988"><emphasis effect="bold">Question 8</emphasis>.In a P-Type Sample , E=10<sup>3</sup>V/cm is applied. Determine drift velocity, mean free time and mean free path ? Assume μ<sub>p</sub> = 470 cm<sup>2</sup>/(V-s).</para>
+    <para id="import-auto-id1168624474086">[Drift velocity = 4.7×10<sup>5</sup>cm/s which is much lower than thermal velocity of holes=2.2×10<sup>7</sup>cm/s; τ = 0.1ps, Mean Free Path = 220A°]</para>
+    <para id="import-auto-id1168635889044"><emphasis effect="bold">Question 9.</emphasis> The effective mass of electron and hole in semi-conductor is different from the mass in free space . Why?</para>
+    <para id="import-auto-id1168628828459">The electrons and holes in a crystal interact with the periodic Coulombic Field in the Crystal. They surf over the periodic potential variation of the crystal lattice in the process developing roller coaster effect which leads to drastic reduction in effective mass.</para>
+    <table id="import-auto-id1168635877828" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>Si</entry>
+            <entry>Ge</entry>
+            <entry>GaAs</entry>
+            <entry>InAs</entry>
+            <entry>AlAs</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>m<sub>n</sub>/m<sub>0</sub></entry>
+            <entry>0.26</entry>
+            <entry>0.12</entry>
+            <entry>0.068</entry>
+            <entry>0.023</entry>
+            <entry>2.0</entry>
+          </row>
+          <row>
+            <entry>m<sub>p</sub>/m<sub>0</sub></entry>
+            <entry>0.39</entry>
+            <entry>0.30</entry>
+            <entry>0.50</entry>
+            <entry>0.30</entry>
+            <entry>0.3</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1168632500123"> m<sub>n</sub>/m<sub>0</sub> = effective mass of electron/free space mass of electron</para>
+    <para id="import-auto-id1168638999736">m<sub>p</sub>/m<sub>0</sub> = effective mass of hole/free space mass of hole.</para>
+    <para id="import-auto-id1168639616235">In Silicon, using the effective mass of electron and holes the thermal velocity = 2.5×10<sup>7</sup>cm/s. Scatter Limit Velocities of electron and hole are of the same order.</para>
+  </content>
+</document>

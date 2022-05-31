@@ -1,0 +1,211 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD Chapter 1_Part 2_Photoelectric Effect</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33400</md:content-id>
+  <md:title>SSPD Chapter 1_Part 2_Photoelectric Effect</md:title>
+  <md:abstract>This chapter deals with the simple and elegent explanation given by Einstein in 1905 for Photo-electric Effect. For the experiments and the explanations provided by Einstein on this topic he was awarded Nobel Prize in Physics.</md:abstract>
+  <md:uuid>c435c6d5-6bf0-407d-9ca4-e864b84880b7</md:uuid>
+</metadata>
+<content>
+    <para id="id15062050">1.2. PHOTO-ELECTRIC EFFECT AND EINSTEIN EQUATION.</para>
+    <para id="id3891096"><figure id="id3891102"><media id="id3891102_media" alt=""><image mime-type="image/png" src="../../media/Picture 1-9933.png" id="id3891102__onlineimage" height="400" width="604"/></media></figure>V<sub>A</sub>= Accelerating Voltage;</para>
+    <para id="id10406838">V<sub>R</sub> = Retarding Voltage;</para>
+    <para id="id15509679">K = Cathode;</para>
+    <para id="id4357039">A= Anode;</para>
+    <para id="id4357044">W<sub>F</sub> = Work-Function of the Cathode which is Thoriated Tunsten coated with Strontium Barium Oxide; </para>
+    <para id="id10209147">Photon Energy minus the Work-Function gives the kinetic energy of the photo-emitted electrons coming out of the cathode in the vacuum space surrounding the cathode;</para>
+    <para id="id4141994">hν – W<sub>F</sub> = (1/2)m<sub>e</sub>v<sup>2</sup> = qV<sub>R</sub> ; This Equation implies that if there is retarding voltage on the Anode then photo-emitted electron with a kinetic energy (1/2)m<sub>e</sub>v<sup>2</sup> is totally expended in climbing up the Potential Hill created by the Retarding Voltage. Hence no photo current is detected by the Anode. </para>
+    <para id="id5347567">
+      <emphasis effect="bold">Fig.1.2. The Apparatus for verifying Photo Electric Effect and Einstein Equation. </emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id4126972">Figure.1.2. describes the Experimental Set Up for verifying Photo Electric Effect and Einstein Equation. It consists of a Vacuum Tube which consists of a Cathode and an Anode. A Vacuum Tube is evacuated to an air pressure of 10<sup>-3</sup>mm of Mercury which is referred to as 10<sup>-3</sup> Torr. [ 1 Torr is the pressure which supports 1 mm of column of mercury. Torr is in the honour of the scientist Torrceli. Torrceli was the scientist who suggested that there was a near vacuum above the 76cm column of mercury supported by atmospheric pressure. When a 85cm tall glass tube , filled with mercury, is inverted over a trough full of mercury then only 76cm column is supported. The space above this column within the tube is empty except for mercury vapour which is negligible because of very high cohesive force between the molecules of Mercury. This empty space is referred to as Torcelli vacuum.] </para>
+    <para id="id4219792"> An accelerating voltage or decelerating voltage can be applied to the Anode A Monochromatic beam of light of frequency ν is obliquely incident through a side tube on the Cathode for photo-ionic emission of electrons from the Cathode.</para>
+    <para id="id3736616"> The Energy Band Diagram, which will be derived in Section 1.8., is given in Fig.1.3. As seen from the Diagram, the outermost unfilled Band is known as Conduction Band. At Zero Kelvin ,the Conduction Band is completely occupied till Fermi Energy Level E<sub>F</sub> . As the temperature is raised , by Equipartition Law of Energy the Conduction Band electrons have (1/2)kT Average Thermal Energy associated with each degree of freedom and semi-free electrons in Conduction Band have three translational degree of freedoms. Hence the average thermal energy associated with the semi-free electrons in Conduction Band is (3/2)kT Joules. How the electrons are distributed above and below the Fermi-Level Energy at temperature T Kelvin will be clear when we discuss Fermi-Dirac Statistics.</para>
+    <para id="id4269054">
+      <figure id="id4267075">
+        <media id="id4267075_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-4327.png" id="id4267075__onlineimage" height="293" width="601"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id3954344">
+      <emphasis effect="bold">E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> = Fermi level Energy. It lies within the band gap for metal.</emphasis>
+    </para>
+    <para id="id10213106">
+      <emphasis effect="bold">E</emphasis>
+      <emphasis effect="bold">G</emphasis>
+      <emphasis effect="bold"> = Energy Band Gap = Forbidden Zone.</emphasis>
+    </para>
+    <para id="id15388088">
+      <emphasis effect="bold">E</emphasis>
+      <emphasis effect="bold">C </emphasis>
+      <emphasis effect="bold">= Lower Edge of the Conduction Band.</emphasis>
+    </para>
+    <para id="id5349048">
+      <emphasis effect="bold">E</emphasis>
+      <emphasis effect="bold">V</emphasis>
+      <emphasis effect="bold"> = Upper Edge of the Valence Band.</emphasis>
+    </para>
+    <para id="id4247134">Fig 1.3. Energy Band Diagram of a Metal.</para>
+    <para id="id4247141"/>
+    <para id="id4247145">The electrons in the Conduction Band are not localized to their host atoms but belong to the whole crystalline lattice of the metal. Hence they are free to conduct throughout the crystalline lattice. But when they come to the surface boundary of the crystalline lattice they face a Surface Barrier Potential φ<sub>B </sub>. This prevents the conduction electrons from escaping to the vacuum space outside the metallic lattice. Hence the conduction electrons are referred to as semi-free electrons.</para>
+    <para id="id15243247"> But if the conduction electrons acquire sufficient energy to cross the Surface Barrier Potential then indeed the conduction electrons will be emitted from the surface of the Cathode.</para>
+    <para id="id10405361"> The Surface Barrier Potential φ<sub>B </sub>implies that conduction electrons must acquire energy equal to or greater than qφ<sub>B</sub> to escape into the vacuum. This quantity qφ<sub>B </sub>is known as the Work Function (W<sub>F</sub> ) of the Metal. Pure Tungsten has W<sub>F</sub> = 4eV whereas Strontium Barium Oxide coated Thoriated Tungsten has W<sub>F </sub>= 1 eV. The latter is used as the Cathode Material in all Vacuum Tube Devices.</para>
+    <para id="id15278881">
+      <emphasis effect="bold">Table 1.1. Work Function and Threshold Frequency.</emphasis>
+    </para>
+    <table id="id15275698" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Metal</entry>
+            <entry>Symbol</entry>
+            <entry>Work-Function(eV)</entry>
+            <entry>Threshold Frequency</entry>
+          </row>
+          <row>
+            <entry>Cesium</entry>
+            <entry>Cs</entry>
+            <entry>1.9</entry>
+            <entry>IR</entry>
+          </row>
+          <row>
+            <entry>Potassium</entry>
+            <entry>K</entry>
+            <entry>2.2</entry>
+            <entry>Red</entry>
+          </row>
+          <row>
+            <entry>Sodium</entry>
+            <entry>Na</entry>
+            <entry>2.3</entry>
+            <entry>Red</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c3" cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Lithium</entry>
+                  <entry>Li</entry>
+                  <entry>2.5</entry>
+                </row>
+                <row>
+                  <entry>Calcium</entry>
+                  <entry>Ca</entry>
+                  <entry>3.2</entry>
+                </row>
+                <row>
+                  <entry>Cobolt</entry>
+                  <entry>Co</entry>
+                  <entry>3.9</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Visible part of spectrum</entry>
+          </row>
+          <row>
+            <entry>Tungsten</entry>
+            <entry>W</entry>
+            <entry>≈ 4</entry>
+            <entry>UV</entry>
+          </row>
+          <row>
+            <entry>Aluminum</entry>
+            <entry>Al</entry>
+            <entry>4.08</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Lead</entry>
+            <entry>Pb</entry>
+            <entry>4.14</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Zinc</entry>
+            <entry>Zn</entry>
+            <entry>4.31</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Copper</entry>
+            <entry>Cu</entry>
+            <entry>4.7</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Silver</entry>
+            <entry>Ag</entry>
+            <entry>4.7</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Platinum</entry>
+            <entry>Pt</entry>
+            <entry>6.4</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id15349812"> If the conduction electrons become energetic enough to cross the Surface Barrier Potential by heating i.e. (3/2)kT&gt; W<sub>F </sub>then <emphasis effect="italics">Thermo-ionic Emission</emphasis> takes place.</para>
+    <para id="id15350076"> If the incident Photons have energy packets hν &gt; W<sub>F </sub>then <emphasis effect="italics">Photo-ionic Emission</emphasis> takes place.</para>
+    <para id="id15309941"> If the application of a very high field causes the surface barrier potential height to be lowered and surface barrier thickness to be narrowed then <emphasis effect="italics">High Field Emission</emphasis> of conducting electrons occur by quantum mechanical tunneling. This is described in Section 1.7.3.</para>
+    <para id="id15309962">Presently we are concerned with Photo-ionic Emission.</para>
+    <para id="id15309968">Let the accelerating voltage be V<sub>A</sub> ,</para>
+    <para id="id15349416"> Let the incident photon have a frequency of ν ;</para>
+    <para id="id15349423"> Let the Threshold frequency be ν<sub>Th</sub> where hν<sub>Th </sub>= W<sub>F </sub>;</para>
+    <para id="id15349906">As long as incident photon frequency ν &lt; ν<sub>Th</sub> , no photo-excitation takes place and hence no photo-ionic emission takes place and no Anode Current is detected irrespective of what the Anode Voltage is. The increase in the intensity of light will also not result in any photo-excitation and no Anode Current will be ever detected as shown in Fig 1.4. </para>
+    <figure id="id15267073">
+      <media id="id15267073_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-b07d.png" id="id15267073__onlineimage" height="379" width="522"/>
+      </media>
+    </figure>
+    <para id="id15267096">
+      <emphasis effect="bold">Figure 1.4. Stopping Potential, V</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">, versus incident frequency. </emphasis>
+    </para>
+    <para id="id15287669">But if the incident frequency is greater than the Threshold Frequency then even the weakest intensity light at minimum Anode Voltage will cause some photo-ionic current and a weak Anode current will be detected. </para>
+    <para id="id15287677">As the intensity of incident monochromatic light is increased the strength of the Anode Current increases .</para>
+    <para id="id15287683">Now if a decelerating voltage is applied to the Anode, the photo current detected decreases until at a given negative Anode Voltage the Anode Current becomes zero. For constant frequency but varying Intensity, the stopping potential is the same. Meaning by that stopping potential depends on frequency and not on intensity as shown in Figure 1.5. </para>
+    <figure id="id15287697">
+      <media id="id15287697_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-b9eb.png" id="id15287697__onlineimage" height="260" width="481"/>
+      </media>
+    </figure>
+    <para id="id15288030">On the basis of all the observations we arrive at the following graphs shown in Fig.(1.6), Fig.(1.7) and Fig(1.8).</para>
+    <figure id="id15288039">
+      <media id="id15288039_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-609d.png" id="id15288039__onlineimage" height="382" width="468"/>
+      </media>
+    </figure>
+    <para id="id15288063">hν – W<sub>F </sub>= (1/2)m<sub>e</sub>v<sup>2</sup>=q |V<sub>R</sub>|<sub/>where, hν &gt; W<sub>F </sub>,<sub/>is the necessary condition for photoemission</para>
+    <para id="id15288133">ν- W<sub>F</sub>/h= ν – ν<sub>Th</sub> = (q/h) |V<sub>R</sub>|<sub/></para>
+    <para id="id15288204">or (h/q)ν – (h/q)ν<sub>Th</sub> = |V<sub>R</sub>|<sub/>is a straight line equation like y=mx+c where |V<sub>R</sub>| is the dependent variable y, ν is the independent variable x and (h/q) is the slope Tanθ where θ is the angle of inclination of the straight line.</para>
+    <para id="id15288254">Y axis intercept is = – (h/q)ν<sub>Th</sub></para>
+    <para id="id15288267">
+      <emphasis effect="bold">Fig.1.6.</emphasis>
+      <emphasis effect="bold">Photo- electric effect graph with a constant intensity source but variable frequency. </emphasis>
+    </para>
+    <para id="id15288284">From graph given in Figure 1.4 and 1.6 the Universal Constant h, Planck’s Constant and Work Function of the metal of the cathode which is being illuminated by the monochromatic light can be determined. In 1930 Milikan, of Milikan drop experiment fame, carried out the experiment using Sodium as the cathode.</para>
+    <para id="id15288302"> In his experiment he got the Plot as given in Figure 1.4.</para>
+    <para id="id15288308">According to that plot:</para>
+    <para id="id15288312">ν<sub>Th</sub> = 4.39×10<sup>14</sup> Hz .</para>
+    <para id="id15288338">This corresponds to visible light of wavelength λ<sub>Th</sub> = 683nm (red light).</para>
+    <para id="id15288355">The slope = ∆E/∆ν = 4.1×10<sup>-15</sup> = h/e .</para>
+    <para id="id15288372">Multiplying by the charge of electron e = 1.6×10<sup>-19</sup> Coulomb , </para>
+    <para id="id15288389">The value of Planck’s Constant = h = 6.6×10<sup>-34</sup> Joules.sec</para>
+    <para id="id15288407">[To be Continued in next module] </para>
+  </content>
+</document>

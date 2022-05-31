@@ -1,0 +1,53 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_part 4_CMOS lay-out design rules_continued2.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38590</md:content-id>
+  <md:title>SSPD_Chapter 7_part 4_CMOS lay-out design rules_continued2.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 4_continued2 gives the design rules for the minimum width for the metal interconnect,poly-silicon line and diffusion line.It gives the design rule for the spacing between metal-metal,poly-poly , diffusion-diffusion and between diffusion-poly.</md:abstract>
+  <md:uuid>9e993710-8d3a-4af4-a8e9-f9e46b1bad4d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165199402369">
+      <emphasis effect="bold">SSPD_Chapter 7_part 4_CMOS lay-out design rules_continued2.</emphasis>
+    </para>
+    <para id="id1165188044878">7.4.3.Lambda Based Design Rules.</para>
+    <para id="id2418666">Every Foundry follows a standard. The foundry allows the designers to submit designs using a state-of the-art process. They permit widths, spacings and distances on the layout to be written in the form mλ where λ = half channel length.</para>
+    <figure id="id1165192555160">
+      <media id="id1165192555160_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-adb2.png" id="id1165192555160__onlineimage" height="418" width="650"/>
+      </media>
+    </figure>
+    <para id="id1165206222190">
+      <figure id="id1165192495063">
+        <media id="id1165192495063_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-6135.png" id="id1165192495063__onlineimage" height="426" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165213318821">
+      <figure id="id1165185055978">
+        <media id="id1165185055978_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-7f95.png" id="id1165185055978__onlineimage" height="428" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165199128083">
+      <media id="id1165199128083_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-330e.png" id="id1165199128083__onlineimage" height="442" width="650"/>
+      </media>
+    </figure>
+    <para id="id1165186036015">
+      <figure id="id2448455">
+        <media id="id2448455_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-cfa6.png" id="id2448455__onlineimage" height="407" width="618"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165203769387">
+      <media id="id1165203769387_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-7d3d.png" id="id1165203769387__onlineimage" height="368" width="643"/>
+      </media>
+    </figure>
+  </content>
+</document>

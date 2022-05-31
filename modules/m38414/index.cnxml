@@ -1,0 +1,252 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part3_Electrical properties of MOS continued2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38414</md:content-id>
+  <md:title>SSPD_Chapter 7_Part3_Electrical properties of MOS continued2</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3 is the continuation of the Electrical Properties of MOS. In this module theoretical formulation of threshold voltage, transconductance, unity gain BW,  output incremental conductance and figure of merit of NMOS is derived.</md:abstract>
+  <md:uuid>809c4894-d292-4381-8724-94bf8a4448a9</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168356771813">SSPD_Chapter 7_Part3_Electrical properties of MOS continued2</para>
+    <para id="id1168357281118">7.3.4. Theoretical Formulation of Threshold Voltage in (E)NMOS.</para>
+    <para id="id1168361592278">In SSPD_Chapter 6_Part 4_concluded_MOS and its Physics we have dealt with the theoretical formulation of the Threshold Voltage. The expression comes as follows:</para>
+    <para id="id1168389980866"><figure id="id1168359934538"><media id="id1168359934538_media" alt=""><image mime-type="image/png" src="../../media/graphics1-956e.png" id="id1168359934538__onlineimage" height="51" width="412"/></media></figure>    7.3.18</para>
+    <para id="id1168362798182">Where The Flat Band Voltage is = V<sub>FB</sub> = ϕm – ϕs = ϕm – [χ + E<sub>g</sub>/(2q) + ψ<sub>B</sub>]</para>
+    <para id="id1168357212078">χ = electron affinity in semi-conductor, E<sub>g</sub> = energy band-gap of Silicon and ψ<sub>B</sub> = potemtial diiference between Fermi-level(Ef) and intrinsic level(Ei) in Si-Bulk.</para>
+    <para id="id1168356135968">Therefore qV<sub>FB</sub> = qϕm – qϕs = qϕm – [qχ + E<sub>g</sub>/(2) + qψ<sub>B</sub>];</para>
+    <para id="id1168366390790">If source to bulk voltage (V<sub>SB</sub>) is not zero then this also has to be accounted. This is called Body Effect.</para>
+    <para id="id1168363168666">Q<sub>SS </sub>= Q<sub>it</sub> (interface trapped charges) + Q<sub>ot</sub>(oxide trapped charges) + Q<sub>m</sub>(mobile charges in the oxide) + Q<sub>f</sub> (fixed oxide charges).</para>
+    <figure id="id1168356356351">
+      <media id="id1168356356351_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-cea1.png" id="id1168356356351__onlineimage" height="67" width="650"/>
+      </media>
+    </figure>
+    <para id="id1168363446282">Generally substrate and source are connected together and threshold voltage is at the minimum.</para>
+    <para id="id1168382340942">But in certain applications, substrate is kept at reverse bias with respect to source. NMOS is built in P tub and PMOS is built in N tub. </para>
+    <para id="id1168362993308">Hence in NMOS, substrate is at negative bias with respect to source and in PMOS, substrate is at positive bias with respect to source.</para>
+    <para id="id1168361605679">Substrate bias gives rise to increase in threshold voltage. Hence Body-effect is represented by the following empirical expression:</para>
+    <para id="id1168364883972"><figure id="id1168360633770"><media id="id1168360633770_media" alt=""><image mime-type="image/png" src="../../media/graphics3-682f.png" id="id1168360633770__onlineimage" height="36" width="362"/></media></figure>    7.3.17</para>
+    <para id="id1168362805504">V<sub>TO</sub> = Threshold voltage with zero substrate bias;</para>
+    <para id="id1168363040336">And γ = body effect parameter (√V);</para>
+    <para id="id1168362535464">2ψ<sub>B</sub> = surface potential parameter.</para>
+    <para id="id1168359172760">Lower is the substrate doping, lower will be body effect.</para>
+    <para id="id1168379576727">The Typical values of Body effect is given in Table 7.3.1.</para>
+    <para id="id1168360660127">Table 7.3.1. Body effect in (E)NMOS and (D)NMOS</para>
+    <table id="id1168359833216" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Device</entry>
+            <entry>Substrate biasV<sub>SB</sub></entry>
+            <entry>ThresholdV<sub>Th</sub></entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>(E)NMOS</entry>
+            <entry>0V</entry>
+            <entry>0.2V<sub>DD</sub></entry>
+            <entry>1V for V<sub>DD</sub> = +5V</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>5V</entry>
+            <entry>0.3V<sub>DD</sub></entry>
+            <entry>1.5V for V<sub>DD</sub> = +5V</entry>
+          </row>
+          <row>
+            <entry>(D)NMOS</entry>
+            <entry>0V</entry>
+            <entry>-0.7V<sub>DD</sub></entry>
+            <entry>-3.5V for V<sub>DD</sub> = +5V</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>5V</entry>
+            <entry>-0.6V<sub>DD</sub></entry>
+            <entry>-3V for V<sub>DD</sub> = +5V</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168360736956">
+      <emphasis effect="bold">7.3.5. Theoretical formulation of Transconductance (g</emphasis>
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold">)</emphasis>
+    </para>
+    <para id="id1168362742131">Transconductance is the partial derivative of output current (I<sub>ds</sub>) with respect to input voltage (V<sub>gs</sub>) with output voltage constant i.e. V<sub>DS</sub> is held constant.</para>
+    <para id="id1168354731242"><figure id="id1168358293616"><media id="id1168358293616_media" alt=""><image mime-type="image/png" src="../../media/graphics4-7ac0.png" id="id1168358293616__onlineimage" height="52" width="149"/></media></figure>         7.3.18</para>
+    <para id="id1168360038279">From Eq.7.3.3,</para>
+    <figure id="id1168361642423">
+      <media id="id1168361642423_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-6021.png" id="id1168361642423__onlineimage" height="54" width="83"/>
+      </media>
+    </figure>
+    <para id="id1168356280615">And Transit Time is given by equation 7.3.7,</para>
+    <figure id="id1168357010813">
+      <media id="id1168357010813_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-befb.png" id="id1168357010813__onlineimage" height="61" width="118"/>
+      </media>
+    </figure>
+    <para id="id1168361487419">Using these two equations incremental change in output current:</para>
+    <para id="id1168358268235"><figure id="id1168363587614"><media id="id1168363587614_media" alt=""><image mime-type="image/png" src="../../media/graphics7-10ee.png" id="id1168363587614__onlineimage" height="43" width="148"/></media></figure> 7.3.19</para>
+    <para id="id1168362796066">But channel charge induced depends on gate capacitance and gate voltage:</para>
+    <figure id="id1168365233821">
+      <media id="id1168365233821_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-570d.png" id="id1168365233821__onlineimage" height="32" width="516"/>
+      </media>
+    </figure>
+    <para id="id1168360019970">Therefore </para>
+    <para id="id1168356109416">
+      <figure id="id1168360673007">
+        <media id="id1168360673007_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-83ce.png" id="id1168360673007__onlineimage" height="45" width="173"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168360617872">Hence </para>
+    <para id="id1168364732578"><figure id="id1168356306808"><media id="id1168356306808_media" alt=""><image mime-type="image/png" src="../../media/graphics10-46ab.png" id="id1168356306808__onlineimage" height="49" width="197"/></media></figure>       7.3.21 </para>
+    <para id="id1168360356430">In saturation from Eq.7.3.15,</para>
+    <para id="id1168359875913"><figure id="id1168358306023"><media id="id1168358306023_media" alt=""><image mime-type="image/png" src="../../media/graphics11-08d7.png" id="id1168358306023__onlineimage" height="32" width="201"/></media></figure> .</para>
+    <para id="id1168376652190"><figure id="id1168362800661"><media id="id1168362800661_media" alt=""><image mime-type="image/png" src="../../media/graphics12-8dc8.png" id="id1168362800661__onlineimage" height="23" width="26"/></media></figure>is the actual drop across the conical channel no matter what V<sub>ds</sub> is. </para>
+    <para id="id1168356085537">Hence in saturatin region: </para>
+    <para id="id1168379601384"><figure id="id1168356296731"><media id="id1168356296731_media" alt=""><image mime-type="image/png" src="../../media/graphics13-5819.png" id="id1168356296731__onlineimage" height="49" width="166"/></media></figure>(<figure id="id1168359865660"><media id="id1168359865660_media" alt=""><image mime-type="image/png" src="../../media/graphics14-29e7.png" id="id1168359865660__onlineimage" height="32" width="82"/></media></figure>      7.3.22 </para>
+    <para id="id1168359175516">From Eq.7.3.13 , <figure id="id1168360159298"><media id="id1168360159298_media" alt=""><image mime-type="image/png" src="../../media/graphics15-3ebf.png" id="id1168360159298__onlineimage" height="41" width="277"/></media></figure></para>
+    <para id="id1168376621220">Substituting this in Eq.7.3.22:</para>
+    <para id="id1168356050889"><figure id="id1168356294051"><media id="id1168356294051_media" alt=""><image mime-type="image/png" src="../../media/graphics16-5819.png" id="id1168356294051__onlineimage" height="49" width="166"/></media></figure>(<figure id="id1168362579941"><media id="id1168362579941_media" alt=""><image mime-type="image/png" src="../../media/graphics17-29e7.png" id="id1168362579941__onlineimage" height="32" width="82"/></media></figure>= <figure id="id1168362971372"><media id="id1168362971372_media" alt=""><image mime-type="image/png" src="../../media/graphics18-7ecd.png" id="id1168362971372__onlineimage" height="40" width="20"/></media></figure>(<figure id="id1168362772682"><media id="id1168362772682_media" alt=""><image mime-type="image/png" src="../../media/graphics19-3f36.png" id="id1168362772682__onlineimage" height="42" width="196"/></media></figure></para>
+    <para id="id1168361553014">Or <figure id="id1168355975572"><media id="id1168355975572_media" alt=""><image mime-type="image/png" src="../../media/graphics20-a545.png" id="id1168355975572__onlineimage" height="30" width="56"/></media></figure><figure id="id1168356892646"><media id="id1168356892646_media" alt=""><image mime-type="image/png" src="../../media/graphics21-4f6a.png" id="id1168356892646__onlineimage" height="42" width="214"/></media></figure></para>
+    <para id="id1168382338857">Or <figure id="id1168357013350"><media id="id1168357013350_media" alt=""><image mime-type="image/png" src="../../media/graphics22-a545.png" id="id1168357013350__onlineimage" height="30" width="56"/></media></figure><figure id="id1168382356008"><media id="id1168382356008_media" alt=""><image mime-type="image/png" src="../../media/graphics23-9882.png" id="id1168382356008__onlineimage" height="32" width="106"/></media></figure> 7.3.23</para>
+    <para id="id1168356072709">Where <figure id="id1168359540545"><media id="id1168359540545_media" alt=""><image mime-type="image/png" src="../../media/graphics24-7f0c.png" id="id1168359540545__onlineimage" height="42" width="248"/></media></figure></para>
+    <para id="id1168364638969">From Eq.7.3.23 it is evident that transconductance can be improved by reducing Channel Length.</para>
+    <para id="id1168359536012">Transconductance can be improved by increasing Channel Width. But both these methods have their drawbacks.</para>
+    <para id="id1168364732446"/>
+    <para id="id1168362954931">
+      <emphasis effect="bold">7.3.6. Theoretical Formulation of unity current gain band-width.</emphasis>
+    </para>
+    <para id="id1168358547862">In BJT unity current gain band-width is defined as transit frequency ω<sub>T</sub> . It is derived by determining the Current Gain Band Width Product.</para>
+    <para id="id1168359550696">Short Circuit Current Gain is derived as:</para>
+    <figure id="id1168359743063">
+      <media id="id1168359743063_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-1d32.png" id="id1168359743063__onlineimage" height="79" width="121"/>
+      </media>
+    </figure>
+    <para id="id1168363433315">Where <figure id="id1168359698852"><media id="id1168359698852_media" alt=""><image mime-type="image/png" src="../../media/graphics26-4883.png" id="id1168359698852__onlineimage" height="48" width="141"/></media></figure></para>
+    <para id="id1168363078963">Therefore <figure id="id1168356234055"><media id="id1168356234055_media" alt=""><image mime-type="image/png" src="../../media/graphics27-0aa5.png" id="id1168356234055__onlineimage" height="45" width="223"/></media></figure> 7.3.24</para>
+    <para id="id1168358298344">In exactly the same manner short circuit current gain of NMOS is derived and set to unity.</para>
+    <figure id="id1168362671338">
+      <media id="id1168362671338_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-1d99.png" id="id1168362671338__onlineimage" height="296" width="505"/>
+      </media>
+    </figure>
+    <figure id="id1168356330266">
+      <media id="id1168356330266_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-0705.png" id="id1168356330266__onlineimage" height="86" width="197"/>
+      </media>
+    </figure>
+    <para id="id1168379676001"><figure id="id1168361490790"><media id="id1168361490790_media" alt=""><image mime-type="image/png" src="../../media/graphics29-eaa3.png" id="id1168361490790__onlineimage" height="63" width="127"/></media></figure> 7.3.25     </para>
+    <para id="id1168362807514">Where <figure id="id1168379573887"><media id="id1168379573887_media" alt=""><image mime-type="image/png" src="../../media/graphics30-140a.png" id="id1168379573887__onlineimage" height="34" width="431"/></media></figure></para>
+    <figure id="id1168363473675">
+      <media id="id1168363473675_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-1adb.png" id="id1168363473675__onlineimage" height="57" width="419"/>
+      </media>
+    </figure>
+    <para id="id1168356099795">In Eq.7.3.25, ω<sub>0</sub> = 5 ω<sub>u</sub> therefore, in working range of frequencies, Equation 7.3.25 can be simplified to:</para>
+    <para id="id1168356344988"><figure id="id1168356317313"><media id="id1168356317313_media" alt=""><image mime-type="image/png" src="../../media/graphics32-48db.png" id="id1168356317313__onlineimage" height="48" width="73"/></media></figure> 7.3.26.</para>
+    <para id="id1168362841309">If Equation 7.3.26 is equated to Unity then its corresponding Unity Gain Frequency is:</para>
+    <para id="id1168366154913"><figure id="id1168356263785"><media id="id1168356263785_media" alt=""><image mime-type="image/png" src="../../media/graphics33-ce02.png" id="id1168356263785__onlineimage" height="46" width="394"/></media></figure> 7.3.27</para>
+    <para id="id1168362838352">From Eq.7.3.27 it is evident that increase in transconductance gives a higher frequency range of opeartaion.</para>
+    <para id="id1168359753293">
+      <emphasis effect="bold">7.3.7. Theoretical Formulation of Output Conductance of (E)NMOS.</emphasis>
+    </para>
+    <para id="id1168364790792"><emphasis effect="bold"/>Theoretical expression of drain current in saturation region is given by Equation 7.3.16:</para>
+    <para id="id1168389998638">
+      <figure id="id1168359357328">
+        <media id="id1168359357328_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics34-3d51.png" id="id1168359357328__onlineimage" height="48" width="210"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168382398034">As is evident from the above Equation, I<sub>ds</sub> has no dependence on V<sub>ds</sub> and I<sub>ds</sub>-V<sub>ds</sub> family of curves are perfectly horizontal and parallel to one another. Horizontal I-V curve implies infinite output impedance of the active device. But in practice it is not so. Real MOS devices have slopes in their family of I-V curves and this slope becomes pronounced as we scale the devices for the different generation of Technology. This is known as Channel Length Modulation effect.</para>
+    <para id="id1168390002008">In BJT we have Base Width Modulation also known as Early Effect. This Early Effect is the cause of the slope in output family of curves of CB BJT and CE BJT. Due to these slopes we have h<sub>ob</sub> and h<sub>oe</sub> parameters in the two circuit configurations. Since Early Effect is more pronounced in CE BJT hence h<sub>oe</sub> = 1/40kΩ is greater than h<sub>ob </sub>= 1/2MΩ. Channel Length Modulation is analogous to Early Effect and its degradation of family of output curves of NMOS is clealrly brought out in Figure 7.3.2. The physics of this degradation is that we have assumed that after saturation, I<sub>ds</sub>(sat) becomes constant at:</para>
+    <para id="id1168376725558"><figure id="id1168356022945"><media id="id1168356022945_media" alt=""><image mime-type="image/png" src="../../media/graphics35-a790.png" id="id1168356022945__onlineimage" height="55" width="127"/></media></figure> 7.3.2</para>
+    <para id="id1168362612851">In Equation 7.3.2 it is assumed that with increase in V<sub>DS</sub>, the voltage drop across the conical channel is constant at V<sub>DS</sub><sup>*</sup> and excess voltage drops across the pinched off region. The second assumption is that the resistance of the conical section is constant at :</para>
+    <para id="id1168388840736">R<sub>0</sub>/3 where R<sub>0</sub> is the resistance of the parallelopied channel.</para>
+    <para id="id1168390419631">This assumption does not remain valid with the scaling of devices. As the the device is scaled, the variation in V<sub>ds</sub> leads to significant change in the resistance of the conical channel because as pinched off region increases the axial length of the conical channel reduces and hence resistance offered decreases and I<sub>DS(sat)</sub> increases with the increase in V<sub>DS</sub>.</para>
+    <figure id="id1168354705442">
+      <media id="id1168354705442_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-3a4e.png" id="id1168354705442__onlineimage" height="485" width="535"/>
+      </media>
+    </figure>
+    <para id="id1168359172235">Channel Length Modulation is included in the saturated drain current in the following manner:</para>
+    <para id="id1168363150582"><figure id="id1168360748958"><media id="id1168360748958_media" alt=""><image mime-type="image/png" src="../../media/graphics36-f399.png" id="id1168360748958__onlineimage" height="48" width="336"/></media></figure> 7.3.28</para>
+    <para id="id1168359284125">Where λ = channel length modulation parameter which is dependent on channel length L and its typical values are:</para>
+    <para id="id1168363347125"><figure id="id1168356165466"><media id="id1168356165466_media" alt=""><image mime-type="image/png" src="../../media/graphics37-6084.png" id="id1168356165466__onlineimage" height="30" width="114"/></media></figure><figure id="id1168359831506"><media id="id1168359831506_media" alt=""><image mime-type="image/png" src="../../media/graphics38-367b.png" id="id1168359831506__onlineimage" height="30" width="124"/></media></figure> .</para>
+    <para id="id1168356054069">Therefore the partial derivative of I<sub>ds</sub> with respect to V<sub>ds</sub> with gate voltage constant gives the the reciprocal of the incremental output resistance of (E)NMOS:</para>
+    <para id="id1168359519254"><figure id="id1168361806511"><media id="id1168361806511_media" alt=""><image mime-type="image/png" src="../../media/graphics39-fc2b.png" id="id1168361806511__onlineimage" height="46" width="59"/></media></figure><figure id="id1168358430377"><media id="id1168358430377_media" alt=""><image mime-type="image/png" src="../../media/graphics40-ec56.png" id="id1168358430377__onlineimage" height="50" width="267"/></media></figure>    7.3.29</para>
+    <para id="id1168361611666">The overall dependence of 1/r<sub>ds</sub> is :</para>
+    <para id="id1168364815530"><figure id="id1168356298518"><media id="id1168356298518_media" alt=""><image mime-type="image/png" src="../../media/graphics41-573e.png" id="id1168356298518__onlineimage" height="45" width="79"/></media></figure>      7.3.30.</para>
+    <para id="id1168359584040">The incremental model of MOSFET incorporating transconductance and channel length modulation is given in Figure 7.3.1.</para>
+    <para id="id1168363523357">7.3.8. Figure of Merit of MOSFET.</para>
+    <para id="id1168356267251"><emphasis effect="bold"/> The Unity Gain Bandwidth of MOSFET defines the Figure of Merit of MOSFET. Using Equation 7.3.27:</para>
+    <para id="id1168376638336"><figure id="id1168366177618"><media id="id1168366177618_media" alt=""><image mime-type="image/png" src="../../media/graphics42-10cd.png" id="id1168366177618__onlineimage" height="46" width="584"/></media></figure>7.3.31</para>
+    <para id="id1168364561150">Transconductance is given as:</para>
+    <para id="id1168382365312">Or <figure id="id1168363571797"><media id="id1168363571797_media" alt=""><image mime-type="image/png" src="../../media/graphics43-a545.png" id="id1168363571797__onlineimage" height="30" width="56"/></media></figure><figure id="id1168362617048"><media id="id1168362617048_media" alt=""><image mime-type="image/png" src="../../media/graphics44-9882.png" id="id1168362617048__onlineimage" height="32" width="106"/></media></figure> 7.3.23</para>
+    <para id="id1168362795240">Where <figure id="id1168359577566"><media id="id1168359577566_media" alt=""><image mime-type="image/png" src="../../media/graphics45-7f0c.png" id="id1168359577566__onlineimage" height="42" width="248"/></media></figure></para>
+    <para id="id1168362544744">Gate Capacitance is given as:</para>
+    <figure id="id1168357323486">
+      <media id="id1168357323486_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics46.png" id="id1168357323486__onlineimage" height="52" width="617"/>
+      </media>
+    </figure>
+    <para id="id1168379464898">Substituting Eq.7.3.23 and 7.3.13 in Eq.7.3.31 we get:</para>
+    <para id="id1168362763842">
+      <figure id="id1168356007660">
+        <media id="id1168356007660_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics47.png" id="id1168356007660__onlineimage" height="44" width="278"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168356038704">From Equation 7.3.7</para>
+    <figure id="id1168362706110">
+      <media id="id1168362706110_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics48.png" id="id1168362706110__onlineimage" height="65" width="617"/>
+      </media>
+    </figure>
+    <para id="id1168360636211">Therefore Figure of Merit is the reciprocal of the transit time across the channel. </para>
+    <para id="id1168354739210">Larger is the electron mobility, better will be the Figure of Merit. Hence &lt;100&gt; orientation Si Substrate is chosen for fabrication of CMOS circuis. The mobility of electron and hole is always much larger in &lt;100&gt; orientation substrate than that in &lt;111&gt; orientation substrate. In Table 7.3.2 a comparative study of the electron mobility in &lt;111&gt; and &lt;100&gt; substrate is given.</para>
+    <para id="id1168359820450">Table 7.3.2. Comparative study of mobilities in &lt;100&gt; and &lt;111&gt;orientation substrate in thin channel and in bulk.</para>
+    <table id="id1168363005294" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Bulk mobility&lt;100&gt;</entry>
+            <entry>2D channel mobility&lt;100&gt;</entry>
+            <entry>2D Channel mobility&lt;111&gt;</entry>
+          </row>
+          <row>
+            <entry>µ<sub>n</sub></entry>
+            <entry>1250cm<sup>2</sup>/(V-sec)</entry>
+            <entry>650 cm<sup>2</sup>/(V-sec)</entry>
+            <entry>500 cm<sup>2</sup>/(V-sec)</entry>
+          </row>
+          <row>
+            <entry>µ<sub>p</sub></entry>
+            <entry>480 cm<sup>2</sup>/(V-sec)</entry>
+            <entry>240 cm<sup>2</sup>/(V-sec)</entry>
+            <entry>216 cm<sup>2</sup>/(V-sec)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168359762720">For fast CMOS circuits fabrications, &lt;100&gt; Si Substrate is the choice of material in Industries. </para>
+  </content>
+</document>

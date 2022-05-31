@@ -1,0 +1,395 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Electrical Properties of MOScontinued3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38450</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Electrical Properties of MOScontinued3</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3_Basic Electrical Properties of MOS coninued3  is the continuation of Electrical Properties of MOS. This describes that the  proper circuit working is critically dependent on the correct geometrical dimensions of MOS transistors.</md:abstract>
+  <md:uuid>8d7d9c75-ca37-43f2-b9fc-2f2e66e5b1a9</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165690604275">SSPD_Chapter 7_Part 3_Electrical Properties of MOScontinued3</para>
+    <para id="id1165689731278">7.3.9 MOS as an Analog Switch- Pass Transistor.</para>
+    <para id="id1165695582159">Just as electro-magnetic Relay Switches can be used to form Logic Gates. In a similar fashion, MOS can be used as analog switches to form Logic Gates. The use of Relay Switch is shown in Figure 7.3.9.1 and use of MOS is shown in Figure 7.3.9.2.</para>
+    <figure id="id1705080">
+      <media id="id1705080_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-1af9.png" id="id1705080__onlineimage" height="461" width="518"/>
+      </media>
+    </figure>
+    <para id="id4608435">
+      <figure id="id1165696459400">
+        <media id="id1165696459400_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-97c7.png" id="id1165696459400__onlineimage" height="460" width="525"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165702341396">When MOS transistors are used as analog switches they are called Pass Transistors.</para>
+    <para id="id1165691898921">Here Logic 1 is V<sub>DD</sub> – V<sub>th</sub>.</para>
+    <para id="id1165707906133">
+      <emphasis effect="bold">7.3.10. RTL Inverters.</emphasis>
+    </para>
+    <para id="id1165706520863">RTL Inverters was the earliest building block of digital systems. It evolved to TTL gate. It further evolved to NMOS. Today CMOS Inverters have become the basic building block of most digital systems having much more superior performance characteristics as compared to the original RTL Inverter. A RTL Inverter is shown in Figure 7.3.10.1.</para>
+    <para id="id1165691202192"><figure id="id1165718330181"><media id="id1165718330181_media" alt=""><image mime-type="image/png" src="../../media/graphics3-96be.png" id="id1165718330181__onlineimage" height="540" width="571"/></media></figure>In Figure 7.3.10.1, part (A) gives the circuit configuration. Part (B) gives the DC load line superimposed over the output family of curves. From the intersection of the DC Load Line and the output I-V curve corresponding to V<sub>in</sub> = 0V(Low condition) and V<sub>in</sub> = 5V(High condition) we obtain two Q points. Table 7.3.10.1 gives the two Q points.</para>
+    <para id="id1165698710945">Table 7.3.10.1 The two Q points corresponding to I/P low and I/P high.</para>
+    <table id="id1165696445344" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>DC operating points or Quiescent points</entry>
+            <entry>Vin</entry>
+            <entry>Vce = V<sub>out</sub></entry>
+            <entry>Ic</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Q<sub>1</sub></entry>
+            <entry>5V</entry>
+            <entry>0.2V=Vce(sat)O/P=LOW</entry>
+            <entry>Vcc/Rc</entry>
+            <entry>Transistor is driven into saturation</entry>
+          </row>
+          <row>
+            <entry>Q<sub>2</sub></entry>
+            <entry>0V</entry>
+            <entry>VccO/P=HIGH</entry>
+            <entry>0mA</entry>
+            <entry>Transistor is cut-off</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165692028357">Part(C) gives the transfer characteristics and Part (D) gives the noise margin. As is evident from Figure (D), noise margin can be maximized by reducing the transition region and this precisely what happens in CMOS inverter. In CMOS Inverter, transition region is 0 V and </para>
+    <para id="id1165701905826">
+      <figure id="id1165701282094">
+        <media id="id1165701282094_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-7e92.png" id="id1165701282094__onlineimage" height="42" width="399"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165686735926">The central point of this brief review of RTL Inverter is to illustrate the principle by which Transfer Characteristics is arrived. We draw the load line over the family of output curves, determine the Q-points for the two binary states of Input and from the Q-points we arrive at the transfer characteristics of the Inverter. From the transfer characteristics we arrive at the noise margin. This is the procedure we will adopt to arrive at the performance characteristics of the subsequent inverters.</para>
+    <para id="id1165710576663">
+      <emphasis effect="bold">7.3.10.1. </emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">The NMOS Inverter.</emphasis>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1165694441989"> MOS inverters are synthesized in the same manner as RTL Inverter in Figure 7.3.10.1. Since passive resistances are difficult to integrate as they occupy a large area on silicon die hence passive resistive loads are an anathema for ICs . The passive loads have been completely replaced by active loads. In Figure 7.3.10.2, an NMOS inverter is shown. </para>
+    <figure id="id1165706636532">
+      <media id="id1165706636532_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-0abb.png" id="id1165706636532__onlineimage" height="352" width="504"/>
+      </media>
+    </figure>
+    <para id="id1165689648132">In the NMOS inverter, (E)NMOS acts as the inverter driver which is called the pull-down transistor and (D)NMOS acts as the active load of the driver also known as pull-up transistor. First we will examine how (D)NMOS acts as resistive active load of the logic circuit.</para>
+    <para id="id2280658">
+      <figure id="id1165689968171">
+        <media id="id1165689968171_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-12f3.png" id="id1165689968171__onlineimage" height="495" width="521"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165710284402">(D)NMOS is transistor 2 which acts as the load to the driver transistor 1. Load (D)NMOS has its Gate shorted to Source hence V<sub>GS</sub> = 0V curve applies to the load I-V characteristics which is shown in the lower graph in isolation. It is a non-linear resistance accordingly the load line produced on the output plane of driver transistor (E)NMOS is also non-linear as shown in Figure 7.3.10.4. The slope of the load line is primarily determined by the Triode Region of (D)NMOS.</para>
+    <figure id="id1165687473415">
+      <media id="id1165687473415_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-c6b8.png" id="id1165687473415__onlineimage" height="65" width="546"/>
+      </media>
+    </figure>
+    <figure id="id1165688985997">
+      <media id="id1165688985997_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-0967.png" id="id1165688985997__onlineimage" height="52" width="138"/>
+      </media>
+    </figure>
+    <para id="id8645295">At low V<sub>ds</sub> the above equation reduces to:</para>
+    <figure id="id1165689890145">
+      <media id="id1165689890145_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-deaa.png" id="id1165689890145__onlineimage" height="54" width="288"/>
+      </media>
+    </figure>
+    <para id="id1165695600039">Therefore: <figure id="id1165690424669"><media id="id1165690424669_media" alt=""><image mime-type="image/png" src="../../media/graphics10-8c39.png" id="id1165690424669__onlineimage" height="48" width="398"/></media></figure></para>
+    <para id="id8047027">
+      <emphasis effect="italics">W</emphasis>
+      <emphasis effect="italics">2</emphasis>
+      <emphasis effect="italics">/L</emphasis>
+      <emphasis effect="italics">2</emphasis>
+      <emphasis effect="italics"> = aspect ratio of the active load or transistor 2.</emphasis>
+    </para>
+    <para id="id1165689985817">In Figure 7.3.10.4., the non-linear load line is drawn on the output plane of (E)NMOS and the intersection of the load line and the output curve under input high condition and under input low condition gives us the two Q points of the driver transistor as shown in Table 7.3.10.2..</para>
+    <para id="id1165690048076">Table 7.3.10.2 The two Q points corresponding to I/P low and I/P high.</para>
+    <table id="id1165691149105" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Q point</entry>
+            <entry>Vin</entry>
+            <entry>Vds(T1)</entry>
+            <entry>Id(T1)</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>(d)</entry>
+            <entry>+4V</entry>
+            <entry>Vds(LOW)</entry>
+            <entry>Ids*</entry>
+            <entry>T1 is ON</entry>
+            <entry>T2 is ON</entry>
+          </row>
+          <row>
+            <entry>(a)</entry>
+            <entry>0V</entry>
+            <entry>Vdd</entry>
+            <entry>0mA</entry>
+            <entry>T1 is OFF</entry>
+            <entry>T2 is ON.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1165689471436">
+      <media id="id1165689471436_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-0002.png" id="id1165689471436__onlineimage" height="474" width="545"/>
+      </media>
+    </figure>
+    <para id="id1165701590777">The triode portion of the output curve corresponding to V<sub>GS</sub>(T1) = +4V determines Z<sub>pd</sub>.</para>
+    <para id="id1165708615890">From Equation 7.3.14, Z<sub>pd</sub> is derived to be:</para>
+    <figure id="id1165689354155">
+      <media id="id1165689354155_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-dd36.png" id="id1165689354155__onlineimage" height="61" width="410"/>
+      </media>
+    </figure>
+    <para id="id1165694315169">From Figure 7.3.10.4, we can extract the inverter transfer characteristics. The point of intersections between the load line and output curves corresponding to different values of input voltage = gate voltage give the transfer characteristics of the inverter as tabulated in Table 7.3.10.3 and shown in Figure 7.3.10.5.</para>
+    <para id="id1165713227894">Table 7.3.10.3</para>
+    <table id="id1165718164450" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Vin</entry>
+            <entry>0</entry>
+            <entry>2.5V</entry>
+            <entry>3V</entry>
+            <entry>4V</entry>
+          </row>
+          <row>
+            <entry>Vout</entry>
+            <entry>5V</entry>
+            <entry>3V</entry>
+            <entry>2V</entry>
+            <entry>0.75V</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1165690629063">
+      <media id="id1165690629063_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-308e.png" id="id1165690629063__onlineimage" height="386" width="492"/>
+      </media>
+    </figure>
+    <para id="id1165687198621">This transfer characteristics and inversion pont is sensitive to geometrical variations in W and L and to the variation in the ratio of pull-up to pull-down resistances ratio as shown in Figure 7.3.10.6. The point where the locus of Vin = Vout and Transfer Characteristics intersect is called the inversion point(Vinv). We have the best Noise Margin if Vinv = 0.5Vdd. </para>
+    <para id="id1165689789406"><figure id="id1165689383079"><media id="id1165689383079_media" alt=""><image mime-type="image/png" src="../../media/graphics14-5472.png" id="id1165689383079__onlineimage" height="374" width="475"/></media></figure>.</para>
+    <para id="id1165696063928">7.3.10.2. Theoretical formulation of Pull-Up to Pull-down resistances for different configurations.</para>
+    <para id="id1165686946799">There can be two configurations of NMOS Inverter. Inverter can be driven by a preceding inverter or it can be driven by a Pass Transitor as shown in Figure 7.3.10.7.</para>
+    <para id="id1165709425725">Refer to Figure 7.3.10.2. For best noise margin we choose Vin = Vinv = 0.5Vdd. At this point both the transistors are in Saturation Region(Pentode Region). In Pentode Region the following equation is applicable:</para>
+    <para id="id6418090"><figure id="id1165701682572"><media id="id1165701682572_media" alt=""><image mime-type="image/png" src="../../media/graphics15-d260.png" id="id1165701682572__onlineimage" height="48" width="211"/></media></figure> 7.3.16</para>
+    <para id="id1165701901672">Under steady state condition:</para>
+    <para id="id1165692222265">I<sub>DS2</sub> = I<sub>DS1</sub>.</para>
+    <para id="id1165689958487">Substituting the appropriate vales in Eq.7.3.16 we get:</para>
+    <figure id="id1165703985335">
+      <media id="id1165703985335_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-3d81.png" id="id1165703985335__onlineimage" height="61" width="595"/>
+      </media>
+    </figure>
+    <para id="id1165706554563">Let <figure id="id1165706771378"><media id="id1165706771378_media" alt=""><image mime-type="image/png" src="../../media/graphics17-ec1f.png" id="id1165706771378__onlineimage" height="48" width="243"/></media></figure></para>
+    <para id="id5226203">
+      <figure id="id1165690248522">
+        <media id="id1165690248522_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-c602.png" id="id1165690248522__onlineimage" height="488" width="526"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165714086740">Making the proper substitutions we obtain:</para>
+    <figure id="id1165686447137">
+      <media id="id1165686447137_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-6a3d.png" id="id1165686447137__onlineimage" height="61" width="367"/>
+      </media>
+    </figure>
+    <para id="id1165704580696">Further Simlification yields:</para>
+    <figure id="id1165704632444">
+      <media id="id1165704632444_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-49f4.png" id="id1165704632444__onlineimage" height="65" width="465"/>
+      </media>
+    </figure>
+    <para id="id1165712259226">By substituting the typical values of different parameters namely:</para>
+    <para id="id1165690759053">V<sub>t</sub> = 1V, V<sub>td</sub> = -3V, V<sub>inv</sub> = 2.5V (for equal noise margin) we get:</para>
+    <para id="id1165689007383"><figure id="id5105390"><media id="id5105390_media" alt=""><image mime-type="image/png" src="../../media/graphics21-2533.png" id="id5105390__onlineimage" height="49" width="72"/></media></figure> 7.3.10.1.4</para>
+    <para id="id1165700852480">
+      <emphasis effect="bold">7.3.10.2.1. Pull-Up to Pull-down ratio when NMOS Invereter is driven through pass transistors.</emphasis>
+    </para>
+    <para id="id1165695606105">The second arrangement in Figure 7.3.10.7 is an NMOS Inverter driven by one or more pass transistors. Here the signal while being transmitted through Pass Transistor will get degraded (Vdd gets reduced to [Vdd-Vtp]) and may give erroneous result. The requirement is that the degradation of the signal by V<sub>tp</sub> should not effect correct signal processing This implies that</para>
+    <para id="id1165701682226">Inverter 1: Vin=Vdd gives Vout=0.75V and for</para>
+    <para id="id1165707494020">Inverter 2:Vin=Vdd-Vtp should also give Vout=0.75V.</para>
+    <para id="id1165690094564">Table 7.3.10.4 gives the states of the 4 transistors in the two inverters 1 and 2 when driven by Vdd and [Vdd-Vtp] respectively.</para>
+    <para id="id1165708481491">
+      <emphasis effect="bold">Table 7.3.10.4. The states of the 4 transistors in the two inverters 1 and 2 when driven by Vdd and [Vdd-Vtp] respectively.(Refer to Figure 7.3.10.4)</emphasis>
+    </para>
+    <table id="id1165687690086" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Inverter</entry>
+            <entry>Vin</entry>
+            <entry>pd(T1)</entry>
+            <entry>Vout</entry>
+            <entry>pu(T2)</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>Vdd</entry>
+            <entry>ON in Triode region</entry>
+            <entry>0.75V</entry>
+            <entry>ON in Pentode region</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Vdd-Vtp</entry>
+            <entry>ON in Triode region</entry>
+            <entry>0.75V</entry>
+            <entry>ON in Pentode region</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165690690642">For Inverter1, in pd(T1):</para>
+    <figure id="id1165704419816">
+      <media id="id1165704419816_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-2717.png" id="id1165704419816__onlineimage" height="65" width="622"/>
+      </media>
+    </figure>
+    <figure id="id1165689922840">
+      <media id="id1165689922840_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-b0d4.png" id="id1165689922840__onlineimage" height="75" width="386"/>
+      </media>
+    </figure>
+    <para id="id1165689693357">Since V<sub>ds1</sub>= 0.75V therefore V<sub>ds1</sub>/2 can be neglected and the expression of R<sub>1</sub> is as follows:</para>
+    <figure id="id5271917">
+      <media id="id5271917_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-7530.png" id="id5271917__onlineimage" height="58" width="253"/>
+      </media>
+    </figure>
+    <para id="id1165702901443">For the load, V<sub>DS2</sub> = 4.25V hence puT(2) is in Pentode region with Vgs = 0V.the transistor current I is:</para>
+    <para id="id1165701483623">
+      <figure id="id1165699151313">
+        <media id="id1165699151313_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics25-004e.png" id="id1165699151313__onlineimage" height="61" width="287"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165703730065">
+      <media id="id1165703730065_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-52b2.png" id="id1165703730065__onlineimage" height="61" width="279"/>
+      </media>
+    </figure>
+    <para id="id1165686845199">Here Zpd1 and Zpu1 refer to the transistors in Inverter1.
+The circuit model for this I/P high is shown in Figure 7.3.10.8. pd(T1) is represented by R1 and pu(T2) is represented by a current source I<sub>DS2</sub>.</para>
+    <figure id="id1165690072570">
+      <media id="id1165690072570_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-3e77.png" id="id1165690072570__onlineimage" height="338" width="420"/>
+      </media>
+    </figure>
+    <para id="id1165704518531">But I<sub>DS1</sub> = I<sub>DS2</sub> therefore;</para>
+    <figure id="id1165689783490">
+      <media id="id1165689783490_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-0311.png" id="id1165689783490__onlineimage" height="23" width="211"/>
+      </media>
+    </figure>
+    <para id="id1165699509597">Substituting the values of R<sub>1</sub> and I<sub>DS2 </sub>from above we get:</para>
+    <figure id="id1165692742184">
+      <media id="id1165692742184_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-88eb.png" id="id1165692742184__onlineimage" height="61" width="523"/>
+      </media>
+    </figure>
+    <figure id="id1165701682461">
+      <media id="id1165701682461_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-2318.png" id="id1165701682461__onlineimage" height="66" width="477"/>
+      </media>
+    </figure>
+    <para id="id1165706145704">
+      <emphasis effect="italics">Consider Inverter 2: when Vin = V</emphasis>
+      <emphasis effect="italics">DD</emphasis>
+      <emphasis effect="italics">-V</emphasis>
+      <emphasis effect="italics">tp</emphasis>
+      <emphasis effect="italics">.</emphasis>
+    </para>
+    <para id="id1165708369736">We do exactly the same calculation as for Inverter1.</para>
+    <para id="id1165687679182">Pull-down NMOS is R<sub>2</sub>.</para>
+    <para id="id2171490">Pull-up NMOS is Saturated.</para>
+    <figure id="id1165694884416">
+      <media id="id1165694884416_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-930f.png" id="id1165694884416__onlineimage" height="64" width="310"/>
+      </media>
+    </figure>
+    <para id="id1165717662888"/>
+    <figure id="id1165703716210">
+      <media id="id1165703716210_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-a030.png" id="id1165703716210__onlineimage" height="61" width="302"/>
+      </media>
+    </figure>
+    <para id="id1165705717188">Therefore V<sub>out2</sub> of Inverter 2 with V<sub>in</sub> = V<sub>DD</sub> – V<sub>tp</sub> is given as:</para>
+    <figure id="id1165691540266">
+      <media id="id1165691540266_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-3267.png" id="id1165691540266__onlineimage" height="66" width="494"/>
+      </media>
+    </figure>
+    <para id="id1165688971849">If the pass transistor introduces no degradation in operation then in both the inverters we should get the same output even though the second inverter is receiving a degraded Input for High condition.</para>
+    <para id="id1165687175543">Therefore <figure id="id1165686925051"><media id="id1165686925051_media" alt=""><image mime-type="image/png" src="../../media/graphics34-a2fd.png" id="id1165686925051__onlineimage" height="52" width="560"/></media></figure></para>
+    <para id="id1165717612022">Therefore <figure id="id1165694918413"><media id="id1165694918413_media" alt=""><image mime-type="image/png" src="../../media/graphics35-d14f.png" id="id1165694918413__onlineimage" height="49" width="492"/></media></figure></para>
+    <para id="id1165706184825">Substiturting the defacto values:</para>
+    <para id="id1165707501273">V<sub>t</sub> = 0.2V<sub>DD</sub> =1V and V<sub>tp</sub> = 0.3V<sub>DD</sub> =1.5V</para>
+    <para id="id1165699499602">We get:</para>
+    <figure id="id1165699980510">
+      <media id="id1165699980510_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-5d6d.png" id="id1165699980510__onlineimage" height="63" width="376"/>
+      </media>
+    </figure>
+    <para id="id1165695779485">Or <figure id="id1165696822216"><media id="id1165696822216_media" alt=""><image mime-type="image/png" src="../../media/graphics37-b41f.png" id="id1165696822216__onlineimage" height="63" width="428"/></media></figure></para>
+    <para id="id1165704806541">Or <figure id="id1165692804838"><media id="id1165692804838_media" alt=""><image mime-type="image/png" src="../../media/graphics38-99bd.png" id="id1165692804838__onlineimage" height="49" width="263"/></media></figure></para>
+    <para id="id1165690162595">We saw that Inverter driven directly by Inverter should have<figure id="id1165719616356"><media id="id1165719616356_media" alt=""><image mime-type="image/png" src="../../media/graphics39-4499.png" id="id1165719616356__onlineimage" height="30" width="6"/></media></figure></para>
+    <figure id="id1165689492095">
+      <media id="id1165689492095_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-223f.png" id="id1165689492095__onlineimage" height="61" width="80"/>
+      </media>
+    </figure>
+    <para id="id1165695574816">Inverter driven through a pass transistor should have:</para>
+    <para id="id1165689617190">
+      <figure id="id1165694090493">
+        <media id="id1165694090493_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics41-88da.png" id="id1165694090493__onlineimage" height="49" width="149"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id5695930">
+      <media id="id5695930_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics42-2904.png" id="id5695930__onlineimage" height="54" width="136"/>
+      </media>
+    </figure>
+  </content>
+</document>

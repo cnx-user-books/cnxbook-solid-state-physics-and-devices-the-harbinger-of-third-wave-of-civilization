@@ -1,0 +1,777 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>50 years Journey of IC Technology_Appendix I</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33346</md:content-id>
+  <md:title>50 years Journey of IC Technology_Appendix I</md:title>
+  <md:abstract>This describes the history of development in the fields of Sold State Technology, Electronics,IC Technology, Computer, Super-Computer, microprocessor chips , local area network(LAN) and submarine cables.</md:abstract>
+  <md:uuid>ab6c5ed6-521a-43b3-bf3f-7c8643a64626</md:uuid>
+</metadata>
+<content>
+    <para id="id1166615672648">Appendix I</para>
+    <para id="id1166615672653">Table I.1. Road Map of development of Solid State technology.</para>
+    <para id="id1166615672657">[“A brief history of semiconductors” by Tudor Jenkins, Physics Education, 40(5),pp.430-439; </para>
+    <para id="id1166615672663">“ The lost history of the Transistor- How 50 years ago, Texas Instruments and Bell Labs pushed electronics into the Silicon Age” by Michael Riordan, IEEE Spectrum, May 2004, pp.44-49]</para>
+    <table id="id1166615672669" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Invention</entry>
+          </row>
+          <row>
+            <entry>1731-1782</entry>
+            <entry>Gray(1731), Desa Guller (1742) and Volta (1782) investigate conduction in solids.</entry>
+          </row>
+          <row>
+            <entry>?</entry>
+            <entry>Humphrey Davey establishes the positive Temperature Coefficient of Resistance (t.c.r)of Metals.</entry>
+          </row>
+          <row>
+            <entry>1833</entry>
+            <entry>Michael Faraday detects the negative t.c.r. of AgS( Silver Sulphide). He also observes Thermal Runaway, contact potential at the interface of dissimilar materials and surface states.</entry>
+          </row>
+          <row>
+            <entry>1839</entry>
+            <entry>Alexandre- Edmond Becquerel observes Photo-Voltaic effect in electrolysis bath containing aqueous HNO<sub>3</sub> as electrolyte and AgCl coated Platinum electrodes.He also observed PV effect at matal-semiconductor junction in this case Ag/AgCl interface.</entry>
+          </row>
+          <row>
+            <entry>1873</entry>
+            <entry>Witloughby Smith detected Light Dependent Resistance effect in Selenium while working on Submarine Cables but he identified it as metal. It was established as semiconductor in1907.</entry>
+          </row>
+          <row>
+            <entry>1876</entry>
+            <entry>William Grylls Adams and Richard Evans Day discovered PV effect in Selenium.</entry>
+          </row>
+          <row>
+            <entry>1883</entry>
+            <entry>PV Cell was invented by Charles Fritts. Selenium was deposited on metal substrate and Gold leaf film used as the second electrode. Cross-sectional area was 30cm<sup>2</sup> and thickness was only 30µm. It was working on only 1% efficiency. This device caused rectification also.</entry>
+          </row>
+          <row>
+            <entry>1874</entry>
+            <entry>Carl Ferdinand Braunn made a Point Contact Diode by pressing a wire point on galena(PbS). This was popularly known as Cat’s Whisker. This showed rectification. Similar rectification was observed in untarnished and tarnished Copper.</entry>
+          </row>
+          <row>
+            <entry>1887</entry>
+            <entry>Hertz had generated Radio Waves and it was detected by coherer. Soon Cat’s Whisker replaced the coherer.</entry>
+          </row>
+          <row>
+            <entry>1901</entry>
+            <entry>J.C. Bose got a patent for the point contact diode.</entry>
+          </row>
+          <row>
+            <entry>1906</entry>
+            <entry>Greenleaf Whitteir Pickard (an employee of AT&amp;T) filed a patent for Si Crystal Detector for Radio Waves. The mechanism was not clear. It was hypothesized as thermoelectric effect or as electrolytic effect or as gas discharge.</entry>
+          </row>
+          <row>
+            <entry>1915</entry>
+            <entry>Carl Benedicks proposed Ge-Pt and Ge-Cu as point contact diode to be used as peak diode detector in Radios. But by then Vacuum Diode had been commercialized and it took the role of detection.</entry>
+          </row>
+          <row>
+            <entry>1920</entry>
+            <entry>CuO+Se was developed as PVC used in battery chargers, exposure meters in photography. It was also used as modulators and non-linear circuit elements.</entry>
+          </row>
+          <row>
+            <entry>1930</entry>
+            <entry>Alan F. Wilson published his seminal paper titled “Quantum Theory meets Semiconductors”. Band Theory of Solids, thermal generation of electron-hole pairs, bi-polar conduction, doping and doped semiconductors- all these phenomenon were theoretically understood. The requirement of pure semiconductor was urgently felt in order to fabricate stable, reproducible and reliable devices. </entry>
+          </row>
+          <row>
+            <entry>1940</entry>
+            <entry>Point Contact Diodes were used in RADARS at 300MHz &amp; 3GHz.</entry>
+          </row>
+          <row>
+            <entry>1942</entry>
+            <entry>By melting, cooling and recrystallization and slicing the relevant portions 99.999% pure Electronic Grade pure Polycrystalline Silicon was obtained. This exhibited rectification as well as PV effect.</entry>
+          </row>
+          <row>
+            <entry>1942</entry>
+            <entry>Karl-Lark Horowitz at Purdue University stared work on PbS and then moved to the study &amp; production of high purity Ge. Pure Ge gave high quality Cat’s Whisker.</entry>
+          </row>
+          <row>
+            <entry>1946</entry>
+            <entry>Shockley, Bardeen &amp; Braittain started workin on Si &amp; Ge and on the equivalent of Triodes and Pentodes(tubes are short lived and high power consuming) at BELL Labs.</entry>
+          </row>
+          <row>
+            <entry>16<sup>th </sup>Dec 1947</entry>
+            <entry>Point Contact Ge Transistors were invented and power gain was observed.</entry>
+          </row>
+          <row>
+            <entry>24<sup>th</sup> Dec. 1947</entry>
+            <entry>Positive feed back was applied and sustained oscillations were observed. This was the litmus test for power gain.</entry>
+          </row>
+          <row>
+            <entry>30<sup>th</sup> June1948</entry>
+            <entry>The invention of Point Contact Ge transistors was publicly announced.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Point Contact Transistor was difficult to make, difficult to control and unstable. So Bipolar Junction Transistor was proposed with N Type thin layer sandwitched between P type layers. Initially poly-crystal Ge was used to make BJT. These were irreproducible, unpredictable and low quality because of scattering from grain boundaries. Hence switch was made to single crystal Ge. </entry>
+          </row>
+          <row>
+            <entry>1948</entry>
+            <entry>Gordon Teal &amp; John Little grew Single Crystal Ge using Jan Czochralski Method developed in 1918.</entry>
+          </row>
+          <row>
+            <entry>April 1950</entry>
+            <entry>At Bell Labs, Gordon Teal and fellow Chemist Morgan Sparks successfully made single crystal Ge BJT. </entry>
+          </row>
+          <row>
+            <entry>Feb 1951</entry>
+            <entry>Ge BJT has plus points such as less reactive, lower melting point and higher mobility hence higher frequency response. But it has serious negative points. These have higher leakage currents (due to low band gap energy of 0.67eV) which are very temperature sensitive almost doubling for every 10ºCelsius rise in temperature hence device becomes useless above 75ºC. Therefore Ge BJT could never be the device of choice for armed services which needed stable, reliable equipment that performed under extreme conditions. Hence switch was made to Silicon which could operate over much larger temperature range. Teal and Buehler grew pure single crystal Si and fabricated Si Junction Diode.Calvin Fuller was developing the diffusion techniques also at BELL Labs. </entry>
+          </row>
+          <row>
+            <entry>1952</entry>
+            <entry>John E Sabey at GEC fabricated Alloy Ge Transistor. This went for mass production.</entry>
+          </row>
+          <row>
+            <entry>Early 1954</entry>
+            <entry>Calvin Fuller &amp; Gerald Pearson formed PN Junction diode by diffusion.</entry>
+          </row>
+          <row>
+            <entry>25<sup>th</sup> April 1954</entry>
+            <entry>BELL Labs announced the successful fabrication of large area Junction Diode which could act as Solar Cell with 10% efficiency</entry>
+          </row>
+          <row>
+            <entry>10 May 1954</entry>
+            <entry>At Institute of Radio Engineers National Conference on Airborne Electronics, Dayton, Ohio, Gordon Teal then at Texas Instrument announced the fabrication and performance of diffused Si BJT.</entry>
+          </row>
+          <row>
+            <entry>January 1954</entry>
+            <entry>Morris Tanenbaum at BELL Labs had also achieved a Si BJT by rate growing technique but they did not announce it.</entry>
+          </row>
+          <row>
+            <entry>The decade of 50s</entry>
+            <entry>TI had Si BJT market to itself for rest of the decade and thus the stage was set for the emergence of TI as the International giant in field of device manufacturing.</entry>
+          </row>
+          <row>
+            <entry>July 1954</entry>
+            <entry>Charles Lee made a diffused Ge BJT with few µm thin Base operating with f<sub>T </sub>= 500MHz.Diffusion was controllable and could yield narrow bases.</entry>
+          </row>
+          <row>
+            <entry>17March 1955</entry>
+            <entry>Morris Tanenbaum fabricated a diffused Si BJT with few µm thin Base operating with f<sub>T </sub>= 120MHz.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Rest is history. We will see the birth and evolution of Integrated Circuits in the road map of Electronics.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615673665">Table I.2. Road Map of development of Electronics &amp; IC Technology.(1876-1959&amp;1959-2009)</para>
+    <para id="id1166615673670"><emphasis effect="bold">[</emphasis>“One hundred years of Electronics” by Frank Thompson, Physics Education, 40(3), May 2005, pp252-256]</para>
+    <table id="id1166615673682" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Invention</entry>
+          </row>
+          <row>
+            <entry>1876</entry>
+            <entry>Alexandre Grahm Bell patents Telephone</entry>
+          </row>
+          <row>
+            <entry>1878</entry>
+            <entry>Thomas Alva Edison patents incandescent lamp.</entry>
+          </row>
+          <row>
+            <entry>1895</entry>
+            <entry>J.J Thomson discovers electron as the basic building block of Atom through the study of Cathode Ray.</entry>
+          </row>
+          <row>
+            <entry>1896</entry>
+            <entry>Marconi introduces the concept of Wireless Communication more commonly known as Radio Communication.</entry>
+          </row>
+          <row>
+            <entry>1904</entry>
+            <entry>John Ambrose Fleming invents &amp; patents Vacuum Tube Diode(two electrodes device).</entry>
+          </row>
+          <row>
+            <entry>1906</entry>
+            <entry>Lee De Forest invented Vacuum Triode ( three electrodes device). This becomes the work horse of Early Electronics. and used it to achieve RC coupled Amplifier. </entry>
+          </row>
+          <row>
+            <entry>1909</entry>
+            <entry>Marconi and Jagdish Chandra Bose simultaneously announce the invention of radio transmission and reception.</entry>
+          </row>
+          <row>
+            <entry>1909</entry>
+            <entry>Around the same time, point contact solid state diode or cat’s whisker was introduced as detector in radio Receiver.</entry>
+          </row>
+          <row>
+            <entry>1911</entry>
+            <entry>Using Heaviside “Distortion-less Transmission Condition” i.e. loading the Telephone cables with large inductors, first long distance telephone call was made from New York to Denver, Colorado, over a distance of 2000 miles.</entry>
+          </row>
+          <row>
+            <entry>1913</entry>
+            <entry>Vacuum Tube Repeater introduced in Public Service Telephone Network (PSTN).</entry>
+          </row>
+          <row>
+            <entry>1915</entry>
+            <entry>Using inductor loading &amp; R.C Coupled Amplifier, first transcontinental telephone call is made from New York to San Francisco across a distance of 4000miles. Telephone becomes a Public Utility Service.</entry>
+          </row>
+          <row>
+            <entry>1919</entry>
+            <entry>Hull patents 4 electrode Tetrode. This had Cathode, Grid, Screen and Anode. Because of back emission of electrons from the anode , the output characteristics had a kink. So this device could not become popular.</entry>
+          </row>
+          <row>
+            <entry>1926</entry>
+            <entry>Jobst and Telegn introduced a fifth suppressor electrode to prevent back emission and remove the kink. This was known as Pentode.</entry>
+          </row>
+          <row>
+            <entry>1945</entry>
+            <entry>ENIAC (Electronic Numerical Integrator &amp; Calculator) build by Moore School of Electrical Engineering at the University of Pennsylvania. ENIAC is 27Metric Tonnes , consumes 200kW and occupies a large room. The valves had a high failure rate of one per 10 minutes therefore valve based computers could only have niche applications. Valve based computer could not become a house hold item.</entry>
+          </row>
+          <row>
+            <entry>1945</entry>
+            <entry>First Transoceanic Telephone Links established using voice quality coaxial cables. Telegraphic Cables are not suitable for Telephone Conservation. Voice quality cables were developed during World War II and introduced right after the War .Before the World War II , no TransAtlantic or TransPacific Telephonic Links were there. Across the oceans only Radio-Telephone call could be made.</entry>
+          </row>
+          <row>
+            <entry>1947</entry>
+            <entry>At Bell Laboratories, John Bardeen, Walter Brattain &amp; William Shockley invented BJT (Bipolar Junction Transistor). They were awarded Nobel Prize in 1953 in Physics for this invention. </entry>
+          </row>
+          <row>
+            <entry>1952</entry>
+            <entry>UNIVAC I (Universal Automatic Computer)- First computer designed for business use. The inventors were John Mauchy &amp; John Eckart.7.26 Metric Tonnes, 5000 Vacuum tubes &amp; 1000 calculators per second. These are termed <emphasis effect="bold">FIRST GENERATION COMPUTERS</emphasis>.</entry>
+          </row>
+          <row>
+            <entry>1956</entry>
+            <entry>UNIVAC II using transistors come in the market. Manufactures are Sperry Rand, USA. These are termed as <emphasis effect="bold">SECOND GENRATION COMPUTERS</emphasis>.</entry>
+          </row>
+          <row>
+            <entry namest="c1" nameend="c2">Road Map of development of Integrated Circuit Technology(1959-2009)</entry>
+          </row>
+          <row>
+            <entry>1959</entry>
+            <entry><emphasis effect="bold">Integrated Circuit (IC)</emphasis> chip invented by Jack Kilby (Texas Instrument) and Robert Noyce (FairChild). Discrete active and passive devices are integrated together on one wafer thin silicon chip in the area of 1cm by 1cm square, mounted on a header and then properly encapsulated and sealed. At the time it started, it had only 30 components in the 1 square cm area. This heralded the Information Age and <emphasis effect="bold">THIRD Information Revolution</emphasis>. It also produced an Explosion in electronic consumer and communication applications such as Personal Computers to cell Phones. Jack Kilby was awarded the Nobel Prize in physics in the year 2000. Jack Kilby passed away on 1<sup>st</sup> August 2005. Robert Noyce went on to establish “ INTEL” (Integrated Electronics) along with Gordon Moore and Andy Grove . He passed away earlier than Jack Kilby so he could not be awarded. Noble Prizes are not awarded posthumously. Today a multiprocessor chip has billion transistors in the same chip size and can perform as well as a Supercomputer.</entry>
+          </row>
+          <row>
+            <entry>1961</entry>
+            <entry>FIRST RLT (Resistance Transistor logic) IC Chip is commercially marketed by T I (Texas Instrument) and FairChild.</entry>
+          </row>
+          <row>
+            <entry>1964</entry>
+            <entry>FIRST Analog IC Amp. Chip MC 1530 marketed by Motorola. Op. Amp. stands for Operational Amplifier which were in yesteryears used in Analo Computers for different Mathematical Operations and hence the name Op. Amp.</entry>
+          </row>
+          <row>
+            <entry>1964</entry>
+            <entry>PDP 8, table top computer introduced in the market .It was a 8-bit computer meaning by the address size is 8 bit. Larger is the address word, larger is the address capability. 4-bit means 16 locations can be addressed and 8-bit means 256 locations can be addressed. This used IC Chips hence it was compact and less power consuming. This was <emphasis effect="bold">THE THIRD GENERATION </emphasis><emphasis effect="bold">COMPUTER.</emphasis> Price $18,000.00, 125 kg, and 4kBytes memory.</entry>
+          </row>
+          <row>
+            <entry>1968</entry>
+            <entry>18<sup>th</sup> July, INTEL (Integrated Electronics) was established by Robert Noyce and Gordon Moore . Later this team was joined by Andy Grove. Today 80% Personal Computers are equipped with INTEL Microprocessors.</entry>
+          </row>
+          <row>
+            <entry>1970</entry>
+            <entry>Advance Research Program Agency (ARPA) established ARPANET, the first WAN (Wide Area Network), connecting Stanford Research Institute, University of Utah, University of California Los Angles and University of California Santa Barbara mainly for Defense research purposes. In three years it grew to cover whole USA.</entry>
+          </row>
+          <row>
+            <entry>1970</entry>
+            <entry>PDP-11 introduced with 16 address word.</entry>
+          </row>
+          <row>
+            <entry>1971</entry>
+            <entry><emphasis effect="bold">FIRST INTEL MICROPRPCESSOR CHIP (μP 4004)</emphasis> introduced in the market . It can handle 4-bit data word and 8-bit address word meaning by it can address 256 locations. This 1 chip combined the function of 12 subsystems of a CPU(Central Processor Unit). This one silicon chip (1cm×1cm)had 2300 transistor , system clock rate 108kHz, Cost $299.00 . In India it was available for Rs.7500.00.[A development contract from a Japanese Company , for a set of chips needed to power an electronic calculator , triggered off what became the world’s <emphasis effect="bold">first computer-on-a-chip: the Microprocessor.</emphasis> 35 years ago, INTEL, a small Santa Clara (US) based manufacturer of memory and switching devices, unveiled a thumbnail-sized slab of silicon encased in a ceramic casing with 16 pins: this ushered in the era of Personal Computers, the era of Desk Top Computing and the era of <emphasis effect="bold">FOURTH GENERATION COMPUTERS.</emphasis> The contract with Busicom required INTEL to deliver the electronics for calculating machine, as a set of 12 custom built chips. The electrical engineer assigned to handle the task-Dr. Marcian “TED” Hoff , a PhD from the Stanford university-had an inspired thought. Why make a set of chips just for one application? Why not generalize the design so that other computing tools could be built with the same generalized design?In the process ,Dr. Hoff also suggested that the composite elements of a computer , as it was then understood- a unit to do the arithmetic (ALU-Arithmetic-Logic-Unit), a small memory and input and output interface –could be combined in a single slab of silicon.. When Busicom had cash flow problems, INTEL bought back the design it had created and slipped the product into its own catalogue. Intel μP 4004 was sold to Defense Establishment in India at a cost of Rs 7,000.00. Intel’s Indian Agent was Hyderabad based Electronics International which was later named as Microelectronics International] </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><emphasis effect="italics">Gordon Moore predicted that number of transistors on integrated circuits( a rough measure of computer processing power) will double every 18 months at a minimum cost. It became a self fulfilling prophecy</emphasis>.<emphasis effect="italics">Moore’s Law has </emphasis><emphasis effect="italics">become a yardstick of our progress as we harness the cunning of NATURE’s design strategies.</emphasis></entry>
+          </row>
+          <row>
+            <entry>1971</entry>
+            <entry>Electronic Mail or e-mail is invented by Ray Tomilinson.</entry>
+          </row>
+          <row>
+            <entry>1972</entry>
+            <entry>first 8 bit μP 8008 introduced by Intel.</entry>
+          </row>
+          <row>
+            <entry>1977</entry>
+            <entry>First Personal Computer was introduced, named APPLE II , at a price of $1300.00 .It had 4kB RAM. It had a software VisiCalc the best spread sheet package of its day. This was formally the <emphasis effect="bold">FOURTH GENERATION COMPUTER.</emphasis></entry>
+          </row>
+          <row>
+            <entry>1978</entry>
+            <entry>Intel introduces 8086 µP Chip which had 16bit data word and 16bit address word .</entry>
+          </row>
+          <row>
+            <entry>1981</entry>
+            <entry>IBM introduced its own brand of Personal Computer PC5150 based on 8088µP Intel Chip. Clock Rate was the same as that of APPLE II but memory was much bigger at 40kB. GREEN SCREEN, 2x5” Floppy Drives for loading OS. IBM PC design accounts for 90% PCs. APPLE PC design accounts for 10% PCs.</entry>
+          </row>
+          <row>
+            <entry>1982</entry>
+            <entry>Intel introduces 80826µp Chip (16 bit data bus and 24 bit address bus and 68 pin package).</entry>
+          </row>
+          <row>
+            <entry>1986</entry>
+            <entry>80386(Intel) and 68030(Motorola) introduces 24 bit address bus.</entry>
+          </row>
+          <row>
+            <entry>1988</entry>
+            <entry>First Trans Atlantic Optical Fiber Cable, TAT8, used in place of coaxial cable.Coaxial Cable can carry 3,000 simultaneous phone calls. In contrast Optical Fiber cable can carry 37,500 simultaneous telephone calls with the present state of art of electronics. As the switching speed increases, the number of simultaneous calls increases exponentially.</entry>
+          </row>
+          <row>
+            <entry>1993</entry>
+            <entry>PENTIUM I introduced . it had 3.1x10<sup>6</sup> CMOS(Complementary Metal Oxide Semiconductor Field Effect Transistor) placed on one chip .<list id="id1166615674883" list-type="bulleted"><item>it could perform 90MFLOPS, 5 TIMES THE SPEED OF 80486.</item><item>data bus 32 bits and address bus 32 bits </item><item>clock rate 1500 times that of 4004 .</item></list></entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>Pentium IV chip introduced;<list id="id1166615674939" list-type="bulleted"><item>Nano-electronics chip;</item></list><list id="id1166615674951" list-type="bulleted"><item>It has 42 million transistors packed in an area of 1 cm by 1 cm;</item><item>System Clock Rate is 2GHz;</item><item>20,000 more powerful than 4004 μP Chip;</item><item>Cost Rs 15,000.00</item></list></entry>
+          </row>
+          <row>
+            <entry>2003</entry>
+            <entry>APPLE introduces Power Mac G5 PC.<list id="id1166615675014" list-type="bulleted"><item>64 bit data word and 64 bit address word;</item><item>18 PETA Memory locations can be addressed;</item><item>System Bus operates at 800 MHz;</item><item>System Clock operates at 2GHz, dual processors;</item><item>80 to 160GB hard disc;</item><item>256MB to 512MB high speed RAM;</item></list></entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>From here onward we have 64 bit computing era starts.</entry>
+          </row>
+          <row>
+            <entry>2004</entry>
+            <entry>“ Project Columbia” a $50 million super-computer built by SILICON GRAPHICS is introduced;<list id="id1166615675126" list-type="bulleted"><item>it is powered by 10,240 processors in 20 units;</item><item>it is Intel Itanium chips;</item><item>it performs 43 Tera FLOPS as compared to the world record of 36TFLOPS </item></list>performed by IBM’s BlueGene/L super computer;<list id="id1166615675164" list-type="bulleted"><item>This is a ten fold increase in NASA’s supercomputing capacity;</item><item>Applications in hurricane tracking, weather modeling and earth’s interior </item></list>imaging;</entry>
+          </row>
+          <row>
+            <entry>2005</entry>
+            <entry>GeForce 7800 GTX (latest Graphics Processing Unit or GPU) introduced by US-based nVIDIA Corporation for Video Games;<list id="id1166615675226" list-type="bulleted"><item>302 million CMOS on one 1cm x1cm chip;</item><item>Performs 202 GFLOPS;</item><item>10% less power consumption ;</item><item>50% quieter</item><item>twice as powerful as its processors 6800 but it costs the same as before that is </item></list>Rs. 32,000.00 ;<list id="id1166615675284" list-type="bulleted"><item>Market for video games is one of the fastest growing sectors in Computer </item></list>Industry;</entry>
+          </row>
+          <row>
+            <entry>2005</entry>
+            <entry>Dual cores Microprocessor chip are introduced;Intel introduces Pentium “Extreme Edition” 840 with Clock Rate=3.2GHz and with billon transistors . This is dual core as well as it has a software called‘hyperthreading’(HT). This is a software which enables one to work with doublevirtual processors. Thus a dual core with HT will allow application developers to write software that can carve up the task between four processors;<list id="id1166615675354" list-type="bulleted"><item>Intel introduces Xeon for servers and Pentium M for laptops;</item><item>AMD introduces Opteron 800 series for servers and workstations;</item><item>AMD introduces Athlon 64 X2 for consumers and business PC’s;</item></list></entry>
+          </row>
+          <row>
+            <entry>2008 October</entry>
+            <entry>GeForce 9400M is a single chip solution for graphical processing platform for portable applications. It has computing rate of 55GFlops (Floating Point Operations), the most powerful integrated graphics processor in the market in 2008. It has 6 cores operating in parallel. But much less power hungry. New MacBook family will be fuelled by these chips.</entry>
+          </row>
+          <row>
+            <entry>2008November</entry>
+            <entry>Intel and AMD have launched a native quad processor unlike the earlier version where 2 dual core chips had been combined in the same package. Intel has launched ‘Nehalem’,the i7 processor using 45nm technology. AMD has launched 45nm Opteron. Both achieve the 4 cores on the same silicon slab. This has double the Memory Bandwidth. These conserve energy by cutting down power when the device is idle.</entry>
+          </row>
+          <row>
+            <entry>2009</entry>
+            <entry>Interplanetary Internet Protocols are tested by using computers on the International Space Station. Eventually there will be an internet connectivity among Earth, multiple probes, rovers, orbiters and space crafts exploring the solar system. This will be the basis of Interplanetary Internet. The network’s key technologies are called Delay Tolerant Networking(DTN) protocols. The problem in deep space internet is the huge delay and occultation of the nodes. To overcome this problem “store and forward” technique will be used. The node will save the data and then passes on when the link is again established. A third test is yet to be carried. In this a security protocol and a new file-transfer protocol will be used.</entry>
+          </row>
+          <row>
+            <entry>2010</entry>
+            <entry>Pacific Unity will lay multiple fibers. Total capacity; 7.68 terabits per second.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615675508">ROAD MAP OF SUPERCOMPUTER.[‘The Data’, IEEE SPECTRUM, APRIL 2009]</para>
+    <para id="id1166615675513">Table I.3. Road Map of Super Computer.</para>
+    <table id="id1166615675517" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Name</entry>
+            <entry>No.of processors</entry>
+            <entry>Capability</entry>
+            <entry>Cost</entry>
+          </row>
+          <row>
+            <entry>1976</entry>
+            <entry>Illiac IV</entry>
+            <entry>64</entry>
+            <entry>TeraFLOPS</entry>
+            <entry>480kFLOPS/million dollar</entry>
+          </row>
+          <row>
+            <entry>1976</entry>
+            <entry>Cray 1</entry>
+            <entry>1</entry>
+            <entry>TeraFLOPS</entry>
+            <entry>17.78MFLOPS/ million dollars</entry>
+          </row>
+          <row>
+            <entry>1988</entry>
+            <entry>CRAY Y-MP</entry>
+            <entry>8-vectorprocessor</entry>
+            <entry>TeraFLOPS</entry>
+            <entry>111.5MFLOPS/ million dollars</entry>
+          </row>
+          <row>
+            <entry>1997</entry>
+            <entry>ASCI RED</entry>
+            <entry>4510</entry>
+            <entry>TeraFLOPS</entry>
+            <entry>18.18182GFLOPS/million dollars</entry>
+          </row>
+          <row>
+            <entry>2002</entry>
+            <entry>EARTHSIMULATOR</entry>
+            <entry>5120</entry>
+            <entry>TeraFLOPS</entry>
+            <entry>17.5GFLOPS/million dollars</entry>
+          </row>
+          <row>
+            <entry>2004</entry>
+            <entry>BLUEGENE/L</entry>
+            <entry>65536</entry>
+            <entry>10TeraFLOPS</entry>
+            <entry>2.8TFLOPS/million dollars</entry>
+          </row>
+          <row>
+            <entry>2007</entry>
+            <entry>PLAYSTATION3 CLUSTER†</entry>
+            <entry>8playstation</entry>
+            <entry/>
+            <entry>375TFLOPS/million dollars</entry>
+          </row>
+          <row>
+            <entry>2008</entry>
+            <entry>NVIDIA TESLA*</entry>
+            <entry>960cores</entry>
+            <entry/>
+            <entry>439.1 TFLOPS/ million dollars</entry>
+          </row>
+          <row>
+            <entry>2008</entry>
+            <entry>ROADRUNNER‡</entry>
+            <entry>19440</entry>
+            <entry>10sTeraFLOPS</entry>
+            <entry>8.3TFLOPS/ million dollars</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615676072">*Based on the cost of building your own Tesla supercomputer out of four Tesla C1060 units. Complete instructions are available at nvidia.com</para>
+    <para id="id1166615676077">† Seven processors per node at 150GFLPS per Unit for a single processor( 11 processors per node for a dual processor). $400-plus per node.</para>
+    <para id="id1166615676082">‡ 6480 Opteron CPUs and 12960 Cell processors.</para>
+    <para id="id1166615676087">Supercomputers are massively parallel chips can be used to calculate protein folding, predict climate change and crack the encryption of hitherto-secure Web sites. </para>
+    <para id="id1166615676092">Nvidia advertises its new workstation, the Tesla, as a “personal supercomputer”. It clusters 4 Nvidia C1060 processing boards, each of which unites 240 graphic cores to process instructions at nearly teraflop speed.</para>
+    <para id="id1166615676100">Tesla does single-precision floating-point calculations using 8-bit bytes.</para>
+    <para id="id1166615676105">Roadrunner uses 64-bit floating integers.</para>
+    <para id="id1166615676109">Table I.4.Evolution of Microprocessor Chip</para>
+    <table id="id1166615676114" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Name</entry>
+            <entry>Technology</entry>
+            <entry>Data &amp; Address Size</entry>
+            <entry>Packing Density</entry>
+            <entry>Number of Pins</entry>
+            <entry>Clock Rate </entry>
+            <entry>Instructions Per Second</entry>
+            <entry>Year &amp; Price.</entry>
+          </row>
+          <row>
+            <entry>Intel 4004</entry>
+            <entry>10µm</entry>
+            <entry>4-bit</entry>
+            <entry>2300PMOS</entry>
+            <entry>16</entry>
+            <entry>740kHz</entry>
+            <entry>92kIPS</entry>
+            <entry>1971 Rs 7,500.00</entry>
+          </row>
+          <row>
+            <entry>Intel 8080</entry>
+            <entry>3 µm</entry>
+            <entry>8-bit</entry>
+            <entry>6000NMOS</entry>
+            <entry>40</entry>
+            <entry>2MHz</entry>
+            <entry>0.64MIPS</entry>
+            <entry>1977</entry>
+          </row>
+          <row>
+            <entry>Intel 8086</entry>
+            <entry>3 µm</entry>
+            <entry>16-bit</entry>
+            <entry>29,000 HMOS</entry>
+            <entry>40</entry>
+            <entry>5 MHz</entry>
+            <entry>0.33MIPS</entry>
+            <entry>1978</entry>
+          </row>
+          <row>
+            <entry>Intel 80286</entry>
+            <entry>1.5 µm</entry>
+            <entry>Data 16b Address 24b</entry>
+            <entry>134,000 HMOS</entry>
+            <entry>68</entry>
+            <entry>6-12.5 MHz</entry>
+            <entry>1.8 MIPS</entry>
+            <entry>1982</entry>
+          </row>
+          <row>
+            <entry>Intel 80386 </entry>
+            <entry>1 µm</entry>
+            <entry>32-bit </entry>
+            <entry>275,000 CMOS</entry>
+            <entry>132</entry>
+            <entry>16 MHZ</entry>
+            <entry>5 MIPS</entry>
+            <entry>1985</entry>
+          </row>
+          <row>
+            <entry>Intel 80486</entry>
+            <entry>800nmpipelined</entry>
+            <entry>32-bit</entry>
+            <entry>1.2million CMOS </entry>
+            <entry>168</entry>
+            <entry>25 MHZ</entry>
+            <entry>20 MIPS</entry>
+            <entry>1989</entry>
+          </row>
+          <row>
+            <entry>Pentium</entry>
+            <entry>600nmSuperscalararchitecture</entry>
+            <entry>Data 64b Address32bMemory Size 2<sup>32=</sup>4GB</entry>
+            <entry>3.1 million CMOS</entry>
+            <entry>?</entry>
+            <entry>60 MHZ</entry>
+            <entry>100 MIPS</entry>
+            <entry>1993</entry>
+          </row>
+          <row>
+            <entry>Pentium II</entry>
+            <entry>350nm</entry>
+            <entry>Same</entry>
+            <entry>7.5 million CMOS</entry>
+            <entry>370</entry>
+            <entry>233 MHZ</entry>
+            <entry>400 MIPS</entry>
+            <entry>1997</entry>
+          </row>
+          <row>
+            <entry>Pentium III</entry>
+            <entry>250nm</entry>
+            <entry>same</entry>
+            <entry>9.5 CMOS</entry>
+            <entry>370</entry>
+            <entry>450 MHZ</entry>
+            <entry>1000 MIPS</entry>
+            <entry>1999</entry>
+          </row>
+          <row>
+            <entry>Pentium IV</entry>
+            <entry>180nm</entry>
+            <entry>Data 64b Address 64b</entry>
+            <entry>42 million CMOS(Nano electronics)</entry>
+            <entry>478</entry>
+            <entry>2.2 GHz</entry>
+            <entry>5GIPS</entry>
+            <entry>2001</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615677106">MOORE’s LAW: The packing density of CMOS on μP Chip would double every two years leading to an exponential growth in the complexity and speed of μP Chip.</para>
+    <para id="id1166615677113">Table I.5. Evolution of Computers. </para>
+    <table id="id1166615677120" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Generation</entry>
+            <entry>Components </entry>
+            <entry>Architecture</entry>
+            <entry>Logic</entry>
+            <entry>Programming</entry>
+            <entry>Language</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c2" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>1<sup>st </sup>(1947-ENIAC 1952- Univac I, Main-Frame)</entry>
+                  <entry>Vacuum Tubes</entry>
+                </row>
+                <row>
+                  <entry>2<sup>nd</sup>(1956-UNIVAC II, Main Frame</entry>
+                  <entry>Discrete BJT</entry>
+                </row>
+                <row>
+                  <entry>3<sup> rd</sup>(1964- PDP8,Mini-comp.,Table Top)</entry>
+                  <entry>IC’s chips</entry>
+                </row>
+                <row>
+                  <entry>4<sup> th</sup>(1977- APPLE II, Micro-comp., Desk Top, Personal Comp.</entry>
+                  <entry>μP chips</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Von-neumann, sequential</entry>
+            <entry>Boolean</entry>
+            <entry>Algorithm</entry>
+            <entry>Fortran,Basic,Algol</entry>
+          </row>
+          <row>
+            <entry>5<sup> th</sup>Robotics, Data Based Medical Diagnostic Tools</entry>
+            <entry>Artificial Intelligence Machines</entry>
+            <entry>Data-flow, Systolic, Pipeline</entry>
+            <entry>Predicate</entry>
+            <entry>Heuristic</entry>
+            <entry>Prolog, Lisp</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615677483">Table I.6. Evolution of Local Area Network</para>
+    <table id="id1166615677487" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Standard</entry>
+            <entry>Name</entry>
+            <entry>Data transfer rate</entry>
+          </row>
+          <row>
+            <entry>1973</entry>
+            <entry>802.1</entry>
+            <entry>OSI (Open System Interconnection)</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.2</entry>
+            <entry>Logical Link Control</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry>1983</entry>
+            <entry>802.3</entry>
+            <entry>CSMA/CD (Carrier Sense Multiple Access/Collision Detect)</entry>
+            <entry>10Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.4</entry>
+            <entry>Token Bus</entry>
+            <entry>100Mbps</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>802.5</entry>
+            <entry>Token Ring</entry>
+            <entry>100Mbps</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>802.11</entry>
+            <entry>WLL (Wire Local Loop)</entry>
+            <entry>1 Gbps</entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>802.13</entry>
+            <entry>Wi-Fi (Wireless internet Access</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615677835">
+      <emphasis effect="bold">Table I.7. Development in submarine cable.(Sources: Telegraphy Research: </emphasis>
+      <emphasis effect="italics">“History of the Atlantic Cable and Undersea Communications”</emphasis>
+      <emphasis effect="bold"> by Bill Glover,Wikipedia).</emphasis>
+    </para>
+    <table id="id1166615677853" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Region</entry>
+            <entry>Submarine Cable %BW utilization</entry>
+            <entry>LIT Submarine Cable Capacity</entry>
+          </row>
+          <row>
+            <entry>Asia</entry>
+            <entry>69%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Middle East</entry>
+            <entry>73%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Oceania</entry>
+            <entry>56%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Europe</entry>
+            <entry>52%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>US &amp; Europe</entry>
+            <entry>51%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Latin America &amp; Caribbean</entry>
+            <entry>77%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Africa</entry>
+            <entry>69%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Transatlantic Cable</entry>
+            <entry/>
+            <entry>15%</entry>
+          </row>
+          <row>
+            <entry>US-Latin America</entry>
+            <entry/>
+            <entry>37%</entry>
+          </row>
+          <row>
+            <entry>Transpacific</entry>
+            <entry/>
+            <entry>21%</entry>
+          </row>
+          <row>
+            <entry>Europe-Asia</entry>
+            <entry/>
+            <entry>91%</entry>
+          </row>
+          <row>
+            <entry>Intra-Asia</entry>
+            <entry/>
+            <entry>31%</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1166615678247">Submarine Cable Boom: In 2001 US $13.5 billion was spent. Due to Dot.com bust, only $2billion was spent during four lean years from 2004 to 2007. Even the during the lean periods, global demand never slaked growing at an average compound annual rate of 54% from 2002 to 2008. In Latin America and the Caribbean, traffic grew the most at more than 75%.</para>
+    <para id="id1166615678254"><emphasis effect="bold">METALFE LAW:</emphasis> The value of a NETWORK grows as the square of the numbe of users.</para>
+  </content>
+</document>

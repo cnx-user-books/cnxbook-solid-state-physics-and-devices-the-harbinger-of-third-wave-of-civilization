@@ -1,0 +1,116 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Crystal Growth-Bulk and Epitaxial Film-Part 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34199</md:content-id>
+  <md:title>Crystal Growth-Bulk and Epitaxial Film-Part 1</md:title>
+  <md:abstract>Crystal Growth Part 1 goes on to describe the preparation of electronic grade polycrystalline Si from sand and then preparing single crystal pure or doped Silicon Ingot with a given crystalline orientation.</md:abstract>
+  <md:uuid>bed1c551-bf69-428e-9e45-d5b5a3b34157</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172461150541">CRYSTAL GROWTH</para>
+    <list id="id1172476815797" list-type="bulleted">
+      <item>(1)Preparation of polycrystalline Electronic Grade Silicon material in <emphasis effect="italics">Siemens Reactor</emphasis>.</item>
+      <item>(2)Bulk Crystal preparation or Pure,Electronic Grade, Single Crystal Silicon ingot preparation by <emphasis effect="italics">Czochralski method </emphasis>and by <emphasis effect="italics">Float Zone Method</emphasis>.</item>
+      <item>(3)Diamond cutting of Silicon Ingot into Silicon Wafers and <emphasis effect="italics">lapping, polishing and chemical etching</emphasis> of the Wafers to obtain mirror finished Substrates for IC preparation.</item>
+      <item>(4)Epitaxial Film Growth-<emphasis effect="italics">Chemical Vapour Phase Deposition</emphasis>(CVD) or <emphasis effect="italics">Liquid phase Epitaxy</emphasis>(LPE).</item>
+      <item>(5)For Photonic Application , compound Semiconductor Epitaxial Film Growth is achieved by <emphasis effect="italics">Molecular Beam Epitaxy</emphasis> (MBE).</item>
+    </list>
+    <para id="id1172460424797">PREPARATION OF POLYCRYSTALLINE ELECTRONIC GRADE SILICON MATERIAL.</para>
+    <para id="id1172460334141">Quartz Sand (SiO2) plus Coke are put in a container with submerged electrode <emphasis effect="bold">Arc Furnace</emphasis>. Electric energy is consumed at the rate of 13 kWhr per kg and SiO2 is reduced to Silicon by Coke. This silicon is of 98% purity. The solid silicon is pulverized and kept in an oven where Hydrogen Chloride vapour is passed at 300ºC. Silicon is converted into SiHCl3 (liquid) which is called Trichloro Silane.</para>
+    <para id="id1172468578181">SiO2(Quartz Sand)+ 2C (coke) = (at high Temperature)Si +CO2</para>
+    <para id="id1172475377091">Si(pulverized form) +3HCl (vapour) =(At 300ºC) SiHCl3 (liquid) +H2↑</para>
+    <para id="id1172462990414">
+      <figure id="id1172461046608">
+        <media id="id1172461046608_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-e5d6.png" id="id1172461046608__onlineimage" height="347" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172477548771">SiHCl3(liquid) has B.P 31.8ºC. Whereas most impurities are less volatile. Therefore by multiple distillation electronic grade TriChloroSilane is obtained which eventually is used in SIEMEN’S REACTOR.</para>
+    <para id="id1172476422701">H2 + SiHCL3 =(at 1000ºC) Si +3HCL</para>
+    <para id="id1172467044308">(Hydrogen reduction)</para>
+    <para id="id1172463044315">(a form of CVD of Silicon on slim rod of Silicon on Tantulum wire)</para>
+    <para id="id1172467771463">Slim rod contains Tantalum Wire surrounded by Silicon as shown in Figure 2. Slim rod can be formed either by CVD on hot Tantalum wires or can be pulled from the melt.</para>
+    <para id="id1172468782687">(When Si deposited by CVD on hot Tantalum wires then there can be thermal run away due to negative temperature coefficient of resistance(t.c.r) of surrounding silicon deposit dominating over positive t.c.r of the Tentalum wires. The thermal runaway has to be prevented by controlling the current.)</para>
+    <para id="id1172469761744">The resulting fattened slim rod has considerable metal contamination at the core of the rod.This can be removed by dissolving the central metallic core with acid. ANitric/Hydrofluoric acid mixture is then pumped through the hollow core. This cleaning method widens the hollow core by removing silicon and metal contamination(1mm/hr). First nitric acid is used to dissolve the metallic core . Next Hydrofluoric acid is passed through the hollowed core to dissolve the inner layer of silicon and in the process removing the metal contamination. The fattened, purified rod of silicon thus obtained will be used as the feedstock for crystal pulling. Hydrofluoric acid is very corrosive and it can effect our bones even . Therefore Teflon gloves , Teflon Aprons,Teflon tweezers and Teflon beakers have tobe used while working with HF acid.</para>
+    <figure id="id1172460214328">
+      <media id="id1172460214328_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-c44c.png" id="id1172460214328__onlineimage" height="406" width="650"/>
+      </media>
+    </figure>
+    <para id="id1172463329723">
+      <emphasis effect="bold">FLOW CHART OF SIEMEN’S REACTOR</emphasis>
+    </para>
+    <para id="id1172467320213">Reduction of sand with carbon gives impure polycrystalline Silicon</para>
+    <para id="id1172490636629">       ↓</para>
+    <para id="id1172474436622">Reaction of pulverized raw silicon with HCl gaseous vapour to form TriChloroSilane</para>
+    <para id="id1172475784694">       ↓</para>
+    <para id="id1172475660140">Multiple distillation of TriChloroSilane to obtain purified electronic grade TriChloroSilane</para>
+    <para id="id7726833">       ↓</para>
+    <para id="id1172469844635">Thermal decomposition of SiHCl3 at 1000 degree centigrade in Sieman’s reactor to obtain fattened rods of electronic grade Silicon</para>
+    <para id="id1172490094809">
+      <figure id="id6234760">
+        <media id="id6234760_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-a6ef.png" id="id6234760__onlineimage" height="501" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id5407830">Figure 3. The schematic illustration of the growth of a single crystal Si ingot by the Czochralski technique.</para>
+    <figure id="id1172463832550">
+      <media id="id1172463832550_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-da6a.png" id="id1172463832550__onlineimage" height="253" width="650"/>
+      </media>
+    </figure>
+    <para id="id1172472379821">The crystallographic orientation of silicon ingot is marked by grounding a flat as shown in Figure 4. The ingot can be as long as 2m. Wafers are cut using a rotating annular diamond saw. Typical wafer thickness is 0.6-0.7mm</para>
+    <para id="id1172467924031">CZOCHRALSKI METHOD OF SINGLE CRYSTAL PULLING</para>
+    <para id="id1172468025885">Polycrystalline silicon is not suitable for Electronic Device preparation. Polycrystals have grain boundaries which make mobility unpredictable because of unpredictable amount of defect scattering. Grains boundaries cause uneven distribution of dopents. Along the grain boundaries there is more rapid diffusion of dopent as compared to that in the bulk. Hence we opt for single crystal silicon</para>
+    <para id="id1172461524396">Czochralski Equipment, as shown in Figure 3 and Figure 5, has a graphite lining. Graphite is of Nuclear Reactor Grade. Within the Graphite lining, Quartz crucible of high purity is placed for holding the silicon melt. Induction heating is used for maintaining the silicon melt at 1420ºC . Induction heating is eddy current heating. The eddy currents are induced in the graphite lining by alternating magnetic field caused by RF induction coil. Crystal pulling is carried out in inert atmosphere of argon to prevent oxidation and to suppress evaporation.</para>
+    <figure id="id1172473063330">
+      <media id="id1172473063330_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-a0f8.png" id="id1172473063330__onlineimage" height="444" width="607"/>
+      </media>
+    </figure>
+    <para id="id6383219">Seed crystal determines the perfection and the orientation of the single crystal being pulled. Hence seed is dislocation free and of desired crystal orientation.</para>
+    <para id="id1172472677359">The total length of Si ingot is L=2m &amp; Φ =15cm, 20cm, 25cm, Optimum pulling rate is 2 mm per min. In 24 hr period the total length of ingot is pulled .Silicon being highly refractive (m.p.1410 c) is highly contaminable. The Quartz of the containment vessel undergoes dissolution into Si during its growth. The result is the inclusion of O2 as a donor impurity into Silicon. Carbon is another impurity that finds its way into Silicon. These contaminants are particularly harmful for powerful devices.</para>
+    <para id="id1840393">Counter rotation and rotation are produced to provide uniformity , homogeneity of thermal effects and dopents. This minimizes the defects also.</para>
+    <para id="id1172476599758">Inspite of these homogenizing effects there are swirl effect which lead to non-uniform distribution of desired and undesired contaminants. This leads to non-uniform resistivity distribution across a silicon wafer. The spatial variation is such that these non-uniformities are not particularly important in I.C. or in miniature devices. However in power devices ,which are large area devices , local variation in doping can lead to non-uniform heating and hence to hot spots and failures. For example 3” diameter Thyristor carries 3000 amps. Even one defect per slice will be catastrophic to such a device but is inconsequential to I.C. Fabrication.</para>
+    <para id="id1172475859443">This implies that for applications in which contaminants are critical, crystal, wafers produced by CZOCHRALSKI METHOD are not suitable.</para>
+    <para id="id1172460638002">One way to avoid the contaminants is to be avoid contact with quartz crucible. This is achieved by FLOAT ZONE METHOD of Crystal Growth.</para>
+    <para id="id1172472564398">FLOAT ZONE METHOD OF CRYSTAL GROWTH</para>
+    <para id="id1172464417375">An electronic grade , pure polycrystalline silicon rod is held vertically as shown in Figure 6 in inert atmosphere .thus no crucible is used and hence contaminations are avoided.</para>
+    <para id="id7895981">A seed crystal is held at the bottom of the rod to determine the crystallographic orientation</para>
+    <para id="id2897269">Through R.F induction heating a narrow zone of vertical, purified, poly crystalline bar is melted. Dimensions of the molten zone are such that surface tension hold it in place. Because of less than unity segregation coefficient , a(m)=(concentration M in solid phase)/(concentration of m in liquid phase), impurities prefer to stay in liquid phase.</para>
+    <para id="id1172466520008">As the R.F. coil is sifted from bottom to top , the impurities of the region are swept to the top and the recrystallized portion is relatively pure and single crystalline with orientation that of seed crystal. If high purity is required then several passes can be made and ends containing impurities can be sliced off leaving behind very pure single crystal silicon ingot. Pure crystal of very high resistivity can be achieved by repeated recrystallization through several passes.</para>
+    <para id="id1172475487705">Table 1. Segregation Coefficient for different dopents in different hosts.</para>
+    <table id="id1172476877124" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Semiconductor</entry>
+            <entry>N Type</entry>
+            <entry>P type</entry>
+          </row>
+          <row>
+            <entry>Silicon</entry>
+            <entry>a(P) = 0.35, a(As) = 0.3</entry>
+            <entry>a(B) = 0.8</entry>
+          </row>
+          <row>
+            <entry>Gallium Arsenide</entry>
+            <entry>a(Se) = 0.10</entry>
+            <entry>a(Zn) = 0.42</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1172467462157">
+      <media id="id1172467462157_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-154d.png" id="id1172467462157__onlineimage" height="485" width="579"/>
+      </media>
+    </figure>
+  </content>
+</document>

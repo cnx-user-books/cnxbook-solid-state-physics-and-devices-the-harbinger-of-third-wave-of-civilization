@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 5</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38644</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 5</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 5 deals with the minimization of propogation delay in CMOS logic networks by the use of Super-buffers and BiCMOS drivers.</md:abstract>
+  <md:uuid>8d63d83b-ba9c-4572-8e33-22909b5ff659</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169177493715">
+      <emphasis effect="bold">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 5</emphasis>
+    </para>
+    <para id="id1169189621969">
+      <emphasis effect="bold">7.6.6. Super buffers for driving significant capacitive loads.</emphasis>
+    </para>
+    <para id="id1169163965989"> To drive significant capacitive loads we use super buffers to preserve symmetric switching transients. This considerably minimizes the delay problems. The circuit diagrams of inverting type super buffers is given in Figure 7.6.6.1 and that of non-inverting type in Figure 7.6.6.2.</para>
+    <figure id="id1169176578584">
+      <media id="id1169176578584_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-520e.png" id="id1169176578584__onlineimage" height="390" width="481"/>
+      </media>
+    </figure>
+    <para id="id1169187872805">In Figure 7.6.6.1. Q1-Q2 comprise (E)NMOS inverter with (D)NMOS acting as pull-up transistor. The output of the inverter drives the gate of Q3 and original input drives the gate of Q4.</para>
+    <para id="id1169166322357">When V<sub>in</sub> = HIGH (V<sub>DD</sub>), inverter O/P is LOW which pulls down the gate of Q3 to 0V thereby Q3 is turned OFF but Q4 is turned ON. Hence O/P of the super buffer is rapidly pulled down through Q4.</para>
+    <para id="id1169166161420">When V<sub>in</sub> = LOW (0V), inverter O/P is HIGH. Original input turns OFF the pd transistor Q4 but HIGH O/P of the inverter turns ON the pu transistor Q3. Thus O/P of the super buffer is rapidly pulled up through Q3.</para>
+    <para id="id1169153861286">Note that in the conventional inverter under pu condition V<sub>DD</sub>/2 is applied at the gate of pu transistor. In case of super buffer, V<sub>DD</sub> is being applied to the gate of pu transistor Q3. Hence in the second case pu transistor is being turned ON twice as hard as in the conventional case. Hence pu is twice as rapid. This helps symmetrize the output transients. </para>
+    <para id="id1169187561040">
+      <figure id="id1169171923516">
+        <media id="id1169171923516_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-14ca.png" id="id1169171923516__onlineimage" height="376" width="488"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169159869932">In Figure 7.6.6.2. we have non-inverting type super buffers. It is the same as inverting type except that the inveter output is cross-coupled to Q3-Q4 pair.</para>
+    <para id="id1169155466703">Hence when Vin = HIGH, O/P of the buffer is being pulled up through Q3.</para>
+    <para id="id1169178802486">When Vin = LOW, O/P is being pulled down through Q4. </para>
+    <para id="id1169166258470">Thus Vin = HIGH gives buffer O/P =HIGH and</para>
+    <para id="id1169158358478">Vin=LOW gives buffer O/P= LOW.</para>
+    <para id="id1169168933700">7.6.7.BICMOS Drivers.</para>
+    <para id="id1169168514868"> BJT Logic has much better drive capabilities as compared to CMOS Logic.</para>
+    <list id="id1169169786943" list-type="enumerated" number-style="lower-roman">
+      <item>BJT has larger transconductance and much larger current per unit area handlng capacity. </item>
+      <item>A much smaller voltage swing is required for switching the BJT transistor hence switching transients are much faster as compared to CMOS circuits.</item>
+    </list>
+    <para id="id1169159781368">Because of these reasons BJT drive at the output of CMOS is preferred hence it is called GLUE Logic.</para>
+    <para id="id1169164283554">In Figure 7.6.7.1, Resistance-Transistor –Logic (RTL) circuit configuration is shown. Along side the positive switching transient at the output is shown with input experiencing 5V negative step. When I/P goes HIGH to LOW, transistor is first switched OFF. Because the transistor was in saturation therefore it takes time to remove all the stored minority carriers in the base. This causes storage delay ,τ(storage).</para>
+    <para id="id1169153909667">Once the transistor is turned OFF, the load capacitance is pulled up through load resistance R<sub>C</sub>. Hence the charging time constant τ(charging) = R<sub>C</sub>×C<sub>L</sub>. The pull-up tramsient with storage delay is shown at the bottom right of the diagram.</para>
+    <para id="id1169159818681">
+      <figure id="id1169170337190">
+        <media id="id1169170337190_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-1f0c.png" id="id1169170337190__onlineimage" height="454" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169167588642">In Figure 7.6.7.2 we show the negative transient across the capacitive load at the output of the RTL gate. </para>
+    <para id="id1169177583823">The input is HIGH at 5V hence transitor is ON and sink current is caused :</para>
+    <figure id="id1169161831773">
+      <media id="id1169161831773_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-5ba0.png" id="id1169161831773__onlineimage" height="24" width="155"/>
+      </media>
+    </figure>
+    <para id="id1169164069443">Therefore the rate of pull-down across the capacitor is:</para>
+    <figure id="id1169169991657">
+      <media id="id1169169991657_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-e4cc.png" id="id1169169991657__onlineimage" height="46" width="101"/>
+      </media>
+    </figure>
+    <para id="id1169166300803">This can be rewritten as:</para>
+    <figure id="id1169177437623">
+      <media id="id1169177437623_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-ed33.png" id="id1169177437623__onlineimage" height="45" width="148"/>
+      </media>
+    </figure>
+    <para id="id1169156992296">In Logic Gates :<figure id="id1169155519807"><media id="id1169155519807_media" alt=""><image mime-type="image/png" src="../../media/graphics4-3783.png" id="id1169155519807__onlineimage" height="24" width="133"/></media></figure></para>
+    <para id="id1169163296640">
+      <figure id="id1169156996866">
+        <media id="id1169156996866_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-2907.png" id="id1169156996866__onlineimage" height="447" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169155027094"> Therefore <figure id="id1169156504108"><media id="id1169156504108_media" alt=""><image mime-type="image/png" src="../../media/graphics5-3815.png" id="id1169156504108__onlineimage" height="45" width="335"/></media></figure></para>
+    <para id="id1169161793115">This clearly shows the delay dependence on transconductance. BJT has a much larger transconductance and therefore delay will be minimized using BICMOS.</para>
+    <para id="id1169156502078">So finally the total delay factors in BICMOS are:</para>
+    <para id="id1169167660153">Minority carrier storage delay (t1)+</para>
+    <para id="id1169181447661">Charging delay or pull up delay+</para>
+    <para id="id1169155026050">Discharging delay or pull down delay.</para>
+    <para id="id1169169524602">In Figure 7.6.7.3 we make a comparative study of the delays in BiCMOS and CMOS inverters.</para>
+    <para id="id1169164129117">Total delay of BiCMOS is given by the following expression:</para>
+    <figure id="id1169159876702">
+      <media id="id1169159876702_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-338c.png" id="id1169159876702__onlineimage" height="47" width="168"/>
+      </media>
+    </figure>
+    <para id="id1169182256098">Where T = total delay; T<sub>in</sub> = time to charge BE Junction capacitance; hfe= short circuit current gain.</para>
+    <para id="id1169175586051">
+      <figure id="id1169155119857">
+        <media id="id1169155119857_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-bd1b.png" id="id1169155119857__onlineimage" height="541" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169170957887">In Figure 7.6.7.3 we give two graphs. Upper Graph is the delay performance of BiCMOS and CMOS gates with respect to load capacitance. Lower Graph is the delay performance of BiCMOS with respect to collector resistance R<sub>C</sub> for two different values of C<sub>L</sub>.</para>
+    <para id="id1169175219890">From the upper graph it is evident that after a critical value of C<sub>L</sub>, BiCMOS switching is much faster than CMOS and it gives increasingly better performance as C<sub>L</sub> increases .</para>
+    <para id="id1169166279129">The lower graph shows the necessity of keeping collector resistance low so that the pull-up of capacitive load is rapid. This also is the reason why buried sub-collector layer is included in the BJT structure.</para>
+    <para id="id1169180974846">Because BiCMOS can achieve high grade BJT with high gm, high short circuit current gain and low bulk collector resistance hence BJT is included in CMOS fabrication without compromising or overelaborating the basic CMOS process.</para>
+  </content>
+</document>

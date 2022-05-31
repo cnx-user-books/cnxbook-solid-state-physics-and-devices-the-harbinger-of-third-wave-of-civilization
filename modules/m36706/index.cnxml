@@ -1,0 +1,159 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 6. IC Fabrication Technology from 60s to date_Part 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36706</md:content-id>
+  <md:title>Chapter 6. IC Fabrication Technology from 60s to date_Part 2</md:title>
+  <md:abstract>Part 2 of Chapter 6 describes the fabrication technology of vertical NPN,IC diode, IC resistance, IC capacitance, Lateral PNP, breakdown voltages of NPN and PNP transistors and what are the layout considerations in IC fabrication.</md:abstract>
+  <md:uuid>5927673c-318e-4bd3-99bf-1a798a917977</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166913004432">Chapter 6_IC Fabrication Technology from 1960 todate_Part 2</para>
+    <para id="id1166923555791">6.5 Vertical NPN Transistor realization in IC Technolgy</para>
+    <para id="id1166911700268">
+      <figure id="id1166931675750">
+        <media id="id1166931675750_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-98d7.png" id="id1166931675750__onlineimage" height="563" width="694"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166917237074">
+      <emphasis effect="bold">Figure 6.20 Stripe Geometry Vertical NPN Transistor in IC chip.</emphasis>
+    </para>
+    <para id="id1166911971983"/>
+    <para id="id1166930162223">
+      <emphasis effect="bold">Section 6.6 Diode realization in IC Technology</emphasis>
+    </para>
+    <para id="id1166912133222">Diode realization: A ‘n - p – n’ transistor is essentially a back to back diode. Hence any of the two junction diodes or both may be used for diode application. Therefore there are five possible combinations of e, b, c terminals by which diode can be achieved. But out of this c, b terminals shorted and used as anode whereas emitter terminal used as cathode gives a diode which has optimum performance parameters. The configuration is given in Fig.(6.21).</para>
+    <para id="id8782269">
+      <figure id="id3270089">
+        <media id="id3270089_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-5956.png" id="id3270089__onlineimage" height="465" width="617"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166919216616">c-b shorted diode configuration of transistor has minimum storage delay or recovery delay time t<sub>d</sub>.</para>
+    <para id="id1166917558273">(t<sub>d </sub>= delay involved in switching a diode from ON to OFF conditions). t<sub>d</sub> is typically 9nsec. This diode is still a transistor in active region, since c-b is shorted hence it is still reverse biased. Diode isolation island is also provided with a buried layer so as to reduce series collector resistances. This enables the diode to give least forward bias voltage. Also this has the least leakage current flowing under reverse bias condition since the leakage current of E-B junction only comes into picture (E-B junction has smaller cross sectional area and has least depletion width and leakage current I<sub>O</sub> in reverse bias condition is predominantly the generation current in depletion width namely I<sub>g </sub>= q g X<sub>m</sub> A</para>
+    <para id="id1166921793953">g = generation rate, </para>
+    <para id="id1166912977211">X<sub>m</sub>= depletion width at the given reverse voltage,</para>
+    <para id="id1166926319119">A= cross sectional area of the junction.</para>
+    <para id="id1166913031097">
+      <emphasis effect="bold">Section 6.7 Resistance realization in I.C. Technology:</emphasis>
+    </para>
+    <para id="id1166910258053">p type diffusion for base gives a sheet resistance R<sub>sh</sub>= 200 ohms per square. By taking long strip like configuration of base diffusion, various resistances are realized. In Fig. (6.22) the resistance is given. </para>
+    <figure id="id1166917110124">
+      <media id="id1166917110124_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-7bf8.png" id="id1166917110124__onlineimage" height="300" width="474"/>
+      </media>
+    </figure>
+    <figure id="id2210684">
+      <media id="id2210684_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-e8aa.png" id="id2210684__onlineimage" height="457" width="528"/>
+      </media>
+    </figure>
+    <para id="id8117502"/>
+    <para id="id1928477"><emphasis effect="bold">Section 6.8 Capacitor realization in IC Technology</emphasis>:</para>
+    <para id="id1166910439331">In uA 741 the frequency compensating capacitor C<sub>f</sub> = 30 pF is monolithically implemented. For I.C. realization of C<sub>f</sub> , silicon dioxide is used as the dielectric sandwiched between metallic Al layer and n+ degenerate layer. The n+ region is deposited during emitter diffusion step. The cross sectional view of the capacitor is given in Fig. (6.23) </para>
+    <figure id="id1166912780074">
+      <media id="id1166912780074_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-1e84.png" id="id1166912780074__onlineimage" height="341" width="653"/>
+      </media>
+    </figure>
+    <para id="id1166914058027">“Introduction to Integrated circuits “ by Grinich and Jackson, the photomicrograph of uA 741 is given. As can be seen from the photomicrograph, 30 pF capacitor takes a significant chip area. Therefore it is neither economical nor practical to integrate circuits using capacitances.</para>
+    <para id="id1166914553326"/>
+    <para id="id1166931629834">
+      <emphasis effect="bold">Section 6.9 p-n-p transistor realization:</emphasis>
+    </para>
+    <para id="id1166939074883">Here the n epilayer is used as the base and p diffusion for forming the base of n-p-n transistor is used for forming the collector and emitter of p-n-p transistor. The cross-sectional view of p-n-p transistor which is also known as lateral transistor is shown in Fig. (6.24). This is known as lateral transistor as the minority carriers flow laterally.</para>
+    <para id="id1166936062568">
+      <figure id="id1166911655622">
+        <media id="id1166911655622_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 17-c6ba.png" id="id1166911655622__onlineimage" height="500" width="603"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166910271289">As is evident from Fig. (6.24) W, the base width, is limited by the resolution of the photolithographic technique which is 10um in 1960s. Also punch through has to be avoided. (Punch through occurs when C-B depletion region overlaps E-B depletion region; at this point excessive current flows and transistor action is lost ). Therefore in lateral transistors W is 5 to 10um. This large W causes a drastic deterioration of short circuit current (β<sub>fo</sub>) and transit frequency (ω<sub>T</sub>)</para>
+    <para id="id1166914767198">From our device physics we know that Transit Time = τ<sub>transit </sub>= W<sup>2</sup>/(2D<sub>B</sub>) and β<sub>fo </sub>= (τ<sub>recombination</sub>/ τ<sub>transit</sub>)</para>
+    <para id="id1166917051049">Also since P doping of emitter (10<sup>17</sup>/cc) and collector (10<sup>17</sup>/cc) is heavier than N doping(10<sup>16</sup>/cc) of the epilayer which is base here, the depletion width extends into base region predominantly. This causes δW/δV<sub>CB </sub>to be significant which leads to significant Early Effect hence h<sub>ob</sub> and h<sub>oe </sub>(or g<sub>c</sub> and g<sub>o</sub>) are large (the slope of I-V characteristics is large) But here BV<sub>EBO </sub>= BV<sub>CBO</sub> high is quite high. </para>
+    <para id="id1166914661228">Because of poor performance parameters of lateral transistors, the latter are fully avoided for high frequency applications. But in low frequency applications (typically below 1 MHz ) a mix of n-p-n and lateral p-n-p can give very favorable performance characteristics. Therefore such a mix is used in uA 741. </para>
+    <para id="id1166914691778">
+      <emphasis effect="bold">Section 6.10 Breakdown voltages of n-p-n transistor in MC1530 </emphasis>
+    </para>
+    <para id="id1166914890573">Referring to the doping profile of n-p-n transistor in Fig. (6.17) it is seen that </para>
+    <para id="id3265802">background doping of the epi-layer is N<sub>BC</sub> = 1.2 × 10<sup>16</sup> (cm<sup>-3</sup>) </para>
+    <para id="id1166935849175">and N’<sub>B</sub> = 1.8 × 10<sup>17</sup> (cm<sup>-3</sup>), emitter doping is N<sub>E</sub>=1.0 X 10<sup>20</sup> (cm<sup>-3</sup>) and W = 0.7 um.</para>
+    <para id="id1166929667795">Therefore </para>
+    <para id="id1166915632583">  BV<sub>CBO </sub>(determined by N<sub>BC</sub>) = 55V.</para>
+    <para id="id1166910447396">  BV<sub>EBO</sub>(determined by N<sub>B</sub>’) = 7V.</para>
+    <para id="id1166912423638">  BV<sub>CEO</sub> = BV<sub>CBO</sub>/ (β<sub>o</sub>)<sup>1/MillerIndex </sup>= 23V</para>
+    <para id="id1166931906258"><emphasis effect="underline">[Substrate pnp transistor</emphasis>:- Here p substrate is used as collector and n epilayer is used as base and p layer, for the base diffusion in npn transistor, is used as emitter. Since here W depends upon diffusion depths therefore much better performance parameter as compared to lateral pnp can be achieved. But substrate pnp can be used only in CC configuration.]</para>
+    <para id="id1166923300610">Doping profile of pnp transistor is given in Fig. (6.25)</para>
+    <figure id="id1166934265397">
+      <media id="id1166934265397_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 18-fe80.png" id="id1166934265397__onlineimage" height="380" width="653"/>
+      </media>
+    </figure>
+    <para id="id1166911915056">As is evident from Fig. (6.25)</para>
+    <para id="id1166918048643">N<sub>B</sub>’ = N<sub>BC</sub></para>
+    <para id="id1166909773978">Therefore BV<sub>CBO</sub> = BV<sub>EBO</sub> = 55v.</para>
+    <para id="id1166912160311">Therefore if lateral pnp transistor is used in the input circuit of Op-Amp (as it is done in uA741 ) a much larger V<sub>id</sub> (differential mode signal ) can be handled by the Op-Amp.</para>
+    <para id="id1166941143585">
+      <emphasis effect="bold">Section 6.11 Design Considerations in the circuit layout of MC1530/31.</emphasis>
+    </para>
+    <para id="id1166912340658"> We have already seen the fabrication steps involved in the manufacture of MC 1530 or MC 1531. Now we will examine the design considerations involved in the circuit layout of MC -1530 on the silicon chip. MC-1530 and MC-1531 are identical circuits except for the input differential stage. MC-1530 is a direct input to a differential stage with R<sub>id</sub> = 10K whereas MC-1531 is a darlington pair input to the differential stage with R<sub>id</sub> = 1M.</para>
+    <para id="id1166935367844">We have already seen that N epi layer of the isolated island forms the collector of the transistor or the anode of the diode. ( We have shown in Sec. 6.5 that transistor is used in diode configuration by shorting collector to base). Therefore N epi layer of any isolated island will always be at some positive potential as dictated by d.c. quiescent condition of the circuit. These positive potentials set the proper operating condition of the circuit as well as they help isolate the components from the substrate and from one another. </para>
+    <para id="id1166914713045">Refering to the circuit in Fig. (6.26) we see that there are eight different collector voltages and four different Diode anode voltages: </para>
+    <para id="id1166929491211">1) input darlington pair Q<sub>1</sub> and Q<sub>2</sub> correspond to one collector voltage, </para>
+    <para id="id1166914759829">2) input darlington pair Q<sub>4</sub> and Q<sub>5</sub> correspond to second collector voltage, </para>
+    <para id="id6180594">3) Q<sub>6</sub>, Q<sub>8</sub> and Q<sub>12</sub> correspond to the third voltage namely Vcc collector voltage since they are in CC (Common Collector) mode, </para>
+    <para id="id5937531">4) Q<sub>3</sub>, Q<sub>7</sub>, Q<sub>10</sub>, Q<sub>11</sub>, Q<sub>13</sub> correspond to fourth, fifth, sixth, seventh, and eighth collector voltages; </para>
+    <para id="id1166920235283">5) there are four different diode anode voltages corresponding to D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub>, D<sub>4</sub>. </para>
+    <para id="id3290926">Corresponding to these twelve different quiescent voltages which are Vcc or less but always greater than -V<sub>EE</sub>, we have twelve isolated islands as seen in Fig. (6.27) where each isolated island is marked by thick border lines.</para>
+    <para id="id1166928800252">The isolated islands containing Q<sub>6</sub>, Q<sub>8</sub> and Q<sub>12</sub> and connected to Vcc contains all resistances R<sub>1</sub> to R<sub>11 </sub>and R<sub>X </sub>and R<sub>Y</sub>. Resistances are realized by an elongated strip of p diffusion and any point on the resistances is less than Vcc or at most Vcc. In order that resistances may be isolated from n epi layer and hence from one another, n epi layer i.e. the isolated island must be at most positive potential i.e. Vcc. Then only all resistances will be reverse biased with respect to the n epi layer.</para>
+    <para id="id1166917241888">
+      <figure id="id2392244">
+        <media id="id2392244_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 19-fe72.png" id="id2392244__onlineimage" height="485" width="645"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166912342456">
+      <figure id="id1166912919353">
+        <media id="id1166912919353_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 20-261e.png" id="id1166912919353__onlineimage" height="473" width="520"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166928400944">
+      <emphasis effect="bold">Fig(6.26) Complete circuit diagram of MC 1530/31 chip, with the points of different contact pads marked</emphasis>
+      <figure id="id1166922348403">
+        <media id="id1166922348403_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 21-348a.png" id="id1166922348403__onlineimage" height="504" width="726"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166912306283">
+      <emphasis effect="bold">Fig(6.27) Twelve isolated islands and placement of transistors, diodes and resistors on the islands have been indicated. The detailed structure of the devices have not been given. </emphasis>
+    </para>
+    <para id="id1166920994896">In Fig. (6.27) complete layout of MC-1530 is given. In the chip layout following are the contacts connected to the header leads:</para>
+    <para id="id1166914161760">Contact(a) connects substrate to contact(4) which is held at -V<sub>EE</sub>.______________________Contact(b) connects the isolated island containing resistances and CC transistors to contact(6) which is held at +Vcc._________________________________________________________________________________________________________Contact(1’) and (2’) are input connections for MC-1530, ___________________________________________Contact(1) and (2) are input connections for MC-1531__________________________________________________________Contact(5) is output,_________________________________________________________________________________________Contact(3) is ground,_________________________________________________________________________________________Contact(7) , (8), (9)and (10) are monitoring points at V<sub>B11</sub>, V<sub>E8</sub>, V<sub>C5</sub>, V<sub>C1</sub> respectively.</para>
+    <para id="id1166925570482">In MC 1530-31, each transistor and diode configuration of transistor contains buried layers. The epilayer is 0.5 Ω cm. This allows BV<sub>CEO</sub> to be 20V. But because of buried layer the collector series resistance (r<sub>sc</sub>) or saturation resistance are less than 50Ω. Hence with V<sub>CC </sub>± 9V, an output swing of 16V<sub>p-p</sub> is achieved without endangering the output transistors Q<sub>13</sub>, Q<sub>12</sub> and at the same time r<sub>sc </sub>does not affect the ability to drive loads down to 500Ω.</para>
+    <para id="id1166910443014">In the design of MC1530-31, the critical d.c. levels are kept a function of resistor ratios and not of absolute values. This is because in I.C. technology, diffused resistance ratios with much closer tolerance (typically 5 to 6 %) can be achieved as compared to the tolerance of absolute values (30 to 50 %). That is matching tolerance is much narrower than absolute tolerance. Therefore output d.c. level (V<sub>0</sub>) is a function of only resistor ratios – not of the absolute value of any resistor or of the beta of any device of the circuit. V<sub>o </sub>is given by Eq.(6.5)</para>
+    <para id="id1166912497919"><figure id="id1166912923007"><media id="id1166912923007_media" alt=""><image mime-type="image/png" src="../../media/graphics1-64b5.png" id="id1166912923007__onlineimage" height="34" width="497"/></media></figure><emphasis effect="italics"/>= 0V --------------------------(6.5)</para>
+    <para id="id1166938051022">Since the resistors are more or less temperature tracked therefore ratios remain temperature independent. Hence output voltage V<sub>o</sub> does not vary with temperature. Only mismatch in the input circuit (with respect to beta, V<sub>BE</sub>, I<sub>CO</sub> ) causes a finite V<sub>o</sub>(i.e. offset voltage), and with temperature variation this mismatch gates magnified and causes a drift of V<sub>0</sub></para>
+    <para id="id2270834">In Fig 6.26 it is seen that output transistor Q<sub>12</sub> and Q<sub>13</sub> have three times cross-sectional area as that of the emitter base junction of D4. Hence output transistors carry 3 times as much current as D4. From dc bias condition, </para>
+    <para id="id1166912498996">I<sub>Q12 </sub>= I<sub>Q13 </sub>= 3(I<sub>D4</sub>) = 308mA;</para>
+    <para id="id1166918492381">Because of this enhanced signal handling capacity MC1530 will drive load resistors as low as 1k to a maximum p-p swing of 11 volts with Vcc = ±6 volts. Also because of high quiescent current in output stage maximum power is dissipated in Q12, Q13. Most of the dissipated energy is sunk by the header but not without heating the chip. Hence during the operation invariably a temperature gradient and a set of isothermals are set up on the chip as shown in Fig (6.28).</para>
+    <para id="id1166912786206">
+      <figure id="id1166911693848">
+        <media id="id1166911693848_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 22-3b0b.png" id="id1166911693848__onlineimage" height="436" width="530"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166925738650">As can be seen in Fig.(6.28) input pairs Q<sub>2</sub> and Q<sub>4</sub>, Q<sub>1</sub> and Q<sub>5</sub> are kept on the least isothermal, farthest away from the output transistors, and in close vicinity to each other. The result is that there is least heating of the input pairs because of high output power dissipation, maximum temperature tracking of the input pairs and diffusion profiles of the input pairs very closely match to one another. Because of close proximity and the resultant diffusion profile matching, V<sub>BE</sub> and betas of the input pairs of transistors very closely match hence very low input offset voltages and currents are caused typically V<sub>os</sub>=2mV. Because of excellent temperature tracking of the input pairs, the long term drift of temperature appears mainly as common mode signal thereby minimizing the long term drift of V<sub>os</sub> to 3.8µV/<sup>o</sup>C. Both these parameters V<sub>os</sub> and low drift are indicative of proper layout of the devices on the chip.</para>
+    <para id="id1166934461620"> As can be seen in Fig.(6.27) D<sub>1, </sub>D<sub>2 </sub>are in close proximity to Q<sub>3</sub> and the three are more or less on the same isothermal, D<sub>3</sub> is in close proximity to Q<sub>10 </sub>as well as the two are on same isothermal, and D<sub>4</sub> is in close proximity to Q<sub>13</sub>. Each of these are bias current sources. Because of matching of the characteristics and because of temperature tracking of the devices in the current sources, each current source is the current mirror of the reference current. And because of the use of diode configuration of the transistor which results in heavy voltage shunt feedback the reference current are highly stabilised against temperature changes. This is also known as diode compensation. Hence almost drift free near ideal current sources are achieved. Because of the stability the bias sources, the ac performance of this chip is highly stabilised. The open loop gain A<sub>d </sub>= 72dB ± 1.5dB from T = -55<sup>o</sup>C to T= +125<sup>o</sup>C.</para>
+    <para id="id1166934759292"> The monolithic IC chip MC 1530-31 is mounted on 10 pins TO-5 packages. Two battery biases V<sub>cc</sub>,</para>
+    <para id="id1166918593519">-V<sub>EE</sub>, output and ground leads require four pins, two pins are used for inputs and four pins are for internal connections. </para>
+  </content>
+</document>

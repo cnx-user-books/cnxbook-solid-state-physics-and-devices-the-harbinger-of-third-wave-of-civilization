@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter2.2.Semiconductor Physics with emphasis on Silicon</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47250</md:content-id>
+  <md:title>SSPD_Chapter2.2.Semiconductor Physics with emphasis on Silicon</md:title>
+  <md:abstract>SSPD_Chapter2.2 briefly describes intrinsic and extrinsic semiconductor and the behaviour of conducting electron and hole in semi-conductor with special reference to Silicon.</md:abstract>
+  <md:uuid>4ba885fa-8556-46b1-a730-31f930734645</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1171545671665">
+      <emphasis effect="bold">SSPD_2.2.Semiconductor Physics with emphasis on Silicon. </emphasis>
+    </para>
+    <para id="import-auto-id6116319">In Solid-State of Matter we have Insulators, Semiconductors and Metal. By definition Insulator is a bad conductor of electricity whereas Metal is a good conductor of electricity. Semi-conductor is intermediate conductor of electricity at Room Temperature 300K. Below 77K semi-conductor freezes out and becomes insulator. Therefore below 77K, Semi-conductor Devices stop working. This is a bad feature and a severe drawback. Such a freeze out does not occur in Graphene Devices.</para>
+    <figure id="import-auto-id4069822">
+      <media id="import-auto-id1560313" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-9bce.png" height="318" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171547369623">E<sub>C </sub>= lower edge of the Conduction Band.</para>
+    <para id="import-auto-id7658335">E<sub>V </sub>= Upper  edge of the Valence Band.</para>
+    <para id="import-auto-id7927748">Valence Band is completely filled up. Conduction band is completely empty at 0K in both Semi-conductor and Insulator. Conduction Band in Insulator remains empty within the permissible range of temperature.[Permissible range of temperature is 0K to melting point of the temperature]. But in Semi-conductor, above liquid Nitrogen Temperature (77K),the thermal agitation manages to break a few co-valent bonds and Electron-Hole Pair (EHP) are produced which give a small conductivity to semi-conductor. As temperature rises EHP rises exponentially given by the following relationship:</para>
+    <figure id="import-auto-id1171545751076">
+      <media id="import-auto-id1171541600518" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-ca41.png" height="75" width="231"/>
+      </media>
+    </figure>
+    <para id="import-auto-id7707259">N<sub>C</sub> (=Effective Density of states at lower edge of the Conduction Band) ~ N<sub>V</sub>(=Effective Density of states at upper edge of the Valence Band) = 10<sup>19</sup> electrons or holes per c.c.</para>
+    <para id="import-auto-id1171546462468">Therefore :</para>
+    <para id="import-auto-id1171545698897">Intrinsic Concentration in Silicon (Band-Gap=1.12eV) = n<sub>i</sub>= p<sub>i</sub>(at 300K) = 10<sup>10</sup>/cc.</para>
+    <para id="import-auto-id1171546312290">Intrinsic Concentration in Germanium(Band-Gap=0.67eV) = n<sub>i</sub>= p<sub>i</sub>(at 300K) = 10<sup>13</sup>/cc.</para>
+    <para id="import-auto-id1171545576291">Intrinsic Concentration in GaAs (Band-Gap =1.4 eV) = n<sub>i</sub>= p<sub>i</sub>(at 300K) = 10<sup>6</sup>/cc.</para>
+    <para id="import-auto-id4832210">In Figure 2.2.1. the comparative study of Semi-conductor, Metal and Insulator based on energy band-diagram is given. The Fermi-level<sub/> (E<sub>F</sub> ) lies in the middle of the band-gap of both Semi-conductor and Insulator. In Metal the Fermi-level lies within the Conduction Band.</para>
+    <para id="import-auto-id1171541661397">In order to fully appreciate the thermal generation of EHP we must briefly talk about Fermi-Dirac Distribution or Fermi-Dirac Staistics.</para>
+    <para id="import-auto-id1171545988700">In this Universe electrons, protons and neutrons are real particles, have half integer spin angular momentum (±1/2ħ,±3/2ħ…), occupy space and follow Fermi-Dirac Statistics.These are Fermions.</para>
+    <para id="import-auto-id1171547259633">Photons, Phonons, Mesons, Gluons are quasi-particles, relativistic in nature, have integer spin angular momentum(0ħ,±1ħ,±2ħ…..) and a large number of Photons can pile up in a small volume.It follows Bose-Einstein Statistics.These are Bosons.</para>
+    <para id="import-auto-id8031571">Here we will dwell upon Fermi-Dirac Distribution of Fermions.</para>
+    <figure id="import-auto-id1171546275811">
+      <media id="import-auto-id1171546874784" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-e669.png" height="383" width="541"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171546279977">Mathematical formulation of Fermi-Dirac Distribution is the following:</para>
+    <figure id="import-auto-id1171545715155">
+      <media id="import-auto-id1171545576812" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-8344.png" height="48" width="223"/>
+      </media>
+    </figure>
+    <para id="import-auto-id7360156">Here P(E)= probability of occupancy of Energy Level E(eV).</para>
+    <para id="import-auto-id1171546069866">T=temperature of the specimen in Kelvin and k= Boltzmann Constant.</para>
+    <para id="import-auto-id1171546293458">E<sub>F</sub> = Fermi-Energy Level. At this energy level, P(E)  is ½ at a finite temperature.</para>
+    <para id="import-auto-id1171544831840">At 0K (as is evident from Figure 2.2.3), the distribution is rectangular. What this means is that at 0K, all anergy levels upto Fermi-Energy Level is completely occupied where permissible and rest are completely empty.</para>
+    <para id="import-auto-id1171545349557">As temperature is raised to 77K, distribution gets skewed. As temperature increases to 300K(Room Temperature)the distribution gets still more skewed as shown in Figure 2.2.2.</para>
+    <para id="import-auto-id6104418">This is precisely why in Figure 2.2.1, the Fermi-Dirac Distribution is responsible  for a low level of EHP generation by thermal energy in pure Semiconductor at Room temperature. As calculated from Equation 2.2.2, at Room Temperature GaAs,Si and Ge have equal concentrations of electron and holes equal to 10<sup>6</sup>, 10<sup>10</sup> and 10<sup>13</sup> per cc. GaAs has the least concentration because it has the largest band-gap of 1.4eV. Hence GaAs behaves as semi-insulator. Whereas Ge has the largest concentration of electron and holes because it has the narrowest band-gap of 0.67eV.</para>
+    <para id="import-auto-id1171542838365">Pure semiconductor is known as Intrinsic Semi-conductor and concentration of electron= concentration of hole = intrinsic concentration n<sub>i</sub>.</para>
+    <para id="import-auto-id8837991">In Figure 2.2.1, we also notice that Insulator typically has a band-gap greater than 4eV hence within the permissible temperature range Fermi-Dirac Distribution never becomes skewed enough so as to cause EHP generation by thermal agitation. Hence Insulator remains a bad conductor at all temperatures within the permissible range.</para>
+    <para id="import-auto-id1171545715743">For Metal, high enough temperature (1000K) does cause thermal-ionic emission of electrons in case of metallic cathode with 1eV Work-Function as shown in Figure 2.2.1. Therefore Cathode material in Vacuum Tubes is always Sr-Ba-CuO(Strontium-Barium Copper Oxide).</para>
+  </content>
+</document>

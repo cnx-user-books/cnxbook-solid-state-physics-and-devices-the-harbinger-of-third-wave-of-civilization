@@ -1,0 +1,190 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chapter 4_Section 4.3. Design Rules for fabricating BJT.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47847</md:content-id>
+  <md:title>Chapter 4_Section 4.3. Design Rules for fabricating BJT.</md:title>
+  <md:abstract>Section 4.3 gives the design rules for fabricating BJT of a given Beta and Transit Frequency.</md:abstract>
+  <md:uuid>5a3e0720-150b-4afa-8e68-16eedd3b8e9b</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1171235102362">
+      <emphasis effect="bold">Section 4.3. Design Rules for fabricating BJT.</emphasis>
+    </para>
+    <figure id="import-auto-id1171234791944">
+      <media id="import-auto-id1171213577873" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-4e99.png" height="487" width="587"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171213564069">In Figure 4.3.1. the carrier concentration profile of Forward Active Mode BJT is revisited. Because of Forward Bias at EB Junction, electrons are injected from E to B and holes are injected from B to E.</para>
+    <para id="import-auto-id1171213579653">In micro scale devices: base current had two parts= I<sub>B1</sub> + I<sub>BB</sub>. </para>
+    <figure id="import-auto-id1171235086986">
+      <media id="import-auto-id1171213546823" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-9a05.png" height="66" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235670016">Therefore :</para>
+    <para id="import-auto-id1171234435098">
+      <figure id="import-auto-id1171213542902">
+        <media id="import-auto-id1171235840209" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-6d4c.png" height="22" width="36"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1171235065275">
+        <media id="import-auto-id1171235792181" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-7115.png" height="37" width="577"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1171213546176">In nano- scale devices, I<sub>BB</sub> (the recombination current in Base) is negligible because of 10nm narrow Base. Hence the base current I<sub>B</sub> = Diffusion Current in Emitter = I<sub>Ep</sub>.</para>
+    <para id="import-auto-id1171235091759">Therefore:</para>
+    <figure id="import-auto-id1171247289712">
+      <media id="import-auto-id1171234537232" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-9df2.png" height="45" width="573"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171234888746">Let us define a quantity Gummel Number: </para>
+    <figure id="import-auto-id1171213562129">
+      <media id="import-auto-id1171235041331" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-9cf5.png" height="47" width="608"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171213649527">This is known as Emitter Gummel Number and it has the unusual dimension of sec/cm<sup>4</sup>. </para>
+    <para id="import-auto-id1171218681736">At low level injection n<sub>n</sub>(z)= N<sub>DE</sub> in Emitter. Let n<sub>i</sub><sup>2</sup>= n<sub>iE</sub><sup>2</sup>  and let D<sub>pE</sub> be constant throughout the Emitter Bulk then:</para>
+    <figure id="import-auto-id1171213600380">
+      <media id="import-auto-id1171213571623" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-078a.png" height="91" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171213548903">Eq.4.3.5. simplifies the Base Current Model and it contains all the subtleties of transistor design that affect I<sub>B</sub> : </para>
+    <list id="import-auto-id1171213574366" list-type="enumerated" number-style="arabic" mark-prefix="(">
+      <item>if we change the emitter material and its band gap, it is accounted for by n<sub>iE</sub><sup>2</sup>; </item>
+      <item>If we have non-constant D<sub>pE</sub> then it will be included in the Integral;</item>
+      <item>If the majority carrier is not constant it will be accounted by taking non-uniform emitter dopent namely N<sub>DE</sub>(z);</item>
+      <item>Even high level injection will be take care of by taking the high injection effect into Emitter Gummel Number.</item>
+    </list>
+    <para id="import-auto-id1171235053023">By substituting Eq.4.3.5 in Eq.4.3.3. we get:</para>
+    <figure id="import-auto-id1171234394432">
+      <media id="import-auto-id1171213571086" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-97fe.png" height="45" width="583"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171213582974">In exactly the same manner, collector current I<sub>C</sub> can be determined.</para>
+    <para id="import-auto-id1171213549893">
+      <figure id="import-auto-id1171235557960">
+        <media id="import-auto-id1171234799912" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-e8e0.png" height="22" width="30"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1171235666772">
+        <media id="import-auto-id1171234812130" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-cd3b.png" height="36" width="572"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1171213542222">Defining Base Gummel Number as follows:</para>
+    <figure id="import-auto-id1171234256280">
+      <media id="import-auto-id1171234305084" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-c17b.png" height="46" width="555"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235725978">Taking the special case of low level injection p<sub>p</sub>(z)= N<sub>AB</sub> in Emitter , n<sub>i</sub><sup>2</sup>= n<sub>iB</sub><sup>2</sup>  and  D<sub>nB</sub> be constant throughout the Emitter Bulk we get:</para>
+    <figure id="import-auto-id1171213591501">
+      <media id="import-auto-id1171234844387" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-2c58.png" height="110" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235884336">Therefore</para>
+    <figure id="import-auto-id1171218679276">
+      <media id="import-auto-id1171234803185" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-35c2.png" height="45" width="592"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171218654124"><emphasis effect="bold">Section 4.3.1. DC Current Gain of CE BJT</emphasis>.</para>
+    <para id="import-auto-id1171213552294">Short Circuit CE BJT Current Gain = I<sub>C</sub> / I<sub>B</sub> = β<sub>F</sub> ________________________________4.3.11.</para>
+    <para id="import-auto-id1171234813937">Using Eq.4.3.10 and Eq.4.3.6. we get :</para>
+    <para id="import-auto-id1171235480727">Short Circuit CE BJT Current Gain= β<sub>F</sub> = G<sub>E</sub>/G<sub>B</sub></para>
+    <para id="import-auto-id1171218680056">Therefore</para>
+    <figure id="import-auto-id1171234389810">
+      <media id="import-auto-id1171213564263" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-6ccf.png" height="64" width="590"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171234781718">From Eq.4.3.12.in order to obtain large β<sub>F</sub> = 100, we must have high Emitter Doping and light Base Doping but light Base Doping will lead to large Base Spreading Resistance r<sub>x</sub> which leads to deleterious effect on high current and at high frequency operation. So we strike a balance by keeping Emitter doping at 10<sup>20</sup>/cc and Base Doping at 10<sup>18</sup>/cc .</para>
+    <para id="import-auto-id1171234836528">To obtain high Emitter  Injection Efficiency γ we must examine the expression γ.</para>
+    <para id="import-auto-id1171234330369">Injection Efficiency had been defined as:</para>
+    <figure id="import-auto-id1171218681341">
+      <media id="import-auto-id1171235867308" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-2372.png" height="58" width="573"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235562318">If  β<sub>F</sub> = 100 then α<sub>F</sub> = 0.99.</para>
+    <para id="import-auto-id1171213597148">Since α<sub>F</sub> = I<sub>C</sub>/I<sub>E</sub> = β<sub>F</sub> / (1+ β<sub>F</sub> ) and  β<sub>F</sub> = α<sub>F</sub> /(1- α<sub>F</sub> )</para>
+    <para id="import-auto-id1171235667181">Injection Efficiency = γ = 1/(1+1/ β<sub>F</sub> ) = α<sub>F</sub> ;</para>
+    <para id="import-auto-id1171213557833">
+      <emphasis effect="bold">Section 4.3.2. Emitter Band Gap Narrowing.</emphasis>
+    </para>
+    <para id="import-auto-id1171234916492"> Because of heavy doping effect there is a Band Gap Narrowing by ∆V. This results in a reduction of Short Circuit CE BJT Current Gain.</para>
+    <para id="import-auto-id1171234535590">We know that :</para>
+    <figure id="import-auto-id1171219083186">
+      <media id="import-auto-id1171235493556" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-3598.png" height="40" width="519"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235558631">If there is Band Gap narrowing by ∆V then Eq.4.3.14 gets modified to:</para>
+    <figure id="import-auto-id1171235583820">
+      <media id="import-auto-id1171234818787" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-032e.png" height="40" width="523"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235681848">Dividing Eq.4.3.15 by Eq.4.3.14 we get :</para>
+    <figure id="import-auto-id1171234977124">
+      <media id="import-auto-id1171235710314" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-31ac.png" height="39" width="522"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235105592">Substituting Eq.4.3.16 in Eq.4.3.12 we get:</para>
+    <figure id="import-auto-id1171235533035">
+      <media id="import-auto-id1171213577302" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-2f06.png" height="58" width="536"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171234901187">Typically ∆E = 0, 50meV, 95meV at less than 10<sup>18</sup>/cc , 10<sup>19</sup>/cc , 10<sup>20</sup>/cc , respectively. </para>
+    <para id="import-auto-id1171235589048">Thermal energy is 25meV. Therefore at 10<sup>19</sup>/cc , 10<sup>20</sup>/cc , β<sub>F</sub>  will fall by 1/7.39 and 1/36.6 respectively.</para>
+    <para id="import-auto-id1171235799476">
+      <emphasis effect="bold">Section 4.3.3. Base Transit time and Charge Storage in Base.</emphasis>
+    </para>
+    <para id="import-auto-id1171213552755">Referring to Figure 4.3.1. the charge stored in the Base:</para>
+    <figure id="import-auto-id1171234918289">
+      <media id="import-auto-id1171234827691" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-5722.png" height="39" width="524"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235637939">And Collector Current is:</para>
+    <figure id="import-auto-id1171235476546">
+      <media id="import-auto-id1171213592797" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-86a7.png" height="39" width="539"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171234845246">We define  Q<sub>FB</sub>/I<sub>C</sub> = Forward Transit Time = τ<sub>FB</sub> .</para>
+    <para id="import-auto-id1171234973363">Dividing Eq.4.3.18 by Eq.4.3.19 we get:</para>
+    <figure id="import-auto-id1171213544740">
+      <media id="import-auto-id1171235640761" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-75a4.png" height="45" width="525"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1171235831357">We purposely make Base doping density linearly graded. This gives rise a built-in electric field which opposes Majority Carriers but support the diffusion of Minority Carriers from higher to lighter density. This electric field shortens the Transit Time in forward direction. Hence :</para>
+    <para id="import-auto-id1171235483283">
+      <figure id="import-auto-id1171234382403">
+        <media id="import-auto-id1171235735263" alt="">
+          <image mime-type="image/png" src="../../media/graphics22-68d5.png" height="45" width="529"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1171234317480">Therefore we get a better  performance than expected. Therefore linearly graded base Transistors are referred to as Drift Transistor.</para>
+    <para id="import-auto-id1171235557135">Typically Effective Base Width is 70nm and D<sub>nB</sub> = 10 cm<sup>2</sup>/s. This gives a transit time by Eq.4.3.20 as 2.5ps.</para>
+    <para id="import-auto-id1171234457733">Therefore Transit angular frequency = ω<sub>T</sub> = 1/2.5ps = 400Grad/s</para>
+    <para id="import-auto-id1171234264738">Transit Frequency = 400/(2π)=64GHz.</para>
+    <para id="import-auto-id1171234853522">To date we have achieved 500GHz with Base Width of 10nm.</para>
+  </content>
+</document>

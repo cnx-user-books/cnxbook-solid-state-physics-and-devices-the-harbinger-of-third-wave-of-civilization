@@ -1,0 +1,317 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Device Simulation1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37274</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Device Simulation1</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Device Simulation 1 introduces to the use of ATLAS softeware and diode simulation is carried out and its Avalanche Breakdown is analyzed</md:abstract>
+  <md:uuid>89f640ba-8bf6-4607-b651-58df188149a2</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170645103602">
+      <emphasis effect="bold">SSPD_Chapter 6_Part 7_Device Simulation1.</emphasis>
+    </para>
+    <para id="id1170638253224">
+      <emphasis effect="bold">(Atlas User Manual has been used for preparing this Section. </emphasis>
+      <link url="mailto:support@silvaco.com">
+        <emphasis effect="bold">support@silvaco.com</emphasis>
+      </link>
+      <emphasis effect="bold"> may be contacted for any assistance required while using their software.)</emphasis>
+    </para>
+    <para id="id1170638931141"><emphasis effect="bold"/>In this Section Part 7 we will use Device Simulation Software for studying the device testing and characterization in a virtual lab. In this particular instance we will use ATLAS for Device Simulation and Characterization. </para>
+    <para id="id1170654222732"> The information presented is based on the assumptions that the reader is (1) familiar with the basic terminology of semiconductor processing and semiconductor device operation, and (2) understands the basic operation of the computer hardware and operating system being employed.</para>
+    <para id="id1170638707040"> ATLAS is a modular and extensible framework for one, two and three dimensional semiconductor device simulation. It is implemented using modern software engineering practices that promote reliability, maintainability, and extensibility. Products that use the ATLAS Framework meet the device simulation needs of all semiconductor application areas.</para>
+    <para id="id1170636417188"> ATLAS provides general capabilities for physically-based two (2D) and three-dimensional (3D) simulation of semiconductor devices. ATLAS is designed to be used in conjunction with the VWF (Virtual Wafer Fab) INTERACTIVE TOOLS. The VWF INTERACTIVE TOOLS are DECKBUILD, TONYPLOT, DEVEDIT, MASKVIEWS, and OPTIMIZER.</para>
+    <para id="id1170638491189"> ATLAS is supplied with numerous examples that can be accessed through DECKBUILD. These examples demonstrate most of ATLAS’s capabilities. The input files that are provided with the examples given in Part 7.1 are an excellent starting point for developing your own input files. Part 7.1 gives “Getting Started with ATLAS” which contains a section “Accessing The Examples”.</para>
+    <para id="id1170638372293">
+      <emphasis effect="bold">7.1. Features and capabilities of ATLAS.</emphasis>
+    </para>
+    <para id="id1170641018410">ATLAS provides a comprehensive set of physical models, including:</para>
+    <para id="id1170654818208">• DC, AC small-signal, and full time-dependency.</para>
+    <para id="id1170656204813">• Drift-diffusion transport models.</para>
+    <para id="id1170647057048">• Energy balance and Hydrodynamic transport models.</para>
+    <para id="id1170637026414">• Lattice heating and heatsinks.</para>
+    <para id="id1170648440497">• Graded and abrupt heterojunctions.</para>
+    <para id="id1170637896078">• Optoelectronic interactions with general ray tracing.</para>
+    <para id="id1170647737039">• Amorphous and polycrystalline materials.</para>
+    <para id="id1170642630651">• General circuit environments.</para>
+    <para id="id1170638948367">• Stimulated emission and radiation</para>
+    <para id="id1170638974868">• Fermi-Dirac and Boltzmann statistics.</para>
+    <para id="id1170639054618">• Advanced mobility models.</para>
+    <para id="id1170660498690">• Heavy doping effects.</para>
+    <para id="id1170638759804">• Full acceptor and donor trap dynamics </para>
+    <para id="id1170637971756">• Ohmic, Schottky, and insulating contacts.</para>
+    <para id="id1170636258731">• SRH, radiative, Auger, and surface recombination.</para>
+    <para id="id1170638353141">• Impact ionization (local and non-local).</para>
+    <para id="id1170636393698">• Floating gates.</para>
+    <para id="id1170639362115">• Band-to-band and Fowler-Nordheim tunneling.</para>
+    <para id="id1170657450270">• Hot carrier injection.</para>
+    <para id="id1170637539148">• Quantum transport models</para>
+    <para id="id7801630">• Thermionic emission currents.</para>
+    <para id="id1170639269282">ATLAS uses powerful numerical techniques, including:</para>
+    <para id="id1170632687162">• Accurate and robust discretization techniques.</para>
+    <para id="id1170639034240">• Gummel, Newton, and block-Newton nonlinear iteration strategies.</para>
+    <para id="id1170637526218">• Efficient solvers, both direct and iterative, for linear subproblems.</para>
+    <para id="id1170644771611">• Powerful initial guess strategies.</para>
+    <para id="id1170632666355">• Small-signal calculation techniques that converge at all frequencies.</para>
+    <para id="id1170638362423">• Stable and accurate time integration.</para>
+    <para id="id1170638826046">ATLAS is often used in conjunction with the ATHENA process simulator. ATHENA predicts the physical structures that result from processing steps. The resulting physical structures are used as input by ATLAS, which then predicts the electrical characteristics associated with specified bias conditions. The combination of ATHENA and ATLAS makes it possible to determine the impact of process parameters on device characteristics.</para>
+    <para id="id1170634809324">The electrical characteristics predicted by ATLAS can be used as input by the UTMOST device characterization and SPICE modeling software. Compact models based on simulated device characteristics can then be supplied to circuit designers for preliminary circuit design. Combining ATHENA, ATLAS, UTMOST, and SMARTSPICE makes it possible to predict the impact of process parameters on circuit characteristics.</para>
+    <para id="id1170638588745">7.2. Physically based device simulator.</para>
+    <para id="id1170647256209">ATLAS is a physically-based device simulator. Physically-based device simulation is not a familiar concept for all engineers. This section will briefly describe this type of simulation.</para>
+    <para id="id1170638878810">Physically-based device simulators predict the electrical characteristics that are associated with specified physical structures and bias conditions. This is achieved by approximating the operation of a device onto a two or three dimensional grid, consisting of a number of grid points called nodes. By applying a set of differential equations, derived from Maxwells laws, onto this grid you can simulate the transport of carriers through a structure. This means that the electrical performance of a device can now be modelled in DC, AC or transient modes of operation.</para>
+    <para id="id1170637368835">The Maxwell Laws are:</para>
+    <list id="id1170637535958" list-type="enumerated" number-style="lower-roman">
+      <item>Divergence of electric flux from the control volume = Charge Density in the control volume (Poisson’s Equation) or Divergence of electric flux = zero (Laplace’s Equation);</item>
+      <item>Divergence of electrons from a control volume = difference in generation rate and recombination rate of electrons in the control volume;</item>
+      <item>Divergence of holes from a control volume = difference in generation rate and recombination rate of holes in the control volume;</item>
+      <item>Total electron current density = drift electron flux density + diffusion electron flux density;</item>
+      <item>Total hole current density = drift hole flux density + diffusion hole flux density;</item>
+    </list>
+    <para id="id1170633706560">First three are coupled , non-linear second order partial differential equations and last two</para>
+    <para id="id1170638409294">are transport equations. </para>
+    <para id="id1170652615939">Solution of these five equations give the simulated predictions.</para>
+    <para id="id1170662904042">The intersection of the grid lines give the nodes. At node (i,j) there are three unknowns v<sub>ij</sub> , n<sub>ij </sub>and p<sub>ij </sub>.Initial intelligent guess is made of v<sub>ij</sub> , n<sub>ij </sub>and p<sub>ij</sub> . Using these values we solve the Poisson equations and the continuity equations for electron and holes until we get converging results. </para>
+    <para id="id1170639149525">There are two methods for solving for these three unknowns: Coupled Method and Uncoupled Method or Sequential Method.</para>
+    <para id="id1170656901458">Table 7.1. Comparative study of the Coupled and Uncoupled Methods.</para>
+    <table id="id1170636923597" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Coupled Method</entry>
+            <entry>Uncoupled (sequential) method</entry>
+          </row>
+          <row>
+            <entry>Generalization of Newton method</entry>
+            <entry>Basis of Gummel’s method</entry>
+          </row>
+          <row>
+            <entry>Large memory required</entry>
+            <entry>Memory efficient</entry>
+          </row>
+          <row>
+            <entry>Converges rapidly</entry>
+            <entry>May converge rapidly at low DC bias</entry>
+          </row>
+          <row>
+            <entry>Initial guess is critical</entry>
+            <entry>Converges slowly at large DC bias</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170639187291">There are three physically-based simulation. These are:</para>
+    <para id="id1170656772971"/>
+    <para id="id1170638610263">• It is predictive.</para>
+    <para id="id1170642853447">• It provides insight.</para>
+    <para id="id1170636815074">• It conveniently captures and visualizes theoretical knowledge.</para>
+    <para id="id1170644973431">Physically-based simulation is different from empirical modelling. The goal of empirical modelling is to obtain analytic formulae that approximate existing data with good accuracy and minimum complexity. Empirical models provide efficient approximation and interpolation. They do not provide insight, or predictive capabilities, or encapsulation of theoretical knowledge.</para>
+    <para id="id1170637996802">Physically-based simulation has become very important for two reasons. One, it is almost always much quicker and cheaper than performing experiments. Two, it provides information that is difficult or impossible to measure.</para>
+    <para id="id1170648033466">The drawbacks of physically-based simulation are that all the relevant physics must be incorporated into a simulator, and numerical procedures must be implemented to solve the associated equations. These tasks have been taken care of for users of ATLAS.</para>
+    <para id="id1170668935832">Those who use physically-based device simulation tools must specify the problem to be simulated. In ATLAS, specify device simulation problems by defining:</para>
+    <para id="id1170641640262">• The physical structure to be simulated.</para>
+    <para id="id1170639374237">• The physical models to be used.</para>
+    <para id="id1170638792405">• The bias conditions for which electrical characteristics are to be simulated.</para>
+    <para id="id1170653297047">7.3. Application of ATLAS.</para>
+    <para id="id1170638651157">
+      <figure id="id1170648559190">
+        <media id="id1170648559190_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-f29b.png" id="id1170648559190__onlineimage" height="353" width="620"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170639599263">
+      <emphasis effect="bold">Figure 7.1. ATLAS INPUTS AND OUTPUTS.</emphasis>
+    </para>
+    <para id="id1170638275062"> Figure 7.1 shows the types of information that flow in and out of ATLAS. Most ATLAS simulations use two input files. The first input file is a text file that contains commands for ATLAS to execute. The second input file is a structure file that defines the structure that will be simulated.</para>
+    <para id="id1170638939551"> ATLAS produces three types of output files. The first type of output file is the run-time output, which gives you the progress and the error and warning messages as the simulation proceeds. The second type of output file is the log file, which stores all terminal voltages and currents from the device analysis. The third type of output file is the solution file, which stores 2D and 3D data relating to the values of solution variables within the device at a given bias point.</para>
+    <para id="id1170642891429">7.3.1: Modes of Operation</para>
+    <para id="id1170641285409">ATLAS is normally used in conjunction with the DECKBUILD run-time environment, which supports both interactive and batch mode operation. We strongly recommend that you always run ATLAS within DECKBUILD. In this section, we present the basic information you need to run ATLAS in DECKBUILD.</para>
+    <para id="id1170669264727">7.3.1.1: Interactive Mode With DeckBuild</para>
+    <para id="id1170637398125">To start ATLAS in DECKBUILD, type:</para>
+    <para id="id1170654140079">
+      <emphasis effect="italics">deckbuild - as</emphasis>
+    </para>
+    <para id="id1170639363449">at the UNIX system command prompt. The command line option, <emphasis effect="italics">-as</emphasis>, instructs DECKBUILD to start ATLAS as the default simulator.</para>
+    <para id="id1170656766911">If you want to start from an existing input file, start DECKBUILD by typing:</para>
+    <para id="id1170640890024">
+      <emphasis effect="italics">deckbuild - as &lt;input filename&gt;</emphasis>
+    </para>
+    <para id="id1170639952462">The run-time output shows the execution of each ATLAS command and includes error messages, warnings, extracted parameters, and other important output for evaluating each ATLAS run. When ATLAS runs in this mode, the run-time output is sent to the output section of the DeckBuild Window and can be saved as needed. Therefore, you don’t need to save the run-time output explicitly. The following command line, however, specifies the name of a file that will be used for storing the run-time output.</para>
+    <para id="id1170632297886">
+      <emphasis effect="italics">deckbuild -as &lt;input filename&gt; - outfile &lt;output filename&gt;</emphasis>
+    </para>
+    <para id="id1170638667919">In this case, the run-time output is sent to the output file and to the output section of the DeckBuild Window.</para>
+    <para id="id1170640588526">7.3.1.2: Running ATLAS inside Deckbuild</para>
+    <para id="id1170649149650">Each ATLAS run inside DECKBUILD should start with the line:</para>
+    <para id="id1170642716428">go atlas</para>
+    <para id="id1170634031005">A single input file may contain several ATLAS runs each separated with a go atlas line. Input files within DECKBUILD may also contain runs from other programs such as ATHENA or DEVEDIT along with the ATLAS runs.</para>
+    <para id="id1170632563649">Running a given version number of ATLAS</para>
+    <para id="id1170635696669">The go statement can be modified to provide parameters for the ATLAS run. To run version 4.3.0.R, the syntax is:</para>
+    <para id="id1170639064130">
+      <emphasis effect="italics">go atlas simflags = ”-V 4.3.0.R”</emphasis>
+    </para>
+    <para id="id1170635761876">Starting Parallel ATLAS</para>
+    <para id="id1170642315468"/>
+    <para id="id1170637451167">The -P option is used to set the number of processors to use in a parallel ATLAS run. If the number set by -P is greater than the number of processors available or than the number of parallel thread licenses, the number is automatically reduced to this cap number. To run on 4 processors, use:</para>
+    <para id="id1170636722972">go atlas simflags=”-V 4.3.2.C -P 4”</para>
+    <para id="id1170661471900">Note: The standard examples supplied with ATLAS will not run correctly outside of DECKBUILD.</para>
+    <para id="id1170636797175">7.3.1.3: Accessing The Examples</para>
+    <para id="id1170649019660">ATLAS has more than 300 standard examples that demonstrate how the program is used to simulate different technologies. These examples are a good starting point for creating your own simulations. The examples are accessed from the menu system in DECKBUILD. To select and load an example:</para>
+    <para id="id1170636373595">1. Start DECKBUILD with ATLAS as the simulator, which is described in the previous section.</para>
+    <para id="id1170639638898">2. Use left mouse button to pull down the Main Control menu.</para>
+    <para id="id1170639427181">3. Select Examples. An index will then appear in a Deckbuild Examples Window (see Figure 7.2).</para>
+    <para id="id1170637216175">The examples are divided by technology or technology group. For instance, the most common technologies are individually listed (e.g., MOS, BJT), while others are grouped with similar devices (e.g., IGBT and LDMOS are under POWER, and solar cell and photodiode are under OPTOELECTRONICS).</para>
+    <para id="id1170642365412">4. Choose the technology by double clicking the left mouse button over that item. A list of examples for that technology will appear. These examples typically illustrate different devices, applications, or types of simulation.</para>
+    <para id="id1170655017310">You can also search for an example by selecting the Index button. Wildcards can be used in the search.</para>
+    <para id="id1170637533986">
+      <figure id="id1170636589174">
+        <media id="id1170636589174_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-405d.png" id="id1170636589174__onlineimage" height="502" width="463"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170632358789">Figure 7.2 Examples Index in DeckBuild</para>
+    <para id="id1170635337429">5. Choose a particular example by double clicking the left mouse button over that item in the list. A text description of the example will appear in the window. This text describes the important physical mechanisms in the simulation, and details of the ATLAS syntax used. You should read this information before proceeding.</para>
+    <para id="id8916386">6. Press the Load Example button. The input command file for the example will be copied into your current working directory together with any associated files. A copy of the command file will be loaded into DECKBUILD. Note that the Load Example button remains faded out until this step is performed correctly.</para>
+    <para id="id1170646478370">7. Press the Run button in the middle frame of the DECKBUILD application window to run the example. Alternatively, most examples are supplied with results that are copied into the current working directory along with the input file. To view the results, select (highlight) the name of the results file and select Tools-Plot. Details on using TONYPLOT can be found in the VWF INTERACTIVE TOOLS USER’S MANUALS.</para>
+    <para id="id1170664643926">go atlas</para>
+    <para id="id1170646732362">TITLE PN Diode Breakdown Simulation with curve tracing algorithm</para>
+    <para id="id1170637348719"># SILVACO International 1996</para>
+    <para id="id1170638746959"/>
+    <para id="id1170656656437">mesh </para>
+    <para id="id1170660106196">x.m l=0.0 spac=1.0#structure</para>
+    <para id="id1170639286972">x.m l=1.0 spac=1.0#structure</para>
+    <para id="id1170649961424">y.m l=0 spac=1.0#structure</para>
+    <para id="id1170648781008">y.m l=5.0 spac=0.005#structure</para>
+    <para id="id1170637429475">y.m l=15 spac=2#structure</para>
+    <para id="id1170641301842">region num=1 silicon#material</para>
+    <para id="id1170639938238">electrode top name=emitter#structure</para>
+    <para id="id1170647070910">electrode bottom name=base#structure</para>
+    <para id="id1170638238453">doping uniform conc=5e17 p.type #doping</para>
+    <para id="id1170639467701">doping uniform n.type conc=1.e20 x.l=0. x.r=1 y.t=0.0 y.b=5.0# doping</para>
+    <para id="id1170638615947">save outf=diodeex03_0.str # solution specification</para>
+    <para id="id1170652651347">#tonyplot diodeex03_0.str -set diodeex03_0.set# result analysis</para>
+    <para id="id1170643025934">models srh conmob bgn auger fldmob # models</para>
+    <para id="id1170637780815">impact crowell    # models</para>
+    <para id="id1170638994996">solve init     # solution specification</para>
+    <para id="id1170639562862">solve     # solution specification</para>
+    <para id="id1170644283383">solve vemitter=0.1   # solution specification</para>
+    <para id="id1170647114342">method newton climit=1.e-4 #numerical method selection</para>
+    <para id="id1170639586967">curvetrace end.val=1e-4 contr.name=emitter curr.cont mincur=1e-13 nextst.ratio=1.2</para>
+    <para id="id1170636833831"># result analysis</para>
+    <para id="id1170641198101">log outf=diodeex03.log # result analysis</para>
+    <para id="id1170637376201">solve curvetrace # result analysis</para>
+    <para id="id1170636834991">tonyplot diodeex03.log -set diodeex03.set # result analysis</para>
+    <para id="id1170653174117">quit</para>
+    <para id="id1170663195043">The first part of the program (Deckbuild up) gives the 2-D mesh description of the cross-sectional view of the emitter-base diode. The upper part of the cross-sectional view is Emitter (N type) which has an uniform doping of 10<sup>20 </sup>Phosphorous atoms per c.c. and lower part is Base (P-type) which has an uniform doping of 5×10<sup>17</sup>Boron atoms per c.c. as shown in Figure 7.3.</para>
+    <para id="id1170658397098">It uses the models given in Table 7.2.</para>
+    <para id="id1170636791723">In Method statement we give the Numerical Method adopted for carrying the calculations.</para>
+    <para id="id1170638382438">In weakly coupled systems we use Gummel Numerical Method where we regard the system as decoupled and we analyze the nodes one by one. This has linear convergence.</para>
+    <para id="id1170639239043">In strongly coupled systems we use Newton Numerical Method . This has quadratic convergence. </para>
+    <para id="id1170639321951">In Block system we start as decoupled system and then we use coupling.</para>
+    <para id="id1170639905241">In the example above we have used Newton Method.</para>
+    <para id="id1170660100934">We have carried out two simulations.</para>
+    <para id="id1170637873466"/>
+    <para id="id1170667480428">Table 7.2. The Models used in this program</para>
+    <table id="id1170662786837" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Model</entry>
+            <entry>Syntex</entry>
+            <entry>Notes</entry>
+          </row>
+          <row>
+            <entry>Shockley-Hall-Reed indirect recombination </entry>
+            <entry>SRH</entry>
+            <entry>This describes the method of indirect recombination mediated by traps and defects. </entry>
+          </row>
+          <row>
+            <entry>Concentration Dependent Mobility</entry>
+            <entry>CONMOB</entry>
+            <entry>Impurity scattering is considered along with lattice scattering.</entry>
+          </row>
+          <row>
+            <entry>Band Gap Narrowing</entry>
+            <entry>bgn</entry>
+            <entry>Emitter has heavy doping leading to band gap narrowing this adversely effects the emitter injection efficiency.(This has been elaborately explained in Appendix IV of IC journey from Micro to Nano Era. This Appendix is a part of SSPD collection)</entry>
+          </row>
+          <row>
+            <entry>Auger Direct Recombination</entry>
+            <entry>auger</entry>
+            <entry>Whenever carrier concentrations are high they directly recombine. In that case trap mediation is not required.</entry>
+          </row>
+          <row>
+            <entry>Field Dependent Mobility</entry>
+            <entry>fldmob</entry>
+            <entry>At high fields where drift velocity is comparable to the thermal velocity the drift velocity saturates to scatter limited velocity.</entry>
+          </row>
+          <row>
+            <entry>Crowell-Sze model</entry>
+            <entry>impact crowell</entry>
+            <entry>Impact ionization model has to be used while modelling the Avalanche Breakdown </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170657402543">
+      <figure id="id1170661331999">
+        <media id="id1170661331999_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-f49d.png" id="id1170661331999__onlineimage" height="522" width="513"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170645966814">Figure 7.3. 2D Mesh describing the cross-sectional area of the Device. </para>
+    <para id="eip-390">It should be noted that lightly doped portion base is being covered by fine mesh whereas heavily doped emitter is covered by coarse mesh. In One-sided step Junction (N+P) minority carriers electron in P-side carry the major part of the diode current hence minority carrier distribution in P-side have to be more accurately analyzed hence base is being covered by a finer mesh.</para><para id="id1170638675401">
+      <figure id="id1170638336265">
+        <media id="id1170638336265_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-84c8.png" id="id1170638336265__onlineimage" height="474" width="592"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170643543643">Figure 3. Simulation Number 1 tony plot. BVz = 5V</para>
+    <para id="id1170639412314">go atlas</para>
+    <para id="id1170632580084">TITLE PN Diode Breakdown Simulation with curve tracing algorithm</para>
+    <para id="id1170638673313"># SILVACO International 1996</para>
+    <para id="id1170637725469">mesh </para>
+    <para id="id1170637653718">x.m l=0.0 spac=1.0</para>
+    <para id="id1170637991106">x.m l=1.0 spac=1.0</para>
+    <para id="id1170647067662">y.m l=0 spac=1.0</para>
+    <para id="id1170639079677">y.m l=5.0 spac=0.005</para>
+    <para id="id1170648636067">y.m l=15 spac=2</para>
+    <para id="id1170643524908">region num=1 silicon</para>
+    <para id="id1170637041870">electrode top name=emitter</para>
+    <para id="id1170643353440">electrode bottom name=base</para>
+    <para id="id1170635778290">doping uniform conc=5e16 p.type </para>
+    <para id="id1170639007038">doping uniform n.type conc=1.e20 x.l=0. x.r=1 y.t=0.0 y.b=5.0</para>
+    <para id="id1170639076951">save outf=diodeex03_0.str</para>
+    <para id="id1170638342993">#tonyplot diodeex03_0.str -set diodeex03_0.set</para>
+    <para id="id1170638884668">models srh conmob bgn auger fldmob </para>
+    <para id="id1170636861599">impact crowell</para>
+    <para id="id1170653195154">solve init </para>
+    <para id="id1170638954626">solve</para>
+    <para id="id1170659686995">solve vemitter=0.1</para>
+    <para id="id1170653026668">method newton climit=1.e-4 </para>
+    <para id="id1170646602749">curvetrace end.val=1e-4 contr.name=emitter curr.cont mincur=1e-13 nextst.ratio=1.2</para>
+    <para id="id1170636882811">log outf=diodeex03.log</para>
+    <para id="id1170636948365">solve curvetrace</para>
+    <para id="id1170647162776">tonyplot diodeex03.log -set diodeex03.set</para>
+    <para id="id1170636818578">quit</para>
+    <figure id="id1170667138387">
+      <media id="id1170667138387_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-1cb3.png" id="id1170667138387__onlineimage" height="501" width="602"/>
+      </media>
+    </figure>
+    <para id="id1170646815184">Figure 4. Simulation Number 2 tony plot. BVa = 20V.</para>
+    <para id="id1170665444021">7.3.1.4. Discussion of the two simulations carried out in the previous section.</para>
+    <para id="id1170636818114"><emphasis effect="bold"/>We have just carried out two device simulations for PN Junction breakdown with curve tracing algorithm. </para>
+    <para id="id1170636861425"> In first device, base had a concentration of 5×10<sup>17</sup>Boron atoms per cc. This corresponded to a reverse Avalanche Breakdown of 5V. At an emitter doping of 1×10<sup>20</sup>/cc we should have invoked ‘Tunnelling Model’ and obtained Zener Break down.</para>
+    <para id="id1170637176416"> In second device base had a concentration of 5×10<sup>16</sup>Boron atoms per cc. This corresponded to a reverse Avalanche Breakdown of 20V.</para>
+  </content>
+</document>

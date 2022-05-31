@@ -1,0 +1,385 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Integrated Circuit Technology of  Future Generations-Part 1.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43814</md:content-id>
+  <md:title>The Integrated Circuit Technology of  Future Generations-Part 1.</md:title>
+  <md:abstract>This Chapter describes the deep impact Si-IC Technology has had on Computer Technology, Communication and Entertainment technology. But the further miniaturization of Si -IC Technology will hit a wall. If the post-Industrial pace of economic growth has to be maintained then Si-IC Technology will have to be replaced by Graphene IC Technolgy which appears to be one of the possible contender as an agent of main driver of Human Society and its economy.</md:abstract>
+  <md:uuid>a6908db0-b1d9-41c0-a15a-dbcc9bddf258</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169690236162">
+      <emphasis effect="bold">Chapter 8. The IC Technology of Future Generations.</emphasis>
+    </para>
+    <para id="import-auto-id1169692547605">Once the Si IC Technolgy hits the wall by about 2025, new materials and new architecture will have to be invented and used so as to continue the miniaturization as envisioned by Gordon Moore of Intel’s fame.</para>
+    <para id="import-auto-id1169690162318">8.1.<emphasis effect="bold"> Project Proposal on Graphene Transistors: fabrication, testing , characterization and its integration into future generation  Integrated Circuit Chip.</emphasis></para>
+    <para id="import-auto-id1169684988680"><emphasis effect="bold">1.1.Project Proposal</emphasis>.</para>
+    <para id="import-auto-id1169687950508">Electronics Devices, Circuits and Systems and their related services are worth $5 Trillion which is 10% of total World’s real money market  worth $50 Trillion hence semiconductor industry remains the main engine of growth of the World Economy. Electronics Circuits and Systems evolution and growth are driven by constantly shrinking device geometries and increased functionality that larger and denser Silicon IC Chips provide. This is becoming increasingly challenging and prohibitively costly and scaling below 9nm will come to a dead end sometime in near foreseeable future perhaps by 2025AD because of the physical limit. Graphene IC Chips are one of the alternatives which may become the driving force for further evolution of Electronics Systems and keeping Electronics Industry in its commanding position in World Economy and therefore possibilities have to be explored for developing Graphene IC chip at the earliest.</para>
+    <para id="import-auto-id1169689577955">
+      <emphasis effect="bold">1.2.A brief history of Electronics Engineering and its part played in ushering Third Information Revolution*.</emphasis>
+    </para>
+    <para id="import-auto-id1169695117442">[*First Information Revolution was the invention of Phoenician alphabets in BC700. This laid the foundation of all European languages. The Second Information revolution was the invention of the rotating press by Gutenberg a German Mechanic, in 1450. Hence this is also known as Gutenberg Revolution. Before the invention of printing press, reading and writing was confined to a select group of people but printing press gave access to all kinds of information to a much larger section of population.]</para>
+    <para id="import-auto-id1169680947258">In 1895 the discovery of electron during the study of Cathode Rays by J.J.Thomson laid down the foundation of a new discipline of Engineering namely Electronics Engineering where we  dealing with electron conduction in vacuum and solids. This opened the possibility of electronic information processing. Till 1895 information processing was confined to brains and in a limited way through mechanical calculators and through Morse code and Telegraph.</para>
+    <para id="import-auto-id1169684652983">
+      <emphasis effect="bold">1.2.1.Electronics Engineering born as a discipline in 1903 with the invention of Vacuum Tube Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1169685104584">In 1903, John Ambrose Fleming invented Vacuum Tube Diode. This was followed by the invention of Triode by Lee de-Forest in 1905. The first RC-coupled Amplifier was invented soon after which became the wherewithal for long distance telephony and Public Service Telephone Network transformed into a Public Service Utility. In 1911, the first long distance telephone call was made from New York to Denver, Colorado, using loaded cables. Heaviside “distortion-less transmission condition” was used for constructing loaded cables. A telephonic call made on loaded cables did not suffer from phase distortion hence it was clearly audible even after 2000 miles of propagation without amplification. Subsequently RC-coupled Amplifiers were used in repeater stations along with loaded cables. In 1913 this made a long distance telephone call possible from New York to San Francisco over a distance of 4000 miles. This was the dawn of Tele-communication Era. </para>
+    <para id="import-auto-id1169689236849">In 1945 first Electronic Numerical Integrator and Calculator (ENIAC) was built and demonstrated. This used 18000 Vacuum Tubes, weighed 27 Metric Tonnes, consumed 200kW and occupied a large hall.</para>
+    <para id="import-auto-id1169685005637">In 1952 UNIVAC I , first main-frame computer based on vacuum tubes, was introduced for office applications. This weighed 7.26 Metric Tonnes, used 5000 valves and carried out 1000 calculations per second.</para>
+    <para id="import-auto-id1169682461080">In Vacuum Tube era, Electronics Systems remained confined to Telecommunication, Radio and TV broadcast. Computers remained too expensive and cumbersome for common man’s application. It was used only for niche applications.</para>
+    <para id="import-auto-id1169685127861">
+      <emphasis effect="bold">1.2.2.The dawn of Solid State Era.</emphasis>
+    </para>
+    <para id="import-auto-id1169680152499">With the invention of Germanium Transistor in 1947, the Solid State Era was ushered in. This helped proliferate the application of Communication and Computer Electronic systems by leaps and bounds because of volume compactness  and much lower power consumption.</para>
+    <para id="import-auto-id1169686344645">In 1959, the invention of Silicon Integrated Circuit Chip by Robert Noyce of Fairchild and Jack Kilby of Texas Instrument greatly accelerated the pace of proliferation of Electronic Systems and widened the extent of proliferation to different fields of  human life. Today Electronics Discipline is so widely pervasive that no part of human society remains untouched. </para>
+    <para id="import-auto-id1169688019650">Solid State Era, particularly the IC Technology, became the harbinger of third wave of civilization† and provided the wherewithal for the Third Information Revolution.</para>
+    <para id="import-auto-id1169687161729">[†Agriculture brought the first wave of civilization and Industry brought the second wave of civilization.]</para>
+    <para id="import-auto-id6303701">
+      <emphasis effect="bold">1.2.3.The growth of Solid State Electronics Systems.</emphasis>
+    </para>
+    <para id="import-auto-id1169692486233">In 1956, Sperry Rand,USA, introduced transistorized UNIVAC II. This was the second generation computer but it was IBM1401 main frame computer in 1959 which brought a spike in computer applications for business offices. In 1964 this was completely supplanted by System 360. It consolidated software, peripherals and support in on one compatible and scalable family of computers.</para>
+    <para id="import-auto-id1169690390974">In 1960, Digital Equipment Corporation (DEC) introduced the mini-computer PDP-1 at a much lower cost for office applications. This was of cabinet size. In 1964 the Table-Top version PDP-8 was introduced. This was 8-bit computer. Here data word and address word, both were 8-bit wide. In 1970 PDP-11 with 16-bit address word was introduced. This has a much large memory capacity.</para>
+    <para id="import-auto-id1169685780610">In 1971, the first μP chip 4004 with 4-bit data and 8-bit address word was introduced..In 1977 with the invention of Personal Computer named APPLE-II based on 8080 INTEL μP chip  brought a sudden spurt in home applications of computer. This had 4kB RAM and 1MHz clock speed.</para>
+    <para id="import-auto-id1169690884234">With the growth of IC Technology from one generation to another, the electronic circuits speed acceleration and microminiaturization pace was so stupendous that today a Personal Computer has surpassed Super-computer capability as seen in Figure 1.</para>
+    <figure id="import-auto-id1169685064791">
+      <media id="import-auto-id1169685077712" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-83fc.png" height="278" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169692676202">
+      <emphasis effect="bold">Figure 1. Exponential Growth of Personal Computer due to the rapid development of I.C.Technology.</emphasis>
+    </para>
+    <para id="import-auto-id1169688140848">In 1995, personal computers surpassed the performance of super-computers. Since in Desk Top Computer, which is a personal computer is, physical space and power source is at premium hence the growth in I.C. Technology  and its concomitant advantage in terms of exponentially increasing logic density and memory capacity, reduction in propagation delay and reduced power consumption had the largest impact on Personal Computers as is evident from Figure 1. Chunky, nerdy, power guzzling cumbersome Computers were transformed into stylish, high tech power smart gadgets. This was mainly due to the microminiaturization, speedier computation and portability feature of I.C. Technology which has been advancing according to Moore’s Law.</para>
+    <para id="import-auto-id5968598">
+      <emphasis effect="bold">1.2.4.Moore’s First Law and Second Law. </emphasis>
+    </para>
+    <para id="import-auto-id1169679759847">The market forces compelled I.C. manufacturers(such as Bell Labs, IBM, Taiwan Semiconducting Manufacturing Corporations, Intel and SAMSUNG) to invest heavily in improving the lithography techniques, design automation, device fabrication technology moving from wet to dry processing and in automation of bonding and packaging. This resulted in doubling of logic density, improvement of circuit performance by 40% and quadrupling the memory capacity every 2 Years. I.C.Technology seemed to follow this trend for the first two decades hence Gordon Moore of INTEL formulated it in a Law which now is called Moore’s First Law [2 Plummer J., Griffin P. “Material &amp; Process Limit in Silicon VLSI Technology”,Proceedings of the IEEE, <emphasis effect="bold">89</emphasis>, No.3, 240-258, March 2001].</para>
+    <para id="import-auto-id1169687970225">As sophistication and complexity of I.C. Circuits has increased so has the cost of Fabrication . In 1986 the fabrication cost of μP 80386 containing 250,000 transistors was $200million. In 1996 the fabrication cost of Pentium I chip containing 6 million transistors has soared up to $ 2 billion. This is known as Moore’s Second Law.</para>
+    <para id="import-auto-id1169685176920">
+      <emphasis effect="bold">1.2.4.1.The impact of Moore’s Law on World Economy.</emphasis>
+    </para>
+    <para id="import-auto-id1169686180801"> Today Semiconductor Industry has become the main engine of growth of World Economy. The  total World Economy is worth $ 50 trillion in which Semiconductor Industry and all its related services are $5 trillion worth, almost 10% of World’s GDP. This has been made possible because the market forces have compelled I.C. manufacturers to follow Moore’s Law and we can afford no slackening in this pace of growth if we are to  maintain Electronics Industry as the main driver of World Economy.</para>
+    <para id="import-auto-id1169692763433">
+      <emphasis effect="bold">1.2.4.2.CMOS Technology- the workhorse of Semiconductor Industry for last 40 years.</emphasis>
+    </para>
+    <para id="import-auto-id1169685496195">CMOS Technology because of nano-watt-logic characteristics and its inherent higher density of integration (because no isolation boundary diffusion is required) as compared to those of Bipolar Junction Transistor (BJT) has become the workhorse of Semiconductor Industry for last 40 years.  </para>
+    <para id="import-auto-id1169685280647">Memory Chip Capacity has exponentially increased. SRAM uses 6-T(transistors) to store a bit of information. SRAM is the dominant form of embedded  memory. It occupies 60-70% chip area and constitutes 75-85% transistor count. Its capacity must scale up at an equivalent rate as the logic gate density is being scaled up.</para>
+    <para id="import-auto-id1169682432605">From 1960 to the present day, transistors per chip has increased from few transistors to billion transistors functioning on a single monolithic chip completing the task of a super computer.</para>
+    <para id="import-auto-id1169680643816">Memory size  has increased from core memory of 4kB in PDP-8(minicomputer) in 1965 to 3.21GB RAM in DELL Opilex with 2 Quad CPU <link url="mailto:Q8400@2.66GHz">Q8400@2.66GHz</link> in 2010. Disk Memory has increased from 32-128kB disk in PDP-8e Computer in 1972 to 10MB disk in IBM XTPC in 1982. In 2001 PC had 40GB hard disk, in 2003 it was 120GB hard disk and in 2010 it was 400GB hard disk.</para>
+    <para id="import-auto-id1169686777549">Table 1. gives the trend of improvement in circuit complexity and performance over the years..</para>
+    <para id="import-auto-id1169682427042">
+      <emphasis effect="bold">Table 1. The growth of CMOS IC Chips from 1997 to 2012 according to ITRS_2003.</emphasis>
+    </para>
+    <table id="import-auto-id1169685566006" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>1997</entry>
+            <entry>99</entry>
+            <entry>01</entry>
+            <entry>03</entry>
+            <entry>06</entry>
+            <entry>09</entry>
+            <entry>2012</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Feature size(μm)</entry>
+            <entry>0.25</entry>
+            <entry>0.18</entry>
+            <entry>0.15</entry>
+            <entry>0.13</entry>
+            <entry>0.1</entry>
+            <entry>0.07</entry>
+            <entry>0.05</entry>
+          </row>
+          <row>
+            <entry>V<sub>DD</sub>(V)</entry>
+            <entry>1.8-2.5</entry>
+            <entry>1.5-1.8</entry>
+            <entry>1.2-1.5</entry>
+            <entry>1.2-1.5</entry>
+            <entry>0.9-1.2</entry>
+            <entry>0.6-0.9</entry>
+            <entry>0.5-0.6</entry>
+          </row>
+          <row>
+            <entry>Tramsistors/Chip(M)</entry>
+            <entry>11</entry>
+            <entry>21</entry>
+            <entry>40</entry>
+            <entry>76</entry>
+            <entry>200</entry>
+            <entry>520</entry>
+            <entry>1400</entry>
+          </row>
+          <row>
+            <entry>DRAM(b/Chip)</entry>
+            <entry>167M</entry>
+            <entry>1.07G</entry>
+            <entry>1.7G</entry>
+            <entry>4.29G</entry>
+            <entry>17.2G</entry>
+            <entry>68.7G</entry>
+            <entry>275G</entry>
+          </row>
+          <row>
+            <entry>Die Size(mm)</entry>
+            <entry>300</entry>
+            <entry>340</entry>
+            <entry>385</entry>
+            <entry>430</entry>
+            <entry>520</entry>
+            <entry>620</entry>
+            <entry>750</entry>
+          </row>
+          <row>
+            <entry>Global Clock(Hz)</entry>
+            <entry>750M</entry>
+            <entry>1.2G</entry>
+            <entry>1.4G</entry>
+            <entry>1.6G</entry>
+            <entry>2.0G</entry>
+            <entry>2.5G</entry>
+            <entry>3G</entry>
+          </row>
+          <row>
+            <entry>Local Clock(Hz)</entry>
+            <entry>750M</entry>
+            <entry>1.25G</entry>
+            <entry>1.5G</entry>
+            <entry>2.1G</entry>
+            <entry>3.5G</entry>
+            <entry>6G</entry>
+            <entry>10G</entry>
+          </row>
+          <row>
+            <entry>Max Power/Chip(W)</entry>
+            <entry>70</entry>
+            <entry>90</entry>
+            <entry>110</entry>
+            <entry>130</entry>
+            <entry>160</entry>
+            <entry>170</entry>
+            <entry>175</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1169686183495">1.2.5.The impact of micro/nano miniaturization on Electronic Systems. </para>
+    <para id="import-auto-id1169680961077">Due to Silicon Transistor scaling both vertically as well laterally, it has been possible to give greater functionality to IC Chips. This has resulted into more powerful computers both in terms of memory space as well as in computational speed in a more compact volume.</para>
+    <para id="import-auto-id8271046">RF and HF application data rates and frequencies continue to increase for in each new technology generation.</para>
+    <para id="import-auto-id1169690017519">In 70’s the growth of personal computer fuelled the CMOS IC Chips based on CMOS scaling.</para>
+    <para id="import-auto-id1169685137136">In 21<sup>st</sup> century, Internet, high speed communication, the convergence of data, video, audio and mobile communication are fuelling CMOS scaling and has brought in focus the need for cheap, high speed and low power devices. SiGe devices are filling this need.</para>
+    <para id="import-auto-id1169679901277">In 1971, four LSI chips built a complete functional computer. A typical 4004 LSI chip was based on 10μm PMOS(E) Technology Process. It had 2300 transistors and carried out 92.000 Instruction per second.</para>
+    <para id="import-auto-id1169682427519">In 1975, the functionality of all the four  IC Chips was put in one chip μP 8086 chip. This brought a big leap in microminiaturization, compactness and portability of electronics systems.</para>
+    <para id="import-auto-id1169680948904">In 1980, μP80286 and μP80386 had ×87 Floating-point hardware on a separate chip.</para>
+    <para id="import-auto-id1169682442004">In 1989, tightly pipelined 8086 architecture was introduced as μP80486 and this included ×87 Floating-point hardware.</para>
+    <para id="import-auto-id1169682458872">In 1990, single instruction multiple data started as a separate chip. SUN Microsystem moved it on-chip when VIS was introduced in ultra sparc.</para>
+    <para id="import-auto-id1169682458395">In 1992-93, Pentium had CPU+Memory+I/P &amp; O/P port built on the same chip plus it had a second ALU. It was INTEL first super scalar processor.</para>
+    <para id="import-auto-id1169691317127">L1 Cache was moved on the die in Pentium 2 architecture.</para>
+    <para id="import-auto-id1169681425239">Latest Pentium Architecture  started with 400MHz Bus and 256kB L2 Cache later increased to 800MHz and 2MB Cache. This model contained 42 million transistors.It used 0.18μm Process and came in 423 pin and 478 pin PGA packages.</para>
+    <para id="import-auto-id1169676390671">INTEL’s first Pentium 4 chipset was 850 and supported Rambus Memory (RDRAM) but subsequent chipset switched to DDR SDRAM. Eventually Floating-point hardware moved on the die.</para>
+    <para id="import-auto-id1169687029689">Thus new features were added in scaled down chip to add performance-enhancing functionality to a processor die.</para>
+    <para id="import-auto-id1169681044393">Processor’s Power consumption and dissipation has been on the increase along with die size as the logic density and memory density has been steadily increasing. This is creating the limitation  of Fire Wall- maximum limit of dissipation per Si chip.</para>
+    <para id="import-auto-id1169690916144">Using multi core processors along with threading software, this problem of Fire Wall limitation has been circumvented. Multi-core processor is a combination of smaller, cheaper and less power hungry processors working in parallel to do the same job.</para>
+    <para id="import-auto-id8991889">Today Mobile Computing demands that more functionality be added to a single die not for increased performance but for ideal mobile computing environment. This will mean combining non-volatile memory, volatile memory, CPU and multiple types of wireless capabilities (blue tooth, 802.11b, 802.11g, GSM e.t.c) on a single die.</para>
+    <para id="import-auto-id1169682260447">Improved circuit performance and more complex functionality with reduced cost has enabled IC Chip to penetrate every domain of life.</para>
+    <para id="import-auto-id1169680671975">With  nano-miniaturization and ultra deep-submicron technology we are moving towards a new breed of complex, highly integrated systems known as Systems-on-Chip (SOC). In SOC, RF and Base-Band functions are integrated on the same chip. This gives compact and inexpensive solutions for wireless connectivity like cellular phones. SOC is a complete end product. It may interface the real world hence they integrate analog components and in future may include Opto/MEMS.</para>
+    <para id="import-auto-id1169676838133">To create SOC designs with the required complexity, designers must use pre-designed Intellectual Propriety(IP) Blocks referred to as macros, cores and virtual components. This means reuse of cores. The more design reuse we have , the faster delivery time of SOC solutions.</para>
+    <para id="import-auto-id1169684653790">Nanoelectronic Components such as sensors and actuators have to be incorporated in SOC. These are realized through MEMS. Thus micro/nano miniaturization has helped us achieve new level of integration among diversified systems  of electronics, mechanical, optical and fluidic elements.[34,35 Murari, B. “Integrating Nanoelectronic Components into Electronic Microsystems, IEEE Micros, <emphasis effect="bold">23</emphasis>, No.3, 2003, pp.36-44 ]</para>
+    <para id="import-auto-id1169685607234">To meet computational intensive applications and to meet the requirement of  low power, high performance systems, the number of computational resources has enormously increased and hitherto Si IC Technology has been the enabling technology. But with such high circuit density, increasingly the interconnections and data buses are becoming the major challenge. A shared bus interconnection where an arbitration logic to serialize several bus access requests is adopted to communicate with each processor. In such an environment where number of bus requesters is large and required Band Width for interconnections is more than the current bus, there scalable BW requirement can be satisfied using on-chip packet-switched micro-network of interconnects known as Network-on-Chip (NOC) architecture. The scalable , modular nature of NOC and their support for efficient on-chip communication  leads to NOC-based system implementation.</para>
+    <para id="import-auto-id1169690420356">New products such as Software Defined Radios are coming into the market. Here there is reuse of Silicon thereby lowering the cost. Software-driven functionality offers flexibility and upgradability.</para>
+    <para id="import-auto-id1169687323273">In  the past chip was a component . Today it is a complete system. </para>
+    <para id="import-auto-id1169685158522">With circuit miniaturization, information processing has moved from main-frame to personal computers. From personal computers  it is moving to portable computing integrated  in larger products such as smart phones. This kind of computing is called ubiquitous computing, pervasive computing or ambient computing. Embedded systems are the wherewithal for this new kind of computing.</para>
+    <para id="import-auto-id1169682415083">Embedded systems(ES) are the computers incorporated in consumer products(entertainment products, home appliances, medical appliances and military appliances) to perform application specific functions. It can contain microcontroller, ASIC, ASIP ,DSPs. Here the electronics are deeply embedded and must interact with  the users and the real world through sensors and actuators. These computing devices must work in real time hence they have Real-Time-Operating-System(RTOS).</para>
+    <para id="import-auto-id1169682471484">ES are built using a wide variety of techniques  such as software, firmware, ASIC, ASIP, General Purpose Processors, Domain Specific Processors, Field Programmable Logic Devices, Complex Programmable Logic Devices, Analog Circuits, sensors and actuators. ES finds applications in Medical Electronics(pacemakers), Personal Communication Phones (mobile phones)., Automobiles(anti-lock braking systems), Avionics(fly-by-wire flight control system), Railways (high speed train control) and home appliances. ES provide SOC and high level module solution.</para>
+    <para id="import-auto-id2864235">
+      <emphasis effect="bold">1.2.6.The Challenges and difficulties beyond 20μm Process Technology.</emphasis>
+    </para>
+    <para id="import-auto-id1169684607070">All this advancement and convergence in computation and communication was made possible due to scaling. But this is becoming more difficult as we go below 20μm process.[6 Hennessy, J; Patterson, De; “Computer Architecture”, 3<sup>rd</sup> Edition, Morgan Kaufman Publishers, Amsterdam 2003].</para>
+    <para id="import-auto-id1169688042883">According to International Technology Roadmap for Semiconductors (ITRS) we have the  projection as given in Table 2.</para>
+    <para id="import-auto-id1169691020740">
+      <emphasis effect="bold">Table 2.Roadmap of CMOS Technology according to ITRS-2003</emphasis>
+    </para>
+    <table id="import-auto-id1169696007918" summary="">
+      <tgroup cols="13">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+        <colspec colnum="12" colname="c12"/>
+        <colspec colnum="13" colname="c13"/>
+        <thead>
+          <row>
+            <entry>Year</entry>
+            <entry>05</entry>
+            <entry>06</entry>
+            <entry>07</entry>
+            <entry>08</entry>
+            <entry>09</entry>
+            <entry>10</entry>
+            <entry>11</entry>
+            <entry>12</entry>
+            <entry>13</entry>
+            <entry>14</entry>
+            <entry>15</entry>
+            <entry>16</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>L<sub>Gate</sub>(nm)</entry>
+            <entry>32</entry>
+            <entry>28</entry>
+            <entry>25</entry>
+            <entry>22</entry>
+            <entry>20</entry>
+            <entry>18</entry>
+            <entry>16</entry>
+            <entry>14</entry>
+            <entry>13</entry>
+            <entry>11</entry>
+            <entry>10</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry namest="c2" nameend="c8">←Bulk/PartiallyDepleted-SOI→</entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry namest="c5" nameend="c12">←Fully Depleted –SOI→</entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry namest="c8" nameend="c13">←Multi-gate→</entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+            <entry>
+              
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1169685708117">SRAM uses 6-T to store a bit. SRAM is dominant form of embedded memory. It comprises 60- 70% chip area and 75% - 85% transistor count. As the logic gates density is increasing correspondingly the memory density must increase.</para>
+    <para id="import-auto-id1169685720047">Statistical dopent fluctuations, variation in oxide thickness and line edge roughness increases the spread in V<sub>Th</sub> and I<sub>ON</sub>/I<sub>OFF </sub> in nano-scale regime [34 Murari 2003]. Increased leakage and parametric variations are making scaling of 6-T SRAM memory array difficult.</para>
+    <para id="import-auto-id1169685038443">Due to fundamental physical limit to scaling, the era of conventional linear scaling of transistor dimensions has ended. Power dissipation and process induced variations have become the major issues for continued scaling of Si MOSFETs in future generation. </para>
+    <para id="import-auto-id1169682464974">New materials and device structure are needed to continue the scaling trend as seen in ITRS-2003 Road map given in Figure 2.</para>
+    <figure id="import-auto-id1169680654317">
+      <media id="import-auto-id1169682471542" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-e3dc.png" height="341" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169685895654">
+      <emphasis effect="bold">Figure 2. Trends in Future Size as illustrated in ITRS 2003 Roadmap.</emphasis>
+    </para>
+    <para id="import-auto-id1169691926200">According to ITRS 2003, by 2014 L<sub>Gate</sub>= 35nm, V<sub>DD</sub> = 0.4V and clock frequency = 30GHz.</para>
+    <para id="import-auto-id1169688002736">Shrinking geometries, low power voltages and high frequency have a negative impact on reliability. These enhanced features have increased the failure rates.</para>
+    <para id="import-auto-id1169695990496">
+      <emphasis effect="bold">1.2.7.New methods to meet the challenges of nano miniaturization.</emphasis>
+    </para>
+    <para id="import-auto-id1169676213250">Multiple core with threading has been one innovation for solving the thermal management at nano level.</para>
+    <para id="import-auto-id1169681047334">Copper interconnect provides higher electromagnetic threshold than Aluminum. So Industry is adopting  Cu interconnects.</para>
+    <para id="import-auto-id1169685284077">Fault avoidance and fault tolerance are the possible ways of improved reliability.</para>
+    <para id="import-auto-id1169689142125">Fault avoidance relies on improved materials, improved manufacturing processes and improved circuit design. Cu interconnects is an example of  improved materials.</para>
+    <para id="import-auto-id1169690931816">SOI is the process solution for lower circuit sensitivity to particle induced transients.</para>
+    <para id="import-auto-id1169680961867">Fault tolerance is implemented at circuit and system level. It relies on error detection and error correction code.</para>
+    <para id="import-auto-id1169676689479">
+      <emphasis effect="bold">1.2.8.Future of Integrated Circuits.</emphasis>
+    </para>
+    <para id="import-auto-id1169694990088">Human appetite for computation has grown faster than the processors power of real life computers. We need more powerful processors just to keep up with modern applications like interactive multi-media, mobile computing and wireless communication. In addition battery power is at premium in mobile computing environment hence power aware  components/systems are indispensible.</para>
+    <para id="import-auto-id1169680882671">Low power design  can be achieved at different level of the system- basic process/device level (threshold reduction, multi-threshold deices), at circuit level (transistor sizing, logic optimization, activity driven power down, low swing logic, adiabatic switching), at architecture level (voltage scaling, parallelism,, instruction set , signal correlation) at algorithm level( complexity, concurrency, locality, regularity,data representation) and at system level.(design partitioning and power down).</para>
+    <para id="import-auto-id1169689642408">We have to simultaneously look at performance-power-cost product . This will lead to new computer architecture.</para>
+    <para id="import-auto-id1169681726584">As we scale down the dimensions for each new generation technology, new areas of applications are emerging. </para>
+    <para id="import-auto-id1169681336435">To continue its historical growth and continue to follow Moore’s Law, the Semiconductor Industry will require advances at all fronts- from front end processors and lithography to design innovations, high performance process architecture and SOC solutions.</para>
+    <para id="import-auto-id1169682364757">Further down the scaling strategy we are bound to hit a road block.</para>
+    <para id="import-auto-id1169681352269">The recent development in the field of Graphene Transistors show that these could be a promising candidate  for taking over the mantle for continued scaling down according to Moore’s Law.[Kreupl, Franz “ Carbon nano-tubes finally deliver”, <emphasis effect="italics">Nature,</emphasis>.<emphasis effect="bold">484</emphasis>, 321-322, 19<sup>th</sup>  April 2012].</para>
+    <para id="import-auto-id1169683610582">The present Graphene Transistor using single walled Carbon nano-tube(SWCNT) of 9nm at a supply voltage of 0.4V switches from ‘0’ to ‘1’. The current ratio of ON to OFF is 10,000 times which is excellent for LOGIC applications.. This operates at low voltage hence it mitigates the demand in energy. The only difficulty is in fabricating these devices because of non-availability of SWCNT of one flavor.</para>
+    <para id="import-auto-id1169693559246">In contrast according to IRTS 2011[ITRS2011 Edition , Front End Processors</para>
+    <para id="import-auto-id1169685149869">Go.nature.com/qykuh1(2011)], a similar sized Si MOSFET of 9nm gate length and operating at 0.64V will arrive in the market in 2022 and we cannot anticipate the cost.</para>
+    <para id="import-auto-id1169687086006">So it is ripe time that we explore for alternatives if the present rate of miniaturization and development has to be maintained.</para>
+  </content>
+</document>

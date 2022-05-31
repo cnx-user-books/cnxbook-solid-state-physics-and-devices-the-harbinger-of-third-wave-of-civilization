@@ -1,0 +1,101 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 3_Basic Electrical Properties_continued4.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38528</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 3_Basic Electrical Properties_continued4.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 3 is continued. Here we discuss the different pull up configurations we use to realize NMOS inverter. It is shown that CMOS is the best configuration from power conservation point of view though heat management remains a problem at high switching speed.</md:abstract>
+  <md:uuid>6923bd76-4ce6-4e12-ace7-bac213d8d066</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168227565954">SSPD_Chapter 7_Part 3_Basic Electrical Properties_continued4.</para>
+    <para id="id2035144">7.3.11 Alternative forms of NAND Gates/Alternative forms of Pull-up configuration.</para>
+    <para id="id5862857">Just like RTL Logic, MOS Logic can have a passive load or an active load. From integration point of view we always prefer an active load in comparison to passive load.</para>
+    <para id="id1168227577461">Passive Load is a resistance and resistance occupies too much real estate on the chip as well as it has a limited options. Therefore we use an active device as the active load. In BJT Technology we have Current Mirror, Symmetrical Widlar and Widlar being used as the active load of differential amplifier which is the basic building block of an Op. Amp.</para>
+    <para id="id1168227703906">In Figure 7.3.11.1 we show the BJT Current Mirror being used as active load in differential amplifier. </para>
+    <figure id="id1168216432763">
+      <media id="id1168216432763_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-3234.png" id="id1168216432763__onlineimage" height="482" width="519"/>
+      </media>
+    </figure>
+    <para id="id7813093">Here Q3 and Q4 constitute the Current Mirror. The two together act as the active load of the differential amplifier. Q1 and Q2 are the drivers of the differential amplifier. In exactly the same manner MOS can also be used as an active load .</para>
+    <para id="id6206201">
+      <emphasis effect="bold">7.3.11.1. NMOS Inverter with (D)NMOS as pu transistor.</emphasis>
+    </para>
+    <para id="id1168227620222"><emphasis effect="bold"/>Passive load Pull-up configuration is technically unfeasible for IC technology. Hence we always go for Active Load Pull-Up configuration. The first configuration has already been discussed in Section 7.3.10. In this NMOS inverter with (D)NMOS as the Pull-Up transistor the biggest drawback is the standby power dissipation. When Vin = HIGH, Vout=LOW and both transistors are ON leading to rail to rail current flow hence power dissipated will be typically 5V×5mA = 25mW.</para>
+    <para id="id1168227480502"> While switching the outut from ‘1’ to ‘0’, the actual switching starts when Vin has exceeded Vt [threshold voltage of (E)NMOS].</para>
+    <para id="id1168227661208"> While switching the output from ‘1’ to ‘0’, load capacitance is rapidly discharged through the pd transistor which is in triode region. Pd transistor provides low resistance path hence time constant of discharge is short.</para>
+    <para id="id8046801"> Similarly while switching from ‘0’ to ‘1’, load capacitance rapidly charges through pu transistor. Pu transistor also is in triode region for the latter part of switching from ‘0’ to ‘1’.</para>
+    <para id="id1168227469030"> This is favourable feature which was encountered in Totem Pole configuration of TTL gates. This helps improve the switching speed but the standby dissipation under Vi = HIGH disfavours this circuit hence it was left out as IC Technology progressed.</para>
+    <para id="id1168227725275">7.3.11.2.NMOS Inverter with (E)NMOS as pu transistor</para>
+    <para id="id1168227461346"> Figure 7.3.11.2 describes NMOS Inverter with (E)NMOS as pu transitor. Here also standby power dissipation is high when Vin= HIGH.</para>
+    <para id="id1168227727848"> Vout never reaches V<sub>DD</sub> because of voltage equal to threshold voltage dropping along the channel.</para>
+    <para id="id1168227647130"> By deriving V<sub>GG</sub> from a switching clock source, dissipation can be reduced. When Vin = HIGH we keep Gate of the active load LOW so that pu(T1) is turned off. So only driver (T2) is turned ON. T2 provides a low resistance path for the discharge of load capacitance when Vin = HIGH.</para>
+    <para id="id1168227764110"> When Vin=LOW, T2 is OFF. During that period of Vin=LOW, we keep the gate of active load(T1) HIGH so that T1 is ON and low resistance path for charging the capacitive load. Hence Load Capacitance rapidly charges from ‘0’ to ‘1’ with a short time constant of charging.</para>
+    <para id="id6480077"> This configuration is fast as well as it has low standby power but it has the added circuit complexity because of synchronized gate input of the active load. Hence this configuration has fallen into disfavour.</para>
+    <para id="id1168227727204">
+      <figure id="id1168224833308">
+        <media id="id1168224833308_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-6997.png" id="id1168224833308__onlineimage" height="398" width="555"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168227690367">
+      <emphasis effect="bold">7.3.11.2.(E)NMOS Inverter with (E)PMOS as pu transistor- complementary transitor pull-up also known as CMOS Logic.</emphasis>
+    </para>
+    <para id="id2740073"> A NMOS Inverter with a (E)PMOS as pu transistor is shown in Figure 7.3.11.3. This complementary MOS configuration is known as CMOS. The permissible states are given in Table 7.3.11.1.</para>
+    <para id="id8009245">Table 7.3.11.1. The two permissible states of CMOS.</para>
+    <table id="id3010870" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>(E)NMOS</entry>
+            <entry>(E)PMOS</entry>
+            <entry>Vout</entry>
+          </row>
+          <row>
+            <entry>Vin</entry>
+            <entry>LOW</entry>
+            <entry>OFF</entry>
+            <entry>ON(sourcing the current to the capacitive load)</entry>
+            <entry>HIGH(O/P has a low resistance path through ON PMOS to V<sub>DD</sub>)</entry>
+          </row>
+          <row>
+            <entry>Vin</entry>
+            <entry>HIGH</entry>
+            <entry>ON(sinking the current from the capacitive load)</entry>
+            <entry>OFF</entry>
+            <entry>LOW(O/P has a low resistance path through ON NMOS to the GND)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168227713519">
+      <figure id="id1168227790160">
+        <media id="id1168227790160_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-410f.png" id="id1168227790160__onlineimage" height="535" width="566"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168227590614">Part (a) of Figure 7.3.11.3 gives the circuit configuration, Part(b) gives the transfer characteristics and Part (c) gives the current flow.</para>
+    <para id="id1168224890480">In Part(b) we see that full logical levels are realized i.e. O/P HIGH=V<sub>DD</sub> and O/P LOW = 0V.</para>
+    <para id="id5749487">In Part (c) we see that under standby the current from rail to rail is zero. Hence standby dissipation is zero. Hence CMOS is also known as NanoWatt Logic.</para>
+    <para id="id8363189">During the switching there is a current flow from rail to rail hence dissipation per gate is directly proportional to clocking speed. In Figure 7.3.11.4 we compare the dissipation curves of TTL Logic and CMOS Logic under standby as well as under switching condition.</para>
+    <para id="id8020823">For identical geometries PMOS is slower than NMOS on account of lower mobility of holes. Hence to achieve identical switching time from LOW to HIGH and from HIGH to LOW, geometries will have to be optimized as we have to optimize for different configuration of NMOS inverter. </para>
+    <para id="id1168227470174">
+      <figure id="id1168227573387">
+        <media id="id1168227573387_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-30ed.png" id="id1168227573387__onlineimage" height="410" width="532"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id6488122">From here onward we will be focused on CMOS Logic and its analysis.</para>
+  </content>
+</document>

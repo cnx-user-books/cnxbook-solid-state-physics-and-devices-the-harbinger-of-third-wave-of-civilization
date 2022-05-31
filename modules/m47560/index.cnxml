@@ -1,0 +1,429 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 3_Solid State Diode Physics.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47560</md:content-id>
+  <md:title>SSPD_Chapter 3_Solid State Diode Physics.</md:title>
+  <md:abstract>Section 3. covers the Diode Physics and its theoretical formulation under Ideal Condition and under Real Condition.</md:abstract>
+  <md:uuid>432561b3-5dbf-4142-b9d2-60c08c3a5cee</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1167197124400">
+      <emphasis effect="bold">SSPD_Chapter 3_Solid State Diode Physics. </emphasis>
+    </para>
+    <para id="import-auto-id1167206844870">Today we are living in knowledge intensive society which is going through the Third Information Revolution. In this Information Age we are critically dependent upon Solid State Devices for generating, processing and transmitting information and information is nothing but signal. Hence Solid State Devices are performing the following signal processing:</para>
+    <list id="import-auto-id1167210869678" list-type="enumerated" number-style="lower-roman">
+      <item>Reception/detection of signal. This signal can be very weak and heavily corrupted by noise and interferences.</item>
+      <item>Amplification of Signal through Signal Amplifiers.</item>
+      <item>Signal Processing for restoring the integrity of the signal.</item>
+      <item>Information carried by the signal needs to be stored in the memory. There are compact discs and magnetic tapes.Gradually these are being supplanted by Solid State Memories. They are cheap and are becoming faster.</item>
+      <item>Through Solid State Sensors, environmental parameters are being sensed and converted into electrical/optical signals which are subsequently processed and utilized for different applications.</item>
+      <item>Solid State Displays and Flat Panel Displays utilizing Solid State Devices are increasingly taking the place of the conventional displays.</item>
+    </list>
+    <para id="import-auto-id1167204733041">One of the Solid State Devices which has been in use since early 20<sup>th</sup> century is PN Junction Diode. It has been used for envelope detection of Amplitude Modulated Signals in Radio Broadcasts.</para>
+    <para id="import-auto-id1167197336711">Subsequently it has been used in power conditioning circuits for generating DC Voltages from AC Voltages.</para>
+    <para id="import-auto-id1167202286197">It has found applications in Frequency Modulation Circuits as Varactor Diodes.</para>
+    <para id="import-auto-id1167206717347">It has found applications in MicroWave Generation and Amplification as Esaki or Tunnel Diodes.</para>
+    <para id="import-auto-id1167197185361">It has found applications as Schottky Diodes in Scottky Clamped TTL Circuits for speeding up the switching speed of TTL Gates.</para>
+    <para id="import-auto-id1167197947740">PN Junction can be modified to behave like ohmic contacts instead of rectifying contacts.</para>
+    <para id="import-auto-id1167205055591">PN Juntions are extensively used as Photo-Voltaic Cells or as Solar Cells.</para>
+    <para id="import-auto-id1167202260837">
+      <emphasis effect="bold">3.1. Fabrication of PN Junction Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1167202198760">A PN Junction diode is fabricated by diffusing N-type dopent(Phosphorous) into P-Type Wafer with Boron Doping at an uniform concentration of 10<sup>15</sup>/cc corresponding to a resistivity of 10 Ω-cm. The diffusion is carried out in Diffusion Furnace at a high temperature of 1000°C to 1300°C with a tolerance of ±0.5°C. The diffusion furnace is shown in Figure 6.14 in Chapter 6.</para>
+    <para id="import-auto-id1167209531151">There can be two kinds of diffusion shown in Figure 3.1:</para>
+    <para id="import-auto-id1167209498261">Pre-depostion- It is a short period constant-source diffusion with a shallow junction. The Doping Profile is Complementary Error Function and the Junction is a one-sided step-junction or abrupt junction.</para>
+    <para id="import-auto-id1167199095102">Limited Source Diffusion- It is a long drive-in diffusion [erfc(z)] with a deep junction. The doping profile is Gaussian and the junction is linearly graded junction as shown in Figure 3.1.</para>
+    <figure id="import-auto-id1167213479822">
+      <media id="import-auto-id1167207627649" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-8b77.png" height="450" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167210874568">.Both these two kinds of junctions have their unique electrical parameters which we will see in the subsequent section.</para>
+    <para id="import-auto-id1167204479192">
+      <emphasis effect="bold">3.2.Physics of PN Junction Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1167200091322">Whenever two dis-similar materials are brought in contact, a contact potential is developed. This property is used in Thermo-couple.</para>
+    <para id="import-auto-id1167198615497">Similarly when P-Type and N-Type is brought in contact, a built-in barrier potential (Φ<sub>BO</sub>)  develops at the metallurgical junction of P-Type and N-Type semiconductor. As shown in Figure 3.2., diffusion of the majority carriers leads to the development of a dipole layer at the junction.</para>
+    <para id="import-auto-id1167203808249">This dipole layer is called space-charge layer, transition layer or depletion layer. The development of dipole layer prevents further diffusion of majority carriers. </para>
+    <para id="import-auto-id1167198937096">
+      <emphasis effect="italics">This built-in barrier potential is always an up-hill for the majority carriers and is always a down-hill for minority carriers.</emphasis>
+    </para>
+    <para id="import-auto-id1167205094288">The diffusion of majority carriers from high concentration to low concentration is diffusion current and drift of minority carriers down the potential hill is drift current.</para>
+    <para id="import-auto-id1167200263254">At this point a detailed charge balance is achieved as follows:</para>
+    <para id="import-auto-id1167205772086"><figure id="import-auto-id1167210671855"><media id="import-auto-id8953383" alt=""><image mime-type="image/png" src="../../media/graphics1-d3cb.png" height="27" width="492"/></media></figure> 3.2.1</para>
+    <figure id="import-auto-id1167201057471">
+      <media id="import-auto-id2975596" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-ecb6.png" height="27" width="498"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167198615669">3.2.2</para>
+    <figure id="import-auto-id1167200366853">
+      <media id="import-auto-id1167205052766" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-bfaf.png" height="529" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167200256070">A more detailed picture of the depletion region is given in Figure 3.3 under zero-bias condition. This gives the space-charge profile, electric-field profile and the potential profile along the longitudinal axis of the PN Junction diode.</para>
+    <figure id="import-auto-id1167198690583">
+      <media id="import-auto-id1167198362952" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-2f88.png" height="546" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167200262181">Under ZERO-BIAS condition,as seen in Figure 3.3. <emphasis effect="bold">Holes, </emphasis>majority carriers in P-Bulk, are diffusing from P-Region to N-Region. <emphasis effect="bold">Holes,</emphasis> minority carriers in N-Bulk, which survive to reach the edge of the depletion region just flow down-hill across the potential gradient as shown in Graph 3 in Figure 3.3. φ</para>
+    <para id="import-auto-id1167194350311">As also seen in Figure 3.3. <emphasis effect="bold">Electrons, </emphasis>majority carriers in N-Bulk, are diffusing from N-Region to P-Region. <emphasis effect="bold">Electrons,</emphasis> minority carriers in P-Bulk, which survive to reach the edge of the depletion region just flow down-hill across the potential gradient as shown in Graph 3 in Figure 3.3.</para>
+    <para id="import-auto-id1167204068016">Under zero-bias, hole diffusion is exactly balanced by hole drift and electron diffusion is exactly balanced by electron drift. Hence by detailed charge balance net current through the Diode under zero-bias is zero.</para>
+    <para id="import-auto-id8908151">Graph 1 gives the Space Charge Density (ρ) C/cc. In the bulk region there is no space charge. The positive and negative are exactly balanced hence net charge is zero. But in depletion region d<sub>0</sub>, there is uniform negative space charge density on the P-Side extending over d<sub>p0</sub> cm  and there is uniform positive space charge density on N-Side extending over d<sub>n0</sub> cm. The negative space-charge is due to negatively ionized Boron Atoms on P-Side and positive space charge is due to positively ionized Phosphorous Atoms on N-Side.Since I am discussing One-Sided Step Junction or Abrupt Junction hence doping density is uniform as seen in Figure 3.1. This is the reason why Space-Charge Density in depletion region is uniform on both sides though of opposite polarities.</para>
+    <figure id="import-auto-id1915775">
+      <media id="import-auto-id1167209404398" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-2435.png" height="568" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id2657065">On P-Side, Acceptor Dopent Density N<sub>A</sub> is uniform from –d<sub>p0</sub> to zero. On N-side , Donor Dopent Density is uniform from 0 to d<sub>n0</sub>.</para>
+    <para id="import-auto-id1167213470683">Since depletion region is a dipole layer with equal positive and negative charges on the two poles hence:</para>
+    <figure id="import-auto-id1167202508842">
+      <media id="import-auto-id1167210320283" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-8428.png" height="25" width="411"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167195291941">Equation (3.2.3) tells us that <emphasis effect="italics">depletion layer is deeper on the lightly doped side and shallower on heavily doped side.</emphasis></para>
+    <para id="import-auto-id1167199108264">Graph 2 gives the Electric Field Profile. Electric Field(E) is Electric Flux Density (D) divided by permittivity(ϵ= ϵ<sub>0</sub>ϵ<sub>r</sub>)  where D is the number of Flux passing through cm<sup>2</sup> cross-sectional area. In Rationalized MKS units it is assumed that 1 Coulomb of Charge gives rise to 1 Coulomb of electric Flux. Hence qN<sub>D</sub>d<sub>n0</sub> is the total positive charge within a volume of 1cm<sup>2</sup> cross-sectional area and length d<sub>n0</sub> cm. Equivalently qN<sub>A</sub>d<sub>p0</sub> is the total negative charge within a volume of 1cm<sup>2</sup> cross-sectional area and length d<sub>p0</sub> cm. Electric Flux originates on +ve Charge and terminates on –ve charge. Therefore Flux Density D is maximum at metallurgical junction z = 0 and negatively directed.</para>
+    <para id="import-auto-id1167218647117">Therefore at z = 0, D<sub>max</sub> = - qN<sub>D</sub>d<sub>n0</sub>= - qN<sub>A</sub>d<sub>p0</sub> and on the two sides D linearly decreases to zero at z = –d<sub>p0</sub> and at z = d<sub>n0</sub>. Hence E is maximum at z = 0 and falls linearly to zero at z = –d<sub>p0</sub> and at z = d<sub>n0</sub> as shown in Graph 2. From this we conclude that</para>
+    <figure id="import-auto-id1167203030139">
+      <media id="import-auto-id1167207329098" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-8cb2.png" height="41" width="431"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6526438"> Since Electric Field E is the negative of potential gradient hence potential is the area under the Electric Field profile:</para>
+    <figure id="import-auto-id2963176">
+      <media id="import-auto-id1167213159429" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-29e8.png" height="40" width="572"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167195195767">Therefore:</para>
+    <figure id="import-auto-id1167201390850">
+      <media id="import-auto-id1167213609094" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-89da.png" height="41" width="545"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167194341755">Therefore:</para>
+    <figure id="import-auto-id1167210839739">
+      <media id="import-auto-id1167199801684" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-3812.png" height="43" width="504"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167202426940">Similarly</para>
+    <figure id="import-auto-id1167205291205">
+      <media id="import-auto-id1167194047570" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-2357.png" height="43" width="508"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167204127061">Adding Equation (3.2.7) and (3.2.8) we get:</para>
+    <figure id="import-auto-id1167196313983">
+      <media id="import-auto-id1167201809233" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-661b.png" height="43" width="482"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167207212924">Square rooting Equation (3.2.8):</para>
+    <figure id="import-auto-id8993360">
+      <media id="import-auto-id1167207235617" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-a85d.png" height="61" width="458"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167203102892">This equation tells us that if we have one sided step junction then depletion layer will lie on lightly doped region and will be determined entirely by the lighter doping density.</para>
+    <para id="import-auto-id1167199286854">Equation (3.2.9) tells us that in abrupt junctions the depletion width ‘d’ is directly proportional to the  square root of the  barrier potential.</para>
+    <para id="import-auto-id1167202241246">In linearly graded junctions ‘d’ is directly proportional to the cube root of the barrier potential. This will be shown in the advanced version of Diode Physics. </para>
+    <para id="import-auto-id1167198936738">As seen in Figure 3.3.A, there is a carrier concentration gradient in the depletion region which causes the diffusion current across the depletion region. As seen in Graph 3 of Figure 3.3. there is a potential gradient also in the depletion region. This leads to the drift of minority carriers.Drift and Diffusion together lead to detailed charge balance leading to zero current across the depletion under zero-bias condition.</para>
+    <para id="import-auto-id1167214254397">
+      <emphasis effect="bold">3.2.1. Energy Band Diagram interpretation of Built-in Barrier Potential.</emphasis>
+    </para>
+    <para id="import-auto-id1167200301098">When P-Type Semiconductor and N-Type Semiconductor are alloyed together or PN-Abrupt Junction formed by diffusion then under no bias condition and under thermal equilibrium condition, Fermi-Level of P-Type and that of N-Type align themselves as shown in Figure 3.4 since Fermi-Level is a function of temperature and the two samples are at the same temperature when alloyed together. In the process there is band-bending and built-in potential gradient is created at the junction.</para>
+    <para id="import-auto-id1167215914934"> In Chapter 3 Advanced version of diode, it will be shown that:</para>
+    <figure id="import-auto-id1167209015653">
+      <media id="import-auto-id1167212440776" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-e0be.png" height="45" width="463"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167217262083">From Equation 2.2.6.2.7:</para>
+    <figure id="import-auto-id1167213601364">
+      <media id="import-auto-id1167194325501" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-9dd9.png" height="40" width="424"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167200117694">Substituting Equation (3.2.11) in (3.2.10) we get:</para>
+    <figure id="import-auto-id8989313">
+      <media id="import-auto-id1167201060122" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-74ae.png" height="43" width="413"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1760845">In Equation (3.2.12), V<sub>Th</sub> is the thermal voltage kT/q= 0.026V at 300K, V<sub>G</sub>= band gap voltage of the material and for Si it is 1.12V and N<sub>C</sub> and N<sub>V</sub> are equivalent density of states= 10<sup>19</sup>/cc (for Si) and if N<sub>A</sub>= N<sub>D</sub>=10<sup>16</sup>/cc then built-in barrier potential is of 0.8V.  .</para>
+    <para id="import-auto-id1167204473110">From Equation (3.2.12), it is evident that Built-in Barrier Potential is of the order of the Band-Gap of the material. Large Band-Gap material such as GaAs will have a large Built-in Barrier Potential and Narrow Band-Gap material such as Ge has a low Built-in Barrier Potential. This is the reason why Ge has a cut-in voltage of 0V, Si has 0.5V and Ga As has 1V.</para>
+    <para id="import-auto-id1167215547538">Equation (3.2.12) also tells us that when doping approaches equivalent density of states, φ<sub>BO</sub>(Built-in Barrier Potential) approaches V<sub>G</sub>(Band-Gap Volt) and E<sub>F</sub>(Fermi-Level) enters the conduction band and valence band in N-Type and P-Type semiconductor respectively as shown in Figure (3.5). The semi-conductor becomes de-generate and Maxwell-Boltzmann Approzimation does not hold good and we must apply Fermi-Dirac Distribution.</para>
+    <para id="import-auto-id1167219605393">Degenerate Semiconductor is referred to as semi-metal. Al(Aluminum) is P-Type material and when deposited over lightly doped N-Type material, PN  junction is a rectifying  contact and is referred to as Schottky Diode, hot electron diode.It has a very high switching speed.This technique is used in Scottky-clamped TTL gate,74 series. But if Al contact is deposited over N+ layer then we get ohmic contact. In vertical IC npn transistor, this technique is used for making contact to the Collector of the BJT.</para>
+    <figure id="import-auto-id1167213837172">
+      <media id="import-auto-id1167199781571" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-dd4c.png" height="674" width="571"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1167215766343">
+      <media id="import-auto-id1167203102931" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-5d9b.png" height="683" width="575"/>
+      </media>
+    </figure>
+    <para id="import-auto-id8940100">
+      <emphasis effect="bold">3.2.2.PN Jn Diode under forward bias and theoretical deduction of Shockley Equation or Ideal Diode Equation..</emphasis>
+    </para>
+    <figure id="import-auto-id1167210313703">
+      <media id="import-auto-id1167202329009" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-fb8c.png" height="689" width="519"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167204579544">Under forward bias, depletion layer shrinks,E<sub>max</sub> reduces and built-in barrier potential reduces by V<sub>F</sub> and majority carriers easily climb over the up-hill potential gradient and get injected to the other side strongly perturbing the minority carrier there-on.</para>
+    <para id="import-auto-id1167201797735">If the forward bias is more than 0.5V which is the cut-in voltage for Si-Diode, PN Jn Diode turns on and there is exponential increase in the diffusion current whereas drift current remains unaltered. Drift current remains unaltered because it depends on the minority carriers falling down the potential gradient in the depletion width. Since minority carriers are in very short supply hence their drift is unaffected by forward bias.But the barrier potential which was of 0.8V  drastically reduces for forward voltage greater than 0.5V hence majority carriers easily cross the up-hill potential gradient within the depletion and lead to a decade increase in the forward current for every 60mV increase in the forward bias which we will see in the next section. </para>
+    <para id="import-auto-id1167198907226">Forward Current Density flow , its components and carrier concentration profiles under forward bias condition are shown in Figure 3.7.</para>
+    <para id="import-auto-id1167204093992">As can be seen in Figure 3.7, majority carriers are injected to the oher side strongly perturbing the minority carrier from thermal equilibrium value to a new elevated value under forward bias condition. For example on N-Side:</para>
+    <figure id="import-auto-id1167209644604">
+      <media id="import-auto-id8049199" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-8bd3.png" height="43" width="539"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1167199693062">
+      <media id="import-auto-id1167199948305" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-97d5.png" height="35" width="358"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167201067514"> These new perturbations p<sub>n</sub>(0) at the edge of the depletion layer on N-side and n<sub>p</sub>(<sub/>0) at the edge of the depletion layer on P-side exponentially decay to thermal equilibrium values on their respective sides with length constant of L<sub>p</sub> and L<sub>n</sub> as shown in Figure 3.7. </para>
+    <figure id="import-auto-id1167218153814">
+      <media id="import-auto-id1167204716930" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-b698.png" height="641" width="570"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167198624204">As already discussed, forward bias lowers the built-in barrier potential hence though up-hill for majority carriers, majority carriers cross it with ease. Hence diffusion current component carried by majority carriers increases mani-folds and diode is turned on. As seen in Figure 3.7. Depletion layer shrinks and Majority carriers are injected into the other side across the depletion layer. Hence minority carrier profile is perturbed near the edge of the depletion width on both sides of the junction.The perturbation of minority carrier profile leads to identical perturbation in the majority carrier profile for maintaining the space-charge neutrality. The perturbed profile in the minority carrier leads to the diffusion of minority carriers away from the junction to the ohmic contact.As minority carriers diffuse away they recombine with the majority carriers along the way. Hence majority cariers rush in as recombination current from the ohmic contact towards the depletion layer.</para>
+    <para id="import-auto-id1167198368547">For the continuity of the current flow, at every section of the bulk:</para>
+    <figure id="import-auto-id1167200598068">
+      <media id="import-auto-id8954038" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-0d89.png" height="25" width="527"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167213607560">Within the depletion layer as shown in Figure 3.7, electron and hole currents are constant and there is no recombination within the depletion layer.</para>
+    <para id="import-auto-id1167214702587">Deduction of Shockley Equation or Ideal Diode Equation.(<emphasis effect="italics">Optional</emphasis>)</para>
+    <para id="import-auto-id1167194807989">William Shockley, who invented BJT along with Bardeen and Braittain, made two important assumptions while deriving Ideal Diode Equation:</para>
+    <para id="import-auto-id1167203964664">Assumption 1: There is no recombination within the depletion region and both electron and hole current are constant while crossing the depletion region;</para>
+    <para id="import-auto-id1167204720761">Assumption 2:The two bulk regions are quasi-neutral and the forward applied voltage drops across the depletion region causing the built-in barrier potential to drop from  φ<sub>BO</sub> to (φ<sub>BO</sub>-V<sub>F</sub>). During reverse bias, the built-in barrier potential increases from φ<sub>BO</sub> to (φ<sub>BO</sub>+V<sub>R</sub>).</para>
+    <para id="import-auto-id1167200269341">The total diode current J<sub>D</sub>(forward)referring to Figure 3.7:</para>
+    <figure id="import-auto-id1167201025932">
+      <media id="import-auto-id1167201080237" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-43ba.png" height="27" width="519"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1167201272256">
+      <media id="import-auto-id1167201910029" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-6078.png" height="45" width="536"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167214644179">By Boltzmann Relationship:</para>
+    <figure id="import-auto-id1167199875416">
+      <media id="import-auto-id1167204679590" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-3061.png" height="43" width="525"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167212684032">Substituting Equation (3.2.2.4) in Equation(3.2.2.3):</para>
+    <figure id="import-auto-id1167214658561">
+      <media id="import-auto-id1167197330980" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-caea.png" height="47" width="510"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167197351372">Equation 3.2.2.5 gives the Ideal Diode Equation by multiplying current density ‘J’ by cross-sectional area ‘A’ of the device:</para>
+    <figure id="import-auto-id1167201028701">
+      <media id="import-auto-id1167199918611" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-97e3.png" height="43" width="526"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1167206844485">
+      <media id="import-auto-id1167198694303" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-1e36.png" height="70" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167197313739">In Equation (3.2.2.5), Diffusion Coefficient and Diffusion Lengths are strongly dependent on the ambient temperature as well as the doping concentration of the P and N-Bulk.</para>
+    <para id="import-auto-id1167193731817">Table 3.2.2.1. gives the typical values of Diffusion Lengths for different samples.</para>
+    <para id="import-auto-id1167202063707">
+      <emphasis effect="bold">Table 3.2.2.1.Typical values of Diffusion Lengths for typical ssamples.</emphasis>
+    </para>
+    <table id="import-auto-id1167204765207" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>Sample</entry>
+            <entry>Mobility of minority carrier(cm<sup>2</sup>/V-s)</entry>
+            <entry>Life-Time</entry>
+            <entry>Diffusion Coefficient(cm<sup>2</sup>/s)</entry>
+            <entry>Diffusion L</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>P-TypeGaAs(300K)</entry>
+            <entry>4000</entry>
+            <entry>0.6ns</entry>
+            <entry>104(for electrons)</entry>
+            <entry>2.5μm</entry>
+          </row>
+          <row>
+            <entry>P-Type Si(300K)</entry>
+            <entry/>
+            <entry>0.01μs</entry>
+            <entry>25(for electrons)</entry>
+            <entry>5μm</entry>
+          </row>
+          <row>
+            <entry>N-Type Si(300K)N<sub>D</sub>=10<sup>17</sup>/cc</entry>
+            <entry>μ<sub>n</sub>=1100,μ<sub>p</sub>=400</entry>
+            <entry>1.44μs</entry>
+            <entry>10.4(for holes)</entry>
+            <entry>38.69μm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1167212998580"><emphasis effect="bold">3.2.2.1. Wide-Bulk Diode </emphasis>.</para>
+    <para id="import-auto-id1167214257258">When the Bulk Widths are much greater than Diffusion Lengths of the minority carriers then the  minority carriers perturbation have exponential decay and these Diodes are called Wide-Bulk Diode. The surface contacts or ohmic contacts donot influence the diode forward-bias current and donot effect the turn-on time.</para>
+    <para id="import-auto-id1167199782822"> Table 3.2.2.2. gives the typical parameters of an abrupt junction Wide-Bulk Diode.</para>
+    <para id="import-auto-id1167205475681">
+      <emphasis effect="bold">Table 3.2.2.2.The fabrication parameters and the electrical parameters of a Wide-Bulk Abrupt Junction Diode.</emphasis>
+    </para>
+    <table id="import-auto-id1167200347787" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <thead>
+          <row>
+            <entry>N-Bulk</entry>
+            <entry>P-Bulk</entry>
+            <entry>Φ<sub>BO</sub></entry>
+            <entry>d<sub>n</sub></entry>
+            <entry>d<sub>p</sub></entry>
+            <entry>d<sub>0</sub></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>10<sup>16</sup>/cc</entry>
+            <entry>10<sup>18</sup>/cc</entry>
+            <entry>0.834V</entry>
+            <entry>0.32μm</entry>
+            <entry>32A°</entry>
+            <entry>0.32μm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1167201049748">Table 3.2.2.3. gives the reverse saturation current or reverse leakage current in a Wide-Bulk Diode.</para>
+    <para id="import-auto-id1167214314080">
+      <emphasis effect="bold">Table 3.2.2.3.The carrier transport parameters and reverse saturation current of a Wide-Bulk diode with N-Type Doping 10</emphasis>
+      <emphasis effect="bold">16</emphasis>
+      <emphasis effect="bold">/cc and P-Type Doping 10</emphasis>
+      <emphasis effect="bold">18</emphasis>
+      <emphasis effect="bold">/cc and life-time τ</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> = τ</emphasis>
+      <emphasis effect="bold">p</emphasis>
+      <emphasis effect="bold">=1μs, cross-sectional area A= 10</emphasis>
+      <emphasis effect="bold">-3</emphasis>
+      <emphasis effect="bold">cm</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <table id="import-auto-id1167208820136" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>N-side</entry>
+            <entry>N-side</entry>
+            <entry>P-Side</entry>
+            <entry>P-Side</entry>
+            <entry>L<sub>n</sub> on P-Side</entry>
+            <entry>L<sub>p</sub> on N-Side</entry>
+            <entry>I<sub>DO</sub></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>mobility</entry>
+            <entry>μ<sub>p</sub>=300(cm<sup>2</sup>/V-s)</entry>
+            <entry>μ<sub>n</sub>=1300(cm<sup>2</sup>/V-s)</entry>
+            <entry>μ<sub>p</sub>=100(cm<sup>2</sup>/V-s)</entry>
+            <entry>μ<sub>n</sub>=289(cm<sup>2</sup>/V-s)</entry>
+            <entry>0.27μm</entry>
+            <entry>0.279μm</entry>
+            <entry>0.01pA</entry>
+          </row>
+          <row>
+            <entry>Diff.coeff.</entry>
+            <entry>D<sub>p</sub>=7.8(cm<sup>2</sup>/s)</entry>
+            <entry>D<sub>n</sub>=33(cm<sup>2</sup>/s)</entry>
+            <entry>D<sub>p</sub>=2.6(cm<sup>2</sup>/s)</entry>
+            <entry>D<sub>n</sub>=7.3(cm<sup>2</sup>/s)</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="import-auto-id1167204720539">For this Diode if we adopt Ideal Diode Equation then I-V characteristic is the following:</para>
+    <figure id="import-auto-id1167204397078">
+      <media id="import-auto-id1167202069038" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-c97a.png" height="43" width="470"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167200040842">Plotting Equation 3.2.2.7. we get Figure 3.8 and Figure 3.9.</para>
+    <figure id="import-auto-id1167214112553">
+      <media id="import-auto-id1167202736877" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-b23d.png" height="358" width="495"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1167214325139">
+      <media id="import-auto-id1167199858665" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-fdc3.png" height="373" width="442"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167208239451">We clearly see that in Figure 3.9, the cut-in voltage of an Ideal Diode is 0.5V.</para>
+    <para id="import-auto-id5251944">
+      <emphasis effect="bold">3.2.2.1. Narrow-Bulk Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1167201018748">When N-Bulk and P-Bulk is much shorter than the corresponding minority carrier Diffusion Lengths then we have Narrow-Bulk Diode. In such a case we have linear decay of the minority carrier perturbation under forward bias condition as shown in Figure 3.10.</para>
+    <para id="import-auto-id1167200050573">As can be seen in Figure 3.10, these new perturbations p<sub>n</sub>(0) at the edge of the depletion layer on N-side and n<sub>p</sub>(<sub/>0) at the edge of the depletion layer on P-side  decay linearly to thermal equilibrium values on their respective sides over the Bulk-width up to the ohmic contact where excess carrier is zero.</para>
+    <para id="import-auto-id1167195317888">Under the condition shown n Figure 3.10. the ideal diode equation becomes:</para>
+    <figure id="import-auto-id1167204048260">
+      <media id="import-auto-id1167197873362" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-f70e.png" height="47" width="550"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167203160664">Equation 3.2.2.8 is identical to Equation 3.2.2.5 except for the length constant. The Diffusion Lengths of minority carriers have been replaced by effective Bulk-Widths on the respective sides.This results in the increase of reverse saturation current by a factor of 6.</para>
+    <para id="import-auto-id1167197512162">If we take W<sub>BP</sub>=W<sub>BN</sub>=5μm which is much less than the diffusion lengths as can be seen in Table 3.2.2.3 then we get I<sub>D0</sub>= 5.6×0.01pA. But this gives a superior turn-on time as we will see in Diode Transients therefore narrow-bulk diode have applications.</para>
+    <figure id="import-auto-id1167199873920">
+      <media id="import-auto-id1167204772947" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-81b7.png" height="472" width="576"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1167210292511">The theorization of narrow-bulk diode also helps understand the modern day BJT which are shallow junction and narrow bulk devices.</para>
+    <para id="import-auto-id1167210847644">In the advanced version of Diode Physics we will discuss this narrow-bulk diode in a greater detail.</para>
+  </content>
+</document>

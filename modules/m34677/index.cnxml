@@ -1,0 +1,196 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 14_BOSONS , FERMIONS and Physics of LASER ACTION.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34677</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 14_BOSONS , FERMIONS and Physics of LASER ACTION.</md:title>
+  <md:abstract>Chapter 1_Part 14 from basic classical and quantum mechanics derives the basis of Fermi-Dirac and Bose-Einstein Statistics and leads to LASER Action.</md:abstract>
+  <md:uuid>f8b3fc42-29a1-48f9-940c-c31dcc0f69b7</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169307345329">SSPD_Chapter 1_Part 14_BOSONS , FERMIONS and Physics of LASER ACTION.</para>
+    <para id="id1169294096017"><emphasis effect="bold"/>The essence of creation is formless and uniform. There is one law for all. This is the state of super symmetry. There is a quantum-gravity theory.</para>
+    <para id="id1169302250447">After the Big Bang as expansion takes place, space and time is created, energy density falls and temperature falls. Super symmetry is broken. Different energy particles and material particles are created.</para>
+    <para id="id1169298574336"><emphasis effect="bold"/>Among these the fundamental particles are:</para>
+    <para id="id6808949">Intermediate Vector Bosons, leptons and lepton neutrino.</para>
+    <para id="id1169310419448">Hadrons are composite particles, composed of three generation of quarks and three generation of antiquarks. Triplets of quarks and anti-quarks are called Baryons and doublets of quarks and anti-quarks are called Mesons.</para>
+    <para id="id1169303587109">In 1910, Satyendra Nath Bose made an unique proposition while laying down the theoretical foundations of Black Body Radiation.</para>
+    <para id="id1169304972555">According to him all the integer number spin particles tend to aggregate together and these are called Bosons. In the energy spectrum their distribution function is defined as below:</para>
+    <para id="id1169310012018">
+      <emphasis effect="bold">P(ћω)=P(E)= 1/[Exp{( ћω)/(kT)} - 1] ………………………………… 1.136.</emphasis>
+    </para>
+    <para id="id1169305275404">Where E = ћω ;</para>
+    <para id="id1169311376237">And P(E) = Probability of occupancy at the energy level E;</para>
+    <para id="id1169308406570">In contrast to this the particles which have half integer spin namely (1/2) ћ</para>
+    <para id="id1169304878363">or (3/2) ћ , they tend to lead solitary life and they are called Fermions. Their distribution function in the energy spectrum is the following:</para>
+    <para id="id1169310014222"/>
+    <para id="id1169291338785">
+      <emphasis effect="bold">P(E)= 1/[Exp{(E-E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">)/(kT)} + 1] ……………………………………….. 1.137.</emphasis>
+    </para>
+    <para id="id1169307426080">
+      <emphasis effect="bold">Where E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold"> = Fermi Energy Level= the maximum energy level occupied by the particle in question at 0 K or where the Probability of Occupancy is (1/2) at any temperature T Kelvin.</emphasis>
+    </para>
+    <para id="id1169313632101">Why do we encounter these two kinds of statistics or these two kinds of tendencies in nature: one of aggregation and the other of segregation? </para>
+    <para id="id1169290900323"><emphasis effect="bold"/>If we look closely at these two particles we find a very significant feature between these two particles. Bosons are indistinguishable whereas Fermions are distinguishable.</para>
+    <para id="id1169287584846">1.14.1. THE EFFECT OF DISTINGUISH ABILITY ON DICE GAME.</para>
+    <para id="id1169294305294">Dice game is played as a game of gambling in almost all countries.</para>
+    <para id="id1169303551963">In its simplest form there are two coins each with two sides: head and tail. Therefore if they are played together and if the two coins are distinguishable then there are 4 distinct permutations:</para>
+    <para id="id1169313042402">Coin A- head, Coin B- tail;</para>
+    <para id="id1169298570276">Coin A- tail, Coin B- head;</para>
+    <para id="id1169292649195">Coin A- head, Coin B- head;</para>
+    <para id="id1169307274169">Coin A- tail, Coin B- tail.</para>
+    <para id="id1169294162018">But if the two particles are indistinguishable then we have only three combinations:</para>
+    <para id="id1169300463496">First combination: head and tail or tail and head;</para>
+    <para id="id1169296277601">Second combination: head and head;</para>
+    <para id="id1169300850585">Third combination: tail and tail.</para>
+    <para id="id6791973">When distinguishable coins are present then probability of occurrence of each of the four permutations is quarter(1/4).</para>
+    <para id="id1169310854842">When indistinghuishable coins are then probability of occurrence of each of the three combinations is one-third (1/3).</para>
+    <para id="id1169305994966">Thus indistinguishability has increased the probability of occurrence to:</para>
+    <para id="id1169311337944">(1/3)/(1/4)= (4/3) = 1.333</para>
+    <para id="id1169298608301">In the above example distinguishable coins are Fermions and indistinguishable are Bosons.</para>
+    <para id="id1169289894498">1.14.2. THE SCATTERING OF DISTINGHUISHABLE AND INDISTINGHUISH ABLE PARTICLES.</para>
+    <para id="id1169295292035">In Figure(1.78) the scattering system of two indistinguishable particles is shown. The indistinguishable particles are alpha particles.</para>
+    <para id="id1169301520310">
+      <figure id="id1169307275329">
+        <media id="id1169307275329_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-120c.png" id="id1169307275329__onlineimage" height="621" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169288272590">Figure 1.78. Scattering of two indistinguishable particles.</para>
+    <para id="id1169288351182">We clearly see that an alpha particle is detected at a scattering angle θ<sub>1 </sub>irrespective of the fact that the particle may be scattered at θ<sub>1 </sub>or at θ<sub>2 </sub>. This is because the alpha particles are indistinguishable. Hence </para>
+    <para id="id1169300310743">If probability amplitude of detection at θ<sub>1 </sub>is ψ(θ<sub>1</sub>) </para>
+    <para id="id1169294097198">And probability amplitude of detection at θ<sub>2 </sub>is ψ(θ<sub>2</sub>),</para>
+    <para id="id1169298610535">Then total probability density of detection of alpha particles at θ<sub>1</sub> is</para>
+    <para id="id1169300566457"/>
+    <para id="id1169289223912"><emphasis effect="bold"/>| ψ(θ<sub>1</sub>) + ψ(θ<sub>2</sub>)|<sup>2</sup><emphasis effect="bold"> …………………………………………………………. 1.138</emphasis></para>
+    <para id="id1169289229306">In the same scattering set up if α- α pair is replaced by α-O<sub>2</sub> pair the probability density of detection of α particles at θ<sub>1</sub> is</para>
+    <para id="id1169287856578"><emphasis effect="bold"/>| ψ(θ<sub>1</sub>) - ψ(θ<sub>2</sub>)|<sup>2</sup><emphasis effect="bold"> ……………………………………………………… 1.139</emphasis></para>
+    <para id="id1169311613764">This is because the scattering at θ<sub>2</sub> gives the detection of O<sub>2 </sub>which is completely distinguishable from the alpha particle.</para>
+    <para id="id1169289157876">Eq.(1.138) and Eq.(1.139) bring out the fundamental difference between bosons and fermions.</para>
+    <para id="id1169294503250">1.14.2. SCATTERING OF N PHOTONS LOCALIZED IN THE SAME SPATIAL CELL.</para>
+    <para id="id8088413">In one elemental phase cell (meaning by at the same energy level and in the same spatial space) only two fermions of opposite spin are accommodated. If a third fermion pushes itself in the cell it will be repulsed. Therefore we say fermions are segregative. </para>
+    <para id="id1169289351786">But in an elemental phase cell any number of photons can aggregate. As the number increases the tendency to aggregate increases. A quantitative measure of aggregation tendency comes out while theoretically analyzing Black body Radiation.</para>
+    <para id="id1169290084040">Suppose in a cavity the emission and absorption of photons are in equilibrium then the average energy at a given frequency is shown to be:</para>
+    <para id="id1169291057450">
+      <emphasis effect="bold">&lt;E&gt; = ћω/[Exp(ћω/(kT)) -1] ………………………………………….. 1.140</emphasis>
+    </para>
+    <para id="id1169300310627">Planck assumed that every black body radiator is composed of harmonic oscillators which oscillate at fundamental and harmonic frequencies only </para>
+    <para id="id1169325323271">that is at ω, 2 ω, 3 ω, 4 ω….. and their discrete energies are ћω , 2 ћω, 3 ћω, 4 ћω..</para>
+    <para id="id1169301699549">If total number of oscillators is N<sup>0</sup><sub>0 </sub>and if we assume that they are in energy equilibrium then from Maxwell – Boltzmann statistics:</para>
+    <para id="id1169294602453">If N<sub>0</sub> is the number of oscillators at 0 energy then</para>
+    <para id="id1169288304550">N<sub>0</sub>/ N<sup>0</sup><sub>0</sub> = Exp(-0/kT) = 1</para>
+    <para id="id1169291006120">N<sub>1 </sub>is the number of oscillators at ћω then</para>
+    <para id="id1169300401804">N<sub>1</sub>/ N<sup>0</sup><sub>0 </sub>= Exp[-ћω/kT]</para>
+    <para id="id1169293227002">N<sub>N </sub>is the number of oscillators at nћω then</para>
+    <para id="id1169301994327">N<sub>N</sub>/ N<sup>0</sup><sub>0</sub> = Exp[-N ћω/kT]<emphasis effect="bold">…………………………………………………………  1.141</emphasis></para>
+    <para id="id1169301503985">Equation(1.141) have been set up according to Maxwell-Boltzmann Statistics which states that at temperature T Kelvin, probability of existence at energy level E is :</para>
+    <para id="id1169304581160">
+      <emphasis effect="bold">P(E) = Exp(-E/kT)…………………………………………………………… 1.142</emphasis>
+    </para>
+    <para id="id1169310491161">So the average energy (per oscillator) = total energy/ total number of oscillators</para>
+    <para id="id1169301488158">&lt;E&gt; = E<sub>total</sub>/N<sub>tot</sub></para>
+    <para id="id1169288656904">= [(0× N<sub>0</sub>) + (ћω× N<sub>1</sub>)+ (2ћω× N<sub>1</sub>)+ (3ћω× N<sub>3</sub>)+…..]/[ N<sub>0</sub>+N<sub>1</sub>+ N<sub>2</sub>+ N<sub>3</sub>+..]………………………………………………………………………………………………..<emphasis effect="bold"> 1.143 </emphasis></para>
+    <para id="id1169299587089">Dividing Numerator and Denominator by N<sub>tot</sub>= N<sup>0</sup><sub>0</sub>,</para>
+    <para id="id1169288666980">We get:</para>
+    <para id="id1169295871083">&lt;E&gt; = E<sub>total</sub>/N<sub>tot</sub></para>
+    <para id="id1169300591106">= ћω [(0× N<sub>0</sub>)/N<sup>0</sup><sub>0</sub> + (1× N<sub>1</sub>) /N<sup>0</sup><sub>0</sub>+ (2× N<sub>1</sub>) /N<sup>0</sup><sub>0</sub>+ (3× N<sub>3</sub>) /N<sup>0</sup><sub>0</sub>+…..]/[ (N<sub>0</sub>) /N<sup>0</sup><sub>0</sub> +(N<sub>1</sub>) /N<sup>0</sup><sub>0</sub> + (N<sub>2</sub>) /N<sup>0</sup><sub>0 </sub>+ (N<sub>3</sub>) /N<sup>0</sup><sub>0 </sub>+..] </para>
+    <para id="id1169289356232">assuming N<sub>N</sub>/ N<sup>0</sup><sub>0</sub> = x<sup>N</sup>= Exp[- N ћω/kT] where x= Exp[- ћω/kT] and substituting in Eq.(1.143), we get:</para>
+    <para id="id1169307250447">&lt;E&gt;= ћω[0+x+2x<sup>2</sup>+3x<sup>3</sup>+…]/[1+x+x<sup>2</sup>+x<sup>3</sup>+…]<emphasis effect="bold"> …………………………………………………….. 1.144</emphasis></para>
+    <para id="id1169307146285">But [1+x+x<sup>2</sup>+x<sup>3</sup>+…] is a Geometric Progression Series where x« 1 therefore the sum of this G.P. series is 1/(1-x)</para>
+    <para id="id1169313414845">
+      <emphasis effect="bold">Hence denominator of Eq.(1.144) is 1/(1-x)…………………………………………… 1.145</emphasis>
+    </para>
+    <para id="id1169300774725">Numerator = [x+2x<sup>2</sup>+3x<sup>3</sup>+…]</para>
+    <para id="id1169319112255">= x[1+x+x<sup>2</sup>+x<sup>3</sup>+ x<sup>4</sup>+ x<sup>5</sup>+ x<sup>6</sup>+……….</para>
+    <para id="id1169303536923">+x+ x<sup>2</sup>+ x<sup>3</sup>+ x<sup>4</sup>+ x<sup>5</sup>+ x<sup>6</sup>+………..</para>
+    <para id="id1169324275060"><emphasis effect="bold"/>x<sup>2</sup><emphasis effect="bold">+</emphasis> x<sup>3</sup>+ x<sup>4</sup>+ x<sup>5</sup>+ x<sup>6</sup><emphasis effect="bold"> +……….</emphasis></para>
+    <para id="id1169293033956"><emphasis effect="bold"/>x<sup>3</sup><emphasis effect="bold">+</emphasis> x<sup>4</sup>+ x<sup>5</sup>+ x<sup>6</sup>+…………</para>
+    <para id="id1169300286896">=x[(1/(1-x)+x(1/(1-x))+x<sup>2</sup>(1/(1-x))+x<sup>3</sup>+………]</para>
+    <para id="id1169324876782">
+      <emphasis effect="bold">Numerator =x(1/(1-x)) [1/(1-x)] ……………………………………………………………….. 1.146</emphasis>
+    </para>
+    <para id="id1169307140187">Substituting Eq.(1.145) and Eq.(1.146) in Eq.(1.144)</para>
+    <para id="id1169300340942">&lt;E&gt;= ћω {x(1/(1-x)) [1/(1-x)]}/ 1/(1-x)</para>
+    <para id="id1169321929605">= ћω Exp[- ћω/kT]/[1- Exp[- ћω/kT]]</para>
+    <para id="id1169325693163">
+      <emphasis effect="bold">&lt;E&gt;= ћω/ [ Exp[ ћω/kT]-1] ………………………………………………………………….. 1.147</emphasis>
+    </para>
+    <para id="id1169304779642">
+      <emphasis effect="bold">At ћω, average energy = &lt;E&gt; = &lt;n&gt; ћω………………………………………………………… 1.148 </emphasis>
+    </para>
+    <para id="id1169288292575">Comparing Eq.(1.147) and Eq.(1.148):</para>
+    <para id="id1169291167743">
+      <emphasis effect="bold">&lt;n&gt; = average number of oscillators at ћω =1/[ Exp[ ћω/kT]-1]…………………………… 1.149 </emphasis>
+    </para>
+    <para id="id1169289944493">Dividing numerator and denominator by Exp[ ћω/kT]</para>
+    <para id="id1169300578869">
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1169317762396">
+      <emphasis effect="bold">&lt;n&gt;= Exp[- ћω/kT]/[1- Exp[- ћω/kT] ………………………………………………………. 1.150</emphasis>
+    </para>
+    <para id="id1169294471183">or <emphasis effect="bold">&lt;n&gt;+1=1/[1-Exp[- ћω/kT] …………………………………………………………………….. 1.151</emphasis></para>
+    <para id="id1169308340747"/>
+    <para id="id1169312689949">Therefore dividing Eq.(1.150) by Eq.(1.151)</para>
+    <para id="id1169316062159">
+      <emphasis effect="bold">&lt;n&gt;/[&lt;n&gt;+1] = Exp[- ћω/kT] ………………………………………………………… 1.152</emphasis>
+    </para>
+    <para id="id1169290877123">From Statistical Mechanics under energy equilibrium:</para>
+    <para id="id1169304716605">N<sub>e</sub> /N<sub>g</sub> = Exp[-∆E/kT]= Exp[- ћω/kT]<emphasis effect="bold"> ………………………………………………………….. 1.153</emphasis></para>
+    <para id="id1169322363488">Where N<sub>e</sub> = number of atoms in excited state,</para>
+    <para id="id1169289453920">N<sub>g </sub>= number of atoms in ground state ;</para>
+    <para id="id1169317793916">In energy equilibrium number of photons emitted is equal to number of photons absorbed.</para>
+    <para id="id1169289130118">By comparing Eq.(1.152) with Eq(1.153) we obtain:</para>
+    <para id="id1169287888945"><emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt;/[&lt;</emphasis>n<emphasis effect="bold">&gt;+1] =</emphasis> N<sub>e</sub> /N<sub>g</sub></para>
+    <para id="id1169311358562">Therefore <emphasis effect="bold">N</emphasis><emphasis effect="bold">g </emphasis><emphasis effect="bold">&lt;n&gt; = N</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold"> [&lt;n&gt;+1]…………………………………………………… 1.154</emphasis></para>
+    <para id="id1169290937628">If we assume that the probability of emission of photons is a<sup>2</sup> when there are no photons in the cavity then</para>
+    <para id="id1169294483406">N<sub>g </sub>&lt;n&gt; a<sup>2</sup> = N<sub>e</sub> [&lt;n&gt;+1] a<sup>2</sup><emphasis effect="bold"> ……………………………………………… 1.155</emphasis></para>
+    <para id="id1169308446520"/>
+    <para id="id1169287607760">At a given temperature T Kelvin, <emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt; </emphasis>is the average number of oscillators at a circular frequency ω.</para>
+    <para id="id1169307205406">Since ground state atoms will absorb photons and excited state atoms will emit photons hence:</para>
+    <para id="id1169289920999">N<sub>g </sub>&lt;n&gt; a<sup>2</sup> = rate of absorption</para>
+    <para id="id1169297530062">N<sub>e</sub> [&lt;n&gt;+1] a<sup>2</sup>= rate of emission…………………………………………………………. <emphasis effect="bold">1.156</emphasis></para>
+    <para id="id4200109">The two rates are exactly balanced as is evident from Eq.(1.155). </para>
+    <para id="id4167774">Eq.(1.156) tells us that if <emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt; </emphasis>number of oscillators are at the same frequency ω </para>
+    <para id="id1169297854524">then probability of absorption is <sub/><emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt;</emphasis> a<sup>2 </sup>and</para>
+    <para id="id8702743">probability of emission is [<emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt;+</emphasis>1] a<sup>2</sup>.= [<emphasis effect="bold">&lt;</emphasis>n<emphasis effect="bold">&gt;</emphasis> a<sup>2</sup><emphasis effect="bold">+</emphasis> a<sup>2</sup>]</para>
+    <para id="id1169291130400">Probability of emission = Probability of stimulated emission + Probability of spontaneous emission;</para>
+    <para id="id1169325784849">Here stimulated emission is induced emission. A passing photon induces an excited atom to emit a photon of the same frequency and same phase and in the process settle to ground state. The photon emitted by this process of stimulated emission adds to the existing photon. This is known as <emphasis effect="bold">L</emphasis>ight <emphasis effect="bold">A</emphasis>mplification by <emphasis effect="bold">S</emphasis>timulated <emphasis effect="bold">E</emphasis>mission <emphasis effect="bold">R</emphasis>adiation. The acronym of this process is LASER action.</para>
+    <para id="id1169289881770">Spontaneous Emission takes place when an excited atom settles down to ground state by itself according to Life-Time Law.</para>
+    <para id="id1169301513590">Einstein believed that stimulated emission is proportional to the intensity of light causing stimulation and intensity of light is given by the number of photons involved per second.</para>
+    <para id="id1169293718844">Therefore stimulated emission multiplicative factor</para>
+    <para id="id7860032">= absorption multiplicative factor= &lt;n&gt; a<sup>2 </sup></para>
+    <para id="id1169294813919">spontaneous emission multiplicative factor= a<sup>2</sup><emphasis effect="bold"> ……………………………………………… 1.157.</emphasis></para>
+    <para id="id1169291025724">This bosonian property of stimulated emission is utilized in LASER, the acronym for <emphasis effect="bold">L</emphasis>ight <emphasis effect="bold">A</emphasis>mplification by <emphasis effect="bold">S</emphasis>timulated <emphasis effect="bold">E</emphasis>mission <emphasis effect="bold">R</emphasis>adiation. In Figure 1.79, the physics of spontaneous emission is shown.</para>
+    <figure id="id1169302334677">
+      <media id="id1169302334677_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-d4d0.png" id="id1169302334677__onlineimage" height="403" width="649"/>
+      </media>
+    </figure>
+    <para id="id3550711">Figure 1.79. Radiation by Spontaneous Emission.</para>
+    <para id="id1169307144893">When an atom relaxes from excited state to ground state in a natural way then we refer to it as spontaneous emission. If an excited solid experiences relaxation it gives out an incoherent beam of light.</para>
+    <para id="id1169288518874">A solid can similarly be brought to excited state by irradiation by an incoherent beam of light with a frequency greater then its threshold frequency. The physics of irradiation and subsequent excited state is shown in Figure 1.80.</para>
+    <figure id="id1169293073817">
+      <media id="id1169293073817_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-67f0.png" id="id1169293073817__onlineimage" height="252" width="650"/>
+      </media>
+    </figure>
+    <para id="id1169308578224">Figure 1.80. An atom absorbs light of the correct frequency and gets raised to an excited state.</para>
+    <para id="id1169304703671">
+      <figure id="id1169289076415">
+        <media id="id1169289076415_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-b642.png" id="id1169289076415__onlineimage" height="447" width="576"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4168040">Figure 1.81. Through light irradiation RUBY is being brought to excited state. The spontaneous emission kick starts the LASER Action. The photon emitted by spontaneous emission causes stimulated emission. By stimulated emission a photon of same frequency and phase is emitted. Now there are two electrons. Two electrons are in phase and of same frequency and they constitute a coherent wave. This coherent wave causes two more stimulated emission. This results in 4 photon strong coherent beam. In this way the coherent beam exponentially multiplies and becomes strong enough to emerge out of one of the partially reflecting surfaces. This is known as Light Amplification by Stimulated Emission Radiation. </para>
+    <para id="id1169291136316"><emphasis effect="bold"/>In a LASER device first energy from DC power source is utilized to cause the population inversion. All the ground state atoms are brought to an excited metastable state through irradiation by suitable light source. Metastable means that these atoms will remain in excited state for periods of milliseconds and then if no stimulation takes place they will spontaneously settle down to ground state radiating off photons as incoherent light.</para>
+    <para id="id1169307295202">In a LASER the first photon is obtained through spontaneous emission. This photon causes stimulated emission of in-phase and same optical frequency photon.</para>
+    <para id="id1169308279700">The two photons become 4 photon in-phase , same frequency beam. When a transition to lasing mode occurs, all atoms cooperate and emit in synchronism- producing giant coherent wave. A spontaneous emission changes into stimulated emission. A chaotic system self organizes itself into an orderly system. This beam geometrically grows into a powerful coherent beam which can cause miracles. This is illustrated in Figure 1.81.</para>
+  </content>
+</document>

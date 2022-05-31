@@ -1,0 +1,133 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 5_Section5.5._Photo Sources.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48082</md:content-id>
+  <md:title>SSPD_Chapter 5_Section5.5._Photo Sources.</md:title>
+  <md:abstract>SSPD_Chapter 5_Section5.5. describes the physics and design of LEDs of various colours.</md:abstract>
+  <md:uuid>ac46becc-b281-44ba-98e2-1f1592188478</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169705189083">
+      <emphasis effect="bold">SSPD_Chapter 5_Section5.5._Photo Sources.</emphasis>
+    </para>
+    <para id="import-auto-id1169702196978"><emphasis effect="bold"/>As already discussed in Section 5.2. only compound semiconductors can act as  photo-sources as they undergo Radiative Transition and Radiative Recombination.</para>
+    <para id="import-auto-id1169708268835">Average time taken for radiative recombination = τ<sub>RR </sub>;</para>
+    <para id="import-auto-id1169701847910">Average time taken for non-radiative recombination = τ<sub>NR </sub>;</para>
+    <para id="import-auto-id1169704342848">Number of Radiative Recombinations /second= R<sub>r</sub> = 1/ τ<sub>RR </sub>;</para>
+    <para id="import-auto-id1169701796145">Number of non-Radiative Recombinations /second= R<sub>nr</sub> = 1/ τ<sub>NR </sub>;</para>
+    <para id="import-auto-id1169699439132">Internal Quantum Efficiency = η :</para>
+    <figure id="import-auto-id1169702535278">
+      <media id="import-auto-id1169701518687" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-a85f.png" height="43" width="586"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169716680001">As already discussed in Section 5.2., Compound Semiconductors with direct band-gap have high internal Quantum Efficiency whereas elemental semi-conductors have practically zero internal Quantum Efficiency.</para>
+    <para id="import-auto-id1169704243773">The principle of Photo-Sources (Light Emitting Diode as well as LASER Diode) is stated in three broad terms:</para>
+    <list id="import-auto-id1169701522439" list-type="enumerated" number-style="lower-roman">
+      <item>First the Compound Semiconductor has to be chosen of the correct band-gap so that the radiative transition generate the required wavelength as given by Equation 5.1.</item>
+    </list>
+    <figure id="import-auto-id1169702088033">
+      <media id="import-auto-id1169711353072" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-6e8f.png" height="44" width="343"/>
+      </media>
+    </figure>
+    <list id="import-auto-id1169705742772" list-type="enumerated" number-style="lower-roman">
+      <item>A Substrate of matching lattice parameter has to be chosen over which the epitaxial layer of the requisite material will be grown.</item>
+      <item>Third the Diode made of the required material must be driven hard in forward direction so as to create heavy injection condition. Under heavy injection condition there is copious amount of excess carriers available on both sides of the depletion layer. The life-time of the minority carriers should have short life-time so that they undergo rapid direct-recombination generating large amount of  required wavelength photons. This process is shown in Figure 5.5.1.</item>
+    </list>
+    <para id="import-auto-id1169705613025">
+      <emphasis effect="bold">Section 5.5.1. Design of 0.87μm (IR) Light-Emitting Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1169705661306">From Equation 5.1., for emitting 0.87μm  the required Band –Gap is 1.42eV hence GaAs is the material of choice. In this case GaAs epitaxial layer is grown on GaAs Substrate thereby providing automatic lattice matching between the epitaxial layer and the substrate. We propose to fabricate Planar Surface Emitting LED hence we choose PN+ structure with P-layer being thinner than the reciprocal of absorption coefficient. PN+ structure ensures that majority of recombination takes part in P-Bulk and since P Bulk-Width is thinner than penetration depth hence most of the photons of λ=0.87μm manage to cross the P-Bulk and emerge out of the Planar Surface as shown in Figure 5.5.1. This is an optimum structure for Planar Surface Emitting LED. The near proximity of the emitting surface to the recombination region lowers the internal quantum efficiency because the surface states of the emitting surface leads to higher non-radiative recombinations.</para>
+    <figure id="import-auto-id1169707610364">
+      <media id="import-auto-id1169705604750" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-97b4.png" height="620" width="585"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169700032360">This is a Homojunction LED since same material GaAs is used on two sides. This generally has a poor overall Quantum efficiency.</para>
+    <para id="import-auto-id1169704182667"><emphasis effect="bold">Section 5.5.2. Design of LED of various visible colours (Red, Orange,Yellow, Green and Blue</emphasis>).</para>
+    <figure id="import-auto-id1169708544196">
+      <media id="import-auto-id1169704242475" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-fad2.png" height="488" width="596"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169701774900">The system topology of GaAsP ternary compound is given. Ga is Group III element and As and P are Group V element. As and P with stoichiometric coefficient (1-y) and y combine with Ga to form a tetravalent structure which is the basic crystalline structure of all semi-conductors. By controlling the stoichiometric coefficient ‘y’ the band-gap of the resulting ternary compound can be tailored by the relation given below:</para>
+    <figure id="import-auto-id1169701750930">
+      <media id="import-auto-id1169702520231" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-60a5.png" height="24" width="573"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169705841742">Tailoring the band-gap by finely tuning the  stoichiometric coefficient ‘y’ is known as <emphasis effect="italics">Band-Gap Engineering</emphasis>. In the process of Band-Gap Engineering, the lattice parameter is also reduced from 5.65Angstrom for GaAs to 5.5Angstrom for GaP. We can use the relation ship (5.5.2) to determine the constituent materials and the substrate for fabricating LEDS of different colours namely Red, Orange, Yellow, Green and Blue. The results of thgis design is given in Table 5.5.1.</para>
+    <para id="import-auto-id1169705195157">Red LED corresponds to 0.64μm which can be emitted from GaAs<sub>(1-y)</sub>P<sub>y</sub> of E<sub>g</sub>=1.9eV. The substrate used is GaAs and stoichometric coefficient ‘y’=0.4.</para>
+    <para id="import-auto-id1169704191523">Orange LED corresponds to 0.62μm which can be emitted from GaAs<sub>(1-y)</sub>P<sub>y</sub> of E<sub>g</sub>= 2.0eV. The substrate used is GaP and stoichometric coefficient ‘y’=0.5.</para>
+    <para id="import-auto-id1169707863651">Yellow LED corresponds to 0.58μm which can be emitted from GaAs<sub>(1-y)</sub>P<sub>y</sub> of E<sub>g</sub>=2.14eV. The substrate used is GaP and stoichometric coefficient ‘y’=0.58.</para>
+    <para id="import-auto-id1169703261201">Green LED corresponds to 0.55μm which can be emitted from GaAs<sub>(1-y)</sub>P<sub>y</sub> of E<sub>g</sub>=2.35eV. The substrate used is GaP and stoichometric coefficient ‘y’=0.656.</para>
+    <para id="import-auto-id1169721411646">Blue LED corresponds to 0.475μm which can be emitted from GaAs<sub>(1-y)</sub>P<sub>y</sub> of E<sub>g</sub>=2.61eV. The substrate used is SiC and stoichometric coefficient ‘y’=0.9.<emphasis effect="bold"/></para>
+    <para id="import-auto-id1169701792107">Generally compound semi-conductors have direct band-gap and hence have high Internal Quantum Efficiency. But in ternary GaAs<sub>(1-y)</sub>P<sub>y</sub> as ‘y’ exceeds 0.45, the ternary compound becomes In-direct and its Internal Quantum  Efficiency drastically falls as shown in Figure 5.5.3.By doping this material with Nitrogen it is transformed into Direct Band-Gap material and internal Quantum efficiency is restored but it is not good enough for LASER Diodes.</para>
+    <para id="import-auto-id1169702538891">By Nitrogen doping , traps are introduced vertically above the valence band peak in E-p or E-k diagram. These traps enable vertical transitions thereby improving internal Quantum Efficiency. </para>
+    <figure id="import-auto-id1723246">
+      <media id="import-auto-id1169702204157" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-7f07.png" height="439" width="594"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169700219971">
+      <emphasis effect="bold">Section 5.5.2.Homo-Junction, Hetreo-Junction and Double Hetero-junction.</emphasis>
+    </para>
+    <para id="import-auto-id1169704246199">Homojunctions are made of the same semiconductor material on both sides of the junction. Whereas Heterojunction are made of different band-gap material, but matching lattice parameters, on both sides of the junction. In Double Heterojunction one material of narrow bandgap is sandwitched between two other materials of wider bandgap. This leads to the formation of Quantum Well in the narrow bandgap material.</para>
+    <para id="import-auto-id1169703554927">In a symmetric Homojunction  , diode current is equally divided between electrons and holes and Injection Efficiency in any direction is 0.5. But in symmetric Heterojunction (symmetric in doping sense but highly asymmetric in Band Gap sense) , diode current is very unequally divided between electrons and holes as will become clear from Figure 5.5.4.</para>
+    <para id="import-auto-id1169707634448">As seen in Figure 5.5.4. in Homojunction Diode with equal doping, the built-in Barrier potential seen by electrons on N-Side is the same as that seen by holes on P-Side. This is because Φ<sub>Bno</sub> = Φ<sub>Bpo</sub> . But in Heterojunction Diode (with very unequal Energy Band Gap) even with equal doping,  Φ<sub>Bno</sub> ≠ Φ<sub>Bpo</sub> . In Figure 5.5.4., Band Gap on P-Side (E<sub>g1</sub>) is much larger than Band Gap on N-Side (E<sub>g2</sub>). Hence Φ<sub>Bno</sub> &gt; Φ<sub>Bpo</sub> . This means injection from P-Side is several orders of magnitude larger than the injection from N-Side. Hence Injection Efficiency is almost 100% from P-Side.</para>
+    <para id="import-auto-id1169707426169">This becomes evident if we look at the Injection Efficiency Expression. From Equation 4.3.13:</para>
+    <figure id="import-auto-id1169702255941">
+      <media id="import-auto-id1169709184513" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-998d.png" height="82" width="600"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169701988531">For equal Homojunction:</para>
+    <figure id="import-auto-id1169702211227">
+      <media id="import-auto-id1169704296401" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-095c.png" height="48" width="577"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169708758945">If Emitter Band Gap &gt;&gt; Base Band Gap then:</para>
+    <figure id="import-auto-id1169705984892">
+      <media id="import-auto-id1169702060749" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-9030.png" height="47" width="553"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169701976346">This proves that in Heterojunction diode there is a copious injection of majority carriers from Large Band Gap Material to Narrow Band Gap Material. This will help achieve much more efficient and more powerful LEDs as well as LASER Diodes.</para>
+    <figure id="import-auto-id1169707507927">
+      <media id="import-auto-id1169702161933" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-f9ec.png" height="647" width="598"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169703383313">
+      <emphasis effect="bold">Section 5.5.3. Double Heterojunction LED</emphasis>
+    </para>
+    <para id="import-auto-id1169702068217">Homojunction LED suffer from poor internal quantum efficiency and considerable loss of radiated photons. These problems are considerably over-come by Double Heterojunction LED.</para>
+    <para id="import-auto-id1169701865169">As seen in Figure 5.5.5.  P-Type lightly doped GaAs(Band-Gap=1.42eV) is sandwitched between two large band-gap layers of AlGaAs(Band-Gap=2.546eV).</para>
+    <para id="import-auto-id1169700202999">In AlGaAs,  Al and Ga are in Group III and As is in Group V. By controlling the stoichiometric coefficient ‘x’ in Al<sub>X</sub>Ga<sub>(1-X)</sub>As, the band-gap can be tailored according to the requirement.</para>
+    <figure id="import-auto-id1169706621670">
+      <media id="import-auto-id1169711129506" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-64d5.png" height="24" width="551"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169698164081">At x = 0.9, the band-gap of Al<sub>X</sub>Ga<sub>(1-X)</sub>As is 2.546eV.</para>
+    <para id="import-auto-id1169707451254">
+      <figure id="import-auto-id1169704298262">
+        <media id="import-auto-id1169732109692" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-74d7.png" height="469" width="589"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1169707450146">As we see in Figure 5.5.5., a narrow band gap layer(GaAs, 1.42eV) is confined or sandwiched between two wide band gap layers(AlGaAs,2.546eV). In effect a thin quantum well is created in the middle layer. This causes heavy injection of holes from the P-Type layer on the left and heavy injection of electrons from N-Type on the right. So a large amount of electrons and holes are confined in this narrow quantum well leading to rapid direct radiative recombination.</para>
+    <para id="import-auto-id1169722590802">His has three distinct advantages over Homojunction Surface Emitting LED. </para>
+    <list id="import-auto-id1169709186974" list-type="enumerated" number-style="lower-roman">
+      <item>The interface state density at the lattice matched junctions of GaAs and AlGaAs is orderts of magnitude smaller than the free surface density of states at the emitting surface in homojunction case. This drastically improves internal Quantum Efficiency of the recombination taking place in the narrow Quantum Well.</item>
+      <item>Large Band Gap Bulk has zero absorption coefficient for photons of 1.42eV.Hence AlGaAs is completely transparent to outgoing photons thereby improving the external Quantum Efficiency.</item>
+      <item>The unequal Band-Gap of the two outer layers ensures almost 100% injection of majority carriers from both sides into the narrow Quantum Well.</item>
+      <item>Narrow Band Gap material has larger refractive index as compared to that of the adjacent layers. This helps confine the photons within the Quantum Well by total internal reflection. This light confinement helps increase the efficiency of stimulated recombination and emission process which is directly dependent on the strength of the optical field in the Quantum Well. Initially there is spontaneous emission. This triggers stimulated emission. Hence in double-heterojunction LED, both spontaneous as well as stimulated emission takes place.</item>
+    </list>
+    <para id="import-auto-id1169702528122">These four factors greatly improve the external as well as internal Quantum Efficiency. The Quantum Well comprises of 0.1 to 0.2μm thick narrow band-gap material. These surface emitting structures and edge emitting structures(not described here) are particularly useful in improving the coupling efficiency with te optical fibers. </para>
+  </content>
+</document>

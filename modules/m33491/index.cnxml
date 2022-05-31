@@ -1,0 +1,145 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter1_Part 8_continued_Electron in an 1-D Potential Well of finite height and finite width_Quantum Mechanical Tunneling</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33491</md:content-id>
+  <md:title>SSPD_Chapter1_Part 8_continued_Electron in an 1-D Potential Well of finite height and finite width_Quantum Mechanical Tunneling</md:title>
+  <md:abstract>SSPD_Chapter 1_Part 8 is continued to understand the situation when we have relatively thin potential barrier and moderately high potential barrier. We saw in the last section that matter wave is capable of penetrating a potential barrier and if the barrier is thin enough then there is a possibility that matter wave may emerge out of the other side of the barrier in a much attenuated form. This phenomena is called Quantum Mechanical Tunneling. We conclude the chapter by determining the tunneling ratio.</md:abstract>
+  <md:uuid>350a0ffd-c5b4-4068-8edc-6e970861c6be</md:uuid>
+</metadata>
+<content>
+    <para id="id1172265954383">SSPD_Chapter 1_Part 8_continued_AN ELECTRON IN A POTENTIAL WELL OF FINITE HEIGHT AND FINITE WIDTH – QUANTUM MECHANICAL TUNNELING.</para>
+    <figure id="id3628342">
+      <media id="id3628342_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-cdd4.png" id="id3628342__onlineimage" height="336" width="649"/>
+      </media>
+    </figure>
+    <para id="id1172268755027">Fig(1.30) Depiction of quantum mechanical tunneling in a potential well of finite width. </para>
+    <para id="id1172268769767"><emphasis effect="bold"/>Classically an electron trapped in a potential well cannot come out of it unless it has sufficient energy to cross the potential barrier confining the electron in a potential well. In photo-ionic emission as already seen and in thermo-ionic emission as we will see in the second chapter, when the photon energy imparted or thermal energy acquired exceeds the work function = qφ<sub>surface</sub> (where φ<sub>surface </sub>is the surface barrier potential) then only electron escapes into vacuum from the cathode electrode. But for an electron trapped in a potential well there is a finite probability that the electron will appear outside the well if the potential barrier is sufficiently thin. This phenomena is known as quantum mechanical tunneling.</para>
+    <para id="id5638075">In Fig(1.30), the phenomena of quantum mechanical tunneling is illustrated.</para>
+    <para id="id1172268750897">Within the well electron exists as a standing wave . Outside the well the electron exists as a traveling wave.</para>
+    <para id="id1172268789574">On the right of the well it exists as a forward traveling wave and on the left of the well it exists as a backward traveling wave.</para>
+    <para id="id1172258955366">For the mathematical simplicity we analyze an electron tunneling through a finite width potential barrier of finite height as depicted in Fig(1.31). The electron is travelling from left to right.</para>
+    <para id="id1172268682236"/>
+    <figure id="id1172268679914">
+      <media id="id1172268679914_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-e540.png" id="id1172268679914__onlineimage" height="319" width="556"/>
+      </media>
+    </figure>
+    <para id="id1172268704920">
+      <emphasis effect="bold">Fig(1.31) Quantum Mechanical Tunneling of Potential Barrier of height V</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold"> and width W. </emphasis>
+    </para>
+    <para id="id1172268706101">According to Fig(1.31) the Schrodinger Equation on the left is: </para>
+    <para id="id1172268721527"><emphasis effect="bold"/>∂<sup>2 </sup>ψ /∂z<sup>2 </sup>+ (2mE/ћ<sup>2</sup>)ψ = 0</para>
+    <para id="id1172261757458">The wave vectors are k<sub>1 </sub>and k<sub>1</sub>* = <sub/>± i[√(2mE)]/ћ</para>
+    <para id="id1172268703590">And the solution is:<emphasis effect="bold">ψ</emphasis><emphasis effect="bold">I</emphasis><emphasis effect="bold"> = AExp[i(ωt + |k</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">|z )] + B. Exp[i(ωt - |k</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">|z )] 1.68</emphasis></para>
+    <para id="id1172268700744">Eq.(1.68) is a combination of forward and backward traveling waves.</para>
+    <para id="id1172268754352">Inside the potential barrier:</para>
+    <para id="id2181960"><emphasis effect="bold"/>∂<sup>2 </sup>ψ /∂z<sup>2 </sup>- {2m(qV<sub>1</sub>-E)/ћ<sup>2</sup>}ψ = 0</para>
+    <para id="id1172259345953">The roots of the characteristic equation are real hence the roots are the attenuation coefficients: σ<sub>1 </sub>= [√(2m(qV<sub>1</sub>-E)]/ћ and σ<sub>2 </sub>= -[√(2m(qV<sub>1</sub>-E)]/ћ = -σ<sub>1 </sub>;</para>
+    <para id="id1172262871285">And the solution is:<emphasis effect="bold"> ψ</emphasis><emphasis effect="bold">II</emphasis><emphasis effect="bold"> = [C.Exp(σ</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">z)</emphasis><emphasis effect="bold"/><emphasis effect="bold">+ D.Exp(-σ</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">z)]Exp[i(ωt)] 1.69 </emphasis></para>
+    <para id="id1172268714408">Eq.(1.69) is not a traveling wave but a combination of exponentially decaying and exponentially growing function out of which exponentially growing term is technically not feasible.</para>
+    <para id="id1172268700096">On the right of the barrier:</para>
+    <para id="id1172268767146"><emphasis effect="bold"/>∂<sup>2 </sup>ψ /∂z<sup>2 </sup>+ (2mE/ћ<sup>2</sup>)ψ = 0</para>
+    <para id="id1172268770335">The wave vectors are again k<sub>1 </sub>and k<sub>1</sub>* = <sub/>± i[√(2mE)]/ћ</para>
+    <para id="id1172262844723">And the solution is:<emphasis effect="bold">ψ</emphasis><emphasis effect="bold">III</emphasis><emphasis effect="bold"> = E.Exp[i(ωt + |k</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">|z )] + F. Exp[i(ωt - |k</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">|z )] 1.70</emphasis></para>
+    <para id="id3678018">According to the boundary conditions: ψ<sub>I</sub>(x=0) = ψ<sub>II</sub>(x=0);</para>
+    <para id="id1172268681917">ψ<sub>II</sub>(x=W) = ψ<sub>III</sub>(x=W);</para>
+    <para id="id1172268694187">For the continuity of the wave function at the boundary we have: </para>
+    <para id="id1172268790302">
+      <emphasis effect="bold">∂ψ</emphasis>
+      <emphasis effect="bold">I</emphasis>
+      <emphasis effect="bold">/∂z|(x=0) = ∂ψ</emphasis>
+      <emphasis effect="bold">II</emphasis>
+      <emphasis effect="bold">/∂z|(x=0);</emphasis>
+    </para>
+    <para id="id1172260464372">
+      <emphasis effect="bold">∂ψ</emphasis>
+      <emphasis effect="bold">II</emphasis>
+      <emphasis effect="bold">/∂z</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">|(x=W) = ∂ψ</emphasis>
+      <emphasis effect="bold">III</emphasis>
+      <emphasis effect="bold">/∂z|(x=W); 1.71 </emphasis>
+    </para>
+    <para id="id1172268718046">Applying the above boundary conditions to the three solutions of the Schrodinger Equations we get the following:</para>
+    <para id="id1172270285942">ψ<sub>I</sub> = AExp[i(ωt + |k<sub>1</sub>|z )] – Forward traveling wave incident on the barrier from the left;</para>
+    <para id="id1172271295239">ψ<sub>II</sub> = [D.Exp(-σ<sub>1</sub>z)]Exp[i(ωt)]- Exponentially decaying function within the barrier;</para>
+    <para id="id1172268648151">ψ<sub>III</sub> = F. Exp[i(ωt - |k<sub>1</sub>|z )]- Transmitted traveling wave on the right of the barrier after quantum mechanical tunneling;</para>
+    <para id="id1172262757320">Also <emphasis effect="bold">A = D and F = D.Exp(-σ</emphasis><emphasis effect="bold">1</emphasis><emphasis effect="bold">W) 1.72</emphasis></para>
+    <para id="id1172268754319">|A|<sup>2</sup> = probability density of the incident electron wave;</para>
+    <para id="id7567208">|F|<sup>2 </sup>= probability density of the transmitted wave;</para>
+    <para id="id1172259727508">Therefore quantum tunneling ratio = </para>
+    <para id="id1172266007583">
+      <emphasis effect="bold">T=|F|</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">/|A|</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">=Exp[-2W{√(2m</emphasis>
+      <emphasis effect="bold">e</emphasis>
+      <emphasis effect="bold">(qV</emphasis>
+      <emphasis effect="bold">1</emphasis>
+      <emphasis effect="bold">-E))}/ћ]</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">1.73</emphasis>
+    </para>
+    <para id="id1172268711644">This Eq.(1.73) establishes that if W is thin enough of the order of 10Å and (qV<sub>1</sub>-E) of the order of 1eV (this is the order of built-in barrier potential at a pn junction then T is a finite quantity and quantum mechanical tunneling has good probability of occurring. </para>
+    <para id="id1172268788343">In Table (1.4) tunneling ratio is tabulated for different potential height and different potential widths.</para>
+    <para id="id1172264495118">Table 1.4. Quantum Mechanical Tunneling Ratio .</para>
+    <table id="id1172268758536" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Width of the barrier(W) Å</entry>
+            <entry>
+              <emphasis effect="bold">(qV</emphasis>
+              <emphasis effect="bold">1</emphasis>
+              <emphasis effect="bold">-E) eV</emphasis>
+            </entry>
+            <entry>T</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>1</entry>
+            <entry>
+              <emphasis effect="bold">3.5×10</emphasis>
+              <emphasis effect="bold">-5</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>1</entry>
+            <entry>
+              <emphasis effect="bold">6×10</emphasis>
+              <emphasis effect="bold">-3</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>1</entry>
+            <entry>0.36</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>10</entry>
+            <entry>0.04</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>100</entry>
+            <entry>
+              <emphasis effect="bold">3.5×10</emphasis>
+              <emphasis effect="bold">-5</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172268692984">Tunneling ratio 3.5×10<sup>-5 </sup>implies that in a potential barrier width of 10 Å and (V<sub>1</sub>-E) =1V out of 10<sup>5</sup> incident electrons 3.5 electrons will tunnel through. If the potential barrier width is reduced to 1 Å and barrier height is (V<sub>1</sub>-E) =1V then almost 36% of the incident electrons will tunnel through.</para>
+    <para id="id1172268774585">Tunnel Diode, Backward Diode, Zener Diode as well as high field emission utilizes quantum mechanical tunneling phenomena. In 1957 , Esaki <emphasis effect="bold">[Appendix XXXV ]</emphasis> invented the first quantum device namely Tunnel Diode. At University of Cambridge, Brian Josephson <emphasis effect="bold">[Appendix XXXVI ]</emphasis> adapted Tunnel Diode to superconducting materials giving rise to Josephson effect.<emphasis effect="italics"/>For the invention of Tunnel Diode Brian Josephson (England), Leo Esaki (Japan) and Evar Gebar (USA) were awarded the Nobel Prize in Physics in the year 1973. In honour of Leo Esaki, Tunnel Diode was named as Esaki Diode.</para>
+  </content>
+</document>

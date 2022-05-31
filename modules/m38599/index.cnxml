@@ -1,0 +1,34 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 5_Stick Diagram of CMOS Logic Gates_continued 3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38599</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 5_Stick Diagram of CMOS Logic Gates_continued 3</md:title>
+  <md:abstract>SsPD_Chapter 7_Part 5_continued 3 gives the stick diagrams of CMOS inverter and two-input CMOS NAND Gate.</md:abstract>
+  <md:uuid>0582a54c-5485-48f4-a658-7af2be2b64a4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168392153314">SSPD_Chapter 7_Part 5_Stick Diagram of CMOS Logic Gates_continued 3</para>
+    <para id="id1168391914949">7.5.2. Stick Diagrams of CMOS Logic Gates.</para>
+    <para id="id1168391624722"> In Figure 7.5.2.1 gives three alternative layouts of CMOS Inverter expressed by its corresponding stick diagram.</para>
+    <figure id="id1168391551496">
+      <media id="id1168391551496_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-1ee9.png" id="id1168391551496__onlineimage" height="547" width="599"/>
+      </media>
+    </figure>
+    <para id="id1168395166458">Blue colour- metal1, Red – Poly-Si, Green – N+ diffusion, Brown – P+ duffusion, Black Cross is CONTACT.</para>
+    <para id="id1168396012281">7.5.3. CMOS Two-input NAND Gate</para>
+    <para id="id1168391440588">Figure 7.5.3.1 gives the circuit diagram and its alternative layout expressed in stick diagrams for a two-input NAND Gate.. Output Z = Complement(AB)</para>
+    <para id="id1168396295861">This means when A=1 and B=1 output is connected to GND bus by a low reesistance through Q1(ON) and Q2(ON) in series. When either of the two I/Ps is at ‘0’ low resistance path to GND is broken and a low reesistance path exists through Q3 or Q4 to 5V(Vdd) bus. Thus the condition for Output Z = Complement(AB) is satisfied.</para>
+    <para id="id1168390175114">
+      <figure id="id1168390380772">
+        <media id="id1168390380772_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-e275.png" id="id1168390380772__onlineimage" height="478" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168389551125"> In Figure 7.5.3.1, Q3 input is shorted to Q1 input and Q4 input is shorted to Q2. In the upper stick diagram, Q4 input and Q2 inpt are connected by the same Red Poly-Si line. But Q3 and Q1 input cannot be connected in the same way. If Q3 and Q1 inputs were connected by the same red line then it would short to the input of Q2 also which it should not. Therefore a metal line blue line is used to cross the red input of Q2. Metal blue line lies at an upper layer while red Poly-Si line lies at intermediate level therefore cross-over is permitted. Once the cross-over has taken place then the two terminals of blue metal line is connected to the two Poly-Si red inputs of Q3 and Q1. </para>
+    <para id="id1168389021879"> Similarly 3-input NAND Gate can be designed. In case of 3-input NAND Gate we have Q1,Q2 and Q3 in series and Q4,Q5 and Q6 in parallel.</para>
+    <para id="id1168391257511">Q1 and Q4 are paired as CMOS, Q2 ans Q5 are paired as CMOS and Q3 and Q6 are paired as CMOS.</para>
+  </content>
+</document>

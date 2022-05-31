@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter_continued_Direct and indirect band-gap materials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34400</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter_continued_Direct and indirect band-gap materials</md:title>
+  <md:abstract>SSPD_Chapter1_Part 11 is a continuation of Solid State of Matter. This describes indirect band gap material and its non-radiative transition charactistics  and direct band gap material and its radiative transition characteristics.</md:abstract>
+  <md:uuid>9f0417e6-7b14-49fa-aa90-01f0cbcb7b8e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169066625240">SSPD_Chapter 1_Part 11_Continued_Direct and indirect Band gap Semiconductors.</para>
+    <para id="id8859160">1.11.4. DIRECT AND INDIRECT BANDGAP SEMICONDUCTORS.</para>
+    <para id="id1169060137801"><emphasis effect="bold"/>Silicon and Germanium are indirect band-gap materials as shown in Figure(1.58.a and b). Whereas compound semiconductors are direct band-gap materials, as shown in Figure (1.59.), with the exception of GaP which need special doping to become direct band gap. When the top of the valence band and bottom of the conduction band occurs at k=0 then we have Direct Band Gap material. Here direct transition occurs hence it is radiative transition . Photons can mediate direct transitions. But when the bottom of the conduction band occurs at k= π/a and bottom of the valence band occurs at k=0 then indirect transition occurs. The extra momentum ћk = ћ.(π/a)= h/(2a) cannot be removed by photon. Phonon has larger momentum and phonon mediates an indirect transition. This leads to increase in thermal vibration of crystal lattice. Phonon is a quanta of lattice vibrational energy. Hence indirect transition is non-radiative. If the edge of conduction band is made of s-orbital electrons then we have direct band-gap material. If the edge of conduction band is made of p-orbital then we have indirect band-gap material. </para>
+    <figure id="id1169065339559">
+      <media id="id1169065339559_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 45.png" id="id1169065339559__onlineimage" height="392" width="584"/>
+      </media>
+    </figure>
+    <para id="id1169060572295"/>
+    <figure id="id1169053968144">
+      <media id="id1169053968144_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 46.png" id="id1169053968144__onlineimage" height="372" width="510"/>
+      </media>
+    </figure>
+    <para id="id7270732">
+      <figure id="id1169060535162">
+        <media id="id1169060535162_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-a233.png" id="id1169060535162__onlineimage" height="497" width="511"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169057732227">Figure.1.58 and 59. E-k diagram of Ge, Si and GaAs</para>
+    <para id="id1169066934196">
+      <emphasis effect="bold">1.11.4.1. PHONONS.</emphasis>
+    </para>
+    <para id="id1169061856531"><emphasis effect="bold"/>A quanta of lattice vibrational energy is known as phonon. A Crystal Lattice System can be treated as lattice centers interconnected with bonds equivalent to elastic springs. These springs, representing the atomic bonds, behave like harmonic oscillators which has quantized energies E<sub>n</sub> = (n+1/2)ћω. At 0K, the Zero Point Energy of the lattice is (1/2)ћω. The Lattice vibrations propogate like coupled vibrations or as cooperative vibrations of many atoms. Lattice vibrations are longitudinal (atomic vibrations are in the same direction as that of propogation) as well as transverse (atomic vibrations are at right angle to the direction of propogation) as shown in Figure (1.60). These lattice vibrations travel as lattice waves. They occur at 4×10<sup>12 </sup>Hz and at 14×10<sup>12 </sup>Hz .At 4×10<sup>12 </sup>Hz the phonons are known as Transverse Acoustical (TA) Waves and as Longitudinal Acoustical (LA) Waves. At 14×10<sup>12 </sup>Hz, these are known as Transverse Optical (TO) Waves and as Longitudinal Optical (LO) Waves.</para>
+    <para id="id1169059224322">The velocity of propogation = √(B/ρ)</para>
+    <para id="id1169066767436">where B is the elastic bulk modulus and ρ is the density of the crystal. </para>
+    <para id="id7346624">Substituting the appropriate values B= 70Gpa and ρ= 2.7 gm-cm<sup>-3 </sup>for Aluminium: </para>
+    <para id="id1169057981740">Velocity of propogation is 5092m/s in Aluminum.</para>
+    <para id="id1169054738379">The frequency of oscillation is ~ 10<sup>13</sup> Hz. </para>
+    <para id="id1169050911088">Therefore λ<sub>phonon</sub> =velocity/ frequency= 5 A°; </para>
+    <para id="id1169061044979">Linear momentum of phonons = <emphasis effect="bold">p</emphasis><emphasis effect="bold">phonons</emphasis><emphasis effect="bold"> = h/λ= 10</emphasis><emphasis effect="bold">-24 </emphasis><emphasis effect="bold">Kg-m/sec</emphasis>= ћk; </para>
+    <para id="id1169053665897">Therefore<emphasis effect="bold"> k</emphasis><emphasis effect="bold">phonons</emphasis><emphasis effect="bold"> = 10</emphasis><emphasis effect="bold">-24 </emphasis><emphasis effect="bold">Kg-m/sec/ћ= 2π×10</emphasis><emphasis effect="bold">10</emphasis><emphasis effect="bold"> radians/m</emphasis>;</para>
+    <para id="id8275602">
+      <figure id="id8146204">
+        <media id="id8146204_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-7f49.png" id="id8146204__onlineimage" height="646" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169061581773">Figure 1.60. Crystal Lattice System represented as Coupled Harmonic Oscillators.</para>
+    <para id="id1169066900498">1.11.4.2 PHOTONS.</para>
+    <para id="id1169060069897">Photon is a quanta of optical energy. If we examine Green colored photons of wavelength λ = 500nm </para>
+    <para id="id1169060191817">then <emphasis effect="bold">p</emphasis><emphasis effect="bold">photons</emphasis><emphasis effect="bold"> = h/λ = 13.26×10</emphasis><emphasis effect="bold">-28</emphasis><emphasis effect="bold"> Kg-m/sec</emphasis>;</para>
+    <para id="id1169055150029">We see that p<sub>photons</sub> &lt;&lt; p<sub>phonons;</sub></para>
+    <para id="id1169059190276">Also<emphasis effect="bold"> k</emphasis><emphasis effect="bold">photons </emphasis><emphasis effect="bold">= </emphasis><emphasis effect="bold"/><emphasis effect="bold">2π×10</emphasis><emphasis effect="bold">7</emphasis><emphasis effect="bold"> radians/m</emphasis>;</para>
+    <para id="id1169055885114">In a indirect band-gap material, at the bottom of the conduction band, conducting electrons have k = π/a = π/(5×10<sup>-10</sup> ) therefore k= (π/5) ×10<sup>10</sup> radians/m whereas holes have k=0. Therefore in in-direct transition the mediating particle must take away the energy as well as momentum. Conservation of momentum can be achieved only through the mediation of phonons (k<sub>phonons</sub> = 2π×10<sup>10</sup> radians/m) because of significant excess momentum present during in-direct transition. Hence in-direct transition is accompanied with the emission of phonons rather than photons. Therefore in-direct transition is non-radiative whereas direct transition is radiative. Therefore Direct Band Gap materials are suitable for light sources. </para>
+    <para id="id1169060173006">
+      <emphasis effect="bold">1.11.4.3. RADIATIVE AND NON-RADIATIVE TRANSITION.</emphasis>
+    </para>
+    <para id="id1169060517809">Indirect Transition(momentum as well as energy has to be accounted for): </para>
+    <para id="id1169054954455">
+      <emphasis effect="bold">conducting electron + hole = phonons (non-radiative);</emphasis>
+    </para>
+    <para id="id1169063671982">Direct Transition (momentum is zero for both carriers and only energy has to be accounted for : </para>
+    <para id="id1169064423031">
+      <emphasis effect="bold">conducting electron + hole = photons (radiative); </emphasis>
+    </para>
+  </content>
+</document>

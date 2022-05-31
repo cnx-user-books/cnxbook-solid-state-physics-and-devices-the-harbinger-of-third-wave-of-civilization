@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Experiment 2_Time Domain Response of LPF_Part2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50964</md:content-id>
+  <md:title>SSPD_Experiment 2_Time Domain Response of LPF_Part2</md:title>
+  <md:abstract>This module gives the Time Domain Response of LPF when T approximately equal to tau or T is much less than tau.</md:abstract>
+  <md:uuid>ce89a0bd-9138-455d-8b22-346f5dfc3b3a</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164673048002">
+      <emphasis effect="bold">Experiement - 2 - Figures of  TDR of LPF. Part 2.</emphasis>
+    </para>
+    <figure id="import-auto-id1164673218608">
+      <media id="import-auto-id1164673157116" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-bb64.png" height="141" width="512"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164674069607">
+      <emphasis effect="bold">Figure 4 c. Time Domain Response of Low Pass Filter for T ~ τ  .</emphasis>
+    </para>
+    <para id="import-auto-id1164673042533"> The leading or positive Edge of the Square Wave experiences a Rise Time and the lagging or negative Edge of the Square Wave experiences a fall Time. The suppression of the higher frequency components results into rounding off the EDGES of the Square Wave.</para>
+    <figure id="import-auto-id1164673285487">
+      <media id="import-auto-id1164672966638" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-2bc7.png" height="223" width="445"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164673287107">
+      <emphasis effect="bold">Figure 4 d. Time Domain Response of Low Pass Filter for T &lt;&lt; τ  . </emphasis>
+    </para>
+    <para id="import-auto-id1164673214979">Since (1/T)Hz fundamental component and the harmonics of square wave lie well beyond the Pass Band of LPF hence the nearly all the fundamental and harmonics are suppressed. What is left is the DC component. Therefore at the output we see the Mean Value of the Square wave with a small poitive ramp for (+)ve half and negative ramp for (-)ve half of the Square Wave.</para>
+    <figure id="import-auto-id1164674097638">
+      <media id="import-auto-id5059490" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-2543.png" height="469" width="601"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164672984109">
+      <emphasis effect="bold">Figure A. Frequency Spectrum of an Infinite Pulse Train.</emphasis>
+    </para>
+  </content>
+</document>

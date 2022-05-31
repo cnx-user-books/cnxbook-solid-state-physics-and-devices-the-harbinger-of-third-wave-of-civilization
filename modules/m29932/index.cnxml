@@ -1,0 +1,331 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 2.</title>
+  <metadata>
+  <md:content-id>m29932</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 2.</md:title>
+  <md:abstract>Summary: This Part 2 of 50 yrs IC journay.</md:abstract>
+  <md:uuid>fbe17ab0-407a-4ae4-8d21-b47b32490870</md:uuid>
+</metadata>
+
+<content>
+    <para id="id7195573">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 2.</para>
+    <para id="id1170586256977">Title: Part 2 of 50 yrs journey.</para>
+    <para id="id8936516">Keywords: Isolation Diffusion, base stripe geometry, buried layer, vertical scaling and lateral scaling.</para>
+    <para id="id3069231">Summary: This Part 2 of 50 yrs journay.</para>
+    <para id="id1170586229592">Section I. The Bipolar Junction Transistor Technology in 60’s-70’s.</para>
+    <para id="id8190548">In 1959 at the time IC Technology was invented, the vertical NPN transistor looked as given in Figure 1.</para>
+    <para id="id3341075">
+      <figure id="id5508901">
+        <media id="id5508901_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-be9d.png" id="id5508901__onlineimage" height="630" width="554"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id6630037">Figure 1. Cross-sectional View and plan view of Vertical NPN transistor.</para>
+    <para id="id8621382">
+      <emphasis effect="bold">(25um by 37.5um base stripe geometry)</emphasis>
+    </para>
+    <para id="id3538881"><emphasis effect="bold">Total area covered 212</emphasis> μm<emphasis effect="bold"> by 250</emphasis> μm</para>
+    <para id="id1170586378468">Substrate is 100um thick.</para>
+    <para id="id6642803">Epitaxial layer is 10um thick.</para>
+    <para id="id1170597581270">Base Collector Junction is at 3um depth and Emitter-Base Jn. at 2um depth.</para>
+    <para id="id1170586379343">Hence Base Width = W<sub>B</sub> = 1 um thick. </para>
+    <para id="id2561281">P Substrate- ρ=10Ω-cm, N<sub>A</sub>= 10<sup>15</sup> Boron atoms/cc;</para>
+    <para id="id2716670">Buried Layer has been put to reduce Collector Series Resistance. </para>
+    <para id="id1170591973518">N<sub>D</sub>=10<sup>19</sup>Arsenic Atoms/cc; In buried layer Arsenic is used as donor type dopent because it has much lower diffusion coefficient hence almost negligible out diffusion in subsequent diffusion and heating cycles.</para>
+    <para id="id1170586230143">N Epitaxial layer- ρ= 0.1Ω-cm, N<sub>D</sub>= 10<sup>16</sup>Phosphorous Atoms/cc;</para>
+    <para id="id2866479">Base layer- N<sub>A</sub>= 10<sup>17 </sup>Boron Atoms/cc; Base layer has a sheet resistance of 200Ω/sq.</para>
+    <para id="id7455383">Emitter and Collector Contact layer- N<sub>D</sub>= 10<sup>19</sup> Phosphorous Atoms/cc, R<sub>sh</sub> = 1Ω/sq;</para>
+    <para id="id8614860">Section II. The Bipolar Junction Transistor Technology in 1980’s-2000’s.</para>
+    <para id="id2546369"><emphasis effect="bold"/>Gordon Moore is a co-founder of Intel and he made an empirical observation which became a Law . It stated :</para>
+    <para id="id1170599517943">“ at our rate of technological development, the complexity of an integrated circuit, with respect to minimum component cost will double in about 24 months”.[“Cramming more components onto Integrated Circuits”, <emphasis effect="italics">Electronics Magazine,</emphasis>19 April 1965]. The law has held the test of time to date as is evident from Table I.4.</para>
+    <para id="id7912930">Today Moore’s Law has become a self fulfilling prophecy and a goal Industry tries to achieve all the time. In attempting to maintain this rate of growth enormous R&amp;D has gone into the development of tools and equipments required for IC fabrication and into the advancement of processing techniques required for IC fabrication.</para>
+    <para id="id4745832"><emphasis effect="bold">IC Fabrication has two major parts</emphasis>: </para>
+    <para id="id1170586230486">1. System/circuit design and I.C. layout of the components;</para>
+    <para id="id1352539">2. Photolithographic Masks preparation </para>
+    <para id="id1170586496916">3. Actual fabrication of the IC chip. </para>
+    <para id="id2920020">The actual fabrication consists of the following steps:</para>
+    <list id="id1170586230225" list-type="enumerated" number-style="arabic">
+      <item>Preparation of single crystal Silicon Wafer;</item>
+      <item>Buried layer diffusion in the substrate;</item>
+      <item>Epitaxial layer growth on the P Type substrate;</item>
+      <item>Isolation Diffusion ( not required in CMOS fabrication);</item>
+      <item>Base diffusion;</item>
+      <item>Emitter and Collector Contact diffusion</item>
+      <item>Metallization;</item>
+      <item>Interconnection;</item>
+      <item>Mounting on the header ,wire bonding by thermo-compression or ultra-sonic bonding and hermetical packaging;</item>
+    </list>
+    <para id="id7236059">During fabrication, suitable windows have to be etched in SiO<sub>2</sub> layer grown over the wafer. By the use of optical lithographic techniques, proper patterns are etched out using a suitable mask for selective diffusion or selective ion-implantation. This step is repeated at buried layer diffusion/implantation, at isolation diffusion, at base diffusion, emitter &amp; collector contact diffusion and at metallization step. </para>
+    <para id="id7820113">Obeying Moore’s law requires continuous scaling of the I.C. components and hence working at smaller and smaller feature size at the minimum cost. The main burden of this challenge falls on Mask Making and Lithography Techniques. Therefore the continuous and relentless march of IC from micron dimensions to nano dimensions has meant continuous improvement and breakthroughs in Lithography Technology. <emphasis effect="italics">In fact lithography technology is the major enabling technology in IC Chips fabrication.</emphasis></para>
+    <para id="id5622059">In Table 2 , Table 3 and Table 4 we show how the dimensions have been scaled down over the past decades in both Bipolar and MOS Technology. In 1966 emulsion mask patterns were contact printed on 200mm wafer with the smallest feature size of 25µm. In 2007 using Deep Ultra Violet(DUV)193nm immersion Lithography, 30nm ±6nm feature size are imprinted on 300mm wafer.</para>
+    <para id="id4964736"/>
+    <para id="id2863113">
+      <emphasis effect="bold">Table 2. Transistor Junction Depths and Doping Changes with years. [Muller &amp; Kamini, Solid State Devices; “Modelling of SiGe heterojunction transistors:200GHz frequencies with symmetrical delay times”, Jochen Eberhardt &amp; Erich Kasper, Solid State Electronics, 45(2001), 2097-2100.].</emphasis>
+    </para>
+    <table id="id1170589790226" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Amplifying(Junction. Isolated)1964</entry>
+            <entry>Amplifying(Junction Isolated)1980</entry>
+            <entry>Switching(Junction Isolated)1980</entry>
+            <entry>Switching(Oxide Isolated)1980</entry>
+            <entry>Amplifying(oxide isolated)2001HBT</entry>
+          </row>
+          <row>
+            <entry>Surface area</entry>
+            <entry>212.5µm×250µm</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>20 µm×1µm</entry>
+          </row>
+          <row>
+            <entry>Epi Film ThicknessResistivity of epi layer</entry>
+            <entry>10 μm0.1Ω-cm</entry>
+            <entry>10μm1Ω-cm</entry>
+            <entry>3μm0.3-0.8 Ω-cm</entry>
+            <entry>1.2um0.3-0.8 Ω-cm</entry>
+            <entry>172nmW<sub>C</sub>= 50nm</entry>
+          </row>
+          <row>
+            <entry>Buried Layer Sheet R<sub>Sheet</sub>Updiffusion</entry>
+            <entry>1Ω/▄2.5 μm</entry>
+            <entry>20Ω/▄2.5μm</entry>
+            <entry>20Ω/▄1.4μm</entry>
+            <entry>30 Ω/▄0.3 μm</entry>
+            <entry>0.7 Ω/▄0 μm</entry>
+          </row>
+          <row>
+            <entry>Emitter Diffusion DepthSheet Resistance of Emitter</entry>
+            <entry>2.5 μm1Ω/▄</entry>
+            <entry>2.5μm5Ω/▄</entry>
+            <entry>0.8μm12Ω/▄</entry>
+            <entry>0.25μm30Ω/▄</entry>
+            <entry>W<sub>E</sub> = 110nm378 Ω/▄Emitter contact5.2 Ω/▄</entry>
+          </row>
+          <row>
+            <entry>Base Diffusion DepthR<sub>SHEET</sub></entry>
+            <entry>3.5 μm200Ω/▄</entry>
+            <entry>3.25μm100 Ω/▄</entry>
+            <entry>1.3μm200 Ω/▄</entry>
+            <entry>0.5μm600 Ω/▄</entry>
+            <entry>122nm260 Ω/▄</entry>
+          </row>
+          <row>
+            <entry>Base Width</entry>
+            <entry>1 μm</entry>
+            <entry>1 μm</entry>
+            <entry>0.5 μm</entry>
+            <entry>0.25 μm</entry>
+            <entry>W<sub>B</sub>=12nm</entry>
+          </row>
+          <row>
+            <entry>Substrate ResistivityCrystal Orientation</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>10 Ω-cm&lt;111&gt;</entry>
+            <entry>5 Ω-cm&lt;111&gt;</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8060468">Table 3. Dimension Scaling in MOSFET over the last decade.</para>
+    <table id="id1170589675445" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>MOS</entry>
+            <entry>1967</entry>
+            <entry>1997</entry>
+            <entry>1999</entry>
+            <entry>2001</entry>
+            <entry>2003</entry>
+            <entry>2006</entry>
+          </row>
+          <row>
+            <entry>L(µm)</entry>
+            <entry>10</entry>
+            <entry>0.25</entry>
+            <entry>0.18</entry>
+            <entry>0.13</entry>
+            <entry>0.1</entry>
+            <entry>0.07</entry>
+          </row>
+          <row>
+            <entry>DRAM<emphasis effect="bold">(Gbit/cm</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">)</emphasis></entry>
+            <entry>64M</entry>
+            <entry>0.18</entry>
+            <entry>0.38</entry>
+            <entry>0.42</entry>
+            <entry>0.91</entry>
+            <entry>1.85</entry>
+          </row>
+          <row>
+            <entry>Junction Depth<emphasis effect="bold">(x</emphasis><emphasis effect="bold">j</emphasis><emphasis effect="bold">)nm</emphasis></entry>
+            <entry>1000</entry>
+            <entry>100</entry>
+            <entry>70</entry>
+            <entry>60</entry>
+            <entry>52</entry>
+            <entry>40</entry>
+          </row>
+          <row>
+            <entry>InterconnectionPitch(nm)</entry>
+            <entry>2000</entry>
+            <entry>600</entry>
+            <entry>500</entry>
+            <entry>350</entry>
+            <entry>245</entry>
+            <entry>130</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id4324870">International Technology Roadmap for Semiconductors uses ‘nodes’ to refer to the smallest feature size on Logic Chips. This is the width of the gate of MOSFET. Whereas in Memory Chips ‘half pitch’ is used to define the smallest feature size. Half Pitch is half the distance between two adjacent aluminum interconnections. Nodes and Half pitch are illustrated in Figure 2.</para>
+    <para id="id1170589487685">
+      <figure id="id1016490">
+        <media id="id1016490_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-e7a3.png" id="id1016490__onlineimage" height="540" width="605"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170589767020">Figure 2. Illustration of the definition of node and pitch.</para>
+    <para id="id1170588423524">In 2005, gate width is 32nm, node is 65nm and half pitch is 105nm.</para>
+    <para id="id1170589447407">In 2009:</para>
+    <table id="id8411064" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entrytbl cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>Logic Chip</entry>
+                  <entry>Memory Chip</entry>
+                </row>
+                <row>
+                  <entry>Half-pitch</entry>
+                  <entry>50/56nm</entry>
+                  <entry>34nm</entry>
+                </row>
+                <row>
+                  <entry>Node</entry>
+                  <entry>32nm</entry>
+                  <entry>22nm</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Memories are 1 full chip generation ahead of Logic chip.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id4784877">Table 4. Scaling in IC Chips in terms of half pitch and nodes.</para>
+    <table id="id1170596142692" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>Node(nm)</entry>
+            <entry>Half-pitch(nm)</entry>
+            <entry>Gate- length*(nm)</entry>
+          </row>
+          <row>
+            <entry>2009 <sup>a</sup></entry>
+            <entry>32</entry>
+            <entry>52</entry>
+            <entry>29</entry>
+          </row>
+          <row>
+            <entry>2007 <sup>a</sup></entry>
+            <entry>45</entry>
+            <entry>68</entry>
+            <entry>38</entry>
+          </row>
+          <row>
+            <entry>2005 <sup>b</sup></entry>
+            <entry>65</entry>
+            <entry>90</entry>
+            <entry>32</entry>
+          </row>
+          <row>
+            <entry>2004 <sup>b</sup></entry>
+            <entry>90</entry>
+            <entry>90</entry>
+            <entry>37</entry>
+          </row>
+          <row>
+            <entry>2003 <sup>b</sup></entry>
+            <entry>100</entry>
+            <entry>100</entry>
+            <entry>45</entry>
+          </row>
+          <row>
+            <entry>2001 <sup>c</sup></entry>
+            <entry>130</entry>
+            <entry>150</entry>
+            <entry>65</entry>
+          </row>
+          <row>
+            <entry>1999 <sup>c</sup></entry>
+            <entry>180</entry>
+            <entry>230</entry>
+            <entry>140</entry>
+          </row>
+          <row>
+            <entry>1997 <sup>d</sup></entry>
+            <entry>250</entry>
+            <entry>250</entry>
+            <entry>200</entry>
+          </row>
+          <row>
+            <entry>1995 <sup>d</sup></entry>
+            <entry>350</entry>
+            <entry>350</entry>
+            <entry>350</entry>
+          </row>
+          <row>
+            <entry>1992 <sup>d</sup></entry>
+            <entry>500</entry>
+            <entry>500</entry>
+            <entry>500</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <list id="id2780463" list-type="enumerated" number-style="lower-alpha" mark-suffix="-">
+      <item>ITRS data 2008 update.</item>
+      <item>ITRS data 2006.</item>
+      <item>ITRS data 2001.</item>
+      <item>ITRS data 1997.</item>
+    </list>
+    <para id="id4577124">* The physical length has become smaller than printed length.</para>
+    <para id="id1170596145719">As feature size has reduced, shorter wave length has to be used hence light source in Lithography will have to be changed. If the printing feature is smaller than wavelength then light tends to get diffracted and edges get blurred. By image enhancement techniques, smaller feature size can be achieved with larger wavelength.</para>
+    <para id="id6484319">Now we will examine how Lithography Technology has evolved over the last 50 years.</para>
+  </content>
+</document>

@@ -1,0 +1,462 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 10_Simulation of MOSFET</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37448</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 10_Simulation of MOSFET</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 10 works out the example number one on MOSFET.</md:abstract>
+  <md:uuid>3527d404-8b8b-4d6e-9feb-de65d93a29ce</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166359423740">SSPD_Chapter 6_Part 10_MOSFET Simulation.</para>
+    <para id="id1166359742734">
+      <emphasis effect="bold">6.10.1. mos1ex01:Plot of I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">-V</emphasis>
+      <emphasis effect="bold">GS</emphasis>
+      <emphasis effect="bold"> at constant V</emphasis>
+      <emphasis effect="bold">DS</emphasis>
+      <emphasis effect="bold"> and extraction of V</emphasis>
+      <emphasis effect="bold">Th</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <para id="id1166354394250">go athena</para>
+    <para id="id1166354589630">#</para>
+    <para id="id1166353948902">line x loc=0.0 spac=0.1 </para>
+    <para id="id1166376872038">line x loc=0.2 spac=0.006</para>
+    <para id="id1166358977122">line x loc=0.4 spac=0.006</para>
+    <para id="id1166353976151">line x loc=0.6 spac=0.01 </para>
+    <para id="id1166354275224">#</para>
+    <para id="id1166375268771">line y loc=0.0 spac=0.002 </para>
+    <para id="id1834475">line y loc=0.2 spac=0.005</para>
+    <para id="id1166359327170">line y loc=0.5 spac=0.05</para>
+    <para id="id1166354444476">line y loc=0.8 spac=0.15 </para>
+    <para id="id1166359789486">#</para>
+    <para id="id1166368934809">init orientation=100 c.phos=1e14 space.mul=2</para>
+    <para id="id1166353968026">#pwell formation including masking off of the nwell</para>
+    <para id="id2330706">#</para>
+    <para id="id1666442">diffus time=30 temp=1000 dryo2 press=1.00 hcl=3</para>
+    <para id="id1166369090872">#</para>
+    <para id="id1166354375443">etch oxide thick=0.02</para>
+    <para id="id1166354325729">#</para>
+    <para id="id1166372880058">#P-well Implant</para>
+    <para id="id1166362344405"># </para>
+    <para id="id1166353675747">implant boron dose=8e12 energy=100 pears </para>
+    <para id="id1166369749383">#</para>
+    <para id="id1166355582794">diffus temp=950 time=100 weto2 hcl=3</para>
+    <para id="id1166376858781">#</para>
+    <para id="id1166361223624">#N-well implant not shown -</para>
+    <para id="id1166372988060">#</para>
+    <para id="id1166362865083"># welldrive starts here</para>
+    <para id="id5252746">diffus time=50 temp=1000 t.rate=4.000 dryo2 press=0.10 hcl=3</para>
+    <para id="id1166367349651">#</para>
+    <para id="id1166363894374">diffus time=220 temp=1200 nitro press=1</para>
+    <para id="id1166372243328">#</para>
+    <para id="id1166353740254">diffus time=90 temp=1200 t.rate=-4.444 nitro press=1</para>
+    <para id="id1166359754241">#</para>
+    <para id="id1166377743635">etch oxide all</para>
+    <para id="id1166375573850">#</para>
+    <para id="id1166359089651">#sacrificial "cleaning" oxide</para>
+    <para id="id1166355653065">diffus time=20 temp=1000 dryo2 press=1 hcl=3</para>
+    <para id="id1166354905796">#</para>
+    <para id="id1166359794010">etch oxide all</para>
+    <para id="id1166369652917">#</para>
+    <para id="id1166369461282">#gate oxide grown here:-</para>
+    <para id="id1979590">diffus time=11 temp=925 dryo2 press=1.00 hcl=3</para>
+    <para id="id1166353696070">#</para>
+    <para id="id1166359935597"># Extract a design parameter </para>
+    <para id="id1166358959765">extract name="gateox" thickness oxide mat.occno=1 x.val=0.05</para>
+    <para id="id1166354343783">#</para>
+    <para id="id1166361231581">#vt adjust implant </para>
+    <para id="id2855809">implant boron dose=9.5e11 energy=10 pearson </para>
+    <para id="id1166375586875">#</para>
+    <para id="id1166359803756">depo poly thick=0.2 divi=10 </para>
+    <para id="id7688321">#</para>
+    <para id="id1166355199474">#from now on the situation is 2-D</para>
+    <para id="id1166355566708">#</para>
+    <para id="id1166353774713">etch poly left p1.x=0.35</para>
+    <para id="id1166359501040">#</para>
+    <para id="id1166363543170">method fermi compress</para>
+    <para id="id1166364349988">diffuse time=3 temp=900 weto2 press=1.0</para>
+    <para id="id1166359672046">#</para>
+    <para id="id1166377972208">implant phosphor dose=3.0e13 energy=20 pearson </para>
+    <para id="id2281079">#</para>
+    <para id="id1166364283342">depo oxide thick=0.120 divisions=8</para>
+    <para id="id1166369127996">#</para>
+    <para id="id1166368496485">etch oxide dry thick=0.120</para>
+    <para id="id1166359798244">#</para>
+    <para id="id5484571">implant arsenic dose=5.0e15 energy=50 pearson </para>
+    <para id="id1166359704411">#</para>
+    <para id="id1166364046670">method fermi compress</para>
+    <para id="id1166359079954">diffuse time=1 temp=900 nitro press=1.0</para>
+    <para id="id1166353746621">#</para>
+    <para id="id1166362760107"># pattern s/d contact metal</para>
+    <para id="id1166375619585">etch oxide left p1.x=0.2</para>
+    <para id="id1166359795576">deposit alumin thick=0.03 divi=2</para>
+    <para id="id1166367587643">etch alumin right p1.x=0.18</para>
+    <para id="id7632240"># Extract design parameters</para>
+    <para id="id1166359767919"># extract final S/D Xj</para>
+    <para id="id1166365151267">extract name="nxj" xj silicon mat.occno=1 x.val=0.1 junc.occno=1</para>
+    <para id="id1166367786854"># extract the N++ regions sheet resistance</para>
+    <para id="id1166354243798">extract name="n++ sheet rho" sheet.res material="Silicon" mat.occno=1 x.val=0.05 region.occno=1</para>
+    <para id="id1166380235276"># extract the sheet rho under the spacer, of the LDD region</para>
+    <para id="id1166354128015">extract name="ldd sheet rho" sheet.res material="Silicon" \</para>
+    <para id="id1166359397709"> mat.occno=1 x.val=0.3 region.occno=1</para>
+    <para id="id1166361476830"># extract the surface conc under the channel.</para>
+    <para id="id1166353753281">extract name="chan surf conc" surf.conc impurity="Net Doping" \</para>
+    <para id="id1166363578182"> material="Silicon" mat.occno=1 x.val=0.45</para>
+    <para id="id1166359522622"># extract a curve of conductance versus bias.</para>
+    <para id="id1166376019443">extract start material="Polysilicon" mat.occno=1 \</para>
+    <para id="id1166353835604"> bias=0.0 bias.step=0.2 bias.stop=2 x.val=0.45</para>
+    <para id="id1166380263548">extract done name="sheet cond v bias" \</para>
+    <para id="id6367212"> curve(bias,1dn.conduct material="Silicon" mat.occno=1 region.occno=1)\</para>
+    <para id="id1166359551115"> outfile="extract.dat"</para>
+    <para id="id1166359887658"># extract the long chan Vt</para>
+    <para id="id1166361462579">extract name="n1dvt" 1dvt ntype vb=0.0 qss=1e10 x.val=0.49</para>
+    <para id="id1166359238745">structure mirror right</para>
+    <para id="id1166359263154">electrode name=gate x=0.5 y=0.1</para>
+    <para id="id1166359779454">electrode name=source x=0.1</para>
+    <para id="id1166365488416">electrode name=drain x=1.1</para>
+    <para id="id1166357304952">electrode name=substrate backside</para>
+    <para id="id1166380443581">structure outfile=mos1ex01_0.str</para>
+    <para id="id1166354172416"/>
+    <para id="id1166369859987"># plot the structure</para>
+    <para id="id1166359854312">tonyplot mos1ex01_0.str -set mos1ex01_0.set</para>
+    <para id="id1166372255789">############# Vt Test : Returns Vt, Beta and Theta ################</para>
+    <para id="id2110108">go atlas</para>
+    <para id="id1166380448890"># set material models</para>
+    <para id="id1166359858700">models cvt srh print </para>
+    <para id="id1166372391530">contact name=gate n.poly</para>
+    <para id="id1166354371761">interface qf=3e10</para>
+    <para id="id1166368582702">method newton</para>
+    <para id="id1166354591589">solve init</para>
+    <para id="id1166359010990"># Bias the drain </para>
+    <para id="id1166354176727">solve vdrain=0.1 </para>
+    <para id="id1166354052363"># Ramp the gate</para>
+    <para id="id1166359060438">log outf=mos1ex01_1.log master</para>
+    <para id="id2272605">solve vgate=0 vstep=0.25 vfinal=3.0 name=gate</para>
+    <para id="id1166353819072">save outf=mos1ex01_1.str</para>
+    <para id="id1166363558620"># plot results</para>
+    <para id="id1166359809904">tonyplot mos1ex01_1.log -set mos1ex01_1_log.set</para>
+    <para id="id1166353817869"># extract device parameters</para>
+    <para id="id2026089">extract name="nvt" (xintercept(maxslope(curve(abs(v."gate"),abs(i."drain")))) \</para>
+    <para id="id5387143"> - abs(ave(v."drain"))/2.0)</para>
+    <para id="id1166367928186">extract name="nbeta" slope(maxslope(curve(abs(v."gate"),abs(i."drain")))) \</para>
+    <para id="id1166375172581"> * (1.0/abs(ave(v."drain")))</para>
+    <para id="id1166373007875">extract name="ntheta" ((max(abs(v."drain")) * $"nbeta")/max(abs(i."drain"))) \</para>
+    <para id="id1166379296789"> - (1.0 / (max(abs(v."gate")) - ($"nvt")))</para>
+    <para id="id1166362270070">Quit</para>
+    <para id="id1166354340316">We have to create the initial structure file.</para>
+    <para id="id1166354581553">By Mesh Define Menu, initial rectangular grid is specified. By selecting the VIEW……. Button, we can click the View Grid Window. We can adjust the grid lines according to our requirement. In critical areas we want fine mesh and in passive, non-critical area we require coarse mesh. Accordinfgly we set the grid line and write it into the INPUT file. It comes as shown below: </para>
+    <para id="id2343893">#</para>
+    <para id="id1166375186428">line x loc=0.0 spac=0.1 </para>
+    <para id="id1166361167455">line x loc=0.2 spac=0.006</para>
+    <para id="id1166369461067">line x loc=0.4 spac=0.006</para>
+    <para id="id1166354454027">line x loc=0.6 spac=0.01 </para>
+    <para id="id1166360188658">#</para>
+    <para id="id1166361524430">line y loc=0.0 spac=0.002 </para>
+    <para id="id2519912">line y loc=0.2 spac=0.005</para>
+    <para id="id1166375945745">line y loc=0.5 spac=0.05</para>
+    <para id="id1166353769109">line y loc=0.8 spac=0.15 </para>
+    <para id="id1166358853363">#</para>
+    <para id="id1166375380315">These lines describe the GRID or MESH</para>
+    <para id="id1166375428421">Now we define the Initial Substrate. By Mesh Initialize…….Mesh Initialize Menu appears.</para>
+    <para id="id1166361517241">Here we have three options for ‘orientation’. For BJT we will select &lt;111&gt; but for MOS structures we will select &lt;100&gt;. This helps minimize the interface impurities and oxide trapped impurities. This in turn helps ensure a stable device.</para>
+    <para id="id1166353386925">Background doping is selected by clicking Phosphorous Box. Its concentration is set at 1 by the slider and 14 is written into exponent box.</para>
+    <para id="id2021436">Dimensionality is chosen at AUTO. This will start in 1-D and automatically switch to 2-D. </para>
+    <para id="id1166368232319">Grid Spacing scaling factor is chosen at 2. </para>
+    <para id="id1166375101236">By WRITE button the information is written into the input file. It is as shown below.</para>
+    <para id="id1166358829367">init orientation=100 c.phos=1e14 space.mul=2</para>
+    <para id="id1166360258812">Using these two informations (Grid Information and Grid Initialization) if we RUN Athena we get the INITIAL STRUCTURE as Initial Triangular Grid.</para>
+    <para id="id1166353997877">
+      <figure id="id1166353958034">
+        <media id="id1166353958034_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-10e5.png" id="id1166353958034__onlineimage" height="508" width="622"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166359499264">
+      <emphasis effect="bold">Figure 1. Initial Triangular Grid.</emphasis>
+    </para>
+    <para id="id1166371108062"> This triangular grid is not drawn according to the specifications given for this example.</para>
+    <para id="id1166374445613"> The Grid consists of points connected to form a number of triangles. The </para>
+    <para id="id1166365540268">physical device is 3D structure but we are showing 2D Grid structure. Hence a point in 2D mesh may correspond to different regions in 3<sup>rd</sup> dimension. It may belong to Silicon at z = 0µm and to Oxide region at z = 2µm. Hence the same point will have two nodes. A node represents the solution of the coupled equations in the region to which node belongs. Hence in this case a point will have two nodes: one node in Silicon region and another node in Oxide region.</para>
+    <para id="id1166359532366"> The INIT statement creates &lt;100&gt; Silicon region of 1µm×1µm size which has an uniform N-type doping of Phosphorous of doping concentration of 1×10<sup>14</sup>Phos atoms per cc. This simulation structure is ready for any process step e.g. implant, diffusion, reactive ion-etching.</para>
+    <para id="id1166366204241"> Now structure manipulation statements will follow. These will precede or alternate with PHYSICAL PROCESS STEPS which will be carried out by SUPREME4, ELITE or OPTOLITH modules.</para>
+    <para id="id1166363381656"> Thermal Process Simulation, such as diffusion, oxidation or silicidation, is the focal point of SUPREME4.</para>
+    <para id="id1166354499014">When we open the ATHENA Diffuse Menu, we have the following options:</para>
+    <para id="id1166369374287">#Time is to be adjusted from 0 to 500 minutes. ###########################</para>
+    <para id="id1166355720941">#We have Temperature option which can be chosen from 500°C to 1300°C.####</para>
+    <para id="id1166372733874">#The ‘Ambient’ option has Dry O<sub>2</sub>, Wet O<sub>2</sub>(Argon or Nitrogen is bubbled through water),N<sub>2</sub>, Gas Flow.#################################################</para>
+    <para id="id1166353700122">#We have gas pressure option. We can choose from 1 atmosphere to 10 atmosphere.########################################################</para>
+    <para id="id1166376407906">#HCl percentage option.##############################################</para>
+    <para id="id7697767">#Comment#########################################################</para>
+    <para id="id1166354022614">We have the option of ramping up or ramping down the temperature as we do in Rapid Thermal Anneal(RTA).</para>
+    <para id="id1166379117639">Small concentration of HCl , in this case 3%, helps reduce Oxide defect densities and reduce contamination levels.</para>
+    <para id="id1166359776206">4HCl + O<sub>2 </sub>→ 2H<sub>2</sub>O + 2Cl<sub>2</sub> .</para>
+    <para id="id1166357540035">HCl reacts with Oxygen to form Chlorine. Chlorine reacts with trace metals and other contaminants in the furnace to produce volatile chlorides as by products.</para>
+    <para id="id1166354553304">We have the following statements.</para>
+    <para id="id1166359398843">#pwell formation including masking off of the nwell</para>
+    <para id="id1166361506403">This statement means that we will be process simulating the (E)NMOS in P Well only and extracting the threshold voltage from its transfer characteristics.</para>
+    <para id="id1166353629302">#</para>
+    <para id="id1166370609592">diffus time=30 temp=1000 dryo2 press=1.00 hcl=3</para>
+    <para id="id1166380411457">In the above statement we are doing dry oxidation for 30 minutes at 1000°C in 1 atmospheric pressure with a mixed ambient which contains 3% HCl acid vapour. </para>
+    <para id="id1166363553652">The above parameters of dry diffusion gives 0.03µm thick oxide from the look-up table. </para>
+    <figure id="id1166353402716">
+      <media id="id1166353402716_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-eba2.png" id="id1166353402716__onlineimage" height="412" width="551"/>
+      </media>
+    </figure>
+    <para id="id1166367052695">The oxide is retained over N Well and completely etched out from P Well portion.</para>
+    <para id="id1166359531032">For this we open Athena Etch Menu:</para>
+    <para id="id2337183">#Etch Method: Geometrical-Machine################################################</para>
+    <para id="id1166354479190">#Geometrical Type:All-Left-Right-Dry Thickness-Any Shape############################</para>
+    <para id="id1166378411462">#Material- Oxide or Poly Si.#######################################################</para>
+    <para id="id1166359748417">#Etch Location################################################################</para>
+    <para id="id1166359820502">Geometrical Etch is the default method of Etch.</para>
+    <para id="id5367483">We can choose the material to be etched and we can specify the portion to be etched.</para>
+    <para id="id1166376451407">We may etch out the entire surface(All) or RIGHT of a point situated at xo from the left edge or LEFT of a point situated at x1 from the right edge or the entire thickness over the entire surface area or etch out in a specific polygonal area as described by four or more points in the menu.</para>
+    <para id="id1166360328493">#</para>
+    <para id="id1166361178273">etch oxide thick=0.02</para>
+    <para id="id2181648">Since our previous step was Oxidation 0.03µm thick hence in P-Well region again 0.02 µm has to be etched out leaving 10nm screen oxide over P-Well which will randomize the Boron implant into P-Well region. 30nm thick oxide will completely shield the N-Well region from Boron Implant.. </para>
+    <figure id="id2296287">
+      <media id="id2296287_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-c89a.png" id="id2296287__onlineimage" height="395" width="613"/>
+      </media>
+    </figure>
+    <para id="id1166354013812">Now we have to carry out the Boron Implant for P-Well. </para>
+    <para id="id1166359541429">Ion-implantation is the main method to introduce doping impurities into semiconductor structure. This allows critical dimensions , shallow implant depth, high doses and tilted implants.</para>
+    <para id="id1166359543227">We select Process → Implant….. in command menu and open the Implant Menu.</para>
+    <para id="id1166359743024">#Impurities: B, P, As, Bf2, Sb, Si, Zn, Se, Be, Mg, Al, Ga, C############################</para>
+    <para id="id2224597">#Dose (ions/cm^2):#############################################################</para>
+    <para id="id1166354017009">#Energy (KeV);################################################################</para>
+    <para id="id1778265">#Model: Dual Pearson-Gauss-Predict-Montecarlo######################################</para>
+    <para id="id1166353740289">#Tilt:#########################################################################</para>
+    <para id="id1166361099095">#Rotaion:######################################################################</para>
+    <para id="id1166363551216">#Material Type: Crystalline-Amorphous;#############################################</para>
+    <para id="id1166359853848">#Point Defects: None-Unit Damage-Damage;#########################################</para>
+    <para id="id1166362449823">#Comment:####################################################################</para>
+    <para id="id1166378433570">After setting the parameters and the models for Boron Implant in P-well we get the following statement:</para>
+    <para id="id1166359862331">#P-well Implant</para>
+    <para id="id1166354254288"># </para>
+    <para id="id1166358855998">implant boron dose=8e12 energy=100 pears </para>
+    <para id="id1166367311943">In P-Well implant we have used 8×10<sup>12 </sup>Boron ions/cm<sup>2</sup> at 100<sup/>KeV and Dual Pearson Model has been invoked. With these parameters the peak of the implant will occur at 0.25µm. </para>
+    <para id="id1166354174768">#</para>
+    <para id="id3212375">diffus temp=950 time=100 weto2 hcl=3</para>
+    <para id="id1166357382833">Now wet Oxidation done at 950°C for 100 minutes with 3% HCl. This gives 0.5µm thick oxide layer which covers P-Well again</para>
+    <para id="id1166374395294">
+      <figure id="id1166357438232">
+        <media id="id1166357438232_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-e727.png" id="id1166357438232__onlineimage" height="401" width="611"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1166353988595">
+      <media id="id1166353988595_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-6c5f.png" id="id1166353988595__onlineimage" height="446" width="578"/>
+      </media>
+    </figure>
+    <para id="id1166358928226">
+      <emphasis effect="italics">#</emphasis>
+    </para>
+    <para id="id1166377781180">#N-well implant not shown -</para>
+    <para id="id1166354232941">#</para>
+    <para id="id1166362821258">Now we do thermal annealing to heal the damage as well as to drive the Boron atoms deep into P well.</para>
+    <para id="id1166365028803"># welldrive starts here</para>
+    <para id="id1166355717178">diffus time=50 temp=1000 t.rate=4.000 dryo2 press=0.10 hcl=3</para>
+    <para id="id1166359285854">Drive in takes place at 1000°C for 50 minutes at ramp rate of 4°C per minute with HCl 3% and dry oxygen ambient at 0.1 atmosphere pressure..</para>
+    <para id="id1166354170127">#</para>
+    <para id="id1166360374678">diffus time=220 temp=1200 nitro press=1</para>
+    <para id="id1166371142738">#</para>
+    <para id="id1166354307568">
+      <emphasis effect="italics">diffus time=90 temp=1200 t.rate=- 4.444 nitro press=1</emphasis>
+    </para>
+    <para id="id1166354497135">#</para>
+    <para id="id1166354027681">Then damage annealing is done at 1200°C for 220 minutes in Nitrogen Ambient at 1 atmosphere pressure. The goal of damage annealing is is to remove the primary damage created by the implant and restore the silicon lattice to its perfect crystalline state leaving the dopents in active substitutional sites. This annealing removes the damage as well as activates the dopents. Activaion means dopents contribute to electrical conductivity and this can happen only after they occupy substitutional sites.</para>
+    <para id="id1166371497692">Next it is ramped down from 1200°C to Room Temperature at a rate of</para>
+    <para id="id1166367708752">– 4.444°C/min in Nitrogen Ambient at 1 atmosphere.</para>
+    <para id="id1166353687922">etch oxide all</para>
+    <para id="id1166358874536">#</para>
+    <para id="id1166361175210">#sacrificial "cleaning" oxide</para>
+    <para id="id1166354250910">Next by geometrical etching all oxide is removed from P-Well.</para>
+    <para id="id1166371837637">diffus time=20 temp=1000 dryo2 press=1 hcl=3</para>
+    <para id="id1166360358523">Next 0.03µm Oxide is grown over P-Well at temperature 1000°C in a period of 20 minutes in dry oxygen at a pressure of 1 atmosphere with HCl 3%.</para>
+    <figure id="id1166354121570">
+      <media id="id1166354121570_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-20be.png" id="id1166354121570__onlineimage" height="454" width="532"/>
+      </media>
+    </figure>
+    <para id="id2306223">#</para>
+    <para id="id1166354024377">etch oxide all</para>
+    <para id="id1166372936268">#</para>
+    <para id="id1166361523215">#gate oxide grown here:-</para>
+    <para id="id1166354172452">diffus time=11 temp=925 dryo2 press=1.00 hcl=3</para>
+    <para id="id1166358848796">#</para>
+    <para id="id1166354906322"># Extract a design parameter </para>
+    <para id="id1166362830940">extract name="gateox" thickness oxide mat.occno=1 x.val=0.05</para>
+    <para id="id1166359409585">A thin oxide layer is grown and again etched. This is done to improve the silicon surface which has received considerable battering due to Boron implants. This is in addition to anneal step.</para>
+    <para id="id1166359769427">Again a thin layer of oxide is grown by 11 minutes dry oxidation at 925°C at a pressure of 1 atmosphere and HCl 3%. </para>
+    <para id="id1733454">The gate oxide is 20nm thick.</para>
+    <para id="id1166357219548"># Extract a design parameter </para>
+    <para id="id1166360236812">extract name="gateox" thickness oxide mat.occno=1 x.val=0.05</para>
+    <para id="id1166361511954">#</para>
+    <para id="id1166366503171">This statement extracts the gate-oxide thickness in the vertical section at xm = 0.05µm. The gate oxide thickness should be 11nm. </para>
+    <para id="id2997540">#vt adjust implant </para>
+    <para id="id1166362606339">implant boron dose=9.5e11 energy=10 pearson </para>
+    <para id="id1166380207710">
+      <emphasis effect="italics"/>
+    </para>
+    <para id="id1609987">To precisely control the threshold voltage in the range of 0.5V to 0.8V we do a second ion implantation.</para>
+    <para id="id1166358846532">Boron Implant Dose = 9.5×10<sup>11</sup>Boron ions/cm<sup>2</sup> and accelerating voltage is 10KeV and we invoke Dual Pearson Model.</para>
+    <para id="id1166365029894">The implant dose can be calculated from the formula:</para>
+    <figure id="id1166365905919">
+      <media id="id1166365905919_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-61c2.png" id="id1166365905919__onlineimage" height="57" width="361"/>
+      </media>
+    </figure>
+    <para id="id1166363878016">V<sub>FB</sub> = flat band voltage;</para>
+    <para id="id1166368119087">Ψ<sub>F</sub> = (E<sub>i</sub>-E<sub>F</sub>)/q;</para>
+    <para id="id1166368262822">Q<sub>I</sub> = implanted dose;</para>
+    <para id="id1166376630268">C<sub>OX</sub> = ε<sub>oxide</sub>/t<sub>oxide</sub> ;</para>
+    <para id="id4903533">#</para>
+    <para id="id1166368729598">depo poly thick=0.2 divi=10 </para>
+    <para id="id1166367596985">#</para>
+    <para id="id2454154">#from now on the situation is 2-D</para>
+    <para id="id1166357550004">#</para>
+    <para id="id1903380">etch poly left p1.x=0.35</para>
+    <para id="id1166359485943">#</para>
+    <para id="id1166378605208">Here we cover the P-Well with 0.2µm thick Poly_Si as shown in Figure 7.</para>
+    <para id="id2249902">This Poly_Si is etched left to x = 0.35µm as shown in Figure 8. The N Well is kept out of process simulation hence it is being shown as dotted structure.</para>
+    <para id="id1166354801835">
+      <figure id="id8851978">
+        <media id="id8851978_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-1564.png" id="id8851978__onlineimage" height="450" width="533"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166362570591">
+      <figure id="id1166357118878">
+        <media id="id1166357118878_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-5cf5.png" id="id1166357118878__onlineimage" height="436" width="525"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166367562252">method fermi compress</para>
+    <para id="id1166375284295">diffuse time=3 temp=900 weto2 press=1.0</para>
+    <para id="id1166362861153">#</para>
+    <para id="id1166378343735">Method Fermi Compress is invoked. We are using Fermi model which is applicable to structures having low damage and doping concentration below 1×10<sup>20</sup> dopents per cc.</para>
+    <para id="id1166362460764">3 minutes wet oxidation at 900°C is done at 1 atmosphere.</para>
+    <para id="id1166359124871">0.02µm oxide layer is obtained covering the entire surface as shown in Figure 9. It should be noted that this is wet oxidation and not conformal deposition. Hence Oxide layer is formed only in regions where Silicon is available. Necessity of this step is not clear.</para>
+    <para id="id1166354078055">implant phosphor dose=3.0e13 energy=20 pearson </para>
+    <para id="id1166365039368">#</para>
+    <para id="id1166365670308">Phosphorous implant of Dose 3×10<sup>13</sup> ions/cm<sup>2</sup> is carried out at an energy of 20KeV. </para>
+    <para id="id2840459"/>
+    <para id="id1166378604991">This phosphorous implant creates self-aligned LDD N-type Source as well as highly N-type doped Poly-Si Gate contact.</para>
+    <figure id="id1166360034510">
+      <media id="id1166360034510_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-ad4d.png" id="id1166360034510__onlineimage" height="468" width="560"/>
+      </media>
+    </figure>
+    <para id="id1166378982324">Side-Wall Spacer formation can be obtained as follows:</para>
+    <para id="id1166374861186">depo oxide thick=0.120 divisions=8</para>
+    <para id="id1166376750959">#</para>
+    <para id="id1166354503297">etch oxide dry thick=0.120</para>
+    <para id="id1166380032546">#</para>
+    <para id="id2677873">Here we deposit 0.12µm thick oxide and again etch the same amount. Because of conformal nature of deposition during the etching phase side-wall oxide is retained as shown in Figure 10.</para>
+    <para id="id1166376781511">Next we do Arsenic Ion-Implant in a larger dose:</para>
+    <para id="id7648830">implant arsenic dose=5.0e15 energy=50 pearson </para>
+    <para id="id1166370544936">#</para>
+    <para id="id1166375116506">Arsenic has very little diffusion coefficient hence during subsequent heat cycles it is not redistributed. Plus N<sup>+</sup> Source has to be formed hence Arsenic dose is larger and higher accelerating voltage is used to make implant range deeper. Compare this implant with LDD implant. The resulting structure is shown in Figure 11.</para>
+    <figure id="id1166358339705">
+      <media id="id1166358339705_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-57e6.png" id="id1166358339705__onlineimage" height="469" width="571"/>
+      </media>
+    </figure>
+    <para id="id1166368176630">
+      <figure id="id1166364175086">
+        <media id="id1166364175086_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-5d51.png" id="id1166364175086__onlineimage" height="465" width="532"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7533924">Now Metal contact has to be made to N+ source.</para>
+    <para id="id3016246">method fermi compress</para>
+    <para id="id1166364931835">diffuse time=1 temp=900 nitro press=1.0</para>
+    <para id="id1166377718299">#</para>
+    <para id="id1166361549252">Rapid annealing is done for 1 minute at 900°C</para>
+    <para id="id1166378537866"># pattern s/d contact metal</para>
+    <para id="id1166376642379">etch oxide left p1.x=0.2</para>
+    <para id="id1166379127685">deposit alumin thick=0.03 divi=2</para>
+    <para id="id4592966">Now Oxide is etched out left of the grid line xm=0.2µm.</para>
+    <para id="id1166355233240">Next Aluminum is deposited for Source Contact. The entire surface gets covered by Metal Layer shown in Black by conformal deposition method. As shown in Figure 12.</para>
+    <para id="id1166365087559">Next we etch out Metal(Al) from the entire surface except the Source contact which is made from xm = 0µm to xm = 0.18 µm. That is Source contact is 0.18µm long extending from the left edge to xm = 0.18 µm. Hence we give the command:</para>
+    <para id="id1166376715797">etch alumin right p1.x=0.18</para>
+    <para id="id1166359421674">The resulting structure is shown in Figure 13.</para>
+    <figure id="id1166367312199">
+      <media id="id1166367312199_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-67b4.png" id="id1166367312199__onlineimage" height="452" width="555"/>
+      </media>
+    </figure>
+    <para id="id1166367587373">
+      <figure id="id3133264">
+        <media id="id3133264_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-4d26.png" id="id3133264__onlineimage" height="447" width="572"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166378592534"># Extract design parameters</para>
+    <para id="id1166367546744"># extract final S/D Xj</para>
+    <para id="id3056686">extract name="nxj" xj silicon mat.occno=1 x.val=0.1 junc.occno=1</para>
+    <para id="id7512118"># extract the N++ regions sheet resistance</para>
+    <para id="id1166375220117">extract name="n++ sheet rho" sheet.res material="Silicon" mat.occno=1 x.val=0.05 region.occno=1</para>
+    <para id="id1166357110552"># extract the sheet rho under the spacer, of the LDD region</para>
+    <para id="id1166361279861">extract name="ldd sheet rho" sheet.res material="Silicon" \</para>
+    <para id="id1166362129461"> mat.occno=1 x.val=0.3 region.occno=1</para>
+    <para id="id1832629"># extract the surface conc under the channel.</para>
+    <para id="id1166364986758">extract name="chan surf conc" surf.conc impurity="Net Doping" \</para>
+    <para id="id1166358584430"> material="Silicon" mat.occno=1 x.val=0.45</para>
+    <para id="id1166359230297">In the above statements following fabrication parameters are being extracted at the vertical sections of following physical locations of the MOS structure as shown in Figure 14.</para>
+    <figure id="id1166354700351">
+      <media id="id1166354700351_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-60db.png" id="id1166354700351__onlineimage" height="457" width="610"/>
+      </media>
+    </figure>
+    <para id="id1166375890286">At x.val = 0.05µm, Sheet Resistance of N++ Source region is to be extracted.</para>
+    <para id="id5389449">At x.val = 0.15µm, Junction depth of Source region is to be extracted.</para>
+    <para id="id1166361495497">At x.val = 0.3µm, Sheet Resistance of LDD is to be extracted.</para>
+    <para id="id1166369196993">At x.val = 0.05µm, Sheet Resistance of the channel below the gate-oxide is to be extracted.</para>
+    <para id="id1166357154111"># extract a curve of conductance versus bias.</para>
+    <para id="id1166362562456">extract start material="Polysilicon" mat.occno=1 \</para>
+    <para id="id1166357290051"> bias=0.0 bias.step=0.2 bias.stop=2 x.val=0.45</para>
+    <para id="id1166358541410">extract done name="sheet cond v bias" \</para>
+    <para id="id1166375747306"> curve(bias,1dn.conduct material="Silicon" mat.occno=1 region.occno=1)\</para>
+    <para id="id8222129"> outfile="extract.dat"</para>
+    <para id="id1166357531209"/>
+    <para id="id1166355670207">Here the Gate Bias voltage is increased from 0V to 2V in step of 0.2V and sheet conductance versus Gate Bias Voltage curve is determined at the vertical section located at xm = 0.45µm. </para>
+    <para id="id1166378766566"># extract the long chan Vt</para>
+    <para id="id7138062">extract name="n1dvt" 1dvt ntype vb=0.0 qss=1e10 x.val=0.49</para>
+    <para id="id1166353792115">In this statement Threshold Voltage is extracted with bias voltage at 0V and Q<sub>SS</sub> = 1×10<sup>10</sup> at the vertical section situated at xm = 0.45µm.</para>
+    <para id="id1166367341078">structure mirror right</para>
+    <para id="id1166365680805">By this statement we are able to generate the whole (E)NMOS structure.</para>
+    <figure id="id1166359599764">
+      <media id="id1166359599764_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-c1f0.png" id="id1166359599764__onlineimage" height="459" width="546"/>
+      </media>
+    </figure>
+    <para id="id2847249">electrode name=gate x=0.5 y=0.1</para>
+    <para id="id1166375981845">electrode name=source x=0.1</para>
+    <para id="id1166371756639">electrode name=drain x=1.1</para>
+    <para id="id1166366427441">electrode name=substrate backside</para>
+    <para id="id1166367792665">structure outfile=mos1ex01_0.str</para>
+    <para id="id1166355233214"># plot the structure</para>
+    <para id="id1166360285411">tonyplot mos1ex01_0.str -set mos1ex01_0.set</para>
+    <para id="id8920983"><emphasis effect="italics">############# Vt Test : Returns Vt, Beta and Theta</emphasis> ################</para>
+    <para id="id1166359412876">In the last four statements we are giving the name and location of the contact pads of the device generated.</para>
+    <para id="id1166371190020">We have Gate Contact Pad located at xm=0.5µm and ym = -0.1 µm;</para>
+    <para id="id1166361485722">Source Contact Pad at xm = 0.1 µm and on the surface of the device;</para>
+    <para id="id1166361274425">Drain Contact Pad at xm = 1.1 µm and on the surface of the device;</para>
+    <para id="id1166376472105">There is contact pad to the body at the backside.</para>
+    <para id="id1947657">Beta is the distribution function describing the dopent distribution. </para>
+    <para id="id1166365002668">Theta is the distribution function dealing with the interstitials.</para>
+  </content>
+</document>

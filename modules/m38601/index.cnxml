@@ -1,0 +1,62 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_part 5_Stick Diagrams of CMOS Gates_concluded.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38601</md:content-id>
+  <md:title>SSPD_Chapter 7_part 5_Stick Diagrams of CMOS Gates_concluded.</md:title>
+  <md:abstract>SSPD_Chapter 7_part 5_Stick Diagrams of CMOS Gates_concluded. is the concluding part of the stick diagram of CMOS Gates.It gives the layout of transmission gate,multiplexer and metal interconnect.</md:abstract>
+  <md:uuid>22afcd5f-832e-49c0-9d29-56a73dcc183a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167795449518">SSPD_Chapter 7_part 5_Stick Diagrams of CMOS Gates_concluded.</para>
+    <para id="id1167800308600">7.5.4. CMOS Transmission Gate.</para>
+    <para id="id1167800227888">Figure 7.5.4.1 gives the layout of transmission switch and its stick diagram.</para>
+    <figure id="id1167800240875">
+      <media id="id1167800240875_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-9812.png" id="id1167800240875__onlineimage" height="536" width="601"/>
+      </media>
+    </figure>
+    <para id="id1167799727712">Blue- metal 1, Red – Poly-Si, Green – N+diffusion for (E)NMOS; Brown – P+diffusion.</para>
+    <para id="id1167800302530">Whenever control I/P ‘C’ = 1, ‘C complement’=0. Both the transistors turn ON and there is full transmission from I/P to O/P.</para>
+    <para id="id5879354">Whenever ‘C’= 0, ‘C complement’= 1 then both transistors turn ‘OFF’ and the transmission is stopped between I/P and O/P.</para>
+    <para id="id2008018">7.5.5. CMOS 2-input Multiplexer.</para>
+    <para id="id1167810142112">Figure 7.5.5.1 gives the Symbol and the layout of 2-input multiplexer expressed as stick disagram.</para>
+    <para id="id1167793811727">
+      <figure id="id1167813398247">
+        <media id="id1167813398247_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-ca80.png" id="id1167813398247__onlineimage" height="548" width="595"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167795659836">The circuit model of the layout is given in Figure 7.5.5.2. </para>
+    <para id="id1167813987939">By inspection of the circuit model we see that </para>
+    <para id="id1167802083332">when control input C=’1’ then Z = B and </para>
+    <para id="id1167801386998">when C= ‘0’ then Z = A.</para>
+    <para id="id1167800221303">
+      <figure id="id1167803623934">
+        <media id="id1167803623934_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-f3f8.png" id="id1167803623934__onlineimage" height="574" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <list id="id1167803593594" list-type="bulleted">
+      <item>Metal Interconnect Layers.</item>
+    </list>
+    <para id="id1167803028720">Metal layers are electrically isolated from each other. Electrical contact between</para>
+    <para id="id1167799443583">adjacent conducting layers requires contact cuts and vias.</para>
+    <para id="id1167801228617">
+      <figure id="id2677351">
+        <media id="id2677351_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-2def.png" id="id2677351__onlineimage" height="368" width="599"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167793645702">
+      <figure id="id1167814665621">
+        <media id="id1167814665621_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-87e2.png" id="id1167814665621__onlineimage" height="449" width="599"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

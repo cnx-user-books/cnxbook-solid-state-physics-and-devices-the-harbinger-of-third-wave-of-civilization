@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Experiment 2_Figures</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50959</md:content-id>
+  <md:title>SSPD_Experiment 2_Figures</md:title>
+  <md:abstract>This module gives the Figures of SSPD_Experiment 2.</md:abstract>
+  <md:uuid>f0142113-3835-48cf-bc35-e801af63b011</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164846778477">
+      <emphasis effect="bold">Experiement -2-Figures of HPF.</emphasis>
+    </para>
+    <para id="import-auto-id1164846520089"><emphasis effect="bold">2.4. High pass RC circuit</emphasis> (as shown in Figure 1.a.)  </para>
+    <figure id="import-auto-id1164857453382">
+      <media id="import-auto-id1164857217813" alt="">
+        <image mime-type="image/png" src="../../media/Picture 58-5bfb.png" height="215" width="386"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164856851800">
+      <media id="import-auto-id1164846787888" alt="">
+        <image mime-type="image/png" src="../../media/Picture 60-a434.png" height="389" width="524"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1164857296492">
+      <media id="import-auto-id1164848004494" alt="">
+        <image mime-type="image/png" src="../../media/Picture 62-92d6.png" height="277" width="479"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1164846516210">
+      <emphasis effect="bold">Figure 1.(a) Circuit Topology of High Pass Filter.</emphasis>
+    </para>
+    <para id="import-auto-id1164847698981">
+      <emphasis effect="bold">(b) Magnitude of the transfer function in dB(decibels) vs Frequency(logarithmic scale) of High Pass Filter(HPF)</emphasis>
+    </para>
+    <para id="import-auto-id1903337">
+      <emphasis effect="bold">(c) Phase of the transfer function in dB(decibels) vs Frequency(logarithmic scale)of HPF.</emphasis>
+    </para>
+    <para id="import-auto-id2569729"><emphasis effect="bold">The two plots b and c together are known as Bode Plot.</emphasis>
+    </para></content>
+</document>

@@ -1,0 +1,343 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 6_MOS ICs Fabrication Technology_to be continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36733</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 6_MOS ICs Fabrication Technology_to be continued</md:title>
+  <md:abstract>SSPD_Chapter 6_ Part 6 introduces us to CMOS process flow upto to the fabrication of P-tub and N-tub.</md:abstract>
+  <md:uuid>5eb60e38-0b12-4988-8c01-aef48225dc4c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170398029481">SSPD_Chapter 6_Part 6_ MOS ICs Fabrication Technology</para>
+    <para id="id1170377865312"> Because of the inherent advantage of MOS ICs, today MOS Technology dominates the IC market as compared to Bipolar Technology. Table 6.10 gives a comparative study of the two technologies.</para>
+    <para id="id1170394872459">Table 6.10 Comparative study of Bipolar and MOS Technologies.</para>
+    <table id="id1170366482056" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Bipolar Technology</entry>
+            <entry>MOS Technology</entry>
+          </row>
+          <row>
+            <entry>Carrier participation in transistor action</entry>
+            <entry>Both majority and minority carriers partake in transistor action-bipolar</entry>
+            <entry>Only majority carriers partake in transistor action-unipolar</entry>
+          </row>
+          <row>
+            <entry>speed</entry>
+            <entry>Traditionally much faster</entry>
+            <entry>Slower devices</entry>
+          </row>
+          <row>
+            <entry>Power dissipation</entry>
+            <entry>Higher dissipation</entry>
+            <entry>CMOS is nano watt logic under standby condition</entry>
+          </row>
+          <row>
+            <entry>Packing density</entry>
+            <entry>One generation behind because of isolation diffusion</entry>
+            <entry>Much higher packing density</entry>
+          </row>
+          <row>
+            <entry>Design flexibility</entry>
+            <entry/>
+            <entry>Higher design flexibility</entry>
+          </row>
+          <row>
+            <entry>Noise Figure</entry>
+            <entry>Higher noise figure</entry>
+            <entry>Quieter devices.</entry>
+          </row>
+          <row>
+            <entry>Dynamic range</entry>
+            <entry>Input dynamic range is 5mV because it is exponential device.</entry>
+            <entry>Input dynamic range is 400mV because it is a quadratic device.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170377515069">Semiconductor Industry Association(SIA) brought out the National Technology Roadmap for Semiconductors(NTRS) in 1994, updated in 1997 , again in 1999 and again in 2001. Based on that data we give the following Table 6.11.</para>
+    <para id="id1170366337464">Table 6.11. Future Projections for Silicon Technology taken from SIA NTRS (1997).</para>
+    <table id="id1170376250704" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Year of the first DRAM shipment</entry>
+            <entry>1997</entry>
+            <entry>1999</entry>
+            <entry>2003</entry>
+            <entry>2006</entry>
+            <entry>2009</entry>
+            <entry>2012</entry>
+          </row>
+          <row>
+            <entry>Minimum feature size(nm)</entry>
+            <entry>250</entry>
+            <entry>180</entry>
+            <entry>130</entry>
+            <entry>100</entry>
+            <entry>70</entry>
+            <entry>50</entry>
+          </row>
+          <row>
+            <entry>Memory size(bits/chip)</entry>
+            <entry>256M</entry>
+            <entry>1G</entry>
+            <entry>4G</entry>
+            <entry>16G</entry>
+            <entry>64G</entry>
+            <entry>256G</entry>
+          </row>
+          <row>
+            <entry>DRAM Chip size(mm<sup>2</sup>)</entry>
+            <entry>280</entry>
+            <entry>400</entry>
+            <entry>560</entry>
+            <entry>790</entry>
+            <entry>1120</entry>
+            <entry>1580</entry>
+          </row>
+          <row>
+            <entry>µP transistors/chip</entry>
+            <entry>11M</entry>
+            <entry>21M</entry>
+            <entry>76M</entry>
+            <entry>200M</entry>
+            <entry>520M</entry>
+            <entry>1.4B</entry>
+          </row>
+          <row>
+            <entry>Maximum wiring levels</entry>
+            <entry>6</entry>
+            <entry>6-7</entry>
+            <entry>7</entry>
+            <entry>7-8</entry>
+            <entry>8-9</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>Minimum mask count</entry>
+            <entry>22</entry>
+            <entry>22-24</entry>
+            <entry>24</entry>
+            <entry>24-26</entry>
+            <entry>26-28</entry>
+            <entry>28</entry>
+          </row>
+          <row>
+            <entry>Minimum supply voltage</entry>
+            <entry>1.8-2.5</entry>
+            <entry>1.5-1.8</entry>
+            <entry>1.2-1.5</entry>
+            <entry>0.9-1.2</entry>
+            <entry>0.6-0.9</entry>
+            <entry>0.5-0.6</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170366603362">Table 6.12 Updating of 1997 SIA NTRS Roadmap in 1999 and 2001.</para>
+    <table id="id1170394702744" summary="">
+      <tgroup cols="10">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>2004</entry>
+            <entry>2005</entry>
+            <entry>2007</entry>
+            <entry>2008</entry>
+            <entry>2010</entry>
+            <entry>2011</entry>
+            <entry>2013</entry>
+            <entry>2014</entry>
+            <entry>2016</entry>
+          </row>
+          <row>
+            <entry>1999_NTRS</entry>
+            <entry/>
+            <entry>100nm</entry>
+            <entry/>
+            <entry>70nm</entry>
+            <entry/>
+            <entry>50nm</entry>
+            <entry/>
+            <entry>35nm</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>2001_NTRS</entry>
+            <entry>90nm</entry>
+            <entry/>
+            <entry>65nm</entry>
+            <entry/>
+            <entry>45nm</entry>
+            <entry/>
+            <entry>32nm</entry>
+            <entry/>
+            <entry>22nm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170366308962">By a variety of post-lithographic techniques, the physical gate length is shorter than the printed size in photo-resist. It is projected to be 9 nm by 2016. "Lithography half-pitch and transistor gate length scaling trends continue to accelerate. This means that semiconductor chips will continue to get smaller, faster and ultimately less expensive at an even faster rate in the future," noted Paolo Gargini, Chairman of the International Roadmap Committee and Fellow, Intel Corporation "When the 2001 Roadmap looks 15 years into the future, the physical gate length is projected to be a mere 9 nanometers. We are beginning to consider technologies beyond planar or even post-CMOS devices." </para>
+    <para id="id1170382951205">In 1970, NMOS IC Technology was introduced but it was replaced by CMOS IC Technology by 1980. So our discussion will concentrate on CMOS Process Flow.</para>
+    <para id="id5748312">Section 6.6.1. NMOS IC in 1970s.</para>
+    <para id="id1170396146765">For academic reasons, we introduce the cross-section view of NMOS IC in Figure 6.39. This was prevalent in 1970s. This includes both enhancement type NMOS and depletion type NMOS.</para>
+    <para id="id1170365522632">
+      <figure id="id1170396035366">
+        <media id="id1170396035366_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-3a5e.png" id="id1170396035366__onlineimage" height="425" width="518"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170364991585">In Figure 6.39, blue colour represents METAL CONTACT and green colour represents OXIDE. Thin oxide is gate oxide and thick oxide is field oxide. </para>
+    <para id="id1170395170138"><emphasis effect="bold">Section 6.6.2. CMOS process flow</emphasis>(“Silicon VLSI Technology-Fundamentals, Practice and Modeling” by James D. Plummer, Michael D.Deal and Peter B. Griffin, Pearson Indian Edition 2009).</para>
+    <para id="id1170373323608"> The ease of circuit design and the fact that the standby power is of nanowatt level compelled VLSI Circuit designers to adopt CMOS as the building block from 1980 onward. The trend continues to be the same and it will remain so for another decade. Hence while describing VLSI process flow we will concentrate on CMOS process flow. CMOS can be used an active device or it can be used as a capacitance or resistance in VLSI chips.</para>
+    <para id="id1170379667546">Section 6.6.2.1. Choice of a substrate.</para>
+    <para id="id1170365420550">Just as we chose a P-type substrate of doping 10<sup>15</sup>Boron atoms per cc of resistivity 10Ω-cm of crystal orientation &lt;111&gt; for MC1530 fabrication in the same way we will choose P-type substrate of doping 10<sup>15</sup>Boron atoms per cc of resistivity 15 Ω-cm but of crystal orientation &lt;100&gt;. In crystal orientation &lt;100&gt; as we saw in Chapter 6, Part4, the fixed oxide charges, mobile oxide charges, interface trapped charges and oxide trapped charges are one order of magnitude less than those in crystal orientation &lt;111&gt; . Also threshold voltage is minimized in crystal orientation &lt;100&gt;. Since the fixed and mobile charges in the oxide layer or at the interface have to be minimized for electrical stability of the threshold voltage hence we prefer crystal orientation of &lt;100&gt;.</para>
+    <para id="id8615691">“Intrinsic gettering” is done to minimize the sensitivity of the wafers to trace contaminants which may be introduced in subsequent processing. Idea of gettering is to confine the alkali ions and metal ions to the back portion of the substrate where they are well removed from the active regions of the substrate.</para>
+    <para id="id1170374872730">While making CMOS VLSI IC there are three options as shown in Figure 6.40:</para>
+    <para id="id1170377808590">Option 1- start with P-substrate with N tub;</para>
+    <para id="id1170392182138">Option 2-start with N-substrate with P tub;</para>
+    <para id="id1170377123543">Option 3- start with P-substrate with twin tubs.</para>
+    <para id="id1170369351737">If we adopt option 1 then substrate will contain NMOS and tub will contain PMOS. If we adopt option 2 then substrate will contain PMOS and tub will contain NMOS. If we choose option 3 then the two tubs will be N type and P type each of 10<sup>16 </sup>to 10<sup>17</sup>dopent per cc.</para>
+    <para id="id1170377915422">Generally twin tub approached is adopted because that gives a greater flexibility in design and better control over the dopent profile of the active devices since tubs are fabricated by ion-implantation which is far better in terms of the control and reproducibility of the dopent profile and the pn shallow junction. Here we may briefly discuss “ion implantation” and its superiority over “ thermal diffusion” in terms of reproducibility and control over the dopent profile.</para>
+    <para id="id1170390210722">
+      <figure id="id1170395778975">
+        <media id="id1170395778975_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-a5b6.png" id="id1170395778975__onlineimage" height="450" width="516"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170377098313">
+      <emphasis effect="bold">Section 6.6.2.2 Ion Implantation</emphasis>
+    </para>
+    <para id="id1170376183281"> With generation to generation of technology as lateral scaling has taken place so has the vertical scaling has taken place. This has led to the need of very precise and reproducible shallow junction depths. This need cannot be fulfilled by conventional thermal diffusion. So ion-implantation method was adopted and today in VLSI/ULSI era this is the dominant doping technique for both MOS as well as Bipolar technology. An ion-implantation chamber is shown in Figure 6.41.</para>
+    <para id="id1170377904498">In this technology, mass is very critical because mass decides the average Gaussian profile of the dopent. For a given dopent we must choose a given isotope and the most abundant isotope of the dopent. Hence mass analyzer is very important. Also all the dopent must be ionic and not neutral. This is because ionic dopent can be counted and quantitative measure of the dose can be maintained. This will help in reproducibility of the dopent profile. So it is very important that neutral atoms are removed from the ion beam. Therefore ion beam undergoes electrostatic deviation from the straight line path before final implantation. This acts as a trap for the neutral dopent atoms which continue on a straight line path.</para>
+    <para id="id1170364929255">The implant dose is measured by putting the wafer deep inside a Faraday Cup. This cup collects the ion current and integrates it over time.</para>
+    <para id="id1170374742777"><figure id="id1170390366488"><media id="id1170390366488_media" alt=""><image mime-type="image/png" src="../../media/graphics3-53a8.png" id="id1170390366488__onlineimage" height="33" width="98"/></media></figure>      6.11</para>
+    <para id="id1170380687871">Where I = collected beam current, A = implant area, t = the integration time and q is the charge on the ion.</para>
+    <figure id="id1170377474643">
+      <media id="id1170377474643_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-9c50.png" id="id1170377474643__onlineimage" height="438" width="567"/>
+      </media>
+    </figure>
+    <para id="id1170377101793">Conventional ion implanter has much in common with linear accelerators. The ion source can be a solid elemental dopent source or it could be in compound gaseous form such as Arsenie, Bromine or Phosphine diluted by 15% Hydrogen. These are ionized either by electrons due to thermoionic emission or due to plasma gas discharge.</para>
+    <para id="id1170366526050">The ions are extracted by a grid at 30kV. Next it is passed through a mass analyzer. In mass analyzer it undergoes magneto-static bending as defined by the following formulation:</para>
+    <para id="id1170377076374"><figure id="id1170366265639"><media id="id1170366265639_media" alt=""><image mime-type="image/png" src="../../media/graphics5-fb28.png" id="id1170366265639__onlineimage" height="33" width="118"/></media></figure> 6.12</para>
+    <para id="id1170372081863">Where m = mass of the ion; v = velocity of the ion, B = magnetic field density = α.I where I is the current in the magnetic coil.</para>
+    <para id="id1170364901333">Energy imparted to the ion while being accelerated through extraction Voltage on the grid:      E = q.V<sub>extraction</sub>     6.13</para>
+    <para id="id1170379608128">Therefore the final velocity of the ion after emerging from the grid is:</para>
+    <para id="id8331129">   (1/2)mv<sup>2</sup> = q. V<sub>extraction</sub></para>
+    <para id="id1170398857099">Or    v = √(2q V<sub>extraction </sub>/m)    6.14</para>
+    <para id="id1170373460679">From equations 6.12 and 6.14 we get:</para>
+    <para id="id1170381616088"><figure id="id1170377798019"><media id="id1170377798019_media" alt=""><image mime-type="image/png" src="../../media/graphics6-d2a7.png" id="id1170377798019__onlineimage" height="30" width="122"/></media></figure> 6.15</para>
+    <para id="id1170364851506">From Equation 6.15 we see that ions coming from the resolving aperture will be of mass m decided by the current I flowing through the magnetic coil of the mass analyzer. Thus by tuning the current ‘I’ we can select the ions which will exit the resolving aperture and constitute the beam current.</para>
+    <para id="id1170364926554">As seen in Figure 6.41, after the resolving aperture the ions are further accelerated through a voltage of 0 to 200kV. This accelerated beam of ions are smashed into the wafer. Each impacting ion dislodges thousands of Si atoms and damages the Silicon surface. The total number of ions implanted in the Silicon target near the surface are called the Dose of Implant. This dose is given by Equation 6.11. Hence total dose is the product of ion current and the time of implant.</para>
+    <para id="id1170366634947">The standard dose of implant is 10<sup>12</sup>/cm<sup>2</sup> to 10<sup>16</sup>/cm<sup>2</sup>. Lower or higher dose is possible. By controlling the dose of implant the dopent profile can precisely be tailored according to our need.</para>
+    <para id="id8742354">The depth of implanted ion is random but for a large dose of implanted ions, the doping profile is a Gaussian Distribution as shown in Figure 6.42. The heavy ions like Antimony has a very shallow penetration while light ions like Boron have a deep penetration. </para>
+    <para id="id1170378373031">The average range of penetration is R<sub>P</sub> = this is the range below the surface of the wafer where maximum number of ions are implanted and this ion peak concentration is given by C<sub>P</sub> .</para>
+    <para id="id1170399091229">The concentration at any range ‘x’ is given by:</para>
+    <para id="id1170377750650"><figure id="id1170379845954"><media id="id1170379845954_media" alt=""><image mime-type="image/png" src="../../media/graphics7-00cb.png" id="id1170379845954__onlineimage" height="38" width="182"/></media></figure> 6.16</para>
+    <para id="id8459314">The dose of implant is Q = √(2π)ΔR<sub>P</sub>C<sub>P</sub>      6.17</para>
+    <para id="id1170366545807">Here ΔR<sub>P</sub> = the standard deviation or straggle about the average range R<sub>P</sub> .</para>
+    <para id="id2243528">
+      <figure id="id1170375387540">
+        <media id="id1170375387540_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-faf0.png" id="id1170375387540__onlineimage" height="457" width="605"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170371148206"> After the implantation the damage inflicted to the silicon surface is annealed at high temperature. By annealing the damage gets repaired. The dislodged Si atoms diffuse to a vacant lattice site and fills up the defect. The annealing cycle is carried out at 1000°C for 10 seconds or at 800°C for 30 minutes.</para>
+    <para id="id1170365346219">During the annealing process the ion implant diffuses out but maintains the Gaussian distribution as shown in Figure 6.43</para>
+    <para id="id1170365379332">During ion-implantation, a thick layer of photo-resist (1µm) is an effective mask for shielding the areas where implantation is not desired. This is because ion-implantation is carried out at room temperature.</para>
+    <para id="id1170366319138">
+      <figure id="id1170365318263">
+        <media id="id1170365318263_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-d02b.png" id="id1170365318263__onlineimage" height="388" width="551"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7889740">
+      <emphasis effect="bold">Section 6.6.2.3 Active Region Formation.</emphasis>
+    </para>
+    <para id="id1170364362921">In bipolar technology we did isolation diffusion for isolating the active devices. Here we grow field oxide to isolate the MOS devices. The field oxide is grown by a technique called LOCOS described in Section 6.4.3 and in case of ULSI circuits we use Poly buffered LOCOS as described in Section 6.4.5. </para>
+    <para id="id1170378491362">As already discussed in Section 6.4.3 LOCOS suffers from bird’s beak problem. To circumvent this problem we adopt Shallow Trench Isolation. Instead of growing Field Oxide , in place of Field Oxide we etch out a shallow 500nm deep trench in Silicon, then we grow a thin layer of Oxide and fill it up with Silicon Dioxide. The thin layer of oxide is grown on the bottom and side of the trench by thermal oxide. This step reduces the charges at the Si/SiO<sub>2</sub> interface. This gives a vertical edge to the trench and removes the problem of bird’s beak which reduces the active area which cannot be afforded at VLSI/ULSI level. Next by CVD oxide is filled up in the trench and by Chemical Mechanical Polishing(CMP) planarization of the surface is done. This CMP process stops at Silicon Nitride.</para>
+    <para id="id1170394253047">The etchant of Silicon is Nitric Acid plus Hydrofluoric acid and the reaction is as follows: </para>
+    <para id="id1170377303565"><figure id="id1170366430877"><media id="id1170366430877_media" alt=""><image mime-type="image/png" src="../../media/graphics10-0294.png" id="id1170366430877__onlineimage" height="23" width="296"/></media></figure> __________________________6.18</para>
+    <para id="id1170386780763">Here the reaction takes place in two steps: Nitric Acid partially decomposes into NO<sub>2</sub> and oxidizes Si and then HF acid etches SiO<sub>2</sub>.</para>
+    <para id="id1170392310020">For defining the Field Oxide region or for defining the Shallow Trench, we use Mask Number 1.</para>
+    <para id="id1170377893652">The first step is:</para>
+    <para id="id1170373449075">Choosing a P type substrate of orientation &lt;100&gt; and resistivity of 15Ω-cm.</para>
+    <para id="id1170392909979">Second step is :</para>
+    <para id="id1170364829187">Thermal Oxidation for 15 minutes at 900°C in steam ambient or 45 minutes at 1000°C in dry O<sub>2</sub> ambient. In either case we get 40nm Silicon Dioxide layer.</para>
+    <para id="id1170366336373">Third Step is:</para>
+    <para id="id1170377742182">Growing Silicon Nitride layer in a second oven at 800°C.</para>
+    <para id="id1170365470427"><figure id="id1170364794706"><media id="id1170364794706_media" alt=""><image mime-type="image/png" src="../../media/graphics11-7ed6.png" id="id1170364794706__onlineimage" height="23" width="485"/></media></figure> _______6.19</para>
+    <para id="id1170381598353">Fourth Step is:</para>
+    <para id="id1170366422668">We spin a Photo-Resist layer. Bake it at 100°C. Expose it through Mask 1. Develop it. Fix it so that the mask portion is resistant of the etchant. Next we do dry etching by Fluorine Plasma to etch out the Si<sub>3</sub>N<sub>4</sub> . In the masked region Si<sub>3</sub>N<sub>4</sub> is retained and elsewhere a window is made . </para>
+    <para id="id1170373514648">Fifth Step is:</para>
+    <para id="id1170377920816">Next fixed Photo-Resist layer is stripped by a stripper or stripped by Oxygen plasma.</para>
+    <para id="id1170377043684">Sixth Step is: </para>
+    <para id="id1170378149438">Next we do local oxidation (LOCOS) or shallow trench isolation(STI). The end result is shown in Figure 6.44 and Figure 6.45</para>
+    <para id="id1170365865059"><emphasis effect="italics">Seventh Step</emphasis>:</para>
+    <para id="id1170365189442">By dry etching the remaining portion of Si3N4 layer is removed.</para>
+    <para id="id1170372085809">Eighth Step :</para>
+    <para id="id1170365161718">Mask 2 is used for retaining hardened KPR in PMOS and Boron is ion-implanted in NMOS region as shown in Figure 6.46. Implant dose will be 10<sup>13</sup> per cm<sup>2</sup> at an energy of 150 to 200keV. This will ensure a P-tub of 5×10<sup>16</sup> to 10<sup>17</sup> per cm<sup>3</sup>. By high temperature annealing the damage is healed. This may be 10sec at 1000°C or 30 min at 800°C. Hardened KPR is stripped by stripper or by Oxygen Plasma.</para>
+    <para id="id1170372186539">
+      <figure id="id1170392240404">
+        <media id="id1170392240404_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-491b.png" id="id1170392240404__onlineimage" height="430" width="493"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170366278965">
+      <media id="id1170366278965_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-ac0b.png" id="id1170366278965__onlineimage" height="410" width="468"/>
+      </media>
+    </figure>
+    <para id="id1170368691809">
+      <emphasis effect="italics">Ninth Step: </emphasis>
+    </para>
+    <para id="id1170391013016">We use Mask 3 to implant the N-tub as shown in Figure 6.47. Phosphorous is almost 3 times heavier than Boron hence Phosphorous ions will be implanted at 300 to 400 keV. This will ensure the same kind of doping as in P-tub. </para>
+    <figure id="id1170379934593">
+      <media id="id1170379934593_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-fd26.png" id="id1170379934593__onlineimage" height="407" width="473"/>
+      </media>
+    </figure>
+    <para id="id1170380001061">Tenth Step:</para>
+    <para id="id1170364973347">High temperature drive-in of P-tub and N-tub is done for 4 to 6 hours so as to drive the depth to 3 microns as shown in Figure 6.48.</para>
+    <para id="id1170364734948">There are several options for active regions and Tub formation. We will study only two options which are generally adopted in MOS fabrication technology. These are : </para>
+    <para id="id1170367991697">Option 1___Field implant. This provides a better isolation.</para>
+    <para id="id1170364805432">Option 2___Buried layer and Epitaxial layer. This minimizes the possibility of Latch-up through the parasitic BJTs. </para>
+    <para id="id1170377914320">
+      <figure id="id1170385808327">
+        <media id="id1170385808327_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-b286.png" id="id1170385808327__onlineimage" height="300" width="483"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170378525298"/>
+  </content>
+</document>

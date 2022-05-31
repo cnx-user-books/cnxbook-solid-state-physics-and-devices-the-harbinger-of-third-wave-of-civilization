@@ -1,0 +1,535 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 9_Conclusion_Removal of degeneracy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34237</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 9_Conclusion_Removal of degeneracy</md:title>
+  <md:abstract>Concluding Part 9 describes the wave nature of distinguishable and undistinguishable particles and the resulting Fermi-Dirac distribution and Bose-Einstein distribution respectively. This part describes the multiple fine structure in spectrum is caused due to the removal of degeneracy.</md:abstract>
+  <md:uuid>1bf5879b-22e9-4f84-a9c4-9f5e1790f9c2</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167435744203">
+      <emphasis effect="bold">SSPD_Chapter1_Part9_Continued_RELATIVISTIC EFFECTS IN THE HYDROGEN ATOM.</emphasis>
+    </para>
+    <para id="id1167433287852">Relativistic Hamiltonian can be fully solved for the Hydrogen atom. Here only the end results are enumerated.</para>
+    <para id="id1167434608015">As already seen azimuthial quantum number decides the shape of the subshell corresponding to different l. Now we know from Kepler’s second law<emphasis effect="bold">[Appendix XXXIII]</emphasis> that a body in elliptical orbit sweeps equal area in equal time. Hence in spherical orbit electron moves with uniform linear velocity all the time but in ellipsoidal orbit apogee velocity is the slowest and perigee velocity is the fastest. If relativistic considerations are made then n fold degeneracy is removed among the different values of l but same n.</para>
+    <para id="id1167434775718">Relativistic considerations lead to spin angular momentum of electron. The spin quantum number is s = ±(1/2)ћ.</para>
+    <para id="id1167434623327">Table 1.6. Quantum Numbers of an Atomic Electron.</para>
+    <table id="id1167431129419" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Name</entry>
+            <entry>Symbol</entry>
+            <entry>Possible Values</entry>
+            <entry>Quantity determined</entry>
+          </row>
+          <row>
+            <entry>Principal</entry>
+            <entry>n</entry>
+            <entry>1, 2, 3, ….</entry>
+            <entry>Electron Energy</entry>
+          </row>
+          <row>
+            <entry>Azimuthial or Orbital</entry>
+            <entry>l</entry>
+            <entry>0,1, 2, 3, 4,….(n-1);</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Magnetic</entry>
+            <entry>m<sub>l</sub></entry>
+            <entry>-l, -( l -1),…0….( l -1), l</entry>
+            <entry>Spatial direction of L in presence of Magnetic field</entry>
+          </row>
+          <row>
+            <entry>Spin Angular Momentum</entry>
+            <entry>s</entry>
+            <entry>-1/2, +1/2</entry>
+            <entry>Electron Spin Angular Momentum</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167440799010">From the point of view of quantum numbers, following are the permissible shells and subshells:</para>
+    <para id="id1167437881389">Table 1.7. Permissible Shells and Subshells</para>
+    <table id="id4235513" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>l</entry>
+            <entry>m</entry>
+            <entry>s</entry>
+            <entry>subshell</entry>
+            <entry>Shell</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c4" cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>1</entry>
+                  <entry>0</entry>
+                  <entry>0</entry>
+                  <entry>+1/2</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>-1/2</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>s</entry>
+            <entry>K</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c5" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entrytbl cols="4">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <tbody>
+                      <row>
+                        <entry>2</entry>
+                        <entry>0</entry>
+                        <entry>0</entry>
+                        <entry>+1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>-1/2</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                  <entry>s</entry>
+                </row>
+                <row>
+                  <entrytbl cols="4">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <tbody>
+                      <row>
+                        <entry/>
+                        <entry>1</entry>
+                        <entry>+1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>0</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>-1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                  <entry>p</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>L</entry>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c5" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entrytbl cols="4">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <tbody>
+                      <row>
+                        <entry>3</entry>
+                        <entry>0</entry>
+                        <entry>0</entry>
+                        <entry>+1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>-1/2</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                  <entry>s</entry>
+                </row>
+                <row>
+                  <entrytbl cols="4">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <tbody>
+                      <row>
+                        <entry/>
+                        <entry>1</entry>
+                        <entry>+1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>0</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>-1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                  <entry>P</entry>
+                </row>
+                <row>
+                  <entrytbl cols="4">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <tbody>
+                      <row>
+                        <entry/>
+                        <entry>2</entry>
+                        <entry>+2</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>+1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>0</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>-1</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                      <row>
+                        <entry/>
+                        <entry/>
+                        <entry>-2</entry>
+                        <entry>±1/2</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                  <entry>d</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>M</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167434827632">Thus we see that the permissible electrons are subdivided in Major Shells:</para>
+    <para id="id1167442634479">K, L, M, N, O, P… where n = 1, 2, 3, 4, 5, 6 ……respectively.</para>
+    <para id="id2373733">Every Shell has Subshells. </para>
+    <para id="id1167433612032">n = 1, K has only s subshell having two electrons differentiated by spin quantum number ±1/2ћ.</para>
+    <para id="id1167441786839">n= 2 , L shell has two subshells, s and p subshell. s shell can accommodate at most 2 electrons .</para>
+    <para id="id1167446647308">Within L shell, p subshell can accommodate 6 electrons.</para>
+    <para id="id1167434847310">Therefore L shell can accommodate 8 electrons altogether.</para>
+    <para id="id1167442394288">n=3, M shell has 3 subshells, s. p and d subshells.</para>
+    <para id="id1167433615354">s shell can accommodate 2 elecrons,</para>
+    <para id="id1167430697782">p shell can accommodate 6 electrons.</para>
+    <para id="id1167441739910">d subshell can accommodate at most 10 electrons.</para>
+    <para id="id1167434789174">Therefore M shell can accommodate 18 electrons altogether.</para>
+    <para id="id1167433165352">Accordingly nth shell can accommodate 2n<sup>2 </sup>electrons at most and these 2n<sup>2 </sup>electrons are subdivided in s, p, d, f, subshells. </para>
+    <para id="id1167444452851">As seen from Table(1.7), no two electrons have the same set of four quantum numbers. This is known as Pauli-Exclusion Principle <emphasis effect="bold">[Appendix XXXIV]</emphasis>.</para>
+    <para id="id1167447452573">
+      <emphasis effect="bold">SSPD_Chapter 1_Part 9_conclusions_1.8.2_FAR REACHING IMPLICATIONS OF THE REMOVAL OF DEGENERACY.</emphasis>
+    </para>
+    <para id="id1167437142084">In Chapter 1_Part 7_Sec(1.6.3.) we had derived the formula for determining the energy of the electron in shell having n principal quantum number. According to Eq.(1.35):</para>
+    <para id="id1167433080397">E<sub>n</sub> = -13.6eV/n<sup>2</sup></para>
+    <para id="id1167443779457">According to this formula 2n<sup>2 </sup>electrons at n quantum number will all have the same energy. This implies that all the n<sup>2 </sup>electrons are at the same energy level. If this was to be true then we would say that all n<sup>2 </sup>electrons<sup/>are in a degenerate<sup/>state<sup/>but in fact this is not true. If relativistic considerations and spin considerations are applied then the degeneracy is removed. This has far reaching consequences in terms of the type of particles we are considering.</para>
+    <para id="id1167429462578">Broadly speaking there are two broad categories of particles:</para>
+    <para id="id1167434199629">BOSONS and FERMIONS.</para>
+    <para id="id1167431020186">Bosons are virtual particles and any number of Bosons can be accommodated at the same energy E at the same time t. One example is Photons. These have a spin angular momentum of nћ where n= 0, 1, 2,…..Photons have spin angular momentum 0ћ.These are identical particles which cannot be distinguished. They have no distinguishing characteristics. Simultaneously two or more such particles can have the same spatial coordinates as well as same momentum (x,y,z, p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>). This implies that in phase space ( a combination of spatial space and momentum space), the elemental phase space (Δx ΔyΔz Δp<sub>x</sub>Δp<sub>y</sub>Δp<sub>z</sub>) can accommodate two or more particles, in the case photons. This is another way of saying that Heisenberg Principle of Uncertainty is not applicable to Bosons. These follow Bose-Einstein Statistics. A Helium Atom with 2 protons, 2 neutrons and 2 electrons have 0ћ spin angular momentum hence they behave like Bosons and at liquid He temperature that is at 4K they become superfluid as we will see in later section.</para>
+    <para id="id1167440784148">The credit for the discovery of this particle goes to Satyendra Nath Bose. The story of this discovery is as follows.</para>
+    <para id="id1167431001486">At the turn of 19-20<sup>th</sup> century Black Body Radiation was an enigma. There was no correct theoretical formulation of the same. Rayleigh- Jean formulation ended in Ultra Violet Catastrophe and if the shorter wavelength could be explained then longer wavelengths could not be explained.</para>
+    <para id="id1167435797168">In 1910, Max Planck came up with an empirical formulation:</para>
+    <para id="id1167430605770"/>
+    <para id="id1167434583109">
+      <emphasis effect="bold">&lt;E&gt; = ћω/[Exp(ћω/(kT)) – 1] 1.75</emphasis>
+    </para>
+    <para id="id4482201">This empirical formulation had its roots in the quantum nature of electro-magnetic energy. Once the photon or energy packet nature of electromagnetic waves was accepted, the above equation could be theoretically derived and that is precisely what S.N Bose did.</para>
+    <para id="id1167438652342">This resulted in a completely new behavior and a new probability distribution namely:</para>
+    <para id="id1167435683425">
+      <emphasis effect="bold">F(E) = 1/[Exp(E/(kT)) – 1] 1.76</emphasis>
+    </para>
+    <para id="id1167430710669">Here F(E) is the Probability of Occupancy at energy level E.</para>
+    <para id="id1167435686523">This formulation was derived for indistinguishable photon particles whose number is not conserved and submitted to a British Journal by S.N.Bose in 1924. But it was rejected. Next he sent it to Einstein who translated it and submitted it to a German Journal and it was published. Subsequently he extended this to material particles such as <sup>2</sup>He<sub>4</sub> where total spin angular momentum is zero and hence behaves as Boson. Therefore this new probability distribution is called Bose-Einstein Statistics. Einstein predicted the fifth state of matter Bose-Einstein Condensate which was subsequently achieved in 90’s.</para>
+    <para id="id1167446786355">Photons are indistinguishable whereas electrons are distinguishable due to the four quantum numbers. </para>
+    <para id="id1167433122501">What does indistinguishability and distinguishability imply.</para>
+    <para id="id1167438948437">1.8.2.1. DISTINGUISHABILITY AND INDISTINGUISHABILITY. </para>
+    <para id="id1167434804026"><emphasis effect="bold"/>Let us consider a system of two particles ,1 and 2. One of them is in state a and the other in state b. If the particles are distinguishable then the pair in states a and b and the pair in state b and a are also distinguishable. The two possibilities are:</para>
+    <para id="id1167433678226">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">I = </emphasis>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(1). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(2) and </emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">II = </emphasis>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(2). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(1)   1.77</emphasis>
+    </para>
+    <para id="id1167446120492">For distinguishable particles, we cannot say which set is valid. Both may be equally valid. Therefore we have two kinds of linear combination. If the wave function remains unaffected by exchange between the two states then we have symmetric function and is given as follows:</para>
+    <para id="id1167435901867">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">B = </emphasis>
+      <emphasis effect="bold">(1/√2)[</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(1). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(2) + ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(2). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(1)] 1.78</emphasis>
+    </para>
+    <para id="id1167436185084">This is the wave function describing Bosons which do not obey Pauli Exclusion Principle and any number of Bosons can stay in the same quantum state.</para>
+    <para id="id1167440119828">Bosons have spin angular momentum = nћ where n=0,1,2,3….</para>
+    <para id="id1167437531708">If the wave function changes sign on interchange of state then we have anti symmetric wave function and is given as follows:</para>
+    <para id="id1167434622109">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">F = </emphasis>
+      <emphasis effect="bold">(1/√2)[</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(1). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(2) - ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(2). ψ</emphasis>
+      <emphasis effect="bold">b</emphasis>
+      <emphasis effect="bold">(1)] 1.79</emphasis>
+    </para>
+    <para id="id1167434608305">This is the wave function describing Fermions which obey Pauli Exclusion Principle and no two Fermions can stay in the same quantum state.</para>
+    <para id="id1167439371780">Fermions have spin angular momentum = (1/2 + n) ћ where n=0,1,2,3…</para>
+    <para id="id1167435892954">(1/√2) has been used for normalization so that the total probability of finding the particle over the volume concerned is Unity.</para>
+    <para id="id1167433699106">Now what is the possibility that both particles are in the same quantum state (a).</para>
+    <para id="id1167440044163">For distinguishable particles, this new state of overlap of wave function is:</para>
+    <para id="id1167443022248">
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">M </emphasis>
+      <emphasis effect="bold">= </emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">ψ</emphasis>
+      <emphasis effect="bold">a </emphasis>
+      <emphasis effect="bold">(2). ψ</emphasis>
+      <emphasis effect="bold">a</emphasis>
+      <emphasis effect="bold">(1) 1.80</emphasis>
+    </para>
+    <para id="id1167450305410">For bosons the wave function is:</para>
+    <para id="id1167442400334">ψ<sub>B = </sub>(1/√2)[<sub/>ψ<sub>a </sub>(1). ψ<sub>a</sub>(2) + ψ<sub>a </sub>(2). ψ<sub>a</sub>(1)] </para>
+    <para id="id1167439112159">=<sub/>(1/√2)[2<sub/>ψ<sub>a </sub>(1). ψ<sub>a</sub>(2)] = √2 ψ<sub>a </sub>(1). ψ<sub>a</sub>(2)</para>
+    <para id="id1167433740542">Probability density of Bosons in same state: </para>
+    <para id="id1167433123774">ψ<sub>B.</sub> ψ<sub>B</sub>* = √2 ψ<sub>a </sub>(1). ψ<sub>a</sub>(2). √2 ψ<sub>a</sub>*(1).ψ<sub>a</sub>*(2)</para>
+    <para id="id1167434724972">ψ<sub>B.</sub> ψ<sub>B</sub>*= 2 ψ<sub>M.</sub> ψ<sub>M</sub>*</para>
+    <para id="id1167435740680">Thus the probability that two bosons are in the same state is twice the probability that two distinguishable particles will be in the same state.</para>
+    <para id="id1167434577309">For fermions the wave function is:</para>
+    <para id="id1167441346914">ψ<sub>F = </sub>(1/√2)[<sub/>ψ<sub>a </sub>(1). ψ<sub>a</sub>(2) - ψ<sub>a </sub>(2). ψ<sub>a</sub>(1)] = 0</para>
+    <para id="id1167448362927">Therefore fermions can never be in the same quantum state. Hence fermions always follow Pauli’s Exclusion Principle. </para>
+    <para id="id1167444191596">1.8.2.2. BOSE-EINSTEIN CONDENSATE- FIFTH STATE OF MATTER.</para>
+    <para id="id1167433152631">In 1924, Einstein had visualized that in a cold enough gas, which does not become liquid or solid, loss of momentum will lead to the spread of the wave function on the container’s spatial dimension scale from Heisenberg Uncertainty Principle. In case of bosons as in case of <sup>2</sup>He<sub>4</sub> the wave functions will overlap leading to all the atoms being confined to the same quantum state leading to super atom. This is called Bose-Einstein Condensate. </para>
+    <para id="id1167430673935">In 1995, Eric Cornell, Carl Wieman and their coworkers<emphasis effect="bold">[Appendix XXXV]</emphasis> at Colorado achieved such a condensate by cooling rubidium gas to 10<sup>-7</sup>K. About 2000 rubidium atoms formed a single entity namely super atom 10 microns long and it lasted 10 seconds. In 1997 the Nobel Prize was awarded for this work to Cornell and Wieman.</para>
+    <para id="id1167433662660">Still larger condensate was achieved where 10<sup>8 </sup>hydrogen<sup/>atoms were condensed to the same quantum state and matter wave like LASER beam was achieved.</para>
+    <para id="id1167439231859">1.8.2.3. A COMPARATIVE STUDY OF MAXWELL-BOLTZMAN[Appendix XXXVI] DISTRIBUTION, FERMI-DIRAC DISTRIBUTION[Appendix XXXVII] AND BOSE-EINSTEIN DISTRIBUTION. </para>
+    <para id="id1167447873169">Table.1.8. The three statistical distribution function.</para>
+    <table id="id1167435700500" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Maxwell-Boltzmann</entry>
+            <entry>Bose-Einstein</entry>
+            <entry>Fermi-Dirac </entry>
+          </row>
+          <row>
+            <entry>Applies to systems of</entry>
+            <entry>Identical distinguishable particles</entry>
+            <entry>Identical, indistinguishable particles that donot obey Exclusion Principle</entry>
+            <entry>Identical, indistinguishable particles that obey Exclusion Principle</entry>
+          </row>
+          <row>
+            <entry>category</entry>
+            <entry>Classical</entry>
+            <entry>Bosons</entry>
+            <entry>Fermions</entry>
+          </row>
+          <row>
+            <entry>Property of particles</entry>
+            <entry>Any spin, particles are far enough hence wave function do not overlap and they remain distinguishable.</entry>
+            <entry>Spin= 0,1,2….Wave functions are symmetric to interchange of particle labels and are indistinguishable</entry>
+            <entry>Spin=1/2.3/2,5/2,..Anti symmetric to interchange and are distinguishable</entry>
+          </row>
+          <row>
+            <entry>Example</entry>
+            <entry>Molecules of gas</entry>
+            <entry>Photons in a cavity,Phonons in a solid,Liquid Helium at 0K</entry>
+            <entry>Free electrons in a metal,White dwarf,</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">Distribution Function</emphasis>
+            </entry>
+            <entry>AExp[-E/kT]</entry>
+            <entry>1/[Exp{(E+α)/(kT)}-1]</entry>
+            <entry>
+              <emphasis effect="bold">1/[Exp{(E-E</emphasis>
+              <emphasis effect="bold">F</emphasis>
+              <emphasis effect="bold">)/(kT)}+1]</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Properties of distribution</entry>
+            <entry>No limit to number of particles per state</entry>
+            <entry>No limit to number of particles per state;<emphasis effect="bold">More particles per state than f</emphasis><emphasis effect="bold">MB</emphasis><emphasis effect="bold"> at low energies and approaches f</emphasis><emphasis effect="bold">MB </emphasis><emphasis effect="bold">at high energies;</emphasis></entry>
+            <entry>One particle per state;<emphasis effect="bold">Less particles per state than f</emphasis><emphasis effect="bold">MB </emphasis><emphasis effect="bold">at low energies and approaches f</emphasis><emphasis effect="bold">MB </emphasis><emphasis effect="bold">at high energies.</emphasis></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167433817344">
+      <figure id="id1167430818424">
+        <media id="id1167430818424_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-a04c.png" id="id1167430818424__onlineimage" height="427" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4208800">
+      <emphasis effect="bold">Fig(1.36) A comparison of three Distribution Functions.</emphasis>
+    </para>
+    <para id="id1167442609319">1.8.2.3. COMPARISON BETWEEN BOSE-EINSTEIN AND FERMI-DIRAC DISTRIBUTION.</para>
+    <para id="id1167439230780">When indistinguishable particles like photons are brought together they create attraction and there is a tendency of clustering. In an elemental phase space many photons can be accommodated at the same energy state at the same time and there will be no opposition to this tendency of clustering.</para>
+    <para id="id1167442726899">But if distinguishable particle like electrons are brought in an elemental phase space then at most two electrons of opposite spin ±(1/2)ћ can be accommodated and all other electrons will be repelled. This is called degeneracy pressure.</para>
+    <para id="id1167431365108">When a Main Sequence star runs out of its fusion fuel , generation of fusion energy stops and gravitational collapse restarts leading to the formation of White dwarf. The gravitational collapse is finally checked by the degeneracy pressure developed by tightly packed electrons. This is due to the fact that electrons are fermions and not more than two electrons can be accommodated in an elemental phase space.</para>
+    <para id="id1167448596135">The phase space has three spatial axes (x, y, z) and three momentum axes (p<sub>x</sub> , p<sub>y</sub>, p<sub>z</sub> ).</para>
+    <para id="id1167443981196">An elemental phase space = ΔV= Δx. Δy. Δz. Δp<sub>x</sub> . Δp<sub>y</sub> .Δp<sub>z</sub></para>
+    <para id="id1167434203320">But Δx. Δp<sub>x </sub>&gt; ћ,</para>
+    <para id="id1167433680523"><emphasis effect="bold"/>Δy. Δp<sub>y </sub>&gt; ћ,</para>
+    <para id="id1167444786816"><emphasis effect="bold"/>Δz. Δp<sub>z </sub>&gt; ћ, from Heisenberg Uncertainty Principle.</para>
+    <para id="id1167433922763">Therefore ΔV<sub/>≥ ћ<sup>3</sup> ,</para>
+    <para id="id1167435694063">Every elemental phase space has a spatial coordinate x<sub>n</sub> , y<sub>n</sub> , z<sub>n</sub> and momentum coordinates are p<sub>xn ,</sub> p<sub>yn</sub> .p<sub>zn </sub>.</para>
+    <para id="id1167435909891">In circuit theory we have studied Laplace Transform and in Signal Processing we have studied Fourier Transform. In both cases we have studied the Time Domain Representation and Frequency Domain Representation of the signals.</para>
+    <para id="id8536484">In an exactly identical manner we have a transformation from Real Space to Phase Space in case of Atomic electrons</para>
+    <para id="id4210341">In Real Space, the orbiting electrons have sets of four quantum numbers (n, l, m, s).</para>
+    <para id="id4180716">In Phase Space, every elemental phase space is filled with opposite spin electrons. With every elemental phase space , we have a set of four quantum numbers associated (n)<sub>N</sub>, (l)<sub>N </sub>(m)<sub>N </sub>(±1/2)<sub>N </sub>. Therefore no two sets of quantum numbers are identical This gives rise to Pauli’s Exclusion Principle which states that no two electrons can have all the four quantum numbers identical. In a given phase space, the two opposite spin electrons have identical n , l. m but opposite spin . Thus no two electrons are ever identical in all four quantum numbers.</para>
+    <para id="id2344920">Sec(1.8.1) indicates that electrons have 2n<sup>2</sup> -fold degeneracy in nth Shell. As we saw this was incorrect because we had taken non-relativistic Hamiltonian. If relativistic Hamiltonian is considered then we have:</para>
+    <para id="id7714781">
+      <emphasis effect="bold">E= -13.6eV/(n+l+1)</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold"> 1.81 </emphasis>
+    </para>
+    <para id="id1167434607551">. Through this equation n-fold degeneracy is removed by taking into account the eccentricity of the ellipsoidal subshell in which the electrons of a given “l” are placed. Thus partial removal of degeneracy is accounted for as shown in Fig(1.37).</para>
+    <para id="id2189421">
+      <figure id="id1167433609467">
+        <media id="id1167433609467_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-ba84.png" id="id1167433609467__onlineimage" height="694" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167435797342">Figure 1.37. Partial temoval of degeneracy. This removal is due to the orbital shape incorporated in azimuthial quantum number.</para>
+    <para id="id1167435805520">When n=3 then l=0 (perfectly spherical orbit), 1(ellipsoidal orbit), 2(elongated orbit). These three azimuthial numbers cause the degenerate levels to split apart. Thus three fold degeneracy is removed. </para>
+    <para id="id1167435912814">When the atom is put in a magnetic field then remaining 6 fold degeneracy is removed. This is due to the magnetic moment caused due to orbital angular momentum and spin angular momentum. Magnetic moment is vector quantity. Hence it is positive when aligned with the Magnetic field and negative when it is anti-parallel.Let us consider the sub shell n=3 and l =2. In this subshell each electron has orbital angular momentum of L<sub>Z</sub>=ћ√6.</para>
+    <para id="id1167435049448">Projections of the orbital angular momentum on the magnetic field are 2ћ, 1 ћ, </para>
+    <para id="id1167431569948">0 ћ, -1 ћ, -2 ћ. Magnetic interaction will remove five-fold degeneracy.</para>
+    <para id="id1167435799082">Total spin angular momentum is ћ√((1/2)(3/2)). This has two projections </para>
+    <para id="id1167441876321">There are 10 electrons in this sub shell (n=3, l=2) : 2(opposite spins) at m= -2 , 2(opposite spins) at m= -1, 2(opposite spins) at m= 0, 2(opposite spins) at m=1, 2(opposite spins) at m=2.. When a magnetic field is applied these 10 electrons interact with the applied magnetic field to split in 10 discrete levels.</para>
+    <para id="id1167433412517"><emphasis effect="bold"/>The z-axis projection of L and S give a total projection of J<sub>Z</sub>=L<sub>Z</sub> + S<sub>Z</sub> .</para>
+    <para id="id1721151">Hence the 10 electrons produce a projection of:</para>
+    <para id="id5311048">(2±1/2)ћ , (1±1/2)ћ, (0±1/2)ћ, (-1±1/2)ћ, (-2±1/2)ћ on the z-axis. Thus we have 10 discrete and separate magnetic moments resulting into 10 discrete and separate energy levels as a result of the interaction among the applied magnetic field and the magnetic moments. Thus total degeneracy, as shown in Fig(1.35), is removed with the application of the magnetic field. It is because of the removal of degeneracy that we see many more closely spaced lines<emphasis effect="bold"/>in the line spectra of an elemental gas than that expected from Bohr’s model. </para>
+    <para id="id1167442467275">Stern-Gerlach experiment shown in Figure(1.38) demonstrates the effect of an applied magnetic field upon non-polarized atomic beam.</para>
+    <para id="id1167440770836">
+      <figure id="id1167434828618">
+        <media id="id1167434828618_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-b24a.png" id="id1167434828618__onlineimage" height="291" width="648"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4869177">
+      <emphasis effect="bold">Figure(1.38) Stern-Gerlach Experiment.</emphasis>
+    </para>
+    <para id="id1167446785053"><emphasis effect="bold"/>As shown in the Fig (1.38) an unpolarized atom beam passes through a highly non-uniform magnetic field.</para>
+    <para id="id1167433424765">Magnetic field is directed in Z direction. The atoms have a net angular momentum of ћ√2 = J.</para>
+    <para id="id1167434791726">These angular momenta have three possible projections on Z axis:</para>
+    <para id="id1167430798110">J<sub>z1</sub>= +ћ</para>
+    <para id="id1167435909949">J<sub>z0 </sub>= 0ћ</para>
+    <para id="id1167435751685"><emphasis effect="bold"/>J<sub>z-1</sub>= -ћ</para>
+    <para id="id4999600">The three projections have three magnetic moments.</para>
+    <para id="id1167430878432">Magnetic Moments are: μ<sub>z</sub> = gJ<sub>z </sub>= +g ћ = μ<sub>+1</sub></para>
+    <para id="id1167435902467">0 = μ<sub>0</sub></para>
+    <para id="id1167439367959">-g ћ = μ<sub>-1</sub></para>
+    <para id="id1167439116478">The non-uniform magnetic field creates a magnetic field gradient which interacts with three different kinds of magnetic moments to create 3 different beams of atoms. The scattering forces, which split the beam, are:</para>
+    <para id="id1167434822412">F<sub>+1</sub>= (μ<sub>+1</sub>)[∂H/∂z] </para>
+    <para id="id1167431407179">F<sub>0</sub> = 0</para>
+    <para id="id1167434600415">F<sub>-1</sub>= (μ<sub>-1</sub>)[∂H/∂z] </para>
+    <para id="id1167430710713">F<sub>+1</sub> causes a portion of beam to be bent in positive Z direction. </para>
+    <para id="id1167439097113">F<sub>-1 </sub>causes another portion of beam to be bent in negative Z direction.</para>
+    <para id="id1167437094345">F<sub>0</sub> causes no beam bending.</para>
+    <para id="id1167434805128">Thus magnetic field interaction causes the un-polarized beam to split in three distinct portions hitting the target at three separate zones. This establishes that magnetic quantum number is associated with electrons. </para>
+    <para id="id1167431303714">1.8.3. BRIEF REVIEW OF THE QUANTUM NATURE OF BOUNDED ELECTRONS.</para>
+    <para id="id1167431494719"><emphasis effect="bold"/>In this chapter we have established that</para>
+    <list id="id1167434769686" list-type="enumerated" number-style="arabic" mark-prefix="(" mark-suffix=")">
+      <item>the bounded electrons have four quantum numbers <emphasis effect="bold"/>namely n, l, m and s;</item>
+      <item>for any two electrons all the four quantum numbers can never be identical;</item>
+    </list>
+    <para id="id1167431633992">The first proposition establishes the electrons as distinguishable particles. Because they are distinguishable, they follow Fermi-Dirac Statistics. This results in anti-symmetric wave function for electrons which compels electrons to follow Pauli –Exclusion Principle.</para>
+  </content>
+</document>

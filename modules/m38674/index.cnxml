@@ -1,0 +1,751 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 7_Scaling of MOS circuits.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38674</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 7_Scaling of MOS circuits.</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 7_Scaling of MOS circuits deals with the basic definition of scaling, its effects on the scale of economy in IC production and the various design options it is offering.</md:abstract>
+  <md:uuid>679306b0-d53f-474b-ba10-dc358e5c662e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165420562122">SSPD_Chapter 7_Part 7_Scaling of MOS circuits.</para>
+    <para id="id1165426519563">7.7.1. What is scaling ?</para>
+    <para id="id1165419279382"> Scaling is reduction in lateral and vertical dimensions to achieve a higher packing density on Si IC Chip, to achieve faster switching devices, to achieve higher functionality and achieve better scale of economy.</para>
+    <para id="id1165419879363"> In 1966 emulsion mask patterns were contact printed using UV light on 200mm wafer with the smallest feature size of 25μm.</para>
+    <para id="id1165423272356"> In 2007 using Deep Ultra Violet(DUV)193nm immersion Lithography, 30nm± 6 nm feature size are imprinted on 300mm wafer.</para>
+    <para id="id1165420493760"> In 2012 using Extreme Ultra Violet Light(EUV)100nm reflective mirror exposure system (Next Generation Lithography-NGL), less than 30nm feature size is expected to be imprinted on 450mm wafer.</para>
+    <para id="id1165423121459"> In 70s growth of Personal; Computer fueled the CMOS scaling.</para>
+    <para id="id1165421634597"> Today in 21<sup>st</sup> century, Internet, high speed communication that converges data, video and audio and mobile communication is fueling CMOS scaling consistent with Moore’s Law and has sharply brought in focus the need for cheap, high speed and low power devices for which Si:Ge is emerging as the the most promising candidate.</para>
+    <para id="id1165421918297"> DSP and ‘DSP &amp; Real World Interface’ are at the heart of Internet, so developing System-on-Chip(SOC) and integration of digital and Analog/RF function became high priority area of research. Advanced SiGe BJT Process also shrinks the lateral and vertical dimensions and boosts the performance hence it has become the technology of choice for 24GHz radar for blindside detection, for 77GHz radar system automobile collision warning or advance cruise control, for 60GHz Wi-Fi chips for next generation wireless LAN and backbone networks, for software defined radios, for cellular handset and for high frequency automatic test equipments.</para>
+    <para id="id1165424060097">
+      <emphasis effect="bold">7.7.2.How does scaling help achieve greater functionality ?</emphasis>
+    </para>
+    <para id="id1165420011065"><emphasis effect="bold"/>As we downscale the lateral and vertical dimensions we simultaneously add more functions to the chips. </para>
+    <para id="id1165421403466"> In 1971 μP4004 was a 16-pin DIP packaged chip which had the CPU built in the die. It was a LSI chip which along with three other LSI chips could be used to build a complete functional computer. These LSI chips were : 4001(ROM-4-bit output), 4002(RAM-4-bit input/output) and 4003 static shft register for expanding input/output lines. The photograph of the exposed 16-pin μP4004 chip and its hermetically shielded picture are shown in Figure 7.7.1.</para>
+    <para id="id1165417022562"> 4004 LSI chip used 10μm PMOS(E) technology. It had 2300 transistors and it could carry out 92,000 instructions per second that is 10.8μsecond per instruction.</para>
+    <para id="id1165419104014">
+      <figure id="id1165426367347">
+        <media id="id1165426367347_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-8d58.png" id="id1165426367347__onlineimage" height="204" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165425101342">Figure 7.7.1. Photograph of μP4004,16-Pin DIP packaged chip. Left is the exposed chip. Right is the hermetically sealed chip.</para>
+    <para id="id1165426394574">
+      <figure id="id1165417410469">
+        <media id="id1165417410469_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-aff3.png" id="id1165417410469__onlineimage" height="487" width="600"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Figure 7.7.2. Block diagram of the Intel 8086 microprocessor</emphasis>
+    </para>
+    <para id="id1165419191967">[1. Block of general purpose registers, 2 Block segment registers, 3 20 BIT combiner, 4 Internal bus C, 5 Queue commands, 6 The control system, 7 The control system bus, 8 Internal Bus A, 9 Arithmetic logic unit (ALU), 10 Address bus, 11 Data bus, 12 Rail Control F. Registry tags, AX -accumulator , BX - register base CX - counting register, DX - data register, SP - stack pointer, BP - base pointer, SI - source index, DI - Destination Index ,CS – code. Segment DS - data segment, SS - stack segment, ES - extra segment, IP - Instruction Pointer.]</para>
+    <para id="id1165420293292"> In mid-70s, all the parts of CPU were put on one die for μP 8086 (16-bit processor, 40 pin DIP package) as shown in Figure 7.7.2.</para>
+    <para id="id1165419327002"> In 80s μP80286 and μP80386 were introduced which had ×87 Floating-point hardware on a separate chip on the same mother board. </para>
+    <para id="id1165417016765"> In 1989 , tightly pipe-lined 8086 architecture was introduced as μP80486. This included ×87 Floating-point hardware on-die.</para>
+    <para id="id1165420770125"> In 1990s, Single Instruction Multiple Data (SIMD) started out as a separate chip. SUN Microsystyem moved it on-chip when VIS was introduced to UltraSPARC. </para>
+    <para id="id1165418199277"> In 1992-93 Pentium was introduced which had CPU+Memory+Input/Output port built on the same chip plus it had a second ALU. It was a Intel’s first superscalar processor. <figure id="id1165422719123"><media id="id1165422719123_media" alt=""><image mime-type="image/jpg" src="../../media/Picture 2.jpg" id="id1165422719123__onlineimage" height="450" width="599"/></media></figure></para>
+    <para id="id1165419571610">
+      <emphasis effect="bold">Figure 7.7.3. Photograph of hermetically sealed Pentium 4 chip with 423 and 478-pin PGA packages.</emphasis>
+    </para>
+    <para id="id1165416705723"> L1 cache was moved on-die in Pentium 2 Architecture. </para>
+    <para id="id1165419880597"> Latest Pentium architecture started out with a 400 MHz system bus and 256KB L2 cache (later increased to 800 MHz and 2MB). The first models contained 42 million transistors, used the 0.18 micron process and came in 423-pin and 478-pin PGA packages. Intel's first Pentium 4 chipset was the 850 and supported only Rambus memory (RDRAM), but subsequent chipsets switched to DDR SDRAM. </para>
+    <para id="id1165422997103"> Subsequently Floating-point hardware moved on-die. </para>
+    <para id="id1165419991223"> Thus new features were added in scaled down chip to add performance-enhancing functionality to a processor die.</para>
+    <para id="id1165421881543">7.7.3. Cost Metrics of IC Chip.</para>
+    <figure id="id1165420690406">
+      <media id="id1165420690406_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-cdf2.png" id="id1165420690406__onlineimage" height="85" width="685"/>
+      </media>
+    </figure>
+    <figure id="id1165419254718">
+      <media id="id1165419254718_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-2b16.png" id="id1165419254718__onlineimage" height="30" width="535"/>
+      </media>
+    </figure>
+    <para id="id1165420514630">Final Test yield is the % of successful dies produced hence it is unity or less.</para>
+    <para id="id1165420137198">The die cost is calculated by the formula:</para>
+    <figure id="id1165416705601">
+      <media id="id1165416705601_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-b8db.png" id="id1165416705601__onlineimage" height="82" width="387"/>
+      </media>
+    </figure>
+    <para id="id1165420682394">The denominator of Eq.7.7.2 gives the the total number of good dies or expected number of working dies achieved on a given wafer. It is the product of total number of dies achieved on a wafer and the yield of the given wafer.</para>
+    <para id="id1165419827247">Dies per wafer is calculated by the following formula:</para>
+    <figure id="id1165424511073">
+      <media id="id1165424511073_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-265c.png" id="id1165424511073__onlineimage" height="59" width="359"/>
+      </media>
+    </figure>
+    <para id="id1165417647372">Where D = wafer diameter in cm and S = die area in cm<sup>2</sup>.</para>
+    <para id="id1165423968202">Rewriting Eq.7.7.3 we get:</para>
+    <figure id="id1165421165434">
+      <media id="id1165421165434_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-13a9.png" id="id1165421165434__onlineimage" height="103" width="442"/>
+      </media>
+    </figure>
+    <para id="id1165419139279">Eq.7.7.3a can be interpreted as:</para>
+    <figure id="id1165421224901">
+      <media id="id1165421224901_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-7b25.png" id="id1165421224901__onlineimage" height="58" width="563"/>
+      </media>
+    </figure>
+    <para id="id6487216">Yield of the dies from a wafer is calculated by the following formula:</para>
+    <figure id="id1165416229354">
+      <media id="id1165416229354_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-7701.png" id="id1165416229354__onlineimage" height="30" width="113"/>
+      </media>
+    </figure>
+    <figure id="id1165415925047">
+      <media id="id1165415925047_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-3d0b.png" id="id1165415925047__onlineimage" height="73" width="586"/>
+      </media>
+    </figure>
+    <para id="id1165418195470">Where wafer yield is generally 100% meaning wafer is perfect,</para>
+    <para id="id1165419116850">defect/area is given as defects per cm<sup>2</sup> and die area in cm<sup>2</sup> is to be used.</para>
+    <para id="id1165420035910">There are 3 kinds of defects: random, systematic and parametric. Here we are concerned with random defects which is a measure of random manufacturing defects on the wafer.</para>
+    <para id="id1165421771650">α = empirical parameter that corresponds to the critical masking levels, a measure of manufacturing complexity of the circuit.</para>
+    <para id="id1165416229093">Using Eq 7.7.4 and Eq.7.7.3 in conjunction with Eq.7.7.2, the die cost is calculated for seven processor chips as given in Table 7.7.1.</para>
+    <para id="id1165424092386">
+      <emphasis effect="bold">Table 7.7.1.Die Cost of various processors.</emphasis>
+    </para>
+    <table id="id1165420843791" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Chip</entry>
+            <entry>Wafer dia.(mm)</entry>
+            <entry>WaferCost($)</entry>
+            <entry>DefectPer cm<sup>2</sup></entry>
+            <entry>Die Area(mm<sup>2</sup>)</entry>
+            <entry>Diesperwafer</entry>
+            <entry>Yield(%)</entry>
+            <entry>DieCost($)</entry>
+          </row>
+          <row>
+            <entry>386DX</entry>
+            <entry>150</entry>
+            <entry>900</entry>
+            <entry>1</entry>
+            <entry>43</entry>
+            <entry>360</entry>
+            <entry>71</entry>
+            <entry>4</entry>
+          </row>
+          <row>
+            <entry>486DX2</entry>
+            <entry>150</entry>
+            <entry>1200</entry>
+            <entry>1</entry>
+            <entry>81</entry>
+            <entry>181</entry>
+            <entry>54</entry>
+            <entry>12</entry>
+          </row>
+          <row>
+            <entry>PowerPC601</entry>
+            <entry>150</entry>
+            <entry>1700</entry>
+            <entry>1.3</entry>
+            <entry>121</entry>
+            <entry>115</entry>
+            <entry>28</entry>
+            <entry>53</entry>
+          </row>
+          <row>
+            <entry>HPPt7100</entry>
+            <entry>150</entry>
+            <entry>1300</entry>
+            <entry>1</entry>
+            <entry>196</entry>
+            <entry>66</entry>
+            <entry>27</entry>
+            <entry>73</entry>
+          </row>
+          <row>
+            <entry>DECα</entry>
+            <entry>150</entry>
+            <entry>1500</entry>
+            <entry>1.2</entry>
+            <entry>234</entry>
+            <entry>53</entry>
+            <entry>19</entry>
+            <entry>149</entry>
+          </row>
+          <row>
+            <entry>SuperSPARC</entry>
+            <entry>150</entry>
+            <entry>1700</entry>
+            <entry>1.6</entry>
+            <entry>256</entry>
+            <entry>48</entry>
+            <entry>13</entry>
+            <entry>272</entry>
+          </row>
+          <row>
+            <entry>Pentium</entry>
+            <entry>150</entry>
+            <entry>1500</entry>
+            <entry>1.5</entry>
+            <entry>296</entry>
+            <entry>40</entry>
+            <entry>9</entry>
+            <entry>417</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165416831827">Using Eq.7.7.1 we calculate the cost of the seven processors as given in Table 7.7.2.</para>
+    <para id="id1165420322965"/>
+    <para id="id1165421629706">
+      <emphasis effect="bold">Table 7.7.2. IC Chip variable Costs.</emphasis>
+    </para>
+    <table id="id1165420746913" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Chip</entry>
+            <entry>Die cost($)</entry>
+            <entry namest="c3" nameend="c5">Package</entry>
+            <entry>Test &amp; Assembly Cost($)</entry>
+            <entry>Total cost($)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>pins</entry>
+            <entry>type</entry>
+            <entry>Cost($)</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>386DX</entry>
+            <entry>4</entry>
+            <entry>132</entry>
+            <entry>QFP</entry>
+            <entry>1</entry>
+            <entry>4</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>486DX2</entry>
+            <entry>12</entry>
+            <entry>168</entry>
+            <entry>PGA</entry>
+            <entry>11</entry>
+            <entry>12</entry>
+            <entry>35</entry>
+          </row>
+          <row>
+            <entry>PowerPC601</entry>
+            <entry>53</entry>
+            <entry>304</entry>
+            <entry>QFP</entry>
+            <entry>3</entry>
+            <entry>21</entry>
+            <entry>77</entry>
+          </row>
+          <row>
+            <entry>HPPt7100</entry>
+            <entry>73</entry>
+            <entry>504</entry>
+            <entry>PGA</entry>
+            <entry>35</entry>
+            <entry>16</entry>
+            <entry>124</entry>
+          </row>
+          <row>
+            <entry>DECα</entry>
+            <entry>149</entry>
+            <entry>431</entry>
+            <entry>PGA</entry>
+            <entry>30</entry>
+            <entry>23</entry>
+            <entry>202</entry>
+          </row>
+          <row>
+            <entry>SuperSPARC</entry>
+            <entry>272</entry>
+            <entry>293</entry>
+            <entry>PGA</entry>
+            <entry>20</entry>
+            <entry>34</entry>
+            <entry>326</entry>
+          </row>
+          <row>
+            <entry>Pentium</entry>
+            <entry>417</entry>
+            <entry>273</entry>
+            <entry>PGA</entry>
+            <entry>19</entry>
+            <entry>37</entry>
+            <entry>473</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165422578687"> As we see that with increasing complexity and increasing number of functions per chip, die area is bound to increase as it has in 5<sup>th</sup> column of Table 7.7.1. Increased die area means reduced die yield which will mean increased die cost hence chip cost. </para>
+    <para id="id1165420273432">The manufacturing process dictates the wafer cost, wafer yield, and defect density So, the sole control of the designer is the die area – how much functionality should be packed into a chip for it to be “the most cost effective”?</para>
+    <para id="id1165420110707">Empirically cost per die grows roughly as the square of the die area. Infact it is a non-linear function of die area.</para>
+    <para id="id1165421728240">
+      <emphasis effect="bold">7.7.4. Cost metrics dependence on Die Area, on Defect Density and on Alpha(circuit manufacturing complexity parameter)</emphasis>
+    </para>
+    <para id="id1165422111055">In 2006, for 90nm Generation Devices ‘Alpha 21264C’ fabricated on 300mm Wafer, </para>
+    <para id="id1165421580702">the density of defects=0.5per cm<sup>2</sup> and alpha,α,=4. </para>
+    <para id="id1165420072165">The cost of 300mm Wafer was $4700 and wafer yield was 95%.</para>
+    <para id="id1165420846990">Using Eq.7.7.3, dies/wafer = 231.</para>
+    <para id="id1165419555325">Using Eq.7.7.4, die yield = 0.555</para>
+    <para id="id1165422813053">Therefore Good dies/wafer= 128.</para>
+    <figure id="id1165423101263">
+      <media id="id1165423101263_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-3586.png" id="id1165423101263__onlineimage" height="56" width="359"/>
+      </media>
+    </figure>
+    <para id="id1165421938043">‘Alpha 21264C’ chip has 524-pin CLGA package.</para>
+    <para id="id1165419619969">
+      <figure id="id1165420379272">
+        <media id="id1165420379272_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-2269.png" id="id1165420379272__onlineimage" height="24" width="148"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165416576138">
+      <media id="id1165416576138_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-4a20.png" id="id1165416576138__onlineimage" height="167" width="600"/>
+      </media>
+    </figure>
+    <para id="id1165421774017">Using 7.7.1</para>
+    <figure id="id1165419964313">
+      <media id="id1165419964313_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-a7a8.png" id="id1165419964313__onlineimage" height="57" width="535"/>
+      </media>
+    </figure>
+    <para id="id1165419263051">By a similar algorithm, the total variable costs of 5 Processors are calculated and tabulated in Table.7.7.3.</para>
+    <para id="id1165422057306">
+      <emphasis effect="bold">Table 7.7.3. Variable costs of 5 Processors using 90nmGeneration Technology and 300mm Wafer.(Part I)</emphasis>
+    </para>
+    <table id="id1165420536009" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>μP</entry>
+            <entry>Die area(mm<sup>2</sup>)</entry>
+            <entry>Pin</entry>
+            <entry>Wafer cost($)</entry>
+            <entry>Package</entry>
+            <entry>Dies/Wafer</entry>
+            <entry>Die yield</entry>
+          </row>
+          <row>
+            <entry>Alpha212646C</entry>
+            <entry>115</entry>
+            <entry>524</entry>
+            <entry>4700</entry>
+            <entry>CLGA</entry>
+            <entry>231</entry>
+            <entry>0.555</entry>
+          </row>
+          <row>
+            <entry>Power 3-II</entry>
+            <entry>163</entry>
+            <entry>1088</entry>
+            <entry>4000</entry>
+            <entry>SLC</entry>
+            <entry>157</entry>
+            <entry>0.452</entry>
+          </row>
+          <row>
+            <entry>Itanium</entry>
+            <entry>300</entry>
+            <entry>418</entry>
+            <entry>4910</entry>
+            <entry>PLC</entry>
+            <entry>79</entry>
+            <entry>0.266</entry>
+          </row>
+          <row>
+            <entry>MIPS R14000</entry>
+            <entry>204</entry>
+            <entry>527</entry>
+            <entry>3700</entry>
+            <entry>CPGA</entry>
+            <entry>122</entry>
+            <entry>0.383</entry>
+          </row>
+          <row>
+            <entry>Ultra SPARCIII</entry>
+            <entry>210</entry>
+            <entry>1368</entry>
+            <entry>5200</entry>
+            <entry>FC-LGA</entry>
+            <entry>118</entry>
+            <entry>0.374</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165421134163">
+      <emphasis effect="bold">Table 7.7.3. Variable costs of 5 Processors using 90nmGeneration Technology and 300mm Wafer.(Part II)</emphasis>
+    </para>
+    <table id="id1165421161610" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Functional dies/wafer</entry>
+            <entry>Die cost($)</entry>
+            <entry>Test cost($)</entry>
+            <entry>Package Cost($)</entry>
+            <entry>Total cost($)</entry>
+          </row>
+          <row>
+            <entry>128</entry>
+            <entry>36.72</entry>
+            <entry>5.5</entry>
+            <entry>25</entry>
+            <entry>67.22</entry>
+          </row>
+          <row>
+            <entry>71</entry>
+            <entry>56.34</entry>
+            <entry>5.16</entry>
+            <entry>20</entry>
+            <entry>81.50</entry>
+          </row>
+          <row>
+            <entry>20</entry>
+            <entry>245</entry>
+            <entry>12.54</entry>
+            <entry>20</entry>
+            <entry>277.54</entry>
+          </row>
+          <row>
+            <entry>46</entry>
+            <entry>80.43</entry>
+            <entry>7.98</entry>
+            <entry>25</entry>
+            <entry>113.41</entry>
+          </row>
+          <row>
+            <entry>44</entry>
+            <entry>118.18</entry>
+            <entry>10.7</entry>
+            <entry>30</entry>
+            <entry>158.88</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id4577669"/>
+    <para id="id1165421461665">As we have already noted and it is further verified from Table 7.7.3 that total cost is a nonlinear function of the die area. Generally it is square of the die area.</para>
+    <para id="id1165421013178">7.7.4.1. Effect of the Defect density on the cost metrics.</para>
+    <para id="id1165420449360">In Table 7.7.4, the effect of defect density on the cost metrics is evaluated.</para>
+    <para id="id1165419072171">
+      <emphasis effect="bold">Table 7.7.4.Total cost of a processor ITANIUM (die area=3cm</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">) versus defect density with Wafer diameter of 300mm.</emphasis>
+    </para>
+    <table id="id1165421376139" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Defect density(d/cm<sup>2</sup>)</entry>
+            <entry>D/W</entry>
+            <entry>Y</entry>
+            <entry>FD/W</entry>
+            <entry>DC($)</entry>
+            <entry>TC($)</entry>
+            <entry>Package Cost($)</entry>
+            <entry>Total cost($)</entry>
+          </row>
+          <row>
+            <entry>0.3</entry>
+            <entry>79</entry>
+            <entry>0.422</entry>
+            <entry>33</entry>
+            <entry>148.8</entry>
+            <entry>7.9</entry>
+            <entry>20</entry>
+            <entry>176.39</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>79</entry>
+            <entry>0.101</entry>
+            <entry>8</entry>
+            <entry>612.58</entry>
+            <entry>32.91</entry>
+            <entry>20</entry>
+            <entry>665.41</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165419542636">D/W – dies per wafer, Y- die yield, FD/W – functional dies per wafer, DC- die cost, TC- test cost.</para>
+    <para id="id1165420328020">As is evident from Table 7.7.4, increase in defect density has drastic reduction effect on the yield and hence it has drastic enhancement effect on the die cost. So defect density has to be kept under tight control and it needs to be reduced as die area is increased if the die yield has to be maintained at a constant level.</para>
+    <para id="id1165419757312">7.7.4.2. Effect of Alpha (manfactruring complexity parameter) on Cost Metrics.</para>
+    <para id="id1165421379966">In Table 7.7.5 the effect of Alpha parameter on the cost metrics of Alpha21264C (die</para>
+    <para id="id1165422966735">area = 1.15cm<sup>2</sup>) processor is studied.</para>
+    <para id="id1827914">
+      <emphasis effect="bold">Table 7.7.5. Total cost of a processor Alpha21264C(die area = 1.15cm</emphasis>
+      <emphasis effect="bold">2</emphasis>
+      <emphasis effect="bold">) versus alpha parameter.</emphasis>
+    </para>
+    <table id="id1165419142023" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Alpha parameter</entry>
+            <entry>D/W</entry>
+            <entry>Y</entry>
+            <entry>FD/W</entry>
+            <entry>DC($)</entry>
+            <entry>TC($)</entry>
+            <entry>Package Cost($)</entry>
+            <entry>Total cost($)</entry>
+          </row>
+          <row>
+            <entry>α = 4</entry>
+            <entry>231</entry>
+            <entry>0.415</entry>
+            <entry>95</entry>
+            <entry>49.47</entry>
+            <entry>7.36</entry>
+            <entry>25</entry>
+            <entry>81.44</entry>
+          </row>
+          <row>
+            <entry>α = 6</entry>
+            <entry>231</entry>
+            <entry>0.404</entry>
+            <entry>93</entry>
+            <entry>50.54</entry>
+            <entry>7.57</entry>
+            <entry>25</entry>
+            <entry>83.11</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165419521628">Increase in levels of interconnection causes only a slight reduction in yield and hence a slight increase in total cost. This means that improved routability of the signal in the IC Chip is inexpensive.</para>
+    <para id="id1165422301216">7.7.5. Wafer size transition from 200mm to 300mm and now to 450mm.</para>
+    <para id="id1165421781478"> IC Industry’s ability to increased productivity by 25 to 30% per year is the combined result of wafer size transitions, shrinking device geometries, equipment productivity improvement and incremental yield improvements. Wafer size transitions historically account for 4% out of the stated 25-30% productivity increase. This is precisely why wafer size has been increasing periodically as shown in Table 7.7.6.</para>
+    <para id="id1165416124929">
+      <emphasis effect="bold">Table 7.7.6. Wafer size transition leading to increased throughput and increased productivity and decreased unit cost.</emphasis>
+    </para>
+    <table id="id1165419885914" summary="">
+      <tgroup cols="10">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <tbody>
+          <row>
+            <entry>Year</entry>
+            <entry>WD(mm)</entry>
+            <entry>t(μm)</entry>
+            <entry>WC($)</entry>
+            <entry>D/cm<sup>2</sup></entry>
+            <entry>DA(mm<sup>2</sup>)</entry>
+            <entry>D/W</entry>
+            <entry>Yield </entry>
+            <entry>FDper wafer</entry>
+            <entry>Die cost($)</entry>
+          </row>
+          <row>
+            <entry>59-61</entry>
+            <entry>25</entry>
+            <entry>200</entry>
+            <entry>?</entry>
+            <entry>1</entry>
+            <entry>81</entry>
+            <entry>6</entry>
+            <entry>48%</entry>
+            <entry>3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>61-63</entry>
+            <entry>51</entry>
+            <entry>275</entry>
+            <entry>?</entry>
+            <entry>1</entry>
+            <entry>121</entry>
+            <entry>7</entry>
+            <entry>36%</entry>
+            <entry>3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>63-66</entry>
+            <entry>76</entry>
+            <entry>375</entry>
+            <entry>?</entry>
+            <entry>1</entry>
+            <entry>196</entry>
+            <entry>11</entry>
+            <entry>22%</entry>
+            <entry>3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>66-68</entry>
+            <entry>100</entry>
+            <entry>525</entry>
+            <entry>?</entry>
+            <entry>1</entry>
+            <entry>234</entry>
+            <entry>19</entry>
+            <entry>17%</entry>
+            <entry>3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>68-70</entry>
+            <entry>130</entry>
+            <entry>625</entry>
+            <entry>?</entry>
+            <entry>1</entry>
+            <entry>256</entry>
+            <entry>34</entry>
+            <entry>16%</entry>
+            <entry>5</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>70-76</entry>
+            <entry>150</entry>
+            <entry>675</entry>
+            <entry>1491</entry>
+            <entry>1</entry>
+            <entry>296</entry>
+            <entry>40</entry>
+            <entry>13%</entry>
+            <entry>5</entry>
+            <entry>298</entry>
+          </row>
+          <row>
+            <entry>76-00</entry>
+            <entry>200</entry>
+            <entry>725</entry>
+            <entry>1050</entry>
+            <entry>1</entry>
+            <entry>296</entry>
+            <entry>80</entry>
+            <entry>13%</entry>
+            <entry>10</entry>
+            <entry>105</entry>
+          </row>
+          <row>
+            <entry>00-12</entry>
+            <entry>300</entry>
+            <entry>775</entry>
+            <entry>735</entry>
+            <entry>1</entry>
+            <entry>296</entry>
+            <entry>200</entry>
+            <entry>13%</entry>
+            <entry>26</entry>
+            <entry>28</entry>
+          </row>
+          <row>
+            <entry>12-?</entry>
+            <entry>450</entry>
+            <entry>925</entry>
+            <entry>515</entry>
+            <entry>1</entry>
+            <entry>296</entry>
+            <entry>479</entry>
+            <entry>13%</entry>
+            <entry>62</entry>
+            <entry>8</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165421187213">WD-Wafer diameter, WC-Wafer cost, D-defect,DA- die area , D/W- gross dies per wafer,FD- functional die.</para>
+    <para id="id1165421102879">Starting wafer cost per unit would be reduced by 30% under wafer size increase according to VLSI Research from 1970 onward.</para>
+    <para id="id1165421855596"> Table 7.7.6 clearly indicates that with increase in Wafer size the scale of economy of IC production improves. With constant die area, yield remains constant but if functionality increase leads to increased die area then defect density will have to be brought down concomitantly so that the product of defect density and die area is constant to ensure constant yield . The constantancy in the die yield only will ensure improved scale of economy.</para>
+    <para id="id2345074"> Driving force for all wafer size transitions include factors of ever increasing die size and increasing number of integrated functions per chip.</para>
+    <para id="id1165420137425"> Trends indicate that wafer size transitions industry-wide have typically enabled 4% per year productivity improvement and transition to 300mm wafer size should provide 2 to 4% per year lower IC cost per cm<sup>2</sup> .</para>
+    <para id="id1165420538677">
+      <emphasis effect="bold">7.7.5.1. Hydrogen injection process to keep the defect density at the lowest with increase in wafer size. </emphasis>
+    </para>
+    <para id="id1165422039944">Hydrogen injection during wafer manufacturing has helped in the following manners:</para>
+    <list id="id1165420118047" list-type="enumerated" number-style="lower-roman">
+      <item>Improved uniformity across the wafer, across the run and from run to run;</item>
+      <item>Control of defects such as oxidation induced stacking faults and control of point defects simultaneous process.</item>
+    </list>
+    <para id="id1165421946648">Hydrogen injection produces higher yields helping to improve cost effectiveness.</para>
+    <para id="id1165421358235">
+      <emphasis effect="bold">7.7.6. Design options offered by Scaling and Wafer size transition.. </emphasis>
+    </para>
+    <para id="id1165421896748"><emphasis effect="bold"/>Scaling gives us a higher transistor budget meaning higher transistor density. So for same functionality die area can be decreased and for same die area functionality can be increased.</para>
+    <para id="id1165421662181"> For same die area, increased functionality means more transistors and hence more features. This will pay off in terms of increased CPU performance. This is called addition of performance-enhancing functionality to a processor die.</para>
+    <para id="id1165421651802"> In the second option where we go for the same functionality and reduced die area we have four dividends: </para>
+    <list id="id1165420831263" list-type="enumerated" number-style="lower-roman">
+      <item>we get a higher yield and hence decreased die cost; </item>
+      <item>reduced power dissipation because of reduced silicon area;.</item>
+      <item>higher clock rate if power dissipation is maintained at original level; </item>
+      <item>Or a combination of higher clock rate and reduced power dissipation.<emphasis effect="bold"/></item>
+    </list>
+    <para id="id1165420028979"> Wafer size increases and concomitant defect density reduction allows the yield to be maintained constant even with increased die area. Thus number of functional chips per wafer are kept constant though much larger in size and much larger in performance enhancing functionality.  </para>
+    <para id="id1165422275993"> Processor’s power consumption and dissipation has been on the increase along with die size. This is creating the limitation of Fire Wall (P<sub>0</sub> Watts= power dissipation density×die area) , the maximum limit of dissipation which can be tolerated by a silicon chip.</para>
+    <para id="id1165420920214"> Here again we have two options:</para>
+    <list id="id1165420275254" list-type="enumerated" number-style="lower-roman">
+      <item>Multi-core procesors which is a combination of smaller , cheaper and less power hungry processor working in parallel to do the same job or</item>
+      <item>Single core processor which is larger, more expemsive and more power hungry.</item>
+    </list>
+    <para id="id1165420649281">Manufacturer’s are opting for multi-core processors.</para>
+    <para id="id1165420446534"> TodayMobile Computing demands that more functionality be added to a single die but not for the purpose of increased performance buit for an ideal mobile computing environment. This will mean combining non-volatile memory, volatile memory, CPU, multiple types of wireless capabilities (blue tooth, 802.11b, 802.11g, GSM e.t.c) on a single die. Here again we can integrate them on ta single die or combine multiple chips with multiple functions into a single module.</para>
+  </content>
+</document>

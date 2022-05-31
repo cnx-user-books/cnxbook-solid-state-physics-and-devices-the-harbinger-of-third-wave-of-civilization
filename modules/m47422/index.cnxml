@@ -1,0 +1,274 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter_2.2.6. Drift Velocity in Semiconductor/metal and its conductivity.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47422</md:content-id>
+  <md:title>SSPD_Chapter_2.2.6. Drift Velocity in Semiconductor/metal and its conductivity.</md:title>
+  <md:abstract>SSPD Chapter 2.2.7.gives the proof of Ohm's Law and gives the temperature dependence of resistance in Semiconductor and Metal.</md:abstract>
+  <md:uuid>64d67245-4b32-4106-b5cf-b5bca68c2a6b</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id4011138">
+      <title>2.2.7. Drift Velocity in Semiconductor/metal and its conductivity.</title>
+      <para id="import-auto-id5113735">In conductors it is the drift of the electrons which gives rise an electric current. It is the drift of the electrons which gives rise to Ohm’s Law (V/I = R). The flow of electrons in an electric circuit is shown in Figure 2.2.32.</para>
+      <figure id="import-auto-id4515338">
+        <media id="import-auto-id4007313" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-3e86.png" height="236" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id5067477">Notice here there is only electron flow from the negative terminal to the positive terminal of the battery and right from the middle of 18<sup>th</sup> century we have been mistakenly calling it a current flowing from positive to the negative terminal as if it is a flow of some positive charges. In an electric circuit there is the flow of electrons only.</para>
+      <para id="import-auto-id5137472">The electric conductor obeys Ohm’s Law:</para>
+      <figure id="import-auto-id4531821">
+        <media id="import-auto-id3671895" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-d9b2.png" height="42" width="506"/>
+        </media>
+      </figure>
+      <para id="import-auto-id4650778">(2.2.7.1)</para>
+      <para id="import-auto-id5136865">A = cross-sectional area of the conductor, l = length of the conductor.</para>
+      <para id="import-auto-id5128212">In contrast semiconductor allows the current to be carried by electrons as well as by holes. Hence electric current is partly carried by electrons and partly carried by holes as shown in Figure 2.2.33.</para>
+      <para id="import-auto-id4471800">As shown in Figure 2.2.33. since the Si Rod  is intrinsic in nature, 50% of current is carried by electrons and 50% is carried by holes within the Si-Rod. In external circuit, 100% of the current is carried by electrons sourced from the negative terminal of the battery and drained out by the positive terminal of the battery. At the negative terminal all the holes  flowing in the Si-Rod recombine with a part of the electrons brought by the external circuit. In this particular example 50 holes/sec recombine with 50 electrons/sec. At the positive terminal equal number of electrons and holes are generated and maintain the continuity of the current across the positive interface.In this example 50 EHP/sec are generated and maintain the continuity of current.</para>
+      <para id="import-auto-id5462390">If the Si-Rod is extrinsic then major portion of the current is carried by the majority carriers and minor portion of the current is carried by the minority carriers. </para>
+      <figure id="import-auto-id5044490">
+        <media id="import-auto-id5111949" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-bd30.png" height="285" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id4488456">In Chapter 1, Part 12, the quantum mechanical interpretation of Resistance of a conductor is given.</para>
+      <figure id="import-auto-id2445814">
+        <media id="import-auto-id5584205" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-2a53.png" height="462" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id3986457">As seen in Figure 2.2.34. the drift velocity (v<sub>d</sub>)  is a perturbation in the random thermal motion of the conducting electrons under an applied electric field E<sub>y</sub>. The otherwise centrally placed momentum sphere gets displaced in Y-direction by v<sub>d</sub> under the application of an Y-directed electric field.</para>
+      <para id="import-auto-id2599922">The thermal velocity of electron or hole in Si-Rod is given by the following equation:</para>
+      <para id="import-auto-id1995311"><figure id="import-auto-id2599363"><media id="import-auto-id4508727" alt=""><image mime-type="image/png" src="../../media/graphics5-a5d4.png" height="86" width="298"/></media></figure>(2.2.7.2)</para>
+      <para id="import-auto-id2040423">In Chapter 12, Part 12, we saw that electron or hole gets accelerated in spurts. At short intervals of time it loses all energy to the crystal and its motion is reset. That is it restarts from zero velocity. This will happen as long as drift velocity &lt;&lt; thermal velocity.Under this condition:</para>
+      <para id="import-auto-id2300428">Drift Velocity is directly proportional to the applied Electric Field and v<sub>d</sub>│<sub>Y</sub> = μE<sub>Y</sub>. The constant of proportionality is called mobility μ. </para>
+      <para id="import-auto-id5483749">We will show that under this direct proportionality condition Ohm’s Law is satisfied.</para>
+      <para id="import-auto-id5922406">
+        <emphasis effect="bold">2.2.7.1. Mobility of electron in Semiconductor is intimately connected with the structure of the Semi-conductor.</emphasis>
+      </para>
+      <para id="import-auto-id5949596">In Chapter 12, Part 12, it hasa been shown that:</para>
+      <para id="import-auto-id5913576"><figure id="import-auto-id5902704"><media id="import-auto-id5941327" alt=""><image mime-type="image/png" src="../../media/graphics6-f7ae.png" height="37" width="210"/></media></figure>(2.2.7.3)</para>
+      <para id="import-auto-id5496260">Here mean free time is a critical parameter which depends on three factors related to the structure of the Semi-conductor.:</para>
+      <list id="import-auto-id5930214" list-type="enumerated" number-style="lower-roman">
+        <item>Ambient Temperature which causes the lattice vibration;</item>
+        <item>The impurity in the semi-conductor caused during ther growth of the single crystal;</item>
+        <item>The defects of the semi-conductor also caused during the growth of the single crystal.</item>
+      </list>
+      <para id="import-auto-id5930210">If there were no disturbances(either due to thermal vibrations or due to defects in the crystalline structure or due to interstitial or substitutional impurities)  in the orderly arrangement of the lattice centers then a mobile carrier under the application of an electric field would move in a straight line and would continue to move in straight line indefinitely even after the Electric Field is removed. This would be a living embodiment of the First Law of Newton:</para>
+      <para id="import-auto-id5117916">A body at rest would continue to be at rest and a body in motion would continue to move in a straight line with a constant velocity unless or until made to act otherwise by the application of a force.</para>
+      <para id="import-auto-id5918355">Such an ideal crystal would behave like a Super-conductor and its mean free time would be very large and its mobility would also be very large. .</para>
+      <para id="import-auto-id3171116">In real life we always face disorderliness due to thermal vibrations, due to lattice defect and due to impurities. This leads to scattering and this lead to finite mobility and finite resistance. Hence we have two kinds of scattering and two kinds of mobilities:</para>
+      <para id="import-auto-id5101117"><figure id="import-auto-id5947286"><media id="import-auto-id5930226" alt=""><image mime-type="image/png" src="../../media/graphics7-227a.png" height="152" width="328"/></media></figure>(2.2.7.4)</para>
+      <para id="import-auto-id5902713">Using this theoretical formulation and experimentally determined mobilities, we can derive mean free time and gain useful insight in the structure of metals and semiconductors.</para>
+      <para id="import-auto-id5923760">From Chapter 12, Part 11, we have taken the following Tables:</para>
+      <para id="import-auto-id5912768"><emphasis effect="bold">Table 2.2.7.1. Mean Free Time(τ) and Mean Free Path(L) in Metals</emphasis>.</para>
+      <table id="import-auto-id5911418" summary="">
+        <tgroup cols="6">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <thead>
+            <row>
+              <entry>Metal</entry>
+              <entry>μ<sub>n</sub>(cm<sup>2</sup>/(V-s))</entry>
+              <entry>E<sub>F</sub>(eV)</entry>
+              <entry>V<sub>e</sub>(10<sup>5</sup>/s)</entry>
+              <entry>τ(femtosecond)</entry>
+              <entry>L(Angstrom)=V<sub>e</sub>×τ</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Li</entry>
+              <entry>16.2</entry>
+              <entry>4.7</entry>
+              <entry>9.96</entry>
+              <entry>9</entry>
+              <entry>90</entry>
+            </row>
+            <row>
+              <entry>Na</entry>
+              <entry>54.17</entry>
+              <entry>3.1</entry>
+              <entry>8.08</entry>
+              <entry>31</entry>
+              <entry>250</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>-</entry>
+              <entry>2.1</entry>
+              <entry>6.65</entry>
+              <entry>44</entry>
+              <entry>293</entry>
+            </row>
+            <row>
+              <entry>Cu</entry>
+              <entry>47</entry>
+              <entry>7.0</entry>
+              <entry>12.15</entry>
+              <entry>27</entry>
+              <entry>328</entry>
+            </row>
+            <row>
+              <entry>Ag</entry>
+              <entry>72</entry>
+              <entry>5.5</entry>
+              <entry>10.77</entry>
+              <entry>41</entry>
+              <entry>441.6</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id3463265">
+        <emphasis effect="bold">Table2.2.7.2. Mean Free Time and Mean Free Path in Semiconductors.</emphasis>
+      </para>
+      <table id="import-auto-id5120947" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>Material</entry>
+              <entry>μ<sub>n</sub>(cm<sup>2</sup>/(V-s))</entry>
+              <entry>τ(femosecond)</entry>
+              <entry>V<sub>e</sub>(10<sup>5</sup>/s)</entry>
+              <entry>L(A°)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Ge</entry>
+              <entry>3900</entry>
+              <entry>2217</entry>
+              <entry>0.95</entry>
+              <entry>2106</entry>
+            </row>
+            <row>
+              <entry>Si</entry>
+              <entry>1350</entry>
+              <entry>767.6</entry>
+              <entry>0.95</entry>
+              <entry>729</entry>
+            </row>
+            <row>
+              <entry>GaAs</entry>
+              <entry>8600</entry>
+              <entry>4890</entry>
+              <entry>0.95</entry>
+              <entry>4645.5</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id5486036">Electron is a matter wave hence it has a de-Broglie Wave-length associated with it which will decide how a conducting electron iinteracts with its surrounding lattice structure.The method of arriving at de-Broglie is described in Chaptetr 1,Part 11.</para>
+      <para id="import-auto-id2573436"><emphasis effect="bold">Table 2.2.7.3.de-Broglie Wavelength of electron in Electron Microscope, Metal and Semi-conductor and its implications for mobilities</emphasis>.</para>
+      <table id="import-auto-id4019610" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry/>
+              <entry>V<sub>acc</sub>(Volts)</entry>
+              <entry>De-Broglie λ(m)</entry>
+              <entry>V<sub>e</sub>(m/s)</entry>
+              <entry>Remark</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>(i)Electron-μScope</entry>
+              <entry>10KV</entry>
+              <entry>10<sup>-11</sup>=(1/50)lattice Constant</entry>
+              <entry>5×10<sup>9</sup></entry>
+              <entry>Wave-length&lt;&lt; a</entry>
+            </row>
+            <row>
+              <entry>(ii)Conducting electron in Metal</entry>
+              <entry>4V</entry>
+              <entry>5×10<sup>-10</sup>=lattice Constant</entry>
+              <entry>10<sup>6</sup></entry>
+              <entry>Wave-length~ a</entry>
+            </row>
+            <row>
+              <entry>(iii)Conducting electron in Si</entry>
+              <entry>0.025V</entry>
+              <entry>6×10<sup>-9</sup>=12×lattice Constant</entry>
+              <entry>10<sup>5</sup></entry>
+              <entry>Wave-length&gt;&gt; a</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id5719091">Case i.In an Electron-Microscope, a regular crystal array does not scatter the electron beam. Hence an electron beam can penetrate a thin specimen and produce the image of the broad features without being influenced by the atomic details.</para>
+      <para id="import-auto-id5849352">Case ii.In a metal, lattice centers strongly scatter the conducting electron hence their mobility is very low.</para>
+      <para id="import-auto-id4658823">Case iii.In a semi-conductor or doped semi-conductor, conducting electrons have a wave-length of 60A°. Hence only gross form of imperfections, extending over several lattice constants such as lattice vibration or dislocations, cause scattering of the conducting electron. Hence mobility is much higher in Si,Ge or GaAs as compared to Metal. </para>
+      <para id="import-auto-id5838402">
+        <emphasis effect="bold">2.2.7.2. Theoretical Formulation of Ohm’s Law.</emphasis>
+      </para>
+      <para id="import-auto-id4567111">Calculation of the drift current (J<sub>drift</sub>)  under the application of an Electric Field.</para>
+      <figure id="import-auto-id5587292">
+        <media id="import-auto-id5096931" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-afc2.png" height="266" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id5548703">Refer to Figure 2.2.35.</para>
+      <para id="import-auto-id5730823">J<sub>drift</sub>│<sub>e</sub>(drift current due to holes) = number of coulombs of electron charge passing through the unit cross-sectional area per unit time</para>
+      <para id="import-auto-id5853910">=q×n(electrons/cc)×v<sub>drift</sub>(cm)×1(cm<sup>2</sup>) </para>
+      <para id="import-auto-id5921608">Therefore J<sub>drift</sub>│<sub>e</sub> =qnv<sub>drift</sub>│<sub>e</sub>(2.2.7.5)</para>
+      <para id="import-auto-id5793478">J<sub>drift</sub>│<sub>hole</sub> =qnv<sub>drift</sub>│<sub>hole</sub>(2.2.7.6)</para>
+      <para id="import-auto-id2094150">Total Drift Current J<sub>Drift</sub> = qnv<sub>drift</sub>│<sub>e</sub> + qnv<sub>drift</sub>│<sub>hole</sub>(2.2.7.7)</para>
+      <para id="import-auto-id5726616">J<sub>Drift</sub> = qnμ<sub>n</sub>E+ qnμ<sub>p</sub>E  =  (qnμ<sub>n</sub>+ qnμ<sub>p </sub>)E =σE  (2.2.7.7)</para>
+      <para id="import-auto-id3847162">Where conductivity of the Si-Rod  σ(Siemens/cm) = (qnμ<sub>n</sub>+ qnμ<sub>p </sub>)(2.2.7.8)</para>
+      <para id="import-auto-id5745024">But σ = 1/ρ  and E = V/l where V=applied Voltage across the sample and l=length of the sample.</para>
+      <para id="import-auto-id5128707">Therefore Eq.(2.2.7.7) is rewritten as:</para>
+      <para id="import-auto-id5852964">I<sub>drift</sub>/A(cross-sectional area of the Si-Rod)=(1/ρ)×(V/l)(2.2.7.9)</para>
+      <para id="import-auto-id4641501">Hence Eq.(2.2.7.9) is rearranged as:</para>
+      <para id="import-auto-id5542127"><figure id="import-auto-id4054618"><media id="import-auto-id5416146" alt=""><image mime-type="image/png" src="../../media/graphics9-4a4c.png" height="56" width="211"/></media></figure>(2.2.7.10)</para>
+      <para id="import-auto-id5560245">Eq.(2.2.7.10) is in fact Ohm’s Law.</para>
+      <para id="import-auto-id5127426">
+        <emphasis effect="bold">2.2.7.3. Scatter Limited Velocity.</emphasis>
+      </para>
+      <figure id="import-auto-id5554066">
+        <media id="import-auto-id5050927" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-7ef7.png" height="381" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id4499503">At low fields, after every scattering electron manages to transfer its excess energy to the lattice and electron gets reset. But as drift velocity approaches Thermal Velocity =√(3kT/m<sub>e</sub>)=10<sup>7</sup>cm/s the quasi equilibrium position becomes unachievable and electron’s drift velocity saturates at scatter-limited velocity which is same as the thermal velocity 10<sup>7</sup>cm/s. This occurs at E = 10<sup>3</sup>/cm. </para>
+      <para id="import-auto-id5145756">From this point onward Ohm’s law is untenable.</para>
+      <para id="import-auto-id5092500">
+        <emphasis effect="bold">2.2.7.4. Temprature dependence of conductivity of metal and semi-conductor.</emphasis>
+      </para>
+      <figure id="import-auto-id5674502">
+        <media id="import-auto-id5838514" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-da69.png" height="478" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id4449814">Using Eq.(2.2.7.4) the dependence of mobility is as shown in Figure 2.2.38.</para>
+      <para id="import-auto-id5044455">In Figure 2.2.39. the temperature dependence of resistivity of Extrinsic Semiconductor and Metal are shown. By inspection of the Figure we find that Metal has a positive temperature coefficient of resistance whereas Semiconductor has negative temperature coefficient of resistance in intrinsic dominated region. In freeze out region its resistivity approaches that of an insulator.</para>
+      <figure id="import-auto-id4475087">
+        <media id="import-auto-id4472765" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-93d5.png" height="394" width="575"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id5053286">
+        <media id="import-auto-id5561825" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-9509.png" height="506" width="576"/>
+        </media>
+      </figure>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Device Simulation2_concluded</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37282</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Device Simulation2_concluded</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Device Simulation 2 is concluded in this module.</md:abstract>
+  <md:uuid>d5f2d85e-35da-43cb-94c1-2e1337327e23</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172696064283">SSPD_Chapter 6_Part 7_Device Simulation 2_concluded</para>
+    <para id="id1172720843360">
+      <emphasis effect="bold">7.5. Bipolar Gummel Plot with Ic/Vce with constant Ib</emphasis>
+    </para>
+    <para id="id7611232">go atlas</para>
+    <para id="id1172718634196">TITLE Bipolar Gummel plot and IC/VCE with constant IB</para>
+    <para id="id1172720688049"># Silvaco International 1992, 1993, 1994</para>
+    <para id="id7690420">mesh </para>
+    <para id="id1172715820671">x.m l=0 spacing=0.15</para>
+    <para id="id1172706061754">x.m l=0.8 spacing=0.15</para>
+    <para id="id1172720818301">x.m l=1.0 spacing=0.03</para>
+    <para id="id1172703851384">x.m l=1.5 spacing=0.12</para>
+    <para id="id1172721140587">x.m l=2.0 spacing=0.15</para>
+    <para id="id1172687378625">y.m l=0.0 spacing=0.006</para>
+    <para id="id1172718468734">y.m l=0.04 spacing=0.006</para>
+    <para id="id1172711611337">y.m l=0.06 spacing=0.005</para>
+    <para id="id1172717934953">y.m l=0.15 spacing=0.02</para>
+    <para id="id1172690485214">y.m l=0.30 spacing=0.02</para>
+    <para id="id1172686982546">y.m l=1.0 spacing=0.12</para>
+    <para id="id1172706075980">region num=1 silicon</para>
+    <para id="id1172717714262">electrode num=1 name=emitter left length=0.8</para>
+    <para id="id1172708705890">electrode num=2 name=base right length=0.5 y.max=0</para>
+    <para id="id1172715822050">electrode num=3 name=collector bottom</para>
+    <para id="id1172705190022">doping reg=1 uniform n.type conc=5e15 # background doping of the N-epi layer </para>
+    <para id="id1172697149902">doping reg=1 gauss n.type conc=1e18 peak=1.0 char=0.2 # N-type Collector implant</para>
+    <para id="id8005382">doping reg=1 gauss p.type conc=1e18 peak=0.05 junct=0.15 #P-type Base implant; </para>
+    <para id="id1172709619495">doping reg=1 gauss n.type conc=5e19 peak=0.0 junct=0.05 x.right=0.8 #N-type Emitter implant;</para>
+    <para id="id1172720674406">doping reg=1 gauss p.type conc=5e19 peak=0.0 char=0.08 x.left=1.5 # base contact P-type implant;</para>
+    <para id="id1172691970386"># set bipolar models</para>
+    <para id="id1172710105860">models conmob fldmob consrh auger print# consrh means concentration dependent        lifetimes applicable in Silicon. Print has       been explained in Section 7.4. </para>
+    <para id="id1172715432920">contact name=emitter n.poly surf.rec # surf.rec means surface recombination.</para>
+    <para id="id1172699647988">solve init</para>
+    <para id="id1172705129157">save outf=bjtex04_0.str</para>
+    <para id="id1172720567579">tonyplot bjtex04_0.str -set bjtex04_0.set</para>
+    <para id="id1172707358005"># Gummel plot</para>
+    <para id="id8526776">method newton autonr trap</para>
+    <para id="id1172701985079">solve vcollector=0.025</para>
+    <para id="id1172720110873">solve vcollector=0.1</para>
+    <para id="id1172719149243">solve vcollector=0.25 vstep=0.25 vfinal=2 name=collector</para>
+    <para id="id1172709754823">solve vbase=0.025</para>
+    <para id="id1172705822206">solve vbase=0.1</para>
+    <para id="id2995912">solve vbase=0.2</para>
+    <para id="id1172708029584"/>
+    <para id="id1172718184166">log outf=bjtex04_0.log</para>
+    <para id="id1172720735356">solve vbase=0.3 vstep=0.05 vfinal=1 name=base</para>
+    <para id="id1172697141620">tonyplot bjtex04_0.log -set bjtex04_0_log.set</para>
+    <para id="id1172724743415">#IC/VCE with constant IB</para>
+    <para id="id1172720605695">#ramp Vb</para>
+    <para id="id1172721280557">log off</para>
+    <para id="id1172724858556">solve init</para>
+    <para id="id1172716282597">solve vbase=0.025</para>
+    <para id="id1172691563844">solve vbase=0.05</para>
+    <para id="id1172710180590">solve vbase=0.1 vstep=0.1 vfinal=0.7 name=base</para>
+    <para id="id1172715799585"># switch to current boundary conditions</para>
+    <para id="id1172719861910">contact name=base current</para>
+    <para id="id1172703396159"># ramp IB and save solutions</para>
+    <para id="id1172719069634">solve ibase=1.e-6</para>
+    <para id="id1172719071416">save outf=bjtex04_1.str master</para>
+    <para id="id1172724486444">solve ibase=2.e-6</para>
+    <para id="id8557342">save outf=bjtex04_2.str master</para>
+    <para id="id1172699275488">solve ibase=3.e-6</para>
+    <para id="id1172721134711">save outf=bjtex04_3.str master</para>
+    <para id="id1172725493474">solve ibase=4.e-6</para>
+    <para id="id1172705251114">save outf=bjtex04_4.str master</para>
+    <para id="id1172692316486">solve ibase=5.e-6</para>
+    <para id="id1172717868202">save outf=bjtex04_5.str master</para>
+    <para id="id1172696511414"># load in each initial guess file and ramp VCE</para>
+    <para id="id1172720738954">load inf=bjtex04_1.str master</para>
+    <para id="id1172719279287">log outf=bjtex04_1.log </para>
+    <para id="id1172725938266">solve vcollector=0.0 vstep=0.25 vfinal=5.0 name=collector</para>
+    <para id="id1172707886809">load inf=bjtex04_2.str master</para>
+    <para id="id1172722760627">log outf=bjtex04_2.log</para>
+    <para id="id1172717392891">solve vcollector=0.0 vstep=0.25 vfinal=5.0 name=collector</para>
+    <para id="id1172696016331">load inf=bjtex04_3.str master</para>
+    <para id="id1172713788130">log outf=bjtex04_3.log</para>
+    <para id="id1172702651772">solve vcollector=0.0 vstep=0.25 vfinal=5.0 name=collector</para>
+    <para id="id1172691775562">load inf=bjtex04_4.str master</para>
+    <para id="id1172705555039">log outf=bjtex04_4.log</para>
+    <para id="id1172724290690">solve vcollector=0.0 vstep=0.25 vfinal=5.0 name=collector</para>
+    <para id="id1172724398209">load inf=bjtex04_5.str master</para>
+    <para id="id1172690312407">log outf=bjtex04_5.log</para>
+    <para id="id1172713246106">solve vcollector=0.0 vstep=0.25 vfinal=5.0 name=collector</para>
+    <para id="id1172691378248"/>
+    <para id="id1172714706186"># plot results</para>
+    <para id="id1172722915080">tonyplot -overlay bjtex04_1.log bjtex04_2.log bjtex04_3.log bjtex04_4.log bjtex04_5.log -set bjtex04_1_log.set</para>
+    <para id="id1172689213909">quit</para>
+    <para id="id1172708697029">
+      <emphasis effect="bold">7.5.1. Discussion on the Atlas Program used for BJT Device simulation and characterization.</emphasis>
+    </para>
+    <para id="id1172691266497">Below in Figure 7.6 and Figure 7.7, the implant profile of the dopents are given. Figure 7.6 gives the absolute doping profile and Figure 7.7 gives the net doping profile after compensation.</para>
+    <para id="id1172720740598">From Figure 7.7 it is clear that EB Junction is at 0.05µm and BC Junction is at 0.15µm. Emitter is heavily doped at 5×10<sup>19</sup> Phosphorous atoms per cc , Base is at 1×10<sup>18</sup> Boron atoms per cc and Collector is at the background doping of 5×10<sup>15</sup> Phosphorous atoms per cc. The base width is 0.10µm.</para>
+    <para id="id1172693427544">Figure 7.8 gives the mesh or the gridlines which cover the cross-sectional area of the device. As seen from the Mesh Diagram it is 0 to 1 µm in vertical or Y-direction and 0 to 2 µm in lateral direction or in X-direction.</para>
+    <para id="id1172724629052"> As seen from Figure 7.8, finest mesh covers the encircled area and second finest mesh covers the bracketed are.</para>
+    <para id="id1172687063317"> In Figure 7.9, 7.10 and 7.11 the Tony Plot of the structure of vertical NPN, I<sub>C</sub> and I<sub>B</sub> with respect to V<sub>BE</sub> and family of output curves (I<sub>C</sub> vs V<sub>CE</sub>) are given respectively. Not in Figure 7.9 we see that ratio of I<sub>C</sub> and I<sub>B</sub> for constant V<sub>CE</sub> is the short circuit d.c. current gain, β<sub>F</sub>, which is poor at low currents due to recombination in the depletion layer and it is also poor at large currents due base conductivity modulation. It is optimum around 100 at I<sub>C </sub>= 0.5 to 5mA. Emitter Injection Efficiency is degraded due to recombination in depletion layer and due to base conductivity modulation.</para>
+    <para id="id1172724497374">
+      <figure id="id1172722506845">
+        <media id="id1172722506845_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 122.png" id="id1172722506845__onlineimage" height="488" width="555"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172720963720">
+      <figure id="id1172724561779">
+        <media id="id1172724561779_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 123.png" id="id1172724561779__onlineimage" height="497" width="501"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172708246647">
+      <figure id="id1172717891737">
+        <media id="id1172717891737_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 124.png" id="id1172717891737__onlineimage" height="517" width="601"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172701455419">
+      <figure id="id1172702510550">
+        <media id="id1172702510550_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 125.png" id="id1172702510550__onlineimage" height="482" width="622"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172705442166">Figure 7.9. The structure generated by Tony Plot.</para>
+    <para id="id1172702261549"/>
+    <para id="id1172705618166">
+      <emphasis effect="bold">Figure 7.10. Variation of Base and Collector Current keeping Vce constant. The ratio of the two will give short circuit current gain . Note that at low currents β is unity and this gain plateaus at 5mA and at high current it again falls.</emphasis>
+    </para>
+    <para id="id1172693377743">
+      <emphasis effect="bold">Figure 7.11. Output family of curves I</emphasis>
+      <emphasis effect="bold">C</emphasis>
+      <emphasis effect="bold">-V</emphasis>
+      <emphasis effect="bold">CE</emphasis>
+      <emphasis effect="bold"> for the given transistor under constant current drive.</emphasis>
+    </para>
+  </content>
+</document>

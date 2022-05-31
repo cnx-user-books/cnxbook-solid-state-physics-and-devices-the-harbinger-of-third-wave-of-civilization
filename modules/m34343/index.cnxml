@@ -1,0 +1,880 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part 11_Solid State of Matter</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34343</md:content-id>
+  <md:title>SSPD_Chapter 1_Part 11_Solid State of Matter</md:title>
+  <md:abstract>SSPD_Chapter1_ Part11 gives a elaborate classification of Solid State of matter. This first part of Part 11 attempts to explain that electron's debroglie wavelength will decide how it interacts with solids. It is the difference in this de-broglie wavelength which makes conducting electron behave so very different in metals and semi-conductors.This part also describes how particle accelerators are gigantic microscopes which probe innermost recesses of matter.</md:abstract>
+  <md:uuid>024db340-6cff-47b6-b144-0b12f1908ace</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167315866629">SSPD_Chapter 1_Part 11_Solid State of Matter</para>
+    <para id="id1167310518278">1.10.DEFINITION OF INSULATORS, SEMICONDUCTORS AND INSULATORS.</para>
+    <para id="id1167310633121">1.10.1. SIX STATES OF MATTER.</para>
+    <para id="id1167318176332">There are six states of matter: gas, liquid, solid, plasma, Bose-Einstein Condensate and Fermi-ionic Condensate. </para>
+    <para id="id1167321979234">Gas has no fixed shape or volume. They have the shape and volume according to the vessel they occupy. Inter molecular distances are large and molecules are independent of one another. This state of matter obeys the Ideal Gas Law.</para>
+    <para id="id1167317473681">Liquid has a fixed volume but no fixed shape. It takes the shape of the vessel it occupies. Intermolecular distances are fixed and molecules experience cohesive force with respect to one another.</para>
+    <para id="id5253655">Solids have a fixed volume and fixed shape. The molecules are arranged in an orderly fashion giving rise to a crystalline structure. Because of the variation in the range of orderliness , the crystalline structure is classified as Single Crystal, Poly-crystal and Amorphous. The range of orderliness is shown in Figure(1.39).</para>
+    <para id="id1167316451749">For 300,000 years after the Big-Bang, temperature of the Universe was above 4000K and all matter was in PLASMA STATE. This is a soup of electrons, protons and neutrons. As long as matter is in plasma state, RADIATION dominates. Gravitational attraction is dominated by electromagnetic forces and thus the gravitational accretion is prevented.. As soon as temperature falls below 4000K, plasma recombines to form neutral mass of Hydrogen (70%), Helium(30%) and traces of Lithium. At this point radiation decouples and matter dominates. The decoupled radiation carries the imprint or profile of the matter distribution through out the Universe at the time of de-coupling. This decoupled radiation persists till today in almost its pristine state in which it decoupled from the matter. This decoupled radiation is known as Cosmic Microwave Background Radiation (CMBR). The latest study of CMB by WMAP show that indeed there are hot spots and cold spots in CMB implying that in the remote past matter distribution did contain the unevenness which would eventually become the seeds for the formation of clusters, galaxies, solar systems and planets.</para>
+    <para id="id1167311783336">Bose-Einstein Condensate and Fermi-ionic condensate are described in Section (1.15) . They are closely related but Fermi-ionic Condensate formed at a lower temperature than the temperature at which Bose-Einstein Condensate is formed. It manifests a complex of spectacular behavior:</para>
+    <list id="id1167315896477" list-type="enumerated" number-style="lower-roman">
+      <item>It flows through tiny capillaries without experiencing any friction;</item>
+      <item>It climbs in the form of film over the edge of vessels containing it. This phenomena is referred to as ‘film creep’;</item>
+      <item>It spouts in a spectacular way when heated under certain conditions;</item>
+      <item>If it is contained in a rotating container, the content in He-II Phase never rotates along with the container. </item>
+    </list>
+    <para id="id1167320951844">1.10.2. SOLID STATE OF MATTER.</para>
+    <para id="id1167310471904"><emphasis effect="bold"/>With the development of Quantum Mechanics, Band Theory of solid was proposed by Felix Bloch[Appendix XXXXIII]. As already seen in the last section, electrons in a single crystal solid occupy energy bands separated by forbidden zones known as Band Gaps as shown in Figure(1.40) , Figure(1.41) and in Figure(1.49).</para>
+    <para id="id1167310551237">The outer band is known as the conduction band and the band just below is valence band. In insulators and semiconductors, the energy band gap between valence and conduction is wide of the order of eV and conduction band is completely empty at low temperatures for both insulators and semiconductors. That is at 77K (liquid Nitrogen temperature) and below, semi-conductor is an insulator. Only near room temperature and by introduction of controlled amount of impurities that semiconductor acquires a certain degree of conductivity. As we will see in semiconductor chapter the effective density of states at the lower edge of conduction band (N<sub>C</sub>)</para>
+    <para id="id1167317489866">and at the upper edge of the valence band (N<sub>V</sub>) is nearly the same as shown in Table(1.10). This is of the order of 10^<sup>19</sup> permissible<sup/>states per centimeter cube. Hence as soon as <emphasis effect="italics">doping approaches this order of magnitude, number of conducting electrons are comparable to the available energy states which is the criteria for degenerate systems. Hence at that order of magnitude of doping, semiconductor becomes degenerate and behaves like a semi-metal.</emphasis></para>
+    <para id="id1167319906727">So an INSULATOR can be defined as the solid which has an empty conduction band and a large band gap , of the order of 4eV or more. There electron- hole pair cannot be thermally generated . Hence it remains non-conducting at all temperature.</para>
+    <para id="id8030568">On the contrary, SEMICONDUCTORS are non conducting and hence insulator below liquid Nitrogen temperature and above liquid Nitrogen temperature they acquire conductivity either due to thermal generation of electron-hole pair or due to contribution of conducting electrons by net donor atoms or due to holes contributed by net acceptor atoms.</para>
+    <para id="id1167313412268">Metals have partially filled conduction band or overlapping conduction and valence bands. As a result, there are mobile electrons available in copious amount. This amount is of the order 10<sup>22</sup> per centimeter cube. As we see in the Table(1.10), atomic concentration in Solids are of the order of 10<sup>22</sup> per c.c. and each atom contributes an electron for conduction. Hence availability of conduction electrons is 12 orders of magnitude greater than intrinsic Silicon and 9 orders of magnitude greater than that of intrinsic Germanium. Because of this large number of mobile carriers present in metal that resistivity is so much lower in metal than that in semiconductor. This point will become clearer as we proceed with the quantum-mechanical interpretation of conducting electron in metal or in semi-conductor.</para>
+    <para id="id1167318233275">As seen in Table(1.10) , the mobility of conducting electrons in semiconductors is much higher than that in metal which is typically 44cm<sup>2</sup>/(V-sec) for Copper. </para>
+    <para id="id1167316037399">Table(1.10) Characteristics of Ge, Si and GaAs at 300 K.</para>
+    <table id="id1167319147171" summary="">
+      <tgroup cols="7">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <tbody>
+          <row>
+            <entry>Characteristics</entry>
+            <entry>Symbol</entry>
+            <entry>Units</entry>
+            <entry>Ge</entry>
+            <entry>Si</entry>
+            <entry>GaAs</entry>
+            <entry>Cu</entry>
+          </row>
+          <row>
+            <entry>Effective Density of States</entry>
+            <entry>
+              <emphasis effect="bold">N</emphasis>
+              <emphasis effect="bold">c</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Cm^</emphasis>
+              <emphasis effect="bold">-3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">1.04×10^</emphasis>
+              <emphasis effect="bold">19</emphasis>
+            </entry>
+            <entry>2.8×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">19</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">4.7×10^</emphasis>
+              <emphasis effect="bold">17</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">N</emphasis>
+              <emphasis effect="bold">v</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Cm^</emphasis>
+              <emphasis effect="bold">-3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">6.1×10^</emphasis>
+              <emphasis effect="bold">18</emphasis>
+            </entry>
+            <entry>1.02×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">19</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">7×10^</emphasis>
+              <emphasis effect="bold">18</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Energy Gap</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">g</emphasis>
+            </entry>
+            <entry>eV</entry>
+            <entry>0.68</entry>
+            <entry>1.12</entry>
+            <entry>1.42</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Intrinsic Carrier concentration</entry>
+            <entry>
+              <emphasis effect="bold">n</emphasis>
+              <emphasis effect="bold">i</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Cm^</emphasis>
+              <emphasis effect="bold">-3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">2.25×10^</emphasis>
+              <emphasis effect="bold">13</emphasis>
+            </entry>
+            <entry>1.15×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">10</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">1.6×10^</emphasis>
+              <emphasis effect="bold">6</emphasis>
+            </entry>
+            <entry>8.5×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">22</emphasis></entry>
+          </row>
+          <row>
+            <entry>Effective mass</entry>
+            <entry>
+              <emphasis effect="bold">m</emphasis>
+              <emphasis effect="bold">n</emphasis>
+              <emphasis effect="bold"> (unit mass</emphasis>
+              <emphasis effect="bold">9.11×10</emphasis>
+              <emphasis effect="bold">-31 </emphasis>
+              <emphasis effect="bold">Kg)</emphasis>
+            </entry>
+            <entry/>
+            <entry>0.33</entry>
+            <entry>0.33</entry>
+            <entry>0.068</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">m</emphasis>
+              <emphasis effect="bold">p</emphasis>
+              <emphasis effect="bold"> (unit mass</emphasis>
+              <emphasis effect="bold">9.11×10</emphasis>
+              <emphasis effect="bold">-31 </emphasis>
+              <emphasis effect="bold">Kg)</emphasis>
+            </entry>
+            <entry/>
+            <entry>0.31</entry>
+            <entry>0.56</entry>
+            <entry>0.56</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Mobility</entry>
+            <entry>
+              <emphasis effect="bold">μ</emphasis>
+              <emphasis effect="bold">n</emphasis>
+            </entry>
+            <entry><emphasis effect="bold">Cm^</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/</emphasis>(V-s)</entry>
+            <entry>3900</entry>
+            <entry>1350</entry>
+            <entry>8600</entry>
+            <entry>44</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">μ</emphasis>
+              <emphasis effect="bold">n</emphasis>
+            </entry>
+            <entry><emphasis effect="bold">Cm^</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/</emphasis>(V-s)</entry>
+            <entry>1900</entry>
+            <entry>480</entry>
+            <entry>250</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Dielectric Constant</entry>
+            <entry>
+              <emphasis effect="bold">ε</emphasis>
+              <emphasis effect="bold">r</emphasis>
+            </entry>
+            <entry/>
+            <entry>16.3</entry>
+            <entry>11.8</entry>
+            <entry>10.9</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Atomic Concentration</entry>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">Cm^</emphasis>
+              <emphasis effect="bold">-3</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">4.42×10^</emphasis>
+              <emphasis effect="bold">22</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">5×10^</emphasis>
+              <emphasis effect="bold">22</emphasis>
+            </entry>
+            <entry>4.42×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">22</emphasis></entry>
+            <entry>8.5×<emphasis effect="bold">10^</emphasis><emphasis effect="bold">22</emphasis></entry>
+          </row>
+          <row>
+            <entry>Breakdown Field</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">BR</emphasis>
+            </entry>
+            <entry>V/cm</entry>
+            <entry>
+              <emphasis effect="bold">10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">3×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">3.5×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167311581669">
+      <emphasis effect="bold">1.10.2.1. METALS (</emphasis>
+      <emphasis effect="italics">with special reference to the mobility of conducting electrons and its implications for particle accelerators</emphasis>
+      <emphasis effect="bold">).</emphasis>
+    </para>
+    <para id="id1167315839947"><emphasis effect="bold"/>Metal is a lattice of positive ions held together by a gas of conducting electrons. The conducting electrons belonging to the conduction band have their wave-functions spread through out the metallic lattice. The average kinetic energy per electron is (3/5)E<sub>F</sub> (This will be a tutorial exercise). Hence </para>
+    <para id="id1167310555412">
+      <figure id="id1167310593154">
+        <media id="id1167310593154_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-1890.png" id="id1167310593154__onlineimage" height="31" width="49"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1167319985745">
+        <media id="id1167319985745_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-3e3e.png" id="id1167319985745__onlineimage" height="31" width="29"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> 1.93</emphasis>
+    </para>
+    <para id="id1167311640346">where m* is the effective mass of the electron but we will assume it to be the free space mass.</para>
+    <para id="id1167311696490">Therefore:<emphasis effect="bold"/></para>
+    <para id="id1167315898565">
+      <figure id="id1167310884753">
+        <media id="id1167310884753_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-e612.png" id="id1167310884753__onlineimage" height="31" width="107"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> ……………. 1.94</emphasis>
+    </para>
+    <para id="id1167311916250">
+      <emphasis effect="bold">Where </emphasis>
+      <figure id="id1167311746045">
+        <media id="id1167311746045_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-7ee6.png" id="id1167311746045__onlineimage" height="23" width="437"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167320079421"><emphasis effect="italics">This velocity is not thermal velocity but velocity resulting from Pauli’s Exclusion Principle which essentially is the result of the ferm-ionic nature of electrons. </emphasis>Electrons tend to repel one another when confined in a small Cartesian Space. Electrons are claustrophobic. </para>
+    <para id="id1167311733865">
+      <emphasis effect="bold">Therefore mean free path = </emphasis>
+      <figure id="id6579244">
+        <media id="id6579244_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-7a0b.png" id="id6579244__onlineimage" height="23" width="81"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> …… 1.95</emphasis>
+    </para>
+    <para id="id1167315237807">Where τ is mean free time.</para>
+    <para id="id1167310689137">Substituting the appropriate values for each metal, we get the mean free path for electron in their respective metals.</para>
+    <para id="id3934308">Table(1.10) Tabulation of the Fermi Energy, velocity, mean free time and mean free path of conducting electrons in their respective metals.</para>
+    <table id="id1167311682152" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Metal</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">F</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Velocity(×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+              <emphasis effect="bold">m/s)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">τ (femtosec)</emphasis>
+            </entry>
+            <entry>L*(A°)</entry>
+          </row>
+          <row>
+            <entry>Li</entry>
+            <entry>4.7</entry>
+            <entry>9.96</entry>
+            <entry>9</entry>
+            <entry>90</entry>
+          </row>
+          <row>
+            <entry>Na</entry>
+            <entry>3.1</entry>
+            <entry>8.08</entry>
+            <entry>31</entry>
+            <entry>250</entry>
+          </row>
+          <row>
+            <entry>K</entry>
+            <entry>2.1</entry>
+            <entry>6.65</entry>
+            <entry>44</entry>
+            <entry>293</entry>
+          </row>
+          <row>
+            <entry>Cu</entry>
+            <entry>7.0</entry>
+            <entry>12.15</entry>
+            <entry>27</entry>
+            <entry>328</entry>
+          </row>
+          <row>
+            <entry>Ag</entry>
+            <entry>5.5</entry>
+            <entry>10.77</entry>
+            <entry>41</entry>
+            <entry>441.6</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167316110930">As we see from Table(1.10), the mean distance between two scatterers is 2 orders of magnitude greater than the lattice constant which is of the order of 5 A°. Hence lattice centers per se are not the scatterers but infact the disorderliness is what causes the scattering. <emphasis effect="italics">The scatterers are thermal vibrations of lattice centers, the structural defect in crystal growth and the substitutional/interstitial impurities.</emphasis> This implies that with reduction in temperature mobile electrons will experience less scattering hence the metal will exhibit less resistivity leading to positive temperature coefficient of resistance. We will dwell upon this in Section (1.12).</para>
+    <para id="id7384487">
+      <emphasis effect="bold">1.10.2.2. SEMICONDUCTORS</emphasis>
+    </para>
+    <para id="id7666021">Semiconductors are insulators initially. At low temperatures, all electrons are strongly bonded to their host atoms. Only at temperatures above Liquid Nitrogen that thermal generation of electron-hole pairs take place. So in semiconductors the situation is quite different as compared to that in metal. The conducting electrons and holes owe their mobility to thermal energy they possess in contrast to the conducting electrons in metal. On an average by Equipartition Law of Energy, the mobile carriers possess (1/2)kT thermal energy per carrier per degree of freedom. Since the carriers have 3 degrees of freedom hence they possess (3/2)kT average thermal energy per carrier.</para>
+    <para id="id1167311899564">Therefore <emphasis effect="bold"/><figure id="id1167312755212"><media id="id1167312755212_media" alt=""><image mime-type="image/png" src="../../media/graphics6-fead.png" id="id1167312755212__onlineimage" height="31" width="109"/></media></figure><emphasis effect="bold">…………………… 1.96</emphasis></para>
+    <para id="id1167320940983">Therefore<emphasis effect="bold"/><figure id="id1167311577617"><media id="id1167311577617_media" alt=""><image mime-type="image/png" src="../../media/graphics7-e2f9.png" id="id1167311577617__onlineimage" height="32" width="83"/></media></figure><emphasis effect="bold">……………………………………………………………1.97</emphasis></para>
+    <para id="id1167316709313">Therefore in semiconductors the mean free path will be the product of the thermal velocity and the mean free time. Mean free time is calculated from mobility of the mobile carriers which is determined experimentally.</para>
+    <para id="id1167312307142">From Table(1.10) we obtain the mobility values. In Table (1.11) the mobility, mean free time, thermal velocity and mean free paths are tabulated for Ge , Si and GaAs.</para>
+    <para id="id1167319854198">Table(1.11) Mobilities, Mean Free Times, Thermal Velocities and Mean Free Paths of Ge, Si and GaAs.</para>
+    <table id="id1167311697186" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Semiconductor</entry>
+            <entry><emphasis effect="bold">μ</emphasis><emphasis effect="bold">n</emphasis><emphasis effect="bold">(cm^</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/</emphasis>(V-sec))</entry>
+            <entry>τ (femtosec)</entry>
+            <entry>
+              <emphasis effect="bold">v</emphasis>
+              <emphasis effect="bold">e</emphasis>
+              <emphasis effect="bold">(m/sec)</emphasis>
+            </entry>
+            <entry>L* (A°)</entry>
+          </row>
+          <row>
+            <entry>Ge</entry>
+            <entry>3900</entry>
+            <entry>2217</entry>
+            <entry>
+              <emphasis effect="bold">0.95×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>2106</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry>1350</entry>
+            <entry>767.6</entry>
+            <entry>
+              <emphasis effect="bold">0.95×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>729</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>8600</entry>
+            <entry>4890</entry>
+            <entry>
+              <emphasis effect="bold">0.95×10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>4645.5</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167310931389">As we see electron has much larger mobility in semiconductors as compared to that in metals. This implies that the mean free path of electrons is greater by one order of magnitude in semiconductor as compared to that in metal. But why is the scattering less in semiconductors as compared to that in metal.? This answer is obtained by determining the de Broglie wavelength of electron and by using wave optics.</para>
+    <para id="id1167310465402">We will determine the velocity of a conducting electron in Electron Microscope, in metal and in semiconductor. In these three cases the conducting electron gains Kinetic Energy equal to the Potential Energy it loses while falling through a potential difference of 10kV in case of Electron Microscope(because 10kV is the accelerating voltage in Electron Microscope), through a potential difference of 4V in case of metal(because average kinetic energy associated with conducting electron is (3/5)E<sub>F</sub> and E<sub>F </sub>is 7eV in copper) and through a potential difference 0.025V in case of semiconductor ( since thermal voltage at 300K Room Temperature is kT/q= 0.025V). From the kinetic velocity the de Broglie wavelength is determined. The set of equations are: Kinetic Energy gained = <figure id="id8787544"><media id="id8787544_media" alt=""><image mime-type="image/png" src="../../media/graphics8-a5fe.png" id="id8787544__onlineimage" height="33" width="113"/></media></figure></para>
+    <para id="id1167311867412">Therefore momentum gained <figure id="id1167310528721"><media id="id1167310528721_media" alt=""><image mime-type="image/png" src="../../media/graphics9-ef68.png" id="id1167310528721__onlineimage" height="27" width="114"/></media></figure> ;</para>
+    <para id="id1167316052655">Therefore de Broglie wavelength: <figure id="id6137411"><media id="id6137411_media" alt=""><image mime-type="image/png" src="../../media/graphics10-faba.png" id="id6137411__onlineimage" height="35" width="126"/></media></figure> ; </para>
+    <para id="id1167311572803">In Table (1.12) the de Broglie wavelengths are tabulated:</para>
+    <para id="id1167310957094">Table1.12. de Broglie wavelengths of conducting electron in Electron Microscope, Metal and Semiconductor.</para>
+    <table id="id3889165" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">V</emphasis>
+              <emphasis effect="bold">acc</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">v</emphasis>
+              <emphasis effect="bold">e</emphasis>
+              <emphasis effect="bold">(m/sec)</emphasis>
+            </entry>
+            <entry>λ(m)</entry>
+            <entry>Implications</entry>
+          </row>
+          <row>
+            <entry>Electron Microscope</entry>
+            <entry>10kV</entry>
+            <entry>
+              <emphasis effect="bold">59×10^</emphasis>
+              <emphasis effect="bold">6</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">10^</emphasis>
+              <emphasis effect="bold">-11</emphasis>
+              <emphasis effect="bold">m = (1/50)(5A°)</emphasis>
+            </entry>
+            <entry>λ&lt;&lt; a (lattice constant)</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>100kV</entry>
+            <entry>
+              <emphasis effect="bold">187.6×10^</emphasis>
+              <emphasis effect="bold">6</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">4×10^</emphasis>
+              <emphasis effect="bold">-12</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Metal</entry>
+            <entry>4V</entry>
+            <entry>
+              <emphasis effect="bold">10^</emphasis>
+              <emphasis effect="bold">6</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">6×10^</emphasis>
+              <emphasis effect="bold">-10</emphasis>
+              <emphasis effect="bold">m = (5A°)</emphasis>
+            </entry>
+            <entry>λ~ a (lattice constant)</entry>
+          </row>
+          <row>
+            <entry>Semiconductor</entry>
+            <entry>0.025V</entry>
+            <entry>
+              <emphasis effect="bold">10^</emphasis>
+              <emphasis effect="bold">5</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">7.75×10^</emphasis>
+              <emphasis effect="bold">-9</emphasis>
+              <emphasis effect="bold">m = (78A°)</emphasis>
+            </entry>
+            <entry>λ &gt;&gt; a (lattice constant)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id6014795">As seen from Table(1.12), we see that de Borglie wavelength is much less than the lattice constant in case of Electron Microscope. For 100kV , theoretically the resolution should be (1/100)(4A°) This is like Sunlight falling through a broad aperture. Sun-ray will pass in a straight line and shadow of the aperture should fall on the screen behind the aperture. Hence in an Electron Microscope, a regular lattice array does not scatter an electron beam. The shadow of the crystal lattice should be imaged. But this theoretical resolution is never achieved since we are using magnetostatic focusing. Only 1A° is the resolution actually achieved. In case of 10kV, though the theoretical resolution (1/50)(5A°) but in practice only 10A° resolution is achieved. The electron beam can penetrate through a thin specimen and produce the image of its broad features without being influenced by the atomic details.</para>
+    <para id="id2626611">In electron microscope the electron can be accelerated to higher energy to obtain a finer resolution. It can resolve on the scale of molecules but can barely perceive the atoms.</para>
+    <para id="id1167312295344">To resolve at atomic and sub-atomic level we need to go to particle accelerators. <emphasis effect="italics">Particle Accelerators are gargantuan machines which can be regarded as giant microscopes for probing into the innermost recesses of matter - an awesome complement to the giant telescopes which probe to the edges of the Universe .</emphasis></para>
+    <para id="id1167315343042">To arrive at the resolving power of particle accelerator we must know Special Theory of Relativity and we must make relativistic corrections in order to arrive at the correct resolving power of the particle accelerators. These are described in the Appendix XXXXIV . Here we will just use them to arrive at the resolving power of the particle accelerators.</para>
+    <para id="id1167320810561">Relativistic momentum is related to the total energy E by the following relation ship:</para>
+    <para id="id1167316501378">
+      <figure id="id1167312674191">
+        <media id="id1167312674191_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-6602.png" id="id1167312674191__onlineimage" height="24" width="138"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">………………………………………………………………1.98</emphasis>
+    </para>
+    <para id="id5952065"/>
+    <para id="id1167310694299">de Broglie wavelength associated with this particle is:</para>
+    <para id="id1167310881061">
+      <figure id="id1167310103272">
+        <media id="id1167310103272_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-588e.png" id="id1167310103272__onlineimage" height="39" width="149"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">……………………………………………………………1.99</emphasis>
+    </para>
+    <para id="id1167311796618">Using Equation (1.99), the resolving power of various particle accelerators operational around the world is tabulated in Table(1.13).[Taken from Table(9.1), “Overview of Particle Physics”, by Abdus Salam, New Physics, edited by Paul Davies, Cambridge University Press, 1992]</para>
+    <para id="id1167311880848">Table 1.13. The resolution of the particle accelerators around the World.</para>
+    <table id="id1167311612092" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Name &amp; Location</entry>
+            <entry>Energy reached</entry>
+            <entry>Year</entry>
+            <entry>Resolution </entry>
+            <entry>Particle detected</entry>
+          </row>
+          <row>
+            <entry>Rutherford*Manchester,UK.</entry>
+            <entry>Alpha decay10MeV,alpha particle’s velocity=<emphasis effect="bold">2×10</emphasis><emphasis effect="bold">7</emphasis><emphasis effect="bold">m/s,</emphasis>Alpha particle=4He nucleus;</entry>
+            <entry>1911</entry>
+            <entry>
+              <emphasis effect="bold">4.5×10^</emphasis>
+              <emphasis effect="bold">-15</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>Nucleus<emphasis effect="bold">size= 10^</emphasis><emphasis effect="bold">-14</emphasis><emphasis effect="bold">m;</emphasis>Rutherford determined the size to be 30fmBut the correct estimate is 7fm;</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>1919</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-15</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>Protonssize= <emphasis effect="bold">10^</emphasis><emphasis effect="bold">-15</emphasis><emphasis effect="bold">m=1fm;</emphasis></entry>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry>1932</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-15</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>Neutronssize=<emphasis effect="bold">10^</emphasis><emphasis effect="bold">-15</emphasis><emphasis effect="bold">m =1fm</emphasis></entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>1GeV</entry>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-15</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Bepc(e</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">)</emphasis>Beijing</entry>
+            <entry>4GeV</entry>
+            <entry>1987</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">TRISTAN(e</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">)</emphasis>Japan</entry>
+            <entry>60GeV</entry>
+            <entry>1987</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>10GeV</entry>
+            <entry>1979</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-16</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>Quarks<emphasis effect="bold">size= 10^</emphasis><emphasis effect="bold">-16</emphasis><emphasis effect="bold">m</emphasis></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">SLC(e</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">)</emphasis>Stanford,California,USA;</entry>
+            <entry>100GeV</entry>
+            <entry>1987</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-17</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry><emphasis effect="bold">W</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">, W</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold"> &amp; Z</emphasis><emphasis effect="bold">0</emphasis>detected</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">LEP(I) (e</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">)</emphasis>Large electron-positron collidorCERN, Geneva;</entry>
+            <entry>100GeV</entry>
+            <entry>1987</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-17</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">LEP(II) (e</emphasis><emphasis effect="bold">+</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">-</emphasis><emphasis effect="bold">)</emphasis>CERN,Geneva</entry>
+            <entry>200GeV</entry>
+            <entry>1995</entry>
+            <entry>
+              <emphasis effect="bold">6.2×10^</emphasis>
+              <emphasis effect="bold">-18</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>Top Quarksdetected</entry>
+          </row>
+          <row>
+            <entry>HERA(ep)Hamburg</entry>
+            <entry>320GeV</entry>
+            <entry>1991</entry>
+            <entry>
+              <emphasis effect="bold">3.87×10^</emphasis>
+              <emphasis effect="bold">-18</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>SpSCERN, Geneva</entry>
+            <entry>900GeV</entry>
+            <entry>1986</entry>
+            <entry>
+              <emphasis effect="bold">1.38×10^</emphasis>
+              <emphasis effect="bold">-18</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>TevatronFermiLab,USA</entry>
+            <entry>1TeV</entry>
+            <entry>1987</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-18</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry>No excited state of quarks or leptons detected<emphasis effect="bold">size= 10^</emphasis><emphasis effect="bold">-18</emphasis><emphasis effect="bold">m</emphasis></entry>
+          </row>
+          <row>
+            <entry>TevatronFermiLab,USA</entry>
+            <entry>2TeV</entry>
+            <entry>1987</entry>
+            <entry>
+              <emphasis effect="bold">6.2×10^</emphasis>
+              <emphasis effect="bold">-19</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>UNKSerpukhov,Russia</entry>
+            <entry>3TeV</entry>
+            <entry>1995</entry>
+            <entry>
+              <emphasis effect="bold">4.13×10^</emphasis>
+              <emphasis effect="bold">-19</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>EeSerpukhov,Russia</entry>
+            <entry>4TeV</entry>
+            <entry>?</entry>
+            <entry>
+              <emphasis effect="bold">3×10^</emphasis>
+              <emphasis effect="bold">-19</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Large HadronCollider(LHC),CERN,Geneva</entry>
+            <entry>16TeV</entry>
+            <entry>?</entry>
+            <entry>
+              <emphasis effect="bold">7.75×10^</emphasis>
+              <emphasis effect="bold">-20</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>SSC(super particle superconductingCollider),USA;</entry>
+            <entry>40TeV</entry>
+            <entry>?</entry>
+            <entry>
+              <emphasis effect="bold">3.1×10^</emphasis>
+              <emphasis effect="bold">-20</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>1PeV</entry>
+            <entry>?</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-21</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>1EeV</entry>
+            <entry>?</entry>
+            <entry>
+              <emphasis effect="bold">1.24×10^</emphasis>
+              <emphasis effect="bold">-24</emphasis>
+              <emphasis effect="bold">m</emphasis>
+            </entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id6528594">* the first particle accelerator was established at Cavendish Laboratory, Cambridge University. In 1919 Rutherford became the first Director and he was instrumental in establishing the particle accelerator. </para>
+    <para id="id7807419">In Metal the wavelength is comparable to the lattice constant. This is like light falling through a narrow aperture whose dimension is comparable to the wavelength. Incident light will form a circular diffraction pattern behind the aperture on the target screen. This implies that conducting electron in a metallic lattice is strongly scattered by the lattice centers. Hence it has a very low mobility.</para>
+    <para id="id1167319263089">   In Semiconductor, the de Broglie wave length is much larger than the lattice constant. Hence lattice scattering is weak and only the gross imperfections cause the scattering. These gross imperfections could be phonons and dislocations extending over several lattice constants. This is what makes conducting electrons much more mobile in semiconductor as compared to that in metal.</para>
+    <para id="id1167310643940">   In metal, conducting electrons behave like degenerate gas and not quite like ideal gas whereas in semiconductors they behave like non-degenerate gas which is more like ideal gas obeying ideal gas law.</para>
+    <para id="id6955275">   In ideal gas the molecules are far apart, independent of one another and possessing average energy of (3/2)kT whereas in degenerate gas the molecules are closely packed and average kinetic energy is much larger than (3/2)kT. In Table(1.14),</para>
+    <para id="id1167311818386">Metals and Semiconductors parameters have been tabulated in the same table.</para>
+    <para id="id8139762"/>
+    <para id="id1167310611914">
+      <emphasis effect="bold">Table(1.14). Conductivity(σ), Fermi Level(E</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">), Mean Free Path(L*) and Mean Free Time(τ) at 0°C for monovalent metals and semiconductors.</emphasis>
+    </para>
+    <table id="id1167316097342" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>Metal</entry>
+            <entry>σ<emphasis effect="bold">(10</emphasis><emphasis effect="bold">6</emphasis><emphasis effect="bold">S/cm)</emphasis></entry>
+            <entry>ρ(Ω-cm)</entry>
+            <entry>n<emphasis effect="bold">(10^</emphasis><emphasis effect="bold">22</emphasis><emphasis effect="bold">/</emphasis><emphasis effect="bold">cm</emphasis><emphasis effect="bold">3</emphasis><emphasis effect="bold">)</emphasis></entry>
+            <entry><emphasis effect="bold">μ</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">cm^</emphasis><emphasis effect="bold">2</emphasis><emphasis effect="bold">/</emphasis>(V-s)= σ/(nq)</entry>
+            <entry>
+              <emphasis effect="bold">E</emphasis>
+              <emphasis effect="bold">F</emphasis>
+              <emphasis effect="bold">(eV)</emphasis>
+            </entry>
+            <entry>L*(A°)</entry>
+            <entry>τ(fs)=<emphasis effect="bold">m</emphasis><emphasis effect="bold">e</emphasis><emphasis effect="bold">μ/q</emphasis><emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-4</emphasis></entry>
+          </row>
+          <row>
+            <entry>Li</entry>
+            <entry>
+              <emphasis effect="bold">0.12</emphasis>
+            </entry>
+            <entry>8.3<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-6</emphasis></entry>
+            <entry>4.62</entry>
+            <entry>16.2</entry>
+            <entry>4.7</entry>
+            <entry>110</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>Na</entry>
+            <entry>0.23</entry>
+            <entry>4.35<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-6</emphasis></entry>
+            <entry>2.65</entry>
+            <entry>54.17</entry>
+            <entry>3.1</entry>
+            <entry>350</entry>
+            <entry>31</entry>
+          </row>
+          <row>
+            <entry>K</entry>
+            <entry>0.19</entry>
+            <entry>5.26<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-6</emphasis></entry>
+            <entry/>
+            <entry/>
+            <entry>2.1</entry>
+            <entry>370</entry>
+            <entry>44</entry>
+          </row>
+          <row>
+            <entry>Cu</entry>
+            <entry>0.64</entry>
+            <entry>1.67<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-6</emphasis></entry>
+            <entry>8.5</entry>
+            <entry>47</entry>
+            <entry>7.0</entry>
+            <entry>420</entry>
+            <entry>27</entry>
+          </row>
+          <row>
+            <entry>Ag</entry>
+            <entry>0.68</entry>
+            <entry>1.47<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">-6</emphasis></entry>
+            <entry>5.9</entry>
+            <entry>72</entry>
+            <entry>5.5</entry>
+            <entry>570</entry>
+            <entry>41</entry>
+          </row>
+          <row>
+            <entry>Ge</entry>
+            <entry/>
+            <entry>47</entry>
+            <entry><emphasis effect="bold">n</emphasis><emphasis effect="bold">i</emphasis><emphasis effect="bold">=</emphasis>2.25<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">13</emphasis></entry>
+            <entry>3900</entry>
+            <entry/>
+            <entry>2106</entry>
+            <entry>2217</entry>
+          </row>
+          <row>
+            <entry>Si</entry>
+            <entry/>
+            <entry>300k</entry>
+            <entry><emphasis effect="bold">n</emphasis><emphasis effect="bold">i</emphasis><emphasis effect="bold">=</emphasis>1.15<emphasis effect="bold">×10^</emphasis><emphasis effect="bold">10</emphasis></entry>
+            <entry>1350</entry>
+            <entry/>
+            <entry>729</entry>
+            <entry>767.6</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry/>
+            <entry>70.5M</entry>
+            <entry><emphasis effect="bold">n</emphasis><emphasis effect="bold">i</emphasis><emphasis effect="bold">=2</emphasis>×10^6</entry>
+            <entry>8600</entry>
+            <entry/>
+            <entry>4645.5</entry>
+            <entry>4890</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1167319765010"/>
+  </content>
+</document>

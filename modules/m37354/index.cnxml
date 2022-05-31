@@ -1,0 +1,38 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 4_Process Simulator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37354</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Introduction to ATHENA 4_Process Simulator</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Introduction to ATHENA 4 deals with reflecting the half MOS structure to obtain the full structure through mirror parameter.</md:abstract>
+  <md:uuid>f1f81227-96a2-436a-9310-b4883642b22d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169107841787">
+      <emphasis effect="bold">SSPD_Chapter 6_Part 7_Introduction to ATHENA4</emphasis>
+    </para>
+    <para id="id1169109883570">SECTION 7.7 Background of ATHENAcontinued.</para>
+    <para id="id1169110133290">7.7.2. Creating Device Structure using ATHENA</para>
+    <para id="id1169115792780">
+      <emphasis effect="bold">7.7.2.7. Reflecting a Structure in the “Y” Plane using the Mirror Parameter</emphasis>
+    </para>
+    <para id="id1169110339585"> This tutorial process simulation has been building one half of a MOSFET- like structure. At some point in the simulation, you will need to obtain the full structure. This must be done before exporting the structure to a device simulator or setting electrode names. In general, structure reflection should be performed when the structure ceases to be symmetrical (e.g., a tilted implant, an asymmetrical etching, or a deposition takes place), or when a reflecting boundary condition no longer applies to the side, which is going to be the center of the structure.</para>
+    <para id="id1169110114730"> This example will explain how to mirror the structure at its left boundary. To mirror the structure, select Structure → Mirror in the Commands menu (Figure 7.28).</para>
+    <figure id="id1169123250039">
+      <media id="id1169123250039_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-3aab.png" id="id1169123250039__onlineimage" height="249" width="405"/>
+      </media>
+    </figure>
+    <para id="id1169110349097">Then, press the Write button to write the following statement to the input file:</para>
+    <para id="id1169112456688">STRUCT MIRROR LEFT</para>
+    <para id="id1169110208462">The resulting structure is shown in Figure 7.29.</para>
+    <para id="id1169115727091">
+      <figure id="id1169119858606">
+        <media id="id1169119858606_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-c919.png" id="id1169119858606__onlineimage" height="352" width="598"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169108976014"> The left half of the structure is a complete mirror copy of the right part, including node coordinates, doping values, and so on. Beware of rounding errors when mirroring. If the boundary of reflection is not smooth to within 0.1 angstroms, some points will be duplicated.</para>
+  </content>
+</document>

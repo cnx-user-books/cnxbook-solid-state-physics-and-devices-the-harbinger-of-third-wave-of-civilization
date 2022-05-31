@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>FREQUENCY SPECTRUM ALLOCATION IN 21st Century.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38584</md:content-id>
+  <md:title>FREQUENCY SPECTRUM ALLOCATION IN 21st Century.</md:title>
+  <md:abstract>This module gives the need for greater frequency spectrum allocation for Mobile Communication and this has to be fulfilled within 350MHz to 3.5GHz considerable fraction of which is already occupied for TV usage.Hence ways and means have to be devised so that greater portion of this opportunity window is freed for Mobile Applications.</md:abstract>
+  <md:uuid>b5c40b99-74d8-4d21-828b-fd24b5dc94ad</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171295274717">
+      <emphasis effect="bold">FREQUENCY SPECTRUM ALLOCATION IN 21</emphasis>
+      <emphasis effect="bold">st</emphasis>
+      <emphasis effect="bold"> Century.</emphasis>
+    </para>
+    <para id="id1171293276658">(Adapted from ’ The Great Spectrum Famine’ by Mitchell Lazarus, Spectrum , November, 2010)</para>
+    <para id="id1171291619119">Table 1. The Opportunity Window: The best frequencies for mobile broadband are high enough that the antenna can be made conveniently compact and yet not so high that it fails to penetrate the buildings. This leaves a relatively narrow range of frequencies available for use i.e. from 300MHz to 3.5GHz..</para>
+    <table id="id1171292661722" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry namest="c4" nameend="c6">Best for Mobile Broadband300Mz to 3.5GHz</entry>
+          </row>
+          <row>
+            <entry>Spectrum Slot</entry>
+            <entry>1MHz-10MHz</entry>
+            <entry>10MHz-100MHz</entry>
+            <entry>100MHz-1GHz</entry>
+            <entry namest="c5" nameend="c6">1GHz-10GHz</entry>
+          </row>
+          <row>
+            <entry>Size of efficientantenna</entry>
+            <entry>75m to 7.5m</entry>
+            <entry>7.5m to 0.75m </entry>
+            <entry>0.75m to7.5cm</entry>
+            <entry namest="c5" nameend="c6">7.5cm to 7.5mm</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Bounces from the skyDue to ionosphericreflections</entry>
+            <entry/>
+            <entry/>
+            <entry namest="c5" nameend="c6">Bounces inside the room</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry namest="c2" nameend="c4">Penetrates buildings and terrain</entry>
+            <entry/>
+            <entry>Reflects from buildings</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Follows Earth’scurvature</entry>
+            <entry/>
+            <entry/>
+            <entry namest="c5" nameend="c6">Travels along line-of-sight</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171301414353">It is a World Wide Worry:</para>
+    <para id="id1171287852292">“The growing popularity of mobile broadband is a global phenomenon, and the laws of physics that limit the frequencies available for it are the same everywhere. So it is no surprise that many other countries are facing the same spectrum famine as the United States.</para>
+    <para id="id1171307464770">All regions have large amounts of spectrum dedicated to TV, most of it in the frequency range suitable for wireless broadband. Most countries have targeted a conversion to digital broadcast TV as their best bet obtaining more wireless spectrum- what the European Union calls a digital “dividend”.Several have already completed the transition, including Belgium, Denmark, Finland, Germany, Luxembourg, the Netherlands, Norway, Spain, Sweden and Switzerland. Other countries have transition in progress, most scheduled for completion between 2011 and 2013 (China in 2015). The amounts of spectrum harvested by this transition vary from about 100 to 130MHz.</para>
+    <para id="id1171294153013">Many countries are also experimenting with spectrum auctions, some with a minimum of regiulation of the technologies, as a way of fostering efficient use.”</para>
+    <para id="id1171302503836">
+      <figure id="id1171287828195">
+        <media id="id1171287828195_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-8824.png" id="id1171287828195__onlineimage" height="369" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1171290469486">
+      <emphasis effect="bold">Figure 1.Mobile Broadband Skyrockets Globally.(Source Cisco)</emphasis>
+    </para>
+    <para id="id1171288776934">[X-axis Year; Y-axis Terabytes per month.</para>
+    <para id="id1171294373948">Terabytes per month includes Voice over Internet Protocol, Gaming, Peer-to Peer networking, Web/data, Video.</para>
+    <para id="id1171301690424">In the year 2014 it is projected that Voice over Internet Protocol (4%), Gaming(6%), Peer-to Peer networking(8%), Web/data(17%), Video(66%).]</para>
+    <para id="id1171293218961">Evolution of Mobile Phone Service:</para>
+    <para id="id1171288427110"> 1970s- One transmitter was used to serve the whole city.There were a few dozen voice channels and these channels were shared among the thousands of user in time. Because of time sharing, there were long waits and calls were expensive.</para>
+    <para id="id1171296250446"> 1980s-832 pairs of 30 kHz spaced analog FM channels in the 800-MHz band. These were reused in the cellular layout at different locations across the city to support many thousands of conversations. But service charges were out of reach for the common man.</para>
+    <para id="id1171293684616"> 1990- 1.9-GHz “2G” voice service came in vogue. The service providers used auctioned spectrum for digital transmission which yielded great benefits in terms of quality of voice transmission as well as in terms of efficient use of the spectrum. This was enabled because digital communication has the advantage of error detection and correction as well as it has the advantage of band-width compression.</para>
+    <para id="id6478748"> By the time we entered 21<sup>st</sup> century, all mobile transmissions had converted to digital transmission resulting in tenfold increase in capacity of the wireless networks. </para>
+    <para id="id1171295189288"/>
+    <para id="id1171301283240">Transition from Analog to Digital Communication.</para>
+    <para id="id1171309659606"> The transition from analog to digital mobile phone was smooth and voluntary. Service providers made the change on their own, for their own benefit and on their own time-tables.</para>
+    <para id="id1171309601885"> The transition from analog TV to digtal TV was slow and painful and in USA it was completed by 2009. But this transition eventually yielded 108MHz of spectrum which were freed for auction to mobile service providers. Now each digtal TV station can accommodate four analog-quality video signals and it has the new options for high definition programming and data services. This results in fivefold improvement in spectrum efficiency.</para>
+    <para id="id1171296208000">Ways and means for overcoming this spectrum famine.</para>
+    <list id="id1171291614574" list-type="enumerated" number-style="arabic">
+      <item>Identify the least efficient or least critical services and redesign them to use less spectrum. The collective traffic of police, fire-fighters, emergency responders, utility workers, taxi drivers, plumbers, construction crews and their like can be handled in far less spectrum;</item>
+      <item>Underused mobile satellite bands need to be converted to a primarily terrestrial cellphone-type service;</item>
+      <item>Government keeps large swaths of valuable spectrum. This could be fred for private use.</item>
+      <item>Rapid switch to digital TV is going to yield high dividends. </item>
+    </list>
+  </content>
+</document>

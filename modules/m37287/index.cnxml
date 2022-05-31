@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Device Simlation 3_conclsions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37287</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Device Simlation 3_conclsions</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_device simulation 3_ points out the inadequecies of ATLAS simulatin software.</md:abstract>
+  <md:uuid>9522dc0d-7ca2-4162-ba3b-6322c7186796</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164036099358">SSPD_Chapter 6_Part 7_Device Simulation 3_Conclusions.</para>
+    <para id="id1164033611806">
+      <emphasis effect="bold">7.6.3 Family of Output Curves of a real life BJT under constant base current drive and under constant base voltage drive.</emphasis>
+    </para>
+    <para id="id7608401">The family of curves which are given in the books are constant current drive Output Curves and are shown in the bottom half of Figure 7.16. In the upper half the constant voltage drive family of Output Curves are shown. Constant Current and Constant Voltage Drive CE BJT circuit configurations are shown in Figure 7.15.a and 7.15.b..</para>
+    <figure id="id1164030438377">
+      <media id="id1164030438377_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-9ec9.png" id="id1164030438377__onlineimage" height="526" width="538"/>
+      </media>
+    </figure>
+    <para id="id1164038743630">A battery voltage with a large source resistance say of 100kohm is equivalent to Constant Current Source determined by Norton Equivalent Circuit. A battery voltage with a small source resistance say of 1ohm is equivalent to Constant Voltage Source determined by Thevenin Equivalent Circuit. The circuit in Figure 7.15.a is like CE BJT driven by constant base current. The circuit in Figure 7.15.b is like CE BJT driven by constant base voltage. Figure 7.15.b is Current Mirror Current Source. </para>
+    <para id="id1164039015263">
+      <figure id="id1164034803608">
+        <media id="id1164034803608_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-9b4b.png" id="id1164034803608__onlineimage" height="899" width="631"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164027600284">The circuit in Figure 7.15.b is equivalent to CE BJT driven by constant base voltage. Figure 7.15.b is Current Mirror Current Source. The collector current in the second BJT is constraint to be equal to I<sub>Ref</sub> in first BJT. Hence it is called Current Mirror Current Source. Since I<sub>Ref </sub>is the collector Current of a strong feed-back system(in this case it is a strong feed back CE BJT- voltage-shunt feed back) therefore I<sub>Ref </sub>doesnot change with aging, with temperature changes or with replacement of the active device. Hence collector current in the second transistor is kept constant under all circumstances therefore second transistor behaves like a Current Source.</para>
+    <para id="id1164036606927">As we see in Figure 7.16.b. for I<sub>B</sub> = 0 µA, the output curve breaksover at 60V whereas in Figure 7.16.a. for I<sub>B</sub> = 0µA the output curve breaks over at 108 V. Also in constant current drive, as shown in Figure 7.16.b, at the breakover there is S-type Negative Impedance Region. We donot see this S-type NIR in the tony plot of the third device simulation.</para>
+    <para id="id1164037838072">The third device simulation does not exhibit the improvement in breakover when the input drive is changed from constant current to constant voltage drive. The compact model used in simulation software therefore needs to be improved. </para>
+  </content>
+</document>

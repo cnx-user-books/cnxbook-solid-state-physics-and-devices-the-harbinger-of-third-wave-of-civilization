@@ -1,0 +1,682 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 2.1.3.Nano-Technology Era.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47240</md:content-id>
+  <md:title>SSPD_Chapter 2.1.3.Nano-Technology Era.</md:title>
+  <md:abstract>SSPD_Chapter 2.1.3.The present Nano-Technology Era in which Semiconductor Industries have formally entered with the discovery of exfoliated Graphene in October 2004.</md:abstract>
+  <md:uuid>6d846a17-ee19-4663-afb7-b49448117e99</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id8725404">
+      <title>2.1.3.Nano Technology Era (October 2004 onward)</title>
+      <para id="import-auto-id1165517700750">[A new class of materials Two-dimensional(2D)crystalline materials have recently been identified and analyzed (1). The  first material in this new class is graphene, a single atomic layer of carbon. This new materialhas a number of unique properties, which makesit interesting for both fundamental studies and future applications.The electronic properties of this 2D-material leads to, for instance, an unusual quantum Hall effect.(2,3)It is a transparentconductor(4) which is one atom thin. It also gives rise to analogies with particle physics, including an exotic type of tunneling(5,6) which was predicted by the Swedish physicist Oscar Klein.(7).In addition graphene has a  number of  remarkable  mechanical and electrical properties. </para>
+      <para id="import-auto-id1165517993363">It is  substantially stronger than steel, and it is very stretchable. The thermal and electrical</para>
+      <para id="import-auto-id1165516364369">conductivity is very high and it can be used as a flexible conductor. The Nobel Prize in Physics 2010 honours two scientists, who have made the decisive contributions to this  development. </para>
+      <para id="import-auto-id1165516800438">They are  Andre K. Geim and Konstantin S. Novoselov, both at the University of Manchester, UK. They have  succeeded in producing, isolating, identifying and characterizing graphene.(1,8).</para>
+      <para id="import-auto-id1165516294128">Excrpted from:  <link url="http://www.nobelprize.org/nobel_prizes/physics/laureates/2010/advanced-physicsprize2010.pdf"><emphasis effect="underline">http://www.nobelprize.org/nobel_prizes/physics/laureates/2010/advanced-physicsprize2010.pdf</emphasis></link>.</para>
+      <para id="import-auto-id6745922">References:1. K. S. Novoselov, A. K. Geim, S. V. Morozov, D. Jiang, Y. Zhang, S. V. Dubonos, I. V. Grigorieva, and A. A. Firsov, Science 306, 666 (2004).</para>
+      <para id="import-auto-id1165516716986">2. K. S. Novoselov, A. K. Geim, S. V. Morozov, D. Jiang, M. I. Katsnelson, I. V. Grigorieva, S. V. Dubonos, and A. A. Firsov, Nature 438, 197 (2005).</para>
+      <para id="import-auto-id1165515502033">3. Y. B. Zhang, Y. W. Tan, H. L. Stormer, and P. Kim, Nature 438, 201 (2005).</para>
+      <para id="import-auto-id1165516796015">4. R. Nair, P. Blake, A. Grigorenko, K. Novoselov, T. Booth, T. Stauber, N. Peres, </para>
+      <para id="import-auto-id1165517700299">and A. Geim, Science 320, 1308 (2008).</para>
+      <para id="import-auto-id1165515577654">5. M. I. Katsnelson, K. S. Novoselov, and A. K. Geim, Nature Physics 2, 620 (2006).</para>
+      <para id="import-auto-id1165517697335">6. A. F. Young and P. Kim, Nature Physics 5, 222 (2009).</para>
+      <para id="import-auto-id1165517909008">7. O. Klein, Z PHYS 53, 157 (1929).</para>
+      <para id="import-auto-id1165516270022">8. K. S. Novoselov, D. Jiang, F. Schedin, T. J. Booth, V. V. Khotkevich, S. V. Morozov, </para>
+      <para id="import-auto-id1165515393256">and A. K. Geim, Proceedings of the National Academy of Sciences of the United States of America 102, 10451 (2005).]</para>
+      <para id="import-auto-id1165519190554">We have come a long way since the first IC chip was invented in 1959 in TI and FairChild simultaneously. The invention of IC Chip has marked the beginning of a new historical era in Man-Kind’s history. This invention has been as crucial as the discovery of fire was or as momentous as the invention of wheel was.</para>
+      <para id="import-auto-id1165516801727">Discovery of Fire brought the proto-human society down from its arboreal abode to its humble cave dwellings. This enabled the development of our society in rapid strides.</para>
+      <para id="import-auto-id1165515573217">On the other hand the invention of wheel led to rapid exchange of ideas and commodities enabling a homogenization across the globe which would have been impossible otherwise.</para>
+      <para id="import-auto-id1165517907244">In a similar fashion IC Technology has been a great leveler of human societies. All human beings are becoming a knowledge worker in one way or the other and the whole world is being rapidly transformed into a big Global Village where all new ideas or new technologies are available to one and all in the shortest time.</para>
+      <para id="import-auto-id1165516632262">Moore’s Law prediction of increase in packing density from generation to generation with scaled down dimensions has enabled the integration of scaled up systems with greater functionalities and integration of bigger memory capacities in the same chip area.</para>
+      <para id="import-auto-id1165516398466">
+        <emphasis effect="bold">Table 2..1.3.1. Clasification according to the scale of integration.</emphasis>
+      </para>
+      <table id="import-auto-id1165511357214" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>SSI</entry>
+              <entry>MSI</entry>
+              <entry>LSI</entry>
+              <entry>VLSI</entry>
+              <entry>ULSI</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>&lt;30comp.RTL</entry>
+              <entry>30 to 100comp.Mag.Comp.Chip</entry>
+              <entry>100,000comp4004μP</entry>
+              <entry>&gt;1million comp.PentiumIV</entry>
+              <entry>&gt;100million comp.Corei7</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165504678132">
+        <emphasis effect="bold">Table 2.1.3.2. MOS Dimension Scaling.</emphasis>
+      </para>
+      <table id="import-auto-id1165513605551" summary="">
+        <tgroup cols="8">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <thead>
+            <row>
+              <entry>MOS</entry>
+              <entry>1967</entry>
+              <entry>1997</entry>
+              <entry>1999</entry>
+              <entry>2001</entry>
+              <entry>2003</entry>
+              <entry>2006</entry>
+              <entry>2013</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>L(μm)</entry>
+              <entry>10</entry>
+              <entry>0.25</entry>
+              <entry>0.18</entry>
+              <entry>0.13</entry>
+              <entry>0.10</entry>
+              <entry>0.07</entry>
+              <entry>32</entry>
+            </row>
+            <row>
+              <entry>DRAM(Gb/cm<sup>2</sup>)</entry>
+              <entry>64M</entry>
+              <entry>0.18</entry>
+              <entry>0.38</entry>
+              <entry>0.42</entry>
+              <entry>0.91</entry>
+              <entry>1.85</entry>
+              <entry>32</entry>
+            </row>
+            <row>
+              <entry>Junction Depth(x<sub>j</sub>)nm</entry>
+              <entry>1000</entry>
+              <entry>100</entry>
+              <entry>70</entry>
+              <entry>60</entry>
+              <entry>52</entry>
+              <entry>40</entry>
+              <entry>?</entry>
+            </row>
+            <row>
+              <entry>Interconnection Pitch(nm)</entry>
+              <entry>2000</entry>
+              <entry>600</entry>
+              <entry>500</entry>
+              <entry>350</entry>
+              <entry>245</entry>
+              <entry>70</entry>
+              <entry>32</entry>
+            </row>
+            <row>
+              <entry>Technology</entry>
+              <entry>micron</entry>
+              <entry namest="c3" nameend="c6">Sub-micron technology</entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>Deep sub-micron</entry>
+              <entry>Ultra-Deep-Sub-micron</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165504720766">
+        <emphasis effect="bold">Table 2.1.3.3.Processor scaling from 2006 to 2012.</emphasis>
+      </para>
+      <table id="import-auto-id1165512475430" summary="">
+        <tgroup cols="6">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>MOS count</entry>
+              <entry>Year</entry>
+              <entry>Manf.</entry>
+              <entry>Process</entry>
+              <entry>Area(mm<sup>2</sup>)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>AMD K10 quad core2ML3</entry>
+              <entry>463M</entry>
+              <entry>2007</entry>
+              <entry>AMD</entry>
+              <entry>65nm</entry>
+              <entry>283</entry>
+            </row>
+            <row>
+              <entry>AMD K10 quad core6ML3</entry>
+              <entry>758M</entry>
+              <entry>2008</entry>
+              <entry>AMD</entry>
+              <entry>45nm</entry>
+              <entry>258</entry>
+            </row>
+            <row>
+              <entry>Corei7(quad)</entry>
+              <entry>731M</entry>
+              <entry>2008</entry>
+              <entry>Intel</entry>
+              <entry>45nm</entry>
+              <entry>263</entry>
+            </row>
+            <row>
+              <entry>6Core Opteron 2400</entry>
+              <entry>904M</entry>
+              <entry>2009</entry>
+              <entry>AMD</entry>
+              <entry>45nm</entry>
+              <entry>346</entry>
+            </row>
+            <row>
+              <entry>16Core Sparc T3</entry>
+              <entry>1B</entry>
+              <entry>2010</entry>
+              <entry>SUN/ORACLE</entry>
+              <entry>40nm</entry>
+              <entry>377</entry>
+            </row>
+            <row>
+              <entry>6Core Corei7</entry>
+              <entry>1.17B</entry>
+              <entry>2011</entry>
+              <entry>INTEL</entry>
+              <entry>32nm</entry>
+              <entry>216</entry>
+            </row>
+            <row>
+              <entry>QuadCore+GPU Corei7</entry>
+              <entry>1.4B</entry>
+              <entry>2012</entry>
+              <entry>INTEL</entry>
+              <entry>22nm</entry>
+              <entry>160</entry>
+            </row>
+            <row>
+              <entry>62Core Xeon Phi</entry>
+              <entry>5B</entry>
+              <entry>2012</entry>
+              <entry>INTEL</entry>
+              <entry>22nm</entry>
+              <entry>?</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165511403941"><emphasis effect="bold">Table 2.1.3.4.GPU scaling from 1997 to 2012.</emphasis>[GPU – Graphical Processing Unit is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the building of images in a frame buffer intended for output to display]</para>
+      <table id="import-auto-id1165511073578" summary="">
+        <tgroup cols="6">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>MOS count</entry>
+              <entry>Year</entry>
+              <entry>Manf.</entry>
+              <entry>Process</entry>
+              <entry>Area(mm<sup>2</sup>)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>NV3</entry>
+              <entry>3.5M</entry>
+              <entry>1997</entry>
+              <entry>NVIDIA</entry>
+              <entry>350nm</entry>
+              <entry>90</entry>
+            </row>
+            <row>
+              <entry>Tahiti RV1070</entry>
+              <entry>4.3B</entry>
+              <entry>2011</entry>
+              <entry>AMD</entry>
+              <entry>28nm</entry>
+              <entry>365</entry>
+            </row>
+            <row>
+              <entry>GK110Kepler</entry>
+              <entry>7.08</entry>
+              <entry>2012</entry>
+              <entry>NVIDIA</entry>
+              <entry>28nm</entry>
+              <entry>561</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165513675441"><emphasis effect="bold">Table 2.1.3.5.FPGA (Field Programmable Gate Array).</emphasis> It can be configured by the user according to his sysyem requirements. With increase in components the options for configurability is getting enhanced day by day.</para>
+      <table id="import-auto-id1165511408050" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>FPGA</entry>
+              <entry>MOS count</entry>
+              <entry>Year</entry>
+              <entry>Manufacturer</entry>
+              <entry>Process</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>VIRTEX</entry>
+              <entry>70M</entry>
+              <entry>1997</entry>
+              <entry>Xilinx</entry>
+              <entry>?</entry>
+            </row>
+            <row>
+              <entry>VITEX II</entry>
+              <entry>350M</entry>
+              <entry>2000</entry>
+              <entry>Xilinx</entry>
+              <entry>130nm</entry>
+            </row>
+            <row>
+              <entry>Virtex 4</entry>
+              <entry>1B</entry>
+              <entry>2004</entry>
+              <entry>Xilinx</entry>
+              <entry>90nm</entry>
+            </row>
+            <row>
+              <entry>Stratia IV</entry>
+              <entry>2.5B</entry>
+              <entry>2008</entry>
+              <entry>Altera</entry>
+              <entry>40nm</entry>
+            </row>
+            <row>
+              <entry>Virtex 7</entry>
+              <entry>6.8B</entry>
+              <entry>2011</entry>
+              <entry>Xilinx</entry>
+              <entry>28nm</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165510734945">We have already seen in Section 2.1.2.6. that CMOS, because of its nanowatt power dissipation in stand-by mode, is becoming the technology of choice at the lecvel of ULSI. All applications are converging to CMOS process technology.</para>
+      <para id="import-auto-id1165511591489">Theoretical proposition of CMOS as nano-watt logic family was made in1963 at International Solid-State-Circuits Conference(ISSCC-1963).</para>
+      <para id="import-auto-id1165507607604">In 1968, RCA commercialized CMOS series of logic family known as CD4000 series. This was equivalent to TTL 74series.</para>
+      <para id="import-auto-id1165513598081">Till 1970 the Industry Consensus was:</para>
+      <para id="import-auto-id1165508886037">1.Mainstream device will remain NMOS.</para>
+      <para id="import-auto-id1165512457183">2.BJT will be for Analog applications and for very high speed applications.</para>
+      <para id="import-auto-id1165508830171">3.PMOS will be phased out.</para>
+      <para id="import-auto-id1165505801244">4.CMOS will remain the process technology for Wrist Watches ICs.</para>
+      <para id="import-auto-id1165511093306">This consensus was driven by the economic criteria. CMOS technology had a high cost factor. But in 1978, Hitachi pioneered a more economic way of fabricating CMOS products based on the invention of twin well CMOS by Y.Sakai and T.Masuchari then at Hitachi Center for Research Lab. In 1978, Hitachi marketed 4kSRAM based onCMOS which outperformed Intel’s equivalent 4kSRAM based on NMOS technology.</para>
+      <para id="import-auto-id1165511326854">
+        <emphasis effect="bold">Table.2.1.3.6.Comparative study of 2147/INTEL(1977) and 6147/Hitachi(1978).</emphasis>
+      </para>
+      <table id="import-auto-id1165509468421" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Product</entry>
+              <entry>HMOS 4kStaticRAM</entry>
+              <entry>Hi-CMOS4kSRAM</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Technology</entry>
+              <entry>NMOS</entry>
+              <entry>Twin-well CMOS</entry>
+            </row>
+            <row>
+              <entry>Speed</entry>
+              <entry>55/70ns</entry>
+              <entry>55/70ns</entry>
+            </row>
+            <row>
+              <entry>I<sub>ACTIVE</sub>/I<sub>IDLE</sub></entry>
+              <entry>110mA/15mA</entry>
+              <entry>15mA/1μA</entry>
+            </row>
+            <row>
+              <entry>Chip Size</entry>
+              <entry>16.2nm<sup>2</sup></entry>
+              <entry>11.5nm<sup>2</sup></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165508884469">The Table clearly states that Hitachi CMOS memory is several orders of magnitude better than INTEL’s NMOS memory as far as standby power dissipation is considered. By 1981, CMOS 16k SRAM was manufactured and sold.</para>
+      <para id="import-auto-id1165507699898">Table 2.1.3.7 gives the comparative study of microprocessor(μP) based on NMOS and CMOS.</para>
+      <para id="import-auto-id1165514494285">
+        <emphasis effect="bold">Table 2.1.3.7.Comparative study of 6801/HIT(79) and 6301/HIT(81)</emphasis>
+      </para>
+      <table id="import-auto-id1165511036885" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Product</entry>
+              <entry>6801/HIT(79)8-bit μP</entry>
+              <entry>6301/HIT(81)8-bit μP</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Technology</entry>
+              <entry>4-μmNMOS</entry>
+              <entry>3-μmCMOS</entry>
+            </row>
+            <row>
+              <entry>Speed</entry>
+              <entry>1MHz</entry>
+              <entry>1MHz,1.5MHz,2MHz</entry>
+            </row>
+            <row>
+              <entry>Power-Active</entry>
+              <entry>900mW</entry>
+              <entry>30mW(1MHz)</entry>
+            </row>
+            <row>
+              <entry>Stand-by Power</entry>
+              <entry>70mW</entry>
+              <entry>0.01mW</entry>
+            </row>
+            <row>
+              <entry>Pin Count</entry>
+              <entry>40Pins</entry>
+              <entry>40Pins</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165511547832">EPSON introduced all CMOS computer HX-20 in 1982. It was a hand-held computer and proto-type/ancestor of the present day nomadic tools. Gradually all products are shifting to CMOS Technology.</para>
+      <para id="import-auto-id1165506838468">Presently Digital Consumer Market(smart phones and Tablet PCs) is driving Semiconductor Industries. In coming day, Automotive market, Robotics, Medfical&amp; Health Care and Sensor Network Market will be driving the Semiconductor Market.</para>
+      <para id="import-auto-id1165509970008">The processor speed has increased 10 times from Pentium in 1993 to Pentium III in 1999 but  with the introduction of Core2Duo in 2006 to Corei7 in 2013 the core speed has increased 1.5 times only but the appetite for high speed computing is insatiable. So obviously this paradigm of core computing will not be able to keep up with the computing needs of the post-industrial era. So new computing paradigms will have to be invented.</para>
+      <para id="import-auto-id1165511462212">Breahthrough in Strained Silcon and High-K,metal gate Technology has allowed Fabless Companies to follow the Road Map set by Moore’s Law.</para>
+      <para id="import-auto-id1165518708734">
+        <emphasis effect="bold">2.1.3.1. 3-D Tri-Gate Technology/Fin-FET Technology.</emphasis>
+      </para>
+      <para id="import-auto-id1165511505479">In 1991 a revolutionary 3D FinFET concept was put forward by Digh Hisamato and team of other researchers at Hitachi Central Research Laboratory. This proposed “WRAP AROUND” gate transistor technology. In conventional Planar Technology, GATE exercises control on the 2-D channel of electrons/holes only from the TOP.This new technology allowed the gate to exercise its control from 3 directions: From the TOP as well as from the TWO  SIDES as shown in the Figure 2.19.</para>
+      <figure id="import-auto-id1165512337660">
+        <media id="import-auto-id1165505021782" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-bd01.png" height="412" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165511530192">In Figure 2.19, the channel widths of Planar Transistor and Fin-FET are defined. In Figure 2.20 the channel length is defined in Fin-FET. The current drive capability and performance is directly proportional to its effective channel width as seen from the four Equations below:</para>
+      <para id="import-auto-id1165509884790">
+        <figure id="import-auto-id1165507872298">
+          <media id="import-auto-id1165512171081" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-e7d9.png" height="46" width="318"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1165511403593">
+          <media id="import-auto-id1165512150330" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-f3c4.png" height="46" width="325"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1165506189193">
+          <media id="import-auto-id1165511371581" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-ad68.png" height="46" width="325"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1165504421481">
+          <media id="import-auto-id1165512099916" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-524c.png" height="46" width="325"/>
+          </media>
+        </figure>
+      </para>
+      <para id="import-auto-id1165511416333">
+        <figure id="import-auto-id1165512524015">
+          <media id="import-auto-id1165513709764" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2-cd89.png" height="340" width="576"/>
+          </media>
+        </figure>
+      </para>
+      <para id="import-auto-id1165511402011">The channel width can be significantly enhanced in 3-D Transistor structure in relation to planar structure because of the ability to extend the  the width in the third dimension without increasing the layout area. This provides the potential for both enhanced design flecxibility for the designer as well as increased performance withput the same penality in 2-D area which exists when enhancing the width in planar transistor.</para>
+      <para id="import-auto-id1165511120344">There is reduced active and leakage power in 3D Fin-FET transistors. This advantage results from the improved control of the channel by Gate’s electric field from the three sides of the Fin as shown in the figures. This results in a steeper curve of I<sub>D</sub>-V<sub>GS</sub> for Fin-FET as shown in Figure 2.21.The steeper curve results in significant reduction in leakage current in Fin-FET for the same performance of planar transistor or substantially higher performance in terms of operating speed or a combination of both.</para>
+      <para id="import-auto-id1165511400434">The power supply voltage can be significantly reduced with Tri-Gate without impairing its speed of operation due to increased effective width in Tri-Gate compared to planar transistor. The combination of lower supply voltage and reduced leakage current results in substantial power saving.</para>
+      <figure id="import-auto-id1165513483258">
+        <media id="import-auto-id1165508816283" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-4e47.png" height="420" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165503471793">Fin-FET has a smaller cross-sectional area for the same performance of planar transistor.This gives a reduced area of incidence for cosmic particles which result into reduced  Single-Event Error(SEE). This has been authenticated by 22nm implementation of Intel  TriGate Fin-FET.</para>
+      <para id="import-auto-id1165509895742">3-D Geometry and structure provides a host of improvements over planar structure as discussed above and enumerated below:</para>
+      <list id="import-auto-id1165511331783" list-type="enumerated" number-style="lower-roman">
+        <item>Improved performance;</item>
+        <item>Reduced active and leakage power;</item>
+        <item>Higher packing density;</item>
+        <item>Reduction in susceptibility to charged particles SEE.</item>
+      </list>
+      <para id="import-auto-id1165511401049">In 1974, IBM’s Robert Dennnard, inventor of single transistor DRAM(Dynamic RAM) showed that  when MOSFET geometries, voltages and dopings were scaled down, gate transit time also scaled down and performance thus improved by the same factor. [“Design of Ion-Implanted MOSFET with very small Physical Dimensions”, <emphasis effect="italics">IEEE Journal of Solid State Circuits,</emphasis> Vol.SC-9,No.5, 256-268,October 1974]. Taken together, density improvement as predicted by Moore’s Law and the performance improvement by Dennard signaled a coming explosion of growth in chip processing power. This precisely happened and this is what has been fueling Computer-Communication Revolution till date. </para>
+      <para id="import-auto-id1165513706646">But there was great setback in 2005. Traditionally each new generation of Simanufacturing involves higher density and higher speed. But this scalng trend predicted above started  plataeuing out at 90nm process technology. Clock rates stagnated as already pointed out above in Section 2.1.3. Power consumption and dissipation  have grown with scaling. There was unacceptable gate leakage current. Therefore high-K(HfO, K=25) and metal gate technology was adopted. This maintained the improvement of performance by scaling till 40nm process technology.</para>
+      <para id="import-auto-id1165511311757">On 4<sup>th</sup> May 2011, Intel adopted Fin-FET (3D) Transistor for the manufacture of 22nm Semiconductor Products. Intel’s 22nm Tri-Gate uses 3<sup>rd</sup> Generation high K/metal-gate scheme, copper interconnect, strained Si and 193nm Immersion Lithography. </para>
+      <para id="import-auto-id1165511340641">International Technology Roadmaps for Semiconductor (ITRS) in 2012 identified 3-D Transistor Technology as the primary enabler  of all incremental semiconductor improvements beyond 22nm process technology. 3-D Tri Gate is able to maintain the advantage below 22nm of higher packing density not by scaling but by extending the transistor width in the third dimension. This allows designers the ability to trade off the size and width of the transistor ‘fin’ based on performance, power, and transistor density packing objectives. </para>
+      <para id="import-auto-id1165511141745">By adopting the 3-D technology, the steady march and consistent improvement in packaging density according to Moore’s Law has been maintained. This has meant steady improvement in performance, reduction in power back-up and reduction in cost per transistor. In addition there has been steady improvement in standby power and operating power dissipation.</para>
+      <para id="import-auto-id1165506537493">
+        <emphasis effect="bold">2.1.3.2. Tri-Gate Devices now in production.</emphasis>
+      </para>
+      <para id="import-auto-id1165510401956">While the advantages of Tri-Gate transistors have been studied and known for some time, adoption and implementation is driven ultimately by technology and</para>
+      <para id="import-auto-id1165509963908">manufacturability, as well as cost-effectiveness.</para>
+      <para id="import-auto-id1165511586818">The advanced state of semiconductor manufacturing at very small geometries (40 nm, 28 nm, 22 nm or 20 nm and beyond) requires research and development expenditures</para>
+      <para id="import-auto-id1165511455854">that now limit this technology to a handful of companies with capital expenditure capabilities in the billions of dollars. As a result, only a handful of manufacturers are</para>
+      <para id="import-auto-id1165512360925">able to capitalize on the known advantages of 3-D transistor technology. Intel Corporation is the only company to have made this design and manufacturing</para>
+      <para id="import-auto-id1165512587912">transition in 22 nm technology, and can provide data on the overall maturity and</para>
+      <para id="import-auto-id1165511476370">manufacturability of Tri-Gate transistors on a mass production scale. This data, as of</para>
+      <para id="import-auto-id1165511356916">the first quarter of 2013, includes 100 million units of Tri-Gate transistor-based</para>
+      <para id="import-auto-id1165511560538">products.</para>
+      <para id="import-auto-id1165512405930">Several known issues and characteristics of the 3-D gate structure have been</para>
+      <para id="import-auto-id1165507928877">acknowledged and addressed to achieve manufacturing and design maturity with the</para>
+      <para id="import-auto-id1165511390150">technology. These include the modeling of new parasitic capacitance values not</para>
+      <para id="import-auto-id1165511321163">modeled in traditional planar designs, layout dependent effects, and the use of</para>
+      <para id="import-auto-id1165511123566">double-patterning techniques using current lithographic equipment to form closely</para>
+      <para id="import-auto-id1165512145346">spaced fins.</para>
+      <para id="import-auto-id1165511091788">The electronic design automation (EDA) community is also an important factor in the maturity and usability of FinFET and Tri-Gate design technology to the</para>
+      <para id="import-auto-id1165511388620">semiconductor designer. A great deal of publicity and user education is underway in</para>
+      <para id="import-auto-id1165511086540">2013 by companies like Cadence and Synopsys revolving around the impact of</para>
+      <para id="import-auto-id1165511366577">Tri-Gate rules and flexibility in the design of future semiconductor products.</para>
+      <para id="import-auto-id1165512369697">Intel has maintained its leadership in innovation in technology process so as to maintain the march along the Road Map laid down by Moore’s Law. Figure 2.22 shows the technology innovation introduced by INTEL in last decade of Semiconductor Manufacturing history.</para>
+      <figure id="import-auto-id1165512583088">
+        <media id="import-auto-id1165511364213" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-776c.png" height="487" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165511100903">In February 2013, Altera and Intel Corporation jointly announced that the next generation of Altera’s highest performance FPGA products would be produced using</para>
+      <para id="import-auto-id1165511389296">Intel’s 14 nm 3-D Tri-Gate transistor technology exclusively. This makes Altera the exclusive major FPGA provider of the most advanced, highest performance semiconductor technology available. </para>
+      <para id="import-auto-id1165512554105">
+        <emphasis effect="bold">2.1.3.3. Graphene Technology-the future generation IC enabler.</emphasis>
+      </para>
+      <para id="import-auto-id1165512491518">All this advancement and convergence in computation and communication was made possible due to scaling. But this is becoming more difficult as we go below 20nm process.[Hennessy, J; Patterson, De; “Computer Architecture”, 3<sup>rd</sup> Edition, Morgan Kaufman Publishers, Amsterdam 2003].</para>
+      <para id="import-auto-id1165506124649">According to International Technology Roadmap for Semiconductors (ITRS) we have the  projection as given in Table 2.1.3.8</para>
+      <para id="import-auto-id1165511387434">
+        <emphasis effect="bold">Table 2.1.3.8. Roadmap of CMOS Technology according to ITRS-2003</emphasis>
+      </para>
+      <table id="import-auto-id1165511319235" summary="">
+        <tgroup cols="13">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <colspec colnum="9" colname="c9"/>
+          <colspec colnum="10" colname="c10"/>
+          <colspec colnum="11" colname="c11"/>
+          <colspec colnum="12" colname="c12"/>
+          <colspec colnum="13" colname="c13"/>
+          <thead>
+            <row>
+              <entry>Year</entry>
+              <entry>05</entry>
+              <entry>06</entry>
+              <entry>07</entry>
+              <entry>08</entry>
+              <entry>09</entry>
+              <entry>10</entry>
+              <entry>11</entry>
+              <entry>12</entry>
+              <entry>13</entry>
+              <entry>14</entry>
+              <entry>15</entry>
+              <entry>16</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>L<sub>Gate</sub>(nm)</entry>
+              <entry>32</entry>
+              <entry>28</entry>
+              <entry>25</entry>
+              <entry>22</entry>
+              <entry>20</entry>
+              <entry>18</entry>
+              <entry>16</entry>
+              <entry>14</entry>
+              <entry>13</entry>
+              <entry>11</entry>
+              <entry>10</entry>
+              <entry>9</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry namest="c2" nameend="c8">←Bulk/PartiallyDepleted-SOI→</entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry namest="c5" nameend="c12">←Fully Depleted –SOI→</entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry namest="c8" nameend="c13">←Multi-gate→</entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+              <entry>
+                </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="import-auto-id1165506834074">SRAM uses 6-Transistor to store a bit. SRAM is dominant form of embedded memory. It comprises 60- 70% chip area and 75% - 85% transistor count. As the logic gates density is increasing correspondingly the memory density must increase.</para>
+      <para id="import-auto-id1165511141588">Statistical dopent fluctuations, variation in oxide thickness and line edge roughness increases the spread in V<sub>Th</sub> and I<sub>ON</sub>/I<sub>OFF </sub> in nano-scale regime [Murari 2003]. Increased leakage and parametric variations are making scaling of 6-T SRAM memory array difficult.</para>
+      <para id="import-auto-id1165511123834">Due to fundamental physical limit to scaling, the era of conventional linear scaling of transistor dimensions has ended. Power dissipation and process induced variations have become the major issues for continued scaling of Si MOSFETs in future generation. </para>
+      <para id="import-auto-id1165512151738">New materials and device structure are needed to continue the scaling trend as seen in ITRS-2003 Road map given in Figure 2.23.</para>
+      <figure id="import-auto-id1165512531836">
+        <media id="import-auto-id1165511382858" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-f85d.png" height="402" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165512168884">According to ITRS 2003, by 2014 L<sub>Gate</sub>= 35nm, V<sub>DD</sub> = 0.4V and clock frequency = 30GHz.</para>
+      <para id="import-auto-id1165512153900">Shrinking geometries, low power voltages and high frequency have a negative impact on</para>
+      <para id="import-auto-id1165503218671">reliability. These enhanced features have increased the failure rates.</para>
+      <para id="import-auto-id1165511102920">
+        <emphasis effect="bold">2.1.3.3.1. New and innovative methods to meet the challenges of nano miniaturization.</emphasis>
+      </para>
+      <para id="import-auto-id1165511332013">Multiple core with threading has been one innovation for solving the thermal management at nano level.</para>
+      <para id="import-auto-id1165511312722">Copper interconnect provides higher electromagnetic threshold than Aluminum. So Industry is adopting  Cu interconnects.</para>
+      <para id="import-auto-id1165518385981">Fault avoidance and fault tolerance are the possible ways of improved reliability.</para>
+      <para id="import-auto-id1165511530788">Fault avoidance relies on improved materials, improved manufacturing processes and improved circuit design. Cu interconnects is an example of improved materials.</para>
+      <para id="import-auto-id1165511550597">SOI (Silicon-on-Insulator) is the process solution for lower circuit sensitivity to particle induced transients. Fault tolerance is implemented at circuit and system level. It relies on error detection and error correction code.</para>
+      <list id="import-auto-id1165512322378" list-type="enumerated" number-style="arabic"><item>
+          <emphasis effect="bold">Future Generation Integrated Circuits.</emphasis>
+        </item>
+      </list><para id="import-auto-id1165503163308">Human appetite for computation has grown faster than the processors power of real life computers. We need more powerful processors just to keep up with modern applications like interactive multi-media, mobile computing and wireless communication. In addition battery power is at premium in mobile computing environment hence power aware components/systems are indispensible.</para>
+      <para id="import-auto-id1165511337469">Low power design can be achieved at different level of the system- basic process/device level (threshold reduction, multi-threshold deices), at circuit level (transistor sizing, logic optimization, activity driven power down, low swing logic, adiabatic switching), at architecture level (voltage scaling, parallelism,, instruction set , signal correlation) at algorithm level( complexity, concurrency, locality, regularity, data representation) and at system level.(design partitioning and power down).</para>
+      <para id="import-auto-id1165512099809">We have to simultaneously look at performance-power-cost product . This will lead to new computer architecture.</para>
+      <para id="import-auto-id1165511559054">As we scale down the dimensions for each new generation technology, new areas of applications are emerging. </para>
+      <para id="import-auto-id1165509887728">To continue its historical growth and continue to follow Moore’s Law, the Semiconductor Industry will require advances at all fronts- from front end processors and lithography to design innovations, high performance process architecture and SOC solutions.</para>
+      <para id="import-auto-id1165508802461">Further down the scaling strategy we are bound to hit a road block.</para>
+      <para id="import-auto-id1165505534906">The recent development in the field of Graphene Transistors show that these could be a promising candidate  for taking over the mantle for continued scaling down according to Moore’s Law.[Kreupl, Franz “ Carbon nano-tubes finally deliver”, <emphasis effect="italics">Nature,</emphasis>.<emphasis effect="bold">484</emphasis>, 321-322, 19<sup>th</sup>  April 2012; Franklin, Aaron D.;Luisier, Mathieu; Han, Shu-Jen;et.al. “Sub-10nm Carbon Nano tube Transistors”, <emphasis effect="italics">Nano Letters Nature, </emphasis><emphasis effect="bold">12, </emphasis>758-762 (2012) ].</para>
+      <para id="import-auto-id1165512540538">The present Graphene Transistor using single walled Carbon nano-tube(SWCNT) of 9nm at a supply voltage of 0.4V switches from ‘0’ to ‘1’. The current ratio of ON to OFF is 10,000 times which is excellent for LOGIC applications.. This operates at low voltage hence it mitigates the demand in energy. The only difficulty is in fabricating these devices because of non-availability of SWCNT of one flavor.</para>
+      <para id="import-auto-id1165511324325">In contrast according to IRTS 2011[ITRS2011 Edition , Front End Processors, Go.nature.com/qykuh1(2011)], a similar sized Si MOSFET of 9nm gate length and operating at 0.64V will arrive in the market in 2022 and we cannot anticipate the cost.</para>
+      <para id="import-auto-id1165512151902">So it is ripe time that we explore for alternatives if the present rate of miniaturization and development has to be maintained. The Future Generation  Integrated Circuits is discussed in Chapter 8 of this Collectrion.</para>
+    </section>
+  </content>
+</document>

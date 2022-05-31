@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Device Simulation2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37281</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Device Simulation2</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Device Simulation 2 deal with the program for BJT simulation and generation of Ic-Vce family of curves. It gives the programming description of the structure and doping of Vertical NPN transistor.</md:abstract>
+  <md:uuid>a5b776cd-8965-4f45-8c92-b0d64cf17f97</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172208211133">SSPD_Chapter 6_Part 7_ Device Simulation2_to be continued</para>
+    <para id="id1172221782896">
+      <emphasis effect="bold">7.4. Structure and Electrical Characterization of NPN Transistor.</emphasis>
+    </para>
+    <para id="id1172213028418">The input file contains a sequence of statements. Each statement consists of a keyword that identifies the statement and a set of parameters. The general format is:</para>
+    <para id="id1172214283777">&lt;STATEMENT&gt; &lt;PARAMETER&gt;=&lt;VALUE&gt;</para>
+    <para id="id1172229145350">With a few exceptions the input syntax is not case sensitive. One important exception is that commands described in this manual as being executed by DECKBUILD rather than ATLAS are case sensitive. These include: EXTRACT, SET, GO, and SYSTEM. Also, filenames for input and output under UNIX are case sensitive.</para>
+    <para id="id1172211745181">For any &lt;STATEMENT&gt;, ATLAS may have our different types for the &lt;VALUE&gt; parameter. These are: Real, Integer, Character, and Logical.</para>
+    <para id="id1172209264952">An example of a statement line is:</para>
+    <para id="id1172209227271">DOPING UNIFORM N.TYPE CONCENTRATION=1.0e16 REGION=1 OUTFILE=my.dop</para>
+    <para id="id1172208338423">The statement is DOPING. All other items are parameters of the DOPING statement. UNIFORM and N.TYPE are logical parameters. Their presence on the line sets their values to true, otherwise they take their default values (usually false). CONCENTRATION is a Real parameter and takes floating point numbers as input values. REGION is an Integer parameter taking only integer numbers as input. OUTFILE is a Character parameter type taking strings as input.</para>
+    <para id="id1172210378975">The statement keyword must come first but after this, the order of parameters within a statement is not important.</para>
+    <para id="id1172224493393">You only need to use enough letters of any parameter to distinguish it from any other parameter on the same statement. Thus, CONCENTRATION can be shortened to CONC. REGION, but can’t be shortened to R, since there’s a parameter called RATIO associated with the DOPING statement.</para>
+    <para id="id1172209342591">Logical parameters can be explicitly set to false by preceding them with the ^ symbol. Any line beginning with a # is ignored. These lines are used as comments.</para>
+    <para id="id1172219093498">ATLAS can read up to 256 characters on one line. But it is best to spread long input statements over several lines to make the input file more readable. The \ character at the end of a line indicates continuation.</para>
+    <para id="id1172212627043"/>
+    <para id="id1172224822858">
+      <emphasis effect="bold">7.4.1: The Order of ATLAS Commands</emphasis>
+    </para>
+    <para id="id1172227431782">The order in which statements occur in an ATLAS input file is important. There are five groups of statements that must occur in the correct order (see Table 7.2). Failure to do so usually causes an error message to appear, which could lead to incorrect operation or termination of the program. For example, if the material parameters or models are set in the wrong order, then they may not be used in the calculations.</para>
+    <para id="id1172217013338">The order of statements within the mesh definition, structural definition, and solution groups is also important. Failure to place these statements in proper order may also cause incorrect operation or termination of the program.</para>
+    <para id="id1172236493221">Table 7.2. ATLAS Command Group with Primary Statements in each Group.</para>
+    <table id="id1172234127580" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>No.</entry>
+            <entry>Group</entry>
+            <entry>Statements</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>Structure Specification</entry>
+            <entry>MESH, REGION, ELECTRODE, DOPING</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Material Models Specification</entry>
+            <entry>MATERIAL MODEL CONTACT INTERFACE</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Numerical Method Selection</entry>
+            <entry>METHOD</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Solution Specification</entry>
+            <entry>LOG SOLVE LOAD SAVE</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Result Analysis</entry>
+            <entry>EXTRACT TONY PLOT</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172212633933">
+      <emphasis effect="bold">7.4.2.: Interface FromDevEdit</emphasis>
+    </para>
+    <para id="id1172207443674">A 2D or 3D structure created by DEVEDIT (device edit) can be read into ATLAS using the following statement.</para>
+    <para id="id1172219053888">MESH INF=&lt;structure filename&gt;</para>
+    <para id="id1172208157721">This statement loads in the mesh, geometry, electrode positions, and doping of the structure. ATLAS will automatically determine whether the mesh is 2D for S-PISCES or BLAZE, or 3D for DEVICE3D or BLAZE3D.</para>
+    <para id="id1172234606914">If the structure coming from DEVEDIT were originally created by ATHENA, the electrodes should be defined in ATHENA as described in the previous section. If the structure is created in DEVEDIT, the electrode regions should be defined in the Region/Add menu of DEVEDIT.</para>
+    <para id="id1172210079888"><emphasis effect="bold">7.4.3.</emphasis>: <emphasis effect="bold">Using The Command Language To Define A Structure</emphasis></para>
+    <para id="id1172221938981"> To define a device through the ATLAS command language, you must first define a mesh. This mesh or grid covers the physical simulation domain. The mesh is defined by a series of horizontal and vertical lines and the spacing between them. Then, regions within this mesh are allocated to different materials as required to construct the device. For example, the specification of a MOS device requires the specification of silicon and silicon dioxide regions. After the regions are defined, the location of electrodes is specified. The final step is to specify the doping in each region.</para>
+    <para id="id1172206908690">When using the command language to define a structure, the information described in the following four sub-sections must be specified in the order listed.</para>
+    <para id="id1172210881947">Specifying the Initial Mesh</para>
+    <para id="id1172208057708">The first statement must be:</para>
+    <para id="id1172227448489">MESH SPACE.MULT = &lt;VALUE&gt;</para>
+    <para id="id1172209551592">This is followed by a series of X.MESH and Y.MESH statements.</para>
+    <para id="id1172216788030">X.MESH LOCATION = &lt;VALUE&gt; SPACING = &lt;VALUE&gt;</para>
+    <para id="id1172237455511">.</para>
+    <para id="id1172213350593">Y.MESH LOCATION = &lt;VALUE&gt; SPACING = &lt;VALUE&gt;</para>
+    <para id="id1172208248528">.</para>
+    <para id="id1172214327656">The SPACE.MULT parameter value is used as a scaling factor for the mesh created by the X.MESH and Y.MESH statements. The default value is 1. Values greater than 1 will create a globally coarser mesh for fast simulation. Values less than 1 will create a globally finer mesh for increased accuracy. The X.MESH and Y.MESH statements are used to specify the locations in microns of vertical and horizontal lines, respectively, together with the vertical or horizontal spacing associated with that line. At least two mesh lines must be specified for each direction. ATLAS automatically inserts any new lines required to allow for gradual transitions in the spacing values between any adjacent lines. The X.MESH and Y.MESH statements must be listed in the order of increasing x and y. Both negative and positive values of x and y are allowed.</para>
+    <para id="id1172206708808"> After an initial mesh has been defined, you can remove grid lines in specified regions. This is typically done in regions of the device where a coarse grid is expected to be sufficient such as the substrate. The removal of grid lines is accomplished using the ELIMINATE statement. The ELIMINATE statement removes every second mesh line in the specified direction from within a specified rectangle. For example, the statement:</para>
+    <para id="id1172207872270">ELIMINATE COLUMNS X.MIN=0 X.MAX=4 Y.MIN=0.0 Y.MAX=3</para>
+    <para id="id1172209378454">removes every second vertical grid line within the rectangle bounded by x=0, x=4, y=0 and y=3 microns.</para>
+    <para id="id5951634">7.4.4. Specifying Regions and Materials</para>
+    <para id="id7178920">Once the mesh is specified, every part of it must be assigned a material type. This is done with REGION statements. For example:</para>
+    <para id="id1172209368678">REGION number = &lt;integer&gt; &lt;material_type&gt; &lt;position parameters&gt;</para>
+    <para id="id1172208856033">Region numbers must start at 1 and are increased for each subsequent region statement. You can have up to 200 different regions in ATLAS. A large number of materials is available. If a composition- dependent material type is defined, the x and y composition fractions can also be specified in the REGION statement.</para>
+    <para id="id1172208391599">The position parameters are specified in microns using the X.MIN, X.MAX, Y.MIN, and Y.MAX parameters. If the position parameters of a new statement overlap those of a previous REGION statement, the overlapped area is assigned as the material type of the new region. Make sure that materials are assigned to all mesh points in the structure. If this isn’t done, error messages will appear and ATLAS won’t run successfully.</para>
+    <para id="id1172218127989">You can use the MATERIAL statement to specify the material properties of the defined regions. But you must complete the entire mesh and doping definition before any MATERIAL statements can be used. </para>
+    <para id="id1172207256990">
+      <emphasis effect="bold">7.4.5. Specifying Electrodes</emphasis>
+    </para>
+    <para id="id1172208899122">Once you have specified the regions and materials, define at least one electrode that contacts a semiconductor material. This is done with the ELECTRODE statement. For example:</para>
+    <para id="id1172221672104">ELECTRODE NAME=&lt;electrode name&gt; &lt;position_ parameters&gt;</para>
+    <para id="id1172207982624">You can specify up to 50 electrodes. The position parameters are specified in microns using the X.MIN, X.MAX, Y.MIN, and Y.MAX parameters. Multiple electrode statements may have the same electrode name. Nodes that are associated with the same electrode name are treated as being electrically connected.</para>
+    <para id="id8694603">Some shortcuts can be used when defining the location of an electrode. If no y coordinate parameters are specified, the electrode is assumed to be located on the top of the structure. You also can use the RIGHT, LEFT, TOP, and BOTTOM parameters to define the location. For example:</para>
+    <para id="id1172209965839">ELECTRODE NAME=SOURCE LEFT LENGTH=0.5</para>
+    <para id="id1172209507806">specifies the source electrode starts at the top left corner of the structure and extends to the right for the distance LENGTH.</para>
+    <para id="id1172210222287">
+      <emphasis effect="bold">7.4.6. Specifying Doping</emphasis>
+    </para>
+    <para id="id1172224029750">You can specify analytical doping distributions, or have ATLAS read in profiles that come from either process simulation or experiment. You specify the doping using the DOPING statement. For example:</para>
+    <para id="id1632000">DOPING &lt;distribution_type&gt; &lt;dopant_type&gt; &lt;position_parameters&gt;</para>
+    <para id="id1172209647800">Analytical Doping Profiles</para>
+    <para id="id1172211761943">Analytical doping profiles can have uniform or Gaussian forms. The parameters defining the analytical distribution are specified in the DOPING statement. Two examples are shown below with their combined effect shown in Figure 7.5.</para>
+    <para id="id1172206633271">DOPING UNIFORM CONCENTRATION=1E16 N.TYPE REGION=1</para>
+    <para id="id7540281">DOPING GAUSSIAN CONCENTRATION=1E18 CHARACTERISTIC=0.05 P.TYPE \ X.LEFT=0.0 X.RIGHT=1.0 PEAK=0.1</para>
+    <para id="id1172220565781">The first DOPING statement specifies a uniform n-type doping density of 10E16 cm-3 in the region that was previously labelled as region #1. The position parameters: X.MIN, X.MAX, Y.MIN, and Y.MAX can be used instead of a region number.</para>
+    <para id="id1172206980531"/>
+    <para id="id1172229058192">The second DOPING statement specifies a p-type Gaussian profile with a peak concentration of 10E18 cm-3. This statement specifies that the peak doping is located along a line from x = 0 to x = 1 microns. Perpendicular to the peak line, the doping drops off according to a Gaussian distribution with a standard deviation of 0.05 mm. At x &lt; 0 or x &gt; 1, the doping drops off laterally with a default standard deviation that is 70% of CHARACTERISTIC. This lateral roll-off can be altered with the RATIO.LATERAL parameter. If a Gaussian profile is being added to an area that was already defined with the opposite dopant type, you can use the JUNCTION parameter to specify the position of the junction depth instead of specifying the standard deviation using the CHARACTERISTIC parameter.</para>
+    <figure id="id1172209293562">
+      <media id="id1172209293562_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 120.png" id="id1172209293562__onlineimage" height="73" width="527"/>
+      </media>
+    </figure>
+    <para id="id1172211762578">
+      <figure id="id1172225026639">
+        <media id="id1172225026639_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 121.png" id="id1172225026639__onlineimage" height="509" width="621"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172207318546">Figure 7.5. Parameters of the doping statement for Gaussian Doping Profiles.</para>
+    <para id="id1172207261606">
+      <emphasis effect="bold">7.4.7. Specifying Physical Models</emphasis>
+    </para>
+    <para id="id1172208026134"> Physical models are specified using the MODELS and IMPACT statements. Parameters for these models appear on many statements including: MODELS, IMPACT, MOBILITY, and MATERIAL. The physical models can be grouped into five classes: mobility, recombination, carrier statistics, impact ionization, and tunneling. Chapter 3: “Physics”, Section 3.6: “Physical Models” contains details for each model.</para>
+    <para id="id4153071"/>
+    <para id="id1172206921826">All models with the exception of impact ionization are specified on the MODELS statement. Impact ionization is specified on the IMPACT statement. For example, the statement:</para>
+    <para id="id1172219339735">MODELS CONMOB FLDMOB SRH FERMIDIRAC </para>
+    <para id="id1172213982796">IMPACT SELB</para>
+    <para id="id1172213237285">specifies that the standard concentration dependent mobility, parallel field mobility, Shockley-Read- Hall recombination with fixed carrier lifetimes, Fermi Dirac statistics and Selberherr impact ionization models should be used.</para>
+    <para id="id1172211925221"/>
+    <para id="id1172226340659"> ATLAS also provides an easy method for selecting the correct models for various technologies. The MOS, BIP, PROGRAM, and ERASE parameters for the MODELS statement configure a basic set of mobility, recombination, carrier statistics, and tunneling models. The MOS and BIP parameters enable the models for MOSFET and bipolar devices, while PROGRAM and ERASE enable the models for programming and erasing programmable devices. For example, the statement:</para>
+    <para id="id1172237568964">MODELS MOS PRINT</para>
+    <para id="id1172207187169">enables the CVT, SRH, and FERMIDIRAC models, while the statement:</para>
+    <para id="id1172209756217">MODELS BIPOLAR PRINT</para>
+    <para id="id1172238375470">enables the CONMOB, FLDMOB, CONSRH, AUGER, and BGN.</para>
+    <para id="id1172206633225">Note: The PRINT parameter lists to the run time output the models and parameters, which will be used during the simulation. This allows you to verify models and material parameters. We highly recommend that you include the PRINT parameter in the MODEL statement.</para>
+  </content>
+</document>

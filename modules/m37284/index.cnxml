@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 7_Device Simlation 3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37284</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 7_Device Simlation 3</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 7_Device Simulation 3 gives the simulation of Breakover phenomena in a Common Emitter BJT and its relationship to the fabrication parameter</md:abstract>
+  <md:uuid>fae16c27-3efe-479f-9724-7d432661ccef</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166916495864">SSPD_Chapter 7_Device Simulation 3.</para>
+    <para id="id1166908257889">
+      <emphasis effect="bold">7.6. Simulation of BV</emphasis>
+      <emphasis effect="bold">CEO</emphasis>
+      <emphasis effect="bold"> in BJT and determining the process parameters which control this device d.c. parameter namely Break-over Voltage or Sustaining Voltage.</emphasis>
+    </para>
+    <para id="id1166907759023">go atlas</para>
+    <para id="id1166915020858">TITLE Bipolar BVCEO simulation</para>
+    <para id="id1166904459662"># Silvaco International 1994</para>
+    <para id="id1166913137130">mesh</para>
+    <para id="id1166897489459">x.m l=0 spac=0.1</para>
+    <para id="id1166917992905">x.m l=2 spac=0.1</para>
+    <para id="id1166896452736">y.m l=0 spac=0.002</para>
+    <para id="id1166907851696">y.m l=1 spac=0.10</para>
+    <para id="id1166904722950">region num=1 silicon</para>
+    <para id="id1166895951184">electrode num=1 name=emitter left length=0.8</para>
+    <para id="id8555593">electrode num=2 name=base right length=0.5 y.max=0</para>
+    <para id="id1166912202923">electrode num=3 name=collector bottom</para>
+    <para id="id1166898571632">doping reg=1 uniform n.type conc=5e15 </para>
+    <para id="id1166924248104">doping reg=1 gauss n.type conc=1e18 peak=1.0 char=0.2</para>
+    <para id="id1166896878477">doping reg=1 gauss p.type conc=1e18 peak=0.05 junct=0.15 </para>
+    <para id="id1166915277796">doping reg=1 gauss n.type conc=5e19 peak=0.0 junct=0.05 x.right=0.8</para>
+    <para id="id1166901235269">doping reg=1 gauss p.type conc=5e19 peak=0.0 char=0.08 x.left=1.5</para>
+    <para id="id1166900399812">save outf=bjtex05_0.str</para>
+    <para id="id1166896321166">tonyplot bjtex05_0.str -set bjtex05_0.set</para>
+    <para id="id1166910925690"># set poly emitter</para>
+    <para id="id1166909958386">contact name=emitter n.poly surf.rec</para>
+    <para id="id1166901404400">material taun0=5e-6 taup0=5e-6</para>
+    <para id="id1166915223271"># set models </para>
+    <para id="id1166897370619">models bipolar print </para>
+    <para id="id1166916113039">impact selb</para>
+    <para id="id1166905640495">solve init</para>
+    <para id="id1166905561884">method newton trap </para>
+    <para id="id3846994">solve prev</para>
+    <para id="id1166927388920">solve vbase=0.025</para>
+    <para id="id1166900311019">solve vbase=0.05</para>
+    <para id="id1166926923966">solve vbase=0.2</para>
+    <para id="id1166923620696">contact name=base current</para>
+    <para id="id1700765">method newton trap ir.tol=1.e-20 ix.tol=1.e-20</para>
+    <para id="id1166903566483">solve ibase=3.e-15</para>
+    <para id="id1166922749098">log outf=bjtex05.log master</para>
+    <para id="id1166900209838"># ramp collector voltage</para>
+    <para id="id1166917386798">solve vcollector=0.25</para>
+    <para id="id1166911922726">solve vcollector=0.5</para>
+    <para id="id1166897464714">solve vcollector=1</para>
+    <para id="id1166917853566">solve vcollector=3</para>
+    <para id="id1166904706564">solve vcollector=5</para>
+    <para id="id1166919234363">solve vstep=0.5 vfinal=10 name=collector compl=5.e-11 e.comp=3</para>
+    <para id="id1166924695985"># plot results</para>
+    <para id="id1551897">tonyplot bjtex05.log -set bjtex05_log.set</para>
+    <para id="id1166919411796">quit</para>
+    <figure id="id1166917717980">
+      <media id="id1166917717980_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-173d.png" id="id1166917717980__onlineimage" height="490" width="628"/>
+      </media>
+    </figure>
+    <para id="id1166929133528">Figure 7.12. The cross sectional view of the BJT being simulated.</para>
+    <para id="id1166897539412">The Tony Plot of the output curve for zero base current is shown in Figure 7.13. A real BJT under similar condition shows a ‘S’ type Negative Impedance Region(NIR) which is not being shown in the Tony Plot. BV<sub>CEO</sub> is shown to be around 8V.</para>
+    <para id="id7784270">
+      <figure id="id1166896908521">
+        <media id="id1166896908521_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-2a0a.png" id="id1166896908521__onlineimage" height="480" width="625"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2232990">Figure 7.13. The output curve for base current zero.</para>
+    <para id="id1166927138170">
+      <emphasis effect="bold">7.6.1 Dependence of BV</emphasis>
+      <emphasis effect="bold">CEO</emphasis>
+      <emphasis effect="bold"> on Base Width and Collector Base Doping.</emphasis>
+    </para>
+    <para id="id1166922568519">As shown in Analog Electronics Lecture Notes,</para>
+    <para id="id1166901464411"><figure id="id1166903040339"><media id="id1166903040339_media" alt=""><image mime-type="image/png" src="../../media/graphics1-3808.png" id="id1166903040339__onlineimage" height="35" width="106"/></media></figure>           7.3</para>
+    <para id="id1166899479653">As shown in SSPD notes for 2-sided step junction:</para>
+    <para id="id1166915978220"><figure id="id1166917506398"><media id="id1166917506398_media" alt=""><image mime-type="image/png" src="../../media/graphics2-58f0.png" id="id1166917506398__onlineimage" height="38" width="175"/></media></figure>         7.4</para>
+    <para id="id1166916637365">Where E<sub>critical</sub> = 3×10<sup>5</sup>V/cm for Silicon.</para>
+    <para id="id1166908571125">A shown in Analog Electronics Lecture Notes,</para>
+    <para id="id1166926818282"><figure id="id1166899083574"><media id="id1166899083574_media" alt=""><image mime-type="image/png" src="../../media/graphics3-d298.png" id="id1166899083574__onlineimage" height="34" width="272"/></media></figure>       7.5</para>
+    <para id="id1166901154006">In Analog Electronics we have seen that transit time through the base:</para>
+    <para id="id1166896208216"><figure id="id1166909930435"><media id="id1166909930435_media" alt=""><image mime-type="image/png" src="../../media/graphics4-74b2.png" id="id1166909930435__onlineimage" height="36" width="95"/></media></figure>           7.6</para>
+    <para id="id1166904456507">Substituting Eq.7.6 in Eq.7.5 we get:</para>
+    <para id="id1166915220588"><figure id="id1166915488153"><media id="id1166915488153_media" alt=""><image mime-type="image/png" src="../../media/graphics5-0dad.png" id="id1166915488153__onlineimage" height="31" width="91"/></media></figure>           7.7</para>
+    <para id="id7593479">From Eq 7.3 it is clear the BV<sub>CEO</sub> ( the sustaining voltage of CE BJT) can be improved by increasing the Avalanche Breakdown Voltage of CB Junction and by decreasing short circuit current gain β<sub>fo</sub> .</para>
+    <para id="id1166908205460">From Eq. 7.4, it is evident that breakdown can be increased by making CB junction lighter doped. From Eq.7.7, it is evident that short circuit current gain can be reduced by increasing base width (W).</para>
+    <para id="id1166920340108">
+      <emphasis effect="bold">7.6.2. Increase in Sustaining Voltage through making CB junction lighter doped.</emphasis>
+    </para>
+    <para id="id1166927246289">CB junction is not a double –sided step junction instead it is linarly graded junction where the following formula is applicable :</para>
+    <para id="id1166898521355"><figure id="id1166917919011"><media id="id1166917919011_media" alt=""><image mime-type="image/png" src="../../media/graphics6-54ad.png" id="id1166917919011__onlineimage" height="34" width="153"/></media></figure>         7.8</para>
+    <para id="id1166913010208">By equating E<sub>max</sub> = E<sub>critical</sub> we obtain the CB breakdown voltage as:</para>
+    <para id="id1166922777630"><figure id="id1166904762041"><media id="id1166904762041_media" alt=""><image mime-type="image/png" src="../../media/graphics7-6714.png" id="id1166904762041__onlineimage" height="33" width="184"/></media></figure>         7.9</para>
+    <para id="id1166899474897">Here breakdown is critically dependent on ‘a’ = impurity gradient (1/cm<sup>4</sup>). Therefore lowering of dopent concentration per se will not increase the sustaining voltage. We have to see how the change of dopent concentration effects the impurity gradient. Therefore lowering the dopent concentration is not tried out.</para>
+    <para id="id1166902239529"/>
+    <para id="id1166910001464">7.6.3. Increase in sustaining voltage by increasing the Base Width (W).</para>
+    <figure id="id1166901320592">
+      <media id="id1166901320592_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-057f.png" id="id1166901320592__onlineimage" height="493" width="626"/>
+      </media>
+    </figure>
+    <para id="id1166903570155">Figure 7.14. The Output Curve of BJT with Base Current zero and with Base Width increased.</para>
+    <para id="id1166915022979">In this case Base Width is increased from 1 micron to 1.2 micron by shifting BC Junction to 0.16micron and decreasing EB Junction to 0.04 micron. This has very clearly increased the sustaining voltage from 8V to 10V.</para>
+    <para id="id1166899379761">go atlas</para>
+    <para id="id1166914966455">TITLE Bipolar BVCEO simulation</para>
+    <para id="id1166917088528"># Silvaco International 1994</para>
+    <para id="id1166922198631">mesh</para>
+    <para id="id1166897184626">x.m l=0 spac=0.1</para>
+    <para id="id1166927406111">x.m l=2 spac=0.1</para>
+    <para id="id1166901137426">y.m l=0 spac=0.002</para>
+    <para id="id1166896914865">y.m l=1 spac=0.10</para>
+    <para id="id1166901145185">region num=1 silicon</para>
+    <para id="id1166901208574">electrode num=1 name=emitter left length=0.8</para>
+    <para id="id1166909836876">electrode num=2 name=base right length=0.5 y.max=0</para>
+    <para id="id1166915173825">electrode num=3 name=collector bottom</para>
+    <para id="id1166901232828">doping reg=1 uniform n.type conc=5e15 </para>
+    <para id="id1166903834116">doping reg=1 gauss n.type conc=1e18 peak=1.0 char=0.2</para>
+    <para id="id1166907720094">doping reg=1 gauss p.type conc=1e18 peak=0.05 junct=0.16 </para>
+    <para id="id3725569">doping reg=1 gauss n.type conc=5e19 peak=0.0 junct=0.04 x.right=0.8</para>
+    <para id="id1166901339285">doping reg=1 gauss p.type conc=5e19 peak=0.0 char=0.08 x.left=1.5</para>
+    <para id="id1166903581648">save outf=bjtex05_0.str</para>
+    <para id="id1166899500470">tonyplot bjtex05_0.str -set bjtex05_0.set</para>
+    <para id="id1166901354700"># set poly emitter</para>
+    <para id="id1166912745742">contact name=emitter n.poly surf.rec</para>
+    <para id="id1166910155680">material taun0=5e-6 taup0=5e-6</para>
+    <para id="id1166901168445"># set models </para>
+    <para id="id1166901584401">models bipolar print </para>
+    <para id="id1166901279245">impact selb</para>
+    <para id="id1166920067889">solve init</para>
+    <para id="id1166910060315">method newton trap </para>
+    <para id="id1166918995748">solve prev</para>
+    <para id="id1166912138666">solve vbase=0.025</para>
+    <para id="id1166910175213">solve vbase=0.05</para>
+    <para id="id1166903903207">solve vbase=0.2</para>
+    <para id="id1166903095534">contact name=base current</para>
+    <para id="id1166917298722">method newton trap ir.tol=1.e-20 ix.tol=1.e-20</para>
+    <para id="id1166911737086">solve ibase=3.e-15</para>
+    <para id="id1166904680285">log outf=bjtex05.log master</para>
+    <para id="id1166915158877"># ramp collector voltage</para>
+    <para id="id1166915208272">solve vcollector=0.25</para>
+    <para id="id8373954">solve vcollector=0.5</para>
+    <para id="id1166901154638">solve vcollector=1</para>
+    <para id="id1166919504690">solve vcollector=3</para>
+    <para id="id1166906958317">solve vcollector=5</para>
+    <para id="id1166907674622">solve vstep=0.5 vfinal=10 name=collector compl=5.e-11 e.comp=3</para>
+    <para id="id1166897574657"># plot results</para>
+    <para id="id1166902815827">tonyplot bjtex05.log -set bjtex05_log.set</para>
+    <para id="id1166897199388">quit</para>
+  </content>
+</document>

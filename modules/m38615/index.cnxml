@@ -1,0 +1,136 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 3</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38615</md:content-id>
+  <md:title>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 3</md:title>
+  <md:abstract>SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 3 calculates the rise time and the fall timne and proves that for symmetric switching PMOS width must be 2.5 times wider than NMOS width.</md:abstract>
+  <md:uuid>e9988462-2e11-4d3e-8580-59698fa6b742</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166398622980">SSPD_Chapter 7_Part 6_Basic Circuit Concepts_continued 3</para>
+    <para id="id1166397301471">7.6.4. Formal Estimation of CMOS Inverter delay.</para>
+    <para id="id1166393775462">In Figure 7.6.4.1 we show a CMOS Inverter being driven by square wave and loaded with input capacitance of the subsequent stage. We model the CMOS Inverter during switching transients by constant current source driving the load capacitance. </para>
+    <figure id="id1166400832169">
+      <media id="id1166400832169_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-cc9f.png" id="id1166400832169__onlineimage" height="663" width="502"/>
+      </media>
+    </figure>
+    <para id="id4424387">The switching transient is shown in Figure 7.6.4.2.</para>
+    <para id="id1166403432438">
+      <figure id="id1166391675733">
+        <media id="id1166391675733_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-4d39.png" id="id1166391675733__onlineimage" height="535" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166397281157"> As can be seen in Figure 7.6.4.2, during HIGH to LOW switching NMOS (Q<sub>n</sub>) provides the low impedance path to ground and hence sinks the discharge current. Hence saturation current of NMOS provides the I<sub>D</sub> .</para>
+    <para id="id7228663"> Similarly during LOW to HIGH switching PMOS (Q<sub>p</sub>) provides the low impedance path from V<sub>DD</sub> bus to the load capacitance and hence sources the charging current. Hence saturation current of PMOS provides the I<sub>C </sub>.</para>
+    <para id="id1166402781968">Referring to the circuit model in Figure 7.6.4.1 we see that:</para>
+    <para id="id1166393634494">Rate of change of capacitance voltage = Constant Current/C</para>
+    <para id="id8548043">Therefore:</para>
+    <figure id="id1166392129364">
+      <media id="id1166392129364_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-1240.png" id="id1166392129364__onlineimage" height="55" width="326"/>
+      </media>
+    </figure>
+    <para id="id1166397794603">Therefore:</para>
+    <para id="id1166397059145">
+      <figure id="id1166397639188">
+        <media id="id1166397639188_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-5d96.png" id="id1166397639188__onlineimage" height="54" width="292"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166398829918">Therefore:</para>
+    <figure id="id1166398520070">
+      <media id="id1166398520070_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-3c53.png" id="id1166398520070__onlineimage" height="58" width="306"/>
+      </media>
+    </figure>
+    <para id="id7302898">During output HIGH to LOW transient: NMOS (Q<sub>n</sub>) is sinking the current from the load capacitance hence constant current source is a discharge current I<sub>D</sub> coming as the saturation current of NMOS where </para>
+    <figure id="id1166401738841">
+      <media id="id1166401738841_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-ad47.png" id="id1166401738841__onlineimage" height="77" width="599"/>
+      </media>
+    </figure>
+    <para id="id1166393786069">During output LOW to HIGH transient:PMOS(Q<sub>p</sub>) is sourcing the current to the load capacitance hence constant current source is a charging current I<sub>C</sub> coming as the saturation current of PMOS where </para>
+    <figure id="id1166391988209">
+      <media id="id1166391988209_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-cfdb.png" id="id1166391988209__onlineimage" height="80" width="598"/>
+      </media>
+    </figure>
+    <para id="id1166407305059">But ∆V<sub>C</sub> = V<sub>DD</sub> , V<sub>GS</sub> = V<sub>DD</sub> and V<sub>T</sub> = 0.2 V<sub>DD</sub> therefore</para>
+    <figure id="id1897455">
+      <media id="id1897455_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-91e8.png" id="id1897455__onlineimage" height="59" width="567"/>
+      </media>
+    </figure>
+    <para id="id8559280">Substituting Eq.7.6.4.6 in Eq 7.6.4.4 and Eq.7.6.4.5 we get:</para>
+    <figure id="id1166393663020">
+      <media id="id1166393663020_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-926e.png" id="id1166393663020__onlineimage" height="77" width="528"/>
+      </media>
+    </figure>
+    <figure id="id1166401368539">
+      <media id="id1166401368539_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-9c45.png" id="id1166401368539__onlineimage" height="80" width="528"/>
+      </media>
+    </figure>
+    <para id="id5192734">Dividing Eq 7.6.4.8 by Eq.7.6.4.7 we get:</para>
+    <para id="id1166398871559">
+      <figure id="id1166397583642">
+        <media id="id1166397583642_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-6802.png" id="id1166397583642__onlineimage" height="63" width="390"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166395155947">From Basic Electrical Properties we know that </para>
+    <figure id="id1166397381829">
+      <media id="id1166397381829_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-6be7.png" id="id1166397381829__onlineimage" height="93" width="542"/>
+      </media>
+    </figure>
+    <para id="id7253865">From Device Physics we know that </para>
+    <figure id="id1166397058458">
+      <media id="id1166397058458_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-7f05.png" id="id1166397058458__onlineimage" height="57" width="353"/>
+      </media>
+    </figure>
+    <para id="id1166393275608">We also know from section 7.3.12 titled ‘optimization of geometric parameters to achieve the beswt CMOS performance’ that :</para>
+    <figure id="id1166397412434">
+      <media id="id1166397412434_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-7501.png" id="id1166397412434__onlineimage" height="64" width="457"/>
+      </media>
+    </figure>
+    <para id="id1166397789494">Substituting the two conditions stated by Eq.7.6.4.8 and Eq.7.6.4.9 in Eq 7.6.4.7 we get </para>
+    <figure id="id7027012">
+      <media id="id7027012_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-761b.png" id="id7027012__onlineimage" height="63" width="277"/>
+      </media>
+    </figure>
+    <para id="id1166397799006">Eq 7.6.4.10 implies that we will get symmetric switching transients as well as maximum Noise Margin if satisfy the condition stated in Eq 7.6.4.11 namely</para>
+    <figure id="id1166399884360">
+      <media id="id1166399884360_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-b76b.png" id="id1166399884360__onlineimage" height="33" width="306"/>
+      </media>
+    </figure>
+    <para id="id1166397757020">Hence CMOS layout will be as shown in Figure 7.6.4.3 for optimum performance in all sense of the word i.e in the sense of switching transient and in the sense of noise margin.</para>
+    <para id="id1166396738534">Two alternative layouts are shown in Figure 7.6.4.4.</para>
+    <para id="id1166407248197">In all the three figures, where metal has to connect to Poly-Si or to n-channel or to p-channel there a contact has to be made symbolized by black cross. </para>
+    <para id="id1166405282264">
+      <figure id="id2349122">
+        <media id="id2349122_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-4e77.png" id="id2349122__onlineimage" height="516" width="600"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id6543720">
+      <figure id="id1166401346935">
+        <media id="id1166401346935_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-1af4.png" id="id1166401346935__onlineimage" height="733" width="492"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

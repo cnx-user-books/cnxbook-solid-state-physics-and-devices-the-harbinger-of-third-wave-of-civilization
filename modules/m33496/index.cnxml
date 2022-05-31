@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 1_Part8_AppendixXXXIV_Travelling Waves</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33496</md:content-id>
+  <md:title>SSPD_Chapter 1_Part8_AppendixXXXIV_Travelling Waves</md:title>
+  <md:abstract>Appendix XXXIV refers to SSPD_Chapter_Part8 It gives a simple quantitative method of arriving at the solution of Wave Equations of Electro-Magnetic Field Theory. We have a similar methodology of arriving at the solution of Schrodinger Equation.</md:abstract>
+  <md:uuid>32a0ab0d-1f75-4159-8188-f69b8795aa52</md:uuid>
+</metadata>
+<content>
+    <para id="id16276106">Appendix XXXIV</para>
+    <para id="id15192992">Solving the wave equation for plane wave</para>
+    <para id="id7910185">Maxwell’s four differential equations are:</para>
+    <figure id="id15685223">
+      <media id="id15685223_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-66fd.png" id="id15685223__onlineimage" height="26" width="71"/>
+      </media>
+    </figure>
+    <figure id="id12646782">
+      <media id="id12646782_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-09c4.png" id="id12646782__onlineimage" height="26" width="69"/>
+      </media>
+    </figure>
+    <figure id="id8329211">
+      <media id="id8329211_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-f022.png" id="id8329211__onlineimage" height="48" width="116"/>
+      </media>
+    </figure>
+    <figure id="id17054862">
+      <media id="id17054862_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-aa0d.png" id="id17054862__onlineimage" height="48" width="138"/>
+      </media>
+    </figure>
+    <para id="id8625294">In free space propogation: 𝝆 ( charge density) =0 and <figure id="id7793960"><media id="id7793960_media" alt=""><image mime-type="image/png" src="../../media/graphics5-3374.png" id="id7793960__onlineimage" height="26" width="54"/></media></figure></para>
+    <para id="id13018824">Therefore the four differential equations become:</para>
+    <figure id="id14700794">
+      <media id="id14700794_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-d81d.png" id="id14700794__onlineimage" height="26" width="70"/>
+      </media>
+    </figure>
+    <figure id="id17955356">
+      <media id="id17955356_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-09c4.png" id="id17955356__onlineimage" height="26" width="69"/>
+      </media>
+    </figure>
+    <figure id="id17101454">
+      <media id="id17101454_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-f022.png" id="id17101454__onlineimage" height="48" width="116"/>
+      </media>
+    </figure>
+    <figure id="id20671113">
+      <media id="id20671113_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-0c1d.png" id="id20671113__onlineimage" height="48" width="100"/>
+      </media>
+    </figure>
+    <para id="id13122644">From these four equations we obtain:</para>
+    <figure id="id15445799">
+      <media id="id15445799_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-f104.png" id="id15445799__onlineimage" height="50" width="403"/>
+      </media>
+    </figure>
+    <figure id="id16577502">
+      <media id="id16577502_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-5e67.png" id="id16577502__onlineimage" height="50" width="411"/>
+      </media>
+    </figure>
+    <para id="id16578207"/>
+    <para id="id16232287">But in free space both divergences are zero therefore the above 2 equations become:</para>
+    <figure id="id20952787">
+      <media id="id20952787_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-e643.png" id="id20952787__onlineimage" height="50" width="120"/>
+      </media>
+    </figure>
+    <figure id="id20123055">
+      <media id="id20123055_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-47ae.png" id="id20123055__onlineimage" height="50" width="123"/>
+      </media>
+    </figure>
+    <para id="id15217845">In free space €=€<sub>0</sub> and μ= μ<sub>0</sub></para>
+    <para id="id9065440">That is free space permittivity = absolute permittivity .</para>
+    <para id="id16771822">And free space permeability = absolute permeability .</para>
+    <para id="id10294917">Also c ( velocity of light in free space ) = <figure id="id20696534"><media id="id20696534_media" alt=""><image mime-type="image/png" src="../../media/graphics14-e7b8.png" id="id20696534__onlineimage" height="41" width="43"/></media></figure></para>
+    <para id="id8863224">Therefore the above two equations become:</para>
+    <figure id="id5743434">
+      <media id="id5743434_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-cd99.png" id="id5743434__onlineimage" height="50" width="116"/>
+      </media>
+    </figure>
+    <figure id="id18411598">
+      <media id="id18411598_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-b5ab.png" id="id18411598__onlineimage" height="50" width="119"/>
+      </media>
+    </figure>
+    <para id="id19237511">We apply separation of variables to solve these two partial differential equations:</para>
+    <para id="id13735208">Assume E(r,t) = E1(r)E2(t)</para>
+    <para id="id14574413">  H(r,t) = H1(r)H2(t)</para>
+    <para id="id20674012">In general by assuming the time dependent portion to be of harmonic nature:</para>
+    <para id="id10479960">That is E2(t) = E20Exp(jωt) and H2(t) = H20Exp(jωt) </para>
+    <para id="id20483769">The partial derivative <figure id="id10827758"><media id="id10827758_media" alt=""><image mime-type="image/png" src="../../media/graphics17-12fe.png" id="id10827758__onlineimage" height="38" width="65"/></media></figure></para>
+    <para id="id17989883">Hence the two equations become:</para>
+    <para id="id17456003">
+      <figure id="id8778865">
+        <media id="id8778865_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-8f97.png" id="id8778865__onlineimage" height="50" width="134"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id19627728">
+      <media id="id19627728_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-2f36.png" id="id19627728__onlineimage" height="50" width="139"/>
+      </media>
+    </figure>
+    <para id="id19170596">Now the partial differential equations have reduced to ordinary linear differential equations known as wave equations of 2<sup>nd</sup> order and they can be solved applying operator theory. </para>
+    <para id="id13429321">We also assume that it is a plane wave travelling along z axis hence </para>
+    <figure id="id10313986">
+      <media id="id10313986_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-ffaf.png" id="id10313986__onlineimage" height="50" width="82"/>
+      </media>
+    </figure>
+    <para id="id17926700">Under such circumstances as we will see in Electro-Magnetic Field Theory, only x-component of E1 and y-component of H1 will remain. Hence</para>
+    <figure id="id16213609">
+      <media id="id16213609_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-e42c.png" id="id16213609__onlineimage" height="50" width="156"/>
+      </media>
+    </figure>
+    <figure id="id14870947">
+      <media id="id14870947_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-c60f.png" id="id14870947__onlineimage" height="50" width="160"/>
+      </media>
+    </figure>
+    <para id="id20704036">Applying Theory of Operator we get two roots in each case namely:</para>
+    <para id="id17773744">Two roots are =<figure id="id19277849"><media id="id19277849_media" alt=""><image mime-type="image/png" src="../../media/graphics23-96d2.png" id="id19277849__onlineimage" height="36" width="113"/></media></figure> = <figure id="id17686339"><media id="id17686339_media" alt=""><image mime-type="image/png" src="../../media/graphics24-c836.png" id="id17686339__onlineimage" height="36" width="43"/></media></figure> = <figure id="id8573505"><media id="id8573505_media" alt=""><image mime-type="image/png" src="../../media/graphics25-19f1.png" id="id8573505__onlineimage" height="26" width="186"/></media></figure></para>
+    <para id="id16040960">Hence <figure id="id3950861"><media id="id3950861_media" alt=""><image mime-type="image/png" src="../../media/graphics26-d100.png" id="id3950861__onlineimage" height="26" width="297"/></media></figure></para>
+    <figure id="id6387703">
+      <media id="id6387703_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-4359.png" id="id6387703__onlineimage" height="28" width="299"/>
+      </media>
+    </figure>
+    <para id="id15297363">So the complete solution for Electric Field is:</para>
+    <figure id="id10568031">
+      <media id="id10568031_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-3bce.png" id="id10568031__onlineimage" height="26" width="190"/>
+      </media>
+    </figure>
+    <figure id="id10209040">
+      <media id="id10209040_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-706c.png" id="id10209040__onlineimage" height="26" width="409"/>
+      </media>
+    </figure>
+    <para id="id12421687">
+      <figure id="id12136713">
+        <media id="id12136713_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics30-01ef.png" id="id12136713__onlineimage" height="26" width="411"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id19170651">1<sup>st</sup> Term is backward travelling wave and 2<sup>nd</sup> term is forward travelling wave.</para>
+  </content>
+</document>

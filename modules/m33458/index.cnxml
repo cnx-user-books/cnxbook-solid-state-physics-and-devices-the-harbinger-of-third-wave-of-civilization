@@ -1,0 +1,47 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD Chapter 1_Part 3_Theory of Dualism_Matter wave continued</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33458</md:content-id>
+  <md:title>SSPD Chapter 1_Part 3_Theory of Dualism_Matter wave continued</md:title>
+  <md:abstract>SSPD_Chapter 1_Part3 had described the hypothesis and corroboration of Matter Waves. Here we give the form of expression of matter wave and its physical interpretation.</md:abstract>
+  <md:uuid>e2c4ea4e-ef8b-4054-b428-96999d4e0661</md:uuid>
+</metadata>
+<content>
+    <para id="id1172571647729">Chapter 1_Part3_ de Broglie’s matter waves continued.</para>
+    <para id="id1172571250368">De Broglie’s hypothesis was verified by Davisson &amp; Germer conclusively. Here a material particle is behaving like a light wave - what does this matter wave mean ? What does this matter wave represent ? The matter wave represents Probability Amplitude Ψ(r,t) and |Ψ|<sup>2</sup> represents probability density and |Ψ|<sup>2</sup>.dV represents the probability of finding the matter particle in elemental volume space dV.Matter wave or electron wave is not smeared matter. It is still particulate matter but the probability of location is smeared, is wave like. What this means is that there is no certainty of finding the particle in one location.In macroscopic world or in classical world, a body at rest has probability of finding it in one given location as UNITY and elsewhere the probability of locating it is ZERO. Unity means certainty.Zero means total absence.But in microscopic world or in quantum mechanical world this is not the case.The probability is spread all over the space within a certain bound. </para>
+    <para id="id1172572059252"><figure id="id1172572318967"><media id="id1172572318967_media" alt=""><image mime-type="image/png" src="../../media/graphics1-e005.png" id="id1172572318967__onlineimage" height="23" width="224"/></media></figure> - this is the standard format in which a travelling harmonic wave is represented.</para>
+    <figure id="id1172571655617">
+      <media id="id1172571655617_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-c285.png" id="id1172571655617__onlineimage" height="23" width="440"/>
+      </media>
+    </figure>
+    <figure id="id1172572057462">
+      <media id="id1172572057462_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-41e4.png" id="id1172572057462__onlineimage" height="23" width="448"/>
+      </media>
+    </figure>
+    <para id="id1172571337435">
+      <figure id="id1172571107376">
+        <media id="id1172571107376_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-70c6.png" id="id1172571107376__onlineimage" height="30" width="242"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172571297878">Here k is less than Unity and gives the probability of finding the particle in a volume bounded by S1 and S2.</para>
+    <para id="id1172574741607">If a particle is trapped in volume V1 then the probability of finding the particle in volume V1 is Unity.</para>
+    <figure id="id1172571129084">
+      <media id="id1172571129084_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-7959.png" id="id1172571129084__onlineimage" height="65" width="241"/>
+      </media>
+    </figure>
+    <para id="id1172571483820">If a particle is outside the volume V1 then the probability of finding the particle in volume V1 is zero. </para>
+    <para id="id1172571193065">
+      <figure id="id1172574978239">
+        <media id="id1172574978239_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-97b9.png" id="id1172574978239__onlineimage" height="31" width="239"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172572619031">In fact in Davisson and Germer experiment the dark and bright ring represent the number of events of detection. Dark represents very low number of events being detected and bright ring represents a large number of events being detected. This implies high probability of finding the particle in the bright region and low probability of finding the particle in dark region.</para>
+  </content>
+</document>

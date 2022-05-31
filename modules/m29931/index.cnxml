@@ -1,0 +1,76 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 1.</title>
+  <metadata>
+  <md:content-id>m29931</md:content-id><md:title>The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 1.</md:title>
+  <md:abstract>Summary: This is Part 1 of the main lecture on 50 years IC journey.</md:abstract>
+  <md:uuid>ca801445-4d69-43b6-ad60-4e07d8a1207a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171277312240">The Journey of I.C.Technology from micro (1959) to nano (2009) era.-Part 1.</para>
+    <para id="id1171280468281">Keywords: Solid State Technology, PhotoVoltaic Cell, Cat’s Whisker, Single Crystal Silicon;</para>
+    <para id="id1171279881556">
+      <emphasis effect="bold">Summary: This is Part 1 of the main lecture on 50 years IC journey.</emphasis>
+    </para>
+    <para id="id1171275715847">INTRODUCTION</para>
+    <para id="id1171274608441">Einstein had once remarked “ We stand on the shoulders of Giants”. </para>
+    <para id="id1171274928011">The experiences of the Savage Age laid the foundation of the Barbarian Age. The experiences of Barbarians laid the foundation of Agricultural Civilization. The Guild Houses of the Agricultural Society and the Maritime Traders with their mercantile capital paved the way for the Industrial Society.<emphasis effect="bold"/>So to understand and appreciate the Integrated Circuit (IC) Technology evolution we must go to 18<sup>th</sup> century during the renaissance sweeping the Western World. Table I.1 (Appendix I ) gives the road map of development of Solid State Technology , Table I.2 (Appendix I) gives the road map of development of Electronics and Integrated Circuit Technology and Table I.3 gives the development in Super Computers. </para>
+    <para id="id1171274727100">In early eighteenth century, metal as a conductor and its positive temperature coefficient of resistance was recognized. This was followed by the discovery of a class of solids which exhibited negative temperature coefficient of resistance. The passage of current caused thermal runaway increase in current. This gave birth to Semi-Conductors. Contact potential between dissimilar materials was observed. In a series of experiments photo-voltaic effects in Ag-AgCl interface and light dependent resistance in Selenium was observed. This was followed by the construction of PV-cell and point contact diode. Point contact diode was fabricated by pressing a wire-point on Galena(PbS). This was also known as cat’s whisker. The cat’s whisker replaced the coherer in Radio Receivers. J.C. Bose patented cat’s whisker diode and AT&amp;T patented a Silicon Crystal diode. By early 20<sup>th</sup> century point contact diode was widely used as diode peak detector in Radios. This point contact diode was replaced by Vacuum tube Diode. CuO-Se was developed as PV Cell.</para>
+    <para id="id1171279216810">In 1930 the theoretical basis for Solid State Technology was laid with the publication of “ Quantum Theory meets Semiconductors” by Alan F. Wilson. This book contained the Band Theory of Solids, thermal generation of electron-hole pairs and the concept of intrinsic and extrinsic semi-conductor. Solid State Processing led to the preparation of Electronic Grade Polycrystalline Silicon.</para>
+    <para id="id1171275685832">At the end of 1947, point contact Ge- Transistor was invented which behaved like pentodes by Shockley , Bardeen and Braittain. Its power gain was tested by building an oscillator. But point contact Ge-Transistor were unstable, unreliable and became non-functional above 75ºC. Hence a transition was made to single crystal diffused Silicon Transistor. </para>
+    <para id="id1171280544493">The first npn BJT made of pure single crystal Silicon at BELL Labs by rate growing technique (made by Morris Tanenbaum and announced at June 1954 IRE Solid State Device Research Conference. The same paper was published in peer reviewed Journal of Applied Physics in June 1955).</para>
+    <list id="id1171275615997" list-type="enumerated" number-style="arabic" mark-suffix=")">
+      <item>Samples bought from DuPont.</item>
+      <item>A high purity single crystal Si ingot grown from the sample.</item>
+      <item>1.27cm length bar was sliced.</item>
+      <item>By rate growing technique narrow base region was implemented (13 to 25 µm).</item>
+      <item>On 26<sup>th</sup> January 1954, testing was completed.</item>
+    </list>
+    <para id="id1171277700542">In 1955 The first npn BJT made of pure single crystal Silicon at Texas Instrument. </para>
+    <para id="id1171280961231">(Announced at IRE conference, Dayton, Ohio).</para>
+    <list id="id1171274928862" list-type="enumerated" number-style="arabic" mark-suffix=")">
+      <item>High purity silicon bought from DuPont at $500 a pound.</item>
+      <item>1.27cm length bar was sliced from the ingot.</item>
+      <item>P Type Base was 25µm thick- thin enough for minority carriers to diffuse through and get collected by the Collector..</item>
+      <item>N Type Emitter was heavily doped to give high injection efficiency.</item>
+    </list>
+    <para id="id1171280917083">Texas Instrument had Si BJT market to itself for rest of the decade and thus the stage was set for the emergence of TI as the International giant in field of device manufacturing.</para>
+    <para id="id1171275014149">At the time Telephone was invented in 1876 it could not become a Public Utility Service. Only after the invention of RC-coupled Amplifier using Vacuum Tube Triodes and Pentodes that long distance calls across the continents could be made. But even then scope of Electronics Amplifier and scope of Electronics Computer remained limited to Tele-communication and Defense Applications. This was on account of large physical sizes and large energy consumption. Solid State Transistors and later IC Technology only could overcome this limitation of Electronic Applications.</para>
+    <para id="id1171279232903"> In 1959. Jack Kilby of Texas Instrument and Robert Noyce of FairChild almost simultaneously invented Integrated Circuit Technology. In 1961 the first integrated RTL circuit was commercialzed and in 1964 first Analog IC MC 1530 Operational Amplifier was marketed.</para>
+    <para id="id1171279252992"> In 1964 the third generation Computer using IC came into market. This was known as Table-Top Computer PDP-8 . This was compact. There was much less power requirement and much more cost affordable.</para>
+    <para id="id1171278784848"> In 1971 the first microprocessor chip (µP4004) was marketed by INTEL . This laid the foundation of Desk-Top computers belonging to Forth Generation Computers. </para>
+    <para id="id1171274661086"> The continuous scaling and innovation , led to the rapid micro-miniaturization and functionally complex IC chips as laid down according Moore’s Law.</para>
+    <para id="id1171278846518"><emphasis effect="italics">Gordon Moore predicted that number of transistors on integrated circuits( a rough measure of computer processing power) will double every 18 months at a minimum cost. It became a self fulfilling prophecy</emphasis>. <emphasis effect="italics">Moore’s Law has become a yardstick of our progress as we harness the cunning of NATURE’s design strategies.</emphasis></para>
+    <para id="id1171273438862"><emphasis effect="italics"/>µP4004 was followed by 8085, 8086, 80386, 80486, Pentium I, Pentium II, Pentium III and Pentium IV. Today in 2009 such powerful quad processors have been commercialized that Nvidia advertises its new workstation, the Tesla, as a “personal supercomputer”. It clusters 4 Nvidia C1060 processing boards, each of which unites 240 graphic cores to process instructions at nearly teraflop speed. The evolution of microprocessors chip is given in Table I.5.</para>
+    <para id="id1171279539229">EMERGENCE OF KNOWLEDGE BASED SOCIETY.</para>
+    <para id="id1171279126450"> At the beginning of Civilization we had agrarian economy and it had Labour Intensive Production Methods. With Industrial Revolution in 1750’s we had Capital Intensive Production. Today Computer and World Wide Web has created Knowledge Intensive Production. Today Computerization, Automation , Robotization and on-line Commerce has become imperative to face and survive the competition in the global market. After Industrial Revolution, Steel became the staple of society. In Post-Industrial society Silicon has become the staple of society. Following Table 1 shows the commanding position which Electronics Industry occupies in the present world economy. In fact Electronics Industry has become the main engine of growth for the global economy.</para>
+    <para id="id1171277786269">
+      <emphasis effect="bold">Table 1. Total chips production, electronic hardware generated and total services generated.</emphasis>
+    </para>
+    <table id="id1171279212672" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Total IC Chips &amp; Discrete Components produced in 2004</entry>
+            <entry>Electronic Hardwares generated</entry>
+            <entry>Software services generated</entry>
+            <entry>Percentage of total world GDP</entry>
+          </row>
+          <row>
+            <entry>$213 billion</entry>
+            <entry>$1200 billion</entry>
+            <entry>$5000 billion</entry>
+            <entry>10%</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1171279173525">As seen from Table 1, the Solid State Devices Industries and its spin off comprises 10% of World GDP(Total World GDP in 2009 is $50 trillion). With passage of time it is growing by leaps and bounds. Educated Guess of Gordon Moore is that 10<sup>18 </sup>Transistors(BJT &amp; MOS) are produced annually. This is more than all the printed characters in all the newspapers. Today we sell the transistors cheaper than a character sold by Sunday New York Times. Such is the all pervasiveness of Transistors.</para>
+    <para id="id1171279553353">  Today IC Technology has enabled the World Wide Web where 1 billion PCs are connected to the INTERNET sharing their data, sending and receiving emails and doing distributed computing with the help of hundred thousands of PCs connected to the NET. Google Search engines and their likes have made all data bases available to the NET users.</para>
+    <para id="id1171279532818">Zarlink Semiconductors has recently introduced M2A capsule endoscopy. These can travel down through the digestive tract and take photographs of two high-resolution colour images per second </para>
+  </content>
+</document>

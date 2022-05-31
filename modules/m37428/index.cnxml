@@ -1,0 +1,619 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 6_Part 9_Appendix Device Physics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37428</md:content-id>
+  <md:title>SSPD_Chapter 6_Part 9_Appendix Device Physics</md:title>
+  <md:abstract>SSPD_Chapter 6_Part 9_Appendix on Device Physics describes the models used in ATLAS and ATHENA</md:abstract>
+  <md:uuid>984c5615-c60b-4699-8c92-32c9728cc6f7</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1172277786645">SSPD_Chapter 6_Part 9_Appendix Device Physics</para>
+    <para id="id1172269037002">Section I. The Bipolar Junction Transistor Technology in 60’s-70’s.</para>
+    <para id="id1172269046473">In 1959 at the time IC Technology was invented, the vertical NPN transistor looked as given in Figure I.</para>
+    <figure id="id1172269029741">
+      <media id="id1172269029741_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-5c24.png" id="id1172269029741__onlineimage" height="629" width="557"/>
+      </media>
+    </figure>
+    <para id="id1172270303620">
+      <emphasis effect="bold">Figure I. Cross-sectional view and Plan view of Vertical NPN transistor.</emphasis>
+    </para>
+    <para id="id1172269114925">(25um by 37.5um base stripe geometry)</para>
+    <para id="id1172274402922"><emphasis effect="bold">Total area covered 212</emphasis> μm<emphasis effect="bold"> by 250</emphasis> μm</para>
+    <para id="id4863298">Substrate is 100um thick.</para>
+    <para id="id1172274870774">Epitaxial layer is 10um thick.</para>
+    <para id="id1172274373344">Base Collector Junction is at 3um depth and Emitter-Base Jn. at 2um depth.</para>
+    <para id="id4993037">Hence Base Width = W<sub>B</sub> = 1 um thick. </para>
+    <para id="id5292550">P Substrate- ρ=10 Ω-cm, N<sub>A</sub>= 10<sup>15</sup> Boron atoms/cc;</para>
+    <para id="id1172274528124">Buried Layer has been put to reduce Collector Series Resistance. </para>
+    <para id="id1172269028027">N<sub>D</sub>=10<sup>19</sup>Arsenic Atoms/cc; In buried layer Arsenic is used as donor type dopent because it has much lower diffusion coefficient hence almost negligible out diffusion in subsequent diffusion and heating cycles.</para>
+    <para id="id5238610">N Epitaxial layer- ρ= 0.1 Ω-cm, N<sub>D</sub>= 10<sup>16 </sup>Phosphorous Atoms/cc;</para>
+    <para id="id1172269056370">Base layer- N<sub>A</sub>= 10<sup>17 </sup>Boron Atoms/cc; Base layer has a sheet resistance of 200 Ω/sq.</para>
+    <para id="id1172269120358">Emitter and Collector Contact layer- N<sub>D</sub>= 10<sup>19</sup> Phosphorous Atoms/cc, R<sub>sh</sub> = 1Ω/sq;</para>
+    <para id="id1172269003870">
+      <emphasis effect="bold">Section II. The Bipolar Junction Transistor Technology in 1980’s-2000’s.</emphasis>
+    </para>
+    <para id="id1172269067948"><emphasis effect="bold"/>Gordon Moore is a co-founder of Intel and he made an empirical observation which became a Law . It stated :</para>
+    <para id="id1172269054118">“ at our rate of technological development, the complexity of an integrated circuit, with respect to minimum component cost will double in about 24 months”.[“Cramming more components onto Integrated Circuits”, <emphasis effect="italics">Electronics Magazine,</emphasis>19 April 1965]. The law has held the test of time to date as is evident from Table I.4_50 years journey of IC Technology_Appenidix I.</para>
+    <para id="id1172277694244">Today Moore’s Law has become a self fulfilling prophecy and a goal Industry tries to achieve all the time. In attempting to maintain this rate of growth, enormous R&amp;D has gone into the development of tools and equipments required for IC fabrication and into the advancement of processing techniques required for IC fabrication.</para>
+    <para id="id1172269031601">
+      <emphasis effect="bold">Section III.1. The relation between the physical parameters and performance parameters and Physics of High Performance nano BJT.</emphasis>
+    </para>
+    <para id="id1622862">In CB BJT:</para>
+    <figure id="id1172269047722">
+      <media id="id1172269047722_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-abb4.png" id="id1172269047722__onlineimage" height="30" width="478"/>
+      </media>
+    </figure>
+    <para id="id1172270660347">Here α<sub>F</sub> = γ×β*</para>
+    <para id="id1172269023810">  = (Emitter Injection Efficiency) × (Base Transport Factor)</para>
+    <para id="id1172269195668"> Current Transfer Ratio <figure id="id1172275028106"><media id="id1172275028106_media" alt=""><image mime-type="image/png" src="../../media/graphics2-6ee7.png" id="id1172275028106__onlineimage" height="45" width="361"/></media></figure></para>
+    <para id="id1172274729882">In Eq. I , M = Avalanche Multiplication Factor = <figure id="id1172268989599"><media id="id1172268989599_media" alt=""><image mime-type="image/png" src="../../media/graphics3-c012.png" id="id1172268989599__onlineimage" height="65" width="104"/></media></figure>  III</para>
+    <para id="id1172274285027">Where n is Miller Indices ranging from 2 to 7.</para>
+    <para id="id1172275246156">At normal Collector to Base Voltages, M = 1</para>
+    <para id="id1172275023332"> But as V<sub>CB</sub> becomes large approaching BV<sub>CBO </sub>, M becomes a very large number and eventually it becomes infinite at V<sub>CB</sub> = BV<sub>CBO</sub> . This is known as CB Junction Breakdown by Avalanche mechanism. </para>
+    <para id="id1172269069126"> At low doping we have to invoke Impact Ionization Model or Avalanche Mechanism. At doping densities larger than 10<sup>18</sup> dopent /cc we must invoke mechanism of tunnelling also known as Zener Breakdown Model. </para>
+    <para id="id1172274751875"> As seen in Figure II, area enclosed by Forward Active Mode bracket is the Forward Active Mode region of operation of CB BJT. In this region the active device behaves as a linear device and is suitable for linear applications. The safe operating voltage range extends from 0 V to (BV<sub>CBO</sub> – 2 V) in CB BJT.</para>
+    <para id="id1172269022916">
+      <figure id="id1172270332524">
+        <media id="id1172270332524_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-758f.png" id="id1172270332524__onlineimage" height="425" width="536"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172269068806">In CE BJT, Equation I is rearranged as shown below:</para>
+    <figure id="id2052608">
+      <media id="id2052608_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-d3f6.png" id="id2052608__onlineimage" height="58" width="484"/>
+      </media>
+    </figure>
+    <para id="id1172269007587">At low voltages, Equation II reduces to :</para>
+    <figure id="id1172268891078">
+      <media id="id1172268891078_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-e955.png" id="id1172268891078__onlineimage" height="58" width="437"/>
+      </media>
+    </figure>
+    <para id="id1172268988742">This further simplifies to:</para>
+    <figure id="id1641996">
+      <media id="id1641996_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-a4cc.png" id="id1641996__onlineimage" height="54" width="446"/>
+      </media>
+    </figure>
+    <para id="id1172277640144">Or   <figure id="id1172274579473"><media id="id1172274579473_media" alt=""><image mime-type="image/png" src="../../media/graphics7-a1cb.png" id="id1172274579473__onlineimage" height="30" width="166"/></media></figure> V</para>
+    <para id="id1172275038422">Here I<sub>CBO</sub>= Collector Current in CB BJT with Emitter Open that is Emitter current is held at zero magnitude. This current is the reverse leakage current across the reverse biased CB Junction and is of the order of nA.</para>
+    <para id="id1172274337998">Here I<sub>CEO</sub>= Collector Current in CE BJT with Base Open that is Base current is held constant. This current is not the reverse leakage current across the reverse biased CB Junction. It is the Collector Current with BJT in Forward Active Mode and it is of the order of µA.</para>
+    <para id="id5406287">Equation IV indicates that at a given ‘V<sub>CE</sub>*’ α<sub>F</sub>M becomes UNITY and both the terms in the Equation become infinity. Physically this means that as V<sub>CE</sub> increases, by Base Width Modulation also known as Early Effect, forward current transfer ratio improves. Simultaneously M is also gradually increasing as seen in Equation III. Hence Collector to Emitter Breakover takes place across Collector to Emitter terminals and this voltage is designated as BV<sub>CEO</sub> .</para>
+    <para id="id1172274548003">At BV<sub>CEO</sub> , <figure id="id1172270405566"><media id="id1172270405566_media" alt=""><image mime-type="image/png" src="../../media/graphics8-347c.png" id="id1172270405566__onlineimage" height="59" width="471"/></media></figure></para>
+    <para id="id1172269123931">Rearranging the terms we get:</para>
+    <figure id="id1172269034108">
+      <media id="id1172269034108_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-4029.png" id="id1172269034108__onlineimage" height="65" width="526"/>
+      </media>
+    </figure>
+    <para id="id1172270687301">Therefore if Collector-Base Breakdown occurs at 128 V then Collector-Emitter Breakover with constant base current drive occurs at 60V as shown in Figure III. The range of voltage over which BJT can be safely operated is drastically reduced. The same CE BJT if used with constant voltage drive, as it is in Current Mirror configuration, will experience breakover at 112V.</para>
+    <para id="id1172272556688">The physics of this Breakover Phenomena becomes clear from Figure IV and Figure V.</para>
+    <para id="id1172270893218">Figure IV shows the electron and hole component of I<sub>E</sub> , I<sub>C</sub> and I<sub>B</sub> at low voltages when reverse leakage current at CB Junction is:</para>
+    <figure id="id1172269002442">
+      <media id="id1172269002442_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-871f.png" id="id1172269002442__onlineimage" height="58" width="82"/>
+      </media>
+    </figure>
+    <para id="id2188504">Figure V shows the electron and hole component of I<sub>E</sub> , I<sub>C</sub> and I<sub>B</sub> at high voltages when reverse leakage current at CB Junction is: </para>
+    <figure id="id1172267151514">
+      <media id="id1172267151514_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-04c0.png" id="id1172267151514__onlineimage" height="58" width="101"/>
+      </media>
+    </figure>
+    <para id="id1172274743446">
+      <figure id="id1172269046044">
+        <media id="id1172269046044_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-7328.png" id="id1172269046044__onlineimage" height="424" width="615"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4874247">Figure IV and Figure VI must be studied in correspondence. Figure VI shows the carrier concentration profile of NPN transistor in Forward Active Mode.</para>
+    <para id="id5099973">In Forward Active Mode, EB junction is forward biased and BC junction is reverse biased. Built-in barrier potential at EB is reduced (φ<sub>BO </sub>- V<sub>EB</sub>) and built-in barrier potential at BC junction is increased (φ<sub>BO</sub> +<sub/>V<sub>CB</sub>).</para>
+    <para id="id1172269056728">Reduced barrier potential helps in electron(majority carrier) injection into base. In base electron becomes minority carriers hence increased barrier potential at CB junction is down-hill for the minority carriers. Therefore electrons injected into Base transit through the narrow Base region with negligible recombination and are collected by Collector. Since base is narrow practically all the carriers in Base are collected by the Collector.</para>
+    <para id="id1172268894079">While electrons are travelling longitudinally across the Vertical NPN BJT they experience recombination in Emitter as well as in Base.</para>
+    <para id="id1172275242169">Recombination in Emitter causes Emitter Injection Efficiency (γ) to be less than 100%.</para>
+    <para id="id1172277917228">Recombination in Base causes Base Transport Factor (β*) to be less than 100%. </para>
+    <para id="id1172270172281">
+      <figure id="id5355524">
+        <media id="id5355524_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-825a.png" id="id5355524__onlineimage" height="461" width="629"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172269027527">These two recombinations cause the forward current transfer ratio to be less than UNITY. To provide these two recombinations Base Current is necessitated.</para>
+    <para id="id1172274350500">I<sub>B</sub> = I<sub>BB</sub> + I<sub>Ep</sub> = provides the holes for recombination in Base + provides the holes to be injected into Emitter and cause hole diffusion current in Emitter.</para>
+    <para id="id1172274581763">Therefore <figure id="id1172274035280"><media id="id1172274035280_media" alt=""><image mime-type="image/png" src="../../media/graphics12-6bd0.png" id="id1172274035280__onlineimage" height="46" width="352"/></media></figure> VIII</para>
+    <para id="id1782403">In Figure VI, charge stored in the Base is shown by the shaded region and is given by the following expression:</para>
+    <para id="id1172270406329"><figure id="id1172270174152"><media id="id1172270174152_media" alt=""><image mime-type="image/png" src="../../media/graphics13-fc2c.png" id="id1172270174152__onlineimage" height="44" width="150"/></media></figure> where <figure id="id1172268316018"><media id="id1172268316018_media" alt=""><image mime-type="image/png" src="../../media/graphics14-bd8e.png" id="id1172268316018__onlineimage" height="46" width="315"/></media></figure> IX</para>
+    <para id="id1172269106456"><figure id="id1172267708599"><media id="id1172267708599_media" alt=""><image mime-type="image/png" src="../../media/graphics15-6838.png" id="id1172267708599__onlineimage" height="49" width="170"/></media></figure>  where <figure id="id1172277944487"><media id="id1172277944487_media" alt=""><image mime-type="image/png" src="../../media/graphics16-1756.png" id="id1172277944487__onlineimage" height="30" width="151"/></media></figure>    X</para>
+    <para id="id1172274612658">In Figure VI, minority carrier densities are depressed near the depletion layer of BC junction. Here EHP are thermally generated since minority carrier density is less than the thermal equilibrium value. The EHP (electron-hole pair) which survive to reach the reverse biased BC junction depletion width are swept across the depletion width as the reverse leakage current. The electrons on Base side and holes on Collector side are swept across the depletion width because the enhanced built-in barrier potential across the BC junction acts as the down-hill for minority carriers on two sides. The electron component of this reverse leakage I<sub>CEO</sub> adds to the injected electron current being collected by the collector and hole component of the reverse leakage I<sub>CEO </sub>provide the holes in Base for recombination as shown in Figure IV.<emphasis effect="bold"/></para>
+    <figure id="id5016085">
+      <media id="id5016085_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-b76b.png" id="id5016085__onlineimage" height="465" width="624"/>
+      </media>
+    </figure>
+    <para id="id1172277679599">As V<sub>CE</sub> increases , down-hill potential gradient becomes very steep which accelerates the minority carriers being swept across the BC junction to the extent that IMPACT IONIZATION and IMPACT GENERATION starts as shown in Figure V. Now a copious amount EHP are generated in reverse biased BC junction. Electrons add to I<sub>C</sub> increasing it considerably and holes povide recombination centers in Base.</para>
+    <para id="id1172268978057">Eventually when α<sub>F</sub>M becomes UNITY, holes generated by impact ionization provides all the holes required in Base for recombination with injected electrons as well as holes generated by impact ionization provide the holes to be injected into Emitter. Thus requirement for I<sub>B</sub> from Base terminal becomes zero, current gain becomes infinite and I<sub>C</sub> shoots up and breakover occurs. At the breakover point S-type negative impedance region is caused as shown in Figure VI. The PHYSICS of BREAKOVER is as follows:</para>
+    <para id="id1172270222130">At α<sub>F</sub>M = 1 the impact generated holes just suffice the recombination needs of the device. At α<sub>F</sub>M &gt; 1 the impact generated holes are more than what is required for recombination in the Base and for injection into Emitter. Hence the excess part of impact generated holes starts building the concentration of the carriers and their concentration gradient in the Base. This leads to a sudden shoot up in the Collector Current. </para>
+    <para id="id1576172">The S-type NIR occurs as shown in Figure III, because before breakover α<sub>F1</sub> is of the order of 0.7 4 because of very small I<sub>C</sub> and after the breakover α<sub>F2</sub> is of the order of 0.8 because of large I<sub>C</sub> hence </para>
+    <para id="id4876277"><figure id="id1172277689266"><media id="id1172277689266_media" alt=""><image mime-type="image/png" src="../../media/graphics17-9dc1.png" id="id1172277689266__onlineimage" height="23" width="113"/></media></figure>=1 </para>
+    <figure id="id1172274318535">
+      <media id="id1172274318535_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-c241.png" id="id1172274318535__onlineimage" height="78" width="430"/>
+      </media>
+    </figure>
+    <para id="id1172268996974">Rearranging the terms we get:</para>
+    <figure id="id1172269033751">
+      <media id="id1172269033751_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-2095.png" id="id1172269033751__onlineimage" height="82" width="521"/>
+      </media>
+    </figure>
+    <para id="id1172274294013">For 2N2119A: n = 2, BV<sub>CBO</sub> = 128V, BV<sub>CEO</sub> = 66 V, α<sub>F1</sub> = 0.74; α<sub>F2</sub> = 0.8.</para>
+    <para id="id1172274841470">Substituting these values we get: V<sub>S</sub> = 58V.</para>
+    <para id="id1172269039074">
+      <emphasis effect="bold">Section III.2. Band Gap Narrowing in BJT. </emphasis>
+    </para>
+    <para id="id1172270366823">In a classical BJT, Emitter Bulk Width(2µm) &gt;&gt; Diffusion Length of minority carriers in Emitter(fraction of a micron). Hence hole (minority carrier in Emitter) diffusion current is non-dominant and d.c. current gain in a classical BJT is :</para>
+    <para id="id1172270407540"><figure id="id1172270670384"><media id="id1172270670384_media" alt=""><image mime-type="image/png" src="../../media/graphics20-eeeb.png" id="id1172270670384__onlineimage" height="55" width="566"/></media></figure>            XIII.</para>
+    <para id="id1172270347192">
+      <figure id="id1172269080424">
+        <media id="id1172269080424_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-d307.png" id="id1172269080424__onlineimage" height="71" width="498"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1590935">
+      <media id="id1590935_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-1ae7.png" id="id1590935__onlineimage" height="60" width="528"/>
+      </media>
+    </figure>
+    <para id="id1587898">Therefore in a classical BJT the dc current gain is as given below: </para>
+    <figure id="id1172269240043">
+      <media id="id1172269240043_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-fc89.png" id="id1172269240043__onlineimage" height="124" width="537"/>
+      </media>
+    </figure>
+    <figure id="id1172269236755">
+      <media id="id1172269236755_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-b636.png" id="id1172269236755__onlineimage" height="445" width="618"/>
+      </media>
+    </figure>
+    <para id="id1172277788361"> But as lateral scaling and vertical scaling have scaled down in the process of evolution from SSI to MSI to LSI, base width have been scaled down from 1000nm to 100nm and now they are being scaled down to 10nm. Emitter Bulk Width (W<sub>E</sub>) have scaled down from 2 microns to a fraction of micron. Hence diffusion length of holes [ L<sub>P</sub> =√(D<sub>P</sub>τ<sub>P</sub>) ] in Emitter has become comparable to Emitter Bulk Width and carrier concentration profile is akin to that of a narrow base diode. This means two things:</para>
+    <list id="id1172275116026" list-type="enumerated" number-style="lower-roman">
+      <item>In the Expression II, Base Recombination Current becomes negligible compared to hole diffusion current in Emitter;</item>
+      <item>Hole Diffusion current becomes a function of surface recombination velocity at the emitter contact.</item>
+    </list>
+    <para id="id1172270356770">At a metal Emitter Contact surface recombination velocity is very high. Hence dc current gain drastically deteriorates.</para>
+    <para id="id1172276469250">In Equation XVI , diffusion length is replaced by emitter bulk width and base recombination current is neglected.</para>
+    <para id="id1172274424154"><figure id="id2312463"><media id="id2312463_media" alt=""><image mime-type="image/png" src="../../media/graphics24-58d0.png" id="id2312463__onlineimage" height="85" width="173"/></media></figure> XVII <figure id="id2111100"><media id="id2111100_media" alt=""><image mime-type="image/png" src="../../media/graphics25-d5df.png" id="id2111100__onlineimage" height="21" width="131"/></media></figure></para>
+    <figure id="id1172276447347">
+      <media id="id1172276447347_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-bfee.png" id="id1172276447347__onlineimage" height="79" width="518"/>
+      </media>
+    </figure>
+    <figure id="id1542219">
+      <media id="id1542219_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-36d4.png" id="id1542219__onlineimage" height="79" width="518"/>
+      </media>
+    </figure>
+    <para id="id1172274626514">Where <figure id="id5221299"><media id="id5221299_media" alt=""><image mime-type="image/png" src="../../media/graphics28-489c.png" id="id5221299__onlineimage" height="46" width="135"/></media></figure></para>
+    <para id="id1172274454157">Therefore</para>
+    <figure id="id2202497">
+      <media id="id2202497_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-86ad.png" id="id2202497__onlineimage" height="68" width="616"/>
+      </media>
+    </figure>
+    <para id="id1172269026419">If we take the following data:</para>
+    <para id="id1172276566199">(N<sub>D</sub>)<sub>E</sub> = 10<sup>20</sup>/cc, (N<sub>A</sub>)<sub>B</sub> = 10<sup>17</sup>/cc, W<sub>E</sub> = W<sub>B</sub> = 1µm and D<sub>pE</sub>=1.25 (cm)<sup>2</sup>/sec and D<sub>nB</sub>=20 (cm)<sup>2</sup>/sec. For homogenous devices we assume Band-gap to be uniform everywhere hence </para>
+    <para id="id1172269026026">E<sub>gE</sub> = E<sub>gB</sub> = 1.12 eV.</para>
+    <para id="id1172270192802">Therefore β<sub>F</sub> = 1.6×10<sup>4</sup> ;</para>
+    <para id="id1172274867164"> As is evident from Equation XVIII, to obtain high gain, Emitter needs to be heavily doped and we need thin Base Region.</para>
+    <para id="id1172274468592"> Due to heavy doping in Emitter, degeneracy is introduced which leads to Band Gap Narrowing (BGN) by ∆E<sub>g</sub> . The radius of the fifth electron or the donor electron orbiting donor atom is 13×10<sup>-8</sup>cm = 13Angstrom = 13Aº. </para>
+    <figure id="id1172274587737">
+      <media id="id1172274587737_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-46a7.png" id="id1172274587737__onlineimage" height="282" width="246"/>
+      </media>
+    </figure>
+    <para id="id1172270181642">
+      <emphasis effect="bold">Figure VII. Calculation of critical packing density where donor electrons wave function of donor atoms start to overlap.</emphasis>
+    </para>
+    <para id="id1172267155199">N<sub>crit</sub> = 1/V<sub>d</sub>= 1/(2r<sub>d</sub>)<sup>3</sup> = 1.7×10<sup>19</sup>/cc.</para>
+    <para id="id4623957"> When the doping level approaches this critical level, energy level corresponding to donor atoms no more remain DISCRETE but they become a continuum in effect extending the conduction band and narrowing the Forbidden Energy Band Gap which is known as Band Gap Narrowing(BGN). This is a degenerate semiconductor and the Fermi-level lies at the edge of the conduction band or within the conduction band as it is in metal. Hence a degenerate semi-conductor is semi-metal. The energy band diagram of degenerate and non-degenerate semiconductor is given in Figure VIII.</para>
+    <para id="id1172275091096"> Heavy doping of emitter causes Band Gap Narrowing in Emitter as shown in Figure VIII.</para>
+    <figure id="id1172275021756">
+      <media id="id1172275021756_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-4e98.png" id="id1172275021756__onlineimage" height="496" width="508"/>
+      </media>
+    </figure>
+    <para id="id5263168">
+      <emphasis effect="bold">Figure VIII. The Energy Band Diagram of Pure, doped and heavily doped semiconductor.</emphasis>
+    </para>
+    <para id="id4091261">There is Band Gap Narrowing in Emitter and Band Gap in Base remains E<sub>g0</sub> therefore we get the following expressions</para>
+    <figure id="id1172270243137">
+      <media id="id1172270243137_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-7ec6.png" id="id1172270243137__onlineimage" height="75" width="306"/>
+      </media>
+    </figure>
+    <para id="id1172274403599">
+      <figure id="id1172275036981">
+        <media id="id1172275036981_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics31-769c.png" id="id1172275036981__onlineimage" height="75" width="243"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1172274615577">
+      <media id="id1172274615577_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-c9cc.png" id="id1172274615577__onlineimage" height="75" width="571"/>
+      </media>
+    </figure>
+    <para id="id2157217">Substituting Equation XIX in Equation XVIII we get the DC current gain as:</para>
+    <para id="id1172274488027"><figure id="id1172269047114"><media id="id1172269047114_media" alt=""><image mime-type="image/png" src="../../media/graphics33-6059.png" id="id1172269047114__onlineimage" height="60" width="312"/></media></figure> XX</para>
+    <para id="id1172267147003">Therefore   <figure id="id1172270611758"><media id="id1172270611758_media" alt=""><image mime-type="image/png" src="../../media/graphics34-69a9.png" id="id1172270611758__onlineimage" height="44" width="222"/></media></figure> XXI</para>
+    <para id="id1172267732678">The empirical relationship for BGN is:</para>
+    <para id="id8283756"><figure id="id1172277663275"><media id="id1172277663275_media" alt=""><image mime-type="image/png" src="../../media/graphics35-b688.png" id="id1172277663275__onlineimage" height="74" width="422"/></media></figure> XXII</para>
+    <para id="id1172274400928">Where E<sub>ref</sub> = 0.009eV and N<sub>ref </sub>= 10<sup>17</sup>/cc for typical cases.</para>
+    <para id="id5277726">
+      <emphasis effect="bold">Table I. ∆E</emphasis>
+      <emphasis effect="bold">g</emphasis>
+      <emphasis effect="bold"> vs N</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold"> .</emphasis>
+    </para>
+    <table id="id1172270295190" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Emitter Doping DensityN<sub>D</sub> (number per cc)</entry>
+            <entry>BGN∆E<sub>g</sub> (eV)</entry>
+          </row>
+          <row>
+            <entry>10<sup>20</sup></entry>
+            <entry>0.12466</entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup></entry>
+            <entry>0.083</entry>
+          </row>
+          <row>
+            <entry>10<sup>18</sup></entry>
+            <entry>0.0424</entry>
+          </row>
+          <row>
+            <entry>10<sup>17</sup></entry>
+            <entry>6.36×10<sup>-3</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>16</sup></entry>
+            <entry>1meV</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1571215">
+      <emphasis effect="bold">Table II. N</emphasis>
+      <emphasis effect="bold">Deff</emphasis>
+      <emphasis effect="bold"> vs N</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">.</emphasis>
+    </para>
+    <table id="id1172275262548" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>N<sub>D</sub> (number per cc)</entry>
+            <entry>∆E<sub>g</sub> (eV)</entry>
+            <entry>N<sub>Deff</sub> (number per cc)</entry>
+          </row>
+          <row>
+            <entry>10<sup>20</sup></entry>
+            <entry>0.12466</entry>
+            <entry>8.258×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>19</sup></entry>
+            <entry>0.083</entry>
+            <entry>4×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>18</sup></entry>
+            <entry>0.0424</entry>
+            <entry>1.96×10<sup>17</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>17</sup></entry>
+            <entry>6.36×10<sup>-3</sup></entry>
+            <entry>8×10<sup>16</sup></entry>
+          </row>
+          <row>
+            <entry>10<sup>16</sup></entry>
+            <entry>1meV</entry>
+            <entry>1×10<sup>16</sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172270699700">Heavy doping of emitter causes Band Gap Narrowing in Emitter which limits the improvement in Injection Efficiency due to heavy doping of Emitter. Emitter doping may be N<sub>D</sub> = 10<sup>20</sup>/cc but in effect we get the Injection Efficiency corresponding to 10<sup>18</sup>/cc.</para>
+    <para id="id2013960">For a doping level of N<sub>D</sub> = 10<sup>20</sup>/cc, ∆E<sub>g</sub>=0.12eV.</para>
+    <para id="id2321768">This gives an effective doping level of N<sub>Deff</sub> = 10<sup>18</sup>/cc.</para>
+    <para id="id1172270731356">If we take into account of BGN, we must use Eq.XX .</para>
+    <para id="id1172270889501">Using Eq.XX we get : β<sub>F</sub> = 160.</para>
+    <para id="id1172274414562">
+      <emphasis effect="bold">Section III.3. </emphasis>
+      <emphasis effect="bold">Polysilicon emitter BJT (PEBJT)</emphasis>
+    </para>
+    <para id="id1172270670715"> The carrier concentration profile in CE BJT in forward active mode is shown in Figure VI. In 60s EB junction was like a wide base diode but with dimension scaling and improvement in technology, EB junction became shallow and hence narrow base diode. In a narrow base diode the emitter surface contact is decisive in determining the resultant emitter injection efficiency. As shown in Figure IX, metal contact directly to pure single crystal emitter portion causes a poorer injection efficiency as compared to that where metal contact and n+ pure Silicon has heavily doped poly-Silicon Emitter sandwiched between the two layers. </para>
+    <para id="id1172270441154"/>
+    <table id="id1172276571942" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry> </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172267404032">
+      <emphasis effect="bold">Figure IX. Linear Gradient is a strong function of surface condition. Metal contact gives a large gradient and Poly Silicon contact to Emitter gives a much lower linear gradient on the emitter side thereby improving I</emphasis>
+      <emphasis effect="bold">Dn</emphasis>
+      <emphasis effect="bold">/I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">(Injection Efficiency) by several orders of magnitude.</emphasis>
+    </para>
+    <para id="id1172274038861">To achieve higher degree of integration we had to go for smaller feature size as well as shallow devices. Metallic contact gives infinite surface recombination velocity, hence it gives a much steeper gradient as shown in Fig. IX a. whereas Poly-Silicon gives a much lower gradient resulting in a very low hole component of the total current thereby giving a much higher injection efficiency.</para>
+    <para id="id1172270393077"/>
+    <para id="id1172269196097">
+      <emphasis effect="bold">Table III. Room Temperature current gain as a function of emitter contact for device run BIP-8.</emphasis>
+      <emphasis effect="bold">[“Effect of Emitter Contact on Current Gain of Silicon Bipolar Devices”, T.H.Ning &amp; R.D. Isaac, </emphasis>
+      <emphasis effect="italics">IEEE Int. Electron Devices Meeting,</emphasis>
+      <emphasis effect="bold"> pp.473-476, 1979].</emphasis>
+    </para>
+    <table id="id1172274917106" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Wafer</entry>
+            <entry>H</entry>
+            <entry>H</entry>
+            <entry>E</entry>
+          </row>
+          <row>
+            <entry>Contact</entry>
+            <entry>Al</entry>
+            <entry>Pd<sub>2</sub>Si + Al</entry>
+            <entry>Poly + Al</entry>
+          </row>
+          <row>
+            <entry>R<sub>DB </sub>(KΩ/▄)</entry>
+            <entry>7.2 ± 0.2</entry>
+            <entry>7.2 ± 0.2</entry>
+            <entry>7.6 ± 1.0</entry>
+          </row>
+          <row>
+            <entry>Gain </entry>
+            <entry>67 ± 3</entry>
+            <entry>51 ± 8</entry>
+            <entry>158 ± 12</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172269055333">“ The current gain of silicon bipolar transistors with shallow emitters depends critically on the emitter contact technology…………….The conventional contact by metal or metal silicide degrades the current gain, while contact by a thin layer of poly-silicon is effective in improving the current gain” [ibid].</para>
+    <para id="id1172269057652">In Polysilicon emitter BJT (PEBJT), a polycrystalline Si Film lies between Metallic Emitter Contact and Silicon Proper. By ion-implantation, the Polycrystalline Silicon Film is doped with Donor Arsenic Ions. By subsequent annealing, shallow diffusion of Donor Arsenic atoms from N<sup>+</sup> Poly-Silicon Source takes place leading to a shallow layer of N<sup>+</sup> in Si proper contacted by a similarly doped N<sup>+</sup> Poly-Silicon thin film. This structure is known as Polysilicon emitter BJT.</para>
+    <list id="id1172267819459" list-type="enumerated" number-style="arabic">
+      <item>This is suitable for shallow EB Junction;</item>
+      <item>Compatible with self-aligned processing. This minimizes parasitic Resistance and Capacitances leading to faster response time.</item>
+      <item>Short Circuit Current Gain (β<sub>F</sub>) in PET is considerably improved as compared to that of shallow all crystalline emitter of equivalent thickness.</item>
+    </list>
+    <para id="id1172267767091"/>
+    <para id="id1172267722493">
+      <emphasis effect="bold">III.3.1. The physics of improvement of Short Circuit Current Gain (β</emphasis>
+      <emphasis effect="bold">F</emphasis>
+      <emphasis effect="bold">) in PET.</emphasis>
+    </para>
+    <para id="id1172267799276">
+      <figure id="id1172267159404">
+        <media id="id1172267159404_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 20-39ec.png" id="id1172267159404__onlineimage" height="513" width="490"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172267858519">
+      <emphasis effect="bold">Figure X. Minority Carrier Concentration in a shallow EB Junction case 1. All pure single crystal structure and case 2 in Poly Si Emitter BJT.</emphasis>
+    </para>
+    <para id="id1172267866669">Since W<sub>E </sub>&lt;&lt; L<sub>pE</sub> , therefore there is negligible recombination through out the Emitter. At the interface of Poly Si(region 1) and Pure Si(Region 2), continuity of carrier concentration and continuity of diffusion current requires that:</para>
+    <para id="id1172267135097"><figure id="id1172267876181"><media id="id1172267876181_media" alt=""><image mime-type="image/png" src="../../media/graphics36-3aea.png" id="id1172267876181__onlineimage" height="34" width="85"/></media></figure> = <figure id="id1172267882882"><media id="id1172267882882_media" alt=""><image mime-type="image/png" src="../../media/graphics37-4c7d.png" id="id1172267882882__onlineimage" height="34" width="85"/></media></figure></para>
+    <para id="id1172269196777">
+      <figure id="id1172267433372">
+        <media id="id1172267433372_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics38-2fad.png" id="id1172267433372__onlineimage" height="45" width="291"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172267648930">Therefore carrier concentration gradient in poly Si region is several times the carrier concentration gradient in Pure Silicon Emitter because mobility of hole in Pure Single Crystal Silicon region is several times greater than that in Poly Si on account of domain scattering in Poly region. Hence hole current crossing EB junction into Emitter is considerably reduced leading to a near unity Injection Efficiency. This leads to a much better α and hence a much better β . Now doping of base can be increased leading to a reduced base spreading resistance and hence better Figure of Merit and better Frequency Response without losing on current gain. </para>
+    <para id="id1172267808521">
+      <emphasis effect="bold">Section III.4.</emphasis>
+      <emphasis effect="bold"> Base Spreading Resistance r</emphasis>
+      <emphasis effect="bold">x </emphasis>
+      <emphasis effect="bold">and the frequency response of BJT:</emphasis>
+    </para>
+    <para id="id1172267858483"> Base spreading resistance is due to the narrow sandwich of high sheet resistance P base. P Base is of 200 Ω/▄ to keep N<sub>A|B</sub>/N<sub>D|E </sub>= 10<sup>17</sup>/10<sup>19</sup> as low as possible. This results in r<sub>x </sub>= 100 Ω. This creates serious deterioration in high frequency performance of BJT especially in terms of Unity Power Gain Frequency (f<sub>max</sub>).</para>
+    <para id="id1172267165948">It can be shown that (f<sub>max</sub>) = [f<sub>T</sub>/(8πr<sub>x</sub>C<sub>μ</sub>)]<sup>1/2</sup></para>
+    <para id="id1172274040242">Using the dimensions of BJT used in 70s we get, we get</para>
+    <para id="id1172270621279">f<sub>t</sub> (Unity gain BW)= 624MHz;</para>
+    <para id="id1172267438514">f<sub>max</sub> = [f<sub>T</sub>/(8πr<sub>x</sub>C<sub>μ</sub>)]<sup>1/2</sup> = 18.6GHz;</para>
+    <para id="id1172270653044">From this example it is clear that base spreading resistance r<sub>x </sub>must be minimized to get best frequency performance but reduction of r<sub>x </sub>requires increased base conductivity but increased base conductivity means lower Injection Efficiency because </para>
+    <para id="id2030803">Injection Efficiency =γ = 1/[1+σ<sub>B</sub>W/(σ<sub>E</sub>L<sub>p</sub>)]</para>
+    <para id="id1172267552169">From injection efficiency point of view: σ<sub>B </sub>&lt;&lt; σ<sub>E</sub>;</para>
+    <para id="id1172267580376">These are contradictory requirements hence to achieve Short Circuit Current Gain of 100 we cannot allow Base Spreading Resistance to go below 100 ohm.</para>
+    <para id="id1172267594056">By using Poly Silicon , γ can be improved several orders of magnitude. This results in β of the order of 10,000. Here base conductivity can be increased to minimize Base Spreading Resistance. Thus with a reasonable β of 100, considerably lower Base Spreading Resistance can be achieved which plays crucial role in frequency performance and in improving the Figure of Merit of BJT which happens to be </para>
+    <para id="id1172267589773">GBP= 1/( r<sub>x</sub> C<sub>μ</sub>);</para>
+    <para id="id1172267613468">
+      <emphasis effect="bold">Section III.5.</emphasis>
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">Method of improving Emitter Injection Efficiency by Bipolar Hetero Structure.</emphasis>
+    </para>
+    <para id="id1172267745300">Rewriting Equation XVIII we get:</para>
+    <para id="id1172267646827"><figure id="id1172267645177"><media id="id1172267645177_media" alt=""><image mime-type="image/png" src="../../media/graphics39-b8f1.png" id="id1172267645177__onlineimage" height="53" width="362"/></media></figure> XVIII</para>
+    <para id="id1172270392369"/>
+    <para id="id1172268302364">So if the EB junction is not a homojunction but a hetro junction </para>
+    <para id="id1172268673721">where (E<sub>g</sub>|<sub>E</sub>- E<sub>g</sub>|<sub>B</sub>)=0.15eV then β<sub>F </sub>= 400 even if (N<sub>D</sub>|<sub>E</sub>/N<sub>A</sub>|<sub>E</sub>) = 1 that is both E and B are equally doped. But (N<sub>D</sub>|<sub>E</sub>/N<sub>A</sub>|<sub>E</sub>) = 1 will drastically reduce Base Spreading Resistance which will leads to improved frequency response as well as improved GBP.</para>
+    <para id="id1172270723072">Graphically the improvement is evident as shown in the Graph:</para>
+    <figure id="id1172271224104">
+      <media id="id1172271224104_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-40f1.png" id="id1172271224104__onlineimage" height="468" width="488"/>
+      </media>
+    </figure>
+    <para id="id1172274858526">Figure XI. In a HOMO JUNCTION of equal doping on two sides the total forward junction current is made up of 50% electrons being injected from N to P side and 50% holes being injected from P side to N side.</para>
+    <para id="id1172277677771">
+      <figure id="id1172270704991">
+        <media id="id1172270704991_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 22-08e2.png" id="id1172270704991__onlineimage" height="468" width="627"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1172270329594">Figure XII. In a HETERO JUNCTION under forward bias the Built-in Barrier Potential are so unequal that Junction Current is wholly constituted of carriers injected from Wide Band Gap to Narrow Band Gap thereby automatically achieving 100% Injection Efficiency even without creating large doping differential on the two sides.</para>
+    <para id="id1172274715627">Thus we see that heterojunction are very naturally disposed towards giving 100% injection efficiency even with a very low base spreading resistance.</para>
+    <para id="id1172270353957">
+      <emphasis effect="bold">Section III.6.</emphasis>
+      <emphasis effect="bold"> Fermi-level pinning and its prevention.</emphasis>
+    </para>
+    <para id="id1864318">(academic.brooklyn.cuny.edu/physics/tung/Schottky/index.htm)</para>
+    <para id="id1172274009565">At Metal-ntype-Semiconductor interface we realize Schottky Barrier Diode. This exhibits a rectifying contact characteristic hence it has an in-built Schottky Barrier Height(SBH) as illustrated in Figure IV.1. </para>
+    <para id="id4978214">
+      <figure id="id1908154">
+        <media id="id1908154_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 23-3f97.png" id="id1908154__onlineimage" height="329" width="627"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2109090">Figure XIII.. Asymptotic Energy Band Diagram of Metal-Semiconductor Interface and illustration of Schottky Barrier Potential Height.</para>
+    <para id="id1172270669930">It was found experimentally that SBH is insensitive to the Metal Work Function. This was defined as Fermi-Level pinning (FL pinning). It generally occurred at the mid-band gap of Semiconductor. This was always the case with polycrystalline MS interfaces and it was quite counterintuitive. In 1980s a few high quality, single crystal MS interfaces prepared and SBH measured. SBH was found to be sensitive to orientation/structure of MS interface. By spatially-resolved SBH measurement technique notably by Ballistic Electron Emission Microscopy(BEEM) it was found that SBH are inhomogeneous at polycrystalline MS interfaces and structure dependent at single crystal MS interfaces.</para>
+    <para id="id1172269246154">At the turn of the century when dipole associated with chemical bonding at MS interfaces was modeled using established methods borrowed from Molecular Physics it was shown that FL pinning was a natural consequence of interfacial bonding.</para>
+    <para id="id1172268991243">If minimization of total energy is applied </para>
+    <list id="id1172270897006" list-type="enumerated" number-style="arabic">
+      <item>then it results in structure dependence of SBH at epitaxial interfaces and</item>
+      <item>SBH in homogeneity at polycrystalline interfaces.</item>
+    </list>
+    <para id="id1172270325500">By this theory FL pinning at polycrystalline MS interfaces and the pinning position at mid-band gap comes automatically.</para>
+    <para id="id4651778">This model is being further refined.</para>
+    <para id="id1172270689623">
+      <emphasis effect="bold">Section III.7. High-k solution for ULSI CMOS.[The high-k solution by Mark T. Bohr, Robert S. Chau, Tahir Ghani &amp; Kaizad Mistry, </emphasis>
+      <emphasis effect="italics">IEEE Spectrum</emphasis>
+      <emphasis effect="bold">, October 2007, pp 23-29]</emphasis>
+    </para>
+    <para id="id1172268896009"> As the level of integration evolved, size of CMOS halved every 24 months. At this rate of scaling, by 1998 SiO<sub>2</sub> gate insulation became 5 atomic layer thick with total thickness scaled to 13Aº each atomic layer being 2.6Aº. Current leakage and heating became a serious problem. Because of wave nature of electron and its quantum mechanical tunneling property, thin gate oxides allow the electrons accumulated on gate to leak to the channel. To overcome this problem we need physically thick gate oxides to prevent quantum mechanical tunneling but at the same time electrically thin so that channel is turned at low threshold. If dielectric constant is doubled then thickness can be doubled without any reduction in Turn-ON capability since C=kε<sub>0</sub>A/d </para>
+    <figure id="id1172270332998">
+      <media id="id1172270332998_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-c182.png" id="id1172270332998__onlineimage" height="54" width="91"/>
+      </media>
+    </figure>
+    <para id="id1172270237792">where k=dielectric constant or relative permittivity of the gate insulator </para>
+    <para id="id1172275031050">d=thickness of the gate insulator and A= cross-sectional area of the gate insulator.</para>
+    <para id="id1172270284071">Metal interconnects are preferred over low-k material so that propagation delay is minimized.</para>
+    <figure id="id1172274751708">
+      <media id="id1172274751708_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics41-4e19.png" id="id1172274751708__onlineimage" height="66" width="215"/>
+      </media>
+    </figure>
+    <para id="id1172268988883">Low k will give higher velocity of propagation thereby minimizing the propagation delay.</para>
+    <para id="id1172277657903">MOS capacitance had to be reproducible, its behavior should be repeatable. To achieve this reproducibility and repeatability, Reactive Sputtering or Metal Organic CVD had to be abandoned in favour of Atomic Layer Deposition . This gave the necessary smoothness to the surface of the electrode as well as precise control over the thickness of the Gate Insulator. This ensured reproducibility and repeatability.</para>
+    <para id="id2403644">Several dielectrics were studied such as Al<sub>2</sub>O<sub>2</sub> , TiO<sub>2</sub> , Ti<sub>2</sub>O<sub>2 </sub>, Ti<sub>2</sub>O<sub>5</sub> , HfO<sub>2</sub> , HfSiO<sub>4</sub>, ZrO<sub>2</sub>, ZrSiO<sub>2</sub>, La<sub>2</sub>O<sub>3</sub> .</para>
+    <para id="id1172268995531">With scaling due to Fermi-Level pinning , higher threshold Voltage (V<sub>Thres</sub>) resulted. Also High-k material have high elasticity hence result in higher phonon scattering or lattice scattering resulting in lower channel mobility. By screening the phonon effect, the deterioration in channel conductivity could be prevented. This required increasing the electron density in Poly-Si gate. Hence we had to switch to Metal-High k combination. This prevented:</para>
+    <list id="id1172269095844" list-type="enumerated" number-style="arabic">
+      <item>Fermi-Level pinning hence threshold voltage normalized;</item>
+      <item>This normalized channel conductivity which had drastically deteriorated due to dipole vibration effect;</item>
+      <item>Metal Gate Electrode provides better bonding between Metal-Dielectric. Hence stable operation.</item>
+    </list>
+    <para id="id1172270392495">In mid-2003, Intel’s Hillsbaro, Ore, Development Fab developed HK-MG CMOS. Intel’s 130nm technology was used. Using Hafnium-Based Oxide and Metal Gate electrode following characteristics were achieved:</para>
+    <list id="id1172269103349" list-type="enumerated" number-style="lower-roman">
+      <item>Low Threshold = 1V;</item>
+      <item>Negligible leakage current through Oxide;</item>
+      <item>High 2-D channel mobility;</item>
+    </list>
+    <para id="id1172274632830">The standard fabrication method was “Gate First”. In this method: </para>
+    <para id="id1172269119965">Gate Dielectric+Gate Electrode were laid first;</para>
+    <para id="id1172269120394">Source and Drain implanted;</para>
+    <para id="id1172274428116">Silicon is annealed to repair the damages that occurred during ion-implantation. High Temperature became a problem for the new technology of HK-MG. So “Gate Last” technology was adopted which circumvented the annealing problem. This led to a paradigm shift in late 2004.</para>
+    <para id="id1172269057580"> The new flow process was 45nm technology with High k + Metal Gate using Gate-Last strategy. Using this flow process in January 2006, 153Mb SRAM with 1 billion CMOS was built. Leakage gate current was reduced by a factor of 10. But there was sub-threshold leakage.</para>
+    <para id="id1172270341099"> Scaling had reduced Threshold Voltage but reduced V<sub>Th</sub> led to increased sub-threshold leakage which defeated the nanoWatt-logic objective. Each new generation of scaled down transistor would increase I<sub>ON</sub> by about 30% but would lead to I<sub>sub-threshold</sub> increase by 3-Fold. So at ULSI level, power efficiency and low leakage would be at premium rather than speed.</para>
+    <para id="id1172269030134">Table IV.The options at 45nm HK-MG CMOS Technology</para>
+    <table id="id1172269019593" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Option 1</entry>
+            <entry>Option 2</entry>
+          </row>
+          <row>
+            <entry>Oxide thickness</entry>
+            <entry>13Aº</entry>
+            <entry>26Aº</entry>
+          </row>
+          <row>
+            <entry>I<sub>ON</sub></entry>
+            <entry>25% increase</entry>
+            <entry>No increase</entry>
+          </row>
+          <row>
+            <entry>I<sub>sub-threshold</sub></entry>
+            <entry>No increase</entry>
+            <entry>1/5 I<sub>sub</sub></entry>
+          </row>
+          <row>
+            <entry>V<sub>Thres</sub></entry>
+            <entry>Same as before</entry>
+            <entry>Increased threshold</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1172268132798"/>
+    <para id="id1172268139828">The CMOS circuits are built between these two extremes.</para>
+    <para id="id1172268657834">PENRYN dual-core µP has 410mCMOS and PENRYN quad-core µP has 820 m CMOS. These are optimized for mobile applications, desk-top computers, 64-bit workstations and server applications.</para>
+    <para id="id1172268149180">
+      <emphasis effect="bold">Section III.8.</emphasis>
+      <emphasis effect="bold">Atomic layer Deposition</emphasis>
+    </para>
+    <para id="id1172268158125">Dielectric Layers were deposited by Reactive Sputtering or by Metal Organic CVD. This left unevenness on the surface which caused charge trapping. There were charges stored at the interface too. These charges altered the behavior of MOS capacitance from discharge cycle to discharge cycle. So a deposition method had to be adopted which allowed dielectric deposition in controlled manner atom layer by layer.</para>
+    <figure id="id1172268170345">
+      <media id="id1172268170345_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 24-aa5f.png" id="id1172268170345__onlineimage" height="265" width="627"/>
+      </media>
+    </figure>
+    <para id="id1172267874001">Figure XIV. Methodology of Atomic Layer Deposition.</para>
+    <para id="id1172268173543"> In Figure XIV the steps taken for Atomic Layer Deposition is illustrated. Gas1 reacts with bare Silicon surface to form a single atomic layer of insulator Si-Gas1. As soon as one layer is completed Gas1 stops reacting with Si because no bare Si is in contact with Gas1.</para>
+    <para id="id1172268177407"> In step 2, Gas2 is chosen which is reactive with dielectric1 or Si-Gas1 insulator. Gas2 reacts with dielectric layer1 to form dielectric layer2 (Dielectric1-Gas2 insulator). As soon as dielectric layer2 covers the whole of dielectric1, reaction stops. Thus each reaction is terminated at the end of layer deposition. In this way we achieve layered gate insulator which is controllable down to the width of a single atom.</para>
+    <para id="id1172269102205"> This produces much smoother dielectric hence the charge trapping is prevented . MOS produced is reproducible and stable in operation.</para>
+    <para id="id1172268182113"/>
+    <para id="id1172268182567"/>
+  </content>
+</document>

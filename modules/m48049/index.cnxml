@@ -1,0 +1,184 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>SSPD_Chapter 5_Section 5.3. Spectal Responsivity of Photo-Diodes.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48049</md:content-id>
+  <md:title>SSPD_Chapter 5_Section 5.3. Spectal Responsivity of Photo-Diodes.</md:title>
+  <md:abstract>SSPD_Chapter 5_Section 5.3.and Section 5.4. describe the parameter Spectral Responsivity and its optimal structure for maximum responsivity.</md:abstract>
+  <md:uuid>3952e9eb-46ce-4315-b2eb-358300feb3e5</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165791035551">
+      <emphasis effect="bold">SSPD_Chapter 5_Section 5.3. Spectal Responsivity of Photo-Diodes.</emphasis>
+    </para>
+    <para id="import-auto-id1165798675321">Spectral Responsivity is the main parameter which decides the application of Photo-diodes of given Spectral Responsivity curves. Here we analyze the theoretical formulation of this parameter and then we study the design of Photo-Diodes for various applications.</para>
+    <para id="import-auto-id1165795338682">
+      <figure id="import-auto-id1165791036726">
+        <media id="import-auto-id1165806294006" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-db76.png" height="407" width="623"/>
+        </media>
+      </figure>
+    </para>
+    <para id="import-auto-id1165798580138">Electron-Hole Pairs (EHPs) generated in the neutral bulk travel by diffusion whereas EHPs generated in depleted region travel by drift. As shown below diffusion velocity is two orders of magnitude smaller than the drift velocity:</para>
+    <figure id="import-auto-id1165797114154">
+      <media id="import-auto-id1165798398348" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-1ecd.png" height="41" width="608"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165785776464">
+      <media id="import-auto-id1165804132784" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-d2e2.png" height="45" width="582"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165813716754">Therefore:</para>
+    <figure id="import-auto-id1165802516213">
+      <media id="import-auto-id1165799860095" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-98c6.png" height="44" width="620"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165813504597">Hence bulk generated EHP slow down the photo-response. Therefore contribution of bulk-generated EHPs to photo-current is kept at the minimum. The depleted region of the reverse biased diode is kept at the maximum and is kept as the active contributor of the photo-current.</para>
+    <para id="import-auto-id1165791137012">For theoretical formulation of the Spectral Responsivity let us examine  Figure 5.3.1.</para>
+    <figure id="import-auto-id1165791026310">
+      <media id="import-auto-id1165791147212" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-31ea.png" height="39" width="590"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165802530165">The intervening Bulk Region always brings down the effective absorption of the incident light. To ensure that all the incident quanta get absorbed, we use anti-reflection coating on the front surface of the photo-diode and we minimize the neutral bulk region widths.</para>
+    <para id="import-auto-id1165798961030">Let internal quantum efficiency = η (no. of EHPs generated per photon).</para>
+    <para id="import-auto-id1165802434957">Ideally 100photons should generate 100EHPs and this implies η =1 but practically η &lt; 1.</para>
+    <figure id="import-auto-id1165795272296">
+      <media id="import-auto-id1165806683072" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-d33c.png" height="39" width="571"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1165800470216">
+      <media id="import-auto-id1165798560684" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-7ac1.png" height="39" width="558"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165805627245">Each EHP gives rise to ‘q’ coulombs of circuital charge hence effective photo-generated current is:</para>
+    <figure id="import-auto-id1165789419381">
+      <media id="import-auto-id1165819196921" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-2207.png" height="39" width="529"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165789396586">Now spectral Responsivity is defined as:</para>
+    <figure id="import-auto-id1165789414101">
+      <media id="import-auto-id1165789601454" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-1adb.png" height="42" width="566"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165798109798">In Equation 5.3.8. there is no threshold term as predicted by Equation 5.1. Hence Equation 5.3.8. gives the dotted curve in Figure 5.3.2. which is an  idealized Spectral Responsivity curve. The real Responsivity Curve is given by Bold Curves. Table 5.3.1. tabulates the coordinates of the idealized curves for different photo-diodes[(λ<sub>Threshold</sub>=1000nm, η=0.9), (λ<sub>Threshold</sub>=1500nm, η=0.5), (λ<sub>Threshold</sub>=1700nm, η=0.7),]</para>
+    <para id="import-auto-id1165798608926">Table 5.3.1. Responsivity data(A/W) for 3 Photo-Diodes of given λ<sub>Threshold</sub> &amp; η. </para>
+    <table id="import-auto-id1165800560883" summary="">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <thead>
+          <row>
+            <entry>λ(cm)</entry>
+            <entry>500×10<sup>-7</sup></entry>
+            <entry>600×10<sup>-7</sup></entry>
+            <entry>700×10<sup>-7</sup></entry>
+            <entry>900×10<sup>-7</sup></entry>
+            <entry>1000×10<sup>-7</sup></entry>
+            <entry>1500×10<sup>-7</sup></entry>
+            <entry>1900×10<sup>-7</sup></entry>
+            <entry>λ<sub>Threshold</sub></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>R(η=0.9)</entry>
+            <entry>0.36</entry>
+            <entry>0.435</entry>
+            <entry>0.508</entry>
+            <entry>0.653</entry>
+            <entry>0.725</entry>
+            <entry>1.09</entry>
+            <entry>1.38</entry>
+            <entry>1000nm</entry>
+          </row>
+          <row>
+            <entry>R(η=0.5)</entry>
+            <entry>0.202</entry>
+            <entry>0.242</entry>
+            <entry>0.2823</entry>
+            <entry>0.363</entry>
+            <entry>0.403</entry>
+            <entry>0.605</entry>
+            <entry>0.766</entry>
+            <entry>1500nm</entry>
+          </row>
+          <row>
+            <entry>R(η=0.7)</entry>
+            <entry>0.2823</entry>
+            <entry>0.339</entry>
+            <entry>0.395</entry>
+            <entry>0.508</entry>
+            <entry>0.5646</entry>
+            <entry>0.846</entry>
+            <entry>1.073</entry>
+            <entry>1700nm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="import-auto-id1165803737187">
+      <media id="import-auto-id1165802750678" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-bd9b.png" height="497" width="612"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165805368200"> Experimental curves for a given photo-diode (λ<sub>Threshold</sub>=1000nm, η=0.8) are given in Figure 5.3.3. over a spectral range of 400nm to 1100nm(blue curve) and over a range of 200nm to 1100nm(red curve). As can be seen in Figure 5.3.2. as well as in Figure 5.3.3. the Spectral Responsivity Curve sharply dips in the region of threshold wavelength(λ<sub>Thrshold</sub>) given by Equation 5.1. as expected. At longer wavelengths the photons are not energetic enough to cause photo-excitation.</para>
+    <para id="import-auto-id1165797263165">In Figure 5.3.2. at shorter wavelengths also there is departure from the idealized curve. At shorter wavelengths , absorption coefficient (α) sharply increases as seen in Figure 5.2. Hence penetration depth becomes shallow which leads to reduced absorbed power resulting in reduced response. But in Figure 5.3.3. in UV region the curve experiences a bump instead of a dip. This point s not clear to me at this point.</para>
+    <figure id="import-auto-id1165791032952">
+      <media id="import-auto-id1165798807120" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-e834.png" height="287" width="428"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165798101662">
+      <emphasis effect="bold">5.4. Design of a Photo-Diode in different parts of the Electro Magnetic Spectrum depending on the application.</emphasis>
+    </para>
+    <para id="import-auto-id1165819087013"> Different applications require maximal response in different parts of SPECTRUM. For instance Night vision requires maximum response in Near IR(800nm to 1000nm).</para>
+    <list id="import-auto-id1165791035847" list-type="enumerated" number-style="lower-roman">
+      <item>Metal-Semiconductor photo-diodes have best internal quantum efficiency and maximal response in UV and Visible part of the spectrum. The Metal-Semiconductor photo-diodes available are Au-Si, AgZn-Si.</item>
+      <item>Si photo-diodes (with anti-reflection coating) have best internal quantum efficiency and maximal response in Near IR part of the spectrum(800nm to 900nm). </item>
+      <item>Ge photo-diodes and GaInAs have best internal quantum efficiency and maximal response in IR part of the spectrum(1000nm to 1600nm).</item>
+      <item>Cryogenically cooled InSb and InS photo-diodes at 77K have best internal quantum efficiency and maximal response in 2 to 8 microns wavelength. </item>
+    </list>
+    <para id="import-auto-id1165791082269">
+      <emphasis effect="bold">5.4.1. PIN Diode.</emphasis>
+    </para>
+    <para id="import-auto-id1165800188551">For maximal response of the photo-diodes in faintest of light, various structural modifications are adopted. The first modification is the introduction of intrinsic region between P and N region. As seen in Figure 5.4.1. a PIN diode has a depletion region in the entire Intrinsic Region. This gives a direct control over the  depletion region and the active region can be tailored according  to our requirements.</para>
+    <figure id="import-auto-id1165798980999">
+      <media id="import-auto-id1165798091661" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-a148.png" height="660" width="471"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165791042814">As seen in Figure 5.4.1. the active layer comprises of  W<sub>active</sub> =  d<sub>p</sub>+W<sub>i</sub>+d<sub>n</sub> .This increase in active layer by the addition of intrinsic layer increases the responsivity mani-fold. Also the large drift field through out the intrinsic region is effective in quickly removing the photo-generated EHPs. This adds to the speed of the response of the photo-diode.</para>
+    <para id="import-auto-id1165796404450">
+      <emphasis effect="bold">5.4.2. Avalanche Photo-diode (APD) or Reach Through Avalanche Photo-diode.</emphasis>
+    </para>
+    <figure id="import-auto-id1165797742981">
+      <media id="import-auto-id1165806976831" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-c8dd.png" height="521" width="476"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1165799699667">As seen in Figure 5.4.2., a fourth layer of lightly doped N-layer considerable increases the Emax and it crosses the critical field and introduces Avalanche Multiplication Factor (M). This effectively multiplies the photo-current as it did in photo-multiplier tube in Vacuum Tube Era but it introduces considerable amount of noise due to the statistical nature of Avalanche Multiplication. This Noise can be suppressed by making the ionization rate due to Electron and Hole vastly unequal. </para>
+    <para id="import-auto-id1165798917596">In a Si-APD it is possible to make electron ionization rate = 100 times hole ionization rate. This considerable suppresses the Multiplication Noise.</para>
+    <para id="import-auto-id1165802527854">In Ge, GaAs and in InGaAS we have electron ionization rate = 10 times hole ionization rate hence here there is considerable noise and hence it cannot operate in very faint light environment.</para>
+    <para id="import-auto-id1165787215673">The Photo-current multiplication graph is shown in Figure 5.4.3.</para>
+    <figure id="import-auto-id8484450">
+      <media id="import-auto-id1165799984272" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-be3a.png" height="537" width="521"/>
+      </media>
+    </figure>
+  </content>
+</document>
